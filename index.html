@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meme-generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>Text that will go in the chosen image: <input type="text" id="text-input"></div>
+
+    <div id="meme-image-container">
+        <div id="meme-text"></div>
+        <input type="file" accept="image/*" onchange="loadFile(event)">
+        <img id="output"/>
+    </div>
+
+
+    <!--
+    
+    -->
+    <script src="script.js"></script>
+</body>
+
+</html>
