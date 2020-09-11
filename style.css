@@ -1,58 +1,52 @@
 .titulo {
-    background-color: blueviolet;
-    border-radius: 50px;
-    color: white;
-    text-align: center;
-    text-shadow: 5px 5px 5px black;
-    width: 250px;
+  background-color: blueviolet;
+  border-radius: 50px;
+  color: white;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  width: 250px;
 }
-
 body {
-    background-image: url("imgs/Fundo\ meme.png");
-    margin-left: 400px;
+  background-image: url("imgs/Fundo\ meme.png");
+  margin-left: 400px;
 }
 
 #meme-text {
-    bottom: 30px;
-    color: white;
-    float: left;
-    font-size: 30px;
-    position: absolute;
-    text-shadow: 5px 5px 5px black;
+  bottom: 30px;
+  color: white;
+  float: left;
+  font-size: 30px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
 }
-
 #meme-image-container {
-    background-color: white;
-    border: solid black 1px;
-    height: 450px;
-    position: relative;
-    width: 450px;
+  background-color: white;
+  border: solid black 1px;
+  height: 450px;
+  position: relative;
+  width: 450px;
 }
-
 #fire {
-    background-color: red;
-    border-radius: 30px;
-    border: 3px red dashed;
-    height: 40px;
-    width: 80px;
+  background-color: red;
+  border-radius: 30px;
+  border: 3px red dashed;
+  height: 40px;
+  width: 80px;
 }
-
 #water {
-    background-color: blue;
-    border-radius: 30px;
-    border: 3px blue double;
-    height: 40px;
-    width: 80px;
+  background-color: blue;
+  border-radius: 30px;
+  border: 3px blue double;
+  height: 40px;
+  width: 80px;
 }
-
 #earth {
-    background-color: green;
-    border-radius: 30px;
-    border: 3px green groove;
-    height: 40px;
-    width: 80px;
+  background-color: green;
+  border-radius: 30px;
+  border: 3px green groove;
+  height: 40px;
+  width: 80px;
 }
-
 #images {
-    padding-left:10px;
+  padding-left: 10px;
 }
