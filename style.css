@@ -1,0 +1,22 @@
+#meme-text {
+  background-color: transparent;
+  font-size: 30px;
+  font-family: "Impact";
+  color: white;
+  text-shadow: black 5px 5px 5px;
+  width: 600px;
+  position: absolute;
+  left: 15px;
+  top: 550px;
+}
+
+#meme-image-container {
+  border: black solid;
+  width: 600px;
+  height: 500px;
+}
+
+#meme-insert {
+  height: 500px;
+  width: 600px;
+}
