@@ -1,8 +1,12 @@
 window.onload = function () {
   let textInput = document.querySelector('#text-input');
   let memeText = document.querySelector('#meme-text');
-  let memeImage = document.querySelector('#meme-image')
-  let memeInsert = document.querySelector('#meme-insert')
+  let memeImage = document.querySelector('#meme-image');
+  let memeInsert = document.querySelector('#meme-insert');
+  let memeContainer = document.querySelector('#meme-image-container');
+  let fire = document.querySelector('#fire');
+  let water = document.querySelector('#water');
+  let earth = document.querySelector('#earth');
 
   textInput.addEventListener('input', function () {
     memeText.innerText = textInput.value;
@@ -13,8 +17,20 @@ window.onload = function () {
     // https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded/27165977#27165977
     memeImage.src = URL.createObjectURL(memeInsert.files[0]);
     memeImage.onload = function () {
-      URL.revokeObjectURL(memeImage.src)
-    }
+      URL.revokeObjectURL(memeImage.src);
+    };
+  });
+
+  fire.addEventListener('click', function () {
+    memeContainer.style.border = '3px dashed red';
+  });
+
+  water.addEventListener('click', function () {
+    memeContainer.style.border = '5px double blue';
+  });
+
+  earth.addEventListener('click', function () {
+    memeContainer.style.border = '6px groove green';
   });
 
 };
