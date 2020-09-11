@@ -1,5 +1,7 @@
 .container {
   margin: 10px 0;
+  background-color: white;
+  border: 1px solid black;
 }
 
 .disappear {
@@ -7,8 +9,6 @@
 }
 
 .image-border {
-  background-color: white;
-  border: 1px solid black;
   width: inherit;
 }
 
