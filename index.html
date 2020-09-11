@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Meme generator - Pablo Pessanha</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <p>Text: <input type="text" id="text-input"></p>
+   <div id="meme-insert">
+      <label for="img">Select image: </label>
+      <input type="file" id="fileImg" name="img" onchange="loadFile(event)">
+   </div>
+      <div id="meme-image-container">
+         <div id="meme-image">
+            <img id="output-meme" width="600px" height="500px">
+         </div>
+         <p id="meme-text"></p>
+      </div>
+   <script src="./script.js"></script>
+</body>
+</html>
