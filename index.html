@@ -4,12 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <input type="text" name="textin" id="text-input" />
+    <label>Texto:</label>
+    <input type="text" id="text-input" />
+    <input type="file" id="meme-insert" name="img" accept="image/*" />
     <div id="meme-image-container">
-      <img src="rsz_imagem.png" alt="meme" />
-      <p id="meme-text"></p>
+      <img id="meme-image" src="rsz_imagem.png" alt="memeImg" />
+      <p id="meme-text">texto</p>
     </div>
   </body>
 </html>
