@@ -9,7 +9,7 @@
   width: 500px;
   height: 500px;
   background-color: white;
-  border: 1px solid rgb(0, 0, 0);
+  border: 6px groove rgb (0, 128, 0);
   overflow: hidden;
   margin: 20px ;
 
@@ -30,9 +30,6 @@
     font-size: 30px;
     font-family: Impact;
     font-weight: bold;
-    position: absolute;
-    left: 50px;
-    bottom: 150px;
     margin: 20px ;
 }
 
