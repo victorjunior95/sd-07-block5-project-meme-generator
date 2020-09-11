@@ -22,8 +22,6 @@
 }
 #meme-image {
     display: none;
-    width: inherit;
-    height: inherit;
     position: absolute;
 }
 #meme-text {
