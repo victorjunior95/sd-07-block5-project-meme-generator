@@ -6,15 +6,12 @@ function imagemMeme() {
 function textoMeme() {
   const naCaixa = document.getElementById('text-input');
   const memeTexto = document.getElementById('meme-text');
-  function colocandoTexto() {
-      memeTexto.innerText = naCaixa.value;
-  }
-
+  memeTexto.innerText = naCaixa.value;
   naCaixa.addEventListener('keyup', function () {
-      memeTexto.innerText = naCaixa.value;
-});
+    memeTexto.innerText = naCaixa.value;
+  });
 }
 
 window.onload = function () {
-    textoMeme();
-  }
+  textoMeme();
+}
