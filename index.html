@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>MEME GENERATOR</h1>
+    <div id = 'container'>  
+        <label class="label">Texto:
+        <input type="text" id='text-input' maxlength='60' >
+      </label><br>
+
+      <label class="label">Imagem:
+        <input type="file" id='meme-insert' accept='image/*' onchange='openFile(event)'>
+        <img id='output' src="">
+      </label>
+    
+    <div id = 'meme-image-container' >
+        <img id='meme-image'>
+        <div id='meme-text'> text Meme</div>
+
+    </div>
+    <div id='div-buttons'>
+        <label class="label" id ='styles'>
+            Estilos Customizados:
+        </label>
+  <button class="buttons" id='fire'>Fire</button>
+  <button class="buttons" id='water'>Water</button>
+  <button class="buttons" id='earth'>Earth</button>
+
+    </div>
+    <div id='preview-memes'>
+        <label class="label" id ='mini-memes'>
+            Memes pré prontos:
+        </label>
+  <img id='meme-1' src="https://1.bp.blogspot.com/-04osrm9MrTE/X1ptWvJCMqI/AAAAAAAACNY/Pyq2iGrGKiEq5tUJtShRqdtzQ75CugM6gCLcBGAsYHQ/s320/meme-1.jpg" alt="meme1 Rubens Barrichello">      
+
+  <img id='meme-2' src="https://1.bp.blogspot.com/-KRnvAayPm9c/X1pv0JvwpAI/AAAAAAAACN0/HKTqNmYv2d4_HurAH43gkC9fdOO712AFACLcBGAsYHQ/s320/meme2.jpg" alt="meme2 Side Eyeing Chloe">      
+ 
+  <img id='meme-3' src="https://1.bp.blogspot.com/-b7pwhrEYIV4/X1pwHFPk0OI/AAAAAAAACN8/yAUM4Ah96DEpShWCeshLVxMK0Le5ygA-ACLcBGAsYHQ/s320/meme-3.jpg" alt="meme3 -No God, Please No!">      
+ 
+  <img id='meme-4' src="https://1.bp.blogspot.com/-4j8UF14dfoI/X1pwa1fcQOI/AAAAAAAACOE/DIUE_Vwo5ZQ3ENnU_9QTBvGn21tBldrRQCLcBGAsYHQ/s0/meme-4.jpg" alt="meme4 Roll Safe">      
+     </div>
+</div>
+ <script src="./script.js"></script>   
+</body>
+</html>
