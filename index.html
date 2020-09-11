@@ -9,18 +9,16 @@
 </head>
 
 <body>
-    <div>Text that will go in the chosen image: <input type="text" id="text-input"></div>
-
+    <header>
+        <h2> Meme Generator</h2>
+    </header>
+    <div>Text: <input type="text" id="text-input"></div>
+    <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
     <div id="meme-image-container">
         <div id="meme-text"></div>
-        <input type="file" accept="image/*" onchange="loadFile(event)">
-        <img id="output"/>
+        <img id="meme-image" />
     </div>
 
-
-    <!--
-    
-    -->
     <script src="script.js"></script>
 </body>
 

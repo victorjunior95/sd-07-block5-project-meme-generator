@@ -1,0 +1,14 @@
+header {
+    width: 20%;
+    background-color: rgba(172, 255, 47, 0.349);
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+#text-input {
+    margin-bottom: 10px;
+}
+
+#meme-image-container {
+    border: 1px solid rgb(0, 0, 0);
+}
