@@ -14,13 +14,14 @@
 #meme-text{
     color: white;
     text-shadow: 5px 5px 5px black;
-    font-size: 30px; 
+    font-size: 30px;
+    width: 500px;
+    left: 70px;
+    height: 100px;
     font-family: Impact;
     font-weight: bold;
-    left: 20px;
     bottom: 30px;
-    margin: 20px;
-    position: relative; 
+    position: absolute;
 }
 
 #meme-image-container{
@@ -30,13 +31,13 @@
   width: 500px;
   height: 500px;
   background-color: white;
-  border: 1px solid rgb(0, 0, 0);
+  
 }
 
 #lugarImagem{
     overflow: hidden;
-    width: 499px;
-    height: 499px;
+    width: 500px;
+    height: 500px;
     color: white;
     border: 1px solid rgb(0, 0, 0);
 
