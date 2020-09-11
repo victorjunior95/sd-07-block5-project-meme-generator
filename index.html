@@ -5,32 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meme Generator</title>
 
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="/style.css">
 
-    <link rel="stylesheet" href="Colocar fonte aqui">
-
-    <script src="/script.js"></script>
+    <link rel="stylesheet" href="Colocar fonte aqui">    
 
 </head>
 <body>
     <h1>MEME GENERATOR</h1>
 
-    <fieldset id="meme-image-container">
+    <fieldset >
     <legend>Adicione um Texto e Imagem</legend>
 
-        <div id="meme-text">
+        <div >
             <label for="text">Texto</label>
             <input id="text-input" type="text" required>        
         </div>
 
-        <div id="meme-insert">
+        <div >
             <label for="file">Imagem</label>
             <input type="file">
         </div>
 
-        <div class="container-image" id="meme-image"></div>
+        <div class="container-image" id="meme-image-container">
+            <div class="meme-txt" id="meme-text"></div>
+        </div>
 
     </fieldset>
     
+    <script type="text/javascript" src="/script.js"></script>
 </body>
 </html>
