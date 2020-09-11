@@ -33,3 +33,11 @@ meme-image {
    width: 600px;
    height: 500px;
 }
+
+#pre-memes img {
+   display: inline-block;
+   border: black 1px solid;
+   width: 50px;
+   height: 50px;
+   cursor: pointer;
+}
