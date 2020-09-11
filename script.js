@@ -6,7 +6,9 @@ let container =  document.getElementById("meme-image-container");
 let buttonFire = document.getElementById("fire");
 let buttonWater = document.getElementById("water");
 let buttonEarth = document.getElementById("earth");
-let replacementMeme = document.querySelectorAll(".miniature-memes");
+let replacementMemeOne = document.getElementById("meme-1");
+let replacementMemeTwo = document.getElementById("meme-2");
+let replacementMemeThree = document.getElementById("meme-3");
 
 
 inputText.addEventListener("keyup", function() {
@@ -32,13 +34,17 @@ buttonEarth.addEventListener("click", function(){
     container.style.border = "6px groove green";
 });
 
-replacementMeme.addEventListener("click", function(event){
-    image.src = URL.createObjectURL(event.target.files[0]);
-    image.onload = function() {
-        URL.revokeObjectURL(image.src);
-})
+replacementMemeOne.addEventListener("click", function() {
+    image.src = replacementMemeOne.src;
+});
 
+replacementMemeTwo.addEventListener("click", function() {
+    image.src = replacementMemeTwo.src;
+});
 
+replacementMemeThree.addEventListener("click", function() {
+    image.src = replacementMemeThree.src;
+});
 
 
 
