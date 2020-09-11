@@ -1,0 +1,21 @@
+.imagehidden {
+    visibility: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+  }
+
+.imagevisible {
+    visibility: visible;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    position: relative;
+}
+
+#meme-text {
+    position: absolute;
+    text-shadow: 5px 5px;
+    font-size: 30px;
+    color: white;
+}
