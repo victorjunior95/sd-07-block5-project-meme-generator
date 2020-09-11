@@ -1,17 +1,18 @@
 .meme-image-container {
   background-color: white;
   border: 1px solid black;
+  margin-left: 500px;
   height: 350px;
   width: 350px;
 }
 
-.meme-image-container .meme-text {
+.meme-text {
   color: white;
   display: inline-block;
   font-size: 30px;
   font-weight: 900;
   height: 50px;
-  left: 10px;
+  left: 500px;
   position: fixed;
   text-align: center;
   text-shadow: black 5px 5px 5px;
@@ -47,4 +48,27 @@ button {
 
 .earth {
   background-color: green;
+}
+
+.box {
+  border: 1px solid black;
+  display: inline-block;
+  height: 82.5px;
+  width: 82.5px;
+}
+
+.meme-1 {
+  background-image: url(./imgs/meme-1.png);
+}
+
+.meme-2 {
+  background-image: url(./imgs/meme-2.png);
+}
+
+.meme-3 {
+  background-image: url(./imgs/meme-3.png);
+}
+
+.meme-4 {
+  background-image: url(./imgs/meme-4.png);
 }
