@@ -28,10 +28,8 @@ input {
 }
 
 .meme-image {
-  height: 249px;
-  position: absolute;
-  width: 249px;
-  z-index: 2;
+  height: 100%;
+  width: 100%;
 }
 
 .meme-image-container {
@@ -48,12 +46,8 @@ input {
   color: white;
   font-family: Impact, sans-serif;
   font-size: 30px;
-  left: 0;
   position: absolute;
-  text-align: left;
   text-shadow: black 5px 5px 5px;
-  width: 249px;
-  z-index: 3;
 }
 
 .water {
