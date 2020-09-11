@@ -10,16 +10,6 @@ a {
   color: rgb(241, 145, 67);
   font-weight: bold;
 }
-#meme-text {
-  position: relative;
-  font-weight: bold;
-  text-align: left;
-  text-shadow: 5px 5px 5px black;
-  color: white;
-  font-family: Impact;
-  font-size: 30px;
-}
-
 #meme-image-container {
   background-color: white;
   position: relative;
@@ -39,9 +29,9 @@ a {
   bottom: 25px;
   position: absolute;
   font-weight: bold;
-  text-align: left;
-  text-shadow: 2px 3px 5px black;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
   color: white;
   font-family: Impact;
-  font-size: 50px;
+  font-size: 30px;
 }
