@@ -7,10 +7,11 @@
 </head>
 <body>
     <h1>&gt; Meme Generator &lt;</h1>
-    <h2>Texto: <input type="text" name="text" id="text-input"></h2>
+    <h2>Texto: <input type="text" name="text" id="text-input" maxlength="60"></h2>
     <h2>Foto: <input type="file" name="meme-file" id="meme-insert"></h2>
+    <hr>
     <div id="meme-image-container">
-        <h3 id="meme-text"></h3>
+        <div id="meme-text"></div>
         <img id="meme-image" alt="meme-image">
     </div>
     <script src="script.js"></script>

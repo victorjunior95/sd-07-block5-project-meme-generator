@@ -15,16 +15,27 @@ h2 {
 
 #meme-image-container {
     position: relative;
-    width: 500px;
-    margin-right: 0;
+    width: 400px;
+    height: 500px;
     padding: 0;
+    left: 350px;
 }
 img {
     position: absolute;
-    width: 100px;
-    margin: 0;
+    width: 400px;
+    height: 500px;
+    size: fill;
+    z-index: -1;
 }
 
-h3 {
+#meme-text {
     position: absolute;
+    vertical-align: auto;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    top: 330px;
+    width: 400px;
+    overflow: inherit;
+    text-shadow: 5px 5px 5px black;
 }
