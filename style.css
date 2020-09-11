@@ -21,6 +21,7 @@ h1 {
 }
 
 .memeImageContainer {
+  background-color: white;
   border-color: black;
   border-style: solid;
   border-width: 1px;
