@@ -1,84 +1,83 @@
 /*Import font*/
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Ubuntu&display=swap');
-body{
+body {
+  font-size: 14pt;
+  font-family: Arial, Helvetica, sans-serif;  
   margin: 0;
   padding: 0;
-  font-size: 14pt;
-  font-family: Arial, Helvetica, sans-serif;
 }
-.container{
-  width: 1366px;
+.container {
   height: 768px;
   margin: auto;
   text-align: center;
+  width: 1366px;
 }
-.title{
+.title {
   font-family: 'Ubuntu', sans-serif;
 }
-.formGeneraitor{
+.formGeneraitor {
   font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
-  width: 460px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
+  text-align: left;
+  width: 460px;
 }
-.formGeneraitor input{
-    margin-bottom: 10px;
+.formGeneraitor input {
+  margin-bottom: 10px;
 }
 .meme{
   font-family: 'Anton', sans-serif;
 }
-.container-meme{
-    width: 460px;
-    height: 460px;
-    border:2px solid rgb(0,0,0);
-    margin:auto;
+.container-meme {
+  border:2px solid rgb(0,0,0); 
+  height: 460px;
+  margin:auto; 
+  width: 460px;  
 }
-.buttons{
-    text-align: left;
-    width: 460px;
-    margin-left:auto;
-    margin-right: auto;
-    margin-top: 20px;
+.buttons {
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: left;
+  width: 460px;
 }
-.buttons button{
-    margin-top: 20px;
-    padding: 10px;
-    color: rgb(255,255,255);
-    font-weight: bold;
-    font-size: 25px;
-    border:none;
+.buttons button {
+  border:none;
+  color: rgb(255,255,255);
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 20px;
+  padding: 10px; 
 }
-.fire{
-    background-color: rgb(248, 3, 3);
-    cursor: pointer;
-    
+.fire {
+  background-color: rgb(248, 3, 3);
+  cursor: pointer;
 }
-.water{
-    background-color: rgb(55, 132, 248);
-    cursor: pointer;
+.water {
+  background-color: rgb(55, 132, 248);
+  cursor: pointer;
 }
-.earth{
-    background-color: rgb(14, 151, 55);
-    cursor: pointer;
+.earth {
+  background-color: rgb(14, 151, 55);
+  cursor: pointer;
 }
-.preMeme{
-    text-align: left;
-    width: 460px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
+.preMeme {
+  text-align: left;
+  width: 460px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 }
-.img{
-    width: 80px;
-    height: 80px;
-    border: 2px solid #000;
-    display: inline-block;
-    margin-top: 10px;
+.img {
+  border: 2px solid #000;
+  display: inline-block;
+  margin-top: 10px;
+  height: 80px;
+  width: 80px;
 }
 /*Style text on image*/
-.meme-text{
+.meme-text {
   font-size: 30px;
   color:rgb(255,255,255);
   text-shadow: 5px, 5px, 5px, rgba(0,0,0,0.5);
