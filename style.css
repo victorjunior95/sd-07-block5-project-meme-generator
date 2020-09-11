@@ -15,12 +15,24 @@ header {
 
 #meme-image-container {
     border: 1px solid rgb(0, 0, 0);
-    width: fit-content;
+    width: 350px;
+    height: 250px;
     background-color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 0px;
 }
 
 #meme-text {
     text-shadow: rgb(0, 0, 0) 5px 5px 5px;
     font-size: 30px;
     color: rgb(255,255,255);
+    width: 350px;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+}
+
+#meme-image {
+    width: 350px;
+    height: 250px;
 }

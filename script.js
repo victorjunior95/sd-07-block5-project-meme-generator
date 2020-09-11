@@ -6,4 +6,8 @@ let loadFile = function (event) { // Function taken from: https://stackoverflow.
     }
 }
 
-let container = document.getElementById('meme-image-container');
+let textFill = document.getElementById('text-input');
+let text = document.getElementById('meme-text');
+textFill.addEventListener('change',function() {
+    text.innerText = textFill.value;
+});

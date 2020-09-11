@@ -12,8 +12,8 @@
     <header>
         <h2>Meme Generator</h2>
     </header>
-    <div>Text: <input type="text" id="text-input"></div>
-    <input id="meme-insert" maxlength="60" type="file" accept="image/*" onchange="loadFile(event)">
+    <div>Text to generate a meme: <input type="text" maxlength="60" id="text-input"></div>
+    <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
     <div id="meme-image-container">
         <div id="meme-text"></div>
         <img id="meme-image" />
