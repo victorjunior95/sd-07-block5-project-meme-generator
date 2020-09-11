@@ -8,3 +8,7 @@
 
 #meme-text{
 }
+
+#meme-image{
+    object-fit: contain;
+}
