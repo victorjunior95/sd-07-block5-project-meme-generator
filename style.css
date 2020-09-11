@@ -1,0 +1,16 @@
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 15px;
+    padding: 20px;
+}
+
+#header {
+    font-family: "Helvetica Neue";
+    font-size: 15px;
+    background-color: silver;
+    margin: 15px;
+    text-align: center;
+}
