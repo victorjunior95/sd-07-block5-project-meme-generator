@@ -1,24 +1,24 @@
-#meme-image-container {
-  border: 1px solid black;
-  width: 300px;
-  height: 300px;
+.meme-image-container-class {
   background-color: white;
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;  
 }
 
-#meme-image {
+.meme-image-class {
+  height: 300px;
   position: relative;
   width: 300px;
-  height: 300px;
 }
 
-#meme-text {
-  text-shadow: 5px 5px 5px black;
-  font-size: 30px;
+.meme-text-class {
   color: white;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px black;
 }
 
 .meme-text-container {
-  z-index: 1;
   position: absolute;
   width: 250px;
+  z-index: 1;
 }
