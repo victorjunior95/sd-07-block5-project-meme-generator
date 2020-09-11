@@ -17,15 +17,16 @@ let loadFile = function(event) {
 
   const buttonGreen = document.getElementById("earth");
   buttonGreen.addEventListener("click", function() {
-    memeContainer.style.border = "4px dashed green";
+    // console.log()
+    memeContainer.className = "earth-border";
   })
 
   const buttonRed = document.getElementById("fire");
   buttonRed.addEventListener("click", function() {
-    memeContainer.style.border = "4px dashed red";
+    memeContainer.className = "fire-border";
   })
 
   const buttonBlue = document.getElementById("water");
   buttonBlue.addEventListener("click", function() {
-    memeContainer.style.border = "4px dashed blue";
+    memeContainer.className = "water-border";
   })

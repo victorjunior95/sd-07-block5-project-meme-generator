@@ -5,7 +5,7 @@ fieldset {
 #meme-image-container {
     display: inline-block;
     background-color: white;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 500px;
     height: 500px;
 }
@@ -59,4 +59,20 @@ fieldset {
 .blue {
     background-color: blue;
     color: honeydew
+}
+
+.earth-border {
+    border: 6px groove rgb(0, 128, 0);
+}
+
+.fire-border {
+    border: 3px dashed rgb(255, 0, 0);
+}
+
+.water-border {
+    border: 5px double rgb(0, 0, 255);
+}
+
+.default-border {
+    border: 1px solid rgb(0, 0, 0);
 }

@@ -13,16 +13,16 @@
             <p><label>Texto: </label><input type = "text" id = "text-input" maxlength="60"/></p>
             <!-- Linha abaixo inspirada em https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded/27165977#27165977 -->
             <p><label>Foto: </label><input id="meme-insert" type="file" accept="image/*" id="file-input" onchange="loadFile(event)" name="filename">
-            <section id="meme-image-container">
+            <section id="meme-image-container" class="defaultBorder">
                 <img id="meme-image" src="img/sniper-cat.jpg">
                 <div id="meme-text"></div>
             </section>
             <section id="bonus-features">
                 <h2>Estilos customizados para a borda</h2>
                 <section id="custom-buttons">
-                    <button class="button green" id="earth">Terra 🍀</button>
-                    <button class="button red" id="fire">Fogo 🔥</button>
-                    <button class="button blue" id="water">Água 🌊</button>
+                    <button type="button" class="button green" id="earth">Terra 🍀</button>
+                    <button type="button" class="button red" id="fire">Fogo 🔥</button>
+                    <button type="button" class="button blue" id="water">Água 🌊</button>
                 </section>
             </section>
         </fieldset>
