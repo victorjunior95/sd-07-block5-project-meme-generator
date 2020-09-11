@@ -22,7 +22,7 @@ input, textarea {
 }
 .imgmeme {
 	height : 300px;
-	margin : 0px;
+	margin : 0;
 	position : relative;
 	width : 300px;
 	z-index : 0;
@@ -31,9 +31,7 @@ p {
 	margin : 0px;
 	text-align : center;
 }
-.input {
-	padding : auto;
-}
+
 .meme-container {
 	background-color : rgb(255, 255, 255);
 	border : 1px solid black;
@@ -57,7 +55,7 @@ p {
 }
 .presets-image {
 	margin : auto;
-	padding : 0px auto;
+	padding : 0;
 	position : relative;
 	width : 398px;
 }
@@ -66,7 +64,7 @@ p {
 	color : rgb(255, 255, 255);
 	font-weight : 800;
 	height : 40px;
-	margin : 0px 20px;
+	margin : 0 20px;
 	width : 90px;
 }
 .button#fire {
