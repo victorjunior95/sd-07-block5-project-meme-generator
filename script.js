@@ -27,21 +27,21 @@ document.querySelector('#earth').addEventListener('click', function () {
 });
 
 document.querySelector('#meme-1').addEventListener('click', function () {
-  const img = document.querySelector('#image');
+  const img = document.querySelector('#meme-image').firstElementChild;
   img.src = document.querySelector('#meme-1').firstElementChild.src;
 });
 
 document.querySelector('#meme-2').addEventListener('click', function () {
-  const img = document.querySelector('#image');
+  const img = document.querySelector('#meme-image').firstElementChild;
   img.src = document.querySelector('#meme-2').firstElementChild.src;
 });
 
 document.querySelector('#meme-3').addEventListener('click', function () {
-  const img = document.querySelector('#image');
+  const img = document.querySelector('#meme-image').firstElementChild;
   img.src = document.querySelector('#meme-3').firstElementChild.src;
 });
 
 document.querySelector('#meme-4').addEventListener('click', function () {
-  const img = document.querySelector('#image');
+  const img = document.querySelector('#meme-image').firstElementChild;
   img.src = document.querySelector('#meme-4').firstElementChild.src;
 });
