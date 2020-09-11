@@ -4,13 +4,14 @@
 
 #meme-image-container{
     display: inline-block;
+    position: relative;
     border: 1px solid black;
     background-color: white;
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
 }
 
-.meme-container img{
+#meme-image{
     height: inherit;
     width: inherit;
 }
