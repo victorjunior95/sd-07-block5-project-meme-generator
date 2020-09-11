@@ -23,13 +23,10 @@ for (let i = 0; i < buttons.length; i += 1){
    buttons[i].addEventListener('click', () => {
       if (i === 0) {
          imgBorder.style.border = 'red dashed 3px';
-         imgBorder.style.backgroundColor = 'rgb(255, 0, 0)';
       } else if ( i === 1) {
          imgBorder.style.border = 'blue double 5px';
-         imgBorder.style.backgroundColor = 'rgb(0, 0, 255)';
       }else if ( i === 2) {
          imgBorder.style.border = 'green groove 6px';
-         imgBorder.style.backgroundColor = 'rgb(0, 128, 0)';
       }
    });
 }
