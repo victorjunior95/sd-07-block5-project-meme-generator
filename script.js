@@ -22,11 +22,11 @@ for (let i = 0; i < buttons.length; i += 1){
 
    buttons[i].addEventListener('click', () => {
       if (i === 0) {
-         border.style.border = 'red dashed 3px';
+         border.style.border = 'rgb(255, 0, 0) dashed 3px';
       } else if ( i === 1) {
-         border.style.border = 'blue double 5px';
+         border.style.border = 'rgb(0, 0, 255)  double 5px';
       }else if ( i === 2) {
-         border.style.border = 'green groove 6px';
+         border.style.border = 'rgb(0, 128, 0) groove 6px';
       }
    });
 }
@@ -36,13 +36,13 @@ for (let i = 0; i < imageClick.length; i += 1){
 
    imageClick[i].addEventListener('click', () => {
       if (i === 0) {
-         output.src = './imgs/chloe.jpg';
+         output.src = './imgs/meme1.png';
       } else if ( i === 1) {
-         output.src = './imgs/michel-temer.jpg';
+         output.src = './imgs/meme2.png';
       } else if ( i === 2) {
-         output.src = './imgs/voldemort.jpg';
+         output.src = './imgs/meme3.png';
       } else if ( i === 3) {
-         output.src = './imgs/fry.jpg';
+         output.src = './imgs/meme4.png';
       }
    });
 }
