@@ -10,5 +10,5 @@
 }
 
 #meme-image{
-    object-fit: contain;
+    position: relative;
 }
