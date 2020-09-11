@@ -12,18 +12,26 @@
     width: 400px;
     height: 400px;
     object-fit: cover;
-    /*  align: inline-block; */
+    
 }
 .meme-text{
     text-shadow: 5px 5px 5px black;
     font-size: 30 px;
     color: white;
     align: inline-block; 
-    position: absolute;
-    width: 400px;
+    position: relative;
+    width: 380px;
+   
   
-    top: 70%;
-    left: 50%;
+    top: -150px;
+    left: 10px;
 }
-
-
+#fire{
+    background-color: red;
+}
+#water{
+    background-color: blue;
+}
+#earth{
+    background-color: green;
+}
