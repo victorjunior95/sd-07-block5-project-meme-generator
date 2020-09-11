@@ -7,24 +7,25 @@
     height: 400px;
     background-color:white; 
     border: 1px solid; 
+    position: relative;
 } 
 .image{
     width: 400px;
     height: 400px;
     object-fit: cover;
     
+    
 }
-.meme-text{
+#meme-text{
     text-shadow: 5px 5px 5px black;
     font-size: 30 px;
     color: white;
-    align: inline-block; 
-    position: relative;
+    position: absolute;
     width: 380px;
     border: 3px hidden;
     text-align: center;
-    top: -150px;
-    left: 10px;
+    margin-top: -150px;
+    
 }
 #fire{
     background-color: red;
