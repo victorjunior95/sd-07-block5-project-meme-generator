@@ -19,8 +19,11 @@ body {
   border-radius: 4px;
   display: flex;
   flex-direction: column;
-  grid-gap: 15px 30px;
   padding: 15px 30px;
+}
+
+.wrapper div {
+  margin: 8px 15px;
 }
 
 .input-block + .input-block {
@@ -32,9 +35,8 @@ body {
   border: 1px solid black;
   border-radius: 4px;
   height: 90%;
-  margin: 0 auto;
-  max-width: 500px;
   max-height: 400px;
+  max-width: 500px;
   overflow: hidden;
   position: relative;
   width: 90%;
@@ -43,7 +45,7 @@ body {
 .meme-container img {
   border-radius: 4px;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
 }
 
