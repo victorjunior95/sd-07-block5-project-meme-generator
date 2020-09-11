@@ -19,5 +19,5 @@ function getImage(event) {
   reader.readAsDataURL(e.target.files[0]);
 }
 
-let memeInsert = document.getElementById('image');
+let memeInsert = document.getElementById('image-insert');
 memeInsert.addEventListener('change', getImage);
