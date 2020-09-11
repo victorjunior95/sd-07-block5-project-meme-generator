@@ -1,10 +1,12 @@
 let inputMemeText = document.getElementById('text-input');
-let memeTextArea = document.getElementById('meme-text');
 let inputMemeImage = document.getElementById('meme-insert');
 let containerMeme = document.getElementById('meme-image-container');
 
 function createText(){
+  let memeTextArea = document.createElement('div');
+  memeTextArea.id = 'meme-text';
 
+  containerMeme.append(memeTextArea);
 }
 
 function createImg(){
@@ -15,12 +17,23 @@ function createImg(){
   containerMeme.append(imgMeme);
 }
 
+function findText(){
+  let textMeme = document.getElementById('meme-text');
+
+  if( textMeme != null) {
+    return true;
+  }else{
+    return false;
+  }
+}
+
 function findImg(){
   let imageMeme = document.getElementById('meme-image');
 
   if( imageMeme != null) {
     return true;
   }else{
+    console.log('nao achou foto');
     return false;
   }
 }
@@ -42,11 +55,23 @@ function loadImg(e){
 function fillText(e){
 
   if(e.keyCode === 13){
+    let memeText = document.getElementById('meme-text');
+
     if( !findImg() ){
-      console.log(inputMemeText.value);
-      memeTextArea.innerText = inputMemeText.value;
+
+      if( !findText() ){
+        let newMemeText = document.getElementById('meme-text');
+
+        createText();
+
+        newMemeText.innerText = inputMemeText.value;
+
+      }else{
+
+        memeText.innerText = inputMemeText.value;
+      }
     }else{
-      memeTextArea.innerText = inputMemeText.value;
+      console.log('achou foto');
     }
   }
 
