@@ -5,5 +5,5 @@ window.onload = function () {
     const textInput = document.querySelector('#text-input').value;
     const textMeme = document.querySelector('#meme-text');
     textMeme.innerText = textInput;
-});
+  });
 };
