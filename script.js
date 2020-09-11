@@ -1,4 +1,4 @@
-let imagemMeme = function imagemMeme() {
+function imagemMeme(event) {
   const imglocal = document.getElementById('meme-image');
   imglocal.src = URL.createObjectURL(event.target.files[0]);
 }
