@@ -33,7 +33,7 @@
 #lugarImagem{
     overflow: hidden;
     width: 500px;
-    height: auto;
+    height: 500px;
     color: white;
     border: 1px solid rgb(0, 0, 0);
 
