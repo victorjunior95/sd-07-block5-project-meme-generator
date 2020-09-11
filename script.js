@@ -1,15 +1,10 @@
-
-
-window.onload = function() {
+window.onload = function () {
   
-  let textInput = document.querySelector('#text-input');
-  let memeText = document.querySelector('#meme-text')
+  const textInput = document.querySelector('#text-input');
+  const memeText = document.querySelector('#meme-text');
 
   // insere texto digitado no input dentro do container do meme
-  textInput.addEventListener('keyup', function() {
+  textInput.addEventListener('keyup', function () {
     memeText.innerText = textInput.value;
-  });
-
-
-  
+  });  
 }
