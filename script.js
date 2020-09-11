@@ -1,8 +1,8 @@
 //CÓDIGO DOS BOTÕES QUE TROCAM AS BORDAS
 window.onload=function(){
-    let botaoUm=document.getElementById('botao1');
-    let botaoDois=document.getElementById('botao2');
-    let botaoTres=document.getElementById('botao3');
+    let botaoUm=document.getElementById('water');
+    let botaoDois=document.getElementById('fire');
+    let botaoTres=document.getElementById('earth');
     let conteinerImagem=document.getElementById('meme-image-container');
     
     botaoUm.addEventListener('click', function(){
