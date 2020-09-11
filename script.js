@@ -3,7 +3,7 @@ document.querySelector('#text-input').addEventListener('keyup', function () {
   document.querySelector('#meme-text').innerText = text;
 });
 
-let imageHere = document.querySelector('#meme-image');
+const imageHere = document.querySelector('#meme-image');
 document.querySelector('#meme-insert').addEventListener('change', function (event) {
   imageHere.src = URL.createObjectURL(event.target.files[0]);
 });
