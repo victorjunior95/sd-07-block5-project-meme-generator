@@ -9,8 +9,8 @@
   <body>
     <h1>MEME GENERATOR</h1>
     <form action="">
-      <div>Texto: <input type="text" id="text-input" /></div>
-      <div>Foto: <input type="file" id="meme-insert" /></div>
+      <div>Texto: <input type="text" onchange="changeText()" id="text-input" /></div>
+      <div>Foto: <input type="file" onchange="changeImage()" id="meme-insert" /></div>
     </form>
     <div id="meme-image-container">
       <p id="meme-text">Teste</p>
