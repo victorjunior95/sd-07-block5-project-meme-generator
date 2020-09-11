@@ -1,19 +1,7 @@
-.container {
-  margin: 10px 0;
-  background-color: white;
-  border: 1px solid black;
-}
-
-.disappear {
-  display: none;
-}
-
 .image-border {
   width: inherit;
-}
-
-.meme-image-container {
-  width: 200px;
+  background-color: white;
+  border: 1px solid black;
 }
 
 .text-infrontof-image {

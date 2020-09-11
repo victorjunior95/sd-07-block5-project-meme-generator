@@ -8,17 +8,17 @@
 </head>
 <body>
   <h1>Meme Generator 😬</h1>
-  <div id="meme-image-container">
+  <div>
     <span>Texto</span>
     <input type="text" id="text-input" maxlength="60" onChange="getValue()">
     <div id="select-image">
       <span>Foto:</span>
       <input type="file" accept="image/*" id="meme-insert">
     </div>
-    <div class="container" id="meme-image-container">
-      <img id="meme-image" class="image-border" src="https://imagens.brasil.elpais.com/resizer/14WX26KlHqBVIveI0pcmzXRz87s=/768x0/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/CJNYCB45H4GE56DH5YB3AV7BX4.jpg">
-      <div id="meme-text" class="text-infrontof-image">Meme Generator 🤭</div>
-    </div>
+  </div>
+  <div id="meme-image-container">
+    <img id="meme-image" class="image-border" src="https://imagens.brasil.elpais.com/resizer/14WX26KlHqBVIveI0pcmzXRz87s=/768x0/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/CJNYCB45H4GE56DH5YB3AV7BX4.jpg">
+    <p id="meme-text" class="text-infrontof-image">Meme Generator 🤭</p>
   </div>
 </body>
 <script src="./script.js"></script>
