@@ -1,0 +1,55 @@
+body {
+  background-color: darkolivegreen;
+}
+
+.topo {
+  height: 60px;
+}
+
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.insercao {
+  font-size: x-large;
+  line-height: 50px;
+  color: white;
+}
+
+.insere-texto {
+  text-align: left;
+  margin-left: 40px;
+}
+
+.foto {
+  background-color: chocolate;
+  border: 1px solid black;
+  height: 450px;
+  width: 450px;
+}
+
+.imagem {
+  border: 1px solid black;
+  height: 450px;
+  width: 450px;
+}
+
+.meme-text{
+  background-color: cornflowerblue;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+}
+
+.rodape {
+  padding: 8px;
+  text-align: center;
+  color: white;
+}
+
+#text-input {
+  height:  25px;
+  width: 150px;
+}
