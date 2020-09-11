@@ -1,7 +1,13 @@
-#text-input {
-  width: 450px;
-  margin-bottom: 10px;
+.button {
+  width: 150px;
+  height: 100px;
+}
+
+.buttonStyle , .sample-images {
   margin-top: 10px;
+  text-align: center;
+  width: 500px;
+  margin-bottom: 10px;
 }
 
 img {
@@ -9,7 +15,18 @@ img {
   height: 500px;
 }
 
-#meme-image-container {
+.img-sample {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+.meme-image {
+  width: 500px;
+  height: 500px;
+}
+
+.meme-image-container {
   width: 500px;
   height: 500px;
   border: 1px solid black;
@@ -18,19 +35,7 @@ img {
   background-color: white;
 }
 
-#buttonStyle, #sample-images {
-  margin-top: 10px;
-  text-align: center;
-  width: 500px;
-  margin-bottom: 10px;
-}
-
-#meme-image {
-  width: 500px;
-  height: 500px;
-}
-
-#meme-text {
+.meme-text {
   position: absolute;
   width: 500px;
   height: 150px;
@@ -42,9 +47,8 @@ img {
   text-align: center;
 }
 
-.img-sample {
-  width: 100px;
-  height: 100px;
-  display: inline-block;
-
+.text-input {
+  width: 450px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
