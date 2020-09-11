@@ -1,11 +1,22 @@
-.container-border {
+.container {
   border: 1px solid black;
   background-color: white;
   padding: 0;
+  position: relative;
+  width: 20rem;
+  height: 20rem;
 }
 
 .custom-text {
   text-shadow: 5px 5px 5px black;
   font-size: 30px;
   color: white;
+  position: absolute;
+  bottom: 0;
+  overflow-wrap: break-word;
+}
+
+.custom-img {
+  width: 100%;
+  height: 100%;
 }
