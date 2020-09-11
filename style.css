@@ -19,3 +19,16 @@
     
     
 }
+#fire{
+    border:3px red dashed;
+    background-color: red;
+    
+}
+#water{
+    border:3px blue double;
+    background-color: blue;
+}
+#earth{
+    border:3px green groove;
+    background-color: green;
+}
