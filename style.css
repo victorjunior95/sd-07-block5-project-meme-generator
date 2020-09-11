@@ -2,27 +2,28 @@
     background-color: green;
 }
 
-#container{
+ #meme-image-container {
     width:  400px; 
     height: 400px;
     background-color:white; 
     border: 1px solid; 
-}
-/* #meme-image-container {
-    width:  400px; 
-    height: 400px;
-} */
+} 
 .image{
     width: 400px;
     height: 400px;
     object-fit: cover;
-    align: inline-block;
+    /*  align: inline-block; */
 }
 .meme-text{
     text-shadow: 5px 5px 5px black;
     font-size: 30 px;
     color: white;
-    align: inline-block;
+    align: inline-block; 
+    position: absolute;
+    width: 400px;
+  
+    top: 70%;
+    left: 50%;
 }
 
 
