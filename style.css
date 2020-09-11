@@ -14,5 +14,7 @@
     position: absolute;
     bottom: 5%;
     right: 50%;
-   
+   text-shadow: 5px 5px 5px;
+   font-size: 30px;
+   color: rgb(255, 255, 255);
 }
