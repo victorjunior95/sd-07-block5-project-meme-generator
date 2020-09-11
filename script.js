@@ -8,6 +8,7 @@ function getText() {
 let userText = document.getElementById('text-input');
 userText.addEventListener('keyup', getText);
 
+
 function getImage(event) {
   let memeInsert = document.getElementById('meme-insert');
   memeInsert.src = URL.createObjectURL(event.target.files[0]);

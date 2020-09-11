@@ -10,14 +10,19 @@
   top: 550px;
 }
 
-#meme-image p {
-
+#meme-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 #meme-image-container {
   border: black solid;
   height: 500px;
   width: 600px;
+  background-color: white;
 }
 
 #meme-insert {
