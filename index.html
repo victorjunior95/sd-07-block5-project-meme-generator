@@ -7,9 +7,25 @@
     <title>Document</title>
 </head>
 <body>
-    
-<script type="text/javascript" src="script.js">
+    <h1>MEME GENERATOR</h1>
+<!-- Meme insert -->
+    <div>
+        <form>
+            <input type="text" placeholder="Digite aqui" id="text-input">
+        </form>
 
-</script>
+        <form action="/action_page.php">
+            <input type="file" id="meme-insert" name="img" accept="image/*">
+          </form>
+    </div>
+
+    <!-- Meme Display -->
+    <div id="meme-image-container">
+        <img id="meme-image" src="https://testandoblogsbr.files.wordpress.com/2014/12/c3a1rea-de-teste.jpg">
+    </div>
+    <p id="meme-text">Texto Teste</p>
+
+
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
