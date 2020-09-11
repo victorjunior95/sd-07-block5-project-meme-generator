@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Meme generator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <input type="text" name="text" id="text-input">
+    <h1>&gt; Meme Generator &lt;</h1>
+    <h2>Texto: <input type="text" name="text" id="text-input"></h2>
+    <h2>Foto: <input type="file" name="meme-file" id="meme-insert"></h2>
     <div id="meme-image-container">
-        <h2 id="meme-text"></h2>
+        <h3 id="meme-text"></h3>
+        <img id="meme-image" src="" alt="meme-image">
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
