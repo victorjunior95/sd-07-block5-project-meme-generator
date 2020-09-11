@@ -1,6 +1,6 @@
 document.querySelector('#text-input').addEventListener('input', function () {
   const text = document.querySelector('#text-input').value;
-  document.querySelector('#meme-text').innerText = text;
+  document.querySelector('#meme-text').innerHTML = text;
 });
 
 const imageHere = document.querySelector('#meme-image');
