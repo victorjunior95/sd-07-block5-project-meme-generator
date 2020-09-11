@@ -1,10 +1,21 @@
 .container {
   background-color: white;
   border: 1px solid black;
+  height: 400px;
+  position: relative;  
+  width: 400px;
 }
 
 .container p {
   color: white;
   font-size: 30px;
   text-shadow: black 5px 5px 5px;
+  position: absolute;
+  bottom: 20px;
+  margin: 15px 15px;
+}
+
+.meme-image {
+  height: 400px;
+  width: 400px;
 }

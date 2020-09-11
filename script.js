@@ -6,9 +6,9 @@ textInput.addEventListener('keyup', function () {
 });
 
 //  colocando imagem em meme-image-container
-// const memeInput = document.getElementById('meme-insert');
+const memeInput = document.getElementById('meme-insert');
 
-// memeInput.addEventListener('onload', function (event) {
-//   let memeImage = document.getElementById('meme-image');
-//   memeImage.src = URL.createObjectURL(event.target.files[0]);
-// });
+memeInput.addEventListener('change', function (event) {
+  let memeImage = document.getElementById('meme-image');
+  memeImage.src = URL.createObjectURL(event.target.files[0]);
+});
