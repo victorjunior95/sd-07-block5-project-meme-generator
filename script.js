@@ -15,17 +15,17 @@ let loadFile = function(event) {
     }
   };
 
-  const buttonGreen = document.getElementById("green-button");
+  const buttonGreen = document.getElementById("earth");
   buttonGreen.addEventListener("click", function() {
     memeContainer.style.border = "4px dashed green";
   })
 
-  const buttonRed = document.getElementById("red-button");
+  const buttonRed = document.getElementById("fire");
   buttonRed.addEventListener("click", function() {
     memeContainer.style.border = "4px dashed red";
   })
 
-  const buttonBlue = document.getElementById("blue-button");
+  const buttonBlue = document.getElementById("water");
   buttonBlue.addEventListener("click", function() {
     memeContainer.style.border = "4px dashed blue";
   })
