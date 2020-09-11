@@ -10,8 +10,8 @@ textInput.addEventListener('input', writeText);
 
 function loadFile(event) {
   image.src = URL.createObjectURL(memeInsert.files[0]);
-  image.style.width = '500px';
-  image.style.height = '500px';
+  image.style.width = '490px';
+  image.style.height = '490px';
 
   image.onload = () => URL.revokeObjectURL(image.src);
 }
