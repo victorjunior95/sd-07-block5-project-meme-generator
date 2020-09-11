@@ -19,13 +19,12 @@ h1 {
 }
 
 #meme-image {
-  position: absolute;
   margin-top: 15px;
   width: 50%;
+  z-index: 0;
 }
 
 #meme-image-container {
-  height: 300px;
   position: relative;
   background-color: white;
   border: 1px solid black;
