@@ -8,13 +8,17 @@
 </head>
 <body>
   
-  <div class=insert-text>
+  <div class=insert-div>
     <button id="text-button">Inserir texto</button>
-    <input id="text-input"></input>
+    <input type="text" id="text-input"></input>
+    <br><br>
+    <input type="file" id="meme-insert" accept="image/*" onchange="loadFile(event)">
+    <br><br>
   </div>
 
   <div id=meme-image-container>
     <span id="meme-text"></span>
+    <img id="meme-image"/>
   </div>
 
 

@@ -1,6 +1,5 @@
-.insert-text {
+.insert-div {
   text-align: center;
-  height: 6vh;
 }
 
 #text-button {
@@ -17,18 +16,25 @@
   padding-left: 10px;
   padding-right: 10px;
   display: inline-block;
-  height: 90%;
+  height: 1.9rem;
   width: 20vw;
+}
+
+#meme-image {
+  height: 100%;
+  display: block;
+  margin: auto;
 }
 
 #meme-image-container {
   margin: auto;
-  margin-top: 2rem;
-  height: 80vh;
+  height: 70vh;
   width: 50vw;
-  border: black solid 2px;
+  border: black solid 1px;
 }
 
 #meme-text {
+  position: absolute;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 6em;
 }
