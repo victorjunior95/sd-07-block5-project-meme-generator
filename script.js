@@ -12,3 +12,4 @@ var loadFile = function (event) {
         URL.revokeObjectURL(memeImage.src);
     }
 };
+
