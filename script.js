@@ -1,6 +1,6 @@
 function textoMeme() {
   const naCaixa = document.getElementById('text-input');
-  const memeTexto = document.getElementById('meme-text)';
+  const memeTexto = document.getElementById('meme-text');
   function colocandoTexto() {
       memeTexto.innerText = naCaixa.value;
   }
