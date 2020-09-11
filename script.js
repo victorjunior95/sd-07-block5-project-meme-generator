@@ -6,7 +6,7 @@ const loadFile = function (event) {
     URL.revokeObjectURL(output.src); // free memory
   };
 };
-
+/* --------------------------------------------------------- */
 const textInput = document.getElementById('text-input');
 textInput.addEventListener('keyup', function () {
   document.getElementById('meme-text').innerText = textInput.value;
@@ -20,16 +20,16 @@ const memeInsert = document.getElementById('meme-insert');
 memeInsert.addEventListener('change', loadFile);
 
 const fireButton = document.getElementById('fire');
-fireButton.addEventListener('click', function(){
-    document.getElementById('meme-image-container').style.border = '3px dashed red';
+fireButton.addEventListener('click' , function(){
+  document.getElementById('meme-image-container').style.border = '3px dashed red';
 });
 
 const waterButton = document.getElementById('water');
-waterButton.addEventListener('click', function(){
-    document.getElementById('meme-image-container').style.border = '5px double blue';
+waterButton.addEventListener('click' , function(){
+  document.getElementById('meme-image-container').style.border = '5px double blue';
 });
 
 const earthButton = document.getElementById('earth');
-earthButton.addEventListener('click', function(){
-    document.getElementById('meme-image-container').style.border = '6px groove green'
+earthButton.addEventListener('click' , function(){
+  document.getElementById('meme-image-container').style.border = '6px groove green';
 });
