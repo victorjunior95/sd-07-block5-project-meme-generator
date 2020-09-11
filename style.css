@@ -24,8 +24,8 @@ button {
 #meme-image-container {
   background-color: white;
   border: 1px solid black;
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   margin: 25px 0;
   position: relative;
 }
@@ -43,4 +43,11 @@ button {
 
 #water {
   background-color: blue;
+}
+
+#famous-memes img {
+  width: 70px;
+  height: 70px;
+  border: 1px solid black;
+  margin: 0 10px;
 }

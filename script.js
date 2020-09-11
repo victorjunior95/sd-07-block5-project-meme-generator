@@ -7,6 +7,7 @@ window.onload = function () {
   let fire = document.querySelector('#fire');
   let water = document.querySelector('#water');
   let earth = document.querySelector('#earth');
+  let famousMemes = document.querySelectorAll('#famous-memes img')
 
   textInput.addEventListener('input', function () {
     memeText.innerText = textInput.value;
@@ -33,4 +34,11 @@ window.onload = function () {
     memeContainer.style.border = '6px groove green';
   });
 
+  function insertFamousMeme (path) {
+    memeImage.src = path.target.src
+  }
+
+  for(let count = 0 ; count < famousMemes.length; count += 1) {
+    famousMemes[count].addEventListener('click', insertFamousMeme)
+  }
 };
