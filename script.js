@@ -1,13 +1,25 @@
 window.onload = function() {
 
-    // Function that load the Photo to Meme
+    // Function that load the Photo from input file to Meme
     let loadPhoto = function(event) {
+        // Get divMeme to apply photo
         let divMemeImage = document.getElementById('meme-image');
+        // Apply photo
         divMemeImage.src = URL.createObjectURL(event.target.files[0]);
+        // Add function on onload to free memory
         divMemeImage.onload = function() {
             URL.revokeObjectURL(divMemeImage.src) // free memory
         }
     }
+
+    // Function that load the MEME from mini memes to Meme
+    let loadMeme = function(event) {
+        // Get divMeme to apply mini meme
+        let divMemeImage = document.getElementById('meme-image');
+        // Apply the same src from the elemet that throws the event
+        divMemeImage.src = event.target.src;
+    }
+
 
     // Function that apply text on meme
     let applyText = function() {
@@ -47,5 +59,10 @@ window.onload = function() {
     // Get All buttons and assign the event applyBorder
     for (let buttonElement of document.getElementsByTagName("button")) {
         buttonElement.addEventListener("click",applyBorder);
+    }
+
+    // Get All Images (mini memes) and assign the event loadMeme
+    for (let imgElement of document.getElementsByClassName("meme-sample")) {
+        imgElement.addEventListener("click",loadMeme);
     }
 }

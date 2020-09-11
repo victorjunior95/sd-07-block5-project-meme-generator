@@ -15,6 +15,7 @@
     position: absolute;
     text-shadow: 5px 5px 5px black;
     font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
     width: 300px;
     word-wrap: break-word;
@@ -43,17 +44,25 @@
     margin-left: 5px;
 }
 
-.fire {
+#fire {
     background-color: red;
     color: yellow;
 }
 
-.water {
+#water {
     background-color: blue;
     color: white;
 }
 
-.earth {
+#earth {
     background-color: green;
     color: brown;
+}
+
+.meme-sample {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border: 1px solid black;
 }
