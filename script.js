@@ -6,3 +6,12 @@ memeInsert.addEventListener('change', function(event){
         URL.revokeObjectURL(imageInsert.src);
     }
 })
+
+let textInput = document.querySelector('#text-input');
+textInput.addEventListener('input', function() {
+    if (textInput.value.length <= 60) {
+        let memeText = document.querySelector('#meme-text').innerText = textInput.value; 
+    } else {
+        console.log("Você ultrapassou o limite de caracteres");
+    } 
+})
