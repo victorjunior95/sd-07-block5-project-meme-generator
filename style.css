@@ -4,6 +4,7 @@
   font-size: 30px;
   margin: 0;
   padding: 0;
+  position: absolute;;
   text-shadow: 5px 5px 5px black;
 }
 
@@ -11,6 +12,7 @@
   border: 0;
   margin: 0;
   padding: 0;
+  position: absolute;
 }
 
 body {
