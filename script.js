@@ -7,6 +7,12 @@ input.addEventListener('change', function() {
 	
     img.src =  URL.createObjectURL(input.files[0]);
     document.getElementById("meme-image-container").className = "imagevisible";
-    memetext.innerText = text.value;
     
+    
+})
+
+
+text.addEventListener("keypress", function() {
+
+    memetext.innerText = text.value;
 })
