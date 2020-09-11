@@ -1,47 +1,47 @@
-h1{
-    font-family: sans-serif;
-    color: rgb(250, 188, 60);
-    text-shadow: 3px 3px 1px black;
-    font-weight: bold;
+h1 {
+  font-family: sans-serif;
+  color: rgb(250, 188, 60);
+  text-shadow: 3px 3px 1px black;
+  font-weight: bold;
 }
 
 a {
-    font-family: sans-serif;
-    color: rgb(241, 145, 67);
-    font-weight: bold;
+  font-family: sans-serif;
+  color: rgb(241, 145, 67);
+  font-weight: bold;
 }
-#meme-text{
-    position: relative;
-    font-weight: bold;
-    text-align: left;
-    text-shadow: 2px 3px 5px black;
-    color: white;
-    font-family: Impact;
-    font-size: 50px;
-}
-
-#meme-image-container{
-    position: relative;
+#meme-text {
+  position: relative;
+  font-weight: bold;
+  text-align: left;
+  text-shadow: 5px 5px 5px black;
+  color: white;
+  font-family: Impact;
+  font-size: 30px;
 }
 
-#inputs{
-    display: inline-block;
-}
-#meme-insert{
-    object-fit: cover;
-    
+#meme-image-container {
+  background-color: white;
+  position: relative;
 }
 
-#meme-text{
-    width: 730px;
-    text-align: right;
-    left: 10px;
-    bottom: 25px;
-    position: absolute;
-    font-weight: bold;
-    text-align: left;
-    text-shadow: 2px 3px 5px black;
-    color: white;
-    font-family: Impact;
-    font-size: 50px;
+#inputs {
+  display: inline-block;
+}
+#meme-insert {
+  object-fit: cover;
+}
+
+#meme-text {
+  width: 730px;
+  text-align: right;
+  left: 10px;
+  bottom: 25px;
+  position: absolute;
+  font-weight: bold;
+  text-align: left;
+  text-shadow: 2px 3px 5px black;
+  color: white;
+  font-family: Impact;
+  font-size: 50px;
 }

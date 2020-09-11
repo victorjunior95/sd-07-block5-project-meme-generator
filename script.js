@@ -4,7 +4,7 @@ let imagem = document.querySelector("#image-insert")
 let imagemPhoto = document.querySelector("#meme-insert")
 
 
-text.addEventListener("input", function(){
+text.addEventListener("change", function(){
     textOnPhoto.innerText = text.value
 })
 imagem.addEventListener("input", function(){
