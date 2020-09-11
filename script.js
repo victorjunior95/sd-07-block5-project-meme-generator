@@ -11,25 +11,22 @@ document.querySelector('#meme-insert').addEventListener('change', function (even
 document.querySelector('#fire').addEventListener('click', function () {
   const container = document.querySelector('.meme-image-container');
 
-  container.style.borderColor = 'red';
-  container.style.borderStyle = 'dashed';
-  container.style.borderWidth = '3px';
+  container.style.border = '3px dashed red';
+
 });
 
 document.querySelector('#water').addEventListener('click', function () {
   const container = document.querySelector('.meme-image-container');
 
-  container.style.borderColor = 'blue';
-  container.style.borderStyle = 'double';
-  container.style.borderWidth = '5px';
+  container.style.border = '5px double blue';
+
 });
 
 document.querySelector('#earth').addEventListener('click', function () {
   const container = document.querySelector('.meme-image-container');
 
-  container.style.borderColor = 'green';
-  container.style.borderStyle = 'groove';
-  container.style.borderWidth = '6px';
+  container.style.border = '6px groove green';
+
 });
 
 document.querySelector('#meme-1').addEventListener('click', function () {
