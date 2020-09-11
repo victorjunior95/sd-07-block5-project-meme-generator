@@ -1,16 +1,14 @@
-#meme-image-container {
-    display: inline-block;
-    width: 500px;
-    height: 500px;
-    border: 1px solid black;
+fieldset {
+    width: fit-content;
 }
 
-
-/* O texto do elemento meme-text deve ter uma sombra preta, de 5 pixels na horizontal, 5 pixels na vertical e um raio de desfoque de 5 pixels;
-
-O texto do elemento meme-text deve ter a fonte com o tamanho de 30 pixels;
-
-O texto do elemento meme-text deve estar na cor branca; */
+#meme-image-container {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+}
 
 #meme-text {
     position: absolute;

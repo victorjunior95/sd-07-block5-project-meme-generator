@@ -8,9 +8,8 @@
 </head>
 <body>
     <h1>Meme Generator</h1>
-    <!-- <form> -->
-        <!-- <fieldset> -->
-            <!-- <legend>Meme Generator</legend> -->
+    <form>
+        <fieldset>
             <p><label>Texto: </label><input type = "text" id = "text-input" maxlength="60"/></p>
             <!-- Linha abaixo inspirada em https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded/27165977#27165977 -->
             <p><label>Foto: </label><input type="file" accept="image/*" id="file-input" onchange="loadFile(event)" name="filename">
@@ -18,8 +17,8 @@
                 <img id="meme-image" src="img/sniper-cat.jpg">
                 <div id="meme-text"></div>
             </section>
-        <!-- </fieldset> -->
-    <!-- </form> -->
+        </fieldset>
+    </form>
 
     <script src="script.js"></script>
 </body>
