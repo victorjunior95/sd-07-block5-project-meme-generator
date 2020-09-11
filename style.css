@@ -1,6 +1,6 @@
 .button , .button1 , .button2 , .button3 {
   color: white;
-  font-family: Impact;
+  font-family: Impact, Arial, sans-serif;
   font-size: 16px;
   font-weight: 900;
   height: 100px;
