@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(58, 43, 71);
+  background-color: rgb(58 , 43 , 71);
 }
 
 #meme-image {
@@ -11,7 +11,7 @@ body {
 #meme-text {
   font-size: 30px;
   color: white;
-  text-shadow: 5px 5px 5px #000000;
+  text-shadow: 5px 5px 5px black;
   position: absolute;
   z-index: 3;
   left: 0;
@@ -21,15 +21,15 @@ body {
   text-align: center;
 }
 
-#earth {
+button#earth {
   background-color: green;
 }
 
-#water {
+button#water {
   background-color: blue;
 }
 
-#fire {
+button#fire {
   background-color: red;
 }
 
