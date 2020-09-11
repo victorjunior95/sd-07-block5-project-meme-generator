@@ -13,12 +13,14 @@
 
     <section class="section-input">
       <label>Texto:</label>
-      <input class="input" type="text" id="text-input" />
+      <input class="input" type="text" id="text-input" /><br><br>
+      <label>Foto:</label>
+      <input type="file" accept="image/*" id="meme-insert">
     </section>
 
-    <section>
-      <div id="meme-image-container">
-        <img />
+    <section class="section-meme">
+      <div class="conteiner" id="meme-image-container">
+        <img id="meme-image" src=""/>
         <p id="meme-text"></p>
       </div>
     </section>

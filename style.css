@@ -1,19 +1,39 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    padding:15px;
-    background-color: #F9FAF9;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+  background-color: #f9faf9;
 }
 
-.header{
-    text-align: center;
+.header {
+  text-align: center;
 }
 
-.section-input{
-    margin-top: 50px;
-    margin-bottom: 50px;
+.section-input {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.input{
-    width: 400px;
-    height: 20px;
+.section-input .input {
+  width: 400px;
+  height: 20px;
+}
+
+.section-input label {
+  margin-right: 20px;
+}
+
+.section-meme {
+  text-align: center;
+}
+
+.section-meme .conteiner {
+  display: inline-block;
+  padding: 0px;
+  border: solid black;
+}
+
+.section-meme .conteiner img {
+  margin: 0px;
+  width: 250px;
+  height: 250px;
 }
