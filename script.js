@@ -20,16 +20,16 @@ const memeInsert = document.getElementById('meme-insert');
 memeInsert.addEventListener('change', loadFile);
 
 const fireButton = document.getElementById('fire');
-fireButton.addEventListener('click' , function(){
+fireButton.addEventListener('click', function () {
   document.getElementById('meme-image-container').style.border = '3px dashed red';
 });
 
 const waterButton = document.getElementById('water');
-waterButton.addEventListener('click' , function(){
+waterButton.addEventListener('click', function () {
   document.getElementById('meme-image-container').style.border = '5px double blue';
 });
 
 const earthButton = document.getElementById('earth');
-earthButton.addEventListener('click' , function(){
+earthButton.addEventListener('click', function () {
   document.getElementById('meme-image-container').style.border = '6px groove green';
 });
