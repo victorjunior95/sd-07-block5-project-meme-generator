@@ -28,9 +28,9 @@
   position: absolute;
   left: 35%;
   top: 85%;
-  font-size: 40px;
+  font-size: 30px;
   white-space: normal;
-  color: azure;
+  color: rgb(250, 250, 250);
   text-shadow:rgb(0, 0, 0) 5px 5px 5px;
 }
 
