@@ -1,14 +1,19 @@
-.meme-text {
+#meme-text {
   position: absolute;
-  left: 30px;
+  display: inline-block;
+
+  left: 100px;
+  top: 200px;
   z-index: 2;
 }
 
-.meme-image-container {
+#meme-image-container {
+  display: inline-block;
   position: relative;
+  background-color: white;
+  border: 2px solid black;
 }
 
 img {
-  position: absolute;
   z-index: 0;
 }
