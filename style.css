@@ -2,13 +2,13 @@ body {
   background-color: rgb(58 , 43 , 71);
 }
 
-#meme-image {
+.meme-image {
   height: 500px;
   width: 500px;
   z-index: 2;
 }
 
-#meme-text {
+.meme-text {
   bottom: 0;
   color: white;
   font-size: 30px;
@@ -21,19 +21,19 @@ body {
   z-index: 3;
 }
 
-#earth {
+.earth {
   background-color: green;
 }
 
-#water {
+.water {
   background-color: blue;
 }
 
-#fire {
+.fire {
   background-color: red;
 }
 
-#meme-image-container {
+.meme-image-container {
   background-color: white;
   border: 1px solid black;
   display: block;
