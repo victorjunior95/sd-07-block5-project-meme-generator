@@ -2,7 +2,6 @@ document.getElementById('text-input').addEventListener('keyup', function () {
     document.getElementById('meme-text').innerText = document.getElementById('text-input').value;
 })
 
-
 var loadFile = function (event) {
     //localiza onde a imagem será exibida.
     var memeImage = document.getElementById('meme-image');
