@@ -4,7 +4,7 @@ const memeInsert = document.getElementById('meme-insert');
 const memeText = document.getElementById('meme-text');
 const memeImage = document.getElementById('meme-image');
 
-function limpaObjectURL(){
+function limpaObjectURL() {
   URL.revokeObjectURL(memeImage.src);
 }
 
