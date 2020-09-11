@@ -12,9 +12,18 @@
     <h1>Meme Generator!</h1>
         <div id="meme-image-container" class= "mouduraSite container">
             <input type="text" id="text-input" maxlength="60" style="width:300px;">
-            <div id="meme-text"></div>
+            <input type="file" accept="image/*" onchange="loadFile(event)">
+<img id="output"/>
         </div>
-    <script></script>
+    <script>
+        var loadFile = function(event) {
+    var output = document.getElementById('output');
+    output.src = URL.createObjectURL(event.target.files[0]);
+    output.onload = function() {
+      URL.revokeObjectURL(output.src) // free memory
+    }
+  };
+    </script>
 </body>
 
 </html>
