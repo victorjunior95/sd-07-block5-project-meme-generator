@@ -10,17 +10,29 @@
 
 <body>
     <h1>Meme Generator!</h1>
-    
-        <input type="text" id="text-input" maxlength="60" style="width:300px;">
-        <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
 
-        <div id="meme-image-container">
-            <img id="output" />
-            <h2 id="meme-text">Textoaqui</h2>
-          </div>    
-            
-    
-    <script type="text/javascript" src="script.js"></script>
+    <p>Texto: <input type="text" id="text-input" maxlength="60" style="width:300px;"></p>
+    <p>Foto: <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)"></p>
+
+    <div id="meme-image-container" class="container">
+        <img id="output" />
+        <h2 id="meme-text">Textoaqui</h2>
+    </div>
+
+    <h3>Estilos costomizados:</h3>
+    <button>fire</button>
+    <button>water</button>
+    <button>earth</button>
+
+    <script>
+        var loadFile = function (event) {
+            var output = document.getElementById('output');
+            output.src = URL.createObjectURL(event.target.files[0]);
+            output.onload = function () {
+                URL.revokeObjectURL(output.src) // free memory
+            }
+        };
+    </script>
 </body>
 
 </html>
