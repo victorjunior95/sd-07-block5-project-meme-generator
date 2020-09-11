@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The MemeGenerator</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body class='body'>
+    <!-- 1 - O site deve possuir uma caixa de texto com a qual quem usa pode interagir para inserir texto em cima da imagem escolhida.
+As seguintes verificações serão feitas:
+A caixa onde o texto é inserido deve ter um id denominado text-input;
+
+Você deve criar um elemento para servir de "container" para a imagem e para o texto do meme. Este elemento deve ter um id denominado meme-image-container;
+
+Dentro do elemento de container, você deve criar um outro elemento para mostrar o texto digitado. O elemento de texto deve estar totalmente contido dentro do container e ter o id denominado meme-text;
+
+Se não houver imagem inserida, ele deve ser inserido e estar visível dentro do container vazio onde a imagem aparecerá. -->
+
+<header>
+    <h1>Your Own MemeGenerator</h1>
+    <section class="explanation">
+        <h2>Como é que faz?</h2>
+        <p>Digite o texto na caixinha baixo, escolha a foto e corre p/ zueira! <br>
+        Você também pode usar a foto do coleguinha, é só subir no campo upload.
+        </p>
+    </section>
+</header>
+
+<label class='labels'><strong>Insira o texto aqui =></strong>
+    <input type='string' id='text-input' class='text-input-box'>
+</label>
+<label class='labels'><strong>Insira o texto aqui =></strong>
+    <input type='file' id='text-input' class='text-input-box'>
+</label>
+
+<div id='meme-image-container' class='image-container-box'>
+    <p id='meme-text' class='meme-text'>texto teste</p>
+</div>
+
+
+</body>
+</html>
