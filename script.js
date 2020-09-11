@@ -6,6 +6,7 @@ const memeText = document.getElementById('meme-text');
 const image = document.getElementById('image');
 
 memeInsert.addEventListener('change', loadFile);
+textInput.addEventListener('input', writeText);
 
 function loadFile(event) {
   image.src = URL.createObjectURL(memeInsert.files[0]);
@@ -13,4 +14,8 @@ function loadFile(event) {
   image.style.height = '500px';
 
   image.onload = () => URL.revokeObjectURL(image.src);
+}
+
+function writeText(event) {
+  memeText.innerText = textInput.value;
 }
