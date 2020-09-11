@@ -1,0 +1,30 @@
+header{
+    text-align: center;
+}
+body {
+    background-color: #CEE3F6;
+}
+#meme-image-container {
+    position: relative;
+    border: solid 1px black;
+    width: 500px;
+    height: 500px;
+    margin-left: 420px;
+    border-radius: 20px;
+}
+#meme-text {
+    
+    position: absolute;
+    text-align: center;
+    line-height: 800px;
+}
+#text-input {
+    text-align: center;
+    margin-left: 420px;
+}
+#meme-text {
+    font-size: 30px;
+    color: white;
+    text-shadow:   5px 5px 5px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
