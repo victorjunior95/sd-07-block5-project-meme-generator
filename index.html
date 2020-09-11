@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1>Meme Generator</h1>
+	
+	<input type="text" id="text-input" maxlength="60" style="width:400px;">
+	
+	<input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
+	
+	<div id="meme-image-container"class="meme-container">
+		<div id="meme-text"></div>
+		<img id="meme-image">
+	</div>
+
+	
+	<script src="script.js"></script>
+</body>
+
+</html> 
