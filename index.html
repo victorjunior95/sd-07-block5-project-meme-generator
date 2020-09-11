@@ -8,14 +8,27 @@
     <script type="text/javascript" src="script.js"></script>
     
 </head>
+<header>
+    <h1>Meme Generator</h1>
+
+
+</header>
 <body>
     <form>
+        <!-- caixa onde o texto será inserido -->
         <label for="text-input">Insira a frase do seu meme:</label><br>
         <input type="text" id="text-input" name="text-input"> 
     </form>
-
+    <!-- container para imagem + texto = meme-image-container -->
     <div id="meme-image-container" class="meme-image-container">
-
+        <ul id="images-list"></ul>
+        <!-- meme-text entrará o texto digitado, que deve ficar por cima da meme-image -->
+        <div id="meme-text" class="meme-text">
+        </div>
+        <!-- elemento onde é feito o upload da imagem -->
+        <div id="meme-insert"></div>
+        <!-- imagem selecionada do computador deve ficar aqui -->
+        <div id="meme-image"></div>    
     </div>
 </body>
 </html>
