@@ -1,0 +1,24 @@
+#meme-image-container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+#meme-text {
+    position: absolute;
+    font-family: 'Teko', sans-serif;
+    width: 400px;
+    height: 200px; 
+    text-align: center;
+    font-size: 3em;
+    border: 1px solid black;
+    bottom: 0;
+    left: 50px;
+}
+
+#meme-image {
+    width: 500px;
+    height: 500px;
+}
