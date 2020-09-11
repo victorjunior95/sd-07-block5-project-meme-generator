@@ -5,11 +5,13 @@
 }
 
 #meme-image-container{
-  width: 600px;
-  height: 600px;
   background-color: white;
-  border: 1px solid black;
+  border: 1px solid rgb(0, 0, 0);
   overflow: hidden;
+}
+
+#lugarImagem{
+    overflow: hidden;
 }
 
 #meme-text{
