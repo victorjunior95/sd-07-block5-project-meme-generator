@@ -3,29 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Meme Gerator</title>
     <link rel="stylesheet" href="style.css" >
 </head>
 <body>
     <div class="principal">
  
 		<!-- Cabeçalho  da página-->
-		<header>cabeçalho</header>
+		<header>Meme Gerator</header>
  
-		<!-- Menu do Site--> 
-		<nav>Menu</nav>
- 
+		  
 		<!-- Conteúdo Principal-->
 		<section>
-			<article>Conteudo Principal</article>
-		</section>
-		<!--Final do Conteúdo Principal-->
+			
+        <container class= "inputs">
+
+            <form>
+                <div>
+                  <label for="texto">Texto:  <label> 
+                  <input type="text" placeholder="texto Aqui" id="texto" />
+                </div>
+                <div>
+                    <label for="arquivo">Arquivo</label>
+                  <input type="file"  id="arquivo" />
+                </div>
+                            
+            </form>
+
+
+                <div class="botoes">
+                  <button type="button" class="fire" onclick="fire.estilo()">
+                    Fire
+                  </button>
+                  <button type="button" class="water" onclick="water.estilo()">
+                    Water
+                  </button>
+                  <button type="button" class="earth" onclick="earth.estilo()">
+                    Earth
+                  </button>
+                </div>
+
+        </container>
+        
+
+        
+        
+        
+            <div class="div-tabela">
+                <table class="memesProntos">
+                  <thead>
+                    <th>Memes pré prontos</th>
+                    
+                  </thead>
+                  <tbody id="tabela-corpo"></tbody>
+                </table>
+              </div>
+        </section>
 		
-		<!--Conteúdo Relacionado, colocar ou não-->
-		<aside>Conteúdo Relacionado</aside>
-		<!-- final  Conteúdo Relacionado, colocar ou não-->
-		
-		<!-- Rodapé do site-->
+        
+               
+    
+        
+        
 		<footer>Rodapé</footer>
  	    <!-- final do  Rodapé do site-->
 		</div>
