@@ -13,8 +13,12 @@
         <div id="meme-text"></div>
     </div>
     <input type="text" id="text-input">
-    <input type="file" accept="image/*" onchange="loadFile(event)">
-
+    <input type="file" accept="image/*" onchange="loadFile(event)" id="meme-insert">
+    
+    <div class="text-color-container">
+    <label for="text-color">Cor do texto</label>
+    <input type="color" value="#ffffff" id="text-color">
+    </div>
 
 
     <script src="script.js"></script>
