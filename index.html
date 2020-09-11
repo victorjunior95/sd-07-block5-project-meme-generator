@@ -32,7 +32,9 @@
 
     </section>
 
-    <section>
+    <section id="">
+
+      <h2>Adicione um texto em seu gif</h2>
 
       <!--1 - O site deve possuir uma caixa de texto, com a qual quem usa 
         pode interagir para inserir texto em cima da imagem escolhida.-->
@@ -48,18 +50,22 @@
       
        <!--5 - Limite o tamanho do texto que o usuário pode inserir.-->
         <!--A quantidade máxima de caracteres digitáveis no elemento text-input deve ser 60.-->
-      <h2>Adicione um texto em seu gif</h2>
       
-      <input type="text">
+      <input type="text" id="text-input">
+
       <button>ADD</button>
+
+      <section id="meme-image-container">
+        <!--Dentro do elemento de container, você deve criar um outro elemento 
+        para mostrar a imagem selecionada. Este elemento deve possuir um id denominado meme-image;-->
+        <!--A imagem deve estar totalmente contida dentro do elemento identificado como meme-image-container-->
+        <!--O texto inserido no elemento text-input deve ser inserido sobre a imagem escolhida meme-image.-->  
+        <!--Para mostrar a imagem selecionada a partir do input no elemento dentro do container, 
+        você precisará alterar a propriedade src desse elemento, passando para ele o caminho da imagem que foi carregada no input.-->  
+        <imag id="meme-image" src="document.querySelector('#meme-insert')[0]">
+      </section>
+      
     </section>
-    <!--Dentro do elemento de container, você deve criar um outro elemento 
-    para mostrar a imagem selecionada. Este elemento deve possuir um id denominado meme-image;-->
-    <!--A imagem deve estar totalmente contida dentro do elemento identificado como meme-image-container-->
-    <!--O texto inserido no elemento text-input deve ser inserido sobre a imagem escolhida meme-image.-->  
-    <!--Para mostrar a imagem selecionada a partir do input no elemento dentro do container, 
-    você precisará alterar a propriedade src desse elemento, passando para ele o caminho da imagem que foi carregada no input.-->  
-    <imag ></imag>
 
     <section>
       <!--6 - Permita a quem usa customizar o meme escolhido acrescentando a ele uma de três bordas.
@@ -67,6 +73,7 @@
 
 
     </section>
+
     <aside>
       <!--7 - Tenha um conjunto de quatro imagens pré prontas de memes famosos para o usuário escolher.
          Mostre miniaturas das imagens e, mediante clique do usuário, essa imagem deve aparecer dentro 
