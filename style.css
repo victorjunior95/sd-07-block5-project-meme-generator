@@ -70,3 +70,18 @@ button {
 .meme-4 {
   background-image: url('./imgs/meme4.png');
 }
+
+.border-button {
+    margin-top: 10px;
+}
+
+.text-input {
+    display: inline-block;
+    margin-top: 100px;
+    width: 340px;
+}
+
+.meme-insert {
+    display: block;
+    margin-top: 10px;
+}
