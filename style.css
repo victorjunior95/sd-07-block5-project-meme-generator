@@ -1,24 +1,20 @@
 .bordercss {
     border: 2px solid blueviolet;
-    border-radius: 7px;
-    padding: 20px 0px 20px 0px;
     text-align: center;
 }
-#main-container {
-    display: block;
+.borderradius {
+    border-radius: 3%;
 }
-
 #meme-text {
     position: absolute;
     color: white;
-    top: 80%;
-}
-#meme-image {
-    width: 300px;
-    height: 400px;
+    z-index: 1;
+    top: 50%;
+    left: 5%;
+
 }
 .imgContainer {
     position: relative;
-    width: 300px;
-    height: 400px;
+    width: 500px;
+    height: 250px;
 }
