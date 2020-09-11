@@ -4,9 +4,9 @@ h1 {
   text-align: center;
 }
 
-.textInput {
-  text-align: left;
-  width: 280px;
+.buttons {
+  margin-top: 18px;
+  text-align: center;
 }
 
 .inputArea {
@@ -42,4 +42,9 @@ h1 {
   top: 115px;
   width: 290px;
   word-break: break-all;
+}
+
+.textInput {
+  text-align: left;
+  width: 280px;
 }
