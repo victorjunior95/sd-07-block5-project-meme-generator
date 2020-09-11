@@ -1,16 +1,50 @@
+body {
+    width: 1200px;
+    height: 768px;
+}
 
 h1 {
     text-align: center;
     background-color: black;
     color: white;
-    margin: 15px;
-    padding: 20px;
+    width: 100%;
+    margin-top: 10px;
+
 }
 
 #header {
     font-family: "Helvetica Neue";
     font-size: 15px;
     background-color: silver;
-    margin: 15px;
     text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#meme-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#meme-image {
+    background-color: white;
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    margin-top: 10px;
+}
+
+#meme-text {
+    color: white;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px;
+}
+
+#button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 50px
+    width: 70px;
 }
