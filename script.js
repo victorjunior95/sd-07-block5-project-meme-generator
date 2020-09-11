@@ -8,7 +8,7 @@ function getText() {
 let userText = document.getElementById('text-input');
 userText.addEventListener('keypress', getText);
 
-function getImage(event){
+function getImage(event) {
   let memeInsert = document.getElementById('meme-insert');
   memeInsert.src = URL.createObjectURL(event.target.files[0]);
   memeInsert.onload = function () {

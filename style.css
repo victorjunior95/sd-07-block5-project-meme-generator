@@ -1,20 +1,20 @@
 #meme-text {
   background-color: transparent;
-  font-size: 30px;
-  font-family: "Impact";
   color: white;
-  text-shadow: black 5px 5px 5px;
-  width: 600px;
-  position: absolute;
+  font-size: 30px;
+  font-family: Impact;
   left: 15px;
-  top: 550px;
+  position: absolute;
   text-align: center;
+  text-shadow: black 5px 5px 5px;
+  top: 550px;
+  width: 600px;
 }
 
 #meme-image-container {
   border: black solid;
-  width: 600px;
   height: 500px;
+  width: 600px;
 }
 
 #meme-insert {
