@@ -18,11 +18,25 @@ header h1 {
   width: 500px;
   height: 500px;
   background-color: white;
-  border: 1px solid black;  
+  border: 1px solid black;
+  position: relative;
 }
 
 #meme-text {
   font-size: 30px;
   text-shadow: 5px 5px 5px black;
   color: white;
+  display: inline-block;
+  width: 470px;
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
