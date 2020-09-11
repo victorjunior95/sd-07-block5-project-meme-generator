@@ -1,9 +1,9 @@
-let textInput = document.querySelector('#text-input');
-let textOutput = document.querySelector('#meme-text');
-
-textInput.addEventListener('keypress', includeText);
+const textInput = document.querySelector('#text-input');
+const textOutput = document.querySelector('#meme-text');
 
 function includeText() {
-  textOutput.innerText = textInput.value;
+  textOutput.innerText = textInput.value + event.key;
   console.log(textInput.value);
 }
+
+textInput.addEventListener('keydown', includeText);
