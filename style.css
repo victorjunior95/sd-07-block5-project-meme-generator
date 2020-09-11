@@ -7,13 +7,12 @@
   position:relative;
   border: solid 1px;
   width: 500px;
-  height: 400px ;
+  height: 400px;
   background-color: white;
   margin-top: 20px;
 }
 
-img {
-  object-fit: contain;
+.memeImage {
   width: 500px;
   height: 400px;
 }
