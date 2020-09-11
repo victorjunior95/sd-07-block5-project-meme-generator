@@ -3,7 +3,7 @@ window.onload = function() {
   let memeText = document.getElementById('meme-text')
 
   
-inputText.addEventListener('mouseleave', function() {
+inputText.addEventListener('keyup', function() {
   memeText.innerText = inputText.value
 })
 
