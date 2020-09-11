@@ -29,10 +29,10 @@
 
 #lugarImagem{
     overflow: hidden;
-    width: 500px;
-    height: 500px;
+    width: 499px;
+    height: 499px;
     color: white;
-    border: solid 1px rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
 
 }
 
