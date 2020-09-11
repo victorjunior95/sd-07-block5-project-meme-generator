@@ -1,0 +1,63 @@
+body{
+    margin: 2%;
+    font-family: monospace;
+    background-color: aquamarine;
+    width: 1366px;
+    height: 768px;
+    color: crimson;
+}
+label{
+    font-size: large;
+    text-align: left;
+    font-weight: bolder;
+    color: blueviolet;
+}
+input{
+    background-color: whitesmoke;
+    font-size: 16px;
+    color: rgb(98, 0, 128);
+}
+#text-input{
+    text-align: left;
+    font-size: 14px;
+    font-weight: bolder;
+    width: 410px;
+    height: 30px;
+    color: rgb(38, 7, 110);
+}
+#meme-image-container{
+    background-color: white;
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    top: 170px;
+    border: black solid 1px;
+}
+#meme-text{
+    background-color: transparent;
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    z-index: 3;
+    right: 50px;
+    top: 15px;
+    border: dotted white 1px;
+    color: white;
+    text-shadow: black;
+    font-size: 30px;
+    word-wrap: break-word;
+    text-align: center;
+}
+#meme-image{
+    background-color: royalblue;
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    z-index: 2;
+}
+p{
+    color: black;
+    position: relative;
+    top: 385px;
+    font-weight: bolder;
+}
