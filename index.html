@@ -9,16 +9,17 @@
 <body>
     <h1>MEME GENERATOR</h1>
     <label>Text input:</label>
-    <input type='text' name='text-input' id='text-input' maxlength='60'><br><br>
+    <input class="text-input" type='text' name='text-input' id='text-input' maxlength='60'><br><br>
     <label>Your pic:</label>
-    <input type='button' name='upload' id='upload' value='chose your file'>
-    <div id='meme-image-container'>
-        <div id='meme-text'></div>
-        <div id='meme-image'></div>
+    <input class="upload" type='button' name='upload' id='upload' value='chose your file'>
+    <div class='meme-image-container' id='meme-image-container'>
+        <div class='meme-text' id='meme-text'></div>
+        <div class='meme-image' id='meme-image'></div>
     </div>
     <p>Estilos Customizados:</p>
-    
-    
+    <button id='fire'>Fire</button>
+    <button id='water'>Water</button>
+    <button id='earth'>Earth</button>
     <script src='script.js'></script>
 </body>
 </html>
