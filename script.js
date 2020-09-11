@@ -1,4 +1,4 @@
-function imagemMeme(event) {
+let imagemMeme = function imagemMeme() {
   const imglocal = document.getElementById('meme-image');
   imglocal.src = URL.createObjectURL(event.target.files[0]);
 }
@@ -11,7 +11,7 @@ function textoMeme() {
     memeTexto.innerText = naCaixa.value;
   });
 }
-
+    
 window.onload = function () {
   textoMeme();
-};
+}
