@@ -4,7 +4,7 @@ document.querySelector("#text-input").addEventListener("change", (event) => {
   console.log(textOutput.innerHTML);
 });
 
-var loadFile = function (event) {
+document.querySelector("#meme-insert").addEventListener("change", (event) => {
   var image = document.querySelector("#meme-image");
   image.src = URL.createObjectURL(event.target.files[0]);
-};
+});
