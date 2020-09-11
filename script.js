@@ -10,7 +10,7 @@ textInput.addEventListener("keyup", function() {
 });
 
 inputImgMeme.addEventListener("change", function() {
-    memeImg.src = URL.createObjectURL(target.files[0]);
+    memeImg.src = URL.createObjectURL(event.target.files[0]);
     memeImg.onload = function() {
         URL.revokeObjectURL(memeImg.src)
     }
