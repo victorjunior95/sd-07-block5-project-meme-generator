@@ -3,7 +3,10 @@ window.onload=function(){
     let botaoUm=document.getElementById('water');
     let botaoDois=document.getElementById('fire');
     let botaoTres=document.getElementById('earth');
-    let conteinerImagem=document.getElementById('meme-image-container');
+    let conteinerImagem=document.getElementById('meme-image-container');    
+    let caixaDeTexto=document.getElementById('text-input');
+    
+    caixaDeTexto.value='My awesome meme'
     
     botaoUm.addEventListener('click', function(){
         conteinerImagem.style.borderColor='blue';
