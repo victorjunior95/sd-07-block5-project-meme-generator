@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,19 +8,30 @@
 <body>
     <h1>MEME GENERATOR</h1>
 
+    <!-- Inserindo o texto do meme via input text -->
+    <h3>Texto:</h3>
+    <label for="text-input">Insira o texto do seu meme:</label>
+    <input id="text-input" type="text" name="userText" size="60">
+
+    <!-- Inserindo a imagem do meme via input file-->
+    <h3>Imagem:</h3>
+    <label for="meme-insert">Insira uma imagem ao meme:</label>
+    <input type="file" id="meme-insert" name="imageMeme" accept="image/*">
+
+    <!-- Conteiner para exibir o texto e a imagem inseridas -->
+    <h3>Pré-visualização:</h3>
     <div id="meme-image-container">
-        <h3>Texto:</h3>
-        <label for="text-input">Insira o texto do seu meme:</label>
-        <input id="text-input" type="text" name="userText">
-
-        <h3>Imagem:</h3>
-        <label for="image-input">Insira uma imagem ao meme:</label>
-        <input type="file" id="image-input" name="imageMeme" accept="image/*">
-
+        
         <div id="meme-text">
-            
+            <!-- Local para exibir o texto recebido no input -->
+        </div>
+
+        <div id="meme-image">
+            <!-- Local para exibir o texto recebido no input -->
         </div>
     </div>
 
+    <!-- Carregando os scripts -->
+    <script src="./script.js"></script>
 </body>
 </html>
