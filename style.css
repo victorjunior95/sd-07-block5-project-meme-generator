@@ -10,18 +10,13 @@
   margin-bottom: 10px;
 }
 
-img {
-  width: 500px;
-  height: 500px;
-}
-
-.img-sample {
+.img-sample{
   width: 100px;
   height: 100px;
   display: inline-block;
 }
 
-.meme-image {
+.meme-image , img {
   width: 500px;
   height: 500px;
 }
