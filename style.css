@@ -22,7 +22,8 @@
 
 #meme-image {
   height: 100%;
-  display: block;
+  width: 100%; 
+  display: inline-block;
   margin: auto;
 }
 
@@ -34,7 +35,15 @@
 }
 
 #meme-text {
+  position: relative;
+  height: 60vh;
+  width: 45.5vw;
+  padding: 2rem;
   position: absolute;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 6em;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
 }

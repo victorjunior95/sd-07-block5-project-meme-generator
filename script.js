@@ -1,13 +1,13 @@
-let insertText = document.querySelector("#text-input");
+let textInput = document.querySelector("#text-input");
 let textButton = document.querySelector("#text-button");
 let container = document.querySelector("#meme-image-container");
 let memeImage = document.querySelector("#meme-image");
 let memeText = document.querySelector("#meme-text");
 
-
-textButton.addEventListener("click", function() {
-  memeText.innerHTML = insertText.value;
-})
+function insertText() {
+  let letter = textInput.value;
+  memeText.innerHTML = letter;
+}
 
 let loadFile = function(event) {
   memeImage.src = URL.createObjectURL(event.target.files[0]);
