@@ -1,8 +1,25 @@
 #meme-image-container {
     border: 1px solid black;
-    width: 200px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    text-align: center;
+}
+
+#meme-image{
+    width: 300px;
+    height: 300px;
+}
+
+#meme-text {
+    position: absolute;
+    bottom: 10px;
+    left: 45px;
+    font: bold 30px sans-serif;
+    color: blue;
+    
 }
 
 input {
-    display: inline-block;
+    margin-bottom: 10px;
 }
