@@ -49,22 +49,22 @@ function changeBorderEarth(){
 earthButton.addEventListener('click', changeBorderEarth)
 
 function memeOneSelected(){
-  memeImage.src = 'https://1.bp.blogspot.com/-04osrm9MrTE/X1ptWvJCMqI/AAAAAAAACNY/Pyq2iGrGKiEq5tUJtShRqdtzQ75CugM6gCLcBGAsYHQ/s320/meme-1.jpg'
+  memeImage.src = '/imgs/meme1.png'
 }
 memeOne.addEventListener('click', memeOneSelected)
 
 function memeTwoSelected(){
-  memeImage.src = 'https://1.bp.blogspot.com/-KRnvAayPm9c/X1pv0JvwpAI/AAAAAAAACN0/HKTqNmYv2d4_HurAH43gkC9fdOO712AFACLcBGAsYHQ/s320/meme2.jpg'
+  memeImage.src = '/imgs/meme2.png'
 }
 memeTwo.addEventListener('click', memeTwoSelected)
 
 function memeThreeSelected(){
-  memeImage.src = 'https://1.bp.blogspot.com/-b7pwhrEYIV4/X1pwHFPk0OI/AAAAAAAACN8/yAUM4Ah96DEpShWCeshLVxMK0Le5ygA-ACLcBGAsYHQ/s320/meme-3.jpg'
+  memeImage.src = '/imgs/meme3.png'
 }
 memeThree.addEventListener('click', memeThreeSelected)
 
 function memeFourSelected(){
-  memeImage.src = 'https://1.bp.blogspot.com/-4j8UF14dfoI/X1pwa1fcQOI/AAAAAAAACOE/DIUE_Vwo5ZQ3ENnU_9QTBvGn21tBldrRQCLcBGAsYHQ/s0/meme-4.jpg'
+  memeImage.src = '/imgs/meme4.png'
 }
 memeFour.addEventListener('click', memeFourSelected)
 
