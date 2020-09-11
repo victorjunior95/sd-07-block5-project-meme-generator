@@ -14,21 +14,22 @@
         </header>
     </section>
     <section class="second-class">
-        <div id="text-input">
-            <p>Insira seu texto aqui: <input type="text"></p>
-        </div>
-        <div id="meme-image-container">
-            <img src="" alt="">
-            <div id="meme-image">
-
-            </div>
+        <form>
+            <p>Insira seu texto aqui: <input type="text" id="text-input" maxlength="60"></p>
+            <p>Selecione sua imagem: <input type="file" id="meme-insert" accept="image/*" onchange="fileImag(event)"></p>
+        </form>
             
-            <p id="meme-text">texto para colocar em cima da img</p>
+        
+        <div id="meme-image-container" class="meme-container">
+            <img id="meme-image">
+            <img id="output" />
+            <div id="meme-text">texto para colocar em cima da img</div>
         </div>
-        <div id="meme-insert">
-
-        </div>
+        </form>
     </section>
-    
+    <footer>
+        @Trybe - Realizado por EMoonlit
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
