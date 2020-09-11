@@ -14,8 +14,9 @@
 #meme-text {
     position: absolute;
     color: white;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px black;
     z-index: 1;
     top: 50%;
     left: 5%;
-
 }
