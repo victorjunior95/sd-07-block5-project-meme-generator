@@ -21,14 +21,13 @@
         </div>
         <div>
             <label for="">Foto:</label>
-            <input type="file">
+            <input type="file" accept="image/*" id="meme-insert" onchange="loadFile(event)">
         </div>
     </section>
 
     <div id="meme-image-container">
-        <p id="meme-text">
-
-        </p>
+        <img src="" alt="" id="meme-image" width="400px">
+        <p id="meme-text" pos></p>
     </div>
 
     <script src="script.js"></script>
