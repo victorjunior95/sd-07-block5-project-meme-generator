@@ -5,15 +5,30 @@
     margin: 20px ;
 }
 
+#meme-text{
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px; 
+    font-family: Impact;
+    font-weight: bold;
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+    margin: 20px;
+}
+
 #meme-image-container{
+  position: relative;
   width: 500px;
   height: 500px;
   background-color: white;
-  border: 6px groove rgb (0, 128, 0);
   overflow: hidden;
   margin: 20px ;
 
 }
+
+
+
 
 #lugarImagem{
     overflow: hidden;
@@ -24,14 +39,6 @@
 
 }
 
-#meme-text{
-    color: white;
-    text-shadow: 5px 5px 5px black;
-    font-size: 30px;
-    font-family: Impact;
-    font-weight: bold;
-    margin: 20px ;
-}
 
 #fire{
 

@@ -8,13 +8,40 @@ function textonaCaixa(){
 
 inputText.addEventListener('keyup',textonaCaixa);
 
+
+let memeInsert = document.getElementById('meme-insert');
+let lugarImagem = document.getElementById('lugarImagem');
+
+function colocarImagem(){
+    console.log(memeInsert.value)   
+    lugarImagem.scr = memeInsert.value;
+    console.log(lugarImagem);
+}
+
+memeInsert.addEventListener('click',colocarImagem);
+
+
+
+// Bonus
+
 let btnMeme1 = document.getElementById('meme-1');
 let btnMeme2 = document.getElementById('meme-2');
 let btnMeme3 = document.getElementById('meme-3');
 let btnMeme4 = document.getElementById('meme-4');
 
-let lugarImagem = document.getElementById('lugarImagem');
+let containerImagem = document.getElementById('meme-image-container');
 
-function trocaMemePronto1(){
+function trocaBordaBlue(){
+    containerImagem.style.border =  "3px dashed rgb(255, 0, 0)";
+ }
 
+function trocaBordaRed(){
+    containerImagem.style.border =  "5px double rgb(0, 0, 255)";
 }
+
+function trocaBordaGreen(){
+    containerImagem.style.border =  "6px groove rgb (0, 128, 0)";
+}
+
+
+
