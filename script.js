@@ -1,12 +1,12 @@
-const imageMeme = document.querySelector('#meme-image');
-const container = document.getElementById('meme-image-container');
-const text = document.querySelector('#text-input');
+let imageMeme = document.querySelector('#meme-image');
+let container = document.getElementById('meme-image-container');
 
 function insereTexto() {
   const textMeme = document.querySelector('#meme-text');
   textMeme.innerText = text.value;
 }
 
+let text = document.querySelector('#text-input');
 text.addEventListener('input', insereTexto);
 
 const memeInsert = document.querySelector('#meme-insert');
