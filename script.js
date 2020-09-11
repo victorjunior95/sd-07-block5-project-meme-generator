@@ -1,7 +1,6 @@
 function addImage(event) {
     let output = document.getElementById('meme-image');
     output.src = URL.createObjectURL(event.target.files[0]);
-    console.log(event.target.files);
     output.onload = function() {
         URL.revokeObjectURL(output.src)
     }
@@ -21,6 +20,26 @@ function changeBorderColor(event) {
     } else {
         memeBorder.style.border = "6px groove green";
     }
+}
+
+function addFirst() {
+    let toInsertImg = document.getElementById('meme-image');
+    toInsertImg.src = "imgs/meme1.jpeg";
+}
+
+function addSecond() {
+    let toInsertImg = document.getElementById('meme-image');
+    toInsertImg.src = "imgs/meme2.jpg";
+}
+
+function addThird() {
+    let toInsertImg = document.getElementById('meme-image');
+    toInsertImg.src = "imgs/meme3.jpg";
+}
+
+function addFourth() {
+    let toInsertImg = document.getElementById('meme-image');
+    toInsertImg.src = "imgs/meme4.jpeg";
 }
 let imgInsert = document.getElementById('meme-insert');
 imgInsert.addEventListener('input', addImage);
