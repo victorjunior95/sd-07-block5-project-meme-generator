@@ -1,0 +1,25 @@
+#meme-image-container {
+  position: relative;
+  display: inline-block;
+  border: 2px solid black;
+  width: 400px;
+  height: 400px;
+}
+label {
+  margin: 3px;
+  display: block;
+}
+#meme-text {
+  position: absolute;
+  text-align: left;
+  top: 250px;
+  width: 80%px;
+  margin-left: 5px;
+  font-size: large;
+  width: 60%;
+}
+#meme-image {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+}
