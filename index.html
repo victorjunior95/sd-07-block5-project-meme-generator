@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-    <html lang = "pt">
+    <html lang = "en">
         <head>
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta charset="UTF-8">
@@ -8,22 +8,30 @@
         </head>
         <body>
             <header>
-                <h1>MEME - GENERATOR</h1>
+                <h1>MEME GENERATOR</h1>
             </header>
             <nav>
-                <form>
-                    <label>Texto:</label><br>
-                    <input type="text" name="writen"><br>
-                    <label>Arquivo da Imagem:</label><br>
-                    <input type="file" name="picture">
+                <form class = "form-input">
+                    <label>Text:</label>
+                    <input class = "input" type="text" id="text-input" maxlength="60" />
+                    <br /><br />
+                    <label>Photo:</label>
+                    <input type="file" accept="image/*" id="meme-insert" />
                 </form>
             </nav>
-            <main>
+            <main>    
+                <section class="memecreation">
+                    <div class="box" id="meme-image-container">
+                        <img id="meme-image" src="" />
+                        <p id="meme-text"></p>
+                    </div>
+                </section>
 
             </main>
             <footer>
 
             </footer>
+            <script src="script.js"></script>
         </body>
     </html>
     
