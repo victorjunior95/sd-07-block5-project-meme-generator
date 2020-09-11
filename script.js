@@ -35,3 +35,27 @@ image4.addEventListener('click', function(){
     let imagem = document.getElementById('meme-image');
     imagem.src = image4.src;
 })
+
+let fire = document.getElementById('fire');
+fire.addEventListener('click', function() {
+    let imagem = document.getElementById('meme-image');
+    imagem.style.border = "3px dashed rgb(255, 0, 0)";
+})
+
+let whater = document.getElementById('whater');
+whater.addEventListener('click', function() {
+    let imagem = document.getElementById('meme-image');
+    imagem.style.border = "5px double rgb(0, 0, 255)";
+})
+
+let earth = document.getElementById('earth');
+earth.addEventListener('click', function() {
+    let imagem = document.getElementById('meme-image');
+    imagem.style.border = "6px groove rgb(0, 255, 0)";
+})
+
+let clear = document.getElementById('clear');
+clear.addEventListener('click', function(){
+    let imagem = document.getElementById('meme-image');
+    imagem.style.border = "0px solid rgb(0, 0, 0)";
+})
