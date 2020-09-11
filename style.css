@@ -13,9 +13,12 @@ O texto do elemento meme-text deve ter a fonte com o tamanho de 30 pixels;
 O texto do elemento meme-text deve estar na cor branca; */
 
 #meme-text {
-    width: 400px;
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    text-align: center;
+    width: 80%;
     height: 60px;
-    margin: auto;
     text-shadow: 5px 5px 5px black;
     font-size: 30px;
     color: white;
@@ -24,6 +27,11 @@ O texto do elemento meme-text deve estar na cor branca; */
 }
 
 #meme-image {
-    /* width: 500px;
-    height: 500px; */
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+}
+
+#meme-image-container {
+    position: relative;
 }
