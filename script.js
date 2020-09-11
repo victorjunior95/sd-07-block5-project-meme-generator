@@ -15,4 +15,6 @@ function readImage() {
         };
         file.readAsDataURL(this.files[0])
     }
-} document.getElementById("meme-insert").addEventListener("change", readImage, false);
+} 
+
+document.getElementById("meme-insert").addEventListener("change", readImage, false);
