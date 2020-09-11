@@ -3,7 +3,7 @@
     height: 25em;
     position: relative;
     background-color: rgb(255, 255, 255);
-    border: 5px rgb(0, 0, 0) solid;
+    border: 1px rgb(0, 0, 0) solid;
     margin-top: 2%;
 }
 #meme-image {
