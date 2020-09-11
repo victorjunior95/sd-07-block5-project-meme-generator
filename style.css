@@ -1,8 +1,14 @@
 .meme-text {
-  display: inline-block;
   position: absolute;
+  left: 30px;
+  z-index: 2;
 }
 
 .meme-image-container {
   position: relative;
+}
+
+img {
+  position: absolute;
+  z-index: 0;
 }
