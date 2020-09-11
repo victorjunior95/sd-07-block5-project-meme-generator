@@ -3,20 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
         <title>Meme generator</title>
     </head>
     <body>
         <h1>Gerador de meme pastelão</h1>
         <section> 
-            <span>Texto</span>
-            <input type="text" id="text-input" maxlength="60"></br>
+            <span>Texto:</span>
+            <input type="text" id="text-input" maxlength="60" placeholder="Digite aqui"></br>
+            <span>Imagem:</span>
+            <input type="file"></br>
             <div id="meme-image-container">
                 <img id="meme-image">
                 <p id="meme-text"></p>
             </div>
         
         </section>
-
+        <script src="script.js"></script>
     </body>
 </html>
