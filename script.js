@@ -1,5 +1,9 @@
 // Arquivo com os scripts da página
 
-let textoMeme = document.getElementsByTagName("input")[0].innertext
-console.log(textoMeme);
+let textMeme = document.getElementById("text-input").innertext;
+console.log(textMeme);
 
+
+
+
+// URL.createObjectURL(event.target.files[0]); 
