@@ -1,1 +1,17 @@
 /* Arquivo dos estilos CSS */
+
+body {
+    color: blue;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(253, 251, 251);
+    /*margin: 35px;*/
+}
+
+#divTest {
+    background-color: rgb(150, 175, 175);
+}
+
+#meme-image-container {
+    background-color: aqua;
+}
