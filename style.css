@@ -56,32 +56,37 @@ button {
 }
 
 .meme-1 {
-  background-image: url('./imgs/meme1.png');
+  background-image: url("./imgs/meme1.png");
+  left: 10px
+  position: relative;
 }
 
 .meme-2 {
-  background-image: url('./imgs/meme2.png');
+  background-image: url("./imgs/meme2.png");
+  position: relative;
 }
 
 .meme-3 {
-  background-image: url('./imgs/meme3.png');
+  background-image: url("./imgs/meme3.png");
+  position: relative;
 }
 
 .meme-4 {
-  background-image: url('./imgs/meme4.png');
+  background-image: url("./imgs/meme4.png");
+  position: relative;
 }
 
 .border-button {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .text-input {
-    display: inline-block;
-    margin-top: 100px;
-    width: 340px;
+  display: inline-block;
+  margin-top: 100px;
+  width: 340px;
 }
 
 .meme-insert {
-    display: block;
-    margin-top: 10px;
+  display: block;
+  margin-top: 10px;
 }
