@@ -1,11 +1,11 @@
 * {
    font-family: Arial, sans-serif;
 }
-img #output-meme {
+img#meme-image {
    background-size: cover;
    background-size: no-repeat;
 }
-#meme-image-container{
+#meme-image-container {
    position: relative;
 }
 #meme-text {
@@ -22,14 +22,14 @@ img #output-meme {
    
 }
 
-#meme-image-container{
+#meme-image-container {
    background-color: white;
    border: black solid 1px;
    width: 600px;
    height: 500px;
 }
 
-#meme-image-container img{
+#meme-image-container img {
    width: 600px;
    height: 500px;
 }
