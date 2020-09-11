@@ -1,0 +1,47 @@
+.title {
+  text-align: center;
+  font-family: 'Grandstander', cursive;
+  background-color: pink;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 10px 40px;
+}
+
+.texts {
+  text-align: center;
+  font-family: 'Grandstander', cursive;
+  line-height: 24px;
+}
+
+#meme-insert {
+  border: 2px solid black;
+  border-radius: 4%;
+}
+
+.text-image {
+    margin-top: 50px;
+}
+
+.container {
+  border: 1px solid black;
+  background-color: white;
+  height: 500px;
+  width: 500px;
+  margin-left: 33%;
+  position: relative;
+}
+
+#meme-image {
+  height: 500px;
+  width: 500px;
+}
+
+#meme-text {
+  font-family: 'DM Mono', monospace;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  position: absolute;
+  bottom: 10px;
+}
