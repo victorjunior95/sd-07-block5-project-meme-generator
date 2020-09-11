@@ -10,13 +10,16 @@
 
 <body>
     <h1>Meme Generator!</h1>
-    <div id="meme-image-container" class="mouduraSite container">
+    
         <input type="text" id="text-input" maxlength="60" style="width:300px;">
-        <div id="meme-image">
-            <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
+        <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
+
+        <div id="meme-image-container">
             <img id="output" />
-        </div>
-    </div>
+            <h2 id="meme-text">Textoaqui</h2>
+          </div>    
+            
+    
     <script type="text/javascript" src="script.js"></script>
 </body>
 
