@@ -1,3 +1,9 @@
 #meme-text {
     position: absolute;
+    color: black;
+    font-size: 25px;
+    text-shadow:3px 3px cornflowerblue;
+}
+#meme-image {
+    size:35%;
 }
