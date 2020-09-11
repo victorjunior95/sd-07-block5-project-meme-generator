@@ -15,3 +15,23 @@ function insereImagem(event) {
 let memeInsert = document.querySelector('#meme-insert');
 memeInsert.addEventListener('change', insereImagem);
 
+let container = document.getElementById('meme-image-container');
+
+function bordaFire() {
+    container.style.border = "3px dashed red";
+}
+
+function bordaWater() {
+    container.style.border = "5px double blue";
+}
+
+function bordaEarth() {
+    container.style.border = "6px groove green";
+}
+
+let buttonFire = document.getElementById('fire');
+buttonFire.addEventListener('click', bordaFire);
+let buttonWater = document.getElementById('water');
+buttonWater.addEventListener('click', bordaWater);
+let buttonEarth = document.getElementById('earth');
+buttonEarth.addEventListener('click', bordaEarth);
