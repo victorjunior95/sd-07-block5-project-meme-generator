@@ -28,13 +28,13 @@ function prememef() {
     let memeImage = document.querySelector("#meme-image")
     console.log(event.target.id)
     switch (event.target.id) {
-        case "meme-1": memeImage.src = "/img/meme1.png"
+        case "meme-1": memeImage.src = "/imgs/meme1.png"
         break
-        case "meme-2": memeImage.src = "/img/meme2.png"
+        case "meme-2": memeImage.src = "/imgs/meme2.png"
         break
-        case "meme-3": memeImage.src = "/img/meme3.png"
+        case "meme-3": memeImage.src = "/imgs/meme3.png"
         break
-        case "meme-4": memeImage.src = "/img/meme4.png"
+        case "meme-4": memeImage.src = "/imgs/meme4.png"
         break
     }
 
