@@ -34,11 +34,8 @@ window.onload = function () {
     memeContainer.style.border = '6px groove green';
   });
 
-  function insertFamousMeme (path) {
-    auxPath = path.target.src
-    srcFamousMemes = auxPath.slice(auxPath.indexOf('/img'))
-    memeImage.src = srcFamousMemes
-    console.log(srcFamousMemes)
+  function insertFamousMeme (event) {
+    memeImage.src = event.target.src
   }
 
   for(let count = 0 ; count < famousMemes.length; count += 1) {
