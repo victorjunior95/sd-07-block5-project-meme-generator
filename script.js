@@ -12,7 +12,7 @@ window.onload = function(){
     //Criando evento da imagem
     inputImg.addEventListener("change", function(event){
         let imgMeme = document.getElementById("meme-image");
-        imgMeme.src = URL.createObjectURL(event.target.file[0]);
+        imgMeme.src = URL.createObjectURL(event.target.files[0]);
     })
 
 
