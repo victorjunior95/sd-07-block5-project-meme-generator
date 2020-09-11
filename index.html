@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander&family=DM+Mono&display=swap" rel="stylesheet">
+    <title>Meme Generator</title>
+  </head>
+  <body>
+    <header class="title">
+      <h1>Meme Generator</h1>
+    </header>
+    <section class="texts">
+      <div>
+          <p>Digite um texto para seu meme: <input type="text" id="text-input"></p>
+          <p>Escolha sua imagem: <input type="file" accept='#' id="meme-insert"></p>
+      </div>
+    </section>
+    <section class="text-image">
+      <div class="container" id="meme-image-container">    
+        <img id="meme-image">
+        <div id="meme-text"></div>
+      </div>  
+    </section>
+    
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
