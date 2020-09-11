@@ -4,6 +4,7 @@ body {
 
 #text-input {
   position: absolute;
+  margin-left: 5px;
 }
 
 #meme-image-container {
@@ -15,6 +16,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: white;
 }
 
 #meme-text {
