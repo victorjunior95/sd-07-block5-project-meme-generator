@@ -10,6 +10,19 @@ h1 {
   text-align: center;
 }
 
+.earth {
+  background-color: green;
+}
+
+.fire {
+  background-color: red;
+}
+
+.water {
+  background-color: blue;
+}
+
+
 .inputArea {
   margin: auto;
   text-align: center;
