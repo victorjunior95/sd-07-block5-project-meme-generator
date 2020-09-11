@@ -9,6 +9,9 @@ body{
 }
 
 #meme-text{
+  font-size: 30px;
+  color: white;
+  text-shadow: 5px 5px 5px #000000;
   position: absolute;
   z-index: 3;
   left: 0;
