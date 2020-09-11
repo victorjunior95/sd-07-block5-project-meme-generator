@@ -1,4 +1,9 @@
-#meme-image-container {
+@font-face {
+  font-family: Impact;
+  src:url(impact.ttf)
+}
+
+.imageContainer {
   position:relative;
   border: solid 1px;
   width: 500px;
@@ -14,7 +19,7 @@ img {
 }
 
 
-#meme-text {
+.memeText {
   position:absolute;
   text-align:center;
   width: 300;

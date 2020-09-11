@@ -1,6 +1,6 @@
 window.onload = function () {
   let img = document.querySelector('img')
-  let upload = document.querySelector('#meme-image')
+  let upload = document.querySelector('#meme-insert')
   let text = document.querySelector('#text-input')
   let memeText = document.querySelector('#meme-text')
   
