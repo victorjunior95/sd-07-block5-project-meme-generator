@@ -12,30 +12,38 @@
 
     <nav id="barra" class="barra">
         <h1 id="tituloPrincipla"> Gerador de memes </h1>
-
-        
     </nav>
 
     <h2 >Entrada de texto</h2>
 
         <div  class="painel1">
-            <input type="text" id="text-input" placeholder="Digite aqui" ></input>
-            
-        </div>
+            <input type="text" maxlength="60" id="text-input" placeholder="Digite aqui" ></input>
+        </div >
+        <div id="entradaImagens">
+          <h2>Insira sua imagem aqui</h2>
+          <input type="file" accept="image/" class="meme-insert" id="meme-insert">
+       </div>
 
     <section id="meme-image-container" class="sectionMeme">
-        <h2>IMAGEM</h2>
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.noticias.yahoo.com%2Fo-lokinho-meu-entenda-a-historia-por-tras-do-meme-sobre-faustao-224837548.html&psig=AOvVaw1Pd36HlGgAEAwcfIlmDQaI&ust=1599943214922000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjevor74esCFQAAAAAdAAAAABAD">
+        <div id="meme-text" >
+        </div>
         <section class="painel2">
-          <div id="meme-text" >
-          </div>
 
           <div id="meme-image">
 
           </div>
         </section>
+      
       </section>
+
+      <footer class="footer_caixa">
+        <div class="footer-conteiner">
+            <p class="footer_p">Feito por  <em><a href="https://www.linkedin.com/in/marcelo-viola//" target="_blank">Marcelo Ivan </a></em></p>
+                        
+        </div>
+    </footer>
       <script  type="text/javascript" src="script.js"></script>
+
   </body>
 
   
