@@ -8,14 +8,15 @@
 </head>
 <body>
   <h1>MEME GENERATOR</h1>
-  <form action="/action_page.php">
-    <label>Texto:</label>
-    <input type="text" maxlength="60" id="text-input">
-
-    <label>Fazer upload de imagem:</label>
-    <input type="file" id="meme-insert" accept="image/*">
-  </form>
-
+  <section class="inputs">
+    <form action="/action_page.php">
+      <label>Texto:</label>
+      <input type="text" maxlength="60" id="text-input">
+      <br>
+      <label>Fazer upload de imagem:</label>
+      <input type="file" id="meme-insert" accept="image/*">
+    </form>
+  </section> 
   <div id="meme-image-container" class="container">
     <img id="meme-image" class="meme-image">
     <p id="meme-text"></p>
