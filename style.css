@@ -1,11 +1,5 @@
-@font-face{
-  font-family:'impact';
-  src:url('impact.ttf')
-}
-
-
 #meme-image-container {
-  position:absolute;
+  position:relative;
   border: solid 1px;
   width: 500px;
   height: 400px ;
@@ -13,6 +7,11 @@
   margin-top: 20px;
 }
 
+img {
+  object-fit: contain;
+  width: 500px;
+  height: 400px;
+}
 
 
 #meme-text {
@@ -30,7 +29,3 @@
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-img {
-  width: 500px;
-  height: 400px;
-}
