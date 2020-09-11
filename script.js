@@ -22,6 +22,6 @@ window.onload = function(){
         let texto = document.getElementById('meme-text');
         texto.textContent = textMeme.value;
     }
-    textMeme.addEventListener('input', AdicionaTextoImg);
+    textMeme.addEventListener('keyup', AdicionaTextoImg);
 }
 
