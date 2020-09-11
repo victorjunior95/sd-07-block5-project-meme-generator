@@ -9,8 +9,22 @@ input {
 
 .fire {
   background-color: red;
-  margin-right: 50px;
   margin-left: 25px;
+  margin-right: 50px;
+}
+
+.meme-1 {
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.meme-2 {
+  margin-right: 20px;
+}
+
+.meme-3 {
+  margin-right: 20px;
 }
 
 .meme-image {
