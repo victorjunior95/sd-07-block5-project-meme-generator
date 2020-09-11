@@ -25,7 +25,9 @@
     border: 3px hidden;
     text-align: center;
     margin-top: -150px;
-    outline: 3px black;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+   
     
 }
 #fire{
