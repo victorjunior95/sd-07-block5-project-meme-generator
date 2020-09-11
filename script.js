@@ -19,9 +19,33 @@ window.onload = function() {
         memeText.innerText = textInput;
     }
 
+    // Function that apply border on meme-image-container
+    let applyBorder = function(event) {
+        let borderClassName = "default-border";
+        // define the class
+        switch(event.target) {
+            case fire:
+                borderClassName = "fire-border";
+                break;
+            case water:
+                borderClassName = "water-border";
+                break;
+            case earth:
+                borderClassName = "earth-border";
+                break;
+        }
+        // apply the class
+        document.getElementById("meme-image-container").className = borderClassName;
+    }
+
     // Get Element meme-insert and assign the event loadPhoto
     document.getElementById("meme-insert").addEventListener("change",loadPhoto);
     
     // Get Element meme-input and assign the event applyText
     document.getElementById("text-input").addEventListener("input",applyText);
+
+    // Get All buttons and assign the event applyBorder
+    for (let buttonElement of document.getElementsByTagName("button")) {
+        buttonElement.addEventListener("click",applyBorder);
+    }
 }

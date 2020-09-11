@@ -1,5 +1,5 @@
 #meme-image-container {
-    border: solid 1px black;
+    
     height: 300px;
     width: 300px;
     position: relative;
@@ -19,4 +19,41 @@
     width: 300px;
     word-wrap: break-word;
     bottom: 0px;
+}
+
+.default-border {
+    border: solid 1px black;
+}
+
+.fire-border {
+    border: 3px dashed red;
+}
+
+.water-border {
+    border: 5px double blue;
+}
+
+.earth-border {
+    border: 6px groove green;
+}
+
+.button {
+    width: 90px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.fire {
+    background-color: red;
+    color: yellow;
+}
+
+.water {
+    background-color: blue;
+    color: white;
+}
+
+.earth {
+    background-color: green;
+    color: brown;
 }
