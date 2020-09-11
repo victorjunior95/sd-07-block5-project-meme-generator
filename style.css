@@ -4,7 +4,7 @@
     height: 300px;
     border-style: solid;
     border-width: 1px;
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
     position: relative;
 }
 
@@ -25,9 +25,9 @@
     bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
-    text-shadow: 5px 5px 5px black;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
     font-size: 30px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .botao-borda{
