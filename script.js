@@ -5,6 +5,8 @@ textInput.addEventListener("input", function () {
   memeText.innerHTML = textInput.value;
 });
 
+//---------------------------------------------------------------------------
+
 let memeInsert = document.querySelector("#meme-insert");
 let memeImage = document.querySelector("#meme-image");
 
@@ -15,3 +17,24 @@ memeInsert.addEventListener("change", function (event) {
   };
 });
 
+//----------------------------------------------------------------------------
+
+let memeConteiner = document.querySelector("#meme-image-container");
+
+let buttonFire = document.querySelector("#fire");
+
+buttonFire.addEventListener("click", function () {
+  memeConteiner.style.border = "3px dashed red";
+});
+
+let buttonWater = document.querySelector("#water");
+
+buttonWater.addEventListener("click", function () {
+  memeConteiner.style.border = "5px double blue";
+});
+
+let buttonEarth = document.querySelector("#earth");
+
+buttonEarth.addEventListener("click", function () {
+  memeConteiner.style.border = "6px groove green";
+});
