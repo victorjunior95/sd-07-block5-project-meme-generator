@@ -17,9 +17,9 @@
 
 #meme-text {
   font-family: Impact;
-  font-size: 40px;
+  font-size: 30px;
   color: white;
-  text-shadow: 2px 2px 5px black;
+  text-shadow: 5px 5px 5px black;
   margin: 300px auto auto 10px;
   z-index: 2;
   position: absolute;
