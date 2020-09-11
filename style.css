@@ -2,6 +2,7 @@
   background-color: white;
   border: 1px solid black;
   height: 300px;
+  margin: 30px;
   width: 300px;
 }
 
@@ -12,13 +13,30 @@
 }
 
 .meme-text-class {
+  position: absolute;
   color: white;
   font-size: 30px;
   text-shadow: 5px 5px 5px black;
+  z-index: 1;
+  max-width: 300px;
+  text-align: center;
+  margin-top: 175px;
 }
 
-.meme-text-container {
-  position: absolute;
-  width: 250px;
-  z-index: 1;
+.button-fire {
+  background-color: red;
+  border: 3px dashed gray;
+  color: white;
+}
+
+.button-water {
+  background-color: blue;
+  border: 3px double gray;
+  color: white;
+}
+
+.button-earth {
+  background-color: green;
+  border: 3px groove gray;
+  color: white;
 }
