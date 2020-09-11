@@ -23,10 +23,13 @@
 #meme-image {
     display: none;
     position: absolute;
+    width: inherit;
+    height: inherit;
 }
 #meme-text {
     color: white;
     font-size: 30px;
     text-shadow: 5px 5px 5px black;
     font-family: monospace;
+    position: absolute;
 }
