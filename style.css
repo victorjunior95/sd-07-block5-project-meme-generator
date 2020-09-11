@@ -10,6 +10,7 @@
     margin-top: 30px;
     width: 500px;
     height: 250px;
+    position: relative;
 
     /* Default text */
     font-weight: bold;
@@ -23,6 +24,7 @@
     display: none;
     width: inherit;
     height: inherit;
+    position: absolute;
 }
 #meme-text {
     color: white;
