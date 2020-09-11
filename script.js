@@ -23,7 +23,6 @@ function loadMeme(event) {
 function applyText() {
   // get input text
   const textInput = document.getElementById('text-input').value;
-  console.log('textMeme');
   // put text on meme
   const memeText = document.getElementById('meme-text');
   memeText.innerText = textInput;
@@ -31,7 +30,7 @@ function applyText() {
 
 // Function that apply border on meme-image-container
 function applyBorder(event) {
-  let borderClassName = 'meme-image-container default-border';
+  let borderClassName = '';
   // define the class
   switch (event.target.id) {
     case 'fire':
@@ -43,6 +42,8 @@ function applyBorder(event) {
     case 'earth':
       borderClassName = 'meme-image-container earth-border';
       break;
+    default:
+      borderClassName = 'meme-image-container default-border';
   }
     // apply the class
   document.getElementById('meme-image-container').className = borderClassName;
