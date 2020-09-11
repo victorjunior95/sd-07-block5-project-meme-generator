@@ -1,9 +1,22 @@
 let inputText = document.getElementById("text-input");
 let text = document.getElementById("meme-text");
-let image = document.getElementById("meme-image");
+let inputImage = document.getElementById("meme-insert");
 
-function insertText (){
+
+inputText.addEventListener("keyup", function() {
     text.innerText = inputText.value;
-}
+});
 
-inputText.addEventListener("keyup", insertText);
+inputImage.addEventListener("change", function(event) {
+    let image = document.getElementById("meme-image");
+    image.src = URL.createObjectURL(event.target.files[0]);
+    image.onload = function() {
+        URL.revokeObjectURL(image.src);
+    }
+});
+
+
+
+
+
+
