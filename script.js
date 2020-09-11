@@ -6,7 +6,7 @@ function getText() {
 }
 
 let userText = document.getElementById('text-input');
-userText.addEventListener('keypress', getText);
+userText.addEventListener('keyup', getText);
 
 function getImage(event) {
   let memeInsert = document.getElementById('meme-insert');
