@@ -2,9 +2,7 @@
     height: 350px;
     width: 350px;
     border: 1px solid black;
-}
-#meme-image{
-    object-fit: contain;
+    background-color: white;
 }
 #meme-image-container #meme-text{
     text-align: center;
@@ -15,4 +13,11 @@
     height: 50px;
     font-weight: 900;
     text-transform: uppercase;
+}
+img{
+    height: 350px;
+}
+.cover{
+    width: 350px;
+    object-fit: cover;
 }
