@@ -9,7 +9,7 @@
 <body>
   <form>
     <label for="text-input">
-      <input type="text" name="text-input" id="text-input" maxlength="60" placeholder="Type here"></input>
+      <input oninput="showText();" type="text" name="text-input" id="text-input" maxlength="60" placeholder="Type here"></input>
     </label>
   </form>
   <br>
@@ -21,7 +21,7 @@
 
   <div id="meme-image-container" class="container-border">
     <div id="meme-text" class="custom-text"></div>
-    <div id="meme-image"></div>
+    <img id="meme-image" src="">
   </div>
   
 
