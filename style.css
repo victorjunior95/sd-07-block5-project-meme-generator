@@ -1,0 +1,16 @@
+.container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+.image {  
+  float: left;
+}
+
+.text {
+  position: absolute;
+  top: 325px;
+}

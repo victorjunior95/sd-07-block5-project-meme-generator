@@ -7,9 +7,14 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <input type="text" id="text-input">
-  <div id="meme-image-container">
-    <p id="meme-text"></p>
+  <header>
+    <h1>Bem vindo ao Meme Generator</h1>
+  </header>
+  <p>Texto:<input type="text" id="text-input"></p>
+  <p>Imagem: <input type="file" id="meme-insert"></p>
+  <div id="meme-image-container" class="container">
+    <img src="https://images.unsplash.com/photo-1599687266197-6c66c083b39c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="" id="meme-image" class="image">
+    <p id="meme-text" class="text"></p>
   </div>
   
   <script src="script.js"></script>
