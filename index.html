@@ -15,16 +15,17 @@
         <input type="text" placeholder="Digite algo..." id="text-input" maxlength="60">
         <button type="button" onclick="getInputValue();">ENVIAR</button><br><br>
 
-       <!-- <form action="">
-            <input type="image" id="meme-insert" name="image" onclick="getInputImage();">
-            <input type="submit">
-        </form>-->
+
+        <input type="file" accept="image/*" onchange="loadImage(event)">
+        <img id="meme-insert" />
+
+
 
     </div><br><br>
 
     <div id="meme-image-container">
         <p id="meme-text"></p>
-        <img src="" id="meme-image">
+        <img  id="meme-image"/>
     </div>
 
 
