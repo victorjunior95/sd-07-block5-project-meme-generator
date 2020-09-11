@@ -7,7 +7,7 @@
 #meme-image-container {
     border: 1px solid black;
     background-color: white;
-    margin-top: 30px;
+    margin: 30px;
     width: 500px;
     height: 250px;
     position: relative;
@@ -21,7 +21,6 @@
     font-family: monospace;
 }
 #meme-image {
-    display: none;
     width: 100%;
     height: 100%;
 }
