@@ -66,6 +66,17 @@ li+li {
   margin: 10px;
 }
 
+#meme-image {
+  background-color: white;
+}
+
+#meme-text {
+  color: white;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px black;
+}
+
+
 .pre {
   width: 150px;
   height: 350px;
