@@ -1,10 +1,47 @@
 h1{
     font-family: sans-serif;
-    color: rgb(red, green, blue)
+    color: rgb(250, 188, 60);
+    text-shadow: 3px 3px 1px black;
+    font-weight: bold;
 }
+
+a {
+    font-family: sans-serif;
+    color: rgb(241, 145, 67);
+    font-weight: bold;
+}
+#meme-text{
+    position: relative;
+    font-weight: bold;
+    text-align: left;
+    text-shadow: 2px 3px 5px black;
+    color: white;
+    font-family: Impact;
+    font-size: 50px;
+}
+
+#meme-image-container{
+    position: relative;
+}
+
 #inputs{
-    display: block;
+    display: inline-block;
 }
-#meme-image-container img{
-    background-image: url();
+#meme-insert{
+    object-fit: cover;
+    
+}
+
+#meme-text{
+    width: 730px;
+    text-align: right;
+    left: 10px;
+    bottom: 25px;
+    position: absolute;
+    font-weight: bold;
+    text-align: left;
+    text-shadow: 2px 3px 5px black;
+    color: white;
+    font-family: Impact;
+    font-size: 50px;
 }
