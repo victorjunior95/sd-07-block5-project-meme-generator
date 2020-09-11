@@ -5,8 +5,8 @@ let imagemPhoto = document.querySelector("#meme-image")
 
 
 text.addEventListener("keyup", function(){
-    textOnPhoto.innerText = text.value
+    return textOnPhoto.innerText = text.value
 })
 imagem.addEventListener("change", function(){
-    imagemPhoto.src = URL.createObjectURL(event.target.files[0])
+    return imagemPhoto.src = URL.createObjectURL(event.target.files[0])
 })
