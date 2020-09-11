@@ -8,8 +8,8 @@
 
 #meme-image {
     position: absolute;
-    width: 500px;
-    height: 400px;
+    width: inherit;
+    height: inherit;
 }
 
 #meme-text {
