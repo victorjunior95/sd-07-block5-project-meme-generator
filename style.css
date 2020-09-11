@@ -1,5 +1,5 @@
 #meme-image-container {
-  position: relative;
+  position: absolute;
   background-color: white;
   border-color: black;
   border-style: solid;
@@ -14,8 +14,8 @@
   z-index: 2;
 }
 #meme-image {
-  position: absolute;
+  position: relative;
+  margin: 0;
   width: auto;
   height: auto;
-  opacity: 0.5;
 }
