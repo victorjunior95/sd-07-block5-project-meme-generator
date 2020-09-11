@@ -35,4 +35,25 @@ var loadFile = function(event) {
       document.querySelector("#meme-image-container").style.border = "6px groove green"
 
   })
-//
+
+//colocando botao nos memes
+let meme1 = document.querySelector("#meme-1");
+meme1.addEventListener("click",function(){
+    document.getElementById('meme-image').src = "imgs/meme1.jpg";
+})
+
+let meme2 = document.querySelector("#meme-2");
+meme2.addEventListener("click",function(){
+    document.getElementById('meme-image').src = "imgs/meme2.jpg";
+})
+
+let meme3 = document.querySelector("#meme-3");
+meme3.addEventListener("click",function(){
+    document.getElementById('meme-image').src = "imgs/meme3.jpg";
+})
+
+let meme4 = document.querySelector("#meme-4");
+meme4.addEventListener("click",function(){
+    document.getElementById('meme-image').src = "imgs/meme4.jpg";
+})
+
