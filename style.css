@@ -19,6 +19,9 @@
     overflow: hidden;
     width: 500px;
     height: auto;
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+
 }
 
 #meme-text{
