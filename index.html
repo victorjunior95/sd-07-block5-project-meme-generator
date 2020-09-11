@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Meme Generator FabricioS</title>
-  </head>
-  <body>
-    <h1>Meme Generator</h1>
-    <p id="choose_box">
-      <label for="text-input">Texto: </label>
-      <input type="text" id="text-input" />
-      <label for="meme-insert">Foto: </label>
-      <input type="file" accept="image/*" id="meme-insert" />
-    </p>
-    <article id="meme-image-container">
-      <img id="meme-image" />
-      <p id="meme-text"></p>
-    </article>
-    <script src="script.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Meme Generator FabricioS</title>
+</head>
+
+<body>
+  <h1>Meme Generator</h1>
+  <p id="choose_box">
+    <label for="text-input">Texto: </label>
+    <input type="text" id="text-input" maxlength="60" />
+    <label for="meme-insert">Foto: </label>
+    <input type="file" accept="image/*" id="meme-insert" />
+  </p>
+  <article id="meme-image-container" class="memeImageContainer">
+    <img id="meme-image" class="memeImage" />
+    <p id="meme-text" class="memeText"></p>
+  </article>
+  <script src="script.js"></script>
+</body>
+
 </html>

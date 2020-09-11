@@ -1,25 +1,29 @@
-#meme-image-container {
-  position: relative;
+.memeImageContainer {
+  background: white;
+  border: 1px solid black;
   display: inline-block;
-  border: 2px solid black;
-  width: 400px;
   height: 400px;
+  position: relative;
+  width: 400px;
 }
+
 label {
-  margin: 3px;
   display: block;
+  margin: 3px;
 }
-#meme-text {
+
+.memeText {
+  font-size: large;
+  margin-left: 5px;
   position: absolute;
   text-align: left;
+  text-shadow: 5px 5px 5px black;
   top: 250px;
-  width: 80%px;
-  margin-left: 5px;
-  font-size: large;
-  width: 60%;
+  width: 80%;
 }
-#meme-image {
+
+.memeImage {
+  height: 400px;
   position: absolute;
   width: 400px;
-  height: 400px;
 }
