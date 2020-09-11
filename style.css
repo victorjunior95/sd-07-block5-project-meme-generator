@@ -11,6 +11,6 @@
 }
 
 .meme-container img{
-    height: 400px;
-    width: 400px;
+    height: inherit;
+    width: inherit;
 }
