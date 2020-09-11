@@ -11,7 +11,7 @@ function textoMeme() {
     memeTexto.innerText = naCaixa.value;
   });
 }
-    
+
 window.onload = function () {
   textoMeme();
-}
+};
