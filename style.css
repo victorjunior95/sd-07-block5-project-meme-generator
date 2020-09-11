@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@800&family=Kufam:wght@500&family=Ubuntu:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(95 , 75 , 102);
+}
+
+header {
+  background-color: rgb(167 , 173 , 198);
+  border-radius: 0 0 0 180%;
+  height: 80px;
+  margin-bottom: 40px;
+}
+
+.diferent-color {
+  color: rgb(135 , 151 , 175);
+  text-shadow: 0 0 3px rgb(0 , 0 , 0);
+}
+
+h1 {
+  text-align: right;
+  margin-right: 30px;
+  font-family: 'Grandstander', cursive;
+  color: rgb(86 , 102 , 122);
+  letter-spacing: 5px;
+  padding: 10px;
+}
+
+.total-container {
+  float: left;
+  width: 800px;
+  background-color: white;
+  margin-left: 40px;
+  padding: 15px;
+  background-color: rgb(95 , 75 , 102);
+  box-shadow: 0 0 3px rgb(255 , 255 , 255);
+}
+
+legend {
+  font-family: 'Kufam', cursive;
+  text-decoration: underline overline;
+  color: rgb(135 , 151 , 175);
+  font-size: larger;
+  margin-bottom: 10px;
+}
+
+.form-paragraph {
+  margin-bottom: 20px;
+  background-color: rgb(135 , 151 , 175);
+  padding: 5px;
+}
+
+label {
+  font-family: 'Ubuntu', sans-serif;
+  margin-left: 40px;
+  letter-spacing: 2px;
+}
+
+.box-input, .small-button-input {
+  border-radius: 10px;
+}
+
+.box-input {
+  background-color: rgb(44 , 19 , 32);
+  height: 25px;
+  border: none;
+}
+
+.small-button-input {
+  width: 115px;
+}
+
+.meme-right {
+  float: right;
+  margin-right: 40px;
+  background-color: rgb(44 , 19 , 32);
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+}

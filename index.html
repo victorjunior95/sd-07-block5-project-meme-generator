@@ -8,25 +8,32 @@
 </head>
 <body>
   <header>
-    <h1><span>Project</span> Meme Generator</h1>
+    <h1><span class="diferent-color">Project -</span> Meme Generator</h1>
   </header>
   
-  <form>
-    <label for="text-input">Insira o texto: </label>
-    <input type="text" name="meme-text" id="text-input" placeholder="Sou Tryber!">
-    <br>
-    <label for="">Carregue sua imagem <span>(imagem até 500kb)</span></label>
-    <br>
-    <input type="file" name="meme-figure" id="meme-insert">
-  </form>
-  
-  <section id="meme-image-container">
-    <div id="meme-image">
-      
-    </div>
-    <p id="meme-text"></p>
+  <section class="total-container">
+    <form>
+      <legend>Gerador de Memes</legend>
+      <p class="form-paragraph">
+        <label for="text-input">Insira o texto: </label>
+        <input type="text" name="meme-text" class="box-input" id="text-input" maxlength="60" size="35" placeholder="Sou Tryber!">
+      </p>
+      <p class="form-paragraph">
+        <label for="">Carregue sua imagem <span>(imagem até 500kb)</span></label>
+      </p>
+      <input type="file" name="meme-figure" class="small-button-input" id="meme-insert">
+    </form>
+    
+    <section id="meme-image-container">
+      <div id="meme-image">
+        
+      </div>
+      <p id="meme-text"></p>
+    </section>
   </section>
-  
+  <div class="meme-right">
+    <img src="./bg.jpg" alt="meme Moisés Tryber">
+  </div>
   
   <script src=""></script>
 </body>
