@@ -44,19 +44,19 @@ function loadImg(e){
     createImg()
   }
   let imgMeme = document.getElementById('meme-image');
-  let imgWidth, imgHeight;
 
   imgMeme.src = URL.createObjectURL(e.target.files[0]);
   imgMeme.onload = function(){
     URL.revokeObjectURL(imgMeme.src);
-
-    imgWidth = imgMeme.width + 'px';
-    imgHeight = imgMeme.height + 'px';
   }
-  console.log(imgHeight + ' ' + imgWidth);
-  containerMeme.width = imgWidth;
-  containerMeme.height = imgHeight;
-  //console.log(imgWidth + '  ' + imgHeight);
+
+  imgMeme.addEventListener('load', resizeDiv);
+}
+
+function resizeDiv(e){
+  let heightImg = e.path[0].clientHeight + 'px';
+
+  containerMeme.style.height = heightImg;
 }
 
 function fillText(e){
