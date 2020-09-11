@@ -17,4 +17,4 @@ textColor.addEventListener('change', function () {
 });
 
 const memeInsert = document.getElementById('meme-insert');
-memeInsert.addEventListener('change',loadFile);
+memeInsert.addEventListener('change', loadFile);
