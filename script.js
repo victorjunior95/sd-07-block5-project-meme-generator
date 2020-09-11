@@ -14,5 +14,4 @@ function textoMeme() {
 
 window.onload = function () {
   textoMeme();
-  imagemMeme(event);
 };
