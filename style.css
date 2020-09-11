@@ -43,14 +43,13 @@ input {
 }
 
 .meme-text {
-  bottom: 0;
+  bottom: 1px;
   color: white;
   font-family: Impact, sans-serif;
   font-size: 30px;
   left: 5px;
   position: absolute;
   text-shadow: black 5px 5px 5px;
-  z-index: 1;
 }
 
 .water {
