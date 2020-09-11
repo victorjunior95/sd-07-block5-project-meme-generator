@@ -3,6 +3,16 @@ input {
   margin-top: 2px;
 }
 
+.earth {
+  background-color: green;
+}
+
+.fire {
+  background-color: red;
+  margin-right: 50px;
+  margin-left: 25px;
+}
+
 .meme-image {
   height: 249px;
   position: absolute;
@@ -27,4 +37,9 @@ input {
   position: absolute;
   text-shadow: black 5px 5px 5px;
   z-index: 1;
+}
+
+.water {
+  background-color: blue;
+  margin-right: 50px;
 }
