@@ -10,10 +10,6 @@
     margin-right: 5px;
 }
 
-.button{
-    margin-left: 5px;
-}
-
 #text-input {
     width: 25%;
     margin-left: 5px;
@@ -26,8 +22,8 @@
 
 #meme-image-container {
     position: relative;  
-    border: 2px solid #000000; 
-    background-color: rgb(233, 188, 188);
+    border: 1px solid #000000; 
+    background-color: white;
     width: 450px;
     height: 450px;
 }
