@@ -5,4 +5,4 @@ window.onload = function () {
   textInput.addEventListener('keyup', function () {
     memeText.innerText = textInput.value;
   });
-}
+};
