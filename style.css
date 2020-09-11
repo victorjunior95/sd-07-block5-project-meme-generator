@@ -43,7 +43,7 @@ input{
     top: 15px;
     border: dotted white 1px;
     color: white;
-    text-shadow: black;
+    text-shadow: 5px, 5px, 5px;
     font-size: 30px;
     word-wrap: break-word;
     text-align: center;
