@@ -9,7 +9,12 @@ window.onload = function () {
   });
 
   memeInsert.addEventListener('change', function () {
-    memeImage.src = memeInsert.files[0].name;
+    // codigo abaixo tirei como referecia da Seção Dicas para mostrar a imagem
+    // https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded/27165977#27165977
+    memeImage.src = URL.createObjectURL(memeInsert.files[0]);
+    memeImage.onload = function () {
+      URL.revokeObjectURL(memeImage.src)
+    }
   });
 
 };
