@@ -1,0 +1,21 @@
+
+
+#text-input{
+    size: 20;
+}
+
+#meme-image-container{
+  width: 600px;
+  height: 600px;
+  background-color: white;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+#meme-text{
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
+    font-family: Impact;
+    font-weight: bold;
+}
