@@ -18,7 +18,7 @@ function clearBorderTemplate() {
 const btnInputImage = document.querySelector('#meme-insert')
 const textInput = document.querySelector('#text-input')
 const imgMeme = document.querySelector('#imgmeme')
-const textMeme = document.querySelector('#text-content')
+const textMeme = document.querySelector('#meme-text')
 const buttonFire = document.querySelector('#fire')
 const buttonWater = document.querySelector('#water')
 const buttonEarth = document.querySelector('#earth')
