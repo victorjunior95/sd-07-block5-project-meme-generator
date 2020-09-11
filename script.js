@@ -6,8 +6,11 @@ inputText.addEventListener("keyup", ()=>{
     memeText.innerHTML = inputText.value
 })
 
+
+
+// Reference: https://codepen.io/dsr/pen/abOmGZp
 function printIMG(event){
-    if(event.target.files.lenght > 0){
+    if(event.target.files.length > 0){
         let src = URL.createObjectURL(event.target.files[0])
         memeImage.src = src
     }
