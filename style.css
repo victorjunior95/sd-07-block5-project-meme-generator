@@ -19,7 +19,8 @@ header h1 {
   height: 500px;
   background-color: white;
   border: 1px solid black;
-  position: relative; 
+  position: relative;
+  box-sizing: border-box;
 }
 
 #meme-image-container p {
@@ -44,4 +45,36 @@ footer {
   left: 0;
   right: 0;
   text-align: center;
+}
+
+#button {
+  text-align: center;
+  width: 500px;
+}
+
+button {
+  width: 100px;
+  margin: 10px 15px;
+  font-size: 2em;
+  text-shadow: 0 0 6px black;
+  padding: 10px;
+  outline-style: none;
+}
+
+#fire {
+  background-color: red;
+  border-radius: 8px;
+  border: none;
+}
+
+#water {
+  background-color: blue;
+  border-radius: 8px;
+  border: none;
+}
+
+#earth {
+  background-color: green;
+  border-radius: 8px;
+  border: none;
 }
