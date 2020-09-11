@@ -7,12 +7,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <input type="text" name="" id="text-input">
-    <input type="file" id="meme-insert" name="img" accept="image/*">
-    <section>
-        <div class="meme-text"></div>
-        <!-- <img src="" alt="" id="meme-image"> -->
-    </section>
+
+    <div class="container">
+        <input type="text" name="" id="text-input">
+        <input type="file" id="meme-insert" name="img" accept="image/*" onchange="printIMG(event)">
+        <div>
+            <div class="meme-text"></div>
+            <img src="" alt="" id="meme-image">
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
