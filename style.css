@@ -79,13 +79,13 @@ p {
 }
 
 .button#fire {
-  background-color: rgb(180, 33, 33);
+  background-color: rgb(255, 0, 0);
 }
 .button#water {
-  background-color: rgb(33, 48, 180);
+  background-color: rgb(0, 0, 255);
 }
 .button#earth {
-  background-color: rgb(33, 180, 40);
+  background-color: rgb(0, 128, 0);
 }
 
 .sample-img {

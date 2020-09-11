@@ -37,7 +37,7 @@ textInput.addEventListener('input', () => {
 });
 
 buttonFire.addEventListener('click', () => {
-  buttonFire.style.border = '5px ridge rgb(250, 33, 33)';
+  buttonFire.style.border = '5px ridge rgb(255, 0, 0)';
   canvasMeme.style.border = '3px dashed red';
   buttonWater.style.border = '';
   buttonEarth.style.border = '';
@@ -46,7 +46,7 @@ buttonFire.addEventListener('click', () => {
 buttonWater.addEventListener('click', () => {
   buttonFire.style.border = '';
   canvasMeme.style.border = '5px double blue';
-  buttonWater.style.border = '5px ridge rgb(33, 48, 250)';
+  buttonWater.style.border = '5px ridge rgb(0, 0, 255)';
   buttonEarth.style.border = '';
 })
 
@@ -54,7 +54,7 @@ buttonEarth.addEventListener('click', () => {
   buttonFire.style.border = '';
   canvasMeme.style.border = '6px groove green';
   buttonWater.style.border = '';
-  buttonEarth.style.border = '5px ridge rgb(33, 250, 40)';
+  buttonEarth.style.border = '5px ridge rgb(0, 128, 0)';
 })
 
 meme1Button.addEventListener('click', () => {setSrcTemplate(meme1Button, imgMeme)
