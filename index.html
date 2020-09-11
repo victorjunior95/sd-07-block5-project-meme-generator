@@ -7,28 +7,34 @@
     <title>Projeto Meme Generator</title>
   </head>
   <body>
-    <div>
+    <header>
       <h1>MEME GENERATOR</h1>
+    </header>
+    <main>
       <div>
         <label for="texto">Texto: </label>
-        <input type="text" name="Insira o texto" id="text-input" maxlength="60" />
+        <input
+          type="text"
+          name="Insira o texto"
+          id="text-input"
+          maxlength="60"
+        />
       </div>
       <div>
         <label for="foto">Foto: </label>
-        <input type="file" name="Escolha o arquivo" id="meme-image" />
+        <input type="file" name="Escolha o arquivo" id="meme-insert" />
       </div>
-      <div id="mem-image-container">
+      <figure id="meme-image-container">
+        <img src="" alt="" id="meme-image" />
         <div id="meme-text"></div>
+      </figure>
+      <div>Estilos customizados:</div>
+      <div class="items-grid">
+        <li class="fire">Fire</li>
+        <li class="water">Water</li>
+        <li class="earth">Earth</li>
       </div>
-      <div>
-      Estilos customizados:
-      </div>
-      <div>
-        <span>Fire</span> <span>Water</span> <span>Earth</span>
-      </div>
-      <div>
-        Memes pré prontos
-      </div>
-    </div>
+      <div>Memes pré prontos</div>
+    </main>
   </body>
 </html>
