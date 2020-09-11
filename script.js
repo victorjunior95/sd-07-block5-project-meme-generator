@@ -6,8 +6,10 @@ elementH1.innerHTML = "MEME GENERATOR";
 elementHeader.appendChild(elementH1);
 
 let textImput = document.getElementById("text-imput");
+let memeText = socument.getElementById("meme-text")
+
 textImput.addEventListener("keyup", function () {
-    document.getElementById("meme-text").innerText = textImput.value;
+    memeText.innerText = textImput.value
 })
 
 
