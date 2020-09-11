@@ -7,9 +7,17 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <input type="text" id="text-input" maxlength="60" placeholder="Type here"></input>
+  <form>
+    <label for="text-input">
+      <input type="text" name="text-input" id="text-input" maxlength="60" placeholder="Type here"></input>
+    </label>
+  </form>
   <br>
-  <input type="file" id="meme-insert"></input>
+  <form>
+    <label for="meme-insert">
+      <input name="meme-insert" type="file" id="meme-insert"></input>
+    </label>
+  </form>
 
   <div id="meme-image-container" class="container-border">
     <div id="meme-text"></div>
