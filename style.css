@@ -1,49 +1,48 @@
 .button {
-  width: 150px;
   height: 100px;
+  width: 150px;
 }
 
 .buttonStyle , .sample-images {
+  margin-bottom: 10px;
   margin-top: 10px;
   text-align: center;
   width: 500px;
-  margin-bottom: 10px;
 }
 
-.img-sample{
-  width: 100px;
-  height: 100px;
+.img-sample {
   display: inline-block;
+  height: 100px;
+  width: 100px;
 }
 
 .meme-image , img {
-  width: 500px;
   height: 500px;
+  width: 500px;
 }
 
 .meme-image-container {
-  width: 500px;
-  height: 500px;
+  background-color: white;
   border: 1px solid black;
+  height: 500px;
   margin-top: 10px;
   position: relative;
-  background-color: white;
+  width: 500px;
 }
 
 .meme-text {
-  position: absolute;
-  width: 500px;
-  height: 150px;
-  top: 250px;
-  border: 1px solid blue;
   color: white;
-  text-shadow: 5px 5px 5px black;
   font-size: 30px;
+  height: 150px;
+  position: absolute;
   text-align: center;
+  text-shadow: 5px 5px 5px black;
+  top: 250px;
+  width: 500px;
 }
 
 .text-input {
-  width: 450px;
   margin-bottom: 10px;
   margin-top: 10px;
+  width: 450px;
 }
