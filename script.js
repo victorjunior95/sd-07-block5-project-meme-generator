@@ -6,7 +6,11 @@ entrada.addEventListener("change",function(){
     
 legenda.innerText = entrada.value; 
 console.log(legenda.innerText);
+    if(document.getElementById('meme-image').src ===undefined){
+    legenda.style.color = "black";
+    }
 })
+
 
 
 // Inserindo a imagem
@@ -18,6 +22,8 @@ var loadFile = function(event) {
       URL.revokeObjectURL(output.src) // free memory
     }
   };
+  console.log("fonte")
+  console.log(document.getElementById('meme-image').src)
 // colocando os botões
 
   let botao1 = document.querySelector("#fire");
@@ -39,21 +45,21 @@ var loadFile = function(event) {
 //colocando botao nos memes
 let meme1 = document.querySelector("#meme-1");
 meme1.addEventListener("click",function(){
-    document.getElementById('meme-image').src = "imgs/meme1.jpg";
+    document.getElementById('meme-image').src = "imgs/meme1.png";
 })
 
 let meme2 = document.querySelector("#meme-2");
 meme2.addEventListener("click",function(){
-    document.getElementById('meme-image').src = "imgs/meme2.jpg";
+    document.getElementById('meme-image').src = "imgs/meme2.png";
 })
 
 let meme3 = document.querySelector("#meme-3");
 meme3.addEventListener("click",function(){
-    document.getElementById('meme-image').src = "imgs/meme3.jpg";
+    document.getElementById('meme-image').src = "imgs/meme3.png";
 })
 
 let meme4 = document.querySelector("#meme-4");
 meme4.addEventListener("click",function(){
-    document.getElementById('meme-image').src = "imgs/meme4.jpg";
+    document.getElementById('meme-image').src = "imgs/meme4.png";
 })
 
