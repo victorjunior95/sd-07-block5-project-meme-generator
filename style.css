@@ -1,0 +1,49 @@
+#box-text {
+    display: flex;
+}
+
+#file {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.button{
+    margin-left: 5px;
+}
+
+#text-input {
+    width: 25%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 6px;
+    border: 2px solid black;
+}
+
+#meme-image-container {
+    position: relative;  
+    border: 2px solid #000000; 
+    background-color: rgb(233, 188, 188);
+    width: 450px;
+    height: 450px;
+}
+
+#meme-text {
+    position: absolute;
+    font-size: 15px;
+    color: rgb(87, 78, 78);
+    top: 70%;
+    text-align: center;
+    
+}
+
+#meme-image {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    
+}
