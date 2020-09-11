@@ -9,7 +9,7 @@ const loadFile = function (event) {
 /* --------------------------------------------------------- */
 const textInput = document.getElementById('text-input');
 textInput.addEventListener('keyup', function () {
-  document.getElementById('meme-text').innerText = textInput.value;
+  document.getElementById('meme-text').innerHTML = textInput.value;
 });
 
 const memeInsert = document.getElementById('meme-insert');

@@ -2,8 +2,8 @@
   background-color: white;
   border: 1px solid black;
   height: 350px;
-  width: 350px;
   position: relative;
+  width: 350px;
 }
 
 .meme-text {
@@ -12,6 +12,7 @@
   font-size: 30px;
   font-weight: 900;
   height: 50px;
+  left: 0;
   position: absolute;
   text-align: center;
   text-shadow: black 5px 5px 5px;
@@ -57,28 +58,27 @@ button {
 }
 
 .meme-1 {
-  background-image: url("./imgs/meme1.png");
+  background-image: url('./imgs/meme1.png');
   position: absolute;
   top: 25px;
 }
 
 .meme-2 {
-  background-image: url("./imgs/meme2.png");
+  background-image: url('./imgs/meme2.png');
   left: 90px;
   position: absolute;
   top: 25px;
 }
 
 .meme-3 {
-  background-image: url("./imgs/meme3.png");
+  background-image: url('./imgs/meme3.png');
   left: 180px;
   position: absolute;
   top: 25px;
-  
 }
 
 .meme-4 {
-  background-image: url("./imgs/meme4.png");
+  background-image: url('./imgs/meme4.png');
   left: 270px;
   position: absolute;
   top: 25px;
@@ -100,5 +100,5 @@ button {
 }
 
 .images-upload {
-    position: relative;
+  position: relative;
 }
