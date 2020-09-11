@@ -19,14 +19,14 @@ let loadFile = function(event) {
   buttonGreen.addEventListener("click", function() {
     // console.log()
     memeContainer.className = "earth-border";
-  })
+  });
 
   const buttonRed = document.getElementById("fire");
   buttonRed.addEventListener("click", function() {
     memeContainer.className = "fire-border";
-  })
+  });
 
   const buttonBlue = document.getElementById("water");
   buttonBlue.addEventListener("click", function() {
     memeContainer.className = "water-border";
-  })
+  });
