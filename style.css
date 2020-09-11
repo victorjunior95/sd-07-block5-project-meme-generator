@@ -54,3 +54,11 @@
     background-color: green;    
     color: white;
 }
+
+.mini-meme{
+    height: 100px;
+    width: 100px;
+    margin-top: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
