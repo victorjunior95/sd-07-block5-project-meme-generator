@@ -13,15 +13,15 @@
     </header>
     <section class="texts">
       <div>
-          <p>Digite um texto para seu meme: <input type="text" id="text-input" maxlength="60"></p>
+          <form>Digite um texto para seu meme: <input type="text" id="text-input" maxlength="60"></form>
           <p>Escolha sua imagem: <input type="file" accept="#" onchange="loadFile(event)" id="meme-insert"></p>
       </div>
     </section>
     <section class="text-image">
-      <div class="container" id="meme-image-container">    
-        <img id="meme-image">
-        <div id="meme-text">Lorem ipsum dolor sit amet consectetur adipisicing elit</div>
-      </div>  
+      <div class="container" id="meme-image-container">
+        <img class="meme-image" id="meme-image">
+        <div class="meme-text" id="meme-text"></div>
+      </div>
     </section>
 
     <footer>&copy;2020. Code by Vanessa Oliveira</footer>
