@@ -9,9 +9,9 @@
     height: 500px;
 }
 
-.meme-text {
+#meme-text {
     position: absolute;
-    top: 200px; 
-    left: 0; 
+    top: 400px; 
+    left: 20px; 
     z-index: 2;
 }
