@@ -1,0 +1,26 @@
+#meme-insert {
+   margin-top: 10px;
+   margin-left: 5px;
+   margin-bottom: 10px;
+}
+
+#meme-image-container {
+    border: solid 1px rgb(0 , 0 , 0);
+    width: 500px;
+    height: 400px;
+}
+
+#meme-text {
+    text-shadow: 5px 5px;
+    font-size: 30px;
+    color: rgb(255 , 255 , 255);
+    position: relative;
+    z-index: 1;
+}
+
+#meme-image {
+    background-color: rgb(255 , 255 , 255);
+    border: solid 1px rgb(0 , 0 , 0);
+    width: 500px;
+    height: 400px;
+}
