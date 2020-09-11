@@ -3,16 +3,23 @@
 }
 
 #meme-image-container {
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 300px;
   border: 1px solid black;
   margin-top: 30px;
 }
 
 #foto-meme {
-
+  width: 400px;
 }
 
 .container {
+  position: relative;
+}
 
+#text-meme {
+  bottom: 50px;
+  position: absolute;
+  text-align: center;
+  width: 375px;
 }
