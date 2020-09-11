@@ -11,3 +11,11 @@ function addText()
     memeText.innerText = textInput.value;
 }
 
+imageInput.addEventListener("change", loadImage);
+
+function loadImage(event) {
+    memeImage.src = URL.createObjectURL(event.target.files[0]);
+    memeImage.onload = function() {
+      URL.revokeObjectURL(memeImage.src);
+    }
+  };
