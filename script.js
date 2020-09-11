@@ -3,8 +3,8 @@ document.querySelector('#text-input').addEventListener('keyup', function () {
   document.querySelector('#meme-text').innerText = text;
 });
 
-document.querySelector('#meme-insert').addEventListener('change', function(event) {
-  let imageHere = document.querySelector('img');
+document.querySelector('#meme-insert').addEventListener('change', function (event) {
+  const imageHere = document.querySelector('#meme-image');
   imageHere.src = URL.createObjectURL(event.target.files[0]);
 });
-// essa função serve para gerar uma URL qualquer, assim a img não precisa estar na pasta
+// essa função serve para gerar uma URL qualquer como src, assim a img não precisa estar na pasta
