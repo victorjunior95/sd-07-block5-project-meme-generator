@@ -10,3 +10,4 @@ let image = document.querySelector("#meme-image")
 image.style.width = conteiner.style.width
 image.style.height = conteiner.style.height
 
+
