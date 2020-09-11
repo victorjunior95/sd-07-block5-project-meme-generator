@@ -13,7 +13,7 @@ a {
 #meme-image-container {
   background-color: white;
   position: relative;
-  border: 1px black;
+  border: 1px solid black;
 }
 
 #inputs {
