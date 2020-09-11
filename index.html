@@ -10,24 +10,23 @@
 <!-- Caixa de texto para legenda do meme -->
 
     <input maxlength="60" type="text" id= "text-input" class="caixa-texto" placeholder="Digite legenda do meme">
-    <br>
+    <br><br>
     
 
 <!-- Local para upload de imagem -->
 
-<input id="meme-insert" type="file" name="name"/>
+<input id="meme-insert" class="file-input" type="file" accept="image/*" onchange="loadFile(event)" name="name"/>
 
 <div id="container" >
+
     <div id ="meme-image-container">
-<img id= "meme-image" class="imagem">
+
+<img id= "meme-image" class="image">
+<h2 id="meme-text" class="meme-text"></h2> <!--falta colocar  o texto em cima da imagem-->
+
     </div>
-<h2 id="meme-text" class="meme-text"></h2>
+
 </div>
-
-
-
-
-
 
 
 

@@ -1,21 +1,28 @@
 .body{
-    background-color:blue;
+    background-color: green;
 }
 
 #container{
     width:  400px; 
     height: 400px;
-     background-color: green; /* trocar para white depois */
+    background-color:white; 
     border: 1px solid; 
 }
-.imagem{
-    width:  400px;
+/* #meme-image-container {
+    width:  400px; 
     height: 400px;
+} */
+.image{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    align: inline-block;
 }
 .meme-text{
     text-shadow: 5px 5px 5px black;
     font-size: 30 px;
     color: white;
+    align: inline-block;
 }
 
 
