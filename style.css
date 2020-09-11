@@ -3,22 +3,22 @@
   border-color: black;
   border-style: solid;
   border-width: 1px;
-  height: 100px;
+  height: 400px;
   position: relative;
-  width: 100px;
+  width: 400px;
 }
 
 .meme-text {
+  color: white;
+  font-size: 30px;
   position: absolute;
-}
-
-.meme-image {
-  position: absolute;
+  text-shadow: 5px 5px 5px;
 }
 
 .meme-image {
   border-color: aqua;
   border-style: dashed;
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  position: absolute;
+  width: 400px;
 }
