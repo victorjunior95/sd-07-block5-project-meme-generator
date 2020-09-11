@@ -1,0 +1,14 @@
+.container {
+    height: 400px;
+    width: 400px;
+    background-color: #f2f;
+    border: .3em solid black;
+    margin-top: 15px;
+    position: relative;
+}
+.container p{
+    position: absolute;
+}
+.input {
+    text-align: center;
+}
