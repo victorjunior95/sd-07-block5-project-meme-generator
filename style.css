@@ -2,3 +2,7 @@
   display: inline-block;
   position: absolute;
 }
+
+.meme-image-container {
+  position: relative;
+}
