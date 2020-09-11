@@ -35,7 +35,10 @@ window.onload = function () {
   });
 
   function insertFamousMeme (path) {
-    memeImage.src = path.target.src
+    auxPath = path.target.src
+    srcFamousMemes = auxPath.slice(auxPath.indexOf('/img'))
+    memeImage.src = srcFamousMemes
+    console.log(srcFamousMemes)
   }
 
   for(let count = 0 ; count < famousMemes.length; count += 1) {
