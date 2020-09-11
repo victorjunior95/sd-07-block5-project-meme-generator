@@ -6,7 +6,7 @@
     position: relative;
 }
 
-img {
+div img {
     position: absolute;
     width: 400px;
     height: 400px;
@@ -20,4 +20,21 @@ img {
     bottom: 0px;
     font-size: 30px;
     text-shadow: 5px 5px 5px black;
+}
+
+.red-button {
+    background-color: red;
+}
+
+.blue-button {
+    background-color: blue;
+}
+
+.green-button {
+    background-color: green;
+}
+
+.miniature-memes {
+    width: 100px;
+    height: 100px;
 }
