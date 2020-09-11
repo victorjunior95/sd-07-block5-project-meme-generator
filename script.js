@@ -76,7 +76,7 @@ function trocaMeme4() {
   memeImage.src = meme4.src;
 }
 
-// Input Output events 
+// Input Output events
 textInput.addEventListener('keyup', trocaTexto);
 memeInsert.addEventListener('change', trocaImagem);
 
