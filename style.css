@@ -5,6 +5,7 @@ h1 {
 }
 
 .buttons {
+  margin-bottom: 18px;
   margin-top: 18px;
   text-align: center;
 }
@@ -32,6 +33,10 @@ h1 {
   width: 300px;
 }
 
+.memesMenu {
+  text-align: center;
+}
+
 .memeText {
   color: white;
   font-size: 30px;
@@ -42,6 +47,11 @@ h1 {
   top: 115px;
   width: 290px;
   word-break: break-all;
+}
+
+.previewMemes {
+  height: 100px;
+  width: 100px;
 }
 
 .textInput {
