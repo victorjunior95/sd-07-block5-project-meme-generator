@@ -1,7 +1,6 @@
 const imageMeme = document.querySelector('#meme-image');
 const container = document.getElementById('meme-image-container');
 const text = document.querySelector('#text-input');
-const memeInsert = document.querySelector('#meme-insert');
 
 function insereTexto() {
   const textMeme = document.querySelector('#meme-text');
@@ -9,6 +8,8 @@ function insereTexto() {
 }
 
 text.addEventListener('input', insereTexto);
+
+const memeInsert = document.querySelector('#meme-insert');
 
 function insereImagem(event) {
   imageMeme.src = URL.createObjectURL(event.target.files[0]);
