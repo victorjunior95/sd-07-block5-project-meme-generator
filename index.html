@@ -12,15 +12,19 @@
 
     <div>
         <h1>MEME GENERATOR</h1>
-        <label for="texto">Texto:</label>
-        <input type="text" id="text-input" maxlength="60" name="texto"><br><br>
-        <label for="foto">Foto:</label>
-        <input type="image" id="" name="foto">
+        <input type="text" placeholder="Digite algo..." id="text-input" maxlength="60">
+        <button type="button" onclick="getInputValue();">ENVIAR</button><br><br>
+
+       <!-- <form action="">
+            <input type="image" id="meme-insert" name="image" onclick="getInputImage();">
+            <input type="submit">
+        </form>-->
 
     </div><br><br>
 
     <div id="meme-image-container">
-        <p id="meme-text">dddddddgggg</p>
+        <p id="meme-text"></p>
+        <img src="" id="meme-image">
     </div>
 
 

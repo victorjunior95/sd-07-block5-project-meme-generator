@@ -11,9 +11,9 @@
 #meme-text{
 
   font-size: 30px;
-  color: rgb(148, 44, 44);
-  /*text-shadow: 5px 5px;
-  box-shadow: 5px;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+
 
 }
 
