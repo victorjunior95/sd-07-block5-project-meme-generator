@@ -13,11 +13,21 @@
         <h2>Meme Generator</h2>
     </header>
     <div>Text to generate a meme: <input type="text" maxlength="60" id="text-input"></div>
+    <p>Images to select: </p>
+    <img id="image1" src="img/meme1.jpg" onclick="changeImage()">
+    <img id="image2" src="img/meme2.jpg">
+    <img id="image3" src="img/meme3.jpg">
+    <img id="image4" src="img/meme4.jpg">
+    <p>Or choose an image from your computer:</p>
     <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
     <div id="meme-image-container">
         <div id="meme-text"></div>
-        <img id="meme-image" />
+        <img id="meme-image">
     </div>
+
+    <span>FIRE</span>
+    <span>WHATER</span>
+    <span>EARTH</span>
 
     <script src="script.js"></script>
 </body>
