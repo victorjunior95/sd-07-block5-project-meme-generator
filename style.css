@@ -3,10 +3,13 @@
   border: 1px solid black;
 }
 
-#meme-text {
-  background-color: blue;
+.container {
+  margin: 10px 0;
 }
 
-.container {
-  width: 10px;
+.text-infrontof-image {
+  text-shadow: 5px 5px 5px black;
+  font-size: 30px;
+  color: white;
+  position: absolute;
 }
