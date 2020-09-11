@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
-#body{
+body{
     margin: 0;
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
@@ -15,18 +15,18 @@
     margin-top: 10px;
     
 }
-#meme-insert{
+.meme-insert{
     margin-top: 15px;
 }
 
-#container{
+.container{
     margin-top: 10px;
     /* border: 2px solid orange; */
     width: 500px;
     height: 600px;
 
 }
-#meme-image-container{
+.meme-image-container{
     position: relative;
     background-color: white;
     margin-top: 10px;
@@ -35,14 +35,14 @@
     height: 400px;
 
 }
-#meme-image{
+.meme-image{
     position: absolute;
     /* border: 2px solid blue; */
     width: 400px;
     height: 400px;
     z-index: 1;
 }
-#meme-text{
+.meme-text{
     position: absolute;
     top:80%;
     left:185px;
@@ -57,10 +57,10 @@
    
 
 }
-#styles{
+.label-styles{
     display: block;
 }
-#div-buttons{
+.div-buttons{
     margin-top: 10px;
 
     /* border: 2px solid blueviolet; */
@@ -69,11 +69,8 @@
     display: block;
 
 }
-#div-buttons button{
-    margin-top: 10px;
-}
 
-#preview-memes{
+.div-preview-memes{
     display: inline-block;
     text-align: left;
     margin-top: 25px;
@@ -82,13 +79,13 @@
     height: 110px;
     display: block;
 }
-#mini-memes{
+.label-mini-memes{
     display: block;
 }
-#meme-1,
-#meme-2,
-#meme-3,
-#meme-4{
+.meme1,
+.meme2,
+.meme3,
+.meme4{
     margin-top: 5px;
     margin-left: 10px;
     display: inline-block;
@@ -97,24 +94,25 @@
     height: 70px;
 }
 .buttons{
+    margin-top: 10px;
     width: 100px;
     height: 40px;
     margin-left: 10px;
     font-weight: 900;
     font-size: 20px;
 } 
-#fire{
+.fire{
     border: 3px dashed red;
     background-color: rgb(255, 0, 0);
 }
 
-#water{
+.water{
     border: 5px double blue;
     background-color: rgb(0, 0, 255);
 
 }
 
-#earth{
+.earth{
     border: 6px groove green; 
     background-color: rgb(0, 128, 0);
 
