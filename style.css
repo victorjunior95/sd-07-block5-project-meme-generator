@@ -1,9 +1,15 @@
 .bordercss {
-    border: 2px solid blueviolet;
+    border: 1px solid blueviolet;
     text-align: center;
+    background-color: white;
 }
 .borderradius {
     border-radius: 3%;
+}
+.imgContainer {
+    position: relative;
+    width: 500px;
+    height: 250px;
 }
 #meme-text {
     position: absolute;
@@ -12,9 +18,4 @@
     top: 50%;
     left: 5%;
 
-}
-.imgContainer {
-    position: relative;
-    width: 500px;
-    height: 250px;
 }
