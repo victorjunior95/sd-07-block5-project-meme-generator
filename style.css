@@ -6,3 +6,7 @@ h1 {
   margin-top: 50px;
   border: 15px solid red;
 }
+
+#meme-text {
+  position: absolute;
+}
