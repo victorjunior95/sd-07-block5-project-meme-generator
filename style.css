@@ -1,27 +1,69 @@
+.border-default {
+  border: 1px solid black;
+}
+
+.fire {
+  border: 5px dashed red;
+}
+
+.water {
+  border:5px double blue;
+}
+
+.earth {
+  border:5px groove green;
+}
+
 #meme-image-container {
-    position: relative;
-    background-color: white;
-    width: 500px;
-    height: 500px;
-    border: 1px solid black;
-    margin-top: 50px;
+  position: relative;
+  background-color: white;
+  width: 500px;
+  height: 500px;
+  margin-top: 50px;
 }
 
 #meme-text {
-    position: absolute;
-    font-family: 'Teko', sans-serif;
-    width: 400px;
-    height: 200px; 
-    text-align: center;
-    font-size: 30px;
-    color:white;
-    text-shadow: 5px 5px 5px black;
-    border: 1px solid black;
-    bottom: 0;
-    left: 50px;
+  position: absolute;
+  font-family: 'Teko', sans-serif;
+  width: 400px;
+  height: 200px; 
+  text-align: center;
+  font-size: 30px;
+  color:white;
+  text-shadow: 5px 5px 5px black;
+  bottom: 0;
+  left: 50px;
 }
 
 #meme-image {
-    width: 500px;
-    height: 500px;
+  width: 500px;
+  height: 500px;
+}
+
+.estilos button {
+  font-weight: bold;
+  width: 100px;
+  margin: 2em;
+}
+
+#fire {
+  background-color: red;
+  color: white;
+}
+
+#water {
+  background-color: blue;
+  color: white;
+}
+
+#earth {
+  background-color: green;
+  color: white;
+}
+
+.miniaturas img {
+  width: 100px;
+  height: 100px;
+  margin: 2em;
+  border: 1px solid black;
 }
