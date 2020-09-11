@@ -12,7 +12,7 @@ window.onload = function (){
     imgout.src=imgload.value;
   });
   document.querySelector('#earth').addEventListener('click',function (){
-    container.style.border = '6px goove green'
+    container.style.border = '6px groove green'
     console.log('erf')
   })
   document.querySelector('#water').addEventListener('click',function (){
