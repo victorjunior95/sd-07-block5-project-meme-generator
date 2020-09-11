@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Gerador de Memes</title>
 </head>
 <body>
-    <div id="meme-image-container">
-
+    <div class="top">
+        <h1>MEME GENERATOR</h1>
         <form>
-            <input type="text" id="text-input"><br>
+            <input type="text" id="text-input" maxlength="60"/><br>
+            <input type="file" id="meme-insert"/>
         </form>
-
-        <p id="meme-text"></p>
-
     </div>
+
+    <div id="meme-image-container">
+        <span id="meme-text"></span>
+        <img id="meme-image" alt="meme de imagem">
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

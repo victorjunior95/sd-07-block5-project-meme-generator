@@ -1,0 +1,34 @@
+#meme-image-container{
+
+  position: relative;
+  display: inline-block;
+  top: 3%;
+  left: 22%;
+  border-width: 6px;
+  border-style: solid;
+  border-color:  rgb(0, 0, 0);;
+  background-color: rgb(250, 250, 250);
+  width: 700px;
+  height: 400px;
+
+}
+#meme-image {
+
+  width: inherit;
+  height: inherit;
+}
+
+.top{
+
+  margin-left: 35%;
+}
+
+#meme-text {
+  position: absolute;
+  left: 35%;
+  top: 85%;
+  font-size: 40px;
+  white-space: normal;
+  color: azure;
+}
+
