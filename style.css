@@ -3,6 +3,14 @@
     margin: 20px ;
 }
 
+#meme-image{
+    margin-bottom: 20px;
+    
+}
+#meme-insert{
+    margin-left: 20px;
+}
+
 #meme-text{
     color: white;
     text-shadow: 5px 5px 5px black;
@@ -12,8 +20,7 @@
     left: 20px;
     bottom: 30px;
     margin: 20px;
-  position: relative; 
-  text-align: center; 
+    position: relative; 
 }
 
 #meme-image-container{
@@ -23,6 +30,7 @@
   width: 500px;
   height: 500px;
   background-color: white;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 #lugarImagem{
