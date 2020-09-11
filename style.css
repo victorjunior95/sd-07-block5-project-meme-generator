@@ -13,14 +13,15 @@ a {
 #meme-image-container {
   background-color: white;
   position: relative;
-  border: 1px solid black;
+
 }
 
 #inputs {
   display: inline-block;
 }
-#meme-insert {
+#meme-image {
   object-fit: cover;
+  border: 1px solid black;
 }
 
 #meme-text {

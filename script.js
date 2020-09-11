@@ -1,20 +1,11 @@
 let text = document.querySelector("#text-input")
 let textOnPhoto = document.querySelector("#meme-text")
-let imagem = document.querySelector("#image-insert")
+let imagem = document.querySelector("#meme-insert")
 let imagemPhoto = document.querySelector("#meme-image")
 
-function maxText(){
-    if(text.value.split('').length <= 60){
-        return text.value
-    }
-    else{
-        alert("O máximo é de 60 letras!")
-        return null
-    }
-}
 
 text.addEventListener("input", function(){
-    textOnPhoto.innerText = maxText()
+    textOnPhoto.innerText = text.value
 })
 imagem.addEventListener("input", function(){
     imagemPhoto.src = URL.createObjectURL(event.target.files[0])
