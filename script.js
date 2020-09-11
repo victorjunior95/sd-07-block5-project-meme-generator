@@ -3,12 +3,16 @@ let memeTextArea = document.getElementById('meme-text');
 let inputMemeImage = document.getElementById('meme-insert');
 let containerMeme = document.getElementById('meme-image-container');
 
+function createText(){
+
+}
+
 function createImg(){
   let imgMeme = document.createElement('img');
   imgMeme.id = 'meme-image';
   imgMeme.alt = 'Meme Image';
 
-  containerMeme.appendChild(imgMeme);
+  containerMeme.append(imgMeme);
 }
 
 function findImg(){
@@ -37,15 +41,15 @@ function loadImg(e){
 
 function fillText(e){
 
-  if( !findImg() ){
-    if(e.keyCode === 13){
+  if(e.keyCode === 13){
+    if( !findImg() ){
       console.log(inputMemeText.value);
       memeTextArea.innerText = inputMemeText.value;
+    }else{
+      memeTextArea.innerText = inputMemeText.value;
     }
-  }else{
-
-    console.log('oin');
   }
+
 }
 
 inputMemeText.addEventListener('keyup', fillText);
