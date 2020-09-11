@@ -1,20 +1,19 @@
 .meme-image {
-  width: 100%;
   height: 100%;
+  width: 100%;
 }
 
 .meme-image-container {
-  position: relative;
   background-color: rgb(255, 255, 255);
-  height: 300px;
-  width: 300px;
   border: solid 1px rgb(0, 0, 0);
+  height: 300px;
+  position: relative;
+  width: 300px;
 }
 
 .meme-text {
-  position: absolute;
-  font-size: 30px;
   color: rgb(255, 255, 255);
+  font-size: 30px;
+  position: absolute;
   text-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
-
