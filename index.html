@@ -6,36 +6,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meme Generator</title>
 
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <article>
+  <header>
     <h1>MEME GENERATOR</h1>
-    <p>
-      Digite o texto desejado que ficará sobre a imagem:
-      <input id="text-input" type="text" placeholder="Digite o texto desejado" maxlength="60">
-    </p>
+  </header>
 
-    <p>
-      Escolha o arquivo de imagem que será fundo do meme:
-      <input type="file" id="meme-insert" name="meme-insert">
-    </p>
+  <div id="center">
 
-    <section id="meme-image-container">
-      <div id="meme-image">
+    <article>
 
-      </div>
-
-      <p id="meme-text">
+      <p>
+        Digite o texto desejado que ficará sobre a imagem:
+        <input id="text-input" type="text" placeholder="Digite o texto desejado" maxlength="60">
       </p>
-    </section>
 
-  </article>
+      <p>
+        Escolha o arquivo de imagem que será fundo do meme:
+        <input type="file" id="meme-insert" name="meme-insert">
+      </p>
 
+      <section id="meme-image-container">
+        <div id="meme-image">
 
+        </div>
 
+        <p id="meme-text">
+        </p>
+      </section>
+
+    </article>
+
+  </div>
+
+  <footer>
+    &copy; Hercules Gabriel 🚀 Trybe
+  </footer>
+
+  <script src="script.js"></script>
 
 </body>
 
