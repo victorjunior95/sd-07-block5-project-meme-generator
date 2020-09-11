@@ -18,7 +18,7 @@ function printMessage(text) {
 let image = document.querySelector('#meme-insert');
 console.log(image);
 
-// change quando alterar o valor;
+// evento 'change' quando alterar o valor;
 
 image.addEventListener('change', function(event) {
   image = image.value;
