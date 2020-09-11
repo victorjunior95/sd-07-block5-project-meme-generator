@@ -13,7 +13,7 @@
   <section id="collect-data">
     <div> 
       <span>Put here a good phrase to make your gif more funny:</span>
-      <input type="text" id="text-input" placeholder="type here">
+      <input type="text" id="text-input" placeholder="type here" maxlength="60">
     </div>
     <div>
       <span>Chose here your image to your gif: </span>
@@ -22,18 +22,22 @@
   </section>
   <section id="show-data">
     <div id="meme-image-container">
-      <div id="meme-image">
-        <img id="image">
-      </div>
-      <div id="meme-text">
-        
+      <div id="meme-text"></div>
+        <div id="meme-image">
+          <img id="image">
+        </div>
       </div>
     </div>
   </section>
   <section id='buttonStyle'>
-    <button id='button1' type="submit">Border 1! WoW</button>
-    <button id='button2' type="submit">Border 2! lol</button>
-    <button id='button3' type="submit">Border 3! S2 You</button>
+    <button class='buttonStyle' id='fire' type="submit">Border 1! WoW</button>
+    <button class='buttonStyle' id='water' type="submit">Border 2! lol</button>
+    <button class='buttonStyle' id='earth' type="submit">Border 3! S2 You</button>
+  </section>
+  <section id='sample-images'>
+    <img class="img-sample" src="" alt="">
+    <img class="img-sample" src="" alt="">
+    <img class="img-sample" src="" alt="">
   </section>
   <script src="script.js"></script>
 </body>

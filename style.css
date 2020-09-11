@@ -15,12 +15,14 @@ img {
   border: 1px solid black;
   margin-top: 10px;
   position: relative;
+  background-color: white;
 }
 
-#buttonStyle {
+#buttonStyle, #sample-images {
   margin-top: 10px;
   text-align: center;
   width: 500px;
+  margin-bottom: 10px;
 }
 
 #meme-image {
@@ -34,8 +36,15 @@ img {
   height: 150px;
   top: 250px;
   border: 1px solid blue;
-  color: black;
-  text-shadow: black;
-  font-size: 17px;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+  font-size: 30px;
   text-align: center;
+}
+
+.img-sample {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+
 }
