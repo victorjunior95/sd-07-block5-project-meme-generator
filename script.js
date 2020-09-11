@@ -13,7 +13,7 @@ function maxText(){
     }
 }
 
-text.addEventListener("change", function(){
+text.addEventListener("input", function(){
     textOnPhoto.innerText = maxText()
 })
 imagem.addEventListener("input", function(){

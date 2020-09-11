@@ -13,6 +13,7 @@ a {
 #meme-image-container {
   background-color: white;
   position: relative;
+  border: 1px black;
 }
 
 #inputs {
@@ -24,7 +25,6 @@ a {
 
 #meme-text {
   width: 730px;
-  text-align: right;
   left: 10px;
   bottom: 25px;
   position: absolute;
