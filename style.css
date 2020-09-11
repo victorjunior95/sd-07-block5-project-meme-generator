@@ -2,6 +2,10 @@
   margin: 10px 0;
 }
 
+.disappear {
+  display: none;
+}
+
 .image-border {
   background-color: white;
   border: 1px solid black;
