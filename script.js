@@ -4,10 +4,7 @@ window.onload=function(){
     let botaoDois=document.getElementById('fire');
     let botaoTres=document.getElementById('earth');
     let conteinerImagem=document.getElementById('meme-image-container');    
-    let caixaDeTexto=document.getElementById('text-input');
-    
-    caixaDeTexto.value='My awesome meme'
-    
+        
     botaoUm.addEventListener('click', function(){
         conteinerImagem.style.borderColor='blue';
         conteinerImagem.style.borderWidth='5px';
