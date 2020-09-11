@@ -8,21 +8,32 @@
 </head>
 <body>
   <header>
-    !!!!Your GIF in one click only!!!!
+    <h1>!!!!Your GIF in one click only!!!!</h1>
   </header>
-  <section>
+  <section id="collect-data">
     <div> 
       <span>Put here a good phrase to make your gif more funny:</span>
       <input type="text" id="text-input" placeholder="type here">
     </div>
+    <div>
+      <span>Chose here your image to your gif: </span>
+      <input type="file" accept="image/*" name="insertimage" id="meme-insert">
+    </div>
+  </section>
+  <section id="show-data">
     <div id="meme-image-container">
       <div id="meme-image">
-
+        <img id="image">
       </div>
       <div id="meme-text">
         
       </div>
     </div>
+  </section>
+  <section id='buttonStyle'>
+    <button id='button1' type="submit">Border 1! WoW</button>
+    <button id='button2' type="submit">Border 2! lol</button>
+    <button id='button3' type="submit">Border 3! S2 You</button>
   </section>
   <script src="script.js"></script>
 </body>

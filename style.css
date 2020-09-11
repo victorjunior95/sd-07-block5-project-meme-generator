@@ -1,5 +1,12 @@
 #text-input {
   width: 450px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+img {
+  width: 500px;
+  height: 500px;
 }
 
 #meme-image-container {
@@ -7,19 +14,28 @@
   height: 500px;
   border: 1px solid black;
   margin-top: 10px;
+  position: relative;
+}
+
+#buttonStyle {
+  margin-top: 10px;
+  text-align: center;
+  width: 500px;
 }
 
 #meme-image {
   width: 500px;
   height: 500px;
-  border: 1px solid green;
-
 }
 
 #meme-text {
   position: absolute;
   width: 500px;
   height: 150px;
-  top: 350px;
+  top: 250px;
   border: 1px solid blue;
+  color: black;
+  text-shadow: black;
+  font-size: 17px;
+  text-align: center;
 }
