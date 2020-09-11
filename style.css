@@ -1,9 +1,9 @@
 #meme-text {
   position: absolute;
-  display: inline-block;
 
-  left: 100px;
-  top: 200px;
+  left: 270px;
+  top: 400px;
+
   z-index: 2;
 
   text-shadow: 5px 5px 5px black;
