@@ -27,18 +27,29 @@ h1 {
     background-color: rgb(26, 29, 28);
 }
 #meme-1 {
-    background-image: url(/img1.jpg);
+    background-image: url(/img/meme1.png);
     background-size: cover;
 }
 #meme-2 {
-    background-image: url(/img2.jpg);
+    background-image: url(/img/meme2.png);
     background-size: cover;
 }
 #meme-3 {
-    background-image: url(/img3.jpeg);
+    background-image: url(/img/meme3.png);
     background-size: cover;
 }
 #meme-4 {
-    background-image: url(/img4.jpg);
+    background-image: url(/img/meme4.png);
     background-size: cover;
+}
+
+#fire {
+    border: dashed 3px red;
+}
+#water {
+    border: double 5px blue;
+    margin: 10px;
+}
+#earth {
+    border: groove 6px green;
 }

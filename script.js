@@ -13,7 +13,7 @@ inputImg.addEventListener("change",imgUse)
 
 function imgUse(){
     console.log("funciona carai")
-    let memeTela = document.querySelector("#meme-image-container")
+    
 
     console.log(inputImg)
     let memeImage = document.querySelector("#meme-image")
@@ -28,18 +28,17 @@ function prememef() {
     let memeImage = document.querySelector("#meme-image")
     console.log(event.target.id)
     switch (event.target.id) {
-        case "meme-1": memeImage.src = "/img1.jpg"
+        case "meme-1": memeImage.src = "/img/meme1.png"
         break
-        case "meme-2": memeImage.src = "/img2.jpg"
+        case "meme-2": memeImage.src = "/img/meme2.png"
         break
-        case "meme-3": memeImage.src = "/img3.jpeg"
+        case "meme-3": memeImage.src = "/img/meme3.png"
         break
-        case "meme-4": memeImage.src = "/img4.jpg"
+        case "meme-4": memeImage.src = "/img/meme4.png"
         break
     }
 
 }
-
 
 let saidaTexto = document.getElementById('meme-text');
 function trocaTextoA () {
@@ -47,3 +46,25 @@ function trocaTextoA () {
     saidaTexto.innerText = caixaTexto.value;
   }
 saidaTexto.addEventListener('click', trocaTextoA);
+
+let fire = document.querySelector("#fire")
+fire.addEventListener("click", firefn)
+
+let water = document.querySelector("#water")
+water.addEventListener("click", waterfn)
+
+let earth = document.querySelector("#earth")
+earth.addEventListener("click", earthfn)
+
+function firefn(){
+    let memeTela = document.querySelector("#meme-image-container")
+    memeTela.style.border = "dashed 3px red"
+}
+function waterfn(){
+    let memeTela = document.querySelector("#meme-image-container")
+    memeTela.style.border = "double 5px blue"
+}
+function earthfn(){
+    let memeTela = document.querySelector("#meme-image-container")
+    memeTela.style.border = "groove 6px green"
+}
