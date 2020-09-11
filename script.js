@@ -4,9 +4,9 @@ let imagem = document.querySelector("#image-insert")
 let imagemPhoto = document.querySelector("#meme-insert")
 
 
-text.addEventListener("change", function(){
+text.addEventListener("input", function(){
     textOnPhoto.innerText = text.value
 })
-imagem.addEventListener("change", function(){
+imagem.addEventListener("input", function(){
     imagemPhoto.src = URL.createObjectURL(event.target.files[0])
 })

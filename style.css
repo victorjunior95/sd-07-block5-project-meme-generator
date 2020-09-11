@@ -1,0 +1,10 @@
+h1{
+    font-family: sans-serif;
+    color: rgb(red, green, blue)
+}
+#inputs{
+    display: block;
+}
+#meme-image-container img{
+    background-image: url();
+}
