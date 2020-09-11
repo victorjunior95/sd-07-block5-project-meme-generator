@@ -1,11 +1,5 @@
- #meme-image-container{
-    margin-top: 50px;
-}
-#meme-image, #meme-text{
-    position: absolute;
-}
+
 
 #meme-text{
-    margin-top: 375px;
-    margin-left: 125px;
-} 
+    position: absolute;
+}
