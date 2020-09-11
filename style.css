@@ -1,3 +1,15 @@
-#meme-txt {
+.image-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: solid 3px blue;
+}
+
+.meme-text {
     position: absolute;
+    word-break: break-word;
+    width: 88%;
+    height: 33%;
+    border: solid 2px green;
+    max-width: 100%;
 }
