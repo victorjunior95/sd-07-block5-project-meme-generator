@@ -1,0 +1,8 @@
+main{
+    width: 900px;
+    background-color: aquamarine;
+    box-shadow: 10px 5px 5px rgba(2, 70, 53, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
