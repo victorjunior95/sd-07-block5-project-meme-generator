@@ -14,4 +14,4 @@ const loadFile = function(event) {
   const textColor = document.getElementById('text-color');
   textColor.addEventListener('change',function(){
       document.getElementById('meme-text').style.color = textColor.value;
-  })
+  });
