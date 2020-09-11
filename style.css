@@ -1,14 +1,22 @@
 .container {
     height: 400px;
     width: 400px;
-    background-color: #f2f;
-    border: .3em solid black;
+    background-color: #f2f2f2;
+    border: .10px solid black;
     margin-top: 15px;
     position: relative;
-}
-.container p{
-    position: absolute;
-}
-.input {
+    display: inline-block;
     text-align: center;
+}
+#meme-image {
+    object-fit: cover;
+    height: 397px;
+    width: 397px;
+    border: .1px solid green;
+}
+#meme-text {
+    color: black;
+    font-weight: 700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
 }
