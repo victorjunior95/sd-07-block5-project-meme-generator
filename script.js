@@ -1,7 +1,17 @@
 function updateText(e) {
-  document.querySelector("#meme-image-container p").innerText = e.target.value;
+  document.querySelector('#meme-image-container p').innerText = e.target.value;
+}
+
+function updatePhoto(files) {
+  let img = document.querySelector('#meme-image');
+  var objectURL = window.URL.createObjectURL(files[0]);
+  img.src = objectURL;
+  img.onload = function(e) {
+    window.URL.revokeObjectURL(this.src);
+  }
 }
 
 document.body.onload = function () {
-  document.querySelector("#text-input").addEventListener("input", updateText);
+  document.querySelector('#text-input').addEventListener('input', updateText);
+  document.querySelector('#meme-insert').addEventListener('change', (e) => updatePhoto(e.target.files));
 };
