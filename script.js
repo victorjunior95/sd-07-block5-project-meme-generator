@@ -10,21 +10,27 @@ memeInsert.addEventListener('change', function(event){
     }
 })
 
-//Selecionando a miniatura 1
+//Selecionando a miniatura 1 para implementar evento
 let miniatura1 = document.querySelector('#miniatura1')
 miniatura1.addEventListener('click', function(event){
     imageInsert.src = event.target.src;
 })
 
-//Selecionando a miniatura 2
+//Selecionando a miniatura 2 para implementar evento
 let miniatura2 = document.querySelector('#miniatura2')
 miniatura2.addEventListener('click', function(event){
     imageInsert.src = event.target.src;
 })
 
-//Selecionando a miniatura 3
+//Selecionando a miniatura 3 para implementar evento
 let miniatura3 = document.querySelector('#miniatura3')
 miniatura3.addEventListener('click', function(event){
+    imageInsert.src = event.target.src;
+})
+
+//Selecionando a miniatura 4 para implementar evento
+let miniatura4 = document.querySelector('#miniatura4')
+miniatura4.addEventListener('click', function(event){
     imageInsert.src = event.target.src;
 })
 
