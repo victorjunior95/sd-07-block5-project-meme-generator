@@ -27,17 +27,17 @@ body {
 	margin-bottom: 15px;
 }
 
-.meme-image-container {
+#meme-image-container {
     position: relative;
 }
 
-.meme-image-container img {
+#meme-image-container img {
 	border-radius: 4px;
     width: 100%;
     height: 100%;
 }
 
-.meme-image-container p {
+#meme-image-container p {
     position: absolute;
     bottom: 50px;
     left: 25%;
