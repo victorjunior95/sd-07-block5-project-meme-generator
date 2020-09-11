@@ -1,7 +1,7 @@
 function updateText(e) {
-	document.querySelector('#meme-image-container p').innerText = e.target.value;
+  document.querySelector("#meme-image-container p").innerText = e.target.value;
 }
 
 document.body.onload = function () {
-	document.querySelector('#text-input').addEventListener('input', updateText);
-}
+  document.querySelector("#text-input").addEventListener("input", updateText);
+};

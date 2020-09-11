@@ -1,4 +1,4 @@
-html {
+html, body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -27,24 +27,34 @@ body {
   margin-bottom: 15px;
 }
 
-#meme-image-container {
-	background-color: white;
-	border: 1px solid black;
+.meme-container {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  height: 90%;
+  margin: 0 auto;
+  max-width: 500px;
+  max-height: 400px;
+  overflow: hidden;
   position: relative;
+  width: 90%;
 }
 
-#meme-image-container img {
-	border-radius: 4px;
-	height: 100%;
-	object-fit: contain;
+.meme-container img {
+  border-radius: 4px;
+  height: 100%;
+  object-fit: cover;
   width: 100%;
 }
 
-#meme-image-container p {
-  bottom: 50px;
+.meme-container p {
+  bottom: 20px;
   color: white;
-  font-size: 18px;
+  font-size: 30px;
   font-weight: 600;
-  left: 25%;
+  left: 25px;
+  margin: 0;
+  padding: 0;
   position: absolute;
+  text-shadow: 5px 5px 5px black;
 }
