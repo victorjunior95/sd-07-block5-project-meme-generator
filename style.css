@@ -1,7 +1,6 @@
 .meme-image-container {
   background-color: white;
   border: 1px solid black;
-  margin-left: 500px;
   height: 350px;
   width: 350px;
 }
@@ -12,7 +11,6 @@
   font-size: 30px;
   font-weight: 900;
   height: 50px;
-  left: 500px;
   position: fixed;
   text-align: center;
   text-shadow: black 5px 5px 5px;
@@ -58,17 +56,17 @@ button {
 }
 
 .meme-1 {
-  background-image: url(./imgs/meme-1.png);
+  background-image: url('./imgs/meme1.png');
 }
 
 .meme-2 {
-  background-image: url(./imgs/meme-2.png);
+  background-image: url('./imgs/meme2.png');
 }
 
 .meme-3 {
-  background-image: url(./imgs/meme-3.png);
+  background-image: url('./imgs/meme3.png');
 }
 
 .meme-4 {
-  background-image: url(./imgs/meme-4.png);
+  background-image: url('./imgs/meme4.png');
 }

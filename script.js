@@ -36,20 +36,20 @@ earthButton.addEventListener('click', function () {
 
 const memeOne = document.getElementById('meme-1');
 memeOne.addEventListener('click', function () {
-  document.getElementById('meme-image').src = './imgs/meme-1.png';
+  document.getElementById('meme-image').src = './imgs/meme1.png';
 });
 
 const memeTwo = document.getElementById('meme-2');
 memeTwo.addEventListener('click', function () {
-  document.getElementById('meme-image').src = './imgs/meme-2.png';
+  document.getElementById('meme-image').src = './imgs/meme2.png';
 });
 
 const memeThree = document.getElementById('meme-3');
 memeThree.addEventListener('click', function () {
-  document.getElementById('meme-image').src = './imgs/meme-3.png';
+  document.getElementById('meme-image').src = './imgs/meme3.png';
 });
 
 const memeFour = document.getElementById('meme-4');
 memeFour.addEventListener('click', function () {
-  document.getElementById('meme-image').src = './imgs/meme-4.png';
+  document.getElementById('meme-image').src = './imgs/meme4.png';
 });
