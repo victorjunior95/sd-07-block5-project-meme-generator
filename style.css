@@ -32,12 +32,16 @@
   margin: 30px;
   position: relative;
   width: 476px;
+  border: solid 1px black;
 }
 
 .meme-text {
+  font-size: 30px;
+  color: white;
   height: 100px;
   position: absolute;
   text-align: center;
+  text-shadow: 5px 5px 5px black;
   top: 200px;
   width: 400px;
 }
