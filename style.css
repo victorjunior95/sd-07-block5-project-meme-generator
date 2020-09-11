@@ -1,65 +1,59 @@
-.titulo{
-    color:white;
-    text-shadow: 5px 5px 5px black;
+.titulo {
     background-color: blueviolet;
-    width: 250px;
     border-radius: 50px;
-    text-align: center;
-}
-body{
-    margin-left:400px;
-    background-image: url("imgs/Fundo\ meme.png");
-}
-#meme-text {
-    position: absolute;
-    float:left;
-    bottom:30px;
+    color: white;
     text-shadow: 5px 5px 5px black;
-    color:white;
-    font-size: 30px;
-
-    
+    text-align: center;
+    width: 250px;
 }
 
-#meme-image-container{
-    width: 450px;
+body {
+    background-image: url("imgs/Fundo\ meme.png");
+    margin-left: 400px;
+}
+
+#meme-text {
+    bottom: 30px;
+    color: white;
+    float: left;
+    font-size: 30px;
+    position: absolute;
+    text-shadow: 5px 5px 5px black;
+}
+
+#meme-image-container {
+    border: solid black 1px;
+    background-color: white;
     height: 450px;
     position: relative;
-    border:solid black 1px;
-    background-color: white;
-    
-    
-    
+    width: 450px;
 }
-#fire{
-    width: 80px;
-    height:40px;
-    border-radius: 30px;
-    border:3px red dashed;
+
+#fire {
     background-color: red;
-    
-}
-#water{
-    width: 80px;
-    height:40px;
+    border: 3px red dashed;
     border-radius: 30px;
-    border:3px blue double;
-    background-color: blue;
-}
-#earth{
+    
+    height: 40px;
     width: 80px;
-    height:40px;
-    border:3px green groove;
+}
+
+#water {
+    border: 3px blue double;
+    border-radius: 30px;
+    background-color: blue;
+    height: 40px;
+    width: 80px;
+}
+
+#earth {
+    width: 80px;
+    height: 40px;
+    border: 3px green groove;
     background-color: green;
     border-radius: 30px;
 }
-#images{
-    padding: 0px 0px 0px 10px;
-    
-    
-    
-    
-   
-}
 
-    
+#images {
+    padding: 0px 0px 0px 10px;
+}
