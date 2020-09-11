@@ -6,20 +6,24 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  
+
   <body>
     <div id="meme-image-container">
-        <img id="meme-image"/ class="cover">
-        <p id="meme-text" class="cover"></p>
+      <img id="meme-image"/ class="cover">
+      <p id="meme-text" class="cover"></p>
     </div>
-    <input type="text" id="text-input" maxlength="60">
-    <input type="file" accept="image/*" onchange="loadFile(event)" id="meme-insert">
-    
-    <div class="text-color-container">
-    <label for="text-color">Cor do texto</label>
-    <input type="color" value="#ffffff" id="text-color">
-    </div>
+    <input type="text" id="text-input" maxlength="60" />
+    <input
+      type="file"
+      accept="image/*"
+      onchange="loadFile(event)"
+      id="meme-insert"
+    />
 
+    <div class="text-color-container">
+      <label for="text-color">Cor do texto</label>
+      <input type="color" value="#ffffff" id="text-color" />
+    </div>
 
     <script src="script.js"></script>
   </body>
