@@ -1,30 +1,12 @@
 
-const inputText = document.querySelector('#text-input');
-const memeInsert = document.querySelector('#meme-insert');
-
-const storage = {
-  index: function () {
-
-  }
-}
-
-const insertTextInImage = function(event) {
-  let memeText = document.querySelector('#meme-text');
-  memeText.innerHTML = URL.createObjectURL(event.target.value);
-  memeText.onload = function () {
-    URL.revokeObjectURL(memeText.innerHTML) // free memory
-  }
-}
-
-
 // utilizou-se essa referencia
 // https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded/27165977#27165977
 const loadFile = function (event) {
   const memeImage = document.getElementById('meme-image');
 
   memeImage.src = URL.createObjectURL(event.target.files[0]);
-  
+
   memeImage.onload = function () {
-    URL.revokeObjectURL(memeImage.src) // free memory
+    URL.revokeObjectURL(memeImage.src);
   }
 };
