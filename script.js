@@ -21,12 +21,12 @@ buttonFire.addEventListener("click", function () {
 let buttonWater = document.querySelector("#water")
 buttonWater.addEventListener("click", function () {
 
-    let backGroundCont = document.querySelector("#meme-image-container")
-    backGroundCont.style.border = `3px blue double`
+    let backGroundCont2 = document.querySelector("#meme-image-container")
+    backGroundCont2.style.border = `3px blue double`
  })
 let buttonEarth = document.querySelector("#earth")
 buttonEarth.addEventListener("click" ,function(){
     
-    let backGroundCont = document.querySelector("#meme-image-container")
-    backGroundCont.style.border = `3px green groove`
+    let backGroundCont3 = document.querySelector("#meme-image-container")
+    backGroundCont3.style.border = `3px green groove`
 })
