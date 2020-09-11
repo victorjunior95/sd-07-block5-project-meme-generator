@@ -9,6 +9,7 @@ let buttonEarth = document.getElementById("earth");
 let replacementMemeOne = document.getElementById("meme-1");
 let replacementMemeTwo = document.getElementById("meme-2");
 let replacementMemeThree = document.getElementById("meme-3");
+let replacementMemeFour = document.getElementById("meme-4");
 
 
 inputText.addEventListener("keyup", function() {
@@ -46,5 +47,8 @@ replacementMemeThree.addEventListener("click", function() {
     image.src = replacementMemeThree.src;
 });
 
+replacementMemeFour.addEventListener("click", function() {
+    image.src = replacementMemeFour.src;
+});
 
 
