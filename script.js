@@ -38,3 +38,29 @@ let buttonEarth = document.querySelector("#earth");
 buttonEarth.addEventListener("click", function () {
   memeConteiner.style.border = "6px groove green";
 });
+
+//-----------------------------------------------------------------------------
+
+let memeOne = document.querySelector("#meme-1");
+
+memeOne.addEventListener("click",function(){
+    memeImage.src = memeOne.src;
+})
+
+let memeTwo = document.querySelector("#meme-2");
+
+memeTwo.addEventListener("click",function(){
+    memeImage.src = memeTwo.src;
+})
+
+let memeThree = document.querySelector("#meme-3");
+
+memeThree.addEventListener("click",function(){
+    memeImage.src = memeThree.src;
+})
+
+let memeFour = document.querySelector("#meme-4");
+
+memeFour.addEventListener("click",function(){
+    memeImage.src = memeFour.src;
+})
