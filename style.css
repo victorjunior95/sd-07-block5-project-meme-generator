@@ -1,9 +1,9 @@
 * {
    font-family: Arial, sans-serif;
 }
-img#meme-image {
+meme-image {
    background-size: cover;
-   background-size: no-repeat;
+   background-repeat: no-repeat;
 }
 #meme-image-container {
    position: relative;

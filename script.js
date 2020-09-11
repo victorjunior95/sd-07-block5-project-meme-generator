@@ -1,9 +1,8 @@
-let textButton = document.querySelector('#text-button');
-textButton.addEventListener('click', () => {
-   let text = document.querySelector('#text-input').value;
+let textInput = document.querySelector('#text-input');
+textInput.addEventListener('keyup', () => {
    let newOutput = document.querySelector('#meme-text');
    
-   newOutput.innerText = text;
+   newOutput.innerText = textInput.value;
 });
 
 function loadFile (e) {
