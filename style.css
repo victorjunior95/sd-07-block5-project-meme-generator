@@ -1,0 +1,58 @@
+.barra {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 3px solid black;
+    padding: 20px;
+    padding-top: 10px;
+    text-align: center;
+    color:white;
+    font-style: normal;
+    font-family: Courier, "Lucida Console", monospace;
+    font-size: large;
+    border-radius: 20%;
+}
+  #meme-text{
+    text-shadow: 5px 5px  ;
+    color:white;
+    font-style: normal;
+    font-family: Courier, "Lucida Console", monospace;
+    font-size: 30px; 
+    text-align: center;
+    padding: 20px;
+
+  }
+
+  body{
+    background-color:rgb(92, 95, 112);;/*carrega primeiro   */
+
+}
+
+h2{
+    color:white;
+    font-style: normal;
+    font-family: Courier, "Lucida Console", monospace;
+    font-size: large; 
+    text-align: center;
+    padding: 20px;
+}
+
+#meme-image-container{
+  
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 20px;
+    padding-top: 10px;
+    text-align: center;
+    background-color:white;
+    font-style: normal;
+    font-family: Courier, "Lucida Console", monospace;
+    font-size: large;
+
+}
+.painel1{
+  text-align: center;
+  padding: 20px;
+}
