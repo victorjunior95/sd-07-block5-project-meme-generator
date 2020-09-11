@@ -60,6 +60,6 @@ meme3.addEventListener("click",function(){
 
 let meme4 = document.querySelector("#meme-4");
 meme4.addEventListener("click",function(){
-    document.getElementById('meme-image').src = "imgs/meme4.png ";
+    document.getElementById('meme-image').src = "imgs/meme4.png";
 })
 
