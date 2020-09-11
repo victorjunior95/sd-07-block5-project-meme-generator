@@ -4,7 +4,7 @@ let imagem = document.querySelector("#meme-insert")
 let imagemPhoto = document.querySelector("#meme-image")
 
 
-text.addEventListener("input", function(){
+text.addEventListener("keyup", function(){
     textOnPhoto.innerText = text.value
 })
 imagem.addEventListener("input", function(){
