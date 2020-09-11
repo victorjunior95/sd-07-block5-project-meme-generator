@@ -15,20 +15,4 @@ function readImage() {
         };
         file.readAsDataURL(this.files[0])
     }
-}
-
-document.getElementById("meme-insert").addEventListener("change", readImage, false);
-
-
-
-
-// let inputImage = document.getElementById("meme-insert");
-
-// inputImage.addEventListener("input", function() {
-//     let previewImage = document.getElementById("meme-image");
-//     previewImage.innerHTML = inputImage.value;
-//     previewImage.src = URL.createObjectURL(this.files[0]);
-//     previewImage.onload = function() {
-//         URL.revokeObjectURL(previewImage.src);
-//       }
-// })
+} document.getElementById("meme-insert").addEventListener("change", readImage, false);
