@@ -1,3 +1,6 @@
+#meme-image-container{
+    margin-top: 50px;
+}
 #meme-image, #meme-text{
     position: absolute;
 }
