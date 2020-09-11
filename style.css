@@ -1,14 +1,29 @@
-container {
+#meme-image-container {
     display: inline-block;
     width: 500px;
     height: 500px;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
+
+/* O texto do elemento meme-text deve ter uma sombra preta, de 5 pixels na horizontal, 5 pixels na vertical e um raio de desfoque de 5 pixels;
+
+O texto do elemento meme-text deve ter a fonte com o tamanho de 30 pixels;
+
+O texto do elemento meme-text deve estar na cor branca; */
+
 #meme-text {
-    display: inline-block;
-    z-index: 1;
-    font-size: xx-large;
+    width: 400px;
+    height: 60px;
+    margin: auto;
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
+    color: white;
     font-family: Impact, sans-serif;
     font-weight: 900;
+}
+
+#meme-image {
+    /* width: 500px;
+    height: 500px; */
 }
