@@ -2,8 +2,8 @@
     background-color: blueviolet;
     border-radius: 50px;
     color: white;
-    text-shadow: 5px 5px 5px black;
     text-align: center;
+    text-shadow: 5px 5px 5px black;
     width: 250px;
 }
 
@@ -22,8 +22,8 @@ body {
 }
 
 #meme-image-container {
-    border: solid black 1px;
     background-color: white;
+    border: solid black 1px;
     height: 450px;
     position: relative;
     width: 450px;
@@ -31,29 +31,28 @@ body {
 
 #fire {
     background-color: red;
-    border: 3px red dashed;
     border-radius: 30px;
-    
+    border: 3px red dashed;
     height: 40px;
     width: 80px;
 }
 
 #water {
-    border: 3px blue double;
-    border-radius: 30px;
     background-color: blue;
+    border-radius: 30px;
+    border: 3px blue double;
     height: 40px;
     width: 80px;
 }
 
 #earth {
-    width: 80px;
-    height: 40px;
-    border: 3px green groove;
     background-color: green;
     border-radius: 30px;
+    border: 3px green groove;
+    height: 40px;
+    width: 80px;
 }
 
 #images {
-    padding: 0px 0px 0px 10px;
+    padding-left:10px;
 }
