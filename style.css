@@ -9,35 +9,35 @@ body {
 }
 
 #meme-text {
-  font-size: 30px;
-  color: white;
-  text-shadow: 5px 5px 5px black;
-  position: absolute;
-  z-index: 3;
-  left: 0;
   bottom: 0;
+  color: white;
+  font-size: 30px;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
   width: 500px;
   word-wrap: break-word;
-  text-align: center;
+  z-index: 3;
 }
 
-button#earth {
+#earth {
   background-color: green;
 }
 
-button#water {
+#water {
   background-color: blue;
 }
 
-button#fire {
+#fire {
   background-color: red;
 }
 
 #meme-image-container {
-  position: relative;
   background-color: white;
+  border: 1px solid black;
   display: block;
   height: 500px;
+  position: relative;
   width: 500px;
-  border: 1px solid black;
 }
