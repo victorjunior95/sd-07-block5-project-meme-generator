@@ -1,6 +1,6 @@
 header {
     width: 20%;
-    background-color: rgba(172, 255, 47, 0.349);
+    background-color: rgb(100, 148, 28);
     text-align: center;
     margin-bottom: 3px;
 }
@@ -9,6 +9,18 @@ header {
     margin-bottom: 10px;
 }
 
+#meme-insert {
+    margin-bottom: 10px;
+}
+
 #meme-image-container {
     border: 1px solid rgb(0, 0, 0);
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+}
+
+#meme-text {
+    text-shadow: rgb(0, 0, 0) 5px 5px 5px;
+    font-size: 30px;
+    color: rgb(255,255,255);
 }
