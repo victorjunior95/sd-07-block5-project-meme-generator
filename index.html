@@ -12,17 +12,22 @@
     </header>
     <section class="container">
       <section>
-        <p>Texto: <input type="text" id="text-input" maxlength="60" /></p>
-        <p>Foto: <button id="meme-insert">Escolher imagem</button></p>
+        <p>Texto:</p>
+        <input type="text" id="text-input" maxlength="60" />
+        <p>Foto:</p>
+        <input
+          type="file"
+          id="meme-insert"
+          accept="image/*"
+          value="Escolha a imagem"
+          onchange="loadFile(event)"
+        />
       </section>
 
       <section id="meme-image-container">
         <span id="meme-text"></span>
         <section id="meme-image"></section>
       </section>
-
-
-
     </section>
     <script type="text/javascript" src="script.js"></script>
   </body>

@@ -1,0 +1,14 @@
+#meme-image-container {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  width: 400px;
+  height: 400px;
+}
+
+#meme-text{
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+  position: absolute;
+}
