@@ -7,3 +7,12 @@ function getValue() {
 }
 
 valueInput.addEventListener('keyup', getValue);
+
+const image = document.getElementById('meme-image');
+const insertedImage = document.getElementById('meme-insert');
+
+function changeImage() {
+  image.src = URL.createObjectURL(event.target.files[0]);
+}
+
+insertedImage.addEventListener('change', changeImage);
