@@ -9,14 +9,13 @@ body, html {
 /*---------------- INPUTS -------------------*/
 
 
-#meme-image-container {
+#input-text-container {
     
     width: 300px;
     display: inline-block;
     margin-left: 70px;
-    border: 1px solid black ; 
 }
-#meme-imagee-container {
+#meme-image-container {
     background-color: white;
     border: 1px solid black ; 
     width: 500px;
