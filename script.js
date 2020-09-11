@@ -1,5 +1,9 @@
+const valueInput = document.getElementById('text-input');
+const text = document.getElementById('meme-text');
+
 function getValue() {
-  const valueInput = document.getElementById('text-input').value;
-  const text = document.getElementById('meme-text');
-  text.innerHTML = valueInput;
+  text.innerHTML = valueInput.value;
+  document.getElementById('meme-image').innerHTML = valueInput;
 }
+
+valueInput.addEventListener('keyup', getValue);
