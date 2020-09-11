@@ -1,7 +1,3 @@
-* {
-  padding: 0;
-}
-
 #meme-text {
   position: absolute;
   top: 0;
@@ -15,6 +11,7 @@
   position: relative;
   background-color: white;
   border: 1px solid black;
+  box-sizing: border-box;
 }
 
 #meme-image {
