@@ -21,4 +21,10 @@ window.onload = function (){
   document.querySelector('#fire').addEventListener('click',function (){
     container.style.border = '3px dashed red'
   })
+  const buttons = document.querySelectorAll('.memes')
+  for(let i =0; i < buttons.length; i += 1 ){
+    buttons[i].addEventListener('click',function(){
+      imgout.src = buttons[i].src
+    })
+  }
 };
