@@ -2,6 +2,11 @@
     position: absolute;
     float:left;
     bottom:30px;
+    text-shadow: 5px 5px 5px black;
+    color:white;
+    font-size: 30px;
+
+    
 }
 
 #meme-image-container{
