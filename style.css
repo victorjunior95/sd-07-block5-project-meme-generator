@@ -2,7 +2,7 @@
   width: 300px;
   height: 400px;
   border: 1px solid black;
-  color: white;
+  background: white;
   position: relative;
   padding: 0px;
   /* box-sizing: border-box; */
