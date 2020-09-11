@@ -5,13 +5,13 @@
   font-family: Impact;
   left: 15px;
   position: absolute;
-  text-align: center;
+  align-items: center;
   text-shadow: black 5px 5px 5px;
   top: 550px;
 }
 
-#meme-image {
-  align-content: center;
+#meme-image p {
+
 }
 
 #meme-image-container {

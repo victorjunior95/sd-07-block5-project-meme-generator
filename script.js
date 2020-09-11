@@ -11,12 +11,9 @@ userText.addEventListener('keyup', getText);
 function getImage(event) {
   let memeInsert = document.getElementById('meme-insert');
   memeInsert.src = URL.createObjectURL(event.target.files[0]);
-  let reader = new FileReader();
-  reader.onload = function (e) {
-   memeInsert.src = e.target.result;
-    // URL.revokeObjectURL(memeInsert.src);
+  memeInsert.onload = function () {
+    URL.revokeObjectURL(memeInsert.src);
   };
-  reader.readAsDataURL(e.target.files[0]);
 }
 
 let memeInsert = document.getElementById('image-insert');
