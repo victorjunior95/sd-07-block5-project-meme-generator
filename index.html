@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+</head>
+<body>
+    <h1>Meme Generator</h1>
+    <section>
+        <label>Texto:</label>
+        <input id="text-input" type="text" size="20" maxlength="60" >
+    </section>
+
+    <section id="meme-image">
+        <label>Foto:</label>
+        <input id="meme-insert" type="file" accept="image/png, image/jpeg">
+    </section>
+
+    <section id="meme-image-container">
+        <img id="lugarImagem"src="" alt="imagem que está no meme">
+        <p id="meme-text"> O texto do meme ficará aqui! </p>
+    </section>
+
+    <section>
+        <label> Estilos customizados:</label>
+        <button id="btn-fire"> Fire 🔥 </button>
+        <button id="btn-water"> Water 💧</button>
+        <button id="earth"> Earth 💚 </button>
+    </section>
+    <section>
+        <label> Memes pré prontos </label>
+        <button class="btn-fotoQuad" id="memePronto1"></button>
+        <button class="btn-fotoQuad" id="memePronto2"></button>
+        <button class="btn-fotoQuad" id="memePronto2"></button>
+        <button class="btn-fotoQuad" id="memePronto3"></button>
+    </section>
+
+</body>
+</html>
