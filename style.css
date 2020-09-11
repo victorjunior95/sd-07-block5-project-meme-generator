@@ -13,8 +13,12 @@
 }
 
 #meme-text {
+    width: 300px;
     position: relative;
     bottom: 125px;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px black;
+    color: white;
 }
 
 #meme-container {
