@@ -35,4 +35,3 @@ function changeBorder(event) {
     memeImageContainer.style.border = '6px groove green';
   }
 }
-
