@@ -9,7 +9,7 @@ window.onload = function(){
         let memeText = document.getElementById("meme-text");
         memeText.innerText = textMemeInput.value;
     });
-    //Criando evento da imagem
+    //Criando evento da imagem com a função URL.createObjectURL
     inputImg.addEventListener("change", function(event){
         let imgMeme = document.getElementById("meme-image");
         imgMeme.src = URL.createObjectURL(event.target.files[0]);

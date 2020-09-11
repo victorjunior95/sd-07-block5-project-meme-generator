@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(38, 70, 83);
+    background-color: rgb(240, 239, 235);
 }
 #meme-image-container{
     position: relative;
@@ -10,6 +10,10 @@ body{
 }
 #meme-text{
     position: absolute;
+    z-index: 1;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
 }
 
 
