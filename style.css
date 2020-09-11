@@ -2,7 +2,25 @@ body{
   background-color: rgb(58, 43, 71);
 }
 
+#meme-image{
+  height: 500px;
+  width: 500px;
+  z-index: 2;
+}
+
+#meme-text{
+  position: absolute;
+  z-index: 3;
+  left: 0;
+  bottom: 0;
+  width: 500px;
+  word-wrap: break-word;
+  text-align: center;
+}
+
 #meme-image-container{
+  
+  position: relative;
   background-color: white;
   display: block;
   height: 500px;
