@@ -11,6 +11,9 @@
     width: 500px;
     height: 250px;
 }
+#meme-image{
+    position: relative;
+}
 #meme-text {
     position: absolute;
     color: white;
