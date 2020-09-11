@@ -1,0 +1,14 @@
+#tituloPrincipal {
+    background-color: yellowgreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blue;
+    text-align: center;
+}
+
+#meme-image-container {
+    margin-left: 50px;
+    margin-top: 60px;
+    width: 500px;
+    height: 600px;
+    border: solid black;
+}
