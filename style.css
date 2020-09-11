@@ -13,7 +13,8 @@
     width: 300px;
     height: 300px;
     border-width: 1px;    
-    position: absolute;    
+    position: absolute;
+    /* src:'./images/meme-cachorro.jpg' */
 }
 
 #meme-text{
@@ -21,8 +22,6 @@
     width: 300px;
     position: absolute;
     border-width: 5px;
-    border-color: blue;
-    background-color: yellowgreen; 
     bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
