@@ -7,17 +7,21 @@
    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-   <p>Text: <input type="text" id="text-input"></p>
+   <div class="text-insertion">
+      Text: <input type="text" 
+      id="text-input" maxlength="60">
+      <button id="text-button">Insert text</button>
+   </div>
    <div id="meme-insert">
       <label for="img">Select image: </label>
       <input type="file" id="fileImg" name="img" onchange="loadFile(event)">
    </div>
-      <div id="meme-image-container">
-         <div id="meme-image">
-            <img id="output-meme" width="600px" height="500px">
-         </div>
-         <p id="meme-text"></p>
+   <div id="meme-image-container">
+      <div id="meme-image">
+         <img id="output-meme">
       </div>
+      <p id="meme-text"></p>
+   </div>
    <script src="./script.js"></script>
 </body>
 </html>

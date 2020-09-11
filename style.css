@@ -1,6 +1,35 @@
+* {
+   font-family: Arial, sans-serif;
+}
 img #output-meme {
    background-size: cover;
    background-size: no-repeat;
-   width: 500px;
+}
+#meme-image-container{
+   position: relative;
+}
+#meme-text {
+   left: 15px;
+   top: 380px;
+   color: white;
+   position: absolute;
+   font-weight: bold;
+   font-size: 30px;
+   overflow-wrap: break-word;
+   word-wrap: break-word;
+   max-width: 550px;
+   text-shadow: 5px 5px 5px black;
+   
+}
+
+#meme-image-container{
+   background-color: white;
+   border: black solid 1px;
+   width: 600px;
+   height: 500px;
+}
+
+#meme-image-container img{
+   width: 600px;
    height: 500px;
 }
