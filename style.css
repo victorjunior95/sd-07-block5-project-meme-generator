@@ -1,12 +1,22 @@
 
 #meme-image-container{
+  position: absolute;
+
+  margin-top: 20px;
+
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(0, 0, 0);
 }
 
 #meme-text{
+  position: relative;
+  top: -100px;
+
   font-size: 30px;
+  text-align: center;
   text-shadow: rgb(0, 0, 0) 5px 5px 5px;
   color: rgb(255, 255, 255);
 }
 
+#meme-image{
+}

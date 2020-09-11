@@ -44,12 +44,19 @@ function loadImg(e){
     createImg()
   }
   let imgMeme = document.getElementById('meme-image');
+  let imgWidth, imgHeight;
 
   imgMeme.src = URL.createObjectURL(e.target.files[0]);
   imgMeme.onload = function(){
     URL.revokeObjectURL(imgMeme.src);
+
+    imgWidth = imgMeme.width + 'px';
+    imgHeight = imgMeme.height + 'px';
   }
-  console.log('carrega a imagem');
+  console.log(imgHeight + ' ' + imgWidth);
+  containerMeme.width = imgWidth;
+  containerMeme.height = imgHeight;
+  //console.log(imgWidth + '  ' + imgHeight);
 }
 
 function fillText(e){
@@ -57,22 +64,19 @@ function fillText(e){
   if(e.keyCode === 13){
     let memeText = document.getElementById('meme-text');
 
-    if( !findImg() ){
+    if( !findText() ){
+      createText();
 
-      if( !findText() ){
-        let newMemeText = document.getElementById('meme-text');
+      let newMemeText = document.getElementById('meme-text');
 
-        createText();
+      newMemeText.innerText = inputMemeText.value;
 
-        newMemeText.innerText = inputMemeText.value;
-
-      }else{
-
-        memeText.innerText = inputMemeText.value;
-      }
     }else{
-      console.log('achou foto');
+
+      memeText.innerText = inputMemeText.value;
     }
+
+
   }
 
 }
