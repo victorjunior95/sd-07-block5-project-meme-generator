@@ -1,15 +1,31 @@
-let textInputBox = document.querySelector("#text-input");
-let memeTextBox = document.querySelector("#meme-text");
+let textInputBox = document.getElementById("text-input");
+let memeTextBox = document.getElementById("meme-text");
+let memeContainer = document.getElementById("meme-image-container");
 
 textInputBox.addEventListener("keyup", function() {
     memeTextBox.innerText = textInputBox.value;
-})
+});
 
 // Código abaixo inspirado em https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded/27165977#27165977
 let loadFile = function(event) {
-    let memeImage = document.querySelector("#meme-image");
+    let memeImage = document.getElementById("meme-image");
     memeImage.src = URL.createObjectURL(event.target.files[0]);
     memeImage.onload = function() {
       URL.revokeObjectURL(memeImage.src) // free memory
     }
   };
+
+  const buttonGreen = document.getElementById("green-button");
+  buttonGreen.addEventListener("click", function() {
+    memeContainer.style.border = "4px dashed green";
+  })
+
+  const buttonRed = document.getElementById("red-button");
+  buttonRed.addEventListener("click", function() {
+    memeContainer.style.border = "4px dashed red";
+  })
+
+  const buttonBlue = document.getElementById("blue-button");
+  buttonBlue.addEventListener("click", function() {
+    memeContainer.style.border = "4px dashed blue";
+  })
