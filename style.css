@@ -1,7 +1,10 @@
 #meme-text {
   position: absolute;
   top: 400px;
-  left: 10px;
+  left: 20px;
+  text-shadow: 5px 5px 5px black;
+  font-size: 30px;
+  color: white;
 }
 
 #meme-image-container {
@@ -10,7 +13,6 @@
   height: 400px;
   width: 400px;
   margin-top: 50px;
-  
 }
 
 #meme-image {
