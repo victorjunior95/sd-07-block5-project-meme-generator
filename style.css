@@ -33,12 +33,14 @@ h1 {
     width: 500px;
     height: 500px;
     margin-top: 10px;
+    position: relative;
 }
 
 #meme-text {
     color: white;
     font-size: 30px;
     text-shadow: 5px 5px 5px;
+    position: absolute;
 }
 
 #button {
