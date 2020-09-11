@@ -4,48 +4,48 @@ body {
   font-family: monospace;
   height: 768px;
   margin: 2%;    
-  width: 1366px;    
-}
+  width: 1366px;}
 button {
   left: 140px;
   margin-left: 10px;
   padding: 5px 12px;
   position: relative;
-  top: 389px;
-}
+  top: 389px;}
 input {
   background-color: whitesmoke;
   color: rgb(98,0,128);
-  font-size: 16px;
-}
+  font-size: 16px;}
 label {
- color: blueviolet;
- font-size: large;
- font-weight: bolder;
- text-align: left;    
-}
+  color: blueviolet;
+  font-size: large;
+  font-weight: bolder;
+  text-align: left;}
 p {
   color: black;
   font-weight: bolder;
   position: relative;
   top: 385px;
 }
-.text-input {
-  color: rgb(38,7,110);
-  font-size: 14px;
-  font-weight: bolder;
-  height: 30px;
-  text-align: left;
-  width: 410px;
+.button-01{
+  background-color: red;
 }
+.button-02{
+  background-color: blue;
+}
+.button-03{
+  background-color: green;
+}
+.meme-image {
+  height: 350px;
+  position: absolute;
+  z-index: 2;}
 .meme-image-container {
   background-color: white;
   border: black solid 1px;
   height: 350px;
   position: absolute;
   top: 170px;
-  width: 500px;
-}
+  width: 500px;}
 .meme-text {
   background-color: transparent;
   border: dotted white 1px;
@@ -59,12 +59,11 @@ p {
   top: 15px;
   width: 400px;
   word-wrap: break-word;
-  z-index: 3;
-}
-.meme-image {
-  background-color: royalblue;
-  height: 350px;
-  position: absolute;
-  width: 500px;
-  z-index: 2;
-}
+  z-index: 3;}
+.text-input {
+    color: rgb(38,7,110);
+    font-size: 14px;
+    font-weight: bolder;
+    height: 30px;
+    text-align: left;
+    width: 410px;}
