@@ -25,8 +25,9 @@
     border: 3px hidden;
     text-align: center;
     margin-top: -150px;
-    -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
+    font-family: "impact",sans-seriff;
+    -webkit-text-stroke: 1px black;
+   
    
     
 }
