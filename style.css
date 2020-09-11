@@ -11,8 +11,11 @@ a {
   font-weight: bold;
 }
 #meme-image-container {
+  width: 500px;
+  height: 500px;
   background-color: white;
   position: relative;
+  border: 1px solid black;
 
 }
 
@@ -20,17 +23,16 @@ a {
   display: inline-block;
 }
 #meme-image {
-  object-fit: cover;
-  border: 1px solid black;
+  width: 500px;
+  height: 500px;
 }
 
 #meme-text {
   width: 730px;
-  left: 10px;
+  left: 1px;
   bottom: 25px;
   position: absolute;
   font-weight: bold;
-  text-align: center;
   text-shadow: 5px 5px 5px black;
   color: white;
   font-family: Impact;
