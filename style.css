@@ -24,12 +24,12 @@ meme-image {
 
 #meme-image-container {
    background-color: white;
-   border: black solid 1px;
    width: 600px;
    height: 500px;
 }
 
 #meme-image-container img {
+   border: black solid 1px;
    width: 600px;
    height: 500px;
 }

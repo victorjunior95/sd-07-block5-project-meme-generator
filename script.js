@@ -18,15 +18,15 @@ function loadFile (e) {
 };
 
 for (let i = 0; i < buttons.length; i += 1){
-   let border = document.querySelector('#meme-image-container');
+   let imgBorder = document.querySelector('#meme-image-container').querySelector('img');
 
    buttons[i].addEventListener('click', () => {
       if (i === 0) {
-         border.style.border = 'rgb(255, 0, 0) dashed 3px';
+         imgBorder.style.border = 'rgb(255, 0, 0) dashed 3px';
       } else if ( i === 1) {
-         border.style.border = 'rgb(0, 0, 255)  double 5px';
+         imgBorder.style.border = 'rgb(0, 0, 255)  double 5px';
       }else if ( i === 2) {
-         border.style.border = 'rgb(0, 128, 0) groove 6px';
+         imgBorder.style.border = 'rgb(0, 128, 0) groove 6px';
       }
    });
 }
