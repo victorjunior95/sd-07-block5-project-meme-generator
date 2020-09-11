@@ -5,6 +5,27 @@ h1 {
   border: 15px solid red;
 }
 
+#meme-insert {
+  margin-top: 15px;
+}
+
 #meme-text {
+  top: 300px;
   position: absolute;
+  text-shadow: 5px 5px 5px black;
+  font-size: 30px;
+  color: white;
+}
+
+#meme-image {
+  margin-top: 15px;
+}
+
+#meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+}
+
+#text-input {
+  letter-spacing: 60;
 }
