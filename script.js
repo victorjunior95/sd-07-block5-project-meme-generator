@@ -1,15 +1,10 @@
-window.onload = function() {
-    function buttonTextInsert() {
-       divInputText = document.getElementsByClassName('div-insert')[0]
-        console.log(divInputText)
+window.onload = function () {
+    function buttonTextInsert () {
+        let divInputText = document.getElementsByClassName('div-insert')[0]
 
-       sendButton = document.createElement('button')
-       sendButton.innerHTML = 'Enviar'
-       divInputText.appendChild(sendButton)
+        sendButton = document.createElement('button')
+        sendButton.innerHTML = 'Enviar'
+        divInputText.appendChild(sendButton)
     }
     buttonTextInsert()
-
-    function sendTextInput() {
-        
-    }
 }
