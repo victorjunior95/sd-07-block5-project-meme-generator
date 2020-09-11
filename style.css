@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(249, 250, 249);
+  background-color: rgb(249 , 250 , 249);
   font-family: Arial, Helvetica, sans-serif;
   padding: 15px;
 }
@@ -52,7 +52,6 @@ body {
 .section-meme .conteiner p {
   bottom: 10%;
   color: white;
-  font-family: Impact, Arial Narrow Bold, sans-serif;
   font-size: 30px;
   margin: 5px;
   position: absolute;
