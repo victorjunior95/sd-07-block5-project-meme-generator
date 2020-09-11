@@ -1,9 +1,10 @@
 .button , .button1 , .button2 , .button3 {
+  color: white;
+  font-family: Impact;
+  font-size: 16px;
+  font-weight: 900;
   height: 100px;
   width: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 16px;
 }
 
 .button1 {
