@@ -1,3 +1,14 @@
-.meme-text{
+#meme-text {
     position: absolute;
+    float:left;
+    bottom:30px;
+}
+
+#meme-image-container{
+    width: 450px;
+    height: 450px;
+    position: relative;
+    
+    
+    
 }

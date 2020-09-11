@@ -5,15 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project-Meme-Generator</title>
-    <link rel="stylesheet" type="text/css" href="script.js" media="all">
+    <link rel="stylesheet" type="text/css" href="style.css" media="all">
 </head>
 
 <body>
+    <label>Selecione a Imagem
+    <input  id ="meme-insert" type="file" accept="image/*" onchange="document.querySelector('#meme-image').src = window.URL.createObjectURL(this.files[0])">>
+</label>
     <labe|>Texto
-        <input id="text-input" size="5">
+        <input id="text-input" size="10">
         </labe>
         <div id="meme-image-container">
-            <img src="">
+            <img  id ="meme-image" src="" alt ="Imagem do meme" width="450px" height="450px" >
             <div id="meme-text"></div>
         </div>
         <script type="text/javascript" src="script.js"> </script>
