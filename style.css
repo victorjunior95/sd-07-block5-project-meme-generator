@@ -1,12 +1,32 @@
-.image-border {
-  width: inherit;
+.meme-image-container {
+  width: 400px;
+  height: 400px;
   background-color: white;
   border: 1px solid black;
 }
 
-.text-infrontof-image {
+.meme-text {
   text-shadow: 5px 5px 5px black;
   font-size: 30px;
   color: white;
   position: absolute;
+}
+
+.meme-image-container .meme-text {
+  color: white;
+  display: inline-block;
+  height: 50px;
+  left: 10px;
+  text-shadow: black 5px 5px 5px;
+  top: 450px;
+  left: 30px;
+}
+
+img {
+  height: 400px;
+}
+
+.img-cover {
+  object-fit: cover;
+  width: 400px;
 }
