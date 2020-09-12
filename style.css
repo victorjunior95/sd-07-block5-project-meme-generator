@@ -1,17 +1,22 @@
+body {
+    font-family: Impact, sans-serif;
+}
+
 #meme-text {
     position: absolute;
     text-shadow: black 5px 5px 5px;
     font-size: 30px;
     color: white;
-    top: 50%;
+    top: 5%;
     width: 100%;
     text-align: center;
+    font-weight: bold;
 }
 
 #meme-image-container {
     position: relative;
     width: 60%;
-    height: 400px;
+    height: 600px;
     background-color: white;
     border-color: black;
     border-style: solid;
@@ -20,8 +25,10 @@
 
 #imageMemeInput {
     width: 100%;
-    height: auto;
+    height: 600px;
 }
+
+/* Botões de configuração das bordas */
 
 #fire, #water, #earth {
     width: 80px;
@@ -43,4 +50,16 @@
 
 #earth {
     background-color: green;
+}
+
+/* Miniaturas dos templates de memes */
+
+.templates {
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    margin: 10px;
+    width: 200px;
+    height: 150px;
 }

@@ -1,9 +1,13 @@
+// Input e pré-visualização do texto inserido pelo usuário
+
 let inputText = document.getElementById("text-input");
 
 inputText.addEventListener("input", function() {
     let previewText = document.getElementById("meme-text");
     previewText.innerHTML = inputText.value;
 })
+
+// Input e pré-visualização da imagem inserida pelo usuário via input file
 
 // Função baseada no código disponível em https://www.horadecodar.com.br/2020/05/20/javascript-preview-de-imagem-carregada-em-input-file/
 
@@ -19,6 +23,7 @@ function readImage() {
 
 document.getElementById("meme-insert").addEventListener("change", readImage, false);
 
+// Adicionando configurações de borda ao clicar nos botões
 
 function bordaFire() {
     document.getElementById('meme-image-container').style.borderWidth = '3px'
@@ -36,4 +41,22 @@ function bordaEarth() {
     document.getElementById('meme-image-container').style.borderWidth = '6px'
     document.getElementById('meme-image-container').style.borderStyle = 'groove'
     document.getElementById('meme-image-container').style.borderColor = 'green'  
+}
+
+// Adicionando os templetes ao clicar nas miniaturas dos memes
+
+function tempDev() {
+    document.getElementById('imageMemeInput').src = './image/meme-dev.jpg'
+}
+
+function tempCry() {
+    document.getElementById('imageMemeInput').src = './image/meme-cry.jpg'
+}
+
+function tempStark() {
+    document.getElementById('imageMemeInput').src = './image/meme-stark.jpg'
+}
+
+function tempSad() {
+    document.getElementById('imageMemeInput').src = './image//meme-sad.jpg'
 }
