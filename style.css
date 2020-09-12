@@ -34,14 +34,15 @@ main {
   position: absolute;
   top: 207px;
   width: 100%;
-  height: 100%;
+  height: 40%;
   font-size: 30px;
   text-align: center;
   text-shadow: 5px 5px 5px black;
   color: white;
-  box-sizing: border-box;
   text-transform: uppercase;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
 button{
@@ -51,6 +52,7 @@ button{
   font-family: 'Sigmar One', cursive;
   color: white;
 }
+
 #fire{
   background-color: rgb(255, 0, 0);
 }

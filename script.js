@@ -23,11 +23,11 @@
   tagContainer.style.backgroundColor = "rgb(0, 0, 255)";
 });
 
-tagButtonEarth.addEventListener('click', function(){
+tagButtonEarth .addEventListener('click', function(){
   tagContainer.style.border = "6px groove rgb(0, 128, 0)";
+  tagContainer.style.boxShadow = "4px 4px 4px black";
   tagContainer.style.backgroundColor = "rgb(0, 128, 0)";
 });
-
 
  tagText.addEventListener('keyup', function(){
   tagTextMeme.innerText = tagText.value;
