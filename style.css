@@ -18,8 +18,6 @@
     border: solid 1px rgb(0 , 0 , 0);
     width: 500px;
     height: 400px;
-    padding-left: 6px;
-    padding-top: 6px;
 }
 
 #meme-text {
@@ -39,9 +37,9 @@
 #meme-image {
     background-color: rgb(255 , 255 , 255);
     border: solid 1px rgb(0 , 0 , 0);
-    width: 490px;
-    height: 390px;
-    position: relative;  
+    width: 500px;
+    height: 400px;
+    position: relative;
 }
 
 #fire {
