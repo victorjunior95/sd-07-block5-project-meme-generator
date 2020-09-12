@@ -30,7 +30,7 @@ window.onload = function () {
     // funcção que adiciona evento em btnFire
     btnFire.addEventListener("click", changeBorderRed);
     function changeBorderRed () {
-        container.style.border = "3px solid red";
+        container.style.border = "3px dashed red";
     }
     // funcção que adiciona evento em btnWater
     btnWater.addEventListener("click", changeBorderBlue);

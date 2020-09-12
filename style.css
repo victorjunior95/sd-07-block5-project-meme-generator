@@ -26,7 +26,7 @@ button {
 }
 
 #fire {
-    border: 3px solid red;
+    border: 3px dashed red;
     background-color: red;
 }
 #water {
