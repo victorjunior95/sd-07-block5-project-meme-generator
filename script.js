@@ -10,6 +10,6 @@ window.onload = function () {
   const memeInput = document.querySelector('#meme-insert');
   function upLoadImg(event) {
     memeImage.src = URL.createObjectURL(event.target.files[0]);
-  };
+  }
   memeInput.addEventListener('change', upLoadImg);
 };
