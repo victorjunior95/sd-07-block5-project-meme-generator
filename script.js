@@ -53,6 +53,7 @@ buttonBrown.addEventListener('click', changeBorderEarh);
 // FUNCTION FOR PRE-IMAGES
 const preImgs = document.querySelectorAll('.miniatureImg');
 for (let i = 0; i < preImgs.length; i += 1) {
+  preImgs[i].addEventListener('click', currentImg);
 
   function currentImg() {
     img.src = preImgs[i].src;
@@ -62,4 +63,3 @@ for (let i = 0; i < preImgs.length; i += 1) {
     }
   }
 }
-preImgs[i].addEventListener('click', currentImg);
