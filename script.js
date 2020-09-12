@@ -1,7 +1,7 @@
 //  Declarando elemento img que contém a imagem do meme para manipular
 const imageInsert = document.getElementById('meme-image');
 
-//	Inserindo imagem por seleção de arquivo no dispositivo
+//  Inserindo imagem por seleção de arquivo no dispositivo
 const memeInsert = document.querySelector('#meme-insert');
 memeInsert.addEventListener('change', function (event) {
   imageInsert.src = URL.createObjectURL(event.target.files[0]);
@@ -38,28 +38,28 @@ miniatura4.addEventListener('click', function (event) {
 const textInput = document.querySelector('#text-input');
 textInput.addEventListener('input', function () {
   if (textInput.value.length <= 60) {
-		const memeText = document.querySelector('#meme-text');
-		memeText.innerText = textInput.value;
-  };
+    const memeText = document.querySelector('#meme-text');
+    memeText.innerText = textInput.value;
+  }
 });
 
 //  Selecionando a DIV que será estilizada pelos botões
-let divMeme = document.querySelector('#meme-image-container');
+const divMeme = document.querySelector('#meme-image-container');
 
 //  Implementando a função do botão fire
-let fire = document.querySelector('#fire');
+const fire = document.querySelector('#fire');
 fire.addEventListener('click', function () {
-  divMeme.style.border = "3px dashed red";
+  divMeme.style.border = '3px dashed red';
 });
 
 //  Implementando a função do botão water
-let water = document.querySelector('#water');
+const water = document.querySelector('#water');
 water.addEventListener('click', function () {
-  divMeme.style.border = "5px double blue";
+  divMeme.style.border = '5px double blue';
 });
 
 //  IMplementando a função do botão Earth
-let earth = document.querySelector('#earth');
+const earth = document.querySelector('#earth');
 earth.addEventListener('click', function () {
-  divMeme.style.border = "6px groove green";
+  divMeme.style.border = '6px groove green';
 });
