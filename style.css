@@ -12,11 +12,22 @@ body {
 #meme-image-container {
     background-color: white;
     border: solid black 1px;
+    position: relative;
+}
+
+#meme-image {
+    position: absolute;
 }
 
 #meme-text {
     color: white;
     font-size: 30px;
     text-shadow: 5px 5px 5px black;
+    position: absolute;
     /* float: left; */
+}
+
+.memeImage {
+    width: 300px;
+    height: 300px;
 }
