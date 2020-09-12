@@ -24,8 +24,8 @@
 
 .fireborder {
     visibility: visible;
-    border-style: solid;
-    border-width: 1px;
+    border-style: dashed;
+    border-width: 3px;
     border-color: red;
     position: relative;
     background-color: rgb(255, 255, 255);
@@ -33,8 +33,8 @@
 
 .waterborder {
     visibility: visible;
-    border-style: solid;    
-    border-width: 1px;
+    border-style: double;    
+    border-width: 5px;
     border-color: blue;
     position: relative;
     background-color: rgb(255, 255, 255);
@@ -42,9 +42,9 @@
 
 .earthborder {
     visibility: visible;
-    border-style: solid;
-    border-width: 1px;
-    border-color: purple;
+    border-style: groove;
+    border-width: 6px;
+    border-color: green;
     position: relative;
     background-color: rgb(255, 255, 255);
 }
