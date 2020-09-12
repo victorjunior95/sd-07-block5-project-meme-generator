@@ -28,6 +28,7 @@
 }
 
 #meme-image-container {
+  position: relative;
   margin: auto;
   height: 30vw;
   width: 50vw;
@@ -35,7 +36,7 @@
 }
 
 #meme-text {
-  position: relative;
+  position: absolute;
   text-shadow: 5px 5px 5px black;
   color: white;
   font-size: 30px;

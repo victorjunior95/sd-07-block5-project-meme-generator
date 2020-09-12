@@ -1,12 +1,14 @@
 let textInput = document.querySelector("#text-input");
-let textButton = document.querySelector("#text-button");
 let container = document.querySelector("#meme-image-container");
 let memeImage = document.querySelector("#meme-image");
 let memeText = document.querySelector("#meme-text");
 
 function insertText() {
-  let letter = textInput.value;
-  memeText.innerHTML = letter;
+  textInput.setAttribute('maxlength',60);
+  textInput.addEventListener("keyup", function () {
+  let char = textInput.value;
+  memeText.innerHTML = char;
+  })
 }
 
 let loadFile = function(event) {
