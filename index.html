@@ -1,41 +1,49 @@
 <!DOCTYPE html>
-<html lang='pt-br'>
+<html lang="pt-br">
   <head>
-    <meta charset='UTF-8' />
-    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-    <link rel='stylesheet' href='style.css' />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap"
+      rel="stylesheet"
+    />
     <title>Trybe | Meme Generator</title>
   </head>
   <body>
-    <header class='header'>
-      <img class='header-left-svg' src='imgs/faca.svg' alt='faca' />
+    <header class="header">
+      <img class="header-left-svg" src="imgs/faca.svg" alt="faca" />
       <h1>Knife and Cheese | Meme Generator</h1>
-      <img class='header-right-svg' src='imgs/queijo.svg' alt='queijo' />
+      <img class="header-right-svg" src="imgs/queijo.svg" alt="queijo" />
     </header>
-    <div class='top-center-content'>
+    <div class="top-center-content">
       <h2>Digite aqui o texto a ser inserido no meme:</h2>
       <input
-        type='text'
-        name='text-input'
-        id='text-input'
-        maxlength='60'
-        class='input-text'
+        type="text"
+        name="text-input"
+        id="text-input"
+        maxlength="60"
+        class="input-text"
       />
     </div>
-    <div class='main-content'>
-      <div class='input-content'>
+    <div class="main-content">
+      <div class="input-content">
         <input
-          type='file'
-          accept='image/*'
-          id='meme-insert'
-          onchange='loadFile(event)'
+          type="file"
+          accept="image/*"
+          id="meme-insert"
+          onchange="loadFile()"
         />
       </div>
-      <div id='meme-image-container' class='meme-image-container'>
-        <div id ='meme-text' class="meme-text"></div>
-        <img id='meme-image' class='meme-image' src="https://picsum.photos/400/400" />
+      <div id="meme-image-container" class="meme-image-container">
+        <div id="meme-text" class="meme-text"></div>
+        <img
+          id="meme-image"
+          class="meme-image"
+          src="https://picsum.photos/400/400"
+        />
       </div>
     </div>
-    <script src='script.js'></script>
+    <script src="script.js"></script>
   </body>
 </html>
