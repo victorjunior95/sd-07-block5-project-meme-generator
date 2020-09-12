@@ -1,7 +1,6 @@
 const textInput = document.getElementById('text-input');
 const memeText = document.getElementById('meme-text');
-const memeImage = document.createElement('img');
-const memeImages = document.getElementsByClassName('meme-image')[0];
+const memeImages = document.getElementById('meme-image');
 const button01 = document.querySelector('.button-01');
 const button02 = document.querySelector('.button-02');
 const button03 = document.querySelector('.button-03');
@@ -21,4 +20,16 @@ button02.addEventListener('click', function () {
 });
 button03.addEventListener('click', function () {
   memeImageContainer.style.border = '6px green groove';
+});
+imgTip01.addEventListener('click', function () {
+  memeImages.src=imgTip01.src;
+})
+imgTip02.addEventListener('click', function () {
+  memeImages.src=imgTip02.src;
+})
+imgTip03.addEventListener('click', function () {
+  memeImages.src=imgTip03.src;
+});
+imgTip04.addEventListener('click', function () {
+  memeImages.src=imgTip04.src;
 });
