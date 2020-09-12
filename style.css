@@ -1,26 +1,26 @@
-#sessao {
+.sessao {
     margin-left: 100px;
     font-size: 20px;
 }
 
-#sessao p {
+.sessao1 p {
     font-size: 25px;
 }
 
-#meme-insert {
+.meme-insert1 {
    margin-top: 10px;
    margin-left: 9px;
    margin-bottom: 10px;
 }
 
-#meme-image-container {
+.meme-image-container1 {
     background-color: rgb(255 , 255 , 255);
     border: solid 1px rgb(0 , 0 , 0);
-    width: 500px;
-    height: 400px;
+    width: 502px;
+    height: 402px;
 }
 
-#meme-text {
+.meme-text1 {
     text-shadow: 5px 5px 5px rgb(0, 0, 0);;
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -34,15 +34,14 @@
     word-wrap: break-word;
 }    
 
-#meme-image {
+.meme-image1 {
     background-color: rgb(255 , 255 , 255);
     border: solid 1px rgb(0 , 0 , 0);
     width: 500px;
     height: 400px;
-    position: relative;
 }
 
-#fire {
+.fire1 {
     border: dashed 3px rgb(255 , 0 , 0);
     background-color: rgb(255 , 0 , 0);
     color: aliceblue;
@@ -50,7 +49,7 @@
     margin-right: 15px;
 }
 
-#water {
+.water1 {
     border: double 5px rgb(0 , 0 , 255);
     background-color: rgb(0 , 0 , 255);
     color: aliceblue;
@@ -58,7 +57,7 @@
     margin-right: 15px;
 }
 
-#earth {
+.earth1 {
     border: groove 6px rgb(0 , 128 , 0);
     background-color: rgb(0 , 128 , 0);
     color: aliceblue;
@@ -66,28 +65,28 @@
     margin-right: 15px;
 }
 
-#meme-1 {
+.meme-11 {
     border: solid 2px rgb(0 , 0 , 0);
     width: 120px;
     height: 140px;
     margin-left: 10px;
 }
 
-#meme-2 {
+.meme-21 {
     border: solid 2px rgb(0 , 0 , 0);
     width: 120px;
     height: 140px;
     margin-left: 10px;
 }
 
-#meme-3 {
+.meme-31 {
     border: solid 2px rgb(0 , 0 , 0);
     width: 120px;
     height: 140px;
     margin-left: 10px;
 }
 
-#meme-4 {
+.meme-41 {
     border: solid 2px rgb(0 , 0 , 0);
     width: 120px;
     height: 140px;
