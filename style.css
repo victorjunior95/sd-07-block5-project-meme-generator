@@ -23,7 +23,7 @@
   font-size: 30px;
   color: white;
   text-shadow: 5px 5px 5px black;
-  margin: 300px auto auto ;
+  margin-top: 300px;
   z-index: 2;
   position: absolute;
 }

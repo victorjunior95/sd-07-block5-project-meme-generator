@@ -24,6 +24,7 @@ window.onload = function () {
       memeImage.style.width = `${memeImage.naturalWidth}px`;
       memeImageContainer.style.height = `${memeImage.naturalHeight}px`;
       memeImageContainer.style.width = `${memeImage.naturalWidth}px`;
+      memeText.style.marginTop = `${memeImage.naturalHeight - 100}px`;
     };
   }
   textInput.addEventListener("input", changeText);
