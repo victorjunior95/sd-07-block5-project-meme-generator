@@ -24,6 +24,7 @@ main {
   background-color: white;
   border: 1px solid black;
   box-shadow: 1px 1px 4px black;
+  box-sizing: border-box;
 }
 
 #meme-text {
@@ -36,5 +37,5 @@ main {
   text-align: center;
   text-shadow: 5px 5px 5px black;
   color: white;
-
+  box-sizing: border-box;
 }
