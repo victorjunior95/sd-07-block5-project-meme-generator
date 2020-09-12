@@ -16,14 +16,14 @@
     <form>
         <!-- caixa onde o texto será inserido -->
         <label for="text-input">Insira uma frase para o seu meme:</label><br>
-        <input type="text" id="text-input" name="text-input" maxlength="60"><br> 
+        <input type="text" id="text-input" maxlength="60"><br> 
         <!-- elemento onde é feito o upload da imagem -->
         <input type="file" id="meme-insert" accept="image/*" onchange="recebeImagem(event)"> 
     </form>
     <!-- container para imagem + texto = meme-image-container -->
     <div id="meme-image-container" class="meme-image-container" class="size-image">
         <!-- texto digitado, que deve ficar por cima da meme-image -->
-        <p id="meme-text" class="meme-text"></p>
+        <div id="meme-text" class="meme-text"></div>
         <!-- imagem selecionada do computador deve ficar aqui -->
         <img id="meme-image" class="size-image">
     </div>
@@ -36,3 +36,5 @@
 
 </body>
 </html>
+
+
