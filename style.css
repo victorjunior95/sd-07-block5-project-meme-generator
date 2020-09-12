@@ -1,3 +1,19 @@
+#meme-image-container {
+  border: black solid;
+  height: 500px;
+  width: 600px;
+  background-color: white;
+}
+
+#meme-image-container p {
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 25%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
 #meme-text {
   background-color: transparent;
   color: white;
@@ -11,21 +27,7 @@
 }
 
 #meme-image {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-}
-
-#meme-image-container {
-  border: black solid;
-  height: 500px;
-  width: 600px;
-  background-color: white;
-}
-
-#meme-insert {
   height: 500px;
   width: 600px;
 }
+
