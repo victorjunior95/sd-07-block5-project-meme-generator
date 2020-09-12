@@ -7,10 +7,11 @@ h1{
     height:400px;
    background-color: white;
     border: 1px solid black;
+
 }
 .caixa{
     display: inline-block;
-    position: relative;
+    
 }
 .caixa2{
     display: inline-block;
@@ -19,7 +20,7 @@ h1{
     background: white;
 }
 
-#meme-text{
+#meme-image-container #meme-text{
     font-size: 30px;
     color: white;
     text-shadow: 5px 5px 5px black;
