@@ -4,6 +4,7 @@
   position: relative;
   border: 1px solid black;
   background-color: white;
+  display: block;
 }
 #meme-image {
   max-height: 500px;
@@ -11,6 +12,7 @@
   height: 100%;
   width: 100%;
   z-index: -1;
+  display: block;
 }
 #meme-text {
   position: absolute;
@@ -18,9 +20,10 @@
   font-size: 30px;
   color: white;
   text-shadow: 5px 5px 5px black;
-  bottom: 8px;
-  left: 16px;
+  bottom: 0;
+  left: 0;
   width: 100%;
+  display: block;
 }
 #fire {
   border: 3px dashed red;
