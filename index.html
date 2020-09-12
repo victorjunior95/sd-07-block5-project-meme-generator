@@ -11,20 +11,20 @@
 <body>
   <div class="container">
     <label for="#text-input">Texto: </label>
-    <input type="text" id="text-input" maxlength="60">
+    <input type="text" id="text-input" class="text-input" maxlength="60">
 
-    <input type="file" accept="image/*" onchange="loadFile(event)" id="meme-insert">
+    <input type="file" accept="image/*" onchange="loadFile(event)" id="meme-insert" class="meme-input">
 
-    <div id="meme-image-container">
-      <img id="meme-image" src="" alt="meme">
-      <p id="meme-text"></p>
+    <div id="meme-image-container" class="meme-image-container">
+      <img id="meme-image" class="meme-image" src="" alt="meme">
+      <p id="meme-text" class="meme-text"></p>
     </div>
 
     <div>
       <p>Bordas Customizadas</p>
-      <button type="button" id="fire" class="btn-border">fire</button>
-      <button type="button" id="water" class="btn-border">water</button>
-      <button type="button" id="earth" class="btn-border">earth</button>
+      <button type="button" id="fire" class="btn-border fire">fire</button>
+      <button type="button" id="water" class="btn-border water">water</button>
+      <button type="button" id="earth" class="btn-border earth">earth</button>
     </div>
 
     <div>
