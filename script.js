@@ -11,6 +11,14 @@ window.onload=function(){
     let memequatro=document.getElementById('meme-4');
     let caixaTexto=document.getElementById('text-input')
     let textoMeme=document.getElementById('meme-text');
+    let botaoCarregar=document.getElementById('meme-insert');
+    // let loadFile=function(event){
+    //     let output=document.getElementById('meme-image');
+    //     output.src=URL.createObjectURL(event.target.files[0]);
+    //     output.onload=function(){
+    //         URL.revokeObjectURL(output.src);
+    //     }
+    // };
             
     botaoUm.addEventListener('click', function(){
         conteinerImagem.style.borderColor='blue';
@@ -48,5 +56,10 @@ window.onload=function(){
 
     caixaTexto.addEventListener('keyup', function(){
         textoMeme.innerText=caixaTexto.value;        
+    })
+
+    botaoCarregar.addEventListener('click', function(){
+        espacoMeme.src=url.createObjectURL(event.target.files[0]);
+        console.log('Vai carregar o que?');
     })
 }
