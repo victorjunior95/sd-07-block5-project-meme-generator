@@ -12,18 +12,19 @@
     </head>
     <section>
         <div id="input">
-          <label for="text-input"><strong>Type your text here: </strong>
+          <label for="text-input" class="label-text-input"><strong>Type your text here: </strong>
             <input type="text" id="text-input"></br>
           </label>
-          <label for="meme-insert" style="cursor: pointer;">Upload Image
+          <label for="meme-insert" style="cursor: pointer;" class="upload-image">Upload Image
             <input type="file"  accept="image/*" name="image" id="meme-insert"  onchange="LoadMemeImage(event)" style="display: none;">
           </label>
         </div>
         <div id="meme-image-container" class="image-container">
             <div id="meme-text" class="meme-text"></div>
-
             <img id="meme-image"/>	
-
+        </div>
+        <div class="custom-styles">
+          <p>Custom Styles:</p>
         </div>
     </section>
 <script src="script.js"></script>
