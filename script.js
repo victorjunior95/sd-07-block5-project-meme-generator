@@ -25,8 +25,6 @@ function selectImg(event) {
 loadImg.addEventListener('change', selectImg);
 
 // EVENT TO ADD TEXT IN MY CONTAINER
-textInput.addEventListener('keyup', addText);
-
 function addText() {
   loadText.innerText = textInput.value;
   imgShow = true;
@@ -34,29 +32,27 @@ function addText() {
     containerMeme.style.display = 'block';
   }
 }
+textInput.addEventListener('keyup', addText);
 
 // EVENT IN THE BUTTONS BORDERS
-buttonRed.addEventListener('click', changeBorderFire);
-
 function changeBorderFire() {
   containerMeme.style.border = '3px dashed red';
 }
-
-buttonBlue.addEventListener('click', changeBorderWater);
+buttonRed.addEventListener('click', changeBorderFire);
 
 function changeBorderWater() {
   containerMeme.style.border = '5px double blue';
 }
-
-buttonBrown.addEventListener('click', changeBorderEarh);
+buttonBlue.addEventListener('click', changeBorderWater);
 
 function changeBorderEarh() {
   containerMeme.style.border = '6px groove green';
 }
+buttonBrown.addEventListener('click', changeBorderEarh);
 
+// FUNCTION FOR PRE-IMAGES
 const preImgs = document.querySelectorAll('.miniatureImg');
 for (let i = 0; i < preImgs.length; i += 1) {
-  preImgs[i].addEventListener('click', currentImg);
 
   function currentImg() {
     img.src = preImgs[i].src;
@@ -66,4 +62,4 @@ for (let i = 0; i < preImgs.length; i += 1) {
     }
   }
 }
-
+preImgs[i].addEventListener('click', currentImg);
