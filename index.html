@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/style.css"" rel="stylesheet">
+  <title>🖼️ Meme Generator</title>
+</head>
+<body>
+
+  <!-- Titulo e Subtitle -->
+  <header class="header">
+    <h1 class="header__title">💡Meme Generator</h1>
+    <h2 class="header__subtitle">
+      Crie um meme a partir de <b>JPG</b>,
+      <b>GIF</b> ou <b>imagens de PNG</b>.<br>
+      Edite sua imagem e faça um meme.
+    </h2>
+  </header>
+
+  <!-- Meme insert -->
+    <div class="inputArea">
+        <form>
+            <input id="text-input" class="textInput" type="text" placeholder="Digite aqui" maxlength="60">
+        </form>
+        <form class="upload_btn" action="/action_page.php">
+            <input id="meme-insert" type="file" style=" opacity: 0;
+            position: absolute; top: 0px; left: 0px; width: 30%; height: 100%;"
+            accept=".JPG, .jpeg, .png, .gif" tabindex="-1" name="img" accept="image/*">
+            <span>Carregar imagem</span>
+        </form>
+    </div>
+
+    <!-- Meme Display -->
+    <div id="meme-image-container" class="memeImageContainer">
+        <img id="meme-image" class="memeImage" src="">
+        <p id="meme-text" class="memeText"></p>
+    </div>
+    <!-- Customização -->
+    <div class="buttons">
+      <p>Estilos customizados</p>
+        <button id="fire">Fire</button>
+        <button id="water">Water</button>
+        <button id="earth">Earth</button>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
