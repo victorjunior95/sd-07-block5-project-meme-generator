@@ -22,6 +22,21 @@ p#meme-text {
   font-size: 30px;
 }
 
-.fire {
-  border: 3px dashed rgb(255, 0, 0);
+.btn-border {
+  width: 100px;
+  line-height: 30px;
+  color: white;
+  font-weight: bolder;
+}
+
+#fire {
+  background-color: red;
+}
+
+#water {
+  background-color: blue;
+}
+
+#earth {
+  background-color: green;
 }
