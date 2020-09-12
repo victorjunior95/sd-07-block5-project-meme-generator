@@ -15,7 +15,7 @@
 #meme-image-container {
     border: solid 1px black;
     background-color: white;
-    overflow:inherit;
+    overflow:hidden;
     width: 45%;
     height: 45%;   
 }
