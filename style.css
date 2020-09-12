@@ -6,7 +6,9 @@ body {
   align-items: center;
   background-color: white;
   border: 1px solid black;
+  display: flex;
   height: 495px;
+  justify-content: center;
   position: relative;
   width: 510px;
 }
