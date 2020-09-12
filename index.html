@@ -14,8 +14,13 @@
     </div>
     <br><br>
 
+    <div>
+      <input id='meme-insert' type='file' accept='image/*' name='image' onchange='loadFile(event)'>
+      <label for = 'file' style = 'cursor: pointer;'>Upload Image</label>
+    </div>
+        
     <div id='meme-image-container'>
-      <img src='images/spongebob.png' alt='Meme image' width='400px'>
+      <img id='meme-image' src='images/spongebob.png' alt='Meme image'>
       <p id='meme-text'></p>
     </div>
 

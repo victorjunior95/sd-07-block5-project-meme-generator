@@ -11,3 +11,9 @@ function inOut() {
 
 // Event
 textInput.addEventListener('keyup', inOut);
+
+// Reference: https://www.webtrickshome.com/forum/how-to-display-uploaded-image-in-html-using-javascript
+let loadFile = function(event) {
+	let image = document.getElementById('meme-image');
+	image.src = URL.createObjectURL(event.target.files[0]);
+};
