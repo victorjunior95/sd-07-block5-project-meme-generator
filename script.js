@@ -1,14 +1,14 @@
-const output = document.querySelector('#meme-text');
-const input = document.querySelector('#text-input');
+const textOutput = document.querySelector('#meme-text');
+const textInput = document.querySelector('#text-input');
 
 function loadFile(event) {
-  let output = document.getElementById('meme-image');
-  output.src = URL.createObjectURL(event.target.files[0]);
-  output.onload = () => {
-    URL.revokeObjectURL(output.src);
+  const imgOutput = document.getElementById('meme-image');
+  imgOutput.src = URL.createObjectURL(event.target.files[0]);
+  imgOutput.onload = () => {
+    URL.revokeObjectURL(imgOutput.src);
   };
 }
 
-input.addEventListener('keyup', (event) => {
-  output.innerText = input.value;
+textInput.addEventListener('keyup', () => {
+  textOutput.innerText = textInput.value;
 });
