@@ -11,42 +11,40 @@ const meme2 = document.querySelector('.meme-2');
 const meme3 = document.querySelector('.meme-3');
 const meme4 = document.querySelector('.meme-4');
 
-textInput.addEventListener("keyup", function () {
-    memeText.innerHTML = textInput.value;
+textInput.addEventListener('keyup', function () {
+  memeText.innerHTML = textInput.value;
 });
 
-inputImgMeme.addEventListener("change", function () {
+inputImgMeme.addEventListener('change', function () {
   memeImg.src = URL.createObjectURL(event.target.files[0]);
-  memeImg.onload = function() {
-      URL.revokeObjectURL(memeImg.src);
-    };
+  memeImg.onload = function () {
+    URL.revokeObjectURL(memeImg.src);
+  };
 });
 
-fire.addEventListener("click", function () {
+fire.addEventListener('click', function () {
   memeContainer.style.border = '3px dashed rgb(255, 0, 0)';
 });
-water.addEventListener("click", function () {
-  memeContainer.style.border =  '5px double rgb(0, 0, 255)';
+water.addEventListener('click', function () {
+  memeContainer.style.border = '5px double rgb(0, 0, 255)';
 });
-earth.addEventListener("click", function () {
+earth.addEventListener('click', function () {
   memeContainer.style.border = '6px groove rgb(0, 128 ,0)';
 });
 
-meme1.addEventListener("click", function () {
+meme1.addEventListener('click', function () {
   memeImg.src = meme1.src;
   memeText.innerHTML = 'Depois de 15 horas codando';
 });
-meme2.addEventListener("click", function () {
+meme2.addEventListener('click', function () {
   memeImg.src = meme2.src;
   memeText.innerHTML = 'Zerei as issues do code climate';
 });
-meme3.addEventListener("click", function () {
+meme3.addEventListener('click', function () {
   memeImg.src = meme3.src;
   memeText.innerHTML = 'Eu depois de formar na trybe';
 });
-meme4.addEventListener("click", function () {
+meme4.addEventListener('click', function () {
   memeImg.src = meme4.src;
   memeText.innerHTML = 'Lucas pede para eu não invadir as aulas, pois já formei. EU:';
 });
-
-

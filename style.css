@@ -1,52 +1,52 @@
 .div-center {
-    text-align: center;
+  text-align: center;
 }
 .meme-image-container {
-    background-color: rgb(255, 255, 255);
-    border: 1px rgb(0, 0, 0) solid;
-    height: 30.5em;
-    left: 29.5%;
-    margin-top: 2%;
-    position: relative;
-    width: 40%;
+  background-color: rgb(255,255,255);
+  border: 1px rgb(0,0,0) solid;
+  height: 30.5em;
+  left: 29.5%;
+  margin-top: 2%;
+  position: relative;
+  width: 40%;
 }
 .meme-image {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 .meme-text {
-    bottom: .1%;
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    position: absolute;
-    right: 15%;
-    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+  bottom: .1%;
+  color: rgb(255,255,255);
+  font-size: 30px;
+  position: absolute;
+  right: 15%;
+  text-shadow: 5px 5px 5px rgb(0,0,0);
 }
 .change-border {
-    height: 4em;
-    margin-bottom: 1%;
-    margin-top: 1%;
-    width: 13.4%;
+  height: 4em;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  width: 13.4%;
 }
 .fire {
-    background-color: rgb(255, 0, 0);
-    border: 1px solid rgb(255, 0, 0);
+  background-color: rgb(255,0,0);
+  border: 1px solid rgb(255,0,0);
 }
 .water {
-    background-color: rgb(0, 0, 255);
-    border: 1px solid rgb(0, 0, 255);
+  background-color: rgb(0,0,255);
+  border: 1px solid rgb(0,0,255);
 }
 .earth {
-    background-color: rgb(0, 128 ,0);
-    border: 1px solid  rgb(0, 128 ,0);
+  background-color: rgb(0,128,0);
+  border: 1px solid  rgb(0,128,0);
 }
 .ready-memes {
-    display: inline-block;
-    height: 120px;
-    width: 55%;
+  display: inline-block;
+  height: 120px;
+  width: 55%;
 }
 .ready-memes img {
-    height: 100%;
-    margin-left: 8px;
-    width: 16.7%;
+  height: 100%;
+  margin-left: 8px;
+  width: 16.7%;
 }
