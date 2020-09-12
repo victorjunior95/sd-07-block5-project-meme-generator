@@ -53,7 +53,7 @@ function loadImg(e){
 
   imgMeme.addEventListener('load', resizeDiv);
 
-  imgMeme.style.top = '-' + newMemeText.clientHeight + 'px';
+  //imgMeme.style.top = '-' + newMemeText.clientHeight + 'px';
   console.log(newMemeText.height);
 }
 
@@ -68,8 +68,9 @@ function resizeDiv(e){
   }
   console.log(widthImg);
   containerMeme.style.height = (heightImg) + px;
+  containerMeme.style.width = (widthImg) + px;
   newMemeText.style.maxWidth = widthImg + px;
-  newMemeText.style.top = (widthImg - 100) + px;
+ // newMemeText.style.top = (widthImg - 100) + px;
 }
 
 function fillText(e){
