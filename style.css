@@ -35,10 +35,11 @@ header h1 {
   text-shadow: 5px 5px 5px black;
   color: white;
   display: inline-block;
-  width: 470px;
+  width: 450px;
   position: absolute;
-  top: 0;
-  left: 30px;
+  top: 10px;
+  left: 20px;
+  right: 20px;
 }
 
 footer {
