@@ -53,6 +53,7 @@
   margin: auto;
   width: 400px;
   height: 300px;
+  overflow: hidden;
 }
 
 #meme-image {
