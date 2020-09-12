@@ -3,8 +3,8 @@ function updateText(text) {
 }
   
 function updatePhoto(files) {
-    let img = document.querySelector('#meme-image');
-    let objectURL = window.URL.createObjectURL(files[0]);
+    const img = document.querySelector('#meme-image');
+    const objectURL = window.URL.createObjectURL(files[0]);
     img.src = objectURL;
     img.onload = function () {
       window.URL.revokeObjectURL(this.src);
