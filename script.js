@@ -1,6 +1,7 @@
 let inputMemeText = document.getElementById('text-input');
 let inputMemeImage = document.getElementById('meme-insert');
 let containerMeme = document.getElementById('meme-image-container');
+let newMemeText = document.getElementById('meme-text');
 
 function createText(){
   let memeTextArea = document.createElement('div');
@@ -51,12 +52,24 @@ function loadImg(e){
   }
 
   imgMeme.addEventListener('load', resizeDiv);
+
+  imgMeme.style.top = '-' + newMemeText.clientHeight + 'px';
+  console.log(newMemeText.height);
 }
 
 function resizeDiv(e){
-  let heightImg = e.path[0].clientHeight + 'px';
+  let widthImg = e.path[0].clientWidth;
+  let heightImg = e.path[0].clientHeight;
+  let heightText = 0;
+  const px = 'px';
 
-  containerMeme.style.height = heightImg;
+  if( findText() ){
+    heightText = newMemeText.clientHeight;
+  }
+  console.log(widthImg);
+  containerMeme.style.height = (heightImg) + px;
+  newMemeText.style.maxWidth = widthImg + px;
+  newMemeText.style.top = (widthImg - 100) + px;
 }
 
 function fillText(e){
@@ -72,7 +85,6 @@ function fillText(e){
       newMemeText.innerText = inputMemeText.value;
 
     }else{
-
       memeText.innerText = inputMemeText.value;
     }
 

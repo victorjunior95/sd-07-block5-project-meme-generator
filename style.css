@@ -10,12 +10,17 @@
 
 #meme-text{
   position: relative;
+  z-index: 2;
 
   font-size: 30px;
   text-align: center;
   text-shadow: rgb(0, 0, 0) 5px 5px 5px;
   color: rgb(255, 255, 255);
+
 }
 
 #meme-image{
+  position: relative;
+
+  z-index: 1;
 }
