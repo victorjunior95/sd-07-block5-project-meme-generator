@@ -9,17 +9,6 @@ function loadFile(event) {
   };
 }
 
-const insertMemeText = () => {
-  output.innerHTML = '';
-  output.innerText = input.value;
-};
-
-const btnSubmitMemeText = document.querySelector('#btnSubmitMemeText');
-btnSubmitMemeText.addEventListener('click', insertMemeText);
-
 input.addEventListener('keyup', (event) => {
-  if (event.keyCode === 13) {
-    event.preventDefault();
-    btnSubmitMemeText.click();
-  }
+  output.innerText = input.value;
 });

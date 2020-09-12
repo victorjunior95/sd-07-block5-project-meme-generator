@@ -1,87 +1,95 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+
+@import url(https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap);
+
 body {
-  margin: 0;
-  background-color: rgb(15 , 163 , 107);
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color: #333;
-  font-size: 14px;
-  line-height: 20px;
+background:rgb(15 ,163 ,107);
+color:#333;
+font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;
+font-size:14px;
+line-height:20px;
+margin:0;
 }
 
 .input-text {
-  display: inline-block;
-  width: 400px;
-  height: 25px;
-  font-size: larger;
-  font-weight: bolder;
-  margin-left: 8px;
-  border: none;
-  border-radius: 5px;
-  background-color: honeydew;
+background:honeydew;
+border:none;
+border-radius:5px;
+display:inline-block;
+font-size:larger;
+font-weight:bolder;
+height:25px;
+margin-left:8px;
+width:400px;
 }
 
 .header {
-  margin: 0;
-  width: auto;
-  height: fit-content;
-  padding: 5px 5px;
-  text-align: center;
-  vertical-align: middle;
-  text-shadow: 3px 3px 4px gray;
-  background-color: wheat;
+background:wheat;
+height:fit-content;
+margin:0;
+padding:5px;
+text-align:center;
+text-shadow:3px 3px 4px gray;
+vertical-align:middle;
+width:auto;
 }
 
 .header-left-svg {
-  margin-right: 5px;
-  height: 35px;
+height:35px;
+margin-right:5px;
 }
 
 .header-right-svg {
-  margin-left: 5px;
-  height: 35px;
-}
-
-.header h1 {
-  display: inline-block;
+height:35px;
+margin-left:5px;
 }
 
 .top-center-content {
-  width: 100%;
-  margin-top: 20px;
-  text-align: center;
-}
-
-.top-center-content h2 {
-  display: inline-block;
+margin-top:20px;
+text-align:center;
+width:100%;
 }
 
 .main-content {
-  width: 100%;
-  margin: 50px auto;
-  text-align: center;
+margin:50px auto;
+text-align:center;
+width:100%;
 }
 
 .container {
-  position: relative;
-  display: inline-block;
-  background-color: white;
-  border: 1px solid black;
-  height: 400px;
-  width: 400px;
+background:white;
+border:1px solid black;
+display:inline-block;
+height:400px;
+position:relative;
+text-align:center;
+width:400px;
+}
+
+.meme-img {
+height:inherit;
+width:inherit;
+}
+
+.text-container {
+bottom:0;
+color:white;
+font-family:Oswald, sans-serif;
+font-size:30px;
+line-height:35px;
+margin:10px;
+max-height:380px;
+position:absolute;
+text-align:left;
+text-shadow:5px 5px 5px black;
+width:380px;
+word-wrap:break-word;
+z-index:0;
 }
 
 .text-label {
-  position: absolute;
-  margin: 10px;
-  width: 380px;
-  max-height: 380px;
-  text-align: left;
-  line-height: 30px;
-  z-index: 0;
-  bottom: 0;
-  text-shadow: 5px 5px 5px black;
-  font-family: "Oswald", sans-serif;
-  font-size: 30px;
-  word-wrap: break-word;
-  color: white;
+margin:0;
+}
+
+h1 , h2 {
+display:inline-block;
 }
