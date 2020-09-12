@@ -146,9 +146,9 @@ main {
 }
 
 .image-container {
-  border-color: rgb(229 , 229 , 229);
+  border-color: black;
   border-style: solid;
-  border-width: 3px;
+  border-width: 1px;
   height: 380px;
   margin: auto;
   width: 650px;
