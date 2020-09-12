@@ -22,9 +22,9 @@ body {
 .meme-text-container {
   bottom: 0;
   height: 150px;
-  width: 450px;
   position: absolute;
   text-align: center;
+  width: 450px;
 }
 
 .padrao-icones {
