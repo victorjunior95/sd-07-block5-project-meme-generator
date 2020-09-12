@@ -1,9 +1,11 @@
 .div-center {
+
   text-align: center;
 }
 .meme-image-container {
-  background-color: rgb(255,255,255);
-  border: 1px rgb(0,0,0) solid;
+
+  background-color: white;
+  border: 1px black solid;
   height: 30.5em;
   left: 29.5%;
   margin-top: 2%;
@@ -11,41 +13,49 @@
   width: 40%;
 }
 .meme-image {
+    
   height: 100%;
   width: 100%;
 }
 .meme-text {
-  bottom: .1%;
-  color: rgb(255,255,255);
+    
+  bottom: 0.1%;
+  color: white;
   font-size: 30px;
   position: absolute;
   right: 15%;
-  text-shadow: 5px 5px 5px rgb(0,0,0);
+  text-shadow: 5px 5px 5px black;
 }
 .change-border {
+    
   height: 4em;
   margin-bottom: 1%;
   margin-top: 1%;
   width: 13.4%;
 }
 .fire {
-  background-color: rgb(255,0,0);
-  border: 1px solid rgb(255,0,0);
+    
+  background-color: red;
+  border: 1px solid red;
 }
 .water {
-  background-color: rgb(0,0,255);
-  border: 1px solid rgb(0,0,255);
+    
+  background-color: blue;
+  border: 1px solid blue;
 }
 .earth {
-  background-color: rgb(0,128,0);
-  border: 1px solid  rgb(0,128,0);
+    
+  background-color: green;
+  border: 1px solid  green;
 }
 .ready-memes {
+    
   display: inline-block;
   height: 120px;
   width: 55%;
 }
 .ready-memes img {
+    
   height: 100%;
   margin-left: 8px;
   width: 16.7%;
