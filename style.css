@@ -3,3 +3,17 @@ input, label{
     height: 40px;
     display: block;
 }
+button{
+    width: 100px;
+    height: 50px;
+}
+#fire{
+    background-color: red;
+}
+#water{
+    background-color: blue;
+}
+#earth{
+    background-color: green;
+}
+

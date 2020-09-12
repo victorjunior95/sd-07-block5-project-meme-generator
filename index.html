@@ -8,10 +8,13 @@
      <script src="script.js"></script>
 </head>
 <body>
+    <header>
+        <h1>MEME GENERATOR</h1>
+    </header>
     <section>
         <form>
             <label>Texto:</label>
-            <input id="text-input" type="text"/>           
+            <input id="text-input" maxlength="60"type="text"/>           
             <label>Foto:</label>
             <input id="meme-insert" type="file"/>
 
@@ -20,10 +23,15 @@
         <div id="meme-image-container">
             <div id="meme-image" >
 
-                <p id="meme-text"></p>
+                <p id="meme-text"></p>   
             </div>           
-
+           
         </div>
+        <h3>Estilos Customizados</h3>
+        <button id="fire"></button>
+        <button id="water"></button>
+        <button id="earth"></button>
+
     </section>
    
     

@@ -2,8 +2,12 @@ window.onload = function() {
     const memeInsert = document.getElementById("meme-insert");
     const txtInput = document.getElementById("text-input");
     const memeImage = document.querySelector("#meme-image-container");
-    let memeText = document.getElementById("meme-text");
+    const memeText = document.getElementById("meme-text");
     const image = document.createElement("img");
+    const btFire = document.getElementById("fire");
+    const btWater = document.getElementById("water");
+    const btEarth = document.getElementById("earth");
+
     // configurações de estilos
     memeImage.style.backgroundColor='white';
     memeImage.style.width='400px';
@@ -15,6 +19,7 @@ window.onload = function() {
     memeText.style.fontSize='30px';
     memeText.style.color='white';
     memeText.style.textTransform='uppercase';
+    memeText.style.maxWidth='inherit'; /*Tamanho maximo do pai*/
     
   
 
@@ -23,19 +28,31 @@ window.onload = function() {
         let patchImg = memeInsert.value;    
         let onlyImg = patchImg.slice(12);
         memeImage.style.backgroundImage='url('+onlyImg+')';
-        memeImage.style.backgroundSize='cover';
-        
-
+        memeImage.style.backgroundSize='cover'; 
         //image.setAttribute("src",onlyImg);
         //memeImage.appendChild(image);
-        console.log(memeImage);
+        
     });
 
     txtInput.addEventListener("keyup", function (){
         let txt = this.value;
         txt.upperCase;        
-        memeText.innerText=txt;        
+        memeText.innerText=txt; 
+             
     });
+
+    btFire.addEventListener("click", function (){
+        memeImage.style.border='dashed 3px red';     
+    });
+
+    btWater.addEventListener("click", function (){
+        memeImage.style.border='double 5px blue';     
+    });
+
+    btEarth.addEventListener("click", function (){
+        memeImage.style.border='groove 6px green';     
+    });
+
 }
 
 
