@@ -10,16 +10,19 @@ h1 {
 }
 
 #meme-text {
-  top: 180px;
+  top: 300px;
   position: absolute;
   text-shadow: 5px 5px 5px black;
   font-size: 30px;
   color: white;
 }
 
+#mem-image {
+  margin-top: 15px;
+}
+
 
 #meme-image-container {
-  position: relative;
   background-color: white;
   border: 1px solid black;
 }
