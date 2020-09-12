@@ -61,6 +61,17 @@ label {
   top: 150px;
   width: 500px;
 }
+.meme-insert {
+  color: rgb(38, 7, 110);
+  font-size: 14px;
+  font-weight: bolder;
+  height: 20px;
+  left: 8px;
+  position: absolute;
+  text-align: left;
+  top: 110px;
+  width: 250px;
+}
 .meme-text {
   background-color: transparent;
   color: white;
@@ -94,15 +105,4 @@ p {
 .tips {
   right: 200px;
   top: 400px;
-}
-.upload {
-  color: rgb(38, 7, 110);
-  font-size: 14px;
-  font-weight: bolder;
-  height: 20px;
-  left: 8px;
-  position: absolute;
-  text-align: left;
-  top: 110px;
-  width: 250px;
 }
