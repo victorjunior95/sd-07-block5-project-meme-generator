@@ -1,10 +1,10 @@
-let textInput = document.querySelector('#text-input');
-let buttons = document.querySelectorAll('button');
-let imageClick = document.querySelector('.pre-memes').querySelectorAll('img');
-let output = document.querySelector('#meme-image');
+const textInput = document.querySelector('#text-input');
+const buttons = document.querySelectorAll('button');
+const imageClick = document.querySelector('.pre-memes').querySelectorAll('img');
+const output = document.querySelector('#meme-image');
 
 textInput.addEventListener('keyup', () => {
-  let newOutput = document.querySelector('#meme-text');
+  const newOutput = document.querySelector('#meme-text');
 
   newOutput.innerText = textInput.value;
 });
@@ -14,11 +14,11 @@ function loadFile(e) {
   output.onload = () => {
     URL.revokeObjectURL(output.src);
   };
+  console.log('im been use');
 }
 
 for (let i = 0; i < buttons.length; i += 1) {
-  let imgBorder = document.querySelector('.container');
-
+  const imgBorder = document.querySelector('.container');
   buttons[i].addEventListener('click', () => {
     if (i === 0) {
       imgBorder.style.border = 'red dashed 3px';
