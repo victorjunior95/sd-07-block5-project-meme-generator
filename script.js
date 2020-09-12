@@ -31,6 +31,10 @@ window.onload = function () {
 
   function addText() {
     loadText.innerText = textInput.value;
+    imgShow = true;
+    if (imgShow === true) {
+      containerMeme.style.display = "block";
+    }
   }
 
   // EVENT IN THE BUTTONS BORDERS
