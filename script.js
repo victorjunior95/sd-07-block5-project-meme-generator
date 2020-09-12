@@ -46,17 +46,17 @@ function bordaEarth() {
 // Adicionando os templetes ao clicar nas miniaturas dos memes
 
 function tempDev() {
-    document.getElementById('imageMemeInput').src = './image/meme-dev.jpg'
+    document.getElementById('imageMemeInput').src = './imgs/meme1.png'
 }
 
 function tempCry() {
-    document.getElementById('imageMemeInput').src = './image/meme-cry.jpg'
+    document.getElementById('imageMemeInput').src = './imgs/meme2.png'
 }
 
 function tempStark() {
-    document.getElementById('imageMemeInput').src = './image/meme-stark.jpg'
+    document.getElementById('imageMemeInput').src = './imgs/meme3.png'
 }
 
 function tempSad() {
-    document.getElementById('imageMemeInput').src = './image//meme-sad.jpg'
+    document.getElementById('imageMemeInput').src = './imgs/meme4.png'
 }
