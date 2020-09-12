@@ -2,16 +2,16 @@ body {
   background-color: aquamarine;
   color: crimson;
   font-family: monospace;
-  height: 768px;   
+  height: 768px;
+  margin: 10px;   
   width: 1366px;
-  margin: 10px;
 }
 button {
   display: inline-block;
   padding: 5px 12px;
   position: relative;
-  top: 340px;
   right: 600px;
+  top: 340px;
 }
 .button-01 {
   background-color: red;
@@ -22,19 +22,19 @@ button {
 .button-03 {
   background-color: green;
 }
-.image-tip{
+.image-tip {
   border: dotted 3px rgb(98, 0, 128);
   display: inline-block;
-  width: 100px;
   height: 100px;
   background-color: grey;
   position: relative;
-  top: 520px;
   right: 270px;
+  top: 520px;
+  width: 100px;
 }
 img{
-  width: 100px;
   height: 100px;
+  width: 100px;
 }
 input {
   background-color: whitesmoke;
@@ -48,11 +48,10 @@ label {
   text-align: left;
 }
 .meme-image {
-  height: 349px;
+  height: 100%;
   position: absolute;
+  width: 100%;
   z-index: 2;
-  width: 499px;
-
 }
 .meme-image-container {
   background-color: white;
@@ -64,7 +63,6 @@ label {
 }
 .meme-text {
   background-color: transparent;
-  border: dotted white 1px;
   color: white;
   font-size: 30px;
   height: 150px;
@@ -93,18 +91,18 @@ p {
   text-align: left;
   width: 410px;
 }
-.tips{
-  top: 400px;
+.tips {
   right: 200px;
+  top: 400px;
 }
-.upload{
+.upload {
   color: rgb(38, 7, 110);
   font-size: 14px;
   font-weight: bolder;
   height: 20px;
+  left: 8px;
   position: absolute;
   text-align: left;
   top: 110px;
   width: 130px;
-  left: 8px;
 }

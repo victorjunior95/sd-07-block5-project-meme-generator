@@ -4,10 +4,10 @@ const memeImages = document.getElementById('meme-image');
 const button01 = document.querySelector('.button-01');
 const button02 = document.querySelector('.button-02');
 const button03 = document.querySelector('.button-03');
-const imgTip01 = document.getElementById('meme-1');
-const imgTip02 = document.getElementById('meme-2');
-const imgTip03 = document.getElementById('meme-3');
-const imgTip04 = document.getElementById('meme-4');
+const imgTip01 = document.querySelector('#meme-1 > img');
+const imgTip02 = document.querySelector('#meme-2 > img');
+const imgTip03 = document.querySelector('#meme-3 > img');
+const imgTip04 = document.querySelector('#meme-4 > img');
 const memeImageContainer = document.getElementById('meme-image-container');
 textInput.addEventListener('keyup', function() {
   memeText.innerHTML = textInput.value;
