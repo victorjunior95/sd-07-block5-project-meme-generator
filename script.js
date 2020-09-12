@@ -11,7 +11,9 @@ let bmeme2 = document.getElementById("meme-2");
 let bmeme3 = document.getElementById("meme-3");
 let bmeme4 = document.getElementById("meme-4");
 
-container.className = "imagevisible";
+container.style.borderWidth = "1px";
+container.style.borderStyle = "solid";
+container.style.borderColor = "black";
 
 // carrega a imagem selecionada
 input.addEventListener('change', function() {
