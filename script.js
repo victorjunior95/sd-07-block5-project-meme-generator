@@ -41,6 +41,6 @@ for (let index of image) {
     index.addEventListener('click', (event) => {
         let imagens = event.path[0];
         imageMeme.src = imagens.src;
-        console.log(imageMeme.src)
+        console.log(imagens);
     })
 }
