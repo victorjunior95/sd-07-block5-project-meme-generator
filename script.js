@@ -52,45 +52,31 @@ function loadImg(e){
   }
 
   imgMeme.addEventListener('load', resizeDiv);
-
-  //imgMeme.style.top = '-' + newMemeText.clientHeight + 'px';
-  console.log(newMemeText.height);
 }
 
 function resizeDiv(e){
   let widthImg = e.path[0].clientWidth;
   let heightImg = e.path[0].clientHeight;
-  let heightText = 0;
+
   const px = 'px';
 
-  if( findText() ){
-    heightText = newMemeText.clientHeight;
-  }
-  console.log(widthImg);
   containerMeme.style.height = (heightImg) + px;
   containerMeme.style.width = (widthImg) + px;
+
   newMemeText.style.maxWidth = widthImg + px;
- // newMemeText.style.top = (widthImg - 100) + px;
 }
 
 function fillText(e){
-
-
     let memeText = document.getElementById('meme-text');
 
     if( !findText() ){
       createText();
-
       let newMemeText = document.getElementById('meme-text');
 
       newMemeText.innerText = inputMemeText.value;
-
     }else{
       memeText.innerText = inputMemeText.value;
     }
-
-
-
 
 }
 

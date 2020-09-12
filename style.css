@@ -3,6 +3,7 @@
   position: relative;
 
   margin-top: 20px;
+  height:34px;
 
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(0, 0, 0);
@@ -22,7 +23,6 @@
 }
 
 #meme-image{
-
   position: absolute;
 
   z-index: 1;
