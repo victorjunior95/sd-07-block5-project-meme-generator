@@ -1,8 +1,34 @@
 main{
     width: 900px;
+    height: 500px;
     background-color: aquamarine;
     box-shadow: 10px 5px 5px rgba(2, 70, 53, 0.5);
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
+}
+.image-conteiner-principal{
+    max-width: 400px;
+    max-height: 400px;
+    margin-left: 250px;
+}
+
+#meme-image-container{
+    position: relative;
+    justify-content: center;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+#meme-image{
+    width: 100%;
+    height: 100%;
+}
+
+#meme-text{
+    float: inline-end;
+    color: rgb(0, 0, 0);
+    font-size: 30pt;
+    margin: 0;
+    box-shadow: 5px 5px 5px black;
 }

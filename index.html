@@ -9,25 +9,30 @@
 <link rel="stylesheet" href="./style.css">
 
 <body>
-        <header>
-            <h1> Meme Generator </h1>
-        </header>
+    <header>
+        <h1> Meme Generator </h1>
+    </header>
 
-        <main>
-            <div>
-                <label for="">Texto: <input type="text" id="text-input" /></label>
-                <label for="">Foto: <input type="text"></label>
+    <main>
+        <label for="">Texto: <input type="text" id="text-input" /></label>
+        <label for="">Imagem: <input type="file" id="meme-insert"></label>
+        
+        <div class="image-conteiner-principal">
 
-                <figure id="meme-image-container">
-                    <img src="" alt="">
-                    <p id="meme-text"> </p>
-                </figure>
-            </div>
-        </main>
-        <footer>
+            <figure id="meme-image-container">
+                <img src="./img/cachorro-olho-arregalado.png" alt="" id="meme-image">
 
-        </footer>
- 
+                <span id="meme-text">Nada selecionado! </span>
+
+
+            </figure>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
 </body>
+<script src="./script.js"></script>
 
 </html>
