@@ -7,23 +7,23 @@
  const tagImg = document.getElementById('meme-image');
  const tagTextMeme = document.getElementById('meme-text');
 
- const tagButton1 = document.getElementById('fire');
- const tagButton2 = document.getElementById('water');
- const tagButton3 = document.getElementById('earth');
+ const tagButtonFire = document.getElementById('fire');
+ const tagButtonWater = document.getElementById('water');
+ const tagButtonEarth = document.getElementById('earth');
 
- tagButton1.addEventListener('click', function(){
+ tagButtonFire.addEventListener('click', function(){
    tagFigure.style.border = "3px dashed rgb(255, 0, 0)";
    tagFigure.style.boxShadow = "4px 4px 4px black";
    tagFigure.style.backgroundColor = "rgb(255, 0, 0)";
  });
 
- tagButton2.addEventListener('click', function(){
+ tagButtonWater.addEventListener('click', function(){
   tagFigure.style.border = "5px double rgb(0, 0, 255)";
   tagFigure.style.boxShadow = "4px 4px 4px black";
   tagFigure.style.backgroundColor = "rgb(0, 0, 255)";
 });
 
-tagButton3.addEventListener('click', function(){
+tagButtonEarth.addEventListener('click', function(){
   tagFigure.style.border = "6px groove rgb(0, 128, 0)";
   tagFigure.style.backgroundColor = "rgb(0, 128, 0)";
 });
