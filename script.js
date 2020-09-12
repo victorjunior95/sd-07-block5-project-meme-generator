@@ -1,14 +1,35 @@
-let inputElement = document.querySelector("#file-input") //variáve de entrada
-inputElement.addEventListener('change', function () {
-    let imgElement = document.querySelector("#meme-image"); //variável de saida    
-    imgElement.src = URL.createObjectURL(this.files[0]);
-    imgElement.onload = function() {
-        URL.revokeObjectURL(this.src);
-    }
-});
+function inputText () {
+    const memeText = document.querySelector('#meme-text');
+    const textInput = document.querySelector('#text-input');
+    textInput.addEventListener('input', () => {
+    memeText.innerHTML = inputText.value;
+    });
+}
+function borderRed () {
+    const buttonFire = document.querySelector('#fire')
+    const memeImageContainer = document.querySelector('#meme-image-container');
+    buttonFire.addEventListener('click', () => {
+    memeImageContainer.style.border = '3px dashed red';
+    });
+}
+function borderWater () {
+    const buttonWater = document.querySelector('#water')
+    const memeImageContainer = document.querySelector('#meme-image-container');
+    buttonWater.addEventListener('click', () => {
+    memeImageContainer.style.border = '5px double red';
+    });
+}
+function borderEarth () {
+    const buttonEarth = document.querySelector('#earth')
+    const memeImageContainer = document.querySelector('#meme-image-container');
+    buttonEarth.addEventListener('click', () => {
+    memeImageContainer.style.border = '6px groove green';
+    });
+}
 
-let textImput = document.querySelector("#text-input"); //variável de entrada
-textImput.addEventListener('change', function(param) {
-    let memeText = document.querySelector("#meme-text"); //variável de saida
-   memeText.textContent = param.target.value;
-})
+window.onload = () => {
+    inputText ()
+    borderRed ()
+    borderWater ()
+    borderEarth ()
+}
