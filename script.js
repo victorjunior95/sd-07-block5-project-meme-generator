@@ -11,11 +11,11 @@ window.onload = function () {
   const memeImage = document.querySelector('#meme-image');
   const memeInsert = document.querySelector('#meme-insert');
 
-  function handleFiles () {
+  function handleFiles() {
     const img = document.createElement('img');
     img.src = URL.createObjectURL(this.files[0]);
     img.id = 'image';
-    img.height = 400;
+    img.className = 'meme-image';
     img.onload = function () {
       URL.revokeObjectURL(this.src);
     };
@@ -31,7 +31,7 @@ window.onload = function () {
   memeInsert.addEventListener('change', handleFiles, false);
 
   // Altera borda do meme conforme botão acionado
-  function changeMemeBorder (setColor, setStyle, setWidth) {
+  function changeMemeBorder(setColor, setStyle, setWidth) {
     const memeImageContainer = document.querySelector('#meme-image-container');
     memeImageContainer.style.borderColor = setColor;
     memeImageContainer.style.borderStyle = setStyle;
@@ -58,7 +58,7 @@ window.onload = function () {
     const img = document.createElement('img');
     img.src = this.src;
     img.id = 'image';
-    img.height = 400;
+    img.className = 'meme-image';
     img.onload = function () {
       URL.revokeObjectURL(this.src);
     };

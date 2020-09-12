@@ -1,7 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 h1 {
-  background-color: rgb(17, 163, 106);
-  padding: 20px;
+  background-color: rgb(17 , 163 , 106);
   color: white;
+  padding: 20px;
   text-align: center;
 }
 
@@ -10,12 +14,13 @@ h1 {
   border-color: black;
   border-style: solid;
   border-width: 1px;
-  height: 410px;
+  height: 300px;
   position: relative;
-  width: 410px;
+  width: 400px;
 }
 
 .meme-text {
+  bottom: 0;
   color: white;
   font-size: 30px;
   position: absolute;
@@ -23,6 +28,9 @@ h1 {
 }
 
 .meme-image {
+  display: block;
+  height: 100%;
+  width: 100%;
   position: absolute;
 }
 
