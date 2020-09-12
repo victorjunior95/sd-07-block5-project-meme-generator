@@ -29,7 +29,7 @@ button {
 
 .image-tip {
   background-color: grey;
-  border: dotted 3px rgb(98, 0, 128);
+  border: dotted 3px rgb(98 , 0 , 128);
   display: inline-block;
   height: 100px;
   position: relative;
@@ -45,7 +45,7 @@ img {
 
 input {
   background-color: whitesmoke;
-  color: rgb(98, 0, 128);
+  color: rgb(98 , 0 , 128);
   font-size: 16px;
 }
 
@@ -72,7 +72,7 @@ label {
 }
 
 .meme-insert {
-  color: rgb(38, 7, 110);
+  color: rgb(38 , 7 , 110);
   font-size: 14px;
   height: 20px;
   left: 8px;
@@ -106,7 +106,7 @@ p {
 }
 
 .text-input {
-  color: rgb(38, 7, 110);
+  color: rgb(38 , 7 , 110);
   font-size: 14px;
   height: 20px;
   text-align: left;
