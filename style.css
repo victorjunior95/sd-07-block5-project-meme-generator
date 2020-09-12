@@ -52,16 +52,25 @@ button {
     color: white;
     width: 150px;
     height: 30px;
+    margin: 10px;
 }
 
 .fire {    
     background-color: red;
+    border-color: red;
 }
 
 .water {    
     background-color: blue;
+    border-color: blue;
 }
 
 .earth {    
     background-color: green;
+    border-color: green;
+}
+
+.meme {
+    width: 120px;
+    border: 2px solid black;
 }
