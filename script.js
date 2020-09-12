@@ -7,6 +7,16 @@
  const tagImg = document.getElementById('meme-image');
  const tagTextMeme = document.getElementById('meme-text');
 
+ const tagButton1 = document.getElementById('fire');
+ const tagButton2 = document.getElementById('water');
+ const tagButton3 = document.getElementById('earth');
+
+ tagButton1.addEventListener('click', function(){
+   tagFigure.style.border = "3px dashed red";
+   tagFigure.style.boxShadow = "4px 4px 4px black";
+   tagImg.style.backgroundColor = "red";
+ });
+
  tagText.addEventListener('keyup', function(){
   tagTextMeme.innerText = tagText.value;
  });
