@@ -33,30 +33,23 @@ function trocaImagem() {
 
 // Border functions
 function borderDefault() {
-  const eborder = document.getElementById('meme-image-container');
-  eborder.style.borderWidth = '1px';
-  eborder.style.borderStyle = 'solid';
-  eborder.style.borderColor = 'black';
+  const dBorder = document.getElementById('meme-image-container');
+  dBorder.style.border = '1px solid black';
+  
 }
 function borderEarth() {
-  const eborder = document.getElementById('meme-image-container');
-  eborder.style.borderWidth = '6px';
-  eborder.style.borderStyle = 'groove';
-  eborder.style.borderColor = 'green';
+  const eBorder = document.getElementById('meme-image-container');
+  eBorder.style.border = '6px groove green';
 }
 
 function borderFire() {
-  const fborder = document.getElementById('meme-image-container');
-  fborder.style.borderWidth = '3px';
-  fborder.style.borderStyle = 'dashed';
-  fborder.style.borderColor = 'red';
+  const fBorder = document.getElementById('meme-image-container');
+  fBorder.style.border = '3px dashed red';
 }
 
 function borderWater() {
-  const wborder = document.getElementById('meme-image-container');
-  wborder.style.borderWidth = '5px';
-  wborder.style.borderStyle = 'double';
-  wborder.style.borderColor = 'blue';
+  const wBorder = document.getElementById('meme-image-container');
+  wBorder.style.border = '5px double blue';
 }
 
 // Memes Menu functions
