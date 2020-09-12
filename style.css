@@ -4,6 +4,7 @@
   border: 1px solid black;
   margin-top: 30px;
   position: relative;
+  background-color: white;
 }
 
 #meme-image {
@@ -18,15 +19,16 @@
 #container {
   width: 400px;
   height: 300px;
-  background-color: white;
 }
 
 #meme-text {
-  bottom: 50px;
+  bottom: 20px;
   position: absolute;
   text-align: center;
-  width: 375px;
   text-shadow: 5px 5px 5px black;
   font-size: 30px;
   color: white;
+  display: block;
+  word-wrap: break-word;
+  width: 400px;
 }
