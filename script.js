@@ -7,23 +7,8 @@ window.onload = function() {
     textBox.innerHTML = textMeme;
   });
   
-  containerImage.onload = function() {
-    URL.revokeObjectURL(containerImage.src);
-  }
-
   chooseImage.addEventListener('change', function(event) {
     let containerImage = document.getElementById('meme-image');
     containerImage.src = URL.createObjectURL(event.target.files[0]);
   });
-
-  
-
-
-
-
-
-
-
-
-
 }
