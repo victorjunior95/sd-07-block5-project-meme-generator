@@ -29,19 +29,21 @@
 
 #meme-image-container {
   margin: auto;
-  height: 70vh;
+  height: 30vw;
   width: 50vw;
   border: black solid 1px;
 }
 
 #meme-text {
   position: relative;
+  text-shadow: 5px 5px 5px black;
+  color: white;
+  font-size: 30px;
   height: 60vh;
   width: 45.5vw;
   padding: 2rem;
   position: absolute;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 6em;
   overflow: hidden;
   overflow-wrap: break-word;
   word-wrap: break-word;
