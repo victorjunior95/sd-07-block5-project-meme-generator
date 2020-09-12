@@ -1,5 +1,16 @@
 function updateText(e) {
     document.querySelector('#meme-image-container p').innerText = e.target.value;
+}
+  
+function updatePhoto(files) {
+    let img = document.querySelector('#meme-image');
+    var objectURL = window.URL.createObjectURL(files[0]);
+    const img = document.querySelector('#meme-image');
+    const objectURL = window.URL.createObjectURL(files[0]);
+    img.src = objectURL;
+    img.onload = function(e) {
+    img.onload = function () {
+      window.URL.revokeObjectURL(this.src);
   }
-  
-  
+  };
+} 
