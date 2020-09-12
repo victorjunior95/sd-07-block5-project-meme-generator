@@ -7,11 +7,11 @@ function insertText() {
 
 caixaTexto.addEventListener("keyup", insertText);
 
-let inputImage = document.querySelector("meme-insert");
 let image = document.getElementById("meme-image");
-
-inputImage.addEventListener("change", insertImage);
-
-function insertImage(event) {
+let loadFile = function (event) {
+  let image = document.getElementById("meme-insert");
   image.src = URL.createObjectURL(event.target.files[0]);
-}
+  image.onload = function () {
+    URL.revokeObjectURL(image.src);
+  };
+};

@@ -12,7 +12,11 @@
     </header>
     <section>
       <p>Texto: <input type="text" id="text-input" maxlength="60" /></p>
-      <p>Foto: <input type="file" /></p>
+      <p>
+        Foto:
+        <input type="file" accept="image/*" onchange="loadFile(event)" /> <br />
+        <img id="meme-insert" />
+      </p>
     </section>
     <section id="meme-image-container">
       <div id="meme-text">
@@ -20,9 +24,6 @@
       </div>
       <div id="meme-image">
         <!-- elemento da imagem do container -->
-      </div>
-      <div id="meme-insert">
-        <!-- elemento onde foi feito upload da imagem -->
       </div>
     </section>
     <script type="text/javascript" src="script.js"></script>
