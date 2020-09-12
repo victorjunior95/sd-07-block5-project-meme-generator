@@ -74,7 +74,7 @@ function resizeDiv(e){
 
 function fillText(e){
 
-  if(e.keyCode === 13){
+
     let memeText = document.getElementById('meme-text');
 
     if( !findText() ){
@@ -89,7 +89,7 @@ function fillText(e){
     }
 
 
-  }
+
 
 }
 
