@@ -1,25 +1,25 @@
 #meme-image-container {
+  background-color: white;
   height: 500px;
   width: 600px;
-  background-color: white;
 }
 
 #meme-image-container p {
-  position: absolute;
-  top: 80%;
   left: 25%;
   margin: 0 -50% 0 0;
+  position: absolute;
+  top: 80%;
   transform: translate(-50% , -50%);
 }
 
 #meme-text {
+  align-items: center;
   background-color: transparent;
   color: white;
-  font-size: 30px;
   font-family: Impact, sans-serif;
+  font-size: 30px;
   left: 15px;
   position: absolute;
-  align-items: center;
   text-shadow: black 5px 5px 5px;
   top: 550px;
 }
@@ -29,4 +29,3 @@
   height: 500px;
   width: 600px;
 }
-
