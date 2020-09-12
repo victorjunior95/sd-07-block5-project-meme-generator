@@ -9,28 +9,39 @@
 </head>
 <body class='body'>
 
-<header>
-    <h1>Your Own MemeGenerator</h1>
+<header class='header'>
+    <div class='main-title'><h1>Your <br> Own <br> MemeGenerator</h1></div>
     <section class="explanation">
         <h2>Como é que faz?</h2>
-        <p>Digite o texto na caixinha baixo, escolha a foto e corre p/ zueira! <br>
-        Você também pode usar a foto do coleguinha, é só subir no campo upload.
+        <p>Digite o texto na caixinha Texto, escolha a foto e corre p/ zueira! <br>
+        Você também pode usar uma foto que está no seu computador, é só subir no campo upload.
         </p>
     </section>
 </header>
 
-<label class='labels'><strong>Insira o texto aqui =></strong>
+<label class='labels'><strong>Texto =></strong>
     <input type='text' id='text-input' class='text-input-box'>
 </label>
-
-<label class='labels'><strong>Faça o Upload da sua imagem =></strong>
+<label class='labels'><strong>Upload =></strong>
     <input type='file' accept="image/*" id='meme-insert' class='meme-insert-box'>
 </label>
 
-<div id='meme-image-container' class='image-container-box'>
-    <div id='meme-text' class='meme-text'></div>
-    <img id='meme-image' class='meme-image' src=''>
-</div>
+<section class= 'generetor'>
+    <div class='left'>
+    <div id='meme-image-container' class='image-container-box'>
+        <div id='meme-text' class='meme-text'></div>
+        <img id='meme-image' class='meme-image' src=''>
+    </div>
+    </div>
+    <div class='right'>
+        <p><strong>Temas prontinhos para você usar:</strong></p>
+        <button id='fire' class='button-fire'>Fire</button>
+        <button id='water' class='button-water'>Fire</button>
+        <button id='earth' class='button-earth'>Fire</button>
+    </div>
+
+</section>
+
 
 </body>
 </html>
