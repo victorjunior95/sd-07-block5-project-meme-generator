@@ -9,32 +9,20 @@
     <title>Meme Generator</title>
 </head>
 <body>
-    <h1>MEME GENERATOR</h1>
-    <form>
-        <p>Texto do meme: <input type="text" id="text-input" maxlength="60" ></p>
-        <p>Selecione uma imagem: <input type="file" accept="image/*" id="meme-insert"></p>
-    </form>
+<h1>MEME GENERATOR</h1>
+<form>
+    <label for="text-input">Texto do meme: </label>
+    <input type="text" id="text-input" maxlength="60">
     <br>
-    <div id="meme-image-container">
-        <img id="meme-image">
-        <p id="meme-text"></p>
-    </div>
-    <script src="script.js"></script>
+    <br>
+    <label for="text-input">Selecione uma imagem: </label>
+    <input type="file" accept="image/*" id="meme-insert">
+</form>
+<br>
+<div id="meme-image-container">
+    <img src="" id="meme-image" alt="meme">
+    <p id="meme-text"></p>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
-
-<!--<!doctype html>-->
-<!--<html lang="en">-->
-<!--<head>-->
-<!--    <meta charset="UTF-8">-->
-<!--    <meta name="viewport"-->
-<!--          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
-<!--    <meta http-equiv="X-UA-Compatible" content="ie=edge">-->
-<!--    <title>Document</title>-->
-<!--</head>-->
-<!--<body>-->
-<!--    <input type="file" id="meme-insert">-->
-<!--    <img src="" alt="" id="meme-image">-->
-<!--    <script src="script.js"></script>-->
-<!--</body>-->
-<!--</html>-->

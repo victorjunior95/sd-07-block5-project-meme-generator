@@ -6,12 +6,11 @@
 }
 
 #meme-image-container p {
-  margin: 0;
   position: absolute;
   top: 80%;
   left: 25%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
+  margin: 0 -50% 0 0;
+  transform: translate(-50%, -50%);
 }
 
 #meme-text {
