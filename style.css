@@ -1,95 +1,108 @@
 body {
   background-image: url(img/bg.png);
   background-repeat: repeat;
-  font-family: 'Kufam', cursive;
-  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
-    0px 8px 13px rgba(0, 0, 0, 0.1),
-    0px 18px 23px rgba(0, 0, 0, 0.1);
+  font-family: Kufam, cursive;
+  text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4),
+    0 8px 13px rgba(0, 0, 0, 0.1),
+    0 18px 23px rgba(0, 0, 0, 0.1);
 
 }
 
 a {
-  text-decoration: none;
   color: inherit;
-  text-align: center;
   padding: 5px;
-  margin: 3px;
-  text-shadow: 5px, 5px, 5px, rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
 }
 
 a:hover {
-  background-color: rgb(253, 251, 251);
   color: rgb(231, 73, 48);
+  text-shadow: 0 4px 3px rgba(231, 73, 48, 0.4),
+    0 8px 13px rgba(231, 73, 48, 0.1),
+    0 18px 23px rgba(231, 73, 48, 0.1);
 }
 
 #header {
-  position: fixed;
-  width: 100%;
-  top: 0;
+  background-color: white;
+  box-shadow: 0 3px 7px 0 rgba(50, 50, 50, 0.75);
   left: 0;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 5px, 5px, 5px, 5px, rgb(0, 0, 0);
+  position: fixed;
   text-align: center;
+  top: 0;
+  width: 100%;
 }
 
 #meme-text {
-  text-shadow: 5px, 5px, 5px, rgb(0, 0, 0);
+  color: white !important;
+  font-family: Impact, Haettenschweiler, Arial Narrow Bold, sans-serif;
   font-size: 30px;
-  color: rgb(255, 255, 255);
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  text-transform: uppercase;
-  position: absolute;
-  top: 420px;
-  left: 140px;
+  left: 150px;
   margin: auto;
-  text-align: center;
   max-width: 400px;
+  padding: 0 !important;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+  text-transform: uppercase;
+  top: 370px;
+  word-break: break-all;
 }
 
 #meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  color: white;
+  left: 600px;
   margin-top: 150px;
-  color: rgb(255, 255, 255);
   position: relative;
-  text-align: center;
+  width: 700px;
 }
 
 #meme-image-container p {
+  color: black;
   display: inline-block;
   padding-left: 40px;
+  text-align: center;
+}
+
+#meme-image-container input {
+  text-align: center;
 }
 
 #meme-image {
+  margin: 0;
   max-width: 700px;
 }
 
 #meme-image img {
   max-width: 700px;
   width: 700px;
+  color: black;
 }
 
 #rodape {
-  position: absolute;
-  left: 0;
+  background-color: white;
   bottom: 0;
-  width: 100%;
+  box-shadow: 0 -3px 7px 0 rgba(50, 50, 50, 0.75);
+  color: black;
+  left: 0;
   max-width: 100%;
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
   padding: 10px 20px;
+  position: absolute;
   text-align: center;
-  text-shadow: 5px, 5px, 5px, rgb(0, 0, 0);
+  width: 100%;
 }
 
 #rodape ul li {
-  padding: 10px;
-  list-style-type: none;
   display: inline-block;
+  list-style-type: none;
+  padding: 10px;
 }
 
 #readme {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 #readme a {
-  padding: 15px;
+  padding: 5px;
 }
