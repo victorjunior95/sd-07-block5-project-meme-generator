@@ -1,10 +1,12 @@
 function inputText () {
     const memeText = document.querySelector('#meme-text');
     const textInput = document.querySelector('#text-input');
-    textInput.addEventListener('input', () => {
-    memeText.innerHTML = inputText.value;
+    textInput.addEventListener('change', () => {
+    memeText.innerHTML =  textInput.value;
     });
+
 }
+
 function borderRed () {
     const buttonFire = document.querySelector('#fire')
     const memeImageContainer = document.querySelector('#meme-image-container');
@@ -27,9 +29,31 @@ function borderEarth () {
     });
 }
 
+function catchImageMemes () {
+  const catchMeme1 = document.querySelector('#meme-1');
+  const catchMeme2 = document.querySelector('#meme-2');
+  const catchMeme3 = document.querySelector('#meme-3');
+  const catchMeme4 = document.querySelector('#meme-4');
+  const catchImageMeme = document.querySelector('#meme-image');
+  catchMeme1.addEventListener('click', function(){
+  catchImageMeme.style.backgroundImage = "url('./imgs/meme1.png')";
+  });
+  catchMeme2.addEventListener('click', function(){
+    catchImageMeme.style.backgroundImage = "url('./imgs/meme2.png')";
+  });
+  catchMeme3.addEventListener('click', function(){
+    catchImageMeme.style.backgroundImage = "url('./imgs/meme3.png')";
+  });
+  catchMeme4.addEventListener('click', function(){
+    catchImageMeme.style.backgroundImage = "url('./imgs/meme4.png')";
+  });
+
+}
+
 window.onload = () => {
     inputText ()
     borderRed ()
     borderWater ()
     borderEarth ()
-}
+    catchImageMemes ()    
+};

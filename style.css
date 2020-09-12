@@ -4,24 +4,29 @@ body {
     width: 100%;
     font-size: 20px;
     font-family: sans-serif;
+    text-align: center;
 }
 
+#meme-generator {
+    margin-top: 10px;
+}
 #meme-image {
     background-repeat: no-repeat; //site youutube
     background-size: cover;
-    width:100%
     height: 100%
-    z-index: 0;
+    width: 100%
+    z-index: 1;
+    position: absolute;
 }
 
 #meme-image-container {
     background-color: white;
     border: 1px solid black;
     height: 400px;
-    margin-top: 5px;
+    margin-top: 20px;
+    margin-left: 25%;
     width: 50%;
     z-index: 0;
-    margin-left: 20px;
 }
 
 #meme-text {
@@ -30,15 +35,24 @@ body {
     overflow-wrap: break-word; //
     position: absolute;
     text-shadow: 5px 5px 5px black;
-    z-index: 1;
+    z-index: 2;
+}
+
+.botao {
+    width: 60px;
+    height: 40px;
+    display: inline-block;
 }
 
 #molduras-style {
     display: inline-block;
-    height: 70px;
-    width:  100px;
+    width:  100%;
+    align-items: center;
+
 }
 
 #memes-prontos {
     margin-left: 20px;
+    margin-top: 10px;
 }
+

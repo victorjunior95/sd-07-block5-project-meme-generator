@@ -13,30 +13,28 @@
     </header>
     <nav>
         <label>
-            <input type="text" name="textName" maxlength="60" id="text-input" placeholder = "Digite e pressione ENTER">
+            <input type="text" name="textName" maxlength="60" id="text-input">
         </label>
         <label>
-            <input type="file" name="Foto" id="meme-insert" accept="nome1.jpeg","nome2.jpeg","nome3.jpeg", "nome4.jpeg")>
+            <input type="file" id="meme-insert" accept="./imgs/*" onchange="loadFile(event)">
             <input type="submit">
         </label>
-    <div id="meme-image-container">
-        <p id="meme-text"></p>
-        <div id="meme-image"></div>
+    <div class="meme-container" id="meme-image-container">
+        <div class="meme-image" id="meme-image"></div>
+        <p class="meme-text" id="meme-text"></p>
     </div>
     <section id="molduras-style">
-        <p>
-            <button class="fire" id="fire">Fire</button>
-            <button class="water" id="water">Water</button>
-            <button class="earth" id="earth">earth</button>
-        </p>
+        <p>Estilo de bordas </p>
+        <button class="botao" id="fire">Fire</button>
+        <button class="botao" id="water">Water</button>
+        <button class="botao" id="earth">earth</button>
     </section>
     <section id="memes-prontos">
-        <p>Memes prontos!
+        <p>Memes prontos!</p>
         <img src="imgs/meme1.png" style="width: 180px" id="meme-1" alt="foto do bacana">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        </p>
+        <img src="imgs/meme2.png" style="width: 180px" id="meme-2" alt="foto do bacana">
+        <img src="imgs/meme3.png" style="width: 180px" id="meme-3" alt="foto do bacana">
+        <img src="imgs/meme4.png" style="width: 180px" id="meme-4" alt="foto do bacana">
     </section>
     </nav>
 </body>
