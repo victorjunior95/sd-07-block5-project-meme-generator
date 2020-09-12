@@ -1,4 +1,7 @@
-document.querySelector('#text-input').addEventListener("keyup", function(){
-  document.querySelector('#meme-text').innerText = document.querySelector('#text-input').nodeValue;
-})
+let input = document.querySelector("#text-input");
+let memeText = document.querySelector("#meme-text");
+
+input.addEventListener("keyup", function () {
+  memeText.innerText = input.value;
+});
 
