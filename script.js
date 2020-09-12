@@ -29,25 +29,25 @@ btnEarth.addEventListener('click', function () {
 });
 //  Trata o evento de trocar imagem por uma escolhida pelo usuário na página
 //  botões
-let btn_meme1 = document.querySelector('#btn-meme1');
-let btn_meme2 = document.querySelector('#btn-meme2');
-let btn_meme3 = document.querySelector('#btn-meme3');
-let btn_meme4 = document.querySelector('#btn-meme4');
+const btnMeme1 = document.querySelector('#btn-meme1');
+const btnMeme2 = document.querySelector('#btn-meme2');
+const btnMeme3 = document.querySelector('#btn-meme3');
+const btnMeme4 = document.querySelector('#btn-meme4');
 //  inputs
-let meme1 = document.querySelector('#meme-1');
-let meme2 = document.querySelector('#meme-2');
-let meme3 = document.querySelector('#meme-3');
-let meme4 = document.querySelector('#meme-4');
+const meme1 = document.querySelector('#meme-1');
+const meme2 = document.querySelector('#meme-2');
+const meme3 = document.querySelector('#meme-3');
+const meme4 = document.querySelector('#meme-4');
 //  funções de troca
-btn_meme1.addEventListener('click', function () {
+btnMeme1.addEventListener('click', function () {
   memeImage.src = meme1.src;
 });
-btn_meme2.addEventListener('click', function () {
+btnMeme2.addEventListener('click', function () {
   memeImage.src = meme2.src;
 });
-btn_meme3.addEventListener('click', function () {
+btnMeme3.addEventListener('click', function () {
   memeImage.src = meme3.src;
 });
-btn_meme4.addEventListener('click', function () {
+btnMeme4.addEventListener('click', function () {
   memeImage.src = meme4.src;
 });
