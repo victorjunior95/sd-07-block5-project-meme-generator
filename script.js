@@ -39,27 +39,22 @@ window.onload=function(){
     })
 
     memeUm.addEventListener('click',function(){
-        espacoMeme.src='./images/meme-cachorro.jpg';        
+        espacoMeme.src='./imgs/meme-cachorro.jpg';        
     })
 
     memeDois.addEventListener('click',function(){
-        espacoMeme.src='./images/meme-carro.jpg';        
+        espacoMeme.src='./imgs/meme-carro.jpg';        
     })
 
     memeTres.addEventListener('click',function(){
-        espacoMeme.src='./images/meme-crianca.jpg';        
+        espacoMeme.src='./imgs/meme-crianca.jpg';        
     })
 
     memequatro.addEventListener('click',function(){
-        espacoMeme.src='./images/meme-gato.jpeg';
+        espacoMeme.src='./imgs/meme-gato.jpeg';
     })    
 
     caixaTexto.addEventListener('keyup', function(){
         textoMeme.innerText=caixaTexto.value;        
-    })
-
-    botaoCarregar.addEventListener('click', function(){
-        espacoMeme.src=url.createObjectURL(event.target.files[0]);
-        console.log('Vai carregar o que?');
     })
 }
