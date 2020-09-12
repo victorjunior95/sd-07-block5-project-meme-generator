@@ -1,5 +1,8 @@
-#meme-image-container {
+.meme-image-container {
     width: 450px;
     height: 600px;
     border: solid black;
+}
+.meme-text {
+    position: absolute;
 }
