@@ -8,4 +8,7 @@ textInputBox.addEventListener('keyup', function() {
     textMeme.innerText = textInput;
 });
 
-
+var LoadMemeImage = function(event) {
+	var image = document.getElementById('meme-image');
+	image.src = URL.createObjectURL(event.target.files[0]);
+};
