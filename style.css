@@ -1,58 +1,29 @@
 body {
   background-color: darkolivegreen;
   color: white;
-}
-
-.topo {
-  height: 60px;
-}
-
-h1 {
-  display: flex;
-  justify-content: center;
-}
-
-.insercao {
-  font-size: 20px;
-  line-height: 50px;
-  margin-left: 40px;
-  text-align: left;
-}
-
-.campo-meme {
-  background-color: white;
-  border: 1px solid black;
-  height: 450px;
-  margin-left: 40px;
-  width: 450px;
+  text-align: center;
 }
 
 .meme-text {
-  bottom: 0;
-  font-family: Impact;
+  font-family: Impact, sans-serif;
   font-size: 30px;
-  height: 110px;
-  max-height: fit-content;
-  max-width: 435px;
-  position: absolute;
-  text-align: center;
   text-shadow: 5px 5px 5px black;
-  z-index: 2;
 }
 
-.separadores {
-  font-size: 20px;
-  margin: 15px 15px 15px 32px;
-  padding: 8px;
+.meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 450px;
+  left: 33%;
+  position: relative;
+  width: 450px;
 }
 
-.icones {
-  display: flex;
-  margin-left: 40px;
-}
-
-.rodape {
-  padding: 8px;
+.meme-text-container {
+  bottom: 0;
+  height: 150px;
+  width: 450px;
+  position: absolute;
   text-align: center;
 }
 
@@ -62,13 +33,6 @@ h1 {
   font-weight: 600;
   height: 35px;
   width: 90px;
-}
-
-.imagem-meme {
-  height: 450px;
-  position: absolute;
-  width: 450px;
-  z-index: 1;
 }
 
 .fire {
