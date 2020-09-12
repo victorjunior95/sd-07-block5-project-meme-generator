@@ -21,15 +21,15 @@ let buttonWater = getElementById("water");
 let buttonEarth = getElementById("earth");
 let memeImageContainer = getElementById("meme-image-container")
 
-buttonFire.addEventListener("onclick", function () {
+buttonFire.addEventListener("click", function () {
     memeImageContainer.style.border = "3px dashed red";
 })
 
-buttonWater.addEventListener("onclick", function () {
+buttonWater.addEventListener("click", function () {
     memeImageContainer.style.border = "5px double blue";
 })
 
-buttonEarth.addEventListener("onclick", function () {
+buttonEarth.addEventListener("click", function () {
     memeImageContainer.style.border = "6px groove green";
 })
 
