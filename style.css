@@ -20,6 +20,11 @@ fieldset {
     margin: auto;    
 }
 
+.meme-image-container{
+    display: inline-block;    
+    box-sizing: border-box;
+}
+
 .meme-txt {
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
