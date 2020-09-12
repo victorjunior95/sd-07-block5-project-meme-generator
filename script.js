@@ -28,12 +28,12 @@ botaoFire.addEventListener('click', function() {
 
 let botaoWater = document.querySelector('#water');
 botaoWater.addEventListener('click', function() {
-    container.style.border = 'double 5px rgb(0, 38, 255)';
-    imageMeme.style.border = 'double 5px rgb(0, 38, 255)';
+    container.style.border = 'double 5px rgb(0 , 0 , 255)';
+    imageMeme.style.border = 'double 5px rgb(0 , 0 , 255)';
 })
 
 let botaoEarth = document.querySelector('#earth');
 botaoEarth.addEventListener('click', function() {
-    container.style.border = 'groove 6px rgb(27, 233, 0)';
-    imageMeme.style.border = 'groove 6px rgb(27, 233, 0)';
+    container.style.border = 'groove 6px rgb(0 , 128 , 0)';
+    imageMeme.style.border = 'groove 6px rgb(0 , 128 , 0)';
 })
