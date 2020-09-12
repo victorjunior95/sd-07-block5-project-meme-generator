@@ -16,6 +16,9 @@ input.addEventListener('change', function() {
 	
     img.src =  URL.createObjectURL(input.files[0]);
     container.className = "imagevisible";
+    container.style.borderWidth = "1px";
+    container.style.borderStyle = "solid";
+    container.style.backgroundColor = "white";
     
 })
 
