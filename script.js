@@ -1,12 +1,12 @@
 window.onload = function () {
   function getText() {
     const textInput = document.getElementById('text-input').value;
-    const memeText = document.getElementsByTagName('p');
+    const memeText = document.getElementById('meme-text');
     memeText.innerText = textInput.toUpperCase();
   }
 
   const userText = document.getElementById('text-input');
-  userText.addEventListener('change', getText);
+  userText.addEventListener('keypress', getText);
 
   function getImage(event) {
     const memeImage = document.getElementById('meme-image');
