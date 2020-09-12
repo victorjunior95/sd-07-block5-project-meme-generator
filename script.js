@@ -1,4 +1,4 @@
-window.onload = function () {   
+window.onload = function () {  
     function createReader () {
         let headerPage = document.createElement('header')
         headerPage.className = 'head-class'
