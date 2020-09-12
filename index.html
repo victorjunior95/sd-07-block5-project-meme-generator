@@ -16,32 +16,16 @@
 
     <div id="meme-image-container" class="container">
         <img id="output" />
-        <h2 id="meme-text"></h2>
+        <h2 id="meme-text" class="textoMeme"></h2>
     </div>
 
     <h3>Estilos costomizados:</h3>
-    <button >fire</button>
+    <button>fire</button>
     <button>water</button>
     <button>earth</button>
 
-    <script>
-        var texto = document.querySelector("#text-input");
-        var textoMeme = document.querySelector("#meme-text");
-       
-        function textoAqui () {
-            textoMeme.innerText = texto.value;
-        }
+    <script type="text/javascript" src="script.js"></script>
 
-        var loadFile = function (event) {
-            var output = document.getElementById('output');
-            output.src = URL.createObjectURL(event.target.files[0]);
-            output.onload = function () {
-                URL.revokeObjectURL(output.src) // free memory
-            }
-        };
-
-        texto.addEventListener('input', textoAqui);
-    </script>
 </body>
 
 </html>

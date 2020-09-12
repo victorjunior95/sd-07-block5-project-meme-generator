@@ -5,3 +5,10 @@
     padding: 1rem;
     font-size: 1rem;
 }
+
+.textoMeme {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
+    color: white;
+}
