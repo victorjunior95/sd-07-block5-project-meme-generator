@@ -11,11 +11,12 @@ let bmeme2 = document.getElementById("meme-2");
 let bmeme3 = document.getElementById("meme-3");
 let bmeme4 = document.getElementById("meme-4");
 
-
+// carrega a imagem selecionada
 input.addEventListener('change', function() {
 	img.src =  URL.createObjectURL(input.files[0]);
 })
 
+// transfere o texto digitado para o meme-text
 text.addEventListener("input", function() {
     memetext.innerText = text.value;
 });

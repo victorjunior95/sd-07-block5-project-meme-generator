@@ -24,28 +24,31 @@
 .fireborder {
     border-style: dashed;
     border-width: 3px;
-
-    /* Cada elemento `button` deve ser estilizado de forma a ter a cor de fundo da mesma cor que a moldura que irá colocar no container; */
-    border-color: red;
-    background-color: red;
+    border-color: red;  
 }
 
 /* Um botão com `id` chamado `water` deve estilizar o container da imagem com uma borda azul, com 5 pixels do tipo _double_ . */
 .waterborder {
     border-style: double;    
     border-width: 5px;
-
-    /* Cada elemento `button` deve ser estilizado de forma a ter a cor de fundo da mesma cor que a moldura que irá colocar no container; */
-    border-color: blue;
-    background-color: blue;
+    border-color: blue; 
 }
 
 /* Um botão com `id` chamado `earth` deve estilizar o container da imagem com uma borda do tipo _groove_, verde e com 6 pixels. */
 .earthborder {
     border-style: groove;
     border-width: 6px;
+    border-color: green; 
+}
 
-    /* Cada elemento `button` deve ser estilizado de forma a ter a cor de fundo da mesma cor que a moldura que irá colocar no container; */
-    border-color: green;
-    background-color: green;
+.fireb{
+    background-color: rgb(255, 0, 0); /* Cada elemento `button` deve ser estilizado de forma a ter a cor de fundo da mesma cor que a moldura que irá colocar no container; */
+}
+
+.waterb{
+    background-color: rgb(0, 0, 255); /* Cada elemento `button` deve ser estilizado de forma a ter a cor de fundo da mesma cor que a moldura que irá colocar no container; */
+}
+
+.earthb{
+    background-color: rgb(0, 128, 0); /* Cada elemento `button` deve ser estilizado de forma a ter a cor de fundo da mesma cor que a moldura que irá colocar no container; */
 }
