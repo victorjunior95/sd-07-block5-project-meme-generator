@@ -1,22 +1,22 @@
-//Função para inserir o texto do input no container 'meme-image-container'
+// Função para inserir o texto do input no container 'meme-image-container'
 
 let text = document.getElementById('text-input');
 
 text.addEventListener ('keyup', insertText);
 
-function insertText() {    
+function insertText() {
     let memeText = document.getElementById('meme-text');
 
     memeText.innerText = text.value;
 }
 
-//Função para inserir o arquivo(imagem) do input no container 'meme-image-container'
+// Função para inserir o arquivo(imagem) do input no container 'meme-image-container'
 
 let image = document.getElementById('meme-insert');
 let imageOutput = document.getElementById('meme-image');
 
-image.addEventListener ('change', function (event) {    
-    imageOutput.src = URL.createObjectURL(event.target.files[0]);    
+image.addEventListener ('change', function (event) {
+    imageOutput.src = URL.createObjectURL(event.target.files[0]);
 })
 
 let fireButton = document.getElementById('fire');
@@ -24,23 +24,25 @@ let waterButton = document.getElementById('water');
 let earthButton = document.getElementById('earth');
 let getBorder = document.getElementById('meme-image-container');
 
-//Funções para estilizar a borda do container 'meme-image-container':
+// Funções para estilizar a borda do container 'meme-image-container':
 
 fireButton.addEventListener ('click', redBorder);
 waterButton.addEventListener ('click', blueBorder);
 earthButton.addEventListener ('click', greenBorder);
 
 function redBorder() {
-    getBorder.style.border = '3px dashed red';   
+    getBorder.style.border = '3px dashed red';
 }
 
 function blueBorder() {
-    getBorder.style.border = '5px double blue';   
+    getBorder.style.border = '5px double blue';
 }
 
 function greenBorder() {
-    getBorder.style.border = '6px groove green';   
+    getBorder.style.border = '6px groove green';
 }
+
+// Função para colocar imagens pré definidas no container 'meme-image-container':
 
 let meme1 = document.getElementById('meme-1');
 let meme2 = document.getElementById('meme-2');

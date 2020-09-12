@@ -1,76 +1,77 @@
 body {
-    text-align: center;
+  text-align: center;
 }
 
 button {
-    font-weight: bolder;
-    color: white;
-    width: 150px;
-    height: 30px;
-    margin: 10px;
+  color: white;
+  font-weight: bolder;
+  height: 30px;
+  margin: 10px;
+  width: 150px;
 }
 
 fieldset {
-    margin-left: 200px;
-    margin-right: 200px;    
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 legend {
-    font-size: 20px;
-    font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .anotacao {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .container-image {
-    width: 500px;
-    height: 500px;
-    border: 1px solid black;
-    background-color: white;
-    position: relative;
-    margin: auto;    
+  background-color: white;
+  border: 1px solid black;
+  height: 500px;
+  margin: auto;
+  position: relative;
+  width: 500px;
 }
 
-.earth {    
-    background-color: green;
-    border-color: green;
+.earth {
+  background-color: green;
+  border-color: green;
 }
 
-.fire {    
-    background-color: red;
-    border-color: red;
+.fire {
+  background-color: red;
+  border-color: red;
 }
 
 .line-space {
-    line-height: 40px;
+  line-height: 40px;
 }
 
 .meme {
-    width: 120px;
-    border: 2px solid black;
+  border: 2px solid black;
+  width: 120px;
+
 }
 
 .meme-img {
-    width: 100%;    
-    height: 100%;    
+  height: 100%;
+  width: 100%;
 }
 
 .meme-txt {
-    color: white;
-    font-family: Impact, sans-serif;
-    font-size: 30px;    
-    text-shadow:5px 5px 5px black;
-    margin-top: 90%;
-    position: absolute;
-    width: inherit;
-    text-align: center;
-    bottom: 0;
-    top: 0;    
+  bottom: 0;
+  color: white;
+  font-family: Impact, sans-serif;
+  font-size: 30px;
+  margin-top: 90%;
+  position: absolute;
+  text-align: center;
+  text-shadow:5px 5px 5px black;
+  top: 0;
+  width: inherit;
 }
 
-.water {    
+.water {
     background-color: blue;
     border-color: blue;
 }
