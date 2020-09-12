@@ -34,18 +34,22 @@ function catchImageMemes () {
   const catchMeme2 = document.querySelector('#meme-2');
   const catchMeme3 = document.querySelector('#meme-3');
   const catchMeme4 = document.querySelector('#meme-4');
-  const catchImageMeme = document.querySelector('#meme-image');
+  const catchImageMeme = document.querySelector('#meme-image-container');
   catchMeme1.addEventListener('click', function(){
   catchImageMeme.style.backgroundImage = "url('./imgs/meme1.png')";
+  catchImageMeme.style.backgroundSize = "cover"
   });
   catchMeme2.addEventListener('click', function(){
     catchImageMeme.style.backgroundImage = "url('./imgs/meme2.png')";
+    catchImageMeme.style.backgroundSize = "cover"
   });
   catchMeme3.addEventListener('click', function(){
     catchImageMeme.style.backgroundImage = "url('./imgs/meme3.png')";
+    catchImageMeme.style.backgroundSize = "cover"
   });
   catchMeme4.addEventListener('click', function(){
     catchImageMeme.style.backgroundImage = "url('./imgs/meme4.png')";
+    catchImageMeme.style.backgroundSize = "cover"
   });
 
 }

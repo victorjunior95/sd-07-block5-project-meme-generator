@@ -1,22 +1,18 @@
+#position-relative {
+    position: relative;
+}
+
 body {
     margin: 0;
     padding: 0;
     width: 100%;
     font-size: 20px;
-    font-family: sans-serif;
+    font-family: monospace;
     text-align: center;
 }
 
 #meme-generator {
     margin-top: 10px;
-}
-#meme-image {
-    background-repeat: no-repeat; //site youutube
-    background-size: cover;
-    height: 100%
-    width: 100%
-    z-index: 1;
-    position: absolute;
 }
 
 #meme-image-container {
@@ -26,6 +22,14 @@ body {
     margin-top: 20px;
     margin-left: 25%;
     width: 50%;
+    position: relative
+}
+
+#meme-image {
+    background-repeat: no-repeat; //site youutube
+    background-size: cover;
+    height: 100%
+    width: 100%
     z-index: 0;
 }
 
@@ -35,7 +39,7 @@ body {
     overflow-wrap: break-word; //
     position: absolute;
     text-shadow: 5px 5px 5px black;
-    z-index: 2;
+    z-index: 1;
 }
 
 .botao {
@@ -48,6 +52,7 @@ body {
     display: inline-block;
     width:  100%;
     align-items: center;
+    margin-top: 10px;
 
 }
 
