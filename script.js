@@ -6,7 +6,7 @@ window.onload = function () {
   }
 
   const userText = document.getElementById('text-input');
-  userText.addEventListener('keypress', getText);
+  userText.addEventListener('change', getText);
 
   function getImage(event) {
     const memeImage = document.getElementById('meme-image');
