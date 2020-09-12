@@ -30,26 +30,58 @@ window.onload = function () {
   }
   memeInsert.addEventListener('change', handleFiles, false);
 
-  // Altera borda do meme conforme botão acionado
-  const memeImageContainer = document.querySelector('#meme-image-container');
+  // Altera borda do meme conforme botão acionado 
+  function changeMemeBorder (setColor, setStyle, setWidth) {
+    const memeImageContainer = document.querySelector('#meme-image-container');
+    memeImageContainer.style.borderColor = setColor;
+    memeImageContainer.style.borderStyle = setStyle;
+    memeImageContainer.style.borderWidth = setWidth;
+  }
+
   const buttonFire = document.querySelector('#fire');
   buttonFire.addEventListener('click', function() {
-    memeImageContainer.style.borderColor = 'red';
-    memeImageContainer.style.borderStyle = 'dashed';
-    memeImageContainer.style.borderWidth = '3px';
+    changeMemeBorder ('red', 'dashed', '3px');
   });
 
   const buttonWater = document.querySelector('#water');
   buttonWater.addEventListener('click', function() {
-    memeImageContainer.style.borderColor = 'blue';
-    memeImageContainer.style.borderStyle = 'double';
-    memeImageContainer.style.borderWidth = '5px';
+    changeMemeBorder ('blue', 'double', '5px');
   });
 
   const buttonEarth = document.querySelector('#earth');
   buttonEarth.addEventListener('click', function() {
-    memeImageContainer.style.borderColor = 'green';
-    memeImageContainer.style.borderStyle = 'groove';
-    memeImageContainer.style.borderWidth = '6px';
+    changeMemeBorder ('green', 'groove', '6px');
   });
+
+  // Carrega miniatura pré prontas no meme generator
+  function changeImage() {
+    const img = document.createElement('img');
+    img.src = this.src
+    img.id = 'image';
+    img.height = 400;
+    img.onload = function () {
+      URL.revokeObjectURL(this.src);
+    }
+    // Atualiza a imagem, se alguma foi carregada anteriormente.
+    if (document.querySelector('#image') === null) {
+      memeImage.appendChild(img);
+    } else {
+      const oldImg = document.querySelector('#image');
+      memeImage.appendChild(img);
+      memeImage.replaceChild(img, oldImg);
+    }
+  }
+
+  const meme1 = document.querySelector('#meme-1');
+  meme1.addEventListener('click', changeImage);
+
+  const meme2 = document.querySelector('#meme-2');
+  meme2.addEventListener('click', changeImage);
+
+  const meme3 = document.querySelector('#meme-3');
+  meme3.addEventListener('click', changeImage);
+
+  const meme4 = document.querySelector('#meme-4');
+  meme4.addEventListener('click', changeImage);
+
 };

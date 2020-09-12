@@ -12,12 +12,10 @@
   color: white;
   font-size: 30px;
   position: absolute;
-  text-shadow: 5px 5px 5px #ffffff;
+  text-shadow: 5px 5px 5px #000000;
 }
 
 .meme-image {
-  border-color: aqua;
-  border-style: dashed;
   position: absolute;
 }
 
