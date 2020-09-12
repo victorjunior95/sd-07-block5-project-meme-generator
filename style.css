@@ -4,6 +4,7 @@
   font-size: 1em;
   padding: 20px;
 }
+
 .explanation {
   background-color: white;
   border: dotted;
@@ -23,6 +24,7 @@
   margin: 30px;
   width: 30%;
 }
+
 .image-container-box {
   background-color: white;
   border: solid 1px black;
@@ -33,15 +35,16 @@
 }
 
 .meme-text {
+  bottom: 0px;
   color: white;
   font-size: 30px;
   height: 100px;
   position: absolute;
   text-align: center;
   text-shadow: 5px 5px 5px black;
-  top: 150px;
   width: 400px;
 }
+
 .meme-image {
   height: 249px;
   width: 476px;
