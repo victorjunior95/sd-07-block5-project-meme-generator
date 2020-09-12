@@ -7,9 +7,9 @@ function insertText() {
 
 caixaTexto.addEventListener("keyup", insertText);
 
-let image = document.getElementById("meme-image");
+let image = document.getElementById("meme-insert");
 let loadFile = function (event) {
-  let image = document.getElementById("meme-insert");
+  let image = document.getElementById("meme-image");
   image.src = URL.createObjectURL(event.target.files[0]);
   image.onload = function () {
     URL.revokeObjectURL(image.src);
