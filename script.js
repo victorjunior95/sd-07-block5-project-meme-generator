@@ -1,18 +1,21 @@
 // adicionando texto ao meme
 const memeText = document.querySelector('#meme-text');
 
+const textInput = document.querySelector('#text-input');
+
 function updateMemeText() {
   memeText.innerHTML = textInput.value;
 }
 
-const textInput = document.querySelector('#text-input');
 textInput.addEventListener('keyup', updateMemeText);
 
 // utilizou-se essa referencia para autoload de imagem
 // https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded/27165977#27165977
 const memeImage = document.getElementById('meme-image');
-const loadFile = function (event) {
-  memeImage.src = URL.createObjectURL(event.target.files[0]);
+function loadFile(event) {
+  let image = event.target.files[0];
+
+  memeImage.src = URL.createObjectURL(image);
 
   memeImage.onload = function () {
     URL.revokeObjectURL(memeImage.src);
