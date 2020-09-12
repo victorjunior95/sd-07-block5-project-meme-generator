@@ -21,4 +21,5 @@ function loadFile(event) {
 function writeText() {
     textInput.setAttribute('maxlength', 60);
     memeText.innerHTML = textInput.value;
+    textInput = "";
 }
