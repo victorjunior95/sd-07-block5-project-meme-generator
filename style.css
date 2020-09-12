@@ -19,26 +19,23 @@
     height: 100%;
 }
 
-.fireborder {
-    visibility: visible;
+#fire {
     border-style: dashed;
     border-width: 3px;
     border-color: red;
-
+    background-color: red;
 }
 
-.waterborder {
-    visibility: visible;
+#water {
     border-style: double;    
     border-width: 5px;
     border-color: blue;
-
+    background-color: blue;
 }
 
-.earthborder {
-    visibility: visible;
+#earth {
     border-style: groove;
     border-width: 6px;
     border-color: green;
-
+    background-color: green;
 }
