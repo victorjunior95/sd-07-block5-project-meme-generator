@@ -8,6 +8,9 @@ window.onload = function () {
   let meme2 = document.querySelector("#meme-2");
   let meme3 = document.querySelector("#meme-3");
   let meme4 = document.querySelector("#meme-4");
+  let buttonFire = document.querySelector("#fire");
+  let buttonWater = document.querySelector("#water");
+  let buttonEarth = document.querySelector("#earth");
   function changeText() {
     memeText.innerText = `${textInput.value}`;
   }
@@ -27,10 +30,24 @@ window.onload = function () {
       memeText.style.marginTop = `${memeImage.naturalHeight - 100}px`;
     };
   }
+  function changeBorder(event) {
+    let element = event.target.id;
+    if (element === "fire") {
+      memeImageContainer.style.border = "3px dashed red";
+    } else if (element === "water") {
+      memeImageContainer.style.border = "5px double blue";
+    } else {
+      memeImageContainer.style.border = "6px groove green";
+    }
+  }
   textInput.addEventListener("input", changeText);
   memeInsert.addEventListener("change", changeImage);
   meme1.addEventListener("click", changeImage);
   meme2.addEventListener("click", changeImage);
   meme3.addEventListener("click", changeImage);
   meme4.addEventListener("click", changeImage);
+  buttonFire.addEventListener("click", changeBorder); 
+  buttonWater.addEventListener("click", changeBorder);
+  buttonEarth.addEventListener("click", changeBorder);
+
 };
