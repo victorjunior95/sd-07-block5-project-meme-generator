@@ -163,11 +163,14 @@ main {
 }
 
 .meme-text {
-  color: rgb(77 , 137 , 235);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  color: white;
   font-size: 30px;
   margin: 10px;
   max-width: 100%;
   position: relative;
   top: -380px;
   word-wrap: break-word;
+  text-shadow: 5px 5px 5px black;
 }
