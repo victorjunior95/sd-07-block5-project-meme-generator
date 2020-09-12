@@ -4,7 +4,7 @@
     border: 0;
     
 }
-
+/* container foto + texto */
 .meme-image-container {
     display: inline-block;
     border: 1px solid black;
@@ -14,12 +14,18 @@
     
 }
 
-/* texto deverá ter cor, sombra e tamanho específicos */
+/* texto sob a imagem */
 .meme-text {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow: 5px 5px 5px black;
     font-size: 30px;
     color: white;
+    position: absolute;
+    text-align: center;
+    height: inherit;
+    width: inherit;
+    margin: inherit;
+    word-wrap: break-word;
 }
 
 /* class que vai deixar o container e a imagem do mesmo tamanho */
@@ -29,8 +35,3 @@
     width: inherit;
 }
 
-/* texto que vai sob a imagem  */
-.meme-text {
-    position: absolute;
-    text-align: center;
-}
