@@ -2,27 +2,43 @@ body {
   background-color: rgb(253 , 251 , 251);
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  width:100%;
 }
 
-#cabecalho {
+.head-class {
   background-color: rgb(28 , 28 , 28);
   margin-top: 0;
   position: fixed;
   width: 100%;
 }
 
-#titulo {
+#title {
   color: rgb(205 , 205 , 205);
   text-align: center;
 }
 
-#text-input {
-  margin-left: 5px;
+.container-left {
   margin-top: 85px;
-  width: 30%;
+  float: left;
+  width: 48%;
+  text-align: left;
+}
+label {
+  display: block;
+  margin-left: 5px;
 }
 
-.meme-container {
+#text-input {
+  display: block;
+  margin-left: 5px;
+  width: 100%;
+}
+
+.container-right {
+  margin-top: 85px;
+  margin-right: 5px;
+  float: right;
+  width: 48%;
   text-align: left;
   height: 300px;
   width: 300px;
