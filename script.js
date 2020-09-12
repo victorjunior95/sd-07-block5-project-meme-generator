@@ -1,16 +1,15 @@
-   
-let textInput = document.querySelector("#text-input");
-let memeText = document.querySelector("#meme-text");
-let inputImgMeme = document.querySelector("#meme-insert");
-let memeImg = document.querySelector("#meme-image");
-let memeContainer = document.querySelector("#meme-image-container");
-let fire = document.querySelector("#fire");
-let water = document.querySelector("#water");
-let earth = document.querySelector("#earth");
-let meme1 = document.querySelector("#meme-1");
-let meme2 = document.querySelector("#meme-2");
-let meme3 = document.querySelector("#meme-3");
-let meme4 = document.querySelector("#meme-4");
+const textInput = document.querySelector('.text-input');
+const memeText = document.querySelector('.meme-text');
+const inputImgMeme = document.querySelector('.meme-insert');
+let memeImg = document.querySelector('.meme-image');
+let memeContainer = document.querySelector('.meme-image-container');
+let fire = document.querySelector('.fire');
+let water = document.querySelector('.water');
+let earth = document.querySelector('.earth');
+let meme1 = document.querySelector('.meme-1');
+let meme2 = document.querySelector('.meme-2');
+let meme3 = document.querySelector('.meme-3');
+let meme4 = document.querySelector('.meme-4');
 
 textInput.addEventListener("keyup", function() {
     memeText.innerHTML = textInput.value;

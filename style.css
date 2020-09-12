@@ -15,12 +15,12 @@
     width: 100%;
 }
 .meme-text {
-   bottom: .1%;
-   color: rgb(255, 255, 255);
-   font-size: 30px;
-   position: absolute;
-   right: 15%;
-   text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    bottom: .1%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    position: absolute;
+    right: 15%;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 .change-border {
     height: 4em;
@@ -45,7 +45,7 @@
     height: 120px;
     width: 55%;
 }
-#ready-memes img {
+.ready-memes img {
     height: 100%;
     margin-left: 8px;
     width: 16.7%;
