@@ -1,98 +1,101 @@
 body {
   margin: 0;
 }
-header h1 {
+
+h1 {
+  background-color: aquamarine;
+  font-family: "Press Start 2P", Courier, monospace;
+  margin-top: 0;
   padding: 20px;
   text-align: center;
-  background-color: aquamarine;
-  margin-top: 0;
-  font-family: "Press Start 2P", Courier, monospace;
   text-shadow: 2px 2px 3px green;
 }
 
-#center {
-  width: 900px;
+.center {
   margin: auto;
-}
-
-#meme-image-container {
-  margin: auto;
-  width: 500px;
-  height: 500px;
-  background-color: white;
-  border: 1px solid black;
-  position: relative;
-  box-sizing: border-box;
-}
-
-#meme-image-container p {
-  margin: 0;
-  padding: 0;
-}
-
-#meme-text {
-  font-size: 30px;
-  text-shadow: 5px 5px 5px black;
-  color: white;
-  display: inline-block;
-  width: 450px;
-  position: absolute;
-  top: 10px;
-  left: 20px;
-  right: 20px;
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
-}
-
-#button {
-  text-align: center;
   width: 900px;
-}
-
-button {
-  width: 100px;
-  margin: 10px 15px;
-  font-size: 2em;
-  text-shadow: 0 0 6px black;
-  padding: 10px;
-  outline-style: none;
 }
 
 input {
   margin: 8px 0;
 }
 
-#fire {
+.meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  box-sizing: border-box;
+  height: 500px;
+  margin: auto;
+  position: relative;
+  width: 500px;
+}
+
+.meme-image-container p {
+  margin: 0;
+  padding: 0;
+}
+
+.meme-text {
+  color: white;
+  display: inline-block;
+  font-size: 30px;
+  left: 20px;
+  position: absolute;
+  right: 20px;
+  text-shadow: 5px 5px 5px black;
+  top: 10px;
+  width: 450px;
+}
+
+.button {
+  text-align: center;
+  width: 900px;
+}
+
+button {
+  font-size: 2em;
+  margin: 10px 15px;
+  outline-style: none;
+  padding: 10px;
+  text-shadow: 0 0 6px black;
+  width: 100px;
+}
+
+.fire {
   background-color: red;
-  border-radius: 8px;
   border: none;
+  border-radius: 8px;
 }
 
-#water {
+.water {
   background-color: blue;
-  border-radius: 8px;
   border: none;
+  border-radius: 8px;
 }
 
-#earth {
+.earth {
   background-color: green;
-  border-radius: 8px;
   border: none;
+  border-radius: 8px;
 }
 
 aside {
-  width: 900px;
-  text-align: center;
   margin-bottom: 50px;
+  text-align: center;
+  width: 900px;
 }
 
 aside img {
-  width: 100px;
   margin: 8px;
+  width: 100px;
+}
+
+footer {
+  background-color: white;
+  bottom: 0;
+  left: 0;
+  opacity: 0.8;
+  position: fixed;
+  right: 0;
+  text-align: center;
 }
