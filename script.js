@@ -38,18 +38,18 @@ window.onload = function(){
         let container = document.getElementById('meme-image-container');
 
         if(color == 'red') {
-        container.style.borderColor = color;
+        container.style.borderColor = "rgb(255, 0, 0)";
         container.style.borderWidth = '3px';
         container.style.borderStyle = 'dashed';
         }
         else if (color == 'blue') {
-            container.style.borderColor = color;
+            container.style.borderColor = "rgb(0, 0, 255)";
             container.style.borderWidth = '5px';
             container.style.borderStyle = 'double';
 
         }
         else if(color == 'green') {
-            container.style.borderColor = color;
+            container.style.borderColor = "rgb(0, 128, 0)";
             container.style.borderWidth = '6px';
             container.style.borderStyle = 'groove';
 
