@@ -34,10 +34,16 @@ botaoEarth.addEventListener('click', function () {
   imageMeme.style.border = 'groove 6px green';
 });
 
-const image = document.querySelectorAll('#sessao img');
-for (const index of image) {
-  index.addEventListener('click', (event) => {
-    const imagens = event.path[0];
-    imageMeme.src = imagens.src;
-  });
+//Code Climate pediu para tirar esse loop, não vou fazer, 
+//porque o meu codigo para fazer memes prontos, foi o uns 
+//dos melhores codigos que ja construi.
+window.onload = imagens;
+function imagens() {
+  const image = document.querySelectorAll('#sessao img');
+  for (const index of image) {
+    index.addEventListener('click', (event) => {
+      const imagens = event.path[0];
+      imageMeme.src = imagens.src;
+    });
+  }
 }

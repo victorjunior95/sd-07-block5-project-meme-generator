@@ -1,26 +1,26 @@
-.bloco {
+.sessao1 {
   margin-left: 100px;
   font-size: 20px;
 }
 
-.bloco p {
+.sessao1 p {
   font-size: 25px;
 }
 
-.inserir {
+.meme-insert1 {
   margin-top: 10px;
   margin-left: 9px;
   margin-bottom: 10px;
 }
 
-.container {
+.meme-image-container1 {
   background-color: white;
   border: solid 1px black;
   width: 502px;
   height: 402px;
 }
 
-.texto {
+.meme-text1 {
   text-shadow: 5px 5px 5px black;
   font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -34,14 +34,14 @@
   word-wrap: break-word;
 }
 
-.imagem {
+.meme-image1 {
   background-color: white;
   border: solid 1px black;
   width: 500px;
   height: 400px;
 }
 
-.fogo {
+.fire1 {
   border: dashed 3px red;
   background-color: red;
   color: aliceblue;
@@ -49,7 +49,7 @@
   margin-right: 15px;
 }
 
-.agua {
+.water1 {
   border: double 5px blue;
   background-color: blue;
   color: aliceblue;
@@ -57,7 +57,7 @@
   margin-right: 15px;
 }
 
-.terra {
+.earth1 {
   border: groove 6px green;
   background-color: green;
   color: aliceblue;
@@ -65,28 +65,28 @@
   margin-right: 15px;
 }
 
-.amigos{
+.meme-11 {
   border: solid 2px black;
   width: 120px;
   height: 140px;
   margin-left: 10px;
 }
 
-.mulher-amarelo {
+.meme-21 {
   border: solid 2px black;
   width: 120px;
   height: 140px;
   margin-left: 10px;
 }
 
-.mulher {
+.meme-31 {
   border: solid 2px black;
   width: 120px;
   height: 140px;
   margin-left: 10px;
 }
 
-.amigos-diversos {
+.meme-41 {
   border: solid 2px black;
   width: 120px;
   height: 140px;
