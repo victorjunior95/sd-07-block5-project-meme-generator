@@ -9,7 +9,7 @@ textInput.addEventListener('keyup', () => {
   newOutput.innerText = textInput.value;
 });
 
-function loadFile(e) {
+function loadFile(event) {
   output.src = URL.createObjectURL(e.target.files[0]);
   output.onload = () => {
     URL.revokeObjectURL(output.src);

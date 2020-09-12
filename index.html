@@ -8,24 +8,24 @@
 </head>
 <body>
    <div id="text-insert">
-      Text: <input type="text" 
+      Text:<input type="text" 
       id="text-input" maxlength="60">
    </div>
    <div id="upload-img">
       <label for="img">Select image: </label>
       <input type="file" id="meme-insert" name="img" onchange="loadFile(event)">
    </div>
-   <div id="meme-image-container">
+   <div id="meme-image-container" class="container">
       <img id="meme-image">
-      <span id="meme-text"></span>
+      <span id="meme-text" class="text"></span>
    </div>
-   <div id="borders">
+   <div class="borders">
       <p>Choose a border:</p>
-      <button id="fire">Red</button>
-      <button id="water">Blue</button>
-      <button id="earth">Green</button>
+      <button id="fire" class="red">Red</button>
+      <button id="water" class="blue">Blue</button>
+      <button id="earth" class="green">Green</button>
    </div>
-   <div id="pre-memes">
+   <div class="pre-memes">
       <p>Choose one meme:</p>
       <img id="meme-1" src="./imgs/meme1.png"></img>
       <img id="meme-2" src="./imgs/meme2.png"></img>
