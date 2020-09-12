@@ -1,6 +1,11 @@
-const textInput = document.querySelector('#text-input');
-const showText = document.querySelector('#meme-text');
+document.querySelector('#text-input').setAttribute('maxlength', 60);
 
-textInput.onchange = () => {
-  showText.innerHTML = textInput.value;
-};
+let textInputBox = document.querySelector('#text-input');
+
+textInputBox.addEventListener('keyup', function() {
+    let textInput = document.querySelector('#text-input').value;
+    let textMeme = document.querySelector('#meme-text');
+    textMeme.innerText = textInput;
+});
+
+
