@@ -22,7 +22,7 @@
 .meme-text {
     display: block;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   /* text-shadow: 5px 5px 5px black; */
+    text-shadow: 5px 5px 5px black;
     font-size: 30px;
     color: white;
     position: absolute;
