@@ -1,5 +1,4 @@
 #meme-image-container {
-  border: black solid;
   height: 500px;
   width: 600px;
   background-color: white;
@@ -10,7 +9,7 @@
   top: 80%;
   left: 25%;
   margin: 0 -50% 0 0;
-  transform: translate(-50%, -50%);
+  transform: translate(-50% , -50%);
 }
 
 #meme-text {
@@ -26,6 +25,7 @@
 }
 
 #meme-image {
+  border: black solid;
   height: 500px;
   width: 600px;
 }
