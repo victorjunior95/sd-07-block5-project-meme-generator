@@ -11,14 +11,10 @@ let bmeme2 = document.getElementById("meme-2");
 let bmeme3 = document.getElementById("meme-3");
 let bmeme4 = document.getElementById("meme-4");
 
-container.style.backgroundColor = "rgb(255, 255, 255)";
-container.style.border = "1px solid rgb(0, 0, 0)";
-
 // 1.2
 input.addEventListener('change', function() {
 	
     img.src =  URL.createObjectURL(input.files[0]);
-    container.className = "imagevisible";
 })
 
 
