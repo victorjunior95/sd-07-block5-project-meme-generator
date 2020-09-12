@@ -16,6 +16,7 @@ container.style.borderWidth = "1px";
 container.style.borderStyle = "solid";
 container.style.borderColor = "black";
 container.style.backgroundColor = "white";
+container.style.position = "relative";
 
 // carrega a imagem selecionada
 input.addEventListener('change', function() {

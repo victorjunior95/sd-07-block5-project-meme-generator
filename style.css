@@ -2,6 +2,7 @@
 
 .imagevisible {
     visibility: visible;
+    position: relative;
 
     /* background-color: rgb(255, 255, 255); /* O elemento que serve de container para a imagem deve ter o a cor de fundo branca; */
     /* border: 1px solid black; O elemento que serve de container para a imagem deve ter uma borda preta, sólida, com 1 pixel de largura; */
