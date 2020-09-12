@@ -6,8 +6,8 @@
     display: inline-block;
 }
 #meme-image {
-    width: 100%;
-    height: 100%;
+    width: 819px;
+    height: 618px;
     margin:0px;
     padding: 0px;
     display: block;
@@ -16,6 +16,6 @@
     border: solid 1px black;
     background-color: white;
     overflow:hidden;
-    width: 45%;
-    height: 45%;   
+    width: 819px;
+    height: 618px;   
 }
