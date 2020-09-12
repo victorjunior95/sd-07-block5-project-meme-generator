@@ -16,7 +16,3 @@ function aparecerImagem (event) {
      tagImg.src=URL.createObjectURL(event.target.files[0]);
     
 }
-
-function limitarInput(obj) {
-    obj.value = obj.value.substring(0,8);
-}
