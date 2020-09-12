@@ -23,3 +23,18 @@
   font-family: Impact, sans-serif;
   margin-top: 20px;
 }
+
+.btnFire {
+  background-color: red;
+  color: white;
+}
+
+.btnWater {
+  background-color: blue;
+  color: white;
+}
+
+.btnEarth {
+  background-color: green;
+  color: white;
+}
