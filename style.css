@@ -1,10 +1,4 @@
-/* .imagehidden {
-    visibility: hidden;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-    background-color: rgb(255, 255, 255);
-  } */
+
 
 .imagevisible {
     visibility: visible;
@@ -20,6 +14,12 @@
     text-shadow: rgb(0, 0, 0) 5px 5px 5px;
     font-size: 30px;
     color: white;
+    word-wrap: break-word; /* 1.3 */
+}
+
+#meme-image {
+    width: 100%;
+    height: 100%;
 }
 
 .fireborder {
