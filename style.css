@@ -19,23 +19,23 @@
     height: 100%;
 }
 
-/* #fire {
+.fire {
     border-style: dashed;
     border-width: 3px;
     border-color: red;
     background-color: red;
 }
 
-#water {
+.water {
     border-style: double;    
     border-width: 5px;
     border-color: blue;
     background-color: blue;
 }
 
-#earth {
+.earth {
     border-style: groove;
     border-width: 6px;
     border-color: green;
     background-color: green;
-} */
+}
