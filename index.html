@@ -15,18 +15,16 @@
     <div class="textBox">
         <form>
             <label>Meme Text:</label>
-            <input type="text" id="text-input"><br><br>
-            <input type="submit" value="Submit"><br><br>
-        </form> 
+            <input type="text" id="text-input" maxlength="60"><br><br>
+            <input type="file" id="meme-insert" accept="image/*" onchange="loadImage(event)"><br><br>
+        </form>
     </div>
     <div id="meme-image-container">
-        <div id="meme-text">
-            <p>Texto aleatorio</p>
-        </div>
+        <p id="meme-text" class="meme-text">
+        </p>
         <div>
-            <img id="meme-image" src="" alt="Meme Image">
+            <img id="meme-image" class="meme-image" src="output" alt="Meme Image">
         </div>
     </div>
-    <div id="meme-insert"></div>
 </body>
 </html>
