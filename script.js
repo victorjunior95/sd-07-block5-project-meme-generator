@@ -12,13 +12,11 @@ window.onload=function(){
     let caixaTexto=document.getElementById('text-input')
     let textoMeme=document.getElementById('meme-text');
     let botaoCarregar=document.getElementById('meme-insert');
-    // let loadFile=function(event){
-    //     let output=document.getElementById('meme-image');
-    //     output.src=URL.createObjectURL(event.target.files[0]);
-    //     output.onload=function(){
-    //         URL.revokeObjectURL(output.src);
-    //     }
-    // };
+
+    memeUm.src='./imgs/meme-cachorro.jpg';
+    memeDois.src='./imgs/meme-carro.jpg';
+    memeTres.src='./imgs/meme-crianca.jpg';
+    memequatro.src='./imgs/meme-gato.jpeg'
             
     botaoUm.addEventListener('click', function(){
         conteinerImagem.style.borderColor='blue';
@@ -39,7 +37,7 @@ window.onload=function(){
     })
 
     memeUm.addEventListener('click',function(){
-        espacoMeme.src='./imgs/meme-cachorro.jpg';        
+        espacoMeme.src='./imgs/meme-cachorro.jpg';
     })
 
     memeDois.addEventListener('click',function(){
