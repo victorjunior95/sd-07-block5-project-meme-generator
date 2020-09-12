@@ -6,8 +6,8 @@ body {
   position: relative;
   border: 1px solid black;
   background-color: white;
-  width: 500px;
-  height: 500px;
+  width: 510px;
+  height: 495px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,6 +29,4 @@ body {
 
 #meme-image {
   position: absolute;
-  width: 500px;
-  height: 500px;
 }
