@@ -11,4 +11,15 @@
         <!--A quantidade máxima de caracteres digitáveis no elemento text-input deve ser 60.--> 
               <!--Image-->
       <imag id="meme-image" src="document.querySelector('#meme-insert')">
-        */
+        
+4 - O texto que será inserido sobre a imagem deve ter uma cor, 
+sombra e tamanho específicos.-->
+
+O texto do elemento meme-text deve ter uma sombra preta, de 5 pixels
+na horizontal, 5 pixels na vertical e um raio de desfoque de 5 pixels;-->
+
+O texto do elemento meme-text deve ter a fonte com o tamanho de 30 pixels;-->
+          
+O texto do elemento meme-text deve estar na cor branca;-->
+
+*/
