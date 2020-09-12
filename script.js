@@ -43,21 +43,21 @@ const meme4 = document.querySelector('#meme-4');
 const meme5 = document.querySelector('#meme-5');
 
 meme1.addEventListener('click', function () {
-    image.src = meme1.src;
+  image.src = meme1.src;
 });
 
 meme2.addEventListener('click', function () {
-    image.src = meme2.src;
+  image.src = meme2.src;
 });
 
 meme3.addEventListener('click', function () {
-    image.src = meme3.src;
+  image.src = meme3.src;
 });
 
 meme4.addEventListener('click', function () {
-    image.src = meme4.src;
+  image.src = meme4.src;
 });
 
 meme5.addEventListener('click', function () {
-    image.src = meme5.src;
+  image.src = meme5.src;
 });

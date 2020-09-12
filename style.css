@@ -3,14 +3,13 @@
   border: 1px black solid;
   height: 500px;
   position: relative;
-
   text-align: center;
   width: 500px;
 }
 
 .imgMemeImage {
-  left: 0;
   height: 500px;
+  left: 0;
   object-fit: cover;
   object-position: center;
   position: absolute;
@@ -52,7 +51,6 @@
 .memeReady {
   border: 1px solid black;
   display: block;
-
   height: 95px;
   object-fit: cover;
   object-position: center;
