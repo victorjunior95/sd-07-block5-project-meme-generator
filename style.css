@@ -1,0 +1,101 @@
+body {
+  background-color: rgb(156, 242, 248);
+}
+#h1container {
+   text-align: center;
+   font-family: Comic sans-serif;   
+}
+#text-imput {
+  size: 60px;
+  position: absolute;
+}
+#meme-image-container {
+  border: 1px solid black;
+  background-color: white;
+  position: relative;
+  width: 90%;
+  height: 90%;
+  margin: 30px 20px;
+}
+form button {
+  font-family: Comic sans-serif;
+  font-size: 25px; 
+  margin: 10px;  
+}
+form label {
+  font-family: Comic sans-serif;
+  font-size: 28px; 
+  margin: 10px;  
+}
+#meme-text {
+  font-size: 30px;
+  color: white;
+  box-shadow: 5px black;   
+}
+#meme-image {
+
+}
+#meme-insert {
+
+}
+#button_green {
+background-color: green; 
+color: white; 
+width: 100px; 
+height: 40px;
+font-size: 30px;
+margin: 10px;   
+}
+#button_red {
+background-color:red; 
+color: white; 
+width: 100px;
+height: 40px;
+font-size: 30px; 
+margin: 10px;      
+}
+#button_blue {
+background-color: blue;
+color: white; 
+width: 100px;
+height: 40px;
+font-size: 30px; 
+margin: 10px;      
+}
+#fire {
+  border: 3px dashed black;
+}
+#water {
+  border: 5px double blue;
+}
+#earth {
+  border: 6px groove green;
+}
+#meme-1{
+  width: 80px; 
+  margin: 10px;
+  overflow: hidden;  
+}
+#meme-2{
+  width: 80px; 
+  margin: 10px;
+  overflow: hidden;    
+}
+#meme-3{
+  width: 80px;
+  margin: 10px;
+  overflow: hidden;     
+}
+#meme-4{
+  width: 80px; 
+  margin: 10px; 
+  overflow: hidden;  
+}
+.button_img {
+  width: 80px;
+  height: 80px;
+}
+p {
+  font-family: Comic sans-serif;
+  font-size: x-large;
+}
