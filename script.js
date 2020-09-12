@@ -37,6 +37,6 @@ function addImage(event) {
   }
   const listOfImgsTags = document.getElementsByClassName('img-proto');
   console.log(listOfImgsTags);
-  for (let i = 1; i < 5; i += 1) {
+  for (let i = 0; i < 4; i += 1) {
     listOfImgsTags[i].addEventListener('click', addImgProto);
   }
