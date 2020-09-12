@@ -1,4 +1,4 @@
-.container {
+#meme-image-container {
     width: 500px;
     height: 350px;
     border: 1px solid black;
@@ -19,4 +19,21 @@
 #meme-image {    
     width: 500px;
     height: 350px;
+}
+button {
+    width: 165px;
+    height: 30px;
+}
+
+#fire {
+    border: 3px solid red;
+    background-color: red;
+}
+#water {
+    border: 5px double blue;
+    background-color: blue;
+}
+#earth {
+    border: 6px groove green;
+    background-color: green;
 }
