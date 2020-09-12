@@ -1,4 +1,4 @@
-div#meme-image-container {
+#meme-image-container {
   position: relative;
   width: 500px;
   height: 500px;
@@ -20,4 +20,8 @@ p#meme-text {
   text-shadow: black 5px 5px 5px;
   color: white;
   font-size: 30px;
+}
+
+.fire {
+  border: 3px dashed rgb(255, 0, 0);
 }
