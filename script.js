@@ -1,9 +1,9 @@
-
-function getInputValue() {
+const input = document.getElementById('text-input');
+input.addEventListener('keyup', function () {
   const input = document.getElementById('text-input').value;
   const showInput = document.getElementById('meme-text');
   showInput.innerText = input;
-}
+});
 
 const loadImage = function (event) {
   const output = document.getElementById('meme-insert');

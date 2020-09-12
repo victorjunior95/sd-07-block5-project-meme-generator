@@ -13,11 +13,11 @@
 
         <h1>MEME GENERATOR</h1>
         <input type="text" placeholder="Digite algo..." id="text-input" maxlength="60">
-        <button type="button" onclick="getInputValue();">ENVIAR</button><br><br>
+        <button type="button">ENVIAR</button><br><br>
 
 
-        <input type="file" id="meme-insert" accept="image/*" onkeyup="loadImage(event)">
-        <img id="meme" />
+        <input type="file" id="meme-insert" accept="image/*" onchange="loadImage(event)">
+
 
 
 
