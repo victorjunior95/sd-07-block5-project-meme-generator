@@ -3,7 +3,7 @@
 }
 
 .fire {
-  border: 5px dashed red;
+  border: 3px dashed red;
 }
 
 .water {
@@ -11,7 +11,7 @@
 }
 
 .earth {
-  border:5px groove green;
+  border:6px groove green;
 }
 
 #meme-image-container {
