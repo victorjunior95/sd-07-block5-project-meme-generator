@@ -18,16 +18,18 @@
 
         <div >
             <label for="text">Texto</label>
-            <input id="text-input" type="text" required>        
+            <input id="text-input" type="text" maxlength="60" required>        
         </div>
 
         <div >
             <label for="file">Imagem</label>
-            <input type="file">
+            <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
+            
         </div>
 
-        <div class="container-image" id="meme-image-container">
+        <div class="container-image"  id="meme-image-container">
             <div class="meme-txt" id="meme-text"></div>
+            <img src="" alt="Imagem meme" class="meme-img" id="meme-image">
         </div>
 
     </fieldset>

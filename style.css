@@ -10,3 +10,8 @@
 .meme-txt {
     position: absolute;
 }
+
+.meme-img {
+    width: inherit;    
+    height: inherit; 
+}
