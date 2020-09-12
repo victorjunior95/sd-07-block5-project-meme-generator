@@ -1,14 +1,15 @@
 window.onload = function() {
-  let textMeme = document.querySelectorAll('#text-input');
-  let chooseImage = document.querySelectorAll('#input-image');
+  let textMemeIn = document.getElementById('text-input');
+  let chooseImage = document.getElementById('input-image');
+  let textMemeOut = document.getElementById('meme-text');
+  let containerImage = document.getElementById('meme-image');
   
-  texteMeme.addEventListener('click', function textDisplay(event) {
-    let textBox = document.getElementById('meme-text');
-    textBox.innerHTML = textMeme;
-  });
+  textMemeIn.addEventListener('keyup', function() {
+    textMemeOut.innerText = textMemeIn.value; });
   
   chooseImage.addEventListener('change', function(event) {
-    let containerImage = document.getElementById('meme-image');
     containerImage.src = URL.createObjectURL(event.target.files[0]);
-  });
+    containerImage.onload = function() {
+        URL.revokeObjectURL(containerImage.src); }}); 
+
 }

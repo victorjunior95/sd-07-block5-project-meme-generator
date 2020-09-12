@@ -3,6 +3,7 @@
   height: 300px;
   border: 1px solid black;
   margin-top: 30px;
+  position: relative;
 }
 
 #meme-image {
@@ -14,10 +15,9 @@
   width: 400px;
 }
 
-.container {
+#container {
   width: 400px;
   height: 300px;
-  position: relative;
   background-color: white;
 }
 
