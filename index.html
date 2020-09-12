@@ -10,25 +10,23 @@
 </head>
 <header>
     <h1>Meme Generator</h1>
-
+    
 
 </header>
 <body>
     <form>
         <!-- caixa onde o texto será inserido -->
-        <label for="text-input">Insira a frase do seu meme:</label><br>
-        <input type="text" id="text-input" name="text-input"> 
+        <label for="text-input">Insira uma frase para o seu meme:</label><br>
+        <input type="text" id="text-input" name="text-input" class="meme-text"><br> 
+        <!-- elemento onde é feito o upload da imagem -->
+        <input type="file" id="meme-insert" accept="image/*" onchange="recebeImagem(event)"> 
     </form>
     <!-- container para imagem + texto = meme-image-container -->
-    <div id="meme-image-container" class="meme-image-container">
-        <ul id="images-list"></ul>
+    <div id="meme-image-container" class="meme-image-container" class="size-image">
         <!-- meme-text entrará o texto digitado, que deve ficar por cima da meme-image -->
-        <div id="meme-text" class="meme-text">
-        </div>
-        <!-- elemento onde é feito o upload da imagem -->
-        <div id="meme-insert"></div>
+        <div id="meme-text" class="meme-text"></div>
         <!-- imagem selecionada do computador deve ficar aqui -->
-        <div id="meme-image"></div>    
+        <img id="meme-image" class="size-image">
     </div>
 </body>
 </html>
