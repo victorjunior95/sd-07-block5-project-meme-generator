@@ -1,17 +1,17 @@
-function addImage (event) {
+function addImage(event) {
   const output = document.getElementById('meme-image');
   output.src = URL.createObjectURL(event.target.files[0]);
-  output.onload = function() {
-      URL.revokeObjectURL(output.src);
+  output.onload = function () {
+    URL.revokeObjectURL(output.src);
   };
 }
 
-function addText () {
+function addText() {
   const text = document.getElementById('text-input').value;
   document.getElementById('meme-text').innerText = text;
 }
 
-function changeBorderColor (event) {
+function changeBorderColor(event) {
   const memeBorder = document.getElementById('meme-image-container');
   if (event.target.value === 'red') {
     memeBorder.style.border = '3px dashed red';
@@ -22,7 +22,7 @@ function changeBorderColor (event) {
   }
 }
 
-function addImgProto (event) {
+function addImgProto(event) {
   const toInsertImg = document.getElementById('meme-image');
   toInsertImg.src = event.target.src;
 }
