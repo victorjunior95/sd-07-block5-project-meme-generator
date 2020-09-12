@@ -65,31 +65,27 @@ body {
 }
 
 .meme-img {
-  height: inherit;
-  width: inherit;
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
 }
 
-.text-container {
-  bottom: 0;
+.container p {
+  bottom: 20px;
   color: white;
   font-family: Oswald, sans-serif;
   font-size: 30px;
   line-height: 35px;
-  margin: 10px;
+  margin: 2px;
   max-height: 380px;
+  padding: 0;
   position: absolute;
   text-align: left;
   text-shadow: 5px 5px 5px black;
   width: 380px;
   word-wrap: break-word;
-  z-index: 0;
 }
 
-.text-label {
-  margin: 0;
-}
-
-h1,
-h2 {
+h1, h2 {
   display: inline-block;
 }
