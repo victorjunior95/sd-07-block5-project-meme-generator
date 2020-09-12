@@ -7,7 +7,7 @@ textInputBox.addEventListener('keyup', function () {
   textMeme.innerText = textInput;
 });
 //  Trata evento de inserção de imagem pelo usuário
-let memeImage = document.querySelector('#meme-image');
+const memeImage = document.querySelector('#meme-image');
 const memeInput = document.querySelector('#meme-insert');
 function upLoadImg(event) {
   memeImage.src = URL.createObjectURL(event.target.files[0]);
@@ -28,17 +28,17 @@ btnEarth.addEventListener('click', function () {
   imageBox.style.border = 'groove 6px  green';
 });
 //  Trata o evento de trocar imagem por uma escolhida pelo usuário na página
-//botões
+//  botões
 let btn_meme1 = document.querySelector('#btn-meme1');
 let btn_meme2 = document.querySelector('#btn-meme2');
 let btn_meme3 = document.querySelector('#btn-meme3');
 let btn_meme4 = document.querySelector('#btn-meme4');
-//inputs
+//  inputs
 let meme1 = document.querySelector('#meme-1');
 let meme2 = document.querySelector('#meme-2');
 let meme3 = document.querySelector('#meme-3');
 let meme4 = document.querySelector('#meme-4');
-//funções de troca
+//  funções de troca
 btn_meme1.addEventListener('click', function () {
   memeImage.src = meme1.src;
 });
@@ -51,6 +51,3 @@ btn_meme3.addEventListener('click', function () {
 btn_meme4.addEventListener('click', function () {
   memeImage.src = meme4.src;
 });
-
-
-
