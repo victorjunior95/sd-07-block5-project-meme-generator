@@ -5,26 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project meme</title>
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" defer src="script.js"></script>
+    <script type="text/javascript" defer src="/script.js"></script>
 </head>
-<body id="logged-in">
-    <div id="position-relative">
-    <h1>Meme generator</h1>
-    <div id="header">
-        Digite aqui!<input type="text" name="textName" id="text-input"><br><br>
-        <input type="file" name="Foto" id="">
-    </div>
+<body>
+    <header>
+        <h1 id="meme-generator">Meme generator</h1>
+    </header>
+    <nav>
+        <label>
+            <input type="text" name="textName" maxlength="60" id="text-input" placeholder = "Digite e pressione ENTER">
+        </label>
+        <label>
+            <input type="file" name="Foto" id="meme-insert" accept="nome1.jpeg","nome2.jpeg","nome3.jpeg", "nome4.jpeg")>
+            <input type="submit">
+        </label>
     <div id="meme-image-container">
+        <p id="meme-text"></p>
         <div id="meme-image"></div>
-        <div id="meme-text"></div>
     </div>
-    <div id="meme-insert"></div>
-    <div id="button">
-        <input id="fire" type="button" value="fire">
-        <input id="water" type="button" value="water">
-        <input id="earth" type="button" value="earth">
-        
-    </div>
-    </div>    
+    <section id="molduras-style">
+        <p>
+            <button id="fire">Fire</button>
+            <button id="water">Water</button>
+            <button id="earth">earth</button>
+        </p>
+    </section>
+    <section>
+        <p>Memes prontos!
+        <img src="imgs/meme1.png" style="width: 180px" id="meme-1" alt="foto do bacana">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        </p>
+    </section>
+    </nav>
 </body>
 </html>

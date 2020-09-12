@@ -3,7 +3,7 @@
 }
 
 body {
-    width: 1200px;
+    width: 1368px;
     height: 768px;
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
     font-size: 14px;
@@ -12,6 +12,7 @@ body {
     background-color: #fff;
     margin: 0;
     display: block;
+    width: 80%
 }
 
 #position-relative {
@@ -33,22 +34,22 @@ h1 {
     font-size: 15px;
     background-color: silver;
     text-align: center;
-    width: 30%;
     margin-top: 10px;
     margin-left: 40px;
     border-radius: 10px;
-    padding: 20px;
+    width: 500px;
+    height: 100px;
+    padding: 5px;
+    position: relative;
 }
 
 #meme-image-container {
-    width: 100%;
+    width: 500px;
+    height: 500px;
     display: flex;
-    justify-content: center;
-    margin-top: 10px;
 }
 
 #meme-image {
-    background-color: white;
     border: 1px solid black;
     width: 500px;
     height: 500px;
@@ -57,15 +58,13 @@ h1 {
 }
 
 #meme-text {
-    color: white;
+    color: black;
     font-size: 30px;
     text-shadow: 5px 5px 5px;
     position: absolute;
 }
 
 #button {
-    display: flex;
-    justify-content: center;
     margin-top: 10px;
     height: 50px
     width: 70px;
