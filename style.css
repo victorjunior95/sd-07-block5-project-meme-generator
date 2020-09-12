@@ -7,7 +7,7 @@
   width: 600px;
 }
 
-#meme-text {
+.meme-text {
   color: white;
   /*font-family: Impact, sans-serif;*/
   font-size: 30px;
@@ -20,7 +20,7 @@
   /*!*transform: translate(-50% , -50%);*!*/
 }
 
-#meme-image {
+.meme-image {
   height: 500px;
   position: relative;
   width: 600px;
