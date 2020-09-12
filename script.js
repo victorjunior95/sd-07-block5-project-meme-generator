@@ -30,10 +30,8 @@ meme_4.addEventListener('click', () => { loadFile(img_4) });
 function loadFile(url) {
   if (typeof url === 'object') {
     image.src = URL.createObjectURL(url);
-    image.style.width = '100%';
   } else {
     image.src = url;
-    image.style.width = '100%';
   }
 }
 
