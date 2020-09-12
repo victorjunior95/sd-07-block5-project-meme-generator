@@ -5,6 +5,9 @@ window.onload = function () {
   const loadImg = document.querySelector("#meme-insert");
   const textInput = document.querySelector("#text-input");
   const loadText = document.querySelector("#meme-text");
+  const buttonRed = document.querySelector("#fire");
+  const buttonBlue = document.querySelector("#water");
+  const buttonBrown = document.querySelector("#earth");
 
   // CONDITION TO CHANGE THE DISPLAY CONTAINER CSS
   let imgShow = false;
@@ -28,5 +31,23 @@ window.onload = function () {
 
   function addText () {
     loadText.innerText = textInput.value;
+  }
+
+  buttonRed.addEventListener("click",changeBorderFire);
+
+  function changeBorderFire () {
+    containerMeme.style.border = "3px dashed red";
+  }
+
+  buttonBlue.addEventListener("click",changeBorderWater);
+
+  function changeBorderWater () {
+    containerMeme.style.border = "5px double blue";
+  }
+
+  buttonBrown.addEventListener("click",changeBorderEarh);
+
+  function changeBorderEarh () {
+    containerMeme.style.border = "6px groove green";
   }
 };
