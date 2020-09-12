@@ -35,8 +35,8 @@ function trocaImagem() {
 function borderDefault() {
   const dBorder = document.getElementById('meme-image-container');
   dBorder.style.border = '1px solid black';
-  
 }
+
 function borderEarth() {
   const eBorder = document.getElementById('meme-image-container');
   eBorder.style.border = '6px groove green';
