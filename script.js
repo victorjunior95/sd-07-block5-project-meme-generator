@@ -6,9 +6,10 @@ let divDaImagem = document.querySelector("#meme-image");
 let divDoTexto = document.querySelector("#meme-text");
 let tagImg = document.querySelector("#preview-image");
 function aparecerTexto (){
-    containerDoMeme.innerText=caixaTexto.value;             
+    divDoTexto.innerText=caixaTexto.value;             
 }
 caixaTexto.addEventListener("keyup", aparecerTexto);
+
 
 function aparecerImagem (event) {
      tagImg.src=URL.createObjectURL(event.target.files[0]);
