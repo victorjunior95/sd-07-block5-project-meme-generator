@@ -15,7 +15,8 @@ body {
 }
 
 #meme-text {
-    /* color: white; */
+    color: white;
     font-size: 30px;
+    text-shadow: 5px 5px 5px black;
     /* float: left; */
 }
