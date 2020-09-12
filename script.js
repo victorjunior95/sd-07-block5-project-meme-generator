@@ -1,9 +1,9 @@
 window.onload = function() {
     const memeInsert = document.getElementById("meme-insert");
     const txtInput = document.getElementById("text-input");
-    const memeImage = document.querySelector("#meme-image-container");
+    const memeImageContainer = document.querySelector("#meme-image-container");
     const memeText = document.getElementById("meme-text");
-    const image = document.createElement("img");
+    const memeImage = document.getElementById("meme-image");
     const btFire = document.getElementById("fire");
     const btWater = document.getElementById("water");
     const btEarth = document.getElementById("earth");
@@ -13,11 +13,11 @@ window.onload = function() {
     const meme4 = document.getElementById("meme-4");
 
     // configurações de estilos
-    memeImage.style.backgroundColor='white';
-    memeImage.style.width='400px';
-    memeImage.style.height='350px';
-    memeImage.style.border='solid 1px black';
-    
+    memeImageContainer.style.backgroundColor='white';
+    memeImageContainer.style.width='400px';
+    memeImageContainer.style.height='350px';
+    memeImageContainer.style.border='solid 1px black';
+    memeImageContainer.style.position='relative';   
     
     // configurações de estilos
     memeText.style.textShadow ='#000 5px 5px 5px';
@@ -25,6 +25,11 @@ window.onload = function() {
     memeText.style.color='white';
     memeText.style.textTransform='uppercase';
     memeText.style.maxWidth='inherit'; /*Tamanho maximo do pai*/
+    memeText.style.position='absolute';
+    memeText.style.top='130px'; 
+     // configuração de estilos
+    memeImage.style.position='relative';
+   
     
   
     /*Upload de imagem*/
@@ -35,19 +40,16 @@ window.onload = function() {
            const reader = new FileReader();           
            reader.addEventListener("load", function(){            
                 let urlImage = this.result;
-                memeImage.style.backgroundImage='url('+urlImage+')';
-                memeImage.style.backgroundSize='100% 100%';
+                changeMeme(urlImage);// função que muda imagem  
            });
            reader.readAsDataURL(file);
-          
         }
        
     });
     txtInput.addEventListener("keyup", function (){
         let txt = this.value;
         txt.upperCase;        
-        memeText.innerText=txt; 
-             
+        memeText.innerText=txt;              
     });
     btFire.addEventListener("click", function (){
         memeImage.style.border='dashed 3px red';     
@@ -62,30 +64,28 @@ window.onload = function() {
     });
 
     meme1.addEventListener("click", function (){
-        let patchImg = this.getAttribute('src');
-        memeImage.style.backgroundImage='url('+patchImg+')';
-        memeImage.style.backgroundSize='100% 100%'; 
+        let urlImage = this.getAttribute('src');
+        changeMeme(urlImage);
         
-    });
+        });
     meme2.addEventListener("click", function (){
-        let patchImg = this.getAttribute('src');
-        memeImage.style.backgroundImage='url('+patchImg+')';
-        memeImage.style.backgroundSize='100% 100%'; 
+        let urlImage = this.getAttribute('src');
+        changeMeme(urlImage); 
     });
     meme3.addEventListener("click", function (){
-        let patchImg = this.getAttribute('src');
-        memeImage.style.backgroundImage='url('+patchImg+')';
-        memeImage.style.backgroundSize='100% 100%'; 
+        let urlImage = this.getAttribute('src');
+        changeMeme(urlImage);
     });
     meme4.addEventListener("click", function (){
-        let patchImg = this.getAttribute('src');
-        memeImage.style.backgroundImage='url('+patchImg+')';
-        memeImage.style.backgroundSize='100% 100%'; 
+        let urlImage = this.getAttribute('src');
+        changeMeme(urlImage);
     });
 
-    
-
-    
+    function changeMeme(urlImage){
+        memeImage.setAttribute('src', urlImage);
+        memeImage.style.width="100%";
+        memeImage.style.height="100%";
+    }    
 
 }
 
