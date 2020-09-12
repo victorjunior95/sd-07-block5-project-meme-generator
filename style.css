@@ -1,3 +1,6 @@
+body {
+    background-color: coral;
+}
 #text-input {
     width: 60ch;
 }
@@ -25,4 +28,22 @@
     font-family: 'Raleway', sans-serif;
     position: absolute;
     top: 150px;
+}
+#fire {
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#water {
+    background-color: blue;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#earth {
+    background-color: green;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
 }

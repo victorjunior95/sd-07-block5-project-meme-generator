@@ -16,3 +16,21 @@ imgInput.addEventListener('change',function(event){
         URL.revokeObjectURL(imgMeme.src);
     }
 })
+
+// Customize a borda da foto com esse 3 botões;
+let fireButton = document.getElementById('fire');
+let waterButton = document.getElementById('water');
+let earthButton = document.getElementById('earth');
+let memeBorder = document.getElementById('meme-image-container');
+
+fireButton.addEventListener('click', function () {
+    memeBorder.style.border = '3px dashed red';
+})
+
+waterButton.addEventListener('click', function () {
+    memeBorder.style.border = '5px double blue';
+})
+
+earthButton.addEventListener('click', function () {
+    memeBorder.style.border = '6px groove green';
+})
