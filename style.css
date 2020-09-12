@@ -42,6 +42,11 @@
   position: absolute;
   text-align: center;
   text-shadow: 5px 5px 5px black;
-  top: 150px;
+  top: 190px;
   width: 400px;
+}
+
+.meme-image {
+  height: 249px;
+  width: 476px;
 }
