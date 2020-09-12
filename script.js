@@ -6,17 +6,25 @@ document.querySelector('input#text-input').addEventListener('input', function() 
 //Changing the border.
 let containerBorder = document.querySelector('#meme-image-container');
 document.querySelector('#fire').addEventListener('click', function() {
-  containerBorder.classList.remove('default-border');
+  if (containerBorder.classList.contains(/border/)) {
+    containerBorder.classList.remove(/border/);
+  }
+  
   containerBorder.style.border = '3px dashed red';
-})
+});
 
 document.querySelector('#water').addEventListener('click', function() {
-  containerBorder.classList.remove('default-border');
-  containerBorder.style.border = '5px double blue';
+  if (containerBorder.classList.contains(/border/)) {
+    containerBorder.classList.remove(/border/);
+  }
 
-})
+  containerBorder.style.border = '5px double blue'
+});
 
 document.querySelector('#earth').addEventListener('click', function() {
-  containerBorder.classList.remove('default-border');
+  if (containerBorder.classList.contains(/border/)) {
+    containerBorder.classList.remove(/border/);
+  }
+
   containerBorder.style.border = '6px groove green';
-})
+});
