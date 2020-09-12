@@ -3,21 +3,22 @@ window.onload = function() {
   let memeText = document.getElementById('meme-text')
   let memeInsert = document.getElementById('meme-insert')
   let memeImage = document.getElementById('meme-image')
+  let memeImageContainer = document.getElementById('meme-image-container')
 
   let fireButton = document.getElementById('fire')
   let waterButton = document.getElementById('water')
   let earthButton = document.getElementById('earth')
 
   fireButton.addEventListener('click', function() {
-    memeImage.style.border = '3px dashed red'
+    memeImageContainer.style.border = '3px dashed red'
   })
 
   waterButton.addEventListener('click', function() {
-    memeImage.style.border = '5px double blue'
+    memeImageContainer.style.border = '5px double blue'
   })
 
   earthButton.addEventListener('click', function() {
-    memeImage.style.border = '6px groove green'
+    memeImageContainer.style.border = '6px groove green'
   })
 
 

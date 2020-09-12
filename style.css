@@ -19,10 +19,12 @@ h1 {
 
 #meme-image {
   margin-top: 15px;
+  width: 100%;
 }
 
 
 #meme-image-container {
+  width: 40%;
   background-color: white;
   border: 1px solid black;
 }
@@ -32,16 +34,16 @@ h1 {
 }
 
 #fire {
-  background-color: red;
+  background-color: rgb(255, 0, 0);
   color: white;
 }
 
 #water {
-  background-color: blue;
+  background-color: rgb(0, 0, 255);
   color: white;
 }
 
 #earth {
-  background-color: green;
+  background-color: rgb(0, 128,0);
   color: white;
 }
