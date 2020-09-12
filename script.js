@@ -9,5 +9,5 @@ insertImage.addEventListener("change", function() {
   memeImage.src = URL.createObjectURL(event.target.files[0]);
   memeImage.onload = function() {
     URL.revokeObjectURL(memeImage.src);
-  }
+  };
 });
