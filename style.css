@@ -1,39 +1,37 @@
-#meme-image-container {
-    width: 500px;
-    height: 350px;
-    border: 1px solid black;
+.container {
     background-color: white;
+    border: 1px solid black;
+    height: 350px;
     position: relative;
+    width: 500px;
 }
 #meme-text {
-    position: absolute;
-    bottom: 10px;   
-    padding-left: 10px;
-    max-width: 480px;
-    max-height: 340px;
-    font-size: 30px;
-    text-shadow: 5px 5px 5px black;
+    bottom: 10px;
     color: white;
+    font-size: 30px;
+    max-height: 340px;
+    max-width: 480px;
+    padding-left: 10px;
+    position: absolute;
+    text-shadow: 5px 5px 5px black;
 }
-
-#meme-image {    
-    width: 500px;
+#meme-image {
     height: 350px;
+    width: 500px;
 }
 button {
-    width: 165px;
     height: 30px;
+    width: 165px;
 }
-
 #fire {
-    border: 3px dashed red;
     background-color: red;
+    border: 3px dashed red;
 }
 #water {
-    border: 5px double blue;
     background-color: blue;
+    border: 5px double blue;
 }
 #earth {
-    border: 6px groove green;
     background-color: green;
+    border: 6px groove green;
 }
