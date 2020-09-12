@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project meme</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="script.js">
+    <script type="text/javascript" defer src="script.js"></script>
 </head>
-<body>
-    <div>
+<body id="logged-in">
+    <div id="position-relative">
     <h1>Meme generator</h1>
     <div id="header">
-        Digite aqui!<input type="text" name="textName" id="text-input">
+        Digite aqui!<input type="text" name="textName" id="text-input"><br><br>
         <input type="file" name="Foto" id="">
     </div>
     <div id="meme-image-container">
@@ -20,9 +20,9 @@
     </div>
     <div id="meme-insert"></div>
     <div id="button">
-        <input type="button" value="fire">
-        <input type="button" value="water">
-        <input type="button" value="earth">
+        <input id="fire" type="button" value="fire">
+        <input id="water" type="button" value="water">
+        <input id="earth" type="button" value="earth">
         
     </div>
     </div>    
