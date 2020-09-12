@@ -1,8 +1,26 @@
 // Arquivo com os scripts da página
 
-let textMeme = document.getElementById("text-input").innertext;
-console.log(textMeme);
-document.getElementById("meme-text").innerText = textMeme;
+// let textInput = document.getElementById("text-input").innerText;
+let textInput = document.querySelector('#text-input');
+console.log(textInput);
+let textMeme = document.getElementById("meme-text");
+
+textInput.addEventListener("input",trocaTexto);
+
+function trocaTexto () {
+    textMeme.innerText = textInput.value;
+}
+  
+  
+// const caixaTexto = document.querySelector('.caixa-texto');
+// const caixaUm = document.querySelector('.caixa1');
+
+// function trocaTextoA () {
+//   caixaUm.innerText = caixaTexto.value;
+// }
+
+// //Crie seu event listener abaixo:
+// caixaTexto.addEventListener("input",trocaTextoA);
 
 
 // URL.createObjectURL(event.target.files[0]); 
