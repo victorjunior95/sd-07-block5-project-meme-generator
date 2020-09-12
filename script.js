@@ -19,3 +19,15 @@ document.body.onload = function () {
   document.querySelector('#text-input').addEventListener('input', updateText);
   document.querySelector('#meme-insert').addEventListener('change', (e) => updatePhoto(e.target.files));
 };
+
+let position = 0;
+let message = "Create your meme and have fun"
+
+      function textAnimation() {
+        document.getElementById("animationText").innerHTML = message.substring(position,message,length);
+        position++;
+        if (position == message.length) {
+	  position = 0;
+        }
+        setTimeout("textAnimation()", 130); 
+      }
