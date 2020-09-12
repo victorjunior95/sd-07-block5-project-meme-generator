@@ -1,29 +1,27 @@
 .body {
-  background-image: url('https://images.unsplash.com/photo-1558244661-d248897f7bc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80');
   background-attachment: fixed;
+  background-image: url('https://images.unsplash.com/photo-1558244661-d248897f7bc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80');
   background-repeat: no-repeat;
   background-size: 1366px 768px;
 
 }
 
 .main {
-  background-color: rgba(255, 255, 255, 0.836);
+  background-color: rgba(255 , 255 , 255 , 0.836);
   border-radius: 10px;
   color: rgb(72 , 67 , 73);
   font-family: Tahoma, sans-serif;
   font-size: 1em;
   height: 600px;
   margin: auto;
-  padding: 0px 20px 5px 0px;
+  padding: 0 20px 5px 0;
   width: 80%;
 }
 
 .main-title {
   display: inline-block;
   font-size: 1.7em;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  padding: 0px 20px;
+  padding: 0 20px;
   text-align: right;
   text-shadow: 1px 1px 3px rgba(0 , 0 , 0 , 0.377);
   width: 45%;
@@ -44,7 +42,6 @@
 .label-container {
   background-color: rgb(106 , 109 , 146);
   color: white;
-  margin-top: 0px;
   padding: 10px 20px;
   width: 98%;
 }
