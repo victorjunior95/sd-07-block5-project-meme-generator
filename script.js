@@ -11,15 +11,15 @@ let img = document.querySelector('img');
 
 // To load the image file:
 function loadFile(event) {
-    memeImage.src = URL.createObjectURL(event.target.files[0]);
-    memeImage.onload = function() {
-        URL.revokeObjectURL(memeImage.src) // free memory
-    }
+  memeImage.src = URL.createObjectURL(event.target.files[0]);
+  memeImage.onload = function() {
+    URL.revokeObjectURL(memeImage.src) // free memory
+  }
 }
 
 // To write the text on the image:
 function writeText() {
-    textInput.setAttribute('maxlength', 60);
-    memeText.innerHTML = textInput.value;
-    textInput = "";
+  textInput.setAttribute('maxlength', 60);
+  memeText.innerHTML = textInput.value;
 }
+textInput.value = "";
