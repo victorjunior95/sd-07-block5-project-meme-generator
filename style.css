@@ -1,9 +1,10 @@
 #meme-image-container {
-    border: solid 2px black;
+    border: solid 1px black;
     width: 500px;
     height: 500px;
     margin: 40px 40px;
     position: relative;
+    background-color: white;
 }
 
 #meme-text {
