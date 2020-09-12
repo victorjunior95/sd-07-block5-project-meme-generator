@@ -1,45 +1,45 @@
-window.onload = function () {
-  const inputText = document.getElementById('text-input');
-  const memeText = document.getElementById('meme-text');
-  const memeInsert = document.getElementById('meme-insert');
-  const memeImage = document.getElementById('meme-image');
-  const memeImageContainer = document.getElementById('meme-image-container');
 
-  const fireButton = document.getElementById('fire');
-  const waterButton = document.getElementById('water');
-  const earthButton = document.getElementById('earth');
+const inputText = document.getElementById('text-input');
+const memeText = document.getElementById('meme-text');
+const memeInsert = document.getElementById('meme-insert');
+const memeImage = document.getElementById('meme-image');
+const memeImageContainer = document.getElementById('meme-image-container');
 
-  const memeOne = document.getElementById('meme-1');
-  const memeTwo = document.getElementById('meme-2');
-  const memeThree = document.getElementById('meme-3');
-  const memeFour = document.getElementById('meme-4');
+const fireButton = document.getElementById('fire');
+const waterButton = document.getElementById('water');
+const earthButton = document.getElementById('earth');
 
-  fireButton.addEventListener('click', function () {
-    memeImageContainer.style.border = '3px dashed red';
-  })
+const memeOne = document.getElementById('meme-1');
+const memeTwo = document.getElementById('meme-2');
+const memeThree = document.getElementById('meme-3');
+const memeFour = document.getElementById('meme-4');
 
-  waterButton.addEventListener('click', function () {
-    memeImageContainer.style.border = '5px double blue';
-  })
+fireButton.addEventListener('click', function () {
+  memeImageContainer.style.border = '3px dashed red';
+})
 
-  earthButton.addEventListener('click', function () {
-    memeImageContainer.style.border = '6px groove green';
-  })
+waterButton.addEventListener('click', function () {
+  memeImageContainer.style.border = '5px double blue';
+})
 
-  inputText.addEventListener('keyup', function () {
-    memeText.innerText = inputText.value;
-  })
+earthButton.addEventListener('click', function () {
+  memeImageContainer.style.border = '6px groove green';
+})
 
-  memeInsert.addEventListener('change', function (event) {
-    memeImage.src = URL.createObjectURL(event.target.files[0]);
-  })
+inputText.addEventListener('keyup', function () {
+  memeText.innerText = inputText.value;
+})
 
-  function chooseMiniature(event) {
-    memeImage.src = event.target.src;
-  }
+memeInsert.addEventListener('change', function (event) {
+  memeImage.src = URL.createObjectURL(event.target.files[0]);
+})
 
-  memeOne.addEventListener('click', chooseMiniature);
-  memeTwo.addEventListener('click', chooseMiniature);
-  memeThree.addEventListener('click', chooseMiniature);
-  memeFour.addEventListener('click', chooseMiniature);
+function chooseMiniature(event) {
+  memeImage.src = event.target.src;
 }
+
+memeOne.addEventListener('click', chooseMiniature);
+memeTwo.addEventListener('click', chooseMiniature);
+memeThree.addEventListener('click', chooseMiniature);
+memeFour.addEventListener('click', chooseMiniature);
+
