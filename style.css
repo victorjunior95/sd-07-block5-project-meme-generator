@@ -75,6 +75,17 @@ h1 {
     font-size: 16px;
 }
 
+.ready-to-use {
+    font-family: sans-serif;
+    color: rgb(144, 144, 192);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 16px;
+    background-color: white;
+    margin: auto;
+    width: 25%;
+}
+
 #fire {
     background-color: red;
     padding: 5px;
@@ -88,4 +99,22 @@ h1 {
 #earth {
     background-color: green;
     padding: 5px;
+}
+
+.image-memes {
+    width: 23%;
+    height: 23%;    
+}
+
+.ready-memes {
+    display: inline;
+}
+
+.ready-title {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(144, 144, 192);
+    font-size: 16px;
 }
