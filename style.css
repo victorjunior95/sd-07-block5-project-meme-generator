@@ -22,3 +22,25 @@
     width: 100%;
     height: auto;
 }
+
+#fire, #water, #earth {
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+    padding: 8px;
+    font-weight: bold;
+    color: white;
+    font-size: medium;
+}
+
+#fire {
+    background-color: red;
+}
+
+#water {
+    background-color: blue;
+}
+
+#earth {
+    background-color: green;
+}

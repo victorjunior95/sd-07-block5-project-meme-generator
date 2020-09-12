@@ -18,3 +18,22 @@ function readImage() {
 }
 
 document.getElementById("meme-insert").addEventListener("change", readImage, false);
+
+
+function bordaFire() {
+    document.getElementById('meme-image-container').style.borderWidth = '3px'
+    document.getElementById('meme-image-container').style.borderStyle = 'dashed'
+    document.getElementById('meme-image-container').style.borderColor = 'red'  
+}
+
+function bordaWater() {
+    document.getElementById('meme-image-container').style.borderWidth = '5px'
+    document.getElementById('meme-image-container').style.borderStyle = 'double'
+    document.getElementById('meme-image-container').style.borderColor = 'blue'  
+}
+
+function bordaEarth() {
+    document.getElementById('meme-image-container').style.borderWidth = '6px'
+    document.getElementById('meme-image-container').style.borderStyle = 'groove'
+    document.getElementById('meme-image-container').style.borderColor = 'green'  
+}
