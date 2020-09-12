@@ -9,9 +9,9 @@ window.onload = function () {
     memeText.innerText = textInput.value;
   });
 
-  memeInsert.addEventListener('change', handleFiles, false);
+  // insere elemento img, com a imagem carregada pelo usurário, dentro co container
 
-  function handleFiles () {
+  function handleFiles (){
     const img = document.createElement('img');
     img.src = URL.createObjectURL(this.files[0]);
     img.id = 'image';
@@ -28,4 +28,6 @@ window.onload = function () {
       memeImage.replaceChild(img, oldImg);
     }
   }
+
+  memeInsert.addEventListener('change', handleFiles, false);
 };
