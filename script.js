@@ -1,7 +1,7 @@
 window.onload = function () {
   function getText() {
     const textInput = document.getElementById('text-input').value;
-    const memeText = document.getElementById('meme-text');
+    const memeText = document.getElementsByTagName('p');
     memeText.innerText = textInput.toUpperCase();
   }
 
