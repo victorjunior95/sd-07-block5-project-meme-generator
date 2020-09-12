@@ -12,8 +12,16 @@
   -textPreview puxa texto;
   -textPreview adiciona texto em meme-text; 
 */
+
 document.querySelector('DOMContentLoaded', function(){});
 
 document.querySelector('meme-insert');
 
+function imgPreview ()
+{
+
+let memeImg = documento.querySelector('#meme-insert').innerText;
+console.log(memeImg);
+
+};
 

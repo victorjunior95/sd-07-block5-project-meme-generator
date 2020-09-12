@@ -32,7 +32,7 @@
     </h2>
 
     <!--User sends image-->
-    <input type="file" accept="image" id="meme-insert">
+    <input type="file" accept="image/*" id="meme-insert">
 
   </section>
 
@@ -53,7 +53,7 @@
       <p id="meme-text">texto</p>
       
       <!--Image-->
-      <img id="meme-image"></img>
+      <img id="meme-image" src="">
       
     </section>
 
@@ -61,6 +61,21 @@
     <!--<button>Baixar</button>-->
 
   </form>
+  <script>
 
+    //sessionStorage.getItem('#meme-insert)[0];
+    //const fileInput = document.getElementById('#meme-insert');
+
+   // document.getElementById("meme-insert").addEventListener("change", imgPreview);
+
+    function imgPreview ()
+    {
+
+   
+      document.file.querySelector('#meme-image') = documento.file.querySelector('#meme-insert'); 
+
+    };
+
+  </script>
 </body>
 </html>
