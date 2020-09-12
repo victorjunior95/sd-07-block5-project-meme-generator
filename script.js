@@ -18,9 +18,9 @@ inputText.addEventListener('keyup', function () {
 
 inputImage.addEventListener('change', function (event) {
   image.src = URL.createObjectURL(event.target.files[0]);
-  image.onload = function() {
+  image.onload = function () {
     URL.revokeObjectURL(image.src);
-  }
+  };
 });
 
 buttonFire.addEventListener('click', function () {
