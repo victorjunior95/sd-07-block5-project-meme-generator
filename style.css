@@ -20,20 +20,17 @@ fieldset {
     margin: auto;    
 }
 
-.meme-image-container{
-    display: inline-block;    
-    box-sizing: border-box;
-}
-
 .meme-txt {
     color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, sans-serif;
     font-size: 30px;    
     text-shadow:5px 5px 5px black;
     margin-top: 90%;
     position: absolute;
     width: inherit;
     text-align: center;
+    bottom: 0;
+    top: 0;
     
 }
 
