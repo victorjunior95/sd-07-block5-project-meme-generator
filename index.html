@@ -1,55 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>Meme Gerator</title>
-    <link rel="stylesheet" href="style.css" >
-    <script src="script.js"></script>
+    <link rel='stylesheet' href='style.css' >
+    <script src='script.js'></script>
 </head>
 <body>
-  <div class="principal">
+  <div class='principal'>
  	<header>Meme Gerator</header>
  		<section>
-        <container class= "inputs">
+        <container class= 'inputs'>
         <form>
         <div>
-        <label for="texto">Texto:<label> 
-        <input type="text" placeholder="texto Aqui" id="text-input"/>
+        <label for='texto'>Texto:<label> 
+        <input type='text' placeholder='texto Aqui' id='text-input'/>
         </div>
         <div>
-        <label for="arquivo">Arquivo</label>
-        <input type="file"  id="arquivo" />
+        <label for='arquivo'>Arquivo</label>
+        <input type='file'  id='arquivo' />
         </div>
         </form>
-      <div class= "meme-image-container" id="meme-image-container">
-      <span id="meme-text" class="meme-text"></span>
-      <img id="meme-image" class="meme-image" src="">
+      <div class= 'meme-image-container default-border' id='meme-image-container'>
+      <span id='meme-text' class='meme-text'></span>
+      <img id='meme-image' class='meme-image' src=''>
       </div> 
+      
+      <div class='botoes'>
       <h2>Estilos customizaveis:</h2>
-      <div class="botoes">
-      <button type="button" class="fire" onclick="script.estilo()">
+      <button type='button' class='fire' id='fire' onclick='geratorMemer.estilo()'>
       Fire
       </button>
-      <button type="button" class="water" onclick="script.estilo()">
+      <button type='button' class='water' id='water'onclick='geratorMemer.estilo()'>
       Water
       </button>
-      <button type="button" class="earth" onclick="script.estilo()">
+      <button type='button' class='earth' id='earth'onclick='geratorMemer.estilo()'>
       Earth
       </button>
       </div>
       </container>
       
-      <container class="memesProntos"> 
+      <section class='memesProntos'> 
       <h2>Memes Prontos</h2>
-      <img id="meme-1" class="memeP" src="https://i.pinimg.com/originals/99/d3/39/99d339e9d375633c41c6ec3907a547d5.jpg">
-      <img id="meme-2" class="memeP" src="https://i.ytimg.com/vi/dkC4U4WKULs/maxresdefault.jpg">
-      <img id="meme-3" class="memeP" src="https://i.kym-cdn.com/photos/images/original/001/389/437/e07.jpg">
-      <img id="meme-4" class="memeP" src="https://preview.redd.it/ma33nh1maml51.jpg?width=960&crop=smart&auto=webp&s=073d95fe41590532781dd7987debce1cdc6430f6">
-      <img id="meme-5" class="memeP" src="https://i.pinimg.com/originals/99/d3/39/99d339e9d375633c41c6ec3907a547d5.jpg">
-      <img id="meme-6" class="memeP" src="https://i.ytimg.com/vi/dkC4U4WKULs/maxresdefault.jpg">
-      
-      </container>        
+      <img id='meme-1' class='memeP' src='https://i.pinimg.com/originals/99/d3/39/99d339e9d375633c41c6ec3907a547d5.jpg'>
+      <img id='meme-2' class='memeP' src='https://i.ytimg.com/vi/dkC4U4WKULs/maxresdefault.jpg'>
+      <img id='meme-3' class='memeP' src='https://i.kym-cdn.com/photos/images/original/001/389/437/e07.jpg'>
+      <img id='meme-4' class='memeP' src='https://preview.redd.it/ma33nh1maml51.jpg?width=960&crop=smart&auto=webp&s=073d95fe41590532781dd7987debce1cdc6430f6'>
+      </section>        
       </section>
   		<footer></footer>
  	    

@@ -1,5 +1,5 @@
-/** padronizaçao global **/
-* {
+body {
+  background-image: url("https://wallpapercave.com/wp/wp3263654.jpg");
   margin: 0px;
   padding: 0px;
   font-family: sans-serif;
@@ -7,16 +7,13 @@
 
 .principal {
   border-style: rgb(14, 10, 10);
-  width: 80%;
+  width: 50%;
   height: 90%;
   margin: auto;
   margin-top: 20px;
   padding: 10px;
 }
 
-body {
-  background-image: url("https://wallpapercave.com/wp/wp3263654.jpg");
-}
 header {
   background-color: rgb(175, 18, 18);
   width: 100%;
@@ -28,7 +25,7 @@ header {
 section {
   background-color: #fff;
   margin-top: 10px;
-  width: 100%;
+
   /** opacity: 0.8;**/
 }
 
@@ -45,8 +42,7 @@ footer {
 
   padding: 10px;
 }
-.meme-image-container{
-  
+.meme-image-container {
   height: 300px;
   padding: 10px;
   width: 300px;
@@ -60,16 +56,11 @@ footer {
 .memesProntos {
   margin: auto;
   padding: 10px;
-  
-  
- 
 }
 .memeP {
   height: 150px;
   width: 150px;
   border-radius: 5px;
-  
-  
 }
 
 form {
@@ -114,3 +105,18 @@ button:hover {
   border-radius: 5px;
 }
 
+.default-border {
+  border: solid 1px black;
+}
+
+.fire-border {
+  border: 3px dashed red;
+}
+
+.water-border {
+  border: 5px double blue;
+}
+
+.earth-border {
+  border: 6px groove green;
+}
