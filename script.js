@@ -7,8 +7,7 @@ text.addEventListener('keyup', function () {
   memeText.innerText = textInput;
 });
 const buttonFire = document.querySelector('#fire');
-buttonFire.addEventListener("click", function () {
-
+buttonFire.addEventListener('click', function () {
   const backGroundCont = document.querySelector('#meme-image-container');
   backGroundCont.style.border = '3px red dashed';
 });
