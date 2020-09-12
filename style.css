@@ -9,7 +9,9 @@
 
 #meme-text {
     text-align: center;
-    font-size: 22px;
+    font-size: 30px;
+    color: white;
+    text-shadow:  rgb(0,0,0) 5px 5px 5px;
     max-width: 400px;
     position: absolute;
 }
