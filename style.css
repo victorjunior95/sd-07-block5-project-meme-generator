@@ -42,6 +42,9 @@ body , html {
 }
 
 .button:focus , .input:focus {
+  border-color: rgb(78 , 144 , 253);
+  border-radius: 8px;
+  border-style: solid;
   outline: 0;
 }
 
@@ -62,8 +65,8 @@ body , html {
   background-color: white;
   border-right: rgb(78 , 144 , 253);
   border-right-style: solid;
-  box-shadow: inset 0 7px 4px -3px rgba(0 , 0 , 0 , 0.25);
   border-width: 3px;
+  box-shadow: inset 0 7px 4px -3px rgba(0 , 0 , 0 , 0.25);
   display: inline-block;
   height: 100%;
   padding-top: 25px;
@@ -126,12 +129,12 @@ main {
   background-color: white;
   border-radius: 70px;
   box-shadow: 0 0 40px 10px rgba(0 , 0 , 0 , 0.15);
-  position: relative;
   height: 400px;
   left: 50%;
   margin-left: -400px; /* Metade do valor da Largura */
   margin-top: -200px; /* Metade da valor da Altura */
   padding-top: 10px;
+  position: relative;
   top: 50%;
   width: 800px;
 }
