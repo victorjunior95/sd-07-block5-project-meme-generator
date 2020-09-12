@@ -42,4 +42,3 @@ memeOne.addEventListener('click', chooseMiniature);
 memeTwo.addEventListener('click', chooseMiniature);
 memeThree.addEventListener('click', chooseMiniature);
 memeFour.addEventListener('click', chooseMiniature);
-
