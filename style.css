@@ -1,35 +1,37 @@
 #meme-image-container {
   position: relative;
+
   width: 500px;
   height: 500px;
   text-align: center;
   background-color: white;
   border: 1px black solid;
-  color: rgb(100, 100, 100);
 }
 
 #meme-image {
-  width: 100%;
-  height: 500px;
   position: absolute;
   top: 0;
   left: 0;
+
+  width: 100%;
+  height: 500px;
   object-fit: cover;
   object-position: center;
 }
 
 #meme-text {
-  position: absolute; 
+  position: absolute;  
   top: 0;
   left: 0;
-  margin: 0px;
+
+  margin: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: bottom;
   color: white;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, Arial, sans-serif;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 600;
   text-shadow: 5px 5px 5px black;
 }
