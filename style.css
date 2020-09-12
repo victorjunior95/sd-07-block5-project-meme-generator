@@ -8,10 +8,10 @@
 }
 
 .image {
+  background-color: white;
   float: left;
   height: 100%;
   width: 100%;
-  background-color: white;
 }
 
 .text {
