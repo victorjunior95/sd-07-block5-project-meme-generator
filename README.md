@@ -87,12 +87,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 * Os requisitos do seu projeto são avaliados automaticamente, sendo utilizada a resolução de tela de `1366 x 768` (1366 pixels de largura por 768 pixels de altura).
 
-  * #### ⚠️ Logo, recomenda-se desenvolver seu projeto usando a mesma resolução, via instalação [deste plugin](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en) do `Chrome` para facilitar a configuração da resolução. ⚠️
-
-* Atente-se para o tamanho das imagens que você utilizará neste projeto. **Não utilize imagens com um tamanho maior que _500Kb_.**
-  * #### ⚠️ Utilize uma ferramenta [como esta](https://picresize.com/pt) para redimensionar as imagens. ⚠️
-
-  * Caso a avaliação falhe com alguma mensagem de erro parecida com `[409:0326/130838.878602:FATAL:memory.cc(22)] Out of memory. size=4194304`, provavelmente as imagens que você está utilizando estão muito grandes. Tente redimensiona-las para um tamanho menor.
+  * #### ⚠️ Logo, recomenda-se desenvolver seu projeto usando a mesma resolução, via instalação [deste plugin](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en) do `Chrome` para facilitar a configur class="center-content"alhe com alguma mensagem de erro parecida com `[409:0326/130838.878602:FATAL:memory.cc(22)] Out of memory. size=4194304`, provavelmente as imagens que você está utilizando estão muito grandes. Tente redimensiona-las para um tamanho menor.
 
 * Para verificar se a sua avaliação foi computada com sucesso, você pode verificar os **detalhes da execução do avaliador**.
 
@@ -102,10 +97,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
   * Analise os resultados a partir da mensagem _**"(Run Starting)"**_;
 
-  * Caso tenha dúvidas, consulte [este vídeo](https://vimeo.com/420861252) ou procure a monitoria.
-
-
-* Você tem liberdade para adicionar novos comportamentos ao seu projeto, seja na forma de aperfeiçoamentos em requisitos propostos ou novas funcionalidades, **desde que tais comportamentos adicionais não conflitem com os requisitos propostos**.
+  * Caso tenha dúvidas class="center-content"orma de aperfeiçoamentos em requisitos propostos ou novas funcionalidades, **desde que tais comportamentos adicionais não conflitem com os requisitos propostos**.
 
   * Em outras palavras, você pode fazer mais do que for pedido, mas nunca menos.
 
@@ -156,8 +148,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 ### 4 - O texto que será inserido sobre a imagem deve ter uma cor, sombra e tamanho específicos.
 
 ##### As seguintes verificações serão feitas:
-
-- O texto do elemento `meme-text` deve ter uma sombra preta, de 5 pixels na horizontal, 5 pixels na vertical e um raio de desfoque de 5 pixels;
+0na horizontal, 5 pixels na vertical e um raio de desfoque de 5 pixels;
 
 - O texto do elemento `meme-text` deve ter a fonte com o tamanho de 30 pixels;
 
