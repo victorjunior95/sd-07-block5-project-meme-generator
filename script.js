@@ -26,36 +26,34 @@ window.onload = function(){
     //fim fuuncao Adicionar texto a imagem
 
     //adicionando bordas
-    let elFire = document.getElementById('fire');
-    let elWater = document.getElementById('water');
-    let elEarth = document.getElementById('earth');
 
-
-    function setBorderColorRed() {
-      let container = document.getElementById('meme-image-container');
-      let color = elFire.innerText;
-      container.style.borderColor = color;
-
+    let backgroundColorButtons = document.querySelectorAll("#cores>button")
+    for (let i = 0; i < backgroundColorButtons.length; i += 1) {
+      backgroundColorButtons[i].addEventListener("click", function(event) {
+        setBackgroundColor(event.target.innerHTML)
+      })
     }
 
-    elFire.addEventListener('click', setBorderColorRed);
+    function setBackgroundColor(color) {
+        let container = document.getElementById('meme-image-container');
 
-    function setBorderColorBlue() {
-      let container = document.getElementById('meme-image-container');
-      let color = elWater.innerText;
-      container.style.borderColor = color;
+        if(color == 'red') {
+        container.style.borderColor = color;
+        container.style.borderWidth = '3px';
+        container.style.borderStyle = 'dashed';
+        }
+        else if (color == 'blue') {
+            container.style.borderColor = color;
+            container.style.borderWidth = '5px';
+            container.style.borderStyle = 'double';
 
-    }
+        }
+        else if(color == 'green') {
+            container.style.borderColor = color;
+            container.style.borderWidth = '6px';
+            container.style.borderStyle = 'groove';
 
-    elWater.addEventListener('click', setBorderColorBlue);
-
-    function setBorderColorGreen() {
-      let container = document.getElementById('meme-image-container');
-      let color = elEarth.innerText;
-      container.style.borderColor = color;
-
-    }
-
-    elEarth.addEventListener('click', setBorderColorGreen);
+        }
+      }
 }
 
