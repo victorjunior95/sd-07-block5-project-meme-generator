@@ -17,7 +17,7 @@ h1 {
   color: white;
 }
 
-#mem-image {
+#meme-image {
   margin-top: 15px;
 }
 
@@ -29,4 +29,19 @@ h1 {
 
 #text-input {
   letter-spacing: 60;
+}
+
+#fire {
+  background-color: red;
+  color: white;
+}
+
+#water {
+  background-color: blue;
+  color: white;
+}
+
+#earth {
+  background-color: green;
+  color: white;
 }
