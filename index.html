@@ -7,14 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <label for="frase">Frase</label>
-    <input type="text" id="frase" name="frase">
-    <input type="submit" value="Submit" onchange="loadFile(event)">
-    <form action="/action_page.php">
-        <input type="file" id="myFile" name="filename" onchange="loadFile(event)">
-    </form>
-    <img id="output" class="imagem"/>	
-
-    <script src="script.js"></script>
+    <label for="text-input">Texto do MeMe</label>
+    <input type="text" id="text-input">
+    <button id="enviarTexto" type="button" >Enviar</button>
+    <div id="meme-image-container">
+        <p id="meme-text"></p>
+    </div>
+    <script src = "script.js"></script>
 </body>
 </html>

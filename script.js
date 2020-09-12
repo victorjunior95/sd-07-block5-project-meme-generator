@@ -1,4 +1,6 @@
-var loadFile = function(event) {
-    var image = document.getElementById('output');
-    image.src = URL.createObjectURL(event.target.files[0]);
-};
+function porFrase() {
+    let frase = document.getElementById('text-input').value
+    document.getElementById('meme-text').innerText = frase
+}
+let botaoTexto = document.getElementById('enviarTexto');
+botaoTexto.addEventListener('click', porFrase)

@@ -1,4 +1,5 @@
-.imagem {
-    width: 500px;
+#meme-image-container {
+    width: 450px;
+    height: 600px;
     border: solid black;
 }
