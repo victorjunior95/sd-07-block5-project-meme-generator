@@ -1,48 +1,41 @@
-main{
-    width: 900px;
-    background-color: aquamarine;
-    box-shadow: 10px 5px 5px rgba(2, 70, 53, 0.5);
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
+main {
+  width: 900px;
+  background-color: aquamarine;
+  box-shadow: 10px 5px 5px rgba(2, 70, 53, 0.5);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
 }
 
 #meme-image-container {
-    position: relative;
-    width: 405px;
-    height: 312px;
-    border: 1px solid black;
-    box-shadow: 1px 1px 4px black;
-    background-color: white;
-    text-align: center;
-}
-
-#meme-text-conteiner {
-    position: absolute;
-    right: 4px;
-    bottom: 0px;
-    width: 390px;
-    height: 50px;
-    background-color: #fafafa;
-    border: 1px solid black;
-    text-shadow: 5px 5px 5px black;
-
+  position: relative;
+  width: 405px;
+  height: 312px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  background-color: white;
 
 }
-#meme-text{
-    margin: 0px;
-    padding: 0px;
-    font-size: 30px;
-    text-align: center;
-    color: white;
+
+#meme-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 1px 1px 4px black;
 }
 
-#conteiner-image-text{
-    width: 405px;
-    height: 312px;
+#meme-text {
+  position: absolute;
+  right: 4px;
+  bottom: 0px;
+  width: 390px;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 5px 5px 5px;
+  color: white;
 
-    margin-left: auto;
-    margin-right: auto;
 }
-
-
