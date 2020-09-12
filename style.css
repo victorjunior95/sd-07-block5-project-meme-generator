@@ -1,13 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
 body {
   margin: 0;
-  background-color: rgb(15, 163, 107);
+  background-color: rgb(15 , 163 , 107);
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #333;
   font-size: 14px;
   line-height: 20px;
 }
 
-input {
+.input-text {
   display: inline-block;
   width: 400px;
   height: 25px;
@@ -54,12 +55,33 @@ input {
   display: inline-block;
 }
 
+.main-content {
+  width: 100%;
+  margin: 50px auto;
+  text-align: center;
+}
+
 .container {
+  position: relative;
+  display: inline-block;
   background-color: white;
+  border: 1px solid black;
+  height: 400px;
+  width: 400px;
 }
 
 .text-label {
+  position: absolute;
+  margin: 10px;
+  width: 380px;
+  max-height: 380px;
+  text-align: left;
+  line-height: 30px;
+  z-index: 0;
+  bottom: 0;
   text-shadow: 5px 5px 5px black;
+  font-family: "Oswald", sans-serif;
   font-size: 30px;
+  word-wrap: break-word;
   color: white;
 }
