@@ -1,94 +1,94 @@
 .sessao {
-    margin-left: 100px;
-    font-size: 20px;
+  margin-left: 100px;
+  font-size: 20px;
 }
 
 .sessao1 p {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .meme-insert1 {
-   margin-top: 10px;
-   margin-left: 9px;
-   margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 9px;
+  margin-bottom: 10px;
 }
 
 .meme-image-container1 {
-    background-color: rgb(255 , 255 , 255);
-    border: solid 1px rgb(0 , 0 , 0);
-    width: 502px;
-    height: 402px;
+  background-color: rgb(255, 255, 255);
+  border: solid 1px rgb(0, 0, 0);
+  width: 502px;
+  height: 402px;
 }
 
 .meme-text1 {
-    text-shadow: 5px 5px 5px rgb(0, 0, 0);;
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(255 , 255 , 255);
-    position: absolute;
-    z-index: 1;
-    width: 450px;
-    height: 100px;
-    margin-left: 8px;
-    margin-top: 240px;
-    word-wrap: break-word;
-}    
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 1;
+  width: 450px;
+  height: 100px;
+  margin-left: 8px;
+  margin-top: 240px;
+  word-wrap: break-word;
+}
 
 .meme-image1 {
-    background-color: rgb(255 , 255 , 255);
-    border: solid 1px rgb(0 , 0 , 0);
-    width: 500px;
-    height: 400px;
+  background-color: rgb(255, 255, 255);
+  border: solid 1px rgb(0 , 0 , 0);
+  width: 500px;
+  height: 400px;
 }
 
 .fire1 {
-    border: dashed 3px rgb(255 , 0 , 0);
-    background-color: rgb(255 , 0 , 0);
-    color: aliceblue;
-    font-size: 20px;
-    margin-right: 15px;
+  border: dashed 3px rgb(255, 0, 0);
+  background-color: rgb(255, 0, 0);
+  color: rgb(240, 248, 255);
+  font-size: 20px;
+  margin-right: 15px;
 }
 
 .water1 {
-    border: double 5px rgb(0 , 0 , 255);
-    background-color: rgb(0 , 0 , 255);
-    color: aliceblue;
-    font-size: 20px;
-    margin-right: 15px;
+  border: double 5px rgb(0, 0, 255);
+  background-color: rgb(0, 0, 255);
+  color: rgb(240, 248, 255);
+  font-size: 20px;
+  margin-right: 15px;
 }
 
 .earth1 {
-    border: groove 6px rgb(0 , 128 , 0);
-    background-color: rgb(0 , 128 , 0);
-    color: aliceblue;
-    font-size: 20px;
-    margin-right: 15px;
+  border: groove 6px rgb(0, 128, 0);
+  background-color: rgb(0, 128, 0);
+  color: rgb(240, 248, 255);
+  font-size: 20px;
+  margin-right: 15px;
 }
 
 .meme-11 {
-    border: solid 2px rgb(0 , 0 , 0);
-    width: 120px;
-    height: 140px;
-    margin-left: 10px;
+  border: solid 2px rgb(0, 0, 0);
+  width: 120px;
+  height: 140px;
+  margin-left: 10px;
 }
 
 .meme-21 {
-    border: solid 2px rgb(0 , 0 , 0);
-    width: 120px;
-    height: 140px;
-    margin-left: 10px;
+  border: solid 2px rgb(0, 0, 0);
+  width: 120px;
+  height: 140px;
+  margin-left: 10px;
 }
 
 .meme-31 {
-    border: solid 2px rgb(0 , 0 , 0);
-    width: 120px;
-    height: 140px;
-    margin-left: 10px;
+  border: solid 2px rgb(0, 0, 0);
+  width: 120px;
+  height: 140px;
+  margin-left: 10px;
 }
 
 .meme-41 {
-    border: solid 2px rgb(0 , 0 , 0);
-    width: 120px;
-    height: 140px;
-    margin-left: 10px;
+  border: solid 2px rgb(0, 0, 0);
+  width: 120px;
+  height: 140px;
+  margin-left: 10px;
 }
