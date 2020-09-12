@@ -10,6 +10,7 @@ inputText.addEventListener('keyup', function() {
 });
 
 imageMeme.appendChild(document.createElement('img'));
+imageMeme.setAttribute('img', 'src');
 imageMeme.querySelector('img').setAttribute('width', '490px');
 imageMeme.querySelector('img').setAttribute('height', '390px');
 
