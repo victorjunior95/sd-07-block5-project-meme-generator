@@ -12,11 +12,11 @@ let inputPicuture = document.querySelector('#meme-insert');
 
 
 inputPicuture.addEventListener('change', function(){
-  let picture = document.createElement('img');
+  let picture = document.querySelector('#meme-image');
   picture.className = 'imgMeme';
   picture.src = URL.createObjectURL(this.files[0]);
   picture.onload = function() {
    URL.revokeObjectURL(this.src);
   }
-document.querySelector('#meme-image-container').appendChild(picture);
 });
+

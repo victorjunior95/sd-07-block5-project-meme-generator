@@ -1,6 +1,11 @@
 /*Import font*/
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Ubuntu&display=swap');
+.adjust-text{
+  bottom:320px;
+  position: absolute;
+  z-index: 1;
+}
 body {
   font-size: 14pt;
   font-family: Arial, Helvetica, sans-serif;
@@ -23,10 +28,12 @@ body {
   width: 460px;
 }
 .container-meme {
+  background-color: white;
   border:2px solid rgb(0,0,0);
   height: 460px;
   margin:auto;
   width: 460px;
+  
 }
 .container {
   height: 768px;
@@ -79,12 +86,12 @@ body {
   color:rgb(255,255,255);
   font-size: 30px;
   font-weight: bold;
+  font-family: 'Ranchers', cursive;
   text-shadow: 5px 5px 5px black;
-  margin-top: 35%;
-  position: absolute;
   text-align: center;
-  width: 400px;
-  z-index: 1;
+  width: 460px;
+  white-space: normal;
+  
 }
 .meme {
   font-family: 'Anton', sans-serif;
