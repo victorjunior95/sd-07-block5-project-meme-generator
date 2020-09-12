@@ -5,25 +5,16 @@
     margin: 20px ;
 }
 
-#meme-text{
-    color: white;
-    text-shadow: 5px 5px 5px black;
-    font-size: 30px; 
-    font-family: Impact;
-    font-weight: bold;
-    position: absolute;
-    left: 20px;
-    bottom: 30px;
-    margin: 20px;
-}
 
 #meme-image-container{
   position: relative;
   width: 500px;
   height: 500px;
   background-color: white;
+  border: 1px solid rgb(0, 0, 0);
   overflow: hidden;
   margin: 20px ;
+  z-index: 1;
 
 }
 
@@ -33,8 +24,19 @@
     width: 500px;
     height: auto;
     color: white;
-    border: 1px solid rgb(0, 0, 0);
+    z-index: 2;
+}
 
+#meme-text{
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px; 
+    font-family: Impact;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    bottom: 30px;
+    z-index: 3;
 }
 
 

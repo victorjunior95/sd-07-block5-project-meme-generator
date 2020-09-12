@@ -13,10 +13,7 @@ let memeInsert = document.getElementById('meme-insert');
 let lugarImagem = document.getElementById('lugarImagem');
 
 function colocarImagem(){
-    let caminho = memeInsert.value;
-    let repara = caminho.split("\\");
-    lugarImagem.src = repara[2];
-    console.log(lugarImagem.scr);
+    lugarImagem.src = memeInsert.value;
 }
 
 memeInsert.addEventListener('change',colocarImagem);
