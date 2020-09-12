@@ -4,16 +4,12 @@
   border: 1px solid black;
   margin-top: 30px;
   position: relative;
-  background-color: white;
+  background-color: rgb(255, 255 , 255);
 }
 
 #meme-image {
   width: 400px;
   height: 300px;
-}
-
-#input-image {
-  width: 400px;
 }
 
 #container {
@@ -30,5 +26,6 @@
   color: white;
   display: block;
   word-wrap: break-word;
-  width: 400px;
+  width: 350px;
+  left: 20px;
 }
