@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(52, 58, 64);
+    background-color: rgb(206, 212, 218);
 }
 #meme-image-container{
     position: relative;
@@ -31,4 +31,24 @@ body{
 #earth{
     background-color: green;
     border: groove green 6px;
+}
+#meme-1{
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+#meme-2{
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+#meme-3{
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+#meme-4{
+    position: relative;
+    width: 100px;
+    height: 100px;
 }
