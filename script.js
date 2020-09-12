@@ -27,27 +27,41 @@ window.onload = function () {
   }
 
   // EVENT TO ADD TEXT IN MY CONTAINER
-  textInput.addEventListener("keyup",addText);
+  textInput.addEventListener("keyup", addText);
 
-  function addText () {
+  function addText() {
     loadText.innerText = textInput.value;
   }
 
-  buttonRed.addEventListener("click",changeBorderFire);
+  // EVENT IN THE BUTTONS BORDERS
+  buttonRed.addEventListener("click", changeBorderFire);
 
-  function changeBorderFire () {
+  function changeBorderFire() {
     containerMeme.style.border = "3px dashed red";
   }
 
-  buttonBlue.addEventListener("click",changeBorderWater);
+  buttonBlue.addEventListener("click", changeBorderWater);
 
-  function changeBorderWater () {
+  function changeBorderWater() {
     containerMeme.style.border = "5px double blue";
   }
 
-  buttonBrown.addEventListener("click",changeBorderEarh);
+  buttonBrown.addEventListener("click", changeBorderEarh);
 
-  function changeBorderEarh () {
+  function changeBorderEarh() {
     containerMeme.style.border = "6px groove green";
+  }
+
+  const preImgs = document.querySelectorAll(".miniatureImg");
+  for (let i = 0; i < preImgs.length; i += 1) {
+    preImgs[i].addEventListener("click", currentImg);
+
+    function currentImg() {
+      img.src = preImgs[i].src;
+      imgShow = true;
+      if (imgShow === true) {
+        containerMeme.style.display = "block";
+      }
+    }
   }
 };
