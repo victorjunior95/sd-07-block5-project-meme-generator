@@ -5,19 +5,22 @@
  const tagText = document.getElementById('text-input')
  const tagFigure = document.getElementById('meme-image-container');
  const tagImg = document.getElementById('meme-image');
- const tagSpan = document.getElementById('meme-text');
+ const tagTextMeme = document.getElementById('meme-text');
 
+ tagText.addEventListener('change', function(){
+  tagTextMeme.innerText = tagText.value;
+ });
 
  chooseImage.addEventListener('change', function () {
-  tagSpan.innerText = '';
+  tagTextMeme.innerText = '';
    for (let i = 0; i < this.files.length; i++) { // pesquisar de onde saiu esse files
 
      tagImg.src = URL.createObjectURL(this.files[i]);
 
      tagFigure.appendChild(tagImg);
 
-     tagSpan.innerText = tagText.value;
+     tagTextMeme.innerText = tagText.value;
 
-     tagFigure.appendChild(tagSpan);
+     tagFigure.appendChild(tagTextMeme);
    }
  });

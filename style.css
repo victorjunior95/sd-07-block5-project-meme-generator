@@ -1,6 +1,5 @@
 main{
     width: 900px;
-    height: 500px;
     background-color: aquamarine;
     box-shadow: 10px 5px 5px rgba(2, 70, 53, 0.5);
     margin-left: auto;
@@ -28,8 +27,8 @@ main{
 
 #meme-text{
     float: inline-end;
-    color: rgb(0, 0, 0);
-    font-size: 30pt;
+    color: black;
+    font-size: 30px;
     margin: 0;
     box-shadow: 5px 5px 5px black;
 }
