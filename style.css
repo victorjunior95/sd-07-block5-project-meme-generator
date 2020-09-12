@@ -146,6 +146,7 @@ main {
 }
 
 .image-container {
+  background-color: white;
   border-color: black;
   border-style: solid;
   border-width: 1px;
@@ -164,13 +165,13 @@ main {
 
 .meme-text {
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgb(0, 0, 0);
+  -webkit-text-stroke-color: black;
   color: white;
   font-size: 30px;
   margin: 10px;
   max-width: 100%;
   position: relative;
+  text-shadow: 5px 5px 5px black;
   top: -380px;
   word-wrap: break-word;
-  text-shadow: 5px 5px 5px black;
 }
