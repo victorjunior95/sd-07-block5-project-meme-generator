@@ -1,32 +1,27 @@
 #meme-image-container {
+  align-items: center;
   background-color: white;
+  border: 1px solid black;
   height: 500px;
   width: 600px;
-  border: 1px solid rgb(0, 0, 0);
   position: absolute;
 }
 
-#meme-image-container p {
-  left: 40%;
-  margin: 0 -50% 0 0;
-  top: 80%;
-  transform: translate(-50% , -50%);
-}
-
 #meme-text {
-  align-items: center;
   background-color: transparent;
   color: white;
   font-family: Impact, sans-serif;
   font-size: 30px;
-  left: 15px;
+  left: 50%;
+  margin: 0 -50% 0 0;
   position: absolute;
   text-shadow: black 5px 5px 5px;
-  top: 550px;
+  top: 80%;
+  transform: translate(-50% , -50%);
 }
 
 #meme-image {
-  position: relative;
   height: 500px;
+  position: relative;
   width: 600px;
 }
