@@ -11,23 +11,18 @@
     width: 500px;
     height: 250px;
     position: relative;
-
-    /* Default text */
-    font-weight: bold;
-    align-items: center;
-    color: black;
-    justify-content: center;
-    display: flex;
-    font-family: monospace;
 }
 #meme-image {
     width: 100%;
     height: 100%;
+    position: absolute;
 }
 #meme-text {
     color: white;
     font-size: 30px;
+    font-weight: bold;
     text-shadow: 5px 5px 5px black;
-    font-family: monospace;
+    font-family: 'Raleway', sans-serif;
     position: absolute;
+    top: 150px;
 }
