@@ -16,6 +16,7 @@
   text-shadow: 5px 5px 5px black;
   bottom: 8px;
   left: 16px;
+  width: 100%;
 }
 #fire {
   border: 3px dashed red;
@@ -34,7 +35,7 @@
   background-color: green;
   color: white;
 }
-#elements {
+.elements {
   margin-top: 25px;
   display: inline-block;
   padding: 20px;

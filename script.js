@@ -6,7 +6,7 @@ let loadFile = function(event) {
   }
 };
 let TextButton = document.querySelector('#text-input');
-TextButton.addEventListener('change', function () {
+TextButton.addEventListener('keyup', function () {
   let text = document.getElementById('text-input').value;
   let textInput = document.getElementById('meme-text');
   textInput.innerHTML = text;
