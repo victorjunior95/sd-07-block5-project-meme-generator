@@ -7,24 +7,14 @@ document.querySelector('input#text-input').addEventListener('input', function() 
 let containerBorder = document.querySelector('#meme-image-container');
 let borderTrue;
 document.querySelector('#fire').addEventListener('click', function() {
-  
-  if (!borderTrue) {
-    containerBorder.style.border = '3px dashed red';
-  }
-
+  containerBorder.style.border = '3px dashed red';
 })
 
 document.querySelector('#water').addEventListener('click', function() {
-
-  if (!borderTrue) {
-    containerBorder.style.border = '5px double blue';
-  }
+  containerBorder.style.border = '5px double blue';
 
 })
 
 document.querySelector('#earth').addEventListener('click', function() {
-
-  if (!borderTrue) {
-    containerBorder.style.border = '6px groove green';
-  }
+  containerBorder.style.border = '6px groove green';
 })
