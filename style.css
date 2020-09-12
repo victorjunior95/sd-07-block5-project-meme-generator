@@ -41,6 +41,9 @@ body {
   background-color: rgb(14, 151, 55);
   cursor: pointer;
 }
+.earth:hover{
+  box-shadow: 0px 0px 10px rgb(6, 138, 46);
+}
 /*Style text on image*/
 
 .formGeneraitor {
@@ -59,6 +62,9 @@ body {
 .fire {
   background-color: rgb(248, 3, 3);
   cursor: pointer;
+}
+.fire:hover{
+  box-shadow: 0px 0px 10px rgb(255, 1, 1);
 }
 
 .imgMeme{
@@ -106,4 +112,8 @@ body {
 .water {
   background-color: rgb(55, 132, 248);
   cursor: pointer;
+}
+
+.water:hover{
+  box-shadow: 0px 0px 10px rgb(21, 135, 241);
 }
