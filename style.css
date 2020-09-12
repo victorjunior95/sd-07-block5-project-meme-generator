@@ -37,9 +37,10 @@ main{
     top: 50%;
     left: 4px;
     transform: translateY(210%);
-    
+    text-align: center;
+
     color: black;
     font-size: 30px;
     margin: 0;
-    box-shadow: 5px 5px 5px black;
+    text-shadow: 5px 5px 5px black;
 }
