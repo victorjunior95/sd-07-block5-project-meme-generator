@@ -1,8 +1,8 @@
 #meme-text {
     position: absolute;
-    color: black;
-    font-size: 25px;
-    text-shadow:3px 3px cornflowerblue;
+    color: white;
+    font-size: 30px;
+    text-shadow:5px 5px 5px cornflowerblue;
 }
 #meme-image {
     width: 100%;
