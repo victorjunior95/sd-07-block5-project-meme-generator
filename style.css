@@ -19,6 +19,7 @@
     width: 500px;
     height: auto;
     color: white;
+    overflow: hidden;
 }
 
 #meme-text{
