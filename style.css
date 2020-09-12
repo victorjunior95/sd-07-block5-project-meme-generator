@@ -11,7 +11,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 1;
 }
 
 #meme-text {
@@ -22,12 +21,10 @@ body {
   font-weight: 800;
   font-family: Impact, sans-serif;
   bottom: 35px;
-  z-index: 3;
 }
 
 #meme-insert {
   position: absolute;
-  z-index: 2;
 }
 
 #meme-image {
