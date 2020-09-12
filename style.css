@@ -14,7 +14,7 @@
   border:6px groove green;
 }
 
-#meme-image-container {
+.meme-image-container {
   position: relative;
   background-color: white;
   width: 500px;
@@ -22,7 +22,7 @@
   margin-top: 50px;
 }
 
-#meme-text {
+.meme-text {
   position: absolute;
   font-family: 'Teko', sans-serif;
   width: 400px;
@@ -35,7 +35,7 @@
   left: 50px;
 }
 
-#meme-image {
+.meme-image {
   width: 500px;
   height: 500px;
 }
@@ -46,17 +46,17 @@
   margin: 2em;
 }
 
-#fire {
+.fire {
   background-color: red;
   color: white;
 }
 
-#water {
+.water {
   background-color: blue;
   color: white;
 }
 
-#earth {
+.earth {
   background-color: green;
   color: white;
 }
