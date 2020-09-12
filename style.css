@@ -7,15 +7,16 @@ body {
 .meme-image-container {
     position: relative;
     border: 1px solid black;
-    width: 800px;
-    height: 700px;
-    margin-left: 270px;
+    width: 500px;
+    height: 500px;
+    margin-left: 450px;
+    background-color: white;
     
     
 }
 .image {
-    width: 800px;
-    height: 700px;
+    width: 500px;
+    height: 500px;
     ;
 
 }
