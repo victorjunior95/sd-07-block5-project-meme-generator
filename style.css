@@ -1,9 +1,26 @@
-#meme-image-container {
+.blue-button {
+  background-color: blue;
+}
+
+.container {
     width: 400px;
     height: 400px;
     background-color: white;
     border: 1px solid black;
     position: relative;
+}
+
+.green-button {
+  background-color: green;
+}
+
+.miniature-memes {
+  width: 100px;
+  height: 100px;
+}
+
+.red-button {
+  background-color: red;
 }
 
 div img {
@@ -12,29 +29,12 @@ div img {
     height: 400px;
 }
 
-#meme-text {
+div p {
     position: absolute;
     color: white;
     text-align: center;
     width: 400px;
-    bottom: 0px;
+    bottom: 0;
     font-size: 30px;
     text-shadow: 5px 5px 5px black;
-}
-
-.red-button {
-    background-color: red;
-}
-
-.blue-button {
-    background-color: blue;
-}
-
-.green-button {
-    background-color: green;
-}
-
-.miniature-memes {
-    width: 100px;
-    height: 100px;
 }
