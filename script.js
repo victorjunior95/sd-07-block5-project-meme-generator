@@ -19,7 +19,7 @@ input.addEventListener('change', function() {
 })
 
 
-text.addEventListener("keypress", function() {
+text.addEventListener("input", function() {
 
     memetext.innerText = text.value;
 });
