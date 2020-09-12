@@ -20,7 +20,9 @@ container.style.position = "relative";
 
 // carrega a imagem selecionada
 input.addEventListener('change', function() {
-	img.src =  URL.createObjectURL(input.files[0]);
+    img.src =  URL.createObjectURL(input.files[0]);
+    img.style.height="300px";
+    img.style.width="300px"
 })
 
 // transfere o texto digitado para o meme-text
