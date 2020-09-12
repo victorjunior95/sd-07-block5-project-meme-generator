@@ -36,26 +36,29 @@ h1{
     position: relative;
 }
 
-.botaoVermelho{
+#fire{
     padding: 10px;
     background-color: red;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     margin: 12px;
+    border-radius: 5px;
 }
 
-.botaoVerde{
-    padding: 10px;
-    background-color:green;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 12px;
-}
-
-.botaoAzul{
+#water{
     padding: 10px;
     background-color:blue;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     margin: 12px;
+    border-radius: 5px;
+}
+
+#earth{
+    padding: 10px;
+    background-color:green;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 12px;
+    border-radius: 5px;
 }

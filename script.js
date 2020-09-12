@@ -5,9 +5,9 @@ let containerDoMeme = document.getElementById("meme-image-container");
 let divDaImagem = document.querySelector("#meme-image");
 let divDoTexto = document.querySelector("#meme-text");
 let tagImg = document.querySelector("#preview-image");
-let botaoVermelho = document.querySelector(".botaoVermelho");
-let botaoVerde = document.querySelector(".botaoVerde");
-let botaoAzul = document.querySelector(".botaoAzul");
+let botaoVermelho = document.querySelector("#fire");
+let botaoAzul = document.querySelector("#water");
+let botaoVerde = document.querySelector("#earth");
 function aparecerTexto (){
     divDoTexto.innerText=caixaTexto.value;
                 
@@ -19,17 +19,17 @@ function aparecerImagem (event) {
      tagImg.src=URL.createObjectURL(event.target.files[0]);
     
 }
-function bordasVermelhas (){
-    containerDoMeme.style.border= "4px solid red";
+function vermelho (){
+    containerDoMeme.style.border= "3px dashed red";
 }
-botaoVermelho.addEventListener("click", bordasVermelhas);
-
-function verde (){
-    containerDoMeme.style.border= "4px solid green";
-}
-botaoVerde.addEventListener("click", verde);
+botaoVermelho.addEventListener("click", vermelho);
 
 function azul (){
-    containerDoMeme.style.border= "4px solid blue";
+    containerDoMeme.style.border= "5px double blue";
 }
 botaoAzul.addEventListener("click", azul);
+
+function verde (){
+    containerDoMeme.style.border= "6px groove green";
+}
+botaoVerde.addEventListener("click", verde);
