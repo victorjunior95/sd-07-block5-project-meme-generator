@@ -27,7 +27,7 @@ fieldset {
     text-shadow:5px 5px 5px black;
     margin-top: 90%;
     position: absolute;
-    width: 80%;
+    width: inherit;
     text-align: center;
     
 }
