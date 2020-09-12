@@ -11,8 +11,8 @@ h1 {
   color: white;
   font-size: 30px;
   position: absolute;
-  top: 150px;
   text-shadow: 5px 5px 5px black;
+  top: 150px;
 }
 
 .image-meme {

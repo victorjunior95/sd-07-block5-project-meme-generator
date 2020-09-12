@@ -16,23 +16,23 @@ const memeFour = document.getElementById('meme-4');
 
 fireButton.addEventListener('click', function () {
   memeImageContainer.style.border = '3px dashed red';
-})
+});
 
 waterButton.addEventListener('click', function () {
   memeImageContainer.style.border = '5px double blue';
-})
+});
 
 earthButton.addEventListener('click', function () {
   memeImageContainer.style.border = '6px groove green';
-})
+});
 
 inputText.addEventListener('keyup', function () {
   memeText.innerText = inputText.value;
-})
+});
 
 memeInsert.addEventListener('change', function (event) {
   memeImage.src = URL.createObjectURL(event.target.files[0]);
-})
+});
 
 function chooseMiniature(event) {
   memeImage.src = event.target.src;
