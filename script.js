@@ -5,6 +5,7 @@ window.onload = function(){
     let btnFire = document.getElementById("fire");
     let btnWater = document.getElementById("water");
     let btnEarth = document.getElementById("earth");
+    let btnNormal = document.getElementById("normal");
     
 
     //Criando evento do texto
@@ -29,6 +30,10 @@ window.onload = function(){
     btnEarth.addEventListener("click", function(){
         let border = document.getElementById("meme-image-container");
         border.style.border = "groove green 6px"
+    });
+    btnNormal.addEventListener("click", function(){
+        let border = document.getElementById("meme-image-container");
+        border.style.border = "solid black 1px"
     });
 
 

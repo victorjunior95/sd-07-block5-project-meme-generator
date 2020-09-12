@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(240, 239, 235);
+    background-color: rgb(52, 58, 64);
 }
 #meme-image-container{
     position: relative;
@@ -21,11 +21,14 @@ body{
     height: 100%; 
 }
 #fire{
-
+    background-color: red;
+    border: groove red 6px;
 }
 #water{
-
+    background-color: blue;
+    border: groove blue 6px;
 }
 #earth{
-    
+    background-color: green;
+    border: groove green 6px;
 }
