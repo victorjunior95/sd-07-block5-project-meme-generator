@@ -1,0 +1,22 @@
+#meme-image-container{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+}
+#text-meme{
+    position: relative;
+    margin-bottom: 0;
+}
+#text-input{
+    position: absolute;
+    text-align: center;
+}
+#meme-image{
+    position: relative;
+    width: 600px;
+    height: 500px;
+}
+h1{
+    margin-left: 50%;
+    margin-right: 50%;
+}
