@@ -12,6 +12,10 @@
 }
 
 #meme-text {
+    color: white;
+    font-family: Impact;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px black;
     position: absolute;
     top: 400px; 
     left: 20px; 
