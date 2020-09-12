@@ -36,7 +36,7 @@ function createPageStructure () {
     textInputDiv[0].appendChild(inputLabelText)
 
     let inputText = document.createElement('input')
-    inputText.setAttribute('id', 'meme-insert')
+    inputText.setAttribute('id', 'text-input')
     inputText.setAttribute('type', 'text')
     textInputDiv[0].appendChild(inputText)
 
@@ -64,3 +64,14 @@ function createPageStructure () {
 }
 createReader()
 createPageStructure()
+
+const newTextInsert = document.querySelector('#text-input')
+newTextInsert.addEventListener('input', function () {
+    if (newTextInsert.value.length <= 60) {
+        let pushText = document.getElementById('meme-text')
+        //console.log(pushText)
+        pushText.innerText = newTextInsert.value
+    }
+})
+
+newTextInsert.addEventListener
