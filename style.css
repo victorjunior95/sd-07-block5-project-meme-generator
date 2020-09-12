@@ -1,26 +1,26 @@
-.sessao1 {
+.sessao {
   margin-left: 100px;
   font-size: 20px;
 }
 
-.sessao1 p {
+.sessao p {
   font-size: 25px;
 }
 
-.meme-insert1 {
+.meme-insert {
   margin-top: 10px;
   margin-left: 9px;
   margin-bottom: 10px;
 }
 
-.meme-image-container1 {
+.meme-image-container {
   background-color: white;
   border: solid 1px black;
   width: 502px;
   height: 402px;
 }
 
-.meme-text1 {
+.meme-text {
   text-shadow: 5px 5px 5px black;
   font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -34,14 +34,14 @@
   word-wrap: break-word;
 }
 
-.meme-image1 {
+.meme-image {
   background-color: white;
   border: solid 1px black;
   width: 500px;
   height: 400px;
 }
 
-.fire1 {
+.fire {
   border: dashed 3px red;
   background-color: red;
   color: aliceblue;
@@ -49,7 +49,7 @@
   margin-right: 15px;
 }
 
-.water1 {
+.water {
   border: double 5px blue;
   background-color: blue;
   color: aliceblue;
@@ -57,7 +57,7 @@
   margin-right: 15px;
 }
 
-.earth1 {
+.earth {
   border: groove 6px green;
   background-color: green;
   color: aliceblue;
@@ -65,28 +65,28 @@
   margin-right: 15px;
 }
 
-.meme-11 {
+.meme-1 {
   border: solid 2px black;
   width: 120px;
   height: 140px;
   margin-left: 10px;
 }
 
-.meme-21 {
+.meme-2 {
   border: solid 2px black;
   width: 120px;
   height: 140px;
   margin-left: 10px;
 }
 
-.meme-31 {
+.meme-3 {
   border: solid 2px black;
   width: 120px;
   height: 140px;
   margin-left: 10px;
 }
 
-.meme-41 {
+.meme-4 {
   border: solid 2px black;
   width: 120px;
   height: 140px;
