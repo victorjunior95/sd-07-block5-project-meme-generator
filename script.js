@@ -11,9 +11,10 @@ const imgTip04 = document.querySelector('#meme-4');
 const uploadImage = document.getElementById('meme-insert');
 const memeImageContainer = document.getElementById('meme-image-container');
 
-textInput.addEventListener('keyup', function() {
+textInput.addEventListener('keyup', function () {
   memeText.innerHTML = textInput.value;
 });
+
 button01.addEventListener('click', function () {
   memeImageContainer.style.border = '3px red dashed';
 });
