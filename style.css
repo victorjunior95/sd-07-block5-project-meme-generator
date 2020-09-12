@@ -6,6 +6,7 @@ body {
   margin: 10px;   
   width: 1366px;
 }
+
 button {
   display: inline-block;
   padding: 5px 12px;
@@ -13,46 +14,55 @@ button {
   right: 600px;
   top: 340px;
 }
+
 .button-01 {
   background-color: red;
 }
+
 .button-02 {
   background-color: blue;
 }
+
 .button-03 {
   background-color: green;
 }
+
 .image-tip {
+  background-color: grey;
   border: dotted 3px rgb(98, 0, 128);
   display: inline-block;
   height: 100px;
-  background-color: grey;
   position: relative;
   right: 270px;
   top: 520px;
   width: 100px;
 }
+
 img{
   height: 100px;
   width: 100px;
 }
+
 input {
   background-color: whitesmoke;
   color: rgb(98, 0, 128);
   font-size: 16px;
 }
+
 label {
   color: blueviolet;
   font-size: large;
   font-weight: bolder;
   text-align: left;
 }
+
 .meme-image {
   height: 100%;
   position: absolute;
   width: 100%;
   z-index: 2;
 }
+
 .meme-image-container {
   background-color: white;
   border: black solid 1px;
@@ -61,6 +71,7 @@ label {
   top: 150px;
   width: 500px;
 }
+
 .meme-insert {
   color: rgb(38, 7, 110);
   font-size: 14px;
@@ -72,6 +83,7 @@ label {
   top: 110px;
   width: 250px;
 }
+
 .meme-text {
   background-color: transparent;
   color: white;
@@ -79,13 +91,14 @@ label {
   height: 150px;
   position: absolute;
   right: 50px;
-  text-shadow: 5px 5px 5px black;
   text-align: center;
+  text-shadow: 5px 5px 5px black;
   top: 15px;
   width: 400px;
   word-wrap: break-word;
   z-index: 3;
 }
+
 p {
   color: black;
   display: inline-block;
@@ -94,6 +107,7 @@ p {
   right: 90px;
   top: 340px;
 }
+
 .text-input {
   color: rgb(38, 7, 110);
   font-size: 14px;
@@ -102,6 +116,7 @@ p {
   text-align: left;
   width: 410px;
 }
+
 .tips {
   right: 200px;
   top: 400px;

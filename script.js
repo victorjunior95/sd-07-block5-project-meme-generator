@@ -23,18 +23,18 @@ button03.addEventListener('click', function () {
   memeImageContainer.style.border = '6px green groove';
 });
 imgTip01.addEventListener('click', function () {
-  memeImages.src=imgTip01.src;
+  memeImages.src = imgTip01.src;
 })
 imgTip02.addEventListener('click', function () {
-  memeImages.src=imgTip02.src;
+  memeImages.src = imgTip02.src;
 })
 imgTip03.addEventListener('click', function () {
-  memeImages.src=imgTip03.src;
+  memeImages.src = imgTip03.src;
 });
 imgTip04.addEventListener('click', function () {
-  memeImages.src=imgTip04.src;
+  memeImages.src = imgTip04.src;
 });
 uploadImage.addEventListener('change', function (event) {
-    memeImages.src = URL.createObjectURL(event.target.files[0]);
-    memeImages.onload = () => URL.revokeObjectURL(memeImages.src);
+  memeImages.src = URL.createObjectURL(event.target.files[0]);
+  memeImages.onload = () => URL.revokeObjectURL(memeImages.src);
 });
