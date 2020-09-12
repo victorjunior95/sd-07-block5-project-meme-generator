@@ -11,14 +11,14 @@ window.onload = function () {
   const memeImage = document.querySelector('#meme-image');
   const memeInsert = document.querySelector('#meme-insert');
 
-  function handleFiles (){
+  function handleFiles () {
     const img = document.createElement('img');
     img.src = URL.createObjectURL(this.files[0]);
     img.id = 'image';
     img.height = 400;
     img.onload = function () {
       URL.revokeObjectURL(this.src);
-    }
+    };
     // Atualiza a imagem, se alguma foi carregada anteriormente.
     if (document.querySelector('#image') === null) {
       memeImage.appendChild(img);
@@ -30,7 +30,7 @@ window.onload = function () {
   }
   memeInsert.addEventListener('change', handleFiles, false);
 
-  // Altera borda do meme conforme botão acionado 
+  // Altera borda do meme conforme botão acionado
   function changeMemeBorder (setColor, setStyle, setWidth) {
     const memeImageContainer = document.querySelector('#meme-image-container');
     memeImageContainer.style.borderColor = setColor;
@@ -40,28 +40,28 @@ window.onload = function () {
 
   const buttonFire = document.querySelector('#fire');
   buttonFire.addEventListener('click', function() {
-    changeMemeBorder ('red', 'dashed', '3px');
+    changeMemeBorder('red', 'dashed', '3px');
   });
 
   const buttonWater = document.querySelector('#water');
   buttonWater.addEventListener('click', function() {
-    changeMemeBorder ('blue', 'double', '5px');
+    changeMemeBorder('blue', 'double', '5px');
   });
 
   const buttonEarth = document.querySelector('#earth');
   buttonEarth.addEventListener('click', function() {
-    changeMemeBorder ('green', 'groove', '6px');
+    changeMemeBorder('green', 'groove', '6px');
   });
 
   // Carrega miniatura pré prontas no meme generator
   function changeImage() {
     const img = document.createElement('img');
-    img.src = this.src
+    img.src = this.src;
     img.id = 'image';
     img.height = 400;
     img.onload = function () {
       URL.revokeObjectURL(this.src);
-    }
+    };
     // Atualiza a imagem, se alguma foi carregada anteriormente.
     if (document.querySelector('#image') === null) {
       memeImage.appendChild(img);
@@ -83,5 +83,4 @@ window.onload = function () {
 
   const meme4 = document.querySelector('#meme-4');
   meme4.addEventListener('click', changeImage);
-
-};
+}
