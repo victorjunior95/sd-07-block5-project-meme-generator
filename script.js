@@ -15,3 +15,24 @@ function showTheImg(event) {
 }
 
 source.addEventListener('change', showTheImg);
+
+//  7
+const butFire = document.querySelector('#fire');
+const butWater = document.querySelector('#water');
+const butEarth = document.querySelector('#earth');
+const container = document.querySelector('#meme-image-container');
+
+butFire.addEventListener('click',function() {
+    container.style.border = '3px dashed red';
+});
+
+butWater.addEventListener('click',function() {
+    container.style.border = '5px double blue';
+});
+
+butEarth.addEventListener('click',function() {
+    container.style.border = '6px groove green';
+});
+
+
+

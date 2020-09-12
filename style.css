@@ -35,3 +35,18 @@
   font-weight: 600;
   text-shadow: 5px 5px 5px black;
 }
+
+#fire {
+  width: 167px;
+  background-color: red;
+}
+
+#water {
+  width: 168px;
+  background-color: blue;
+}
+
+#earth {
+  width: 167px;
+  background-color: green;
+}
