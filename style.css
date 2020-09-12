@@ -17,11 +17,9 @@ body {
   position: absolute;
   margin-left: 10px;
   bottom: 50px;
-  word-wrap: break-word;
 }
 
 #meme-image {
   width: 400px;
   height: 400px;
-  position: absolute;
 }
