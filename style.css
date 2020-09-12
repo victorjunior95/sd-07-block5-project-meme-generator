@@ -38,11 +38,11 @@ body {
   width: 1366px;
 }
 .earth {
-  background-color: rgb(14, 151, 55);
+  background-color: rgb(0, 128, 0);
   cursor: pointer;
 }
 .earth:hover{
-  box-shadow: 0px 0px 10px rgb(6, 138, 46);
+  box-shadow: 0px 0px 10px rgb(0, 128, 0);
 }
 /*Style text on image*/
 
@@ -60,11 +60,11 @@ body {
 }
 
 .fire {
-  background-color: rgb(248, 3, 3);
+  background-color: rgb(255, 0, 0);
   cursor: pointer;
 }
 .fire:hover{
-  box-shadow: 0px 0px 10px rgb(255, 1, 1);
+  box-shadow: 0px 0px 10px rgb(255, 0, 0);
 }
 
 .imgMeme{
@@ -110,10 +110,10 @@ body {
 }
 
 .water {
-  background-color: rgb(55, 132, 248);
+  background-color: rgb(0, 0, 255);
   cursor: pointer;
 }
 
 .water:hover{
-  box-shadow: 0px 0px 10px rgb(21, 135, 241);
+  box-shadow: 0px 0px 10px rgb(0, 0, 255);
 }
