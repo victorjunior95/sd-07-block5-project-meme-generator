@@ -1,5 +1,6 @@
 body {
   background-color: darkolivegreen;
+  color: white;
 }
 
 .topo {
@@ -7,44 +8,77 @@ body {
 }
 
 h1 {
-  color: white;
   display: flex;
   justify-content: center;
 }
 
 .insercao {
-  color: white;
-  font-size: x-large;
+  font-size: 20px;
   line-height: 50px;
-}
-
-.insere-texto {
   margin-left: 40px;
   text-align: left;
 }
 
-.foto {
+.campo-meme {
   background-color: white;
   border: 1px solid black;
   height: 450px;
-  width: 450px;
-}
-
-.imagem {
-  border: 1px solid black;
-  height: 450px;
+  margin-left: 40px;
   width: 450px;
 }
 
 .meme-text {
+  bottom: 0;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  height: 110px;
+  max-height: fit-content;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  max-width: 435px;
+  z-index: 2;
+}
+
+.separadores {
+  font-size: 20px;
+  margin: 15px 15px 15px 32px;
+  padding: 8px;
+}
+
+.icones {
   display: flex;
-  height: 100px;
-  justify-content: center;
+  margin-left: 40px;
 }
 
 .rodape {
-  color: white;
   padding: 8px;
   text-align: center;
-  
+}
+
+.padrao-icones {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  height: 35px;
+  width: 90px;
+}
+
+#imagem-meme {
+  height: 450px;
+  position: absolute;
+  width: 450px;
+  z-index: 1;
+}
+
+#fire {
+  background-color: rgb(243, 10, 41);
+}
+
+#water {
+  background-color: rgb(15, 19, 245);
+}
+
+#earth {
+  background-color: rgb(66, 190, 83);
 }

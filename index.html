@@ -7,44 +7,49 @@
   <title>Projeto Meme Generator - João Andrade Jr</title>
 </head>
 <body>
-  <div class="topo">
+  <header class="topo">
     <h1>Projeto Meme Generator - João Andrade Junior</h1>
-  </div>
-  <div>
+  </header>
     <section class="insercao">
-      <div class="insere-texto">
+      <div>
         <label for="texto">Digite o texto na caixa ao lado </label>
         <input type="text" name="texto" id="text-input">
       </div>
-      <div class="insere-texto">
+      <div>
         <label for="foto">Selecione a foto </label>
-        <input type="file" name="foto" id="insere-foto">
+        <input type="file" accept="image" name="foto" id="insere-foto">
       </div>
     </section>
     <section id="meme-image-container">
-      <div class="foto">
+      <div id="campo-meme" class="campo-meme">
+        <img src="" alt="" id="imagem-meme">
         <div class="meme-text">
-          aqui fica o texto
+          <label for="meme-text" id="texto-meme"></label>
+        </div>
+      </div>
+      <div class="separadores">
+        Estilos personalizados
+      </div>
+      <div class="icones">
+        <div class="icones">
+          <input type="button" value="Fire" id="fire" class="padrao-icones">
+        </div>
+        <div class="icones">
+          <input type="button" value="Water" id="water" class="padrao-icones">
+        </div>
+        <div class="icones">
+          <input type="button" value="Earth" id="earth" class="padrao-icones">
+        </div>
+      </div>
+      <div>
+        <div>
+          pré prontos
+        </div>
+        <div>
+          memes pre prontos
         </div>
       </div>
     </section>
-    <section>
-      <div>
-        estilos personalizados
-      </div>
-      <div>
-        icones
-      </div>
-    </section>
-    <section class="preprontos">
-      <div>
-        pré prontos
-      </div>
-      <div>
-        memes pre prontos
-      </div>
-    </section>
-  </div>
   <footer>
     <div class="rodape">
       &copy; João Andrade Junior - Aluno Trybe/turma 7
