@@ -14,3 +14,8 @@ function updatePhoto(files) {
   }
   };
 } 
+
+document.body.onload = function () {
+  document.querySelector('#text-input').addEventListener('input', updateText);
+  document.querySelector('#meme-insert').addEventListener('change', (e) => updatePhoto(e.target.files));
+};
