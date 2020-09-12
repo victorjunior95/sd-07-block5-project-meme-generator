@@ -10,9 +10,7 @@
 
 3- Ao Usuário digitar em text-input é chamado função textPreview;
   -textPreview puxa texto;
-  -textPreview adiciona texto em meme-text;
-
-    
+  -textPreview adiciona texto em meme-text; 
 */
 document.querySelector('DOMContentLoaded', function(){});
 

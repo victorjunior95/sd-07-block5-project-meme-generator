@@ -12,21 +12,18 @@
   width : 500px;
 
 }
-/*
-meme-text precisa ficar fixado na frente de todos os elementos;
-meme-text deve ter uma sombra preta, de 5 pixels na horizontal, 5 pixels na vertical e um raio de desfoque de 5 pixels;
-meme-text deve estar na cor branca;
-meme-text deve ter a fonte com o tamanho de 30 pixels; 
-*/
+
 #meme-text {
-  
+  position: absolute;
+  font-size : 30px;
+  color : white;
+  text-shadow: 5px 5px 5px black;
 
 }
-/*
-A imagem deve estar totalmente contida dentro do elemento identificado como meme-image-container
-*/
+
 #meme-image
 {
-
+  width : 100%;
+  height : 100%;
 
 }
