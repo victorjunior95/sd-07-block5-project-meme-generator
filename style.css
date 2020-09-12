@@ -16,7 +16,7 @@
 
 .labels {
   display: block;
-  margin: 30px;
+  margin: 10px;
 }
 
 .text-input-box {
@@ -30,8 +30,10 @@
   background-color: white;
   border: solid 1px black;
   height: 249px;
+  left: 10px;
   margin: 30px;
   position: relative;
+  top: 10px;
   width: 476px;
 }
 
@@ -39,6 +41,7 @@
   color: white;
   font-size: 30px;
   height: 100px;
+  left: 10px;
   position: absolute;
   text-align: center;
   text-shadow: 5px 5px 5px black;
