@@ -18,20 +18,20 @@ insertMeme.addEventListener('change', (event) => {
 
 const botaoFire = document.querySelector('#fire');
 botaoFire.addEventListener('click', function () {
-  cont.style.border = 'dashed 3px rgb(255,0,0)';
-  imageMeme.style.border = 'dashed 3px rgb(255,0,0)';
+  cont.style.border = 'dashed 3px red';
+  imageMeme.style.border = 'dashed 3px red';
 });
 
 const botaoWater = document.querySelector('#water');
 botaoWater.addEventListener('click', function () {
-  cont.style.border = 'double 5px rgb(0,0,255)';
-  imageMeme.style.border = 'double 5px rgb(0,0,255)';
+  cont.style.border = 'double 5px blue';
+  imageMeme.style.border = 'double 5px blue';
 });
 
 const botaoEarth = document.querySelector('#earth');
 botaoEarth.addEventListener('click', function () {
-  cont.style.border = 'groove 6px rgb(0,128,0)';
-  imageMeme.style.border = 'groove 6px rgb(0,128,0)';
+  cont.style.border = 'groove 6px green';
+  imageMeme.style.border = 'groove 6px green';
 });
 
 const image = document.querySelectorAll('#sessao img');
