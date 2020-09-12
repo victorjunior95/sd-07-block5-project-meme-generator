@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <label for="frase">Frase</label>
+    <input type="text" id="frase" name="frase">
+    <input type="submit" value="Submit" onchange="loadFile(event)">
+    <form action="/action_page.php">
+        <input type="file" id="myFile" name="filename" onchange="loadFile(event)">
+    </form>
+    <img id="output" class="imagem"/>	
+
+    <script src="script.js"></script>
+</body>
+</html>
