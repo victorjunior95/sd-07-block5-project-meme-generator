@@ -2,9 +2,8 @@
   background-color: white;
   position: relative;
   border: 1px solid black;
-  max-height: 410px;
-  max-width: 390px;
-  alig
+  max-height: 406px;
+  max-width: 386px;
 }
 
 .container img {
@@ -16,14 +15,14 @@
 
 .container p {
   position: absolute;
-  top: 285px;
+  text-shadow: 5px 5px 5px black; /* h-shadow v-shadow blur-radius color */
+  font-size: 30px;
+  color: white;
+  top: 270px;
   width: 360px;
   margin-left: 10px;
   height: 90px;
   border: 3px solid #73ad21;
 }
 
-.textEntry input {
-  position: absolute;
-  border: 3px solid #73ad21;
-}
+
