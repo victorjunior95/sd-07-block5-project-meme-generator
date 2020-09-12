@@ -16,8 +16,9 @@ main{
 #meme-image-container{
     position: relative;
     justify-content: center;
-    border: 8px solid white;
+    border: 1px solid black;
     box-shadow: 1px 1px 4px black;
+    background-color: white;
 }
 
 #meme-image{
