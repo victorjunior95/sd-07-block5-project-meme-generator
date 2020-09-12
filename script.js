@@ -2,7 +2,7 @@
 function getInputValue() {
   const input = document.getElementById('text-input').value;
   const showInput = document.getElementById('meme-text');
-  showInput.innerHTML = input;
+  showInput.innerText = input;
 }
 
 const loadImage = function (event) {
@@ -11,6 +11,6 @@ const loadImage = function (event) {
   showImage.innerHTML = output;
   showImage.src = URL.createObjectURL(event.target.files[0]);
   showImage.onload = function () {
-    URL.revokeObjectURL(showImage.src); // free memory
+    URL.revokeObjectURL(showImage.src);
   };
 };
