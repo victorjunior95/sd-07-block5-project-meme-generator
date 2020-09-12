@@ -1,22 +1,22 @@
 window.onload = function () {
-  let textInput = document.querySelector("#text-input");
-  let memeText = document.querySelector("#meme-text");
-  let memeInsert = document.querySelector("#meme-insert");
-  let memeImage = document.querySelector("#meme-image");
-  let memeImageContainer = document.querySelector("#meme-image-container");
-  let meme1 = document.querySelector("#meme-1");
-  let meme2 = document.querySelector("#meme-2");
-  let meme3 = document.querySelector("#meme-3");
-  let meme4 = document.querySelector("#meme-4");
-  let buttonFire = document.querySelector("#fire");
-  let buttonWater = document.querySelector("#water");
-  let buttonEarth = document.querySelector("#earth");
+  const textInput = document.querySelector('#text-input');
+  const memeText = document.querySelector('#meme-text');
+  const memeInsert = document.querySelector('#meme-insert');
+  const memeImage = document.querySelector('#meme-image');
+  const memeImageContainer = document.querySelector('#meme-image-container');
+  const meme1 = document.querySelector('#meme-1');
+  const meme2 = document.querySelector('#meme-2');
+  const meme3 = document.querySelector('#meme-3');
+  const meme4 = document.querySelector('#meme-4');
+  const buttonFire = document.querySelector('#fire');
+  const buttonWater = document.querySelector('#water');
+  const buttonEarth = document.querySelector('#earth');
   function changeText() {
     memeText.innerText = `${textInput.value}`;
   }
   // https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded/27165977#27165977
-  function changeImage(event, fileImage) {
-    if (event.target.id === "meme-insert") {
+  function changeImage(event) {
+    if (event.target.id === 'meme-insert') {
       memeImage.src = URL.createObjectURL(memeInsert.files[0]);
     } else {
       memeImage.src = `${event.target.src}`;
@@ -31,23 +31,22 @@ window.onload = function () {
     };
   }
   function changeBorder(event) {
-    let element = event.target.id;
-    if (element === "fire") {
-      memeImageContainer.style.border = "3px dashed red";
-    } else if (element === "water") {
-      memeImageContainer.style.border = "5px double blue";
+    const element = event.target.id;
+    if (element === 'fire') {
+      memeImageContainer.style.border = '3px dashed red';
+    } else if (element === 'water') {
+      memeImageContainer.style.border = '5px double blue';
     } else {
-      memeImageContainer.style.border = "6px groove green";
+      memeImageContainer.style.border = '6px groove green';
     }
   }
-  textInput.addEventListener("input", changeText);
-  memeInsert.addEventListener("change", changeImage);
-  meme1.addEventListener("click", changeImage);
-  meme2.addEventListener("click", changeImage);
-  meme3.addEventListener("click", changeImage);
-  meme4.addEventListener("click", changeImage);
-  buttonFire.addEventListener("click", changeBorder); 
-  buttonWater.addEventListener("click", changeBorder);
-  buttonEarth.addEventListener("click", changeBorder);
-
+  textInput.addEventListener('input', changeText);
+  memeInsert.addEventListener('change', changeImage);
+  meme1.addEventListener('click', changeImage);
+  meme2.addEventListener('click', changeImage);
+  meme3.addEventListener('click', changeImage);
+  meme4.addEventListener('click', changeImage);
+  buttonFire.addEventListener('click', changeBorder);
+  buttonWater.addEventListener('click', changeBorder);
+  buttonEarth.addEventListener('click', changeBorder);
 };
