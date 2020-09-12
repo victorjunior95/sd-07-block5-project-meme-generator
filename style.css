@@ -9,28 +9,10 @@ body {
   background-color: rgb(95 , 75 , 102);
 }
 
-header {
-  background-color: rgb(167 , 173 , 198);
-  border-radius: 0 0 0 180%;
-  height: 80px;
-  margin-bottom: 40px;
-}
-
-.diferent-color {
-  color: rgb(135 , 151 , 175);
-  text-shadow: 0 0 3px rgb(0 , 0 , 0);
-}
-
-h1 {
-  text-align: right;
-  margin-right: 30px;
-  font-family: 'Grandstander', cursive;
-  color: rgb(86 , 102 , 122);
-  letter-spacing: 5px;
-  padding: 10px;
-}
+/* lado esquerdo */
 
 .total-container {
+  margin-top: 50px;
   float: left;
   width: 800px;
   background-color: white;
@@ -80,24 +62,25 @@ label {
   position: relative;
   width: 800px;
   height: 400px;
-  position: relative;
 }
 
 .contido {
   position: absolute;
-  box-sizing: border-box;
-  max-width: 100%;
-  max-height: 100%;
-  position: absolute;
+  width: 800px;
+  height: 400px;
 }
 
 .paragraph-style {
+  position: absolute;
   text-shadow: 5px 5px 5px rgb(0 , 0 , 0);
   color: rgb(255 , 255 , 255);
   font-size: 30px;
 }
 
+/* lado direito */
+
 .meme-right {
+  margin-top: 20px;
   float: right;
   margin-right: 40px;
   background-color: rgb(44 , 19 , 32);
