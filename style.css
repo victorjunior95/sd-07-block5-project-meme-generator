@@ -31,6 +31,10 @@ h1 {
 }
 
 .meme-text {
+    text-shadow: 5px 5px 5px;
+    font-size: 30px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: absolute;
     word-break: break-word;
     width: 88%;
