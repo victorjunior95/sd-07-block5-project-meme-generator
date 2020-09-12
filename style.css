@@ -50,3 +50,22 @@
   width: 167px;
   background-color: green;
 }
+
+.memeReady {
+  display: block;
+  width: 95px;
+  height: 95px;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid black;
+}
+
+aside {
+  display: inline-block;
+  position: right;
+}
+
+article {
+  display: inline-block;
+  position: left;
+}
