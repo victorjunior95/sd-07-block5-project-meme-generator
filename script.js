@@ -1,17 +1,13 @@
-function updateText(e) {
-    document.querySelector('#meme-image-container p').innerText = e.target.value;
+function updateText(text) {
+    document.querySelector('#meme-image-container p').innerText = text.target.value;
 }
   
 function updatePhoto(files) {
     let img = document.querySelector('#meme-image');
-    var objectURL = window.URL.createObjectURL(files[0]);
-    const img = document.querySelector('#meme-image');
-    const objectURL = window.URL.createObjectURL(files[0]);
+    let objectURL = window.URL.createObjectURL(files[0]);
     img.src = objectURL;
-    img.onload = function(e) {
     img.onload = function () {
       window.URL.revokeObjectURL(this.src);
-  }
   };
 } 
 
@@ -19,15 +15,3 @@ document.body.onload = function () {
   document.querySelector('#text-input').addEventListener('input', updateText);
   document.querySelector('#meme-insert').addEventListener('change', (e) => updatePhoto(e.target.files));
 };
-
-let position = 0;
-let message = "Create your meme and have fun"
-
-      function textAnimation() {
-        document.getElementById("animationText").innerHTML = message.substring(position,message,length);
-        position++;
-        if (position == message.length) {
-	  position = 0;
-        }
-        setTimeout("textAnimation()", 130); 
-      }

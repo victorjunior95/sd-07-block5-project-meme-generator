@@ -1,14 +1,21 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meme Generator</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="textAnimation()">
-	
-	<div id = "animationText"></div>
+<body>
+	<header>
+		<h1 id="header">Create memes and have fun</h1>
+		<h3>
+			Creativity is allowing yourself
+			to make mistakes.<br>
+			Art is knowing
+			which ones to keep.
+		</h3>
+	</header>
 	<!--Contrubuição dada por Carlos para esclarecer dúvidas a respeito das divs-->
 	<div class="wrapper">
 		<div class="input-block">
@@ -20,8 +27,7 @@
 				<input type="file" id="meme-insert" />
 		</div>
 		<div class="meme-container" id="meme-image-container">
-				<img id="meme-image" src="https://picsum.photos/500">
-				<img id="meme-image" src="https://picsum.photos/500/400">
+				<img id="meme-image" src="https://source.unsplash.com/random">
 				<p id="meme-text"></p>
 		</div>
 </div>   
