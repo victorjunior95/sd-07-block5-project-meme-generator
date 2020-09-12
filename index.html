@@ -27,14 +27,13 @@
         <input
           type='file'
           accept='image/*'
-          name='meme-image'
           id='meme-insert'
           onchange='loadFile(event)'
         />
       </div>
-      <div id='meme-image-container' class='container'>
-        <img id='output' class='meme-img' src="https://picsum.photos/400/400" />
-        <p id ='meme-text'></p>
+      <div id='meme-image-container' class='meme-image-container'>
+        <div id ='meme-text' class="meme-text"></div>
+        <img id='meme-image' class='meme-image' src="https://picsum.photos/400/400" />
       </div>
     </div>
     <script src='script.js'></script>

@@ -2,7 +2,7 @@ const output = document.querySelector('#meme-text');
 const input = document.querySelector('#text-input');
 
 function loadFile(event) {
-  let output = document.getElementById('output');
+  let output = document.getElementById('meme-image');
   output.src = URL.createObjectURL(event.target.files[0]);
   output.onload = () => {
     URL.revokeObjectURL(output.src);

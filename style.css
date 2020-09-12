@@ -54,30 +54,27 @@ body {
   width: 100%;
 }
 
-.container {
+.meme-image-container {
   background: white;
   border: 1px solid black;
   display: inline-block;
   height: 400px;
-  position: relative;
   text-align: center;
   width: 400px;
 }
 
-.meme-img {
-  height: 100%;
-  object-fit: contain;
-  width: 100%;
+.meme-image {
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
 }
 
-.container p {
-  bottom: 20px;
+.meme-text {
   color: white;
   font-family: Oswald, sans-serif;
   font-size: 30px;
   line-height: 35px;
-  margin: 2px;
-  max-height: 380px;
+  margin: 5px;
   padding: 0;
   position: absolute;
   text-align: left;
