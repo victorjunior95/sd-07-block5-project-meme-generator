@@ -9,6 +9,11 @@ window.onload = function() {
   let waterButton = document.getElementById('water')
   let earthButton = document.getElementById('earth')
 
+  let memeOne = document.getElementById("meme-1")
+  let memeTwo = document.getElementById("meme-2")
+  let memeThree = document.getElementById("meme-3")
+  let memeFour = document.getElementById("meme-4")
+
   fireButton.addEventListener('click', function() {
     memeImageContainer.style.border = '3px dashed red'
   })
@@ -32,4 +37,13 @@ window.onload = function() {
   })
 
 
+  memeOne.addEventListener('click', chooseMiniature)
+  memeTwo.addEventListener('click', chooseMiniature)
+  memeThree.addEventListener('click', chooseMiniature)
+  memeFour.addEventListener('click', chooseMiniature)
+
+
+  function chooseMiniature(event) {
+    memeImage.src = event.target.src
+  }
 }
