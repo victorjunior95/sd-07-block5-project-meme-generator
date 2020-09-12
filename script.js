@@ -12,20 +12,20 @@
  const tagButton3 = document.getElementById('earth');
 
  tagButton1.addEventListener('click', function(){
-   tagFigure.style.border = "3px dashed red";
+   tagFigure.style.border = "3px dashed rgb(255, 0, 0)";
    tagFigure.style.boxShadow = "4px 4px 4px black";
-   tagFigure.style.backgroundColor = "red";
+   tagFigure.style.backgroundColor = "rgb(255, 0, 0)";
  });
 
  tagButton2.addEventListener('click', function(){
-  tagFigure.style.border = "5px double blue";
+  tagFigure.style.border = "5px double rgb(0, 0, 255)";
   tagFigure.style.boxShadow = "4px 4px 4px black";
-  tagFigure.style.backgroundColor = "blue";
+  tagFigure.style.backgroundColor = "rgb(0, 0, 255)";
 });
 
 tagButton3.addEventListener('click', function(){
-  tagFigure.style.border = "6px groove green";
-  tagFigure.style.backgroundColor = "green";
+  tagFigure.style.border = "6px groove rgb(0, 128, 0)";
+  tagFigure.style.backgroundColor = "rgb(0, 128, 0)";
 });
 
 
