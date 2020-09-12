@@ -99,8 +99,8 @@ body {
   position: absolute;
   text-align: center;
   text-shadow: 5px 5px 5px black;
-  width: 460px;
   white-space: normal;
+  width: 460px;
   z-index: 1;
 }
 
