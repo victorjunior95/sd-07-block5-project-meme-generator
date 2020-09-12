@@ -1,14 +1,14 @@
 .div-center {
     text-align: center;
 }
-#meme-image-container {
-    width: 40%;
-    height: 30.5em;
-    position: relative;
-    left: 29.5%;
+.meme-image-container {
     background-color: rgb(255, 255, 255);
     border: 1px rgb(0, 0, 0) solid;
+    height: 30.5em;
+    left: 29.5%;
     margin-top: 2%;
+    position: relative;
+    width: 40%;
 }
 #meme-image {
     width: 100%;
