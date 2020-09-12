@@ -32,7 +32,7 @@
   margin: 30px;
   position: relative;
   width: 476px;
-  z-index: 0;
+
 }
 
 .meme-text {
@@ -45,7 +45,7 @@
   text-shadow: 5px 5px 5px black;
   top: 150px;
   width: 200px;
-  z-index: 1;
+  
 }
 
 .meme-image {
