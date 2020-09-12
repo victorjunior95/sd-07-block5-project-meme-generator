@@ -4,7 +4,7 @@
   -Arquivo é armazenado em meme-insert ;
 
 2- Evento chama função imgPreview.
-  -imgPreview cria (variável ou constant?) memeImg;
+  -imgPreview cria (variável ou constant?);
   -imgPreview puxa para variável memeImg a imagem contida em meme-insert;
   -imgPreview carrega imagem em meme-image;
 

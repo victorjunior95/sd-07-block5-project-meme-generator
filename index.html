@@ -44,7 +44,7 @@
     </h2>
 
     <!--User adds text-->
-    <input type="text" placeholder="Digite texto no máximo de 60 caracteres." id="text-input">
+    <input type="text" placeholder="Escreva uma legenda aqui!" id="text-input" maxlength="10">
 
     <!--Image preview / Container-->
     <section id="meme-image-container">
@@ -53,7 +53,7 @@
       <p id="meme-text">texto</p>
       
       <!--Image-->
-      <img id="meme-image" src="localStorage.setItem('imagem', '#meme-insert');">
+      <img id="meme-image" src="">
       
     </section>
 
@@ -63,7 +63,9 @@
   </form>
   <script>
 
-    let memeImg = localStorage.setItem('imagem', '#meme-insert');
+    let memeImg = document.querySelector("input[type='file']");
+    memeImg.addEventListener("change", console.log(input.file));
+
     //sessionStorage.getItem('#meme-insert)[0];
     //const fileInput = document.getElementById('#meme-insert');
 
