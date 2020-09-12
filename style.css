@@ -13,7 +13,7 @@ button {
   top: 389px;}
 input {
   background-color: whitesmoke;
-  color: rgb(98,0,128);
+  color: rgb(98, 0, 128);
   font-size: 16px;}
 label {
   color: blueviolet;
@@ -61,9 +61,9 @@ p {
   word-wrap: break-word;
   z-index: 3;}
 .text-input {
-    color: rgb(38,7,110);
-    font-size: 14px;
-    font-weight: bolder;
-    height: 30px;
-    text-align: left;
-    width: 410px;}
+  color: rgb(38, 7, 110);
+  font-size: 14px;
+  font-weight: bolder;
+  height: 30px;
+  text-align: left;
+  width: 410px;}
