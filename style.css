@@ -52,10 +52,11 @@ a:hover {
   background-color: white;
   border: 1px solid black;
   color: white;
+  height: 500px;
   left: 600px;
   margin-top: 150px;
   position: relative;
-  width: 700px;
+  width: 500px;
 }
 
 #meme-image-container p {
@@ -65,19 +66,14 @@ a:hover {
   text-align: center;
 }
 
-#meme-image-container input {
-  text-align: center;
-}
-
 #meme-image {
   margin: 0;
-  max-width: 700px;
+  max-width: 500px;
 }
 
 #meme-image img {
-  max-width: 700px;
-  width: 700px;
-  color: black;
+  height: 100%;
+  width: 100%;
 }
 
 #rodape {
@@ -105,4 +101,9 @@ a:hover {
 
 #readme a {
   padding: 5px;
+}
+
+.div-input {
+  top: 500px;
+  position: relative;
 }

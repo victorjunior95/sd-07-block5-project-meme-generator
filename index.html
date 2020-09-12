@@ -1,66 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arthur Nunes - sd-07 - Meme Generator</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Arthur Nunes - sd-07 - Meme Generator</title>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <header id="header">
+      <h1>MEME GENERATOR</h1>
+    </header>
 
-<body>
-  <header id="header">
-    <h1>MEME GENERATOR</h1>
-  </header>
+    <main>
+      <div>
+        <p>Digite seu texto aqui:</p>
+        <input type="text" maxlength="60" id="text-input" />
+        <br />
+        <p>Insira sua imagem aqui:</p>
+        <input
+          type="file"
+          accept="image/*"
+          onchange="carregarImagem(event)"
+          name="meme-insert"
+          id="meme-insert"
+        />
+      </div>
+      <div id="meme-image-container">
+        <p id="meme-text"></p>
+        <img
+          id="meme-image"
+          src=""
+          alt=" Meme gerado com imagem enviada pelo usuário"
+        />
+      </div>
+    </main>
 
-  <main>
-    <div id="meme-image-container">
-      <p>Digite seu texto aqui:</p>
-      <input type="text" maxlength="60" id="text-input">
-      <br>
-      <p>Insira sua imagem aqui:</p>
-      <input type="file" accept="image/*" onchange="carregarImagem(event)" name="meme-insert" id="meme-insert">
-      <p id="meme-text"></p>
-      <figure>
-        <img id="meme-image" src="" alt=" Meme gerado com imagem enviada pelo usuário">
-      </figure>
-    </div>
-  </main>
+    <footer id="rodape">
+      <nav>
+        <ul>
+          <li>
+            <a
+              class="social-links"
+              href="http://www.instagram.com/otaldonunes"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram</a
+            >
+          </li>
+          <li>
+            <a
+              class="social-links"
+              href="http://www.github.com/otaldonunes"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a
+              class="social-links"
+              href="https://www.linkedin.com/in/otaldonunes/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <aside>
+        <h3>Informações:</h3>
+        <p id="readme">
+          Site criado por mim, Arthur Nunes em Agosto de 2020, durante a
+          execução do primeiro projeto de HTML/CSS + JavaScript na Trybe<br />E
+          você, já conhece a
+          <a
+            href="http://www.betrybe.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Trybe? Clique para saber mais!</a
+          >
+          <strong>(P.s.: Vale a pena)</strong>
+        </p>
+      </aside>
+    </footer>
 
-  <footer id="rodape">
-    <nav>
-      <ul>
-        <li>
-          <a class="social-links" href="http://www.instagram.com/otaldonunes" target="_blank"
-            rel="noopener noreferrer">Instagram</a>
-        </li>
-        <li>
-          <a class="social-links" href="http://www.github.com/otaldonunes" target="_blank"
-            rel="noopener noreferrer">GitHub</a>
-        </li>
-        <li>
-          <a class="social-links" href="https://www.linkedin.com/in/otaldonunes/" target="_blank"
-            rel="noopener noreferrer">LinkedIn</a>
-        </li>
-      </ul>
-    </nav>
-    <aside>
-      <h3>Informações:</h3>
-      <p id="readme">
-        Site criado por mim, Arthur Nunes em Agosto de 2020, durante a
-        execução do primeiro projeto de HTML/CSS + JavaScript na Trybe<br />E você, já
-        conhece a
-        <a href="http://www.betrybe.com" target="_blank" rel="noopener noreferrer">Trybe? Clique para saber
-          mais!</a>
-        <strong>(P.s.: Vale a pena)</strong>
-      </p>
-    </aside>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>

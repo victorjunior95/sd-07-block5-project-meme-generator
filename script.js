@@ -5,10 +5,10 @@ textInput.addEventListener('input', function () {
   memeText.innerText = textInput.value;
 });
 
-let carregarImagem = function (event) {
-  let leitor = new FileReader();
+const carregarImagem = function (event) {
+  const leitor = new FileReader();
   leitor.onload = function () {
-    let saida = document.getElementById('meme-image');
+    const saida = document.getElementById('meme-image');
     saida.src = leitor.result;
   };
   leitor.readAsDataURL(event.target.files[0]);
