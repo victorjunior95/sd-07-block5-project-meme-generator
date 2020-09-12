@@ -1,8 +1,8 @@
 
 
 #text-input{
-    size: 20;
-    margin: 20px ;
+    size: 20px;
+    margin: 20px;
 }
 
 
@@ -12,31 +12,22 @@
   height: 500px;
   background-color: white;
   border: 1px solid rgb(0, 0, 0);
-  overflow: hidden;
-  margin: 20px ;
-  z-index: 1;
-
 }
 
 
-#lugarImagem{
-    overflow: hidden;
+#meme-image{
     width: 500px;
     height: auto;
     color: white;
-    z-index: 2;
 }
 
 #meme-text{
     color: white;
     text-shadow: 5px 5px 5px black;
-    font-size: 30px; 
-    font-family: Impact;
-    font-weight: bold;
+    font-size: 30px;
+    width: 500px;
+    height: 500px;
     position: absolute;
-    text-align: center;
-    bottom: 30px;
-    z-index: 3;
 }
 
 

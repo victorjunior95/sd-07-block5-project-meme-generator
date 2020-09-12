@@ -10,7 +10,7 @@ inputText.addEventListener('keyup',textonaCaixa);
 
 
 let memeInsert = document.getElementById('meme-insert');
-let lugarImagem = document.getElementById('lugarImagem');
+let lugarImagem = document.getElementById('meme-image');
 
 function colocarImagem(){
     lugarImagem.src = memeInsert.value;
