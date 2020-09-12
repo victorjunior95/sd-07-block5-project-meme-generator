@@ -14,17 +14,18 @@
       <p>Texto: <input type="text" id="text-input" maxlength="60" /></p>
       <p>
         Foto:
-        <input type="file" accept="image/*" onchange="loadFile(event)" /> <br />
+        <input
+          type="file"
+          accept="image/*"
+          onchange="loadFile(event)"
+          id="meme-insert"
+        />
+        <br />
       </p>
     </section>
     <section id="meme-image-container" class="container">
       <img id="meme-image" />
-      <div id="meme-text">
-        <!-- elemento com o texto do container -->
-      </div>
-      <div id="meme-insert">
-        <!-- elemento da imagem do container -->
-      </div>
+      <div id="meme-text"></div>
     </section>
     <script type="text/javascript" src="script.js"></script>
   </body>
