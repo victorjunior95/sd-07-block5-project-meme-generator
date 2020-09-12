@@ -1,8 +1,12 @@
+body {
+  margin: 20px 20px;
+}
+
 #meme-image-container {
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(0, 0, 0);
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
 }
 
 #meme-text{
@@ -11,9 +15,11 @@
   color: rgb(255, 255, 255);
   text-shadow: 5px 5px 5px rgb(0, 0, 0);
   position: absolute;
+  bottom: 0;
+  margin-left: 10px;
 }
 
 #meme-image {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
 }

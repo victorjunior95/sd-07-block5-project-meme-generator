@@ -3,7 +3,6 @@ textInput.addEventListener("keyup", function() {
   console.log(document.getElementById("meme-text").innerText = textInput.value);
 });
 
-
 let insertImage = document.getElementById("meme-insert");
 let memeImage = document.getElementById("meme-image");
 insertImage.addEventListener("change", function() {
@@ -12,5 +11,3 @@ insertImage.addEventListener("change", function() {
     URL.revokeObjectURL(memeImage.src);
   }
 });
-console.log(memeImage);  
-
