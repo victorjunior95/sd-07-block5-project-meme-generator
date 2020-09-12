@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Meme generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+
+    <label
+      >Text:
+      <input type="text" id="text-input" size="2" maxlength="60" />
+    </label>
+    <br /><br />
+
+    <label
+    >Photo:
+    <input type="file" id="meme-insert" size="2" accept="image/*" onchange="loadFile(event)">
+    </label>
+    <br /><br />
+
+    <div id="meme-image-container">
+        <p id="meme-text"></p>
+        <img id="meme-image">
+        </img>
+    </div>
+
+    <div id="elements">
+        <label
+        >Change style:<br><br>
+        <button id="fire"><strong>FIRE</strong></button>
+        <button id="water"><strong>WATER</strong></button>
+        <button id="earth"><strong>EARTH</strong></button>
+        </label>
+    </div>
+
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
