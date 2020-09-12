@@ -5,12 +5,11 @@ input.addEventListener('keyup', function () {
   showInput.innerText = input;
 });
 
-const loadImage = function (event) {
-  const output = document.getElementById('meme-insert');
+const output = document.getElementById('meme-insert');
+output.addEventListener('change', function (event) {
   const showImage = document.getElementById('meme-image');
-  showImage.innerHTML = output;
   showImage.src = URL.createObjectURL(event.target.files[0]);
   showImage.onload = function () {
     URL.revokeObjectURL(showImage.src);
   };
-};
+});
