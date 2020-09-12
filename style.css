@@ -1,12 +1,9 @@
-
-body {
-  background-image: url('imgs/bgimage.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  font-size: 14pt;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
+.buttons {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: left;
+  width: 460px;
 }
 
 .buttons button {
@@ -18,12 +15,14 @@ body {
   padding: 10px;
 }
 
-.buttons {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  text-align: left;
-  width: 460px;
+body {
+  background-image: url('imgs/bgimage.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 14pt;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .container-meme {
@@ -88,15 +87,15 @@ body {
 }
 
 .img:hover {
-  box-shadow: 0 0 10px rgb(17, 202, 248);
+  box-shadow: 0 0 10px rgb(17 , 202 , 248);
 }
 
 .me-text {
   bottom: 340px;
-  color:white;
+  color: white;
   font-size: 30px;
   font-weight: 400;
-  font-family: 'Ranchers', cursive;
+  font-family: Ranchers, cursive;
   position: absolute;
   text-shadow: 5px 5px 5px black;
   text-align: center;
@@ -106,7 +105,7 @@ body {
 }
 
 .meme {
-  font-family: 'Anton', sans-serif;
+  font-family: Anton, sans-serif;
 }
 
 .preMeme {
@@ -118,7 +117,7 @@ body {
 }
 
 .title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: Ubuntu, sans-serif;
 }
 
 .water {
