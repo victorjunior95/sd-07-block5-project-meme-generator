@@ -17,14 +17,15 @@ h1{
     display: inline-block;
 }
 #meme-image{
+    width:350px;
+    height:400px;
     background: white;
 }
 
-#meme-image-container #meme-text{
+ #meme-text{
     font-size: 30px;
     color: white;
     text-shadow: 5px 5px 5px black;
-    text-align: end;
     position: absolute;
 }
 
