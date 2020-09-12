@@ -1,6 +1,6 @@
 const textInput = document.getElementById('text-input');
 textInput.addEventListener('keyup', function () {
-  (document.getElementById('meme-text').innerText = textInput.value);
+  document.getElementById('meme-text').innerText = textInput.value;
 });
 
 const insertImage = document.getElementById('meme-insert');
@@ -26,4 +26,23 @@ effectButtonWater.addEventListener('click', function () {
 const effectButtonEarth = document.getElementById('earth');
 effectButtonEarth.addEventListener('click', function () {
   imgContainer.style.border = '6px groove green';
+});
+
+const insertImgList1 = document.getElementById('meme-1');
+insertImgList1.addEventListener('click', function () {
+  memeImage.src = insertImgList1.src;
+});
+
+const insertImgList2 = document.getElementById('meme-2');
+insertImgList2.addEventListener('click', function () {
+  memeImage.src = insertImgList2.src;
+});
+const insertImgList3 = document.getElementById('meme-3');
+insertImgList3.addEventListener('click', function () {
+  memeImage.src = insertImgList3.src;
+});
+
+const insertImgList4 = document.getElementById('meme-4');
+insertImgList4.addEventListener('click', function () {
+  memeImage.src = insertImgList4.src;
 });
