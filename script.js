@@ -6,12 +6,10 @@ window.onload = function () {
     const textMeme = document.querySelector('#meme-text');
     textMeme.innerText = textInput;
   });
-  const memeInsertBox = document.querySelector('#meme-image-container');
   const memeImage = document.querySelector('#meme-image');
   const memeInput = document.querySelector('#meme-insert');
-  memeInput.addEventListener('change', upLoadImg);
-
   function upLoadImg(event) {
     memeImage.src = URL.createObjectURL(event.target.files[0]);
   };
+  memeInput.addEventListener('change', upLoadImg);
 };
