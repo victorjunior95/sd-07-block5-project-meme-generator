@@ -1,22 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header><h1>
-    MEME GENERATION
-</h1></header>
-<section>
-    <input type="text" name="meme" id="text-input" maxlength="60" ><br>
-    <input type="file" name="imgMeme" id="meme-insert">
-    <section id="meme-image-container">
-        <div id="meme-text"></div>
+    <header>
+        <h1>
+            MEME GENERATION
+        </h1>
+    </header>
+    <section>
+        <div>
+            <p>Digite Seu Meme Aqui</p>
+            <input type="text" name="meme" id="text-input" maxlength="60" placeholder="Your Meme Here">
+        </div>
+        <div>
+            <p>Coloque sua imagen que sua imagen</p>
+            <input type="file" accept="image/*" name="insertimage" id="meme-insert">
+            
+        </div>
     </section>
-</section>
-<script src="script.js"></script>
+    <section>
+        <div class="meme-image-container" id="meme-image-container">
+            <div id="meme-image">
+                <img class="image" id="image">
+                <div class="meme-text" id="meme-text"></div> 
+            </div>
+             
+                 </div>
+    </section>
+    <script src="script.js"></script>
 </body>
-</html>
+
+</html>     
+             
+            
+   
