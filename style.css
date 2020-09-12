@@ -139,7 +139,13 @@ main {
   width: 800px;
 }
 
-.screen {
+.title {
+  display: inline-block;
+  line-height: 70px;
+  margin: 0 10px;
+}
+
+.image-container {
   border-color: rgb(229 , 229 , 229);
   border-style: solid;
   border-width: 3px;
@@ -148,8 +154,20 @@ main {
   width: 650px;
 }
 
-.title {
-  display: inline-block;
-  line-height: 70px;
-  margin: 0 10px;
+.background-image {
+  height: 100%;
+}
+
+.background-image img {
+  height: 100%;
+}
+
+.meme-text {
+  color: rgb(77 , 137 , 235);
+  font-size: 30px;
+  margin: 10px;
+  max-width: 100%;
+  position: relative;
+  top: -380px;
+  word-wrap: break-word;
 }
