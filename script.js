@@ -9,6 +9,8 @@ window.onload=function(){
     let memeDois=document.getElementById('meme-2');
     let memeTres=document.getElementById('meme-3');
     let memequatro=document.getElementById('meme-4');
+    let caixaTexto=document.getElementById('text-input')
+    let textoMeme=document.getElementById('meme-text');
             
     botaoUm.addEventListener('click', function(){
         conteinerImagem.style.borderColor='blue';
@@ -42,5 +44,9 @@ window.onload=function(){
 
     memequatro.addEventListener('click',function(){
         espacoMeme.src='./images/meme-gato.jpeg';
+    })    
+
+    caixaTexto.addEventListener('keyup', function(){
+        textoMeme.innerText=caixaTexto.value;        
     })
 }
