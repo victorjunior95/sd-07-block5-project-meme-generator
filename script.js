@@ -14,7 +14,7 @@ let bmeme4 = document.getElementById("meme-4");
 input.addEventListener('change', function() {
 	
     img.src =  URL.createObjectURL(input.files[0]);
-    //document.getElementById("meme-image-container").className = "imagevisible";
+    document.getElementById("meme-image-container").className = "imagevisible";
     
 })
 
