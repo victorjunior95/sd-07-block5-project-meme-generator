@@ -12,15 +12,10 @@
  });
 
  chooseImage.addEventListener('change', function () {
-  tagTextMeme.innerText = '';
-   for (let i = 0; i < this.files.length; i++) { // pesquisar de onde saiu esse files
 
+   for (let i = 0; i < this.files.length; i++) { // pesquisar de onde saiu esse files
      tagImg.src = URL.createObjectURL(this.files[i]);
 
      tagFigure.appendChild(tagImg);
-
-     tagTextMeme.innerText = tagText.value;
-
-     tagFigure.appendChild(tagTextMeme);
    }
  });
