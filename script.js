@@ -6,10 +6,7 @@ window.onload = function () {
   let buttonFire = document.getElementById('fire');
   let buttonWater = document.getElementById('water');
   let buttonEarth = document.getElementById('earth');
-  const buttonMeme1 = document.getElementById('meme-1');
-  const buttonMeme2 = document.getElementById('meme-2');
-  const buttonMeme3 = document.getElementById('meme-3');
-  const buttonMeme4 = document.getElementById('meme-4');
+
   textMemeIn.addEventListener('keyup', function () { textMemeOut.innerText = textMemeIn.value; });
   chooseImage.addEventListener('change', function (event) {
     containerImage.src = URL.createObjectURL(event.target.files[0]);
@@ -23,8 +20,7 @@ window.onload = function () {
   buttonEarth.addEventListener('click', function () { 
     buttonEarth = document.getElementById('meme-image-container');
     buttonEarth.style.border = '6px groove green'; });
-  buttonMeme1.addEventListener('click', function () { containerImage.src = buttonMeme1.src; });
-  buttonMeme2.addEventListener('click', function () { containerImage.src = buttonMeme2.src; });
-  buttonMeme3.addEventListener('click', function () { containerImage.src = buttonMeme3.src; });
-  buttonMeme4.addEventListener('click', function () { containerImage.src = buttonMeme4.src; });
+  
+    const buttons = document.querySelectorAll('.memes');
+  for (let i = 0; i < buttons.length; i += 1) { buttons[i].addEventListener('click', function () { containerImage.src = buttons[i].src; }); }
 };
