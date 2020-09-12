@@ -1,20 +1,5 @@
-.border-default {
+.container {
   border: 1px solid black;
-}
-
-.fire {
-  border: 3px dashed red;
-}
-
-.water {
-  border:5px double blue;
-}
-
-.earth {
-  border:6px groove green;
-}
-
-.meme-image-container {
   position: relative;
   background-color: white;
   width: 500px;
@@ -46,17 +31,17 @@
   margin: 2em;
 }
 
-.fire {
+.button-fire {
   background-color: red;
   color: white;
 }
 
-.water {
+.button-water {
   background-color: blue;
   color: white;
 }
 
-.earth {
+.button-earth {
   background-color: green;
   color: white;
 }

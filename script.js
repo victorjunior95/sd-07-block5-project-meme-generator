@@ -50,17 +50,17 @@ let divMeme = document.querySelector('#meme-image-container');
 //  Implementando a função do botão fire
 let fire = document.querySelector('#fire');
 fire.addEventListener('click', function(){
-  divMeme.className = "fire";
+  divMeme.style.border = "3px dashed red";
 })
 
 //  Implementando a função do botão water
 let water = document.querySelector('#water');
 water.addEventListener('click', function(){
-  divMeme.className = "water";
+  divMeme.style.border = "5px double blue";
 })
 
 //  IMplementando a função do botão Earth
 let earth = document.querySelector('#earth');
 earth.addEventListener('click', function(){
-  divMeme.className = "earth";
+  divMeme.style.border = "6px groove green";
 })
