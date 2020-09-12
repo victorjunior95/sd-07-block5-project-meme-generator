@@ -1,9 +1,20 @@
 .body {
-  background-image: linear-gradient(to top , rgba(72 , 67 , 73 , 0.247), white);
+  background-image: url('https://images.unsplash.com/photo-1558244661-d248897f7bc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 1366px 768px;
+
+}
+
+.main {
+  background-color: rgba(255, 255, 255, 0.836);
+  border-radius: 10px;
   color: rgb(72 , 67 , 73);
   font-family: Tahoma, sans-serif;
   font-size: 1em;
+  margin: auto;
   padding: 20px;
+  width: 80%;
 }
 
 .main-title {
@@ -21,14 +32,20 @@
   border-radius: 10px;
   bottom: 27px;
   display: inline-block;
+  margin-left: 30px;
   padding: 5px 20px;
   position: relative;
-  width: 30%;
+  width: 35%;
+}
+
+.label-container {
+  background-color: rgb(106 , 109 , 146);
+  color: white;
+  padding: 10px 20px;
 }
 
 .labels {
   display: inline-block;
-  margin: 30px;
 }
 
 .text-input-box {
@@ -43,6 +60,7 @@
 
 .left {
   display: inline-block;
+  margin: 10px;
   width: 45%;
 }
 
@@ -74,8 +92,7 @@
 .right {
   display: inline-block;
   height: 249px;
-  margin: 5px;
-  padding: 10px;
+  padding: 10px 40px;
   position: absolute;
   width: 30%;
 }
