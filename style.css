@@ -20,6 +20,7 @@
     width: inherit;
     height: inherit;
     margin: 0px;
+    word-wrap: break-word;
 }
 
 /* class que vai deixar o container e a imagem do mesmo tamanho */
