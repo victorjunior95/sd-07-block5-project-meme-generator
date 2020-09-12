@@ -6,10 +6,4 @@ input.addEventListener("keyup", function () {
 });
 
 
-let carregarImg = function (event) {
-  let memeImg = document.querySelector("#meme-image");
-  memeImg.src = URL.createObjectURL(event.target.files[0]);
-  memeImg.onload = function () {
-    URL.revokeObjectURL(memeImg.src);
-  }
-}
+
