@@ -7,7 +7,7 @@
  const tagImg = document.getElementById('meme-image');
  const tagTextMeme = document.getElementById('meme-text');
 
- tagText.addEventListener('change', function(){
+ tagText.addEventListener('keyup', function(){
   tagTextMeme.innerText = tagText.value;
  });
 
