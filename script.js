@@ -2,7 +2,7 @@
 const textBox = document.querySelector('#text-input');
 const textPresentation = document.querySelector('#meme-text');
 function showOnImg() {
-    textPresentation.innerHTML = textBox.value;
+  textPresentation.innerHTML = textBox.value;
 }
 
 textBox.addEventListener('input', showOnImg);
@@ -11,7 +11,7 @@ textBox.addEventListener('input', showOnImg);
 const source = document.querySelector('#meme-insert');
 const image = document.querySelector('#meme-image');
 function showTheImg(event) {
-    image.src = URL.createObjectURL(event.target.files[0]);
+  image.src = URL.createObjectURL(event.target.files[0]);
 }
 
 source.addEventListener('change', showTheImg);
@@ -22,16 +22,16 @@ const butWater = document.querySelector('#water');
 const butEarth = document.querySelector('#earth');
 const container = document.querySelector('#meme-image-container');
 
-butFire.addEventListener('click',function() {
-    container.style.border = '3px dashed red';
+butFire.addEventListener('click', function () {
+  container.style.border = '3px dashed red';
 });
 
-butWater.addEventListener('click',function() {
-    container.style.border = '5px double blue';
+butWater.addEventListener('click', function () {
+  container.style.border = '5px double blue';
 });
 
-butEarth.addEventListener('click',function() {
-    container.style.border = '6px groove green';
+butEarth.addEventListener('click', function () {
+  container.style.border = '6px groove green';
 });
 
 
@@ -42,25 +42,22 @@ const meme3 = document.querySelector('#meme-3');
 const meme4 = document.querySelector('#meme-4');
 const meme5 = document.querySelector('#meme-5');
 
-meme1.addEventListener('click', function() {
-    image.src = meme1.src
+meme1.addEventListener('click', function () {
+    image.src = meme1.src;
 });
 
-meme2.addEventListener('click', function() {
-    image.src = meme2.src
+meme2.addEventListener('click', function () {
+    image.src = meme2.src;
 });
 
-meme3.addEventListener('click', function() {
-    image.src = meme3.src
+meme3.addEventListener('click', function () {
+    image.src = meme3.src;
 });
 
-meme4.addEventListener('click', function() {
-    image.src = meme4.src
+meme4.addEventListener('click', function () {
+    image.src = meme4.src;
 });
 
-meme5.addEventListener('click', function() {
-    image.src = meme5.src
+meme5.addEventListener('click', function () {
+    image.src = meme5.src;
 });
-
-
-
