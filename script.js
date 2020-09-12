@@ -14,8 +14,21 @@
  tagButton1.addEventListener('click', function(){
    tagFigure.style.border = "3px dashed red";
    tagFigure.style.boxShadow = "4px 4px 4px black";
-   tagImg.style.backgroundColor = "red";
+   tagFigure.style.backgroundColor = "red";
  });
+
+ tagButton2.addEventListener('click', function(){
+  tagFigure.style.border = "5px double blue";
+  tagFigure.style.boxShadow = "4px 4px 4px black";
+  tagFigure.style.backgroundColor = "blue";
+});
+
+tagButton3.addEventListener('click', function(){
+  tagFigure.style.border = "5px double blue";
+  tagFigure.style.boxShadow = "4px 4px 4px black";
+  tagFigure.style.backgroundColor = "blue";
+});
+
 
  tagText.addEventListener('keyup', function(){
   tagTextMeme.innerText = tagText.value;
