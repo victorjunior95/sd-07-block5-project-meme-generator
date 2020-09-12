@@ -24,9 +24,8 @@
 });
 
 tagButton3.addEventListener('click', function(){
-  tagFigure.style.border = "5px double blue";
-  tagFigure.style.boxShadow = "4px 4px 4px black";
-  tagFigure.style.backgroundColor = "blue";
+  tagFigure.style.border = "6px groove green";
+  tagFigure.style.backgroundColor = "green";
 });
 
 
