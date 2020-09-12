@@ -13,10 +13,10 @@ window.onload=function(){
     let textoMeme=document.getElementById('meme-text');
     let botaoCarregar=document.getElementById('meme-insert');
 
-    memeUm.src='./imgs/meme-cachorro.jpg';
-    memeDois.src='./imgs/meme-carro.jpg';
-    memeTres.src='./imgs/meme-crianca.jpg';
-    memequatro.src='./imgs/meme-gato.jpeg'
+    memeUm.src='./imgs/meme1.png';
+    memeDois.src='./imgs/meme2.png';
+    memeTres.src='./imgs/meme3.png';
+    memequatro.src='./imgs/meme4.png'
             
     botaoUm.addEventListener('click', function(){
         conteinerImagem.style.borderColor='blue';
@@ -37,19 +37,19 @@ window.onload=function(){
     })
 
     memeUm.addEventListener('click',function(){
-        espacoMeme.src='./imgs/meme-cachorro.jpg';
+        espacoMeme.src='./imgs/meme1.png';
     })
 
     memeDois.addEventListener('click',function(){
-        espacoMeme.src='./imgs/meme-carro.jpg';        
+        espacoMeme.src='./imgs/meme2.png';        
     })
 
     memeTres.addEventListener('click',function(){
-        espacoMeme.src='./imgs/meme-crianca.jpg';        
+        espacoMeme.src='./imgs/meme3.png';
     })
 
     memequatro.addEventListener('click',function(){
-        espacoMeme.src='./imgs/meme-gato.jpeg';
+        espacoMeme.src='./imgs/meme4.png';
     })    
 
     caixaTexto.addEventListener('keyup', function(){
