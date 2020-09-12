@@ -22,38 +22,29 @@ body {
   padding-top: 15px;
 }
 
-.div-input-text {
-  text-align: left;
-  margin-left: 5px;
-  margin-top: 20px;
+.meme-container {
+  background-color: rgb(255 , 255 , 255);
+  border: 1px solid rgb(0 , 0 , 0);
+  height: 500px;
+  margin-top: 50px;
+  position: relative;
+  width: 500px;
 }
 
-.meme-container {
-  color: rgb(210 , 210 , 210);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.meme-text {
+  bottom: 0;
+  color: rgb(255 , 255 , 255);
+  font-family: Teko, sans-serif;
   font-size: 30px;
-  height: 500px;
-  left: 5px;
+  height: 200px;
+  left: 50px;
   position: absolute;
   text-align: center;
-  text-shadow: 5px 5px 5px black;
-  margin-top: 20px;
-  width: 500px;
+  text-shadow: 5px 5px 5px rgb(0 , 0 , 0);
+  width: 400px;
 }
 
-.meme-container img {
+.meme-image {
   height: 500px;
   width: 500px;
-}
-
-.meme-container p {
-  bottom: 60px;
-  color: rgb(220 , 220 , 220);
-  font-size: 40px;
-  font-weight: 700;
-  left: 50px;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  text-shadow: 5px 5px 5px rgb(0 , 0  , 0);
 }
