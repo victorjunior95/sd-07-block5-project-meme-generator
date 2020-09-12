@@ -96,9 +96,9 @@ body {
   font-family: Ranchers, cursive;
   font-size: 30px;
   font-weight: 400;
+  position: absolute;
   text-align: center;
   text-shadow: 5px 5px 5px black;
-  position: absolute;
   width: 460px;
   white-space: normal;
   z-index: 1;
