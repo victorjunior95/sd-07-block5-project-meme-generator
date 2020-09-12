@@ -1,7 +1,7 @@
 window.onload = function() {
     const memeInsert = document.getElementById("meme-insert");
     const txtInput = document.getElementById("text-input");
-    const memeImage = document.querySelector("#meme-image");
+    const memeImage = document.querySelector("#meme-image-container");
     let memeText = document.getElementById("meme-text");
     const image = document.createElement("img");
     // configurações de estilos
@@ -21,10 +21,13 @@ window.onload = function() {
    
     memeInsert.addEventListener("change", function (){
         let patchImg = memeInsert.value;    
-        let onlyImg = patchImg.slice(12)
+        let onlyImg = patchImg.slice(12);
+        memeImage.style.backgroundImage='url('+onlyImg+')';
+        memeImage.style.backgroundSize='cover';
+        
 
-        image.setAttribute("src",onlyImg);
-        memeImage.appendChild(image);
+        //image.setAttribute("src",onlyImg);
+        //memeImage.appendChild(image);
         console.log(memeImage);
     });
 
