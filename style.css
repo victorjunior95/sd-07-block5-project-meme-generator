@@ -9,18 +9,18 @@
 .buttons button {
   border: none;
   color: white;
-  font-weight: 400;
   font-size: 25px;
+  font-weight: 400;
   margin-top: 20px;
   padding: 10px;
 }
 
 body {
   background-image: url('imgs/bgimage.jpg');
-  background-repeat: no-repeat;
   background-position: center;
-  font-size: 14pt;
+  background-repeat: no-repeat;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
   margin: 0;
   padding: 0;
 }
@@ -51,9 +51,9 @@ body {
 
 .formGeneraitor {
   font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
   text-align: left;
   width: 460px;
 }
@@ -93,12 +93,12 @@ body {
 .me-text {
   bottom: 340px;
   color: white;
+  font-family: Ranchers, cursive;
   font-size: 30px;
   font-weight: 400;
-  font-family: Ranchers, cursive;
-  position: absolute;
-  text-shadow: 5px 5px 5px black;
   text-align: center;
+  text-shadow: 5px 5px 5px black;
+  position: absolute;
   width: 460px;
   white-space: normal;
   z-index: 1;
