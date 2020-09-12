@@ -8,6 +8,7 @@ const imgTip01 = document.querySelector('#meme-1 > img');
 const imgTip02 = document.querySelector('#meme-2 > img');
 const imgTip03 = document.querySelector('#meme-3 > img');
 const imgTip04 = document.querySelector('#meme-4 > img');
+const uploadImage = document.getElementById('upload');
 const memeImageContainer = document.getElementById('meme-image-container');
 textInput.addEventListener('keyup', function() {
   memeText.innerHTML = textInput.value;
@@ -32,4 +33,8 @@ imgTip03.addEventListener('click', function () {
 });
 imgTip04.addEventListener('click', function () {
   memeImages.src=imgTip04.src;
+});
+uploadImage.addEventListener('change', function (event) {
+    memeImages.src = URL.createObjectURL(event.target.files[0]);
+    memeImages.onload = () => URL.revokeObjectURL(memeImages.src);
 });
