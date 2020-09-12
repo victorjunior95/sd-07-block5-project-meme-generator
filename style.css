@@ -2,6 +2,14 @@ body {
     text-align: center;
 }
 
+button {
+    font-weight: bolder;
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+}
+
 fieldset {
     margin-left: 200px;
     margin-right: 200px;    
@@ -10,10 +18,6 @@ fieldset {
 legend {
     font-size: 20px;
     font-weight: bold;
-}
-
-.line-space {
-    line-height: 40px;
 }
 
 .anotacao {
@@ -29,6 +33,30 @@ legend {
     margin: auto;    
 }
 
+.earth {    
+    background-color: green;
+    border-color: green;
+}
+
+.fire {    
+    background-color: red;
+    border-color: red;
+}
+
+.line-space {
+    line-height: 40px;
+}
+
+.meme {
+    width: 120px;
+    border: 2px solid black;
+}
+
+.meme-img {
+    width: 100%;    
+    height: 100%;    
+}
+
 .meme-txt {
     color: white;
     font-family: Impact, sans-serif;
@@ -42,35 +70,7 @@ legend {
     top: 0;    
 }
 
-.meme-img {
-    width: 100%;    
-    height: 100%;    
-}
-
-button {
-    font-weight: bolder;
-    color: white;
-    width: 150px;
-    height: 30px;
-    margin: 10px;
-}
-
-.fire {    
-    background-color: red;
-    border-color: red;
-}
-
 .water {    
     background-color: blue;
     border-color: blue;
-}
-
-.earth {    
-    background-color: green;
-    border-color: green;
-}
-
-.meme {
-    width: 120px;
-    border: 2px solid black;
 }
