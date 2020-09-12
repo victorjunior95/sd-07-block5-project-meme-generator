@@ -1,15 +1,15 @@
-const textInput = document.querySelector('#text-input');
-const buttons = document.querySelectorAll('button');
-const imageClick = document.querySelector('#pre-memes').querySelectorAll('img');
-const output = document.querySelector('#meme-image');
+let textInput = document.querySelector('#text-input');
+let buttons = document.querySelectorAll('button');
+let imageClick = document.querySelector('.pre-memes').querySelectorAll('img');
+let output = document.querySelector('#meme-image');
 
 textInput.addEventListener('keyup', () => {
-  const newOutput = document.querySelector('#meme-text');
+  let newOutput = document.querySelector('#meme-text');
 
   newOutput.innerText = textInput.value;
 });
 
-function loadFile(event) {
+function loadFile(e) {
   output.src = URL.createObjectURL(e.target.files[0]);
   output.onload = () => {
     URL.revokeObjectURL(output.src);
@@ -17,7 +17,7 @@ function loadFile(event) {
 }
 
 for (let i = 0; i < buttons.length; i += 1) {
-  const imgBorder = document.querySelector('#meme-image-container');
+  let imgBorder = document.querySelector('.container');
 
   buttons[i].addEventListener('click', () => {
     if (i === 0) {

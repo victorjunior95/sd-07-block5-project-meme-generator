@@ -2,9 +2,13 @@ p {
   font-family: Arial, sans-serif;
 }
 
+span {
+  font-family: Arial, sans-serif;
+}
+
 .container {
-  border: black solid 1px;
   background-color: white;
+  border: black solid 1px;
   height: 500px;
   position: relative;
   width: 600px;
@@ -18,8 +22,8 @@ p {
   max-width: 550px;
   overflow-wrap: break-word;
   position: absolute;
-  top: 380px;
   text-shadow: 5px 5px 5px black;
+  top: 380px;
   word-wrap: break-word;
 }
 
