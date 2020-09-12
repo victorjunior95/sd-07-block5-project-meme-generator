@@ -2,33 +2,29 @@
 
 const text = document.getElementById('text-input');
 
-text.addEventListener('keyup', insertText);
-
 function insertText() {
   let memeText = document.getElementById('meme-text');
 
   memeText.innerText = text.value;
 }
 
+text.addEventListener('keyup', insertText);
+
 // Função para inserir o arquivo(imagem) do input no container 'meme-image-container'
 
-let image = document.getElementById('meme-insert');
-let imageOutput = document.getElementById('meme-image');
+const image = document.getElementById('meme-insert');
+const imageOutput = document.getElementById('meme-image');
 
-image.addEventListener('change', function(event) {
+image.addEventListener('change', function (event) {
   imageOutput.src = URL.createObjectURL(event.target.files[0]);
-})
+});
 
-let fireButton = document.getElementById('fire');
-let waterButton = document.getElementById('water');
-let earthButton = document.getElementById('earth');
-let getBorder = document.getElementById('meme-image-container');
+const fireButton = document.getElementById('fire');
+const waterButton = document.getElementById('water');
+const earthButton = document.getElementById('earth');
+const getBorder = document.getElementById('meme-image-container');
 
 // Funções para estilizar a borda do container 'meme-image-container':
-
-fireButton.addEventListener('click', redBorder);
-waterButton.addEventListener('click', blueBorder);
-earthButton.addEventListener('click', greenBorder);
 
 function redBorder() {
   getBorder.style.border = '3px dashed red';
@@ -42,30 +38,34 @@ function greenBorder() {
   getBorder.style.border = '6px groove green';
 }
 
+fireButton.addEventListener('click', redBorder);
+waterButton.addEventListener('click', blueBorder);
+earthButton.addEventListener('click', greenBorder);
+
 // Função para colocar imagens pré definidas no container 'meme-image-container':
 
-let meme1 = document.getElementById('meme-1');
-let meme2 = document.getElementById('meme-2');
-let meme3 = document.getElementById('meme-3');
-let meme4 = document.getElementById('meme-4');
+const meme1 = document.getElementById('meme-1');
+const meme2 = document.getElementById('meme-2');
+const meme3 = document.getElementById('meme-3');
+const meme4 = document.getElementById('meme-4');
+
+function showsInTheContainer1() {
+  imageOutput.src = meme1.src;
+}
+
+function showsInTheContainer2() {
+  imageOutput.src = meme2.src;
+}
+
+function showsInTheContainer3() {
+  imageOutput.src = meme3.src;
+}
+
+function showsInTheContainer4() {
+  imageOutput.src = meme4.src;
+}
 
 meme1.addEventListener('click', showsInTheContainer1);
 meme2.addEventListener('click', showsInTheContainer2);
 meme3.addEventListener('click', showsInTheContainer3);
 meme4.addEventListener('click', showsInTheContainer4);
-
-function showsInTheContainer1(){
-  imageOutput.src = meme1.src;
-}
-
-function showsInTheContainer2(){
-  imageOutput.src = meme2.src;
-}
-
-function showsInTheContainer3(){
-  imageOutput.src = meme3.src;
-}
-
-function showsInTheContainer4(){
-  imageOutput.src = meme4.src;
-}
