@@ -38,6 +38,7 @@ function createPageStructure () {
     let inputText = document.createElement('input')
     inputText.setAttribute('id', 'text-input')
     inputText.setAttribute('type', 'text')
+    inputText.setAttribute('maxlength', 60)
     textInputDiv[0].appendChild(inputText)
 
     let inputLabelFile = document.createElement('label')
@@ -68,10 +69,18 @@ createPageStructure()
 const newTextInsert = document.querySelector('#text-input')
 newTextInsert.addEventListener('input', function () {
     if (newTextInsert.value.length <= 60) {
-        let pushText = document.getElementById('meme-text')
-        //console.log(pushText)
+        let pushText = document.querySelector('#meme-text')
         pushText.innerText = newTextInsert.value
     }
 })
 
-newTextInsert.addEventListener
+const viewImageInsert = document.getElementById('meme-image')
+
+const newImageInsert = document.getElementById('meme-insert')
+newImageInsert.addEventListener('change', function (event) {
+    viewImageInsert.src = URL.createObjectURL(event.target.files[0])
+    viewImageInsert.onload = function () {
+      URL.revokeObjectURL(viewImageInsert.src);
+    }
+  })
+  
