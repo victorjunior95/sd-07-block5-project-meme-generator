@@ -1,10 +1,9 @@
 // Função para inserir o texto do input no container 'meme-image-container'
 
 const text = document.getElementById('text-input');
+const memeText = document.getElementById('meme-text');
 
 function insertText() {
-  let memeText = document.getElementById('meme-text');
-
   memeText.innerText = text.value;
 }
 

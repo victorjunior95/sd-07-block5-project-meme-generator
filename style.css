@@ -4,7 +4,7 @@ body {
 
 button {
   color: white;
-  font-weight: bolder;
+  font-weight: 900;
   height: 30px;
   margin: 10px;
   width: 150px;
@@ -17,7 +17,7 @@ fieldset {
 
 legend {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .anotacao {
