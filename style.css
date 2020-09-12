@@ -28,6 +28,7 @@
 }
 
 #meme-image-container {
+  background-color: white;
   position: relative;
   margin: auto;
   height: 30vw;
