@@ -34,3 +34,29 @@ const earth = document.querySelector('#earth');
 earth.addEventListener('click', function(){
   container.style.border = "6px groove green";
 })
+
+//Actions thumbnails
+
+const meme1 = document.querySelector('#meme-1');
+meme1.addEventListener('click', function () {
+  document.getElementById('meme-image').src = "imgs/meme1.png";
+  document.getElementById('meme-image').className = "imgMeme";
+})
+
+const meme2 = document.querySelector('#meme-2');
+meme2.addEventListener('click', function () {
+  document.getElementById('meme-image').src = "imgs/meme2.png";
+  document.getElementById('meme-image').className = "imgMeme";
+})
+
+const meme3 = document.querySelector('#meme-3');
+meme3.addEventListener('click', function () {
+  document.getElementById('meme-image').src = "imgs/meme3.png";
+  document.getElementById('meme-image').className = "imgMeme";
+})
+
+const meme4 = document.querySelector('#meme-4');
+meme4.addEventListener('click', function () {
+  document.getElementById('meme-image').src = "imgs/meme4.png";
+  document.getElementById('meme-image').className = "imgMeme";
+})
