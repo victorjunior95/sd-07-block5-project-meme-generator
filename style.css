@@ -1,3 +1,10 @@
+body , html {
+  height: 100%;
+  margin: 0;
+  background-color: rgb(230 , 230 , 230);
+  font-family: Roboto, sans-serif;
+}
+
 .box {
   margin: 0 auto 25px;
   background-color: rgb(244 , 245 , 249);
@@ -8,7 +15,8 @@
   border-radius: 8px;
   border-color: rgb(78 , 144 , 253);
   padding: 0 10px;
-  /*border-top-color: rgb(78 , 144 , 253);*/
+
+  /* border-top-color: rgb(78 , 144 , 253); */
 }
 
 .box p {
@@ -16,10 +24,25 @@
   font-size: 15px;
 }
 
+.button , .input {
+  border-style: solid;
+  border-radius: 8px;
+  border-color: rgb(78 , 144 , 253);
+  height: 35px;
+  width: 340px;
+  color: rgb(78 , 144 , 253);
+  background-color: white;
+  font-size: 16px;
+}
+
 .button:active {
   position: relative;
   left: 2px;
   top: 1px;
+}
+
+.button:focus , .input:focus {
+  outline: 0;
 }
 
 .button:hover {
@@ -42,16 +65,29 @@
   height: 100%;
   box-shadow: inset 0 7px 4px -3px rgba(0 , 0 , 0 , 0.25);
   border-right-style: solid;
-  border-right-width: 3px;
-  border-right: rgb(78 , 144 , 253);
+  border-width: 3px;
+  border: rgb(78 , 144 , 253);
   padding-top: 25px;
-  /*border-right-color: rgb(78 , 144 , 253);*/
+
+  /* border-right-color: rgb(78 , 144 , 253); */
+}
+
+footer {
+  background-color: rgb(18 , 18 , 22);
+  color: white;
+  text-align: right;
+  padding: 10px;
+}
+
+footer img {
+  float: right;
+  height: 70px;
 }
 
 .footer-emphasis {
   color: rgb(219 , 221 , 191);
   font-size: 14px;
-  font-weight: 600; /*bold;*/
+  font-weight: 600; /* bold; */
   line-height: 14px;
   margin: 0 150px 0 0;
 }
@@ -62,29 +98,28 @@
   margin: 4px 150px 0 0;
 }
 
+header {
+  background-color: white;
+  box-shadow: 0 4px 4px 0 rgba(0 , 0 , 0 , 0.25);
+  width: 100%;
+  height: 70px;
+}
+
 .heart {
   color: rgb(77 , 137 , 235);
-}
-
-.input , .button {
-  border-style: solid;
-  border-radius: 8px;
-  border-color: rgb(78 , 144 , 253);
-  height: 35px;
-  width: 340px;
-  color: rgb(78 , 144 , 253);
-  background-color: white;
-  font-size: 16px;
-}
-
-.input:focus , .button:focus {
-  outline: 0;
 }
 
 .logo {
   float: left;
   margin: 0 10px;
   height: 70px;
+}
+
+main {
+  padding-bottom: 25px;
+  height: calc(100% - 70px - 120px);
+  min-height: 525px;
+  width: 100%;
 }
 
 .phone {
@@ -114,37 +149,4 @@
   display: inline-block;
   line-height: 70px;
   margin: 0 10px;
-}
-
-body , html {
-  height: 100%;
-  margin: 0;
-  background-color: rgb(230 , 230 , 230);
-  font-family: Roboto, sans-serif;
-}
-
-footer {
-  background-color: rgb(18 , 18 , 22);
-  color: white;
-  text-align: right;
-  padding: 10px;
-}
-
-footer img {
-  float: right;
-  height: 70px;
-}
-
-header {
-  background-color: white;
-  box-shadow: 0 4px 4px 0 rgba(0 , 0 , 0 , 0.25);
-  width: 100%;
-  height: 70px;
-}
-
-main {
-  padding-bottom: 25px;
-  height: calc(100% - 70px - 120px);
-  min-height: 525px;
-  width: 100%;
 }
