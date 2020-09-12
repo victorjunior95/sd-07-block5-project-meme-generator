@@ -12,7 +12,7 @@ body {
 /* lado esquerdo */
 
 .total-container {
-  margin-top: 50px;
+  margin-top: 20px;
   float: left;
   width: 800px;
   background-color: white;
@@ -62,6 +62,7 @@ label {
   position: relative;
   width: 800px;
   height: 400px;
+  margin-bottom: 20px;
 }
 
 .contido {
@@ -77,6 +78,34 @@ label {
   font-size: 30px;
 }
 
+button {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.button-fire {
+  border: 1px solid rgb(255 , 0 , 0);
+  background: url('./fire.png');
+  background-size: 100px;
+  background-color: rgb(255 , 0 , 0);
+}
+
+.button-water {
+  border: 1px solid rgb(0 , 0 , 255);
+  background: url('./water.png');
+  background-size: 100px;
+}
+
+.button-earth {
+  border: 1px solid rgb(0 , 255 , 0);
+  background: url('./earth.png');
+  background-size: 100px;
+  background-color: rgb(0 , 255 , 0);
+}
+
 /* lado direito */
 
 .meme-right {
@@ -87,4 +116,10 @@ label {
   text-align: center;
   padding: 20px;
   border-radius: 20px;
+}
+
+/* footer */
+
+footer {
+  clear: both;
 }
