@@ -11,9 +11,11 @@ let bmeme2 = document.getElementById("meme-2");
 let bmeme3 = document.getElementById("meme-3");
 let bmeme4 = document.getElementById("meme-4");
 
+
 container.style.borderWidth = "1px";
 container.style.borderStyle = "solid";
 container.style.borderColor = "black";
+container.style.backgroundColor = "white";
 
 // carrega a imagem selecionada
 input.addEventListener('change', function() {
@@ -27,17 +29,21 @@ text.addEventListener("input", function() {
 
 // As bordas devem ser acrescentadas ao container, identificado como `meme-image-container`;
 fire.addEventListener("click", function() {
-    container.className = "fireborder";
+    // container.className = "fireborder";
+    container.style.border = "3px dashed rgb(255, 0, 0)";
 });
 
 // As bordas devem ser acrescentadas ao container, identificado como `meme-image-container`;
 water.addEventListener("click", function() {
-    container.className = "waterborder";
+    //container.className = "waterborder";
+    container.style.border = "5px double rgb(0, 0, 255)";
 });
 
 // As bordas devem ser acrescentadas ao container, identificado como `meme-image-container`;
 earth.addEventListener("click", function() {
-    container.className = "earthborder";
+    //container.className = "earthborder";
+    container.style.border = "6px groove rgb(0, 128, 0)";
+    
 });
 
 // As imagens devem aparecer dentro do container de forma análoga às imagens enviadas por _upload_ para a página.
