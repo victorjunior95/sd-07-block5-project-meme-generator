@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Meme Generator</title>
+
 </head>
 <body>
-<!--Você deve criar um site que permita o upload de uma imagem e a 
-  inserção de um texto sobre ela, estilizado de forma apropriada.-->
-<!--3 - O site deve ter uma moldura no container. A moldura deve ter 1 pixel 
-  de largura, deve ser preta e do tipo 'solid'. -->
+
+  <!--Title-->
+  <header>
 
     <h1>
       Gerador de Memes
@@ -17,80 +17,37 @@
 
   </header>
 
+  <!--Upload imag-->
+  <section>
+
+    <h2>
+      Envie suas imagens por aqui.
+    </h2>
+
+    <!--User sends image-->
+    <input type="file" accept="image" id="meme-insert"> 
+
+  </section>
+
+  <!--Meme edition-->
   <form>
 
-    <section>
-      <!--2 - O site deve permitir que quem usa faça upload de uma imagem de seu computador.-->
-        <!--O elemento onde é feito o upload da imagem deve ser identificado
-        com o id denominado meme-insert. Este elemento não precisa estar dentro do elemento de container;-->
-      <h2>
-        Envie suas imagens por aqui.
-      </h2>
-      <!--Para receber os dados da imagem e do texto do meme, é preciso utilizar a tag "input".
-       Consulte a documentação sobre os tipo de input text e file.-->
-      <input type="file" accept="image" multiple alt="sua imagem" id="meme-insert"> 
+    <h2>
+      Adicione um texto em seu gif...
+    </h2>
 
+    <!--Image preview / Container-->
+    <section id="meme-image-container">
+      <!--Image-->
     </section>
 
-    <section id="">
+    <!--User adds text-->
+    <input type="text" id="text-input">
 
-      <h2>Adicione um texto em seu gif</h2>
-
-      <!--1 - O site deve possuir uma caixa de texto, com a qual quem usa 
-        pode interagir para inserir texto em cima da imagem escolhida.-->
-
-        <!--A caixa onde o texto é inserido deve ter um id denominado text-input;-->
-        <!--Você deve criar um elemento para servir de "container" para a imagem
-        e para o texto do meme. Este elemento deve ter um id denominado meme-image-container;-->
-        <!--Dentro do elemento de container, você deve criar um outro elemento 
-        para mostrar o texto digitado. O elemento de texto deve estar 
-        totalmente contido dentro do container e ter o id denominado meme-text;-->
-        <!--Se não houver imagem inserida, ele deve ser inserido e estar visível
-       dentro do container vazio onde a imagem aparecerá.-->
-      
-       <!--5 - Limite o tamanho do texto que o usuário pode inserir.-->
-        <!--A quantidade máxima de caracteres digitáveis no elemento text-input deve ser 60.-->
-      
-      <input type="text" id="text-input">
-
-      <button>ADD</button>
-
-      <section id="meme-image-container">
-        <!--Dentro do elemento de container, você deve criar um outro elemento 
-        para mostrar a imagem selecionada. Este elemento deve possuir um id denominado meme-image;-->
-        <!--A imagem deve estar totalmente contida dentro do elemento identificado como meme-image-container-->
-        <!--O texto inserido no elemento text-input deve ser inserido sobre a imagem escolhida meme-image.-->  
-        <!--Para mostrar a imagem selecionada a partir do input no elemento dentro do container, 
-        você precisará alterar a propriedade src desse elemento, passando para ele o caminho da imagem que foi carregada no input.-->  
-        <imag id="meme-image" src="document.querySelector('#meme-insert')[0]">
-      </section>
-      
-    </section>
-
-    <section>
-      <!--6 - Permita a quem usa customizar o meme escolhido acrescentando a ele uma de três bordas.
-      A página deve ter três botões, que ao serem clicados devem cada um trocar a própria borda ao redor do container.-->
-
-
-    </section>
-
-    <aside>
-      <!--7 - Tenha um conjunto de quatro imagens pré prontas de memes famosos para o usuário escolher.
-         Mostre miniaturas das imagens e, mediante clique do usuário, essa imagem deve aparecer dentro 
-         da moldura do elemento de container.-->
-        <!-- imagem 1-->
-        <!-- imagem 2-->
-        <!-- imagem 3 -->
-
-    </aside>
+    <!--User downloads the meme-->
+    <button>Baixar</button>
 
   </form>
-
-
-
-
-
-
 
 </body>
 </html>
