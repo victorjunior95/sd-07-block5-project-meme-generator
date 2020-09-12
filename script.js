@@ -12,10 +12,11 @@ textInput.addEventListener('keyup', updateMemeText);
 // utilizou-se essa referencia para autoload de imagem
 // https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded/27165977#27165977
 const memeImage = document.getElementById('meme-image');
-function loadFile(event) {
-  let image = event.target.files[0];
 
-  memeImage.src = URL.createObjectURL(image);
+const loadFile = function (event) {
+  const img = event.target.files[0];
+
+  memeImage.src = URL.createObjectURL(img);
 
   memeImage.onload = function () {
     URL.revokeObjectURL(memeImage.src);
