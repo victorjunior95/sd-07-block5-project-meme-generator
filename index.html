@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <link rel="stylesheet" type="text/css" href="style.css" />
+
+  <script src="script.js" ></script>
 
   <title>
     Meme Generator
@@ -29,7 +32,7 @@
     </h2>
 
     <!--User sends image-->
-    <input type="file" accept="image" id="meme-insert"> 
+    <input type="file" accept="image" id="meme-insert">
 
   </section>
 
@@ -41,11 +44,17 @@
     </h2>
 
     <!--User adds text-->
-    <input type="text" id="text-input">
+    <input type="text" placeholder="Digite texto no máximo de 60 caracteres." id="text-input">
 
     <!--Image preview / Container-->
     <section id="meme-image-container">
+
+      <!--Text-->
+      <p id="meme-text">texto</p>
+      
       <!--Image-->
+      <imag id="meme-image"></imag>
+      
     </section>
 
     <!--User downloads the meme-->

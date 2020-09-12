@@ -1,9 +1,32 @@
-#meme-image-container
+#meme-image-container {
+  background-color : white;
+  border : 1px solid black;
+  width : 500px;
+  height : 500px ;
+  margin-top : 25px;
+  margin-left : 5px;
+
+}
+
+#text-input {
+  width : 500px;
+
+}
+/*
+meme-text precisa ficar fixado na frente de todos os elementos;
+meme-text deve ter uma sombra preta, de 5 pixels na horizontal, 5 pixels na vertical e um raio de desfoque de 5 pixels;
+meme-text deve estar na cor branca;
+meme-text deve ter a fonte com o tamanho de 30 pixels; 
+*/
+#meme-text {
+  
+
+}
+/*
+A imagem deve estar totalmente contida dentro do elemento identificado como meme-image-container
+*/
+#meme-image
 {
 
-  background-color : white;
-  border : 1px solid black ;
-  width:500px;
-  height : 500px ;
 
 }
