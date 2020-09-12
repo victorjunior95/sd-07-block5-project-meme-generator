@@ -23,12 +23,12 @@ fieldset {
 .meme-txt {
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 30px;
-    left: 50%;
-    position: absolute;
-    transform: translateX(-50%);
+    font-size: 30px;    
     text-shadow:5px 5px 5px black;
     margin-top: 90%;
+    position: absolute;
+    width: 80%;
+    text-align: center;
     
 }
 
