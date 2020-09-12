@@ -11,8 +11,14 @@
 
 .container p {
   position: absolute;
-  top: 295px;
-  width: 380px;
+  top: 285px;
+  width: 360px;
+  margin-left: 10px;
   height: 90px;
+  border: 3px solid #73ad21;
+}
+
+.textEntry input {
+  position: absolute;
   border: 3px solid #73ad21;
 }
