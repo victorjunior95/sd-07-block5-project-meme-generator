@@ -3,6 +3,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
+  text-align: center;
   width: 100%;
 }
 
@@ -22,10 +23,16 @@ body {
   padding-top: 15px;
 }
 
+.main {
+  display: inline-block;
+  width: 550px;
+}
+
 .div-input-text {
   margin-bottom: 15px;
-  margin-top: 10px;
+  margin-top: 15px;
   padding-left: 5px;
+  text-align: left;
 }
 
 .text-input {
@@ -35,9 +42,11 @@ body {
 .div-input-file {
   border-bottom: 1px solid gray;
   margin-bottom: 10px;
+  margin-right: 40px;
   margin-top: 10px;
   padding-bottom: 20px;
   padding-left: 5px;
+  text-align: left;
 }
 
 .meme-container {
@@ -107,4 +116,18 @@ body {
   color: white;
   height: 30px;
   width: 157px;
+}
+
+.aside-class {
+  display: inline-block;
+  height: 500px;
+  width: 200px;
+}
+
+.miniature-img {
+  box-shadow: 1px 1px 3px black;
+  display: block;
+  height: 100px;
+  margin: 10px;
+  width: 100px;
 }

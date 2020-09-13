@@ -113,8 +113,9 @@ function insertImage() {
 insertText();
 insertImage();
 
-function alterBorderDivMeme() {
+function alterMainBorderAndImage() {
   const getDivMeme = document.getElementById('meme-image-container');
+  const viewImageMain = document.getElementById('meme-image');
   document.body.addEventListener('click', function (event) {
     if (event.target.nodeName === 'BUTTON') {
       const buttonClicked = event.target.textContent.toLocaleLowerCase();
@@ -125,7 +126,25 @@ function alterBorderDivMeme() {
       } else {
         getDivMeme.style.border = '6px groove green';
       }
+    } else if (event.target.nodeName == 'IMG') {
+      viewImageMain.src = event.target.alt;
     }
   });
 }
-alterBorderDivMeme();
+alterMainBorderAndImage();
+
+function createPageElementsMiniatures() {
+  const aside = document.createElement('aside');
+  aside.className = 'aside-class';
+  document.body.appendChild(aside);
+  
+  for (let index = 1; index <= 4; index +=1) {
+    const imgMiniature = document.createElement('img');
+    imgMiniature.className = 'miniature-img'
+    imgMiniature.setAttribute('id', 'meme-' + index);
+    imgMiniature.setAttribute('src', 'imgs/meme'+index+'.png');
+    imgMiniature.setAttribute('alt', 'imgs/meme'+index+'.png');
+    aside.appendChild(imgMiniature);
+  }
+}
+createPageElementsMiniatures();
