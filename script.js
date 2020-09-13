@@ -7,8 +7,6 @@ inputText.addEventListener('keyup', function(){
   document.querySelector('#meme-text').innerText = inputText.value;
 });
 
-
-
 document.querySelector('#meme-1').addEventListener("click", function(){
   image.src = './imgs/meme-1.png';
 });
@@ -32,15 +30,18 @@ inputImage.addEventListener('change', function (event){
   }
 });
 
-document.querySelector('#fire').addEventListener("click", function(){
-  containerBorder.style.border = 'dashed 3px red'; 
+let fire = document.querySelector('#fire')
+fire.addEventListener('click', function(){
+  containerBorder.style.border = '3px dashed red';
 })
 
-document.querySelector('#water').addEventListener("click", function(){
-  containerBorder.style.border = 'double 5px rgb(0 0 225)';
+let water = document.querySelector('#water')
+water.addEventListener('click', function(){
+  containerBorder.style.border = '5px double blue';
 })
 
-document.querySelector('#earth').addEventListener("click", function(){
-  containerBorder.style.border = 'groove 6px rgb(0 128 0)';
+let earth = document.querySelector('#earth')
+earth.addEventListener('click', function(){
+  containerBorder.style.border = 'groove 6px green';
 })
 
