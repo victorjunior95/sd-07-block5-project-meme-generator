@@ -54,10 +54,21 @@ function catchImageMemes () {
 
 }
 
+
+function onLoadImg () {
+  const img = document.getElementById('meme-insert');
+  img.src = URL.createObjectURL(event.target.files[0]);
+  img.onload = function () {
+    URL.revokeObjectURL(img.src);
+  } ;
+}
+
+
 window.onload = () => {
     inputText ()
     borderRed ()
     borderWater ()
     borderEarth ()
-    catchImageMemes ()    
+    catchImageMemes ()
+    loadFiles ()    
 };
