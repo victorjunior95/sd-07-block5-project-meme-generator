@@ -3,9 +3,9 @@
     padding: 0px;
 }
 body {
-    background-color: rgb(216, 209, 200);
+    font-family: monospace;
+    background-color: rgb(216 , 209 , 200);
 }
-
 .first-class {
     position: relative;
     margin-top: 25px;
@@ -22,20 +22,31 @@ body {
 }
 #meme-image-container {
     position: relative;
-    margin-top: 10px;
+    margin: 10px;
     background-color: white;
-    padding: 70px;
+    padding: 2px;
     border: 1px solid black;
     display: inline-block;
-    width: 500px;
+    width: 400px;
+    
+    
+   
 }
 #meme-text {
-    text-align: center;
+    z-index: 1;
     position: absolute;
+    text-align: center;
+    position: ;
     text-shadow: 5px 5px 5px black;
     font-size: 30px;
     color: white;
 }
+#meme-image {
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;    
+}   
 footer {
     text-align: center;
    
