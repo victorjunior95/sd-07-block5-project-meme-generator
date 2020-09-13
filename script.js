@@ -37,7 +37,7 @@ function changeBorderEarh() {
 buttonBrown.addEventListener('click', changeBorderEarh);
 
 // FUNCTION FOR PRE-IMAGES
-let preImgs = document.querySelectorAll('.miniatureImg');
+const preImgs = document.querySelectorAll('.miniatureImg');
 
 preImgs[0].addEventListener('click', function () {
   img.src = preImgs[0].src;
