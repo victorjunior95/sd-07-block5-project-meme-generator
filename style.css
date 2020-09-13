@@ -3,53 +3,52 @@ body {
 }
 
 h1 {
-	align-items: center;
+  align-items: center;
   display: flex;
   justify-content: center;
 }
 
 .input {
-	left: 50%;
-	margin-left: -140px;
-	position: relative;
+  left: 50%;
+  margin-left: -140px;
+  position: relative;
 }
 
 .meme-image-container {
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  min-width: 150px;
-  min-height: 100px;
-  background-color: white;
-  border: 1px solid black;
-  margin-top: 15px;
-  /* default text */
-  display: inline-block;
-  text-align: center;
+	background-color: white;
+	border: 1px solid black;
+	color: rgb(175,175,175);
+	display: inline-block;
   font-weight: bold;
-  color: rgb(175,175,175);
+  left: 50%;
+	margin-top: 15px;
+	min-height: 100px;
+	min-width: 150px;
+	position: relative;
+	text-align: center; 
+	transform: translateX(-50%);
 }
 
 .span-text {
-	margin-left: -62px;
+  margin-left: -62px;
   margin-top: -13px;
   position: absolute;
-	top: 50%;
+  top: 50%;
 }
 
 .meme-image {
   display: none;
   max-height: 600px;
-	max-width: 600px;
-	width: 100%;
+  max-width: 600px;
+  width: 100%;
 }
 
 .meme-text {
-	bottom: 15px;
-	color: white;
-	font-size: 30px;
-	left: 50%;
-	position: absolute;
+  bottom: 15px;
+  color: white;
+  font-size: 30px;
+  left: 50%;
+  position: absolute;
   text-shadow: 5px 5px 5px black;
   transform: translateX(-50%);
   z-index: 5;
