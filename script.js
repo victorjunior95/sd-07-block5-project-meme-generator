@@ -2,10 +2,7 @@ const script = document.querySelector('#text-input');
 let setImage = document.querySelector('#meme-insert');
 const picture = document.querySelector('#meme-image');
 
-let earth = document.querySelector('#changeButtons').childNodes[7];
-let water = document.querySelector('#changeButtons').childNodes[5];
-let fire = document.querySelector('#changeButtons').childNodes[3];
-let container = document.querySelector('#meme-image-container');
+
 
 //Recupera o local onde quero minha string
 script.addEventListener('keyup', function () {
@@ -16,6 +13,11 @@ setImage.addEventListener('change', function(event){
     setImage = setImage.value;
     picture.src = URL.createObjectURL(event.target.files[0]);
 });
+
+let earth = document.querySelector('#changeButtons').childNodes[7];
+let water = document.querySelector('#changeButtons').childNodes[5];
+let fire = document.querySelector('#changeButtons').childNodes[3];
+let container = document.querySelector('#meme-image-container');
 
 fire.addEventListener('click', function () {
     container.style.border = '3px dashed #DC143C';

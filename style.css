@@ -8,7 +8,7 @@ body {
     bottom: 10px;
 }
 
-#changeButtons {
+.changeButtons {
     position: absolute;
     left: 410px;
     top: 73px;
@@ -23,7 +23,21 @@ body {
     width: 600px;
 }
 
-#meme-text {
+.earth {
+    background-color: #32CD32;
+}
+
+.fire {
+    background-color: #DC143C
+}
+
+#inputs {
+    position: absolute;
+    top: 20px;
+    left: 35px;
+}
+
+.meme-text {
     font-size: 30px;
     bottom: 0.1%;
     right: 15%;
@@ -46,11 +60,6 @@ body {
     left: 10px;
 }
 
-#inputs {
-    position: absolute;
-    top: 20px;
-    left: 35px;
-}
 
 .meme-image-container {
     position: absolute;
@@ -68,15 +77,11 @@ body {
     position: absolute;
 }
 
-#water {
+.water {
     background-color: #00BFFF;
 }
 
-#earth {
-    background-color: #32CD32;
-}
 
-#fire {
-    background-color: #DC143C
-}
+
+
 
