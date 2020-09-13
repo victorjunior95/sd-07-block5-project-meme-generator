@@ -21,8 +21,9 @@
   }
   
   .meme-image {
-    position: relative;
+    position: absolute;
+    top: 50px;
+    left: 48px;
     background-color: white;
-    width: 500px;
-    height: 500px;
+    max-width: 400px;
   }
