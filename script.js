@@ -29,11 +29,6 @@ window.onload = function () {
     memeText.innerHTML = inputText.value;
   });
 
-  // const label = document.getElementById("label1");
-  // label.addEventListener("click", function(obj) {
-  //   console.log(obj);
-  // });
-
   // Captura o elemento que será usado para abrir a caixa de seleção da imagem
   const buttonImage = document.getElementById('meme-insert');
 
@@ -42,4 +37,38 @@ window.onload = function () {
     // Resolvi criar uma função externa (poderia ter escrito o código aqui mesmo)
     loadFile(event);
   });
+
+  // Captura os elementos das miniaturas das bordas
+  const air = document.getElementById("air");
+  const fire = document.getElementById("fire");
+  const water = document.getElementById("water");
+  const earth = document.getElementById("earth");
+
+  // Coptura o elemento onde deverá ser inserido a borda
+  const image = document.getElementById("meme-image-container");
+
+  // Adicionando as escutas
+  air.addEventListener("click", function () {
+    image.style.borderColor = "black";
+    image.style.borderStyle = "solid";
+    image.style.borderWidth = "1px";
+  })
+
+  fire.addEventListener("click", function () {
+    image.style.borderColor = "red";
+    image.style.borderStyle = "dashed";
+    image.style.borderWidth = "3px";
+  })
+
+  water.addEventListener("click", function () {
+    image.style.borderColor = "blue";
+    image.style.borderStyle = "double";
+    image.style.borderWidth = "5px";
+  })
+
+  earth.addEventListener("click", function () {
+    image.style.borderColor = "green";
+    image.style.borderStyle = "groove";
+    image.style.borderWidth = "6px";
+  })
 };
