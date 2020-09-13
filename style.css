@@ -3,7 +3,7 @@
     background-color: white;
     width: 500px;
     height: 500px;
-    border:black 1px solid;
+    border: 1px solid black;
   }
   
   .meme-text {
@@ -24,4 +24,25 @@
     background-color: white;
     width: 498px;
     height: 498px;
+  }
+
+  .fogo {
+      background-color: red;
+      font-size: 20px;
+      width: 80px;
+      color: white;
+  }
+
+  .agua {
+      background-color: blue;
+      font-size: 20px;
+      width: 80px;
+      color: white;
+  }
+
+  .terra {
+      background-color: green;
+      font-size: 20px;
+      width: 80px;
+      color: white;
   }
