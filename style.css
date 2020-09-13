@@ -19,11 +19,11 @@
   
   .meme-image {
     position: relative;
-    top: 1px;
-    left: 1px;
     background-color: white;
-    width: 498px;
-    height: 498px;
+    max-width: 498px;
+    max-height:498px;
+    width: auto;
+    height: auto;
   }
 
   .fogo {
