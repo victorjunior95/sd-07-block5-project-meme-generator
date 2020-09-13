@@ -20,7 +20,7 @@ input[type='file'] {
 }
 
 .button {
-  background-color: #188371; 
+  background-color: rgb(24 , 131 , 113); 
   border: none;
   border-radius: 8px;
   color: white;
@@ -37,7 +37,7 @@ input[type='file'] {
 
 .button:hover {
   background-color: cornflowerblue;
-  box-shadow: 0 12px 16px 0 rgba(0 ,0 ,0 ,0.24) , 0 17px 50px 0 rgba(0 , 0 ,0 , 0.19); /*https://www.w3schools.com/css/css3_buttons.asp*/
+  box-shadow: 0 12px 16px 0 rgba(0 , 0 , 0 , 0.24) , 0 17px 50px 0 rgba(0 , 0 , 0 , 0.19); /* https://www.w3schools.com/css/css3_buttons.asp */
 }
 
 .btn-fire {
