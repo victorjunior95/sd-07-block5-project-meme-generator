@@ -7,20 +7,20 @@ inputText.addEventListener('keyup', function(){
   document.querySelector('#meme-text').innerText = inputText.value;
 });
 
-document.querySelector('#meme-1').addEventListener("click", function(){
-  image.src = './imgs/meme-1.png';
+document.querySelector('#meme-1').addEventListener("click", function(event){
+  image.src = event.target.src;
 });
 
-document.querySelector('#meme-2').addEventListener("click", function(){
-  image.src = './imgs/meme-2.png';
-})
-
-document.querySelector('#meme-3').addEventListener("click", function(){
-  image.src = './imgs/meme-3.png';
+document.querySelector('#meme-2').addEventListener("click", function(event){
+  image.src = event.target.src;
 });
 
-document.querySelector('#meme-4').addEventListener('click', function(){
-  image.src = './imgs/meme-4.png';
+document.querySelector('#meme-3').addEventListener("click", function(event){
+  image.src = event.target.src;
+});
+
+document.querySelector('#meme-4').addEventListener("click", function(event){
+  image.src = event.target.src;
 });
 
 inputImage.addEventListener('change', function (event){
