@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 /* lado esquerdo */
 
 .total-container {
@@ -123,6 +124,7 @@ button {
 .mini-image:hover {
   border-radius: 100%;
 }
+
 /* lado direito */
 
 .meme-right {
@@ -134,6 +136,7 @@ button {
   padding: 20px;
   text-align: center;
 }
+
 /* footer */
 
 footer {
