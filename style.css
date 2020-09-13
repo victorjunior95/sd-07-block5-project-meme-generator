@@ -12,14 +12,14 @@ body{
     bottom: 0.1%;
     right: 15%;
     color: white;
-    font-size: 30px;
+    font-size: 50px;
     position: absolute;
     text-shadow: 5px 5px 5px black;
-    top: 300px;
-    left: 100px;
-    z-index: 9;
-    overflow: auto;
+    top: 100px;
+    left: 90px;
+    overflow-wrap: break-word;
 }
+
 .meme-image{
     background-color: rgb(95 , 75 , 102);
     box-shadow: 0 0 3px white;
