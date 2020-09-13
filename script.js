@@ -51,20 +51,20 @@ tagButtonEarth .addEventListener('click', function(){
 
  tagMeme1.addEventListener('click', function(){
   tagTextMeme.innerText = "Nossa! Muito engraçado!"
-  tagImg.src = "./imgs/cachorro-fingido.png";
+  tagImg.src = "./imgs/meme1.png";
  });
 
  tagMeme2.addEventListener('click', function(){
   tagTextMeme.innerText = "Juro que não vou rir!"
-  tagImg.src = "./imgs/cachorro-olho-arregalado.png";
+  tagImg.src = "./imgs/meme2.png";
  });
 
  tagMeme3.addEventListener('click', function(){
   tagTextMeme.innerText = "Sai Satã! Chuta irmões, que é macumbra!"
-  tagImg.src = "./imgs/esquilo-exorcista.png";
+  tagImg.src = "./imgs/meme3.png";
  });
 
  tagMeme4.addEventListener('click', function(){
   tagTextMeme.innerText = "O que está olhando? Sou inocente!"
-  tagImg.src = "./imgs/gato-bandido.png";
+  tagImg.src = "./imgs/meme4.png";
  });
