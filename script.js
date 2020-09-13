@@ -34,20 +34,24 @@ buttonBlue.addEventListener("click", function () {
 
 let imgFirstMeme = document.getElementById("meme-1");
 imgFirstMeme.addEventListener("click", function () {
-  memeImage.src = imgFirstMeme.src;
+  memeImage.src = "imgs/meme1.png"
+  //memeImage.src = imgFirstMeme.src;
 });
 
 let imgSecondMeme = document.getElementById("meme-2");
 imgSecondMeme.addEventListener("click", function () {
-  memeImage.src = imgSecondMeme.src;
+  memeImage.src = "imgs/meme2.png"
+  //memeImage.src = imgSecondMeme.src;
 });
 
 let imgThirdMeme = document.getElementById("meme-3");
 imgThirdMeme.addEventListener("click", function () {
-  memeImage.src = imgThirdMeme.src;
+  memeImage.src = "imgs/meme3.png"
+  //memeImage.src = imgThirdMeme.src;
 });
 
 let imgFourthMeme = document.getElementById("meme-4");
 imgFourthMeme.addEventListener("click", function () {
-  memeImage.src = imgFourthMeme.src;
+  memeImage.src = "imgs/meme4.png"
+  //memeImage.src = imgFourthMeme.src;
 });
