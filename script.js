@@ -6,11 +6,7 @@ function changeImage() {
 
 function changeText() {
   let memeText = document.getElementById("text-input").value;
-  if(memeText.length < 60) {
-    document.getElementById("meme-text").innerHTML = memeText;
-  } else {
-    alert('O texto deve ser menor do que 60 caracteres')
-  }
+  document.getElementById("meme-text").innerHTML = memeText;
 }
 
 // document.getElementById("meme-insert").addEventListener("change", changeImage);
