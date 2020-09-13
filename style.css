@@ -7,6 +7,7 @@ body {
 }
 
 .head-class {
+  box-shadow: 1px 1px 3px black;
   margin-top: 0;
   position: relative;
   text-align: center;
@@ -14,9 +15,17 @@ body {
 }
 
 .div-input-text {
-  margin-bottom: 10px;
-  margin-left: 5px;
+  margin-bottom: 15px;
   margin-top: 10px;
+  padding-left: 5px;
+}
+
+.div-input-file {
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 5px;
 }
 
 .title {
@@ -30,6 +39,7 @@ body {
 .meme-container {
   background-color: white;
   border: 1px solid black;
+  box-shadow: 1px 1px 3px black;
   height: 500px;
   margin-left: 5px;
   margin-top: 50px;
@@ -66,6 +76,8 @@ body {
   background-color: red;
   border: 1px solid red;
   border-radius: 3px;
+  box-shadow: 1px 1px 3px black;
+  color: white;
   height: 30px;
   margin-right: 14px;
   width: 157px;
@@ -75,6 +87,8 @@ body {
   background-color: blue;
   border: 1px solid blue;
   border-radius: 3px;
+  box-shadow: 1px 1px 3px black;
+  color: white;
   height: 30px;
   margin-right: 14px;
   width: 157px;
@@ -84,6 +98,8 @@ body {
   background-color: green;
   border: 1px solid green;
   border-radius: 3px;
+  box-shadow: 1px 1px 3px black;
+  color: white;
   height: 30px;
   width: 157px;
 }

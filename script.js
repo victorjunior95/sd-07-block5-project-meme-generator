@@ -10,7 +10,7 @@ function createReader() {
 }
 
 const nameNewDiv = ['textInputDiv', 'fileInputDiv', 'memeContainer', 'buttonDiv', 'memeMiniDiv'];
-const nameClassNewDiv = ['div-input-text', 'div-input-text', 'meme-container', 'div-button', 'div-mini-meme'];
+const nameClassNewDiv = ['div-input-text', 'div-input-file', 'meme-container', 'div-button', 'div-mini-meme'];
 
 function createPageStructure(textInputDiv, nameClassDiv) {
   const sectionMain = document.createElement('section');
@@ -34,10 +34,11 @@ function createPageStructure(textInputDiv, nameClassDiv) {
 function createPageElementsText(elementsForText) {
   const inputLabelText = document.createElement('label');
   inputLabelText.setAttribute('for', 'text-input');
-  inputLabelText.innerHTML = 'Insira o texto: ';
+  inputLabelText.innerHTML = '1. Insira o texto: ';
   elementsForText[0].appendChild(inputLabelText);
 
   const inputText = document.createElement('input');
+  insertText.className = 'text-input';
   inputText.setAttribute('id', 'text-input');
   inputText.setAttribute('type', 'text');
   inputText.setAttribute('maxlength', 60);
@@ -53,7 +54,7 @@ function createPageElementsText(elementsForText) {
 function createPageElementsImage(elementsForImage) {
   const inputLabelFile = document.createElement('label');
   inputLabelFile.setAttribute('for', 'file-input');
-  inputLabelFile.innerHTML = 'Inserir imagem: ';
+  inputLabelFile.innerHTML = '2. Inserir imagem: ';
   elementsForImage[1].appendChild(inputLabelFile);
 
   const inputFileButton = document.createElement('input');
