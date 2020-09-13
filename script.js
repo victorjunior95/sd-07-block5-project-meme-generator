@@ -1,6 +1,7 @@
 let textInputBox = document.getElementById("text-input");
 let memeTextBox = document.getElementById("meme-text");
 let memeContainer = document.getElementById("meme-image-container");
+let memeImage = document.getElementById("meme-image");
 
 textInputBox.addEventListener("keyup", function () {
   memeTextBox.innerText = textInputBox.value;
@@ -29,4 +30,24 @@ buttonRed.addEventListener("click", function () {
 const buttonBlue = document.getElementById("water");
 buttonBlue.addEventListener("click", function () {
   memeContainer.className = "water-border";
+});
+
+let imgFirstMeme = document.getElementById("meme-1");
+imgFirstMeme.addEventListener("click", function () {
+  memeImage.src = imgFirstMeme.src;
+});
+
+let imgSecondMeme = document.getElementById("meme-2");
+imgSecondMeme.addEventListener("click", function () {
+  memeImage.src = imgSecondMeme.src;
+});
+
+let imgThirdMeme = document.getElementById("meme-3");
+imgThirdMeme.addEventListener("click", function () {
+  memeImage.src = imgThirdMeme.src;
+});
+
+let imgFourthMeme = document.getElementById("meme-4");
+imgFourthMeme.addEventListener("click", function () {
+  memeImage.src = imgFourthMeme.src;
 });
