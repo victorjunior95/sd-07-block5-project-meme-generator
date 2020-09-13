@@ -115,17 +115,17 @@ insertImage();
 
 function alterBorderDivMeme() {
   const getDivMeme = document.getElementById('meme-image-container');
-  document.body.addEventListener("click", function(event) {
+  document.body.addEventListener('click', function (event) {
     if (event.target.nodeName === 'BUTTON') {
       const buttonClicked = event.target.textContent.toLocaleLowerCase();
       if (buttonClicked === 'fire') {
         getDivMeme.style.border = '3px dashed red';
       } else if (buttonClicked === 'water') {
-        getDivMeme.style.border = '5px double blue'
+        getDivMeme.style.border = '5px double blue';
       } else {
-        getDivMeme.style.border = '6px groove green'
+        getDivMeme.style.border = '6px groove green';
       }
     }
   });
 }
-alterBorderDivMeme()
+alterBorderDivMeme();
