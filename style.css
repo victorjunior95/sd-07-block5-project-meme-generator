@@ -1,10 +1,25 @@
+.bordainicial {
+  border: 1px solid black;
+}
+
+.fogo {
+  border: 3px dashed red;
+}
+
+.agua {
+  border: 5px double blue;
+}
+
+.terra {
+  border: 6px groove green;
+}
 .container {
   background-color: white;
-  border: 1px solid black;
   box-sizing: border-box;
   height: 400px;
   position: relative;
   width: 400px;
+  
 }
 
 .image {
@@ -16,8 +31,14 @@
 
 .text {
   color: white;
+  display: block;
   font-size: 30px;
   position: absolute;
   text-shadow: 5px 5px 5px black;
   top: 325px;
+  width: 380px;
+}
+
+button {
+  margin: 40px;
 }
