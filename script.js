@@ -20,6 +20,7 @@ function loadFile(url) {
     memeImage.style.backgroundImage = `url(${URL.createObjectURL(url)})`;
   } else {
     memeImage.style.backgroundImage = `url(${url})`;
+    memeImage.setAttribute('src', url);
   }
 }
 
