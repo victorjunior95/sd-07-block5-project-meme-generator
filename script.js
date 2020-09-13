@@ -23,7 +23,7 @@ window.onload = function(){
       texto.textContent = textMeme.value;
   }
   textMeme.addEventListener('keyup', AdicionaTextoImg);
-  //fim fuuncao Adicionar texto a imagem
+  //fim funcao Adicionar texto a imagem
 
   //adicionando bordas
 
@@ -40,7 +40,6 @@ window.onload = function(){
       let container = document.getElementById('meme-image-container');
 
       let caixaAlta = color.toUpperCase();
-      console.log(caixaAlta)
 
       if(caixaAlta == 'FIRE') {
 
@@ -62,5 +61,28 @@ window.onload = function(){
       }
     }
 
-}
+    //imagens pré-carregadas
+      document.getElementById("meme-01").src = "imgs/meme1.jpg";
+      document.getElementById("meme-02").src = "imgs/meme2.jpg";
+      document.getElementById("meme-03").src = "imgs/meme3.jpg";
+      document.getElementById("meme-04").src = "imgs/meme4.jpg";
 
+      let imgsClick = document.querySelectorAll("#memePronto>img");
+
+      for (let i = 0; i < imgsClick.length; i += 1) {
+
+          imgsClick[i].addEventListener("click", function(event) {
+              inserirImg(event.target.src)
+          })
+
+       }
+
+
+       function inserirImg(eventSrc) {
+
+          let memeImage = document.getElementById("meme-image");
+          memeImage.src = eventSrc;
+     }
+
+
+}
