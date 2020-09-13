@@ -19,7 +19,11 @@
     
 #foto{
     position: relative;
-}
+    background-color:green;
+    width: 45%;
+    margin: 0 auto;/* centralizar div */
+   
+}  
 #text-input{
 
     color: aquamarine;
@@ -28,5 +32,17 @@
 
 #meme-image-container{
 
+    background-color: blueviolet;
+    
+
+    
+}
+
+#upl{
+   
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+    margin: .4rem 0; /*criar espaço entre as divs*/
+    background-color:blue;
     
 }
