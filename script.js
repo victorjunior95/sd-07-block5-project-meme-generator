@@ -37,6 +37,6 @@ picture3.addEventListener('click', function () {
   memeImage.src = picture3.src;
 });
 const picture4 = document.querySelector('#meme-4');
-picture4.addEventListener ('click', function () {
+picture4.addEventListener('click', function () {
   memeImage.src = picture4.src;
 }); // Adds images defined
