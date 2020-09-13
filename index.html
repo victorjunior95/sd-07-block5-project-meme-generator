@@ -1,37 +1,22 @@
-<!DOCTYPE html>
-<html lang='pt-BR'>
-
+<!doctype html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Primeiro Projeto Turma 7</title>
-	<link rel="stylesheet" href="style.css" media="screen">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href=style.css>
+	<title>Meme Generator</title>
 </head>
-
-<header id="cabecalho">
-	<h1 id="titulo">Meme Generator.</h1>
-</header>
-
-<body>
-
-	<article class="lado-esquerdo">
-			<h1>Crie seu meme.</h1>
-	</article>
-
-	<section class="inputClass">
-		<label for="text-input">Texto: </label><input type="text" id="text-input">
-	</section>
-
-	<section class="inputUpload">
-		<input type="file" id="meme-insert"><button id="btnFileUpload">Adicionar</button>
-	</section>
-
-	<div id="meme-image-container">
-		<form id="meme-image"></form>
-		<p id="meme-text"></p>
+	<body>
+	<div id="container">
+           <section id="inputs">
+	           <input type="file" name="" id="meme-insert" accept="image/*" > <!--accept="image/*" =  wildCard para image/x-png,image/gif,image/jpeg-->
+	           <label for="text-input"> Texto: </label><input type="text" id="text-input" class="text-input" maxlength="60">
+           </section>
+			<section class="meme-image-container" id="meme-image-container">
+				<img src="" class="meme-image" id="meme-image" alt="imageMeme">
+				<p class="meme-text" id="meme-text"></p>
+			</section>
 	</div>
-
-	<script src="script.js"></script>
-
-</body>
-
-<footer id="rodape"></footer>
+	</body>
+</html>
