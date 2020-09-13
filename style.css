@@ -35,8 +35,8 @@ input {
   font-size: 30px;
   height: 75px;
   left: 25px;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   position: absolute;
   right: 25px;
   text-shadow: 5px 5px 5px black;
@@ -45,7 +45,7 @@ input {
 }
 
 .meme-image {
-  background-image: url("./imgs/meme2.png");
+  background-image: url('./imgs/meme2.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
@@ -91,6 +91,7 @@ button {
 }
 
 aside img {
+  border: 1px solid black;
   margin: 8px;
   width: 100px;
 }
