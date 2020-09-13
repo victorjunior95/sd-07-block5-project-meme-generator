@@ -34,7 +34,7 @@
 
   /** fonte: https://developer.mozilla.org/en-US/docs/Web/API/File/Using_files_from_web_applications#Example_Using_object_URLs_to_display_images */
   chooseImage.addEventListener('change', function () {
-    for (let i = 0; i < this.files.length; i +=1 ) { // pesquisar de onde saiu esse files
+    for (let i = 0; i < this.files.length; i += 1) { // pesquisar de onde saiu esse files
       tagImg.src = URL.createObjectURL(this.files[i]);
       tagContainer.appendChild(tagImg);
     }
