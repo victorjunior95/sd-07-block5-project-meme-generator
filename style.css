@@ -1,31 +1,28 @@
 .container {
+    position: relative;
     background-color: white;
-    border: 1px solid black;
-    height: 500px;
     width: 500px;
-    display: inline-block;
+    height: 500px;
+    border:black 1px solid;
   }
   
   .meme-text {
-    color: white;
-    font-family: 'comic sans', sans-serif;
-    font-size: 30px;
-    height: 200px;
-    left: 50px;
     position: absolute;
+    width: 400px;
+    height: 400px; 
     text-align: center;
     text-shadow: 5px 5px 5px black;
-    width: 400px;
+    font-size: 30px;
+    color:white;
+    bottom: 0;
+    left: 50px;
+    z-index: 1;
+    font-family: 'comic sans', sans-serif;
   }
   
   .meme-image {
-    max-height: 500px;
-    max-width: 500px;
-  }
-
-  .estilos { 
+    position: relative;
+    background-color: white;
+    width: 500px;
     height: 500px;
-    width: 200px;
-    display: inline-block;
-    margin: 10px 0px 0px 20px;
   }
