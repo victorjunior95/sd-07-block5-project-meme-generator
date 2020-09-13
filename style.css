@@ -24,3 +24,21 @@
   top: 270px;
   width: 360px;
 }
+
+.container button {
+  display: inline-block;
+  height: 25px;
+  width: 100px;
+}
+
+button#fire {
+  background-color: red;
+}
+
+button#water {
+  background-color: blue;
+}
+
+button#earth {
+  background-color: green;
+}
