@@ -12,21 +12,21 @@
  const tagButtonEarth = document.getElementById('earth');
 
  tagButtonFire.addEventListener('click', function(){
-   tagContainer.style.border = "3px dashed rgb(255, 0, 0)";
-   tagContainer.style.boxShadow = "4px 4px 4px black";
-   tagContainer.style.backgroundColor = "rgb(255, 0, 0)";
+   tagContainer.style.border = '3px dashed rgb(255, 0, 0)';
+   tagContainer.style.boxShadow = '4px 4px 4px black';
+   tagContainer.style.backgroundColor = 'rgb(255, 0, 0)';
  });
 
  tagButtonWater.addEventListener('click', function(){
-  tagContainer.style.border = "5px double rgb(0, 0, 255)";
-  tagContainer.style.boxShadow = "4px 4px 4px black";
-  tagContainer.style.backgroundColor = "rgb(0, 0, 255)";
+  tagContainer.style.border = '5px double rgb(0, 0, 255)';
+  tagContainer.style.boxShadow = '4px 4px 4px black';
+  tagContainer.style.backgroundColor = 'rgb(0, 0, 255)';
 });
 
 tagButtonEarth .addEventListener('click', function(){
-  tagContainer.style.border = "6px groove rgb(0, 128, 0)";
-  tagContainer.style.boxShadow = "4px 4px 4px black";
-  tagContainer.style.backgroundColor = "rgb(0, 128, 0)";
+  tagContainer.style.border = '6px groove rgb(0, 128, 0)';
+  tagContainer.style.boxShadow = '4px 4px 4px black';
+  tagContainer.style.backgroundColor = 'rgb(0, 128, 0)';
 });
 
  tagText.addEventListener('keyup', function(){
@@ -50,21 +50,21 @@ tagButtonEarth .addEventListener('click', function(){
 
 
  tagMeme1.addEventListener('click', function(){
-  tagTextMeme.innerText = "Nossa! Muito engraçado!"
-  tagImg.src = "./imgs/meme1.png";
+  tagTextMeme.innerText = 'Nossa! Muito engraçado!'
+  tagImg.src = './imgs/meme1.png';
  });
 
  tagMeme2.addEventListener('click', function(){
-  tagTextMeme.innerText = "Juro que não vou rir!"
-  tagImg.src = "./imgs/meme2.png";
+  tagTextMeme.innerText = 'Juro que não vou rir!'
+  tagImg.src = './imgs/meme2.png';
  });
 
  tagMeme3.addEventListener('click', function(){
-  tagTextMeme.innerText = "Sai Satã! Chuta irmões, que é macumbra!"
-  tagImg.src = "./imgs/meme3.png";
+  tagTextMeme.innerText = 'Sai Satã! Chuta irmões, que é macumbra!'
+  tagImg.src = './imgs/meme3.png';
  });
 
  tagMeme4.addEventListener('click', function(){
-  tagTextMeme.innerText = "O que está olhando? Sou inocente!"
-  tagImg.src = "./imgs/meme4.png";
+  tagTextMeme.innerText = 'Não sei o que está acontecendo? Sou inocente!'
+  tagImg.src = './imgs/meme4.png';
  });
