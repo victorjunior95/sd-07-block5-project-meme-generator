@@ -5,26 +5,26 @@ document.querySelector('input#text-input').addEventListener('input', function() 
 
 //Changing the border.
 let containerBorder = document.querySelector('#meme-image-container');
+
+/*
+---Buttons
+--Fire
+--Water
+--Earth
+--Reset
+*/
 document.querySelector('#fire').addEventListener('click', function() {
-  if (containerBorder.classList.contains(/border/)) {
-    containerBorder.classList.remove(/border/);
-  }
-  
   containerBorder.style.border = '3px dashed red';
 });
 
 document.querySelector('#water').addEventListener('click', function() {
-  if (containerBorder.classList.contains(/border/)) {
-    containerBorder.classList.remove(/border/);
-  }
-
-  containerBorder.style.border = '5px double blue'
+  containerBorder.style.border = '5px double blue';
 });
 
 document.querySelector('#earth').addEventListener('click', function() {
-  if (containerBorder.classList.contains(/border/)) {
-    containerBorder.classList.remove(/border/);
-  }
-
   containerBorder.style.border = '6px groove green';
+});
+
+document.querySelector('#reset').addEventListener('click', function() {
+  containerBorder.style.border = '1px solid black';
 });
