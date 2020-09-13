@@ -1,5 +1,4 @@
- 
-function createReader () {
+ function createReader () {
     let headerPage = document.createElement('header')
     headerPage.className = 'head-class'
     document.body.appendChild(headerPage)
@@ -10,8 +9,8 @@ function createReader () {
     headerPage.appendChild(titleProject)
 }
 
-let nameNewDiv = ['textInputDiv', 'fileInputDiv', 'memeContainer']
-let nameClassNewDiv = ['div-input-text', 'div-input-text', 'meme-container']
+let nameNewDiv = ['textInputDiv', 'fileInputDiv', 'memeContainer', 'buttonDiv', 'memeMiniDiv']
+let nameClassNewDiv = ['div-input-text', 'div-input-text', 'meme-container', 'div-button', 'div-mini-meme']
 function createPageStructure (textInputDiv, nameClassDiv) {
     let sectionMain = document.createElement('section')
     sectionMain.className = 'main'
@@ -44,7 +43,7 @@ function createPageElements (divId) {
 
     let inputLabelFile = document.createElement('label')
     inputLabelFile.setAttribute('for', 'file-input')
-    inputLabelFile.innerHTML = 'Adicione a imagem: '
+    inputLabelFile.innerHTML = 'Inserir imagem: '
     divId[1].appendChild(inputLabelFile)
 
     let inputFileButton = document.createElement('input')
