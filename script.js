@@ -3,5 +3,5 @@ function getInput() {
   document.getElementById('meme-text').innerHTML = inputText.toUpperCase();
 }
 
-document.getElementById('text-input').addEventListener('change', getInput);
+document.getElementById('text-input').addEventListener('keyup', getInput);
 
