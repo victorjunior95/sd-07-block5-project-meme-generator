@@ -67,10 +67,26 @@ function createPageElementsImage(elementsForImage) {
   viewImage.setAttribute('src', 'https://picsum.photos/500/400');
   elementsForImage[2].appendChild(viewImage);
 }
+
+function createPageElementsButton(elementsForButton) {
+  const listIds = ['fire', 'water', 'earth'];
+  // const borderTypes = ['dashed', 'double', 'groove'];
+  // const pixelsBorder = [3, 5, 6];
+
+  for (let index = 0; index < listIds.length; index += 1) {
+    const newButton = document.createElement('button');
+    newButton.className = listIds[index];
+    newButton.setAttribute('id', listIds[index]);
+    newButton.innerText = listIds[index].toLocaleUpperCase();
+    elementsForButton[3].appendChild(newButton);
+  }
+}
+
 createReader();
 createPageStructure(nameNewDiv, nameClassNewDiv);
 createPageElementsText(nameNewDiv);
 createPageElementsImage(nameNewDiv);
+createPageElementsButton(nameNewDiv)
 
 function insertText() {
   const newTextInsert = document.querySelector('#text-input');
