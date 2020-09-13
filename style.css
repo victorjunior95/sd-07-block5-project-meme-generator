@@ -8,16 +8,16 @@ body{
     left: 230px;
     width: 600px;
 }
-.meme-text{
+#meme-text{
+    font-size: 30px;
     bottom: 0.1%;
     right: 15%;
     color: white;
-    font-size: 30px;
     position: absolute;
+    overflow-wrap: break-word;
     text-shadow: 5px 5px 5px black;
     top: 100px;
     left: 90px;
-    overflow-wrap: break-word;
 }
 
 .meme-image{
