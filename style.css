@@ -1,14 +1,29 @@
-body{
+body {
     background-color: #B0C4DE;
 }
-#container{
+
+#buttonStyles {
+    position: absolute;
+    left: 1px;
+    bottom: 10px;
+}
+
+#changeButtons {
+    position: absolute;
+    left: 410px;
+    top: 73px;
+    border: 1px black solid;
+}
+
+#container {
     position: absolute;
     height: 630px;
     background-color: #A9A9A9;
     left: 230px;
     width: 600px;
 }
-#meme-text{
+
+#meme-text {
     font-size: 30px;
     bottom: 0.1%;
     right: 15%;
@@ -20,8 +35,8 @@ body{
     left: 90px;
 }
 
-.meme-image{
-    background-color: rgb(95 , 75 , 102);
+.meme-image {
+    background-color: rgb(95, 75, 102);
     box-shadow: 0 0 3px white;
     float: left;
     margin-bottom: 100px;
@@ -30,27 +45,38 @@ body{
     width: 480px;
     left: 10px;
 }
+
 #inputs {
     position: absolute;
     top: 20px;
-    left: 40px;
+    left: 35px;
 }
 
-.meme-image-container{
+.meme-image-container {
     position: absolute;
     background-color: white;
     border: 1px black solid;
-    padding-top:1px ;
+    padding-top: 1px;
     width: 520px;
     height: 500px;
     margin-top: 10px;
     top: 100px;
     left: 40px;
 }
-#meme-image-container{
-    position: absolute;
 
+#meme-image-container {
+    position: absolute;
 }
 
+#water {
+    background-color: #00BFFF;
+}
 
+#earth {
+    background-color: #32CD32;
+}
+
+#fire {
+    background-color: #DC143C
+}
 
