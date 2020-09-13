@@ -1,0 +1,4 @@
+function frase () {
+
+    alert("teste");
+}
