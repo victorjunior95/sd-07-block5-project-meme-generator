@@ -62,10 +62,10 @@ window.onload = function(){
     }
 
     //imagens pré-carregadas
-      document.getElementById("meme-01").src = "imgs/meme1.jpg";
-      document.getElementById("meme-02").src = "imgs/meme2.jpg";
-      document.getElementById("meme-03").src = "imgs/meme3.jpg";
-      document.getElementById("meme-04").src = "imgs/meme4.jpg";
+      document.getElementById("meme-1").src = "imgs/meme1.jpg";
+      document.getElementById("meme-2").src = "imgs/meme2.jpg";
+      document.getElementById("meme-3").src = "imgs/meme3.jpg";
+      document.getElementById("meme-4").src = "imgs/meme4.jpg";
 
       let imgsClick = document.querySelectorAll("#memePronto>img");
 
