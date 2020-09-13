@@ -65,3 +65,9 @@ button{
 #earth{
   background-color:rgb(0, 128, 0);
 }
+
+.memes-prontos img{
+  margin: 10px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px #606060;
+}
