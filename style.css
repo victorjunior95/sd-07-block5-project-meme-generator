@@ -41,27 +41,27 @@ h1 {
 }
 
 .buttons {
+  color: white;
+  font-weight: 500;
   margin: 40px;
   padding: 10px;
   width: 80px;
-  color: white;
-  font-weight: 500;
 }
 
-#fire {
+.fire {
   background-color: red;
 }
 
-#water {
+.water {
   background-color: blue;
 }
 
-#earth {
+.earth {
   background-color: green;
 }
 
 .meme-example {
-  width: 250px;
   height: 160px;
   margin-left: 50px;
+  width: 250px;
 }

@@ -39,9 +39,8 @@ earthButton.addEventListener('click', function () {
 //  botoes de sugestão
 for (let index = 0; index < memeSuggestions.length; index += 1) {
   memeSuggestions[index].addEventListener('click', function () {
-    let suggestionId = `meme-${index + 1}`;
-    let suggestion = document.getElementById(suggestionId);
+    const suggestionId = `meme-${index + 1}`;
+    const suggestion = document.getElementById(suggestionId);
     memeImage.src = suggestion.src;
   });
 }
-
