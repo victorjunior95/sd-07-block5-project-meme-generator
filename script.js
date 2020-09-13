@@ -38,7 +38,7 @@ inpFile.addEventListener('change', function() {
 	}
 }) */
 
-inpText.addEventListener('change', function() {
+inpText.addEventListener('keyup', function() {
 	if(inpText.value) {
 		previewText.innerHTML = inpText.value
 	}
