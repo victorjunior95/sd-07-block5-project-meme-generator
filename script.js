@@ -5,6 +5,10 @@ const container = document.getElementById('meme-image-container');
 const fireButton = document.getElementById('fire');
 const waterButton = document.getElementById('water');
 const earthButton = document.getElementById('earth');
+const memeSuggestions = document.querySelectorAll('.meme-example');
+
+//  container
+const memeImage = document.getElementById('meme-image');
 
 //  escrevendo em meme-image-container
 textInput.addEventListener('keyup', function () {
@@ -12,9 +16,8 @@ textInput.addEventListener('keyup', function () {
   memeText.innerHTML = textInput.value;
 });
 
-//  colocando imagem em meme-image-container
+//  colocando imagem em meme-image-container (upload)
 memeInput.addEventListener('change', function (event) {
-  const memeImage = document.getElementById('meme-image');
   memeImage.src = URL.createObjectURL(event.target.files[0]);
 });
 
@@ -34,5 +37,11 @@ earthButton.addEventListener('click', function () {
 });
 
 //  botoes de sugestão
-
+for (let index = 0; index < memeSuggestions.length; index += 1) {
+  memeSuggestions[index].addEventListener('click', function () {
+    let suggestionId = `meme-${index + 1}`;
+    let suggestion = document.getElementById(suggestionId);
+    memeImage.src = suggestion.src;
+  });
+}
 
