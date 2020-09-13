@@ -42,14 +42,13 @@ main {
 
 button {
   color: white;
-  font-family: 'Sigmar One';
   height: 40px;
   margin: 10px;
   width: 100px;
 }
 
 .fire {
-  background-color:red;
+  background-color: red;
 }
 
 .water {
