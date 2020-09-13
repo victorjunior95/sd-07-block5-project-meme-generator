@@ -86,7 +86,7 @@ createReader();
 createPageStructure(nameNewDiv, nameClassNewDiv);
 createPageElementsText(nameNewDiv);
 createPageElementsImage(nameNewDiv);
-createPageElementsButton(nameNewDiv)
+createPageElementsButton(nameNewDiv);
 
 function insertText() {
   const newTextInsert = document.querySelector('#text-input');
@@ -112,3 +112,20 @@ function insertImage() {
 }
 insertText();
 insertImage();
+
+function alterBorderDivMeme() {
+  const getDivMeme = document.getElementById('meme-image-container');
+  document.body.addEventListener("click", function(event) {
+    if (event.target.nodeName === 'BUTTON') {
+      const buttonClicked = event.target.textContent.toLocaleLowerCase();
+      if (buttonClicked === 'fire') {
+        getDivMeme.style.border = '3px dashed red';
+      } else if (buttonClicked === 'water') {
+        getDivMeme.style.border = '5px double blue'
+      } else {
+        getDivMeme.style.border = '6px groove green'
+      }
+    }
+  });
+}
+alterBorderDivMeme()
