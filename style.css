@@ -107,6 +107,17 @@ button {
   background-color: rgb(0, 128 , 0);
 }
 
+.mini-image {
+  width: 55px;
+  height: 100px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.mini-image:hover {
+  border-radius: 100%;
+}
+
 /* lado direito */
 
 .meme-right {
