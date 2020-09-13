@@ -1,9 +1,3 @@
-.meme-image {
-  width: 700px;
-  height: 525px;
-  visibility: visible;
-}
-
 .meme-image-container {
   background-color:rgb(255, 255, 255);
   border: 1px solid rgb(0, 0, 0);
@@ -11,6 +5,12 @@
   height: 525px;
   margin: auto;
   justify-content: center;
+}
+
+.meme-image {
+  width: 100%;
+  height: 100%;
+  visibility: visible;
 }
 
 .meme-text {
