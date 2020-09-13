@@ -3,15 +3,15 @@ body {
 }
 
 h1 {
+	align-items: center;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
 .input {
-  position: relative;
-  left: 50%;
-  margin-left: -140px;
+	left: 50%;
+	margin-left: -140px;
+	position: relative;
 }
 
 .meme-image-container {
@@ -31,26 +31,26 @@ h1 {
 }
 
 .span-text {
-  position: absolute;
-  top: 50%;
+	margin-left: -62px;
   margin-top: -13px;
-  margin-left: -62px;
+  position: absolute;
+	top: 50%;
 }
 
 .meme-image {
   display: none;
-  width: 100%;
   max-height: 600px;
-  max-width: 600px;
+	max-width: 600px;
+	width: 100%;
 }
 
 .meme-text {
-  position: absolute;
-  bottom: 15px;
-  left: 50%;
-  transform: translateX(-50%);
-  color: white;
-  font-size: 30px;
+	bottom: 15px;
+	color: white;
+	font-size: 30px;
+	left: 50%;
+	position: absolute;
   text-shadow: 5px 5px 5px black;
+  transform: translateX(-50%);
   z-index: 5;
 }
