@@ -1,4 +1,4 @@
- /**Idéia retirada de: https://developer.mozilla.org/en-US/docs/Web/API/File/Using_files_from_web_applications#Example_Using_object_URLs_to_display_images */
+ /** Idéia retirada de: https://developer.mozilla.org/en-US/docs/Web/API/File/Using_files_from_web_applications#Example_Using_object_URLs_to_display_images */
 
 
  const chooseImage = document.getElementById('meme-insert');
@@ -33,6 +33,7 @@ tagButtonEarth .addEventListener('click', function(){
   tagTextMeme.innerText = tagText.value;
  });
 
+  /** fonte: https://developer.mozilla.org/en-US/docs/Web/API/File/Using_files_from_web_applications#Example_Using_object_URLs_to_display_images */
  chooseImage.addEventListener('change', function () {
 
    for (let i = 0; i < this.files.length; i++) { // pesquisar de onde saiu esse files
