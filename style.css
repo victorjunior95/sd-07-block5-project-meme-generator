@@ -2,6 +2,7 @@ body {
   background-color: rgb(253 , 251 , 251);
   font-family: Arial, Helvetica, sans-serif;
 }
+
 header {
   background-color: cyan;
   color: rgba(91 , 100 , 107 , 0.9);
@@ -14,6 +15,7 @@ header {
   width: 100%;
   z-index: 2;
 }
+
 .form-input {
   margin-top: 80px;
   position: relative;
@@ -23,9 +25,11 @@ header {
   height: 15px;
   width: 400px;
 }
+
 .memecreation {
   text-align: center;
 }
+
 .memecreation .box {
   background-color: white;
   border: 1px solid black;
@@ -35,10 +39,12 @@ header {
   position: relative;
   width: 300px;
 }
+
 .memecreation .box img {
   height: 300px;
   width: 300px;
 }
+
 .memecreation .box p {
   bottom: 10%;
   color: white;
@@ -47,10 +53,12 @@ header {
   position: absolute;
   text-shadow: 5px 5px 5px black;
 }
+
 .buttoncreation {
   margin-top: 10px;
   text-align: center;
 }
+
 .buttoncreation .button-fire {
   background-color: red;
   color: white;
@@ -59,6 +67,7 @@ header {
   margin-right: 35px;
   padding: 05px;
 }
+
 .buttoncreation .button-water {
   background-color: blue;
   color: white;
@@ -67,6 +76,7 @@ header {
   margin-right: 35px;
   padding: 05px;
 }
+
 .buttoncreation .button-earth {
   background-color: green;
   color: white;
@@ -75,12 +85,14 @@ header {
   margin-right: 20px;
   padding: 05px;
 }
+
 .center {
-  margin-top: 10px;
   margin-left: 60px;
+  margin-top: 10px;
   text-align: center;
 }
-.center .picture { 
+
+.center .picture {
   display: inline-block;
   height: 80px;
   margin-right: 70px;
