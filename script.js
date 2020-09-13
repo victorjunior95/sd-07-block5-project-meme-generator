@@ -1,4 +1,4 @@
- function createReader () {
+function createReader () {
     let headerPage = document.createElement('header')
     headerPage.className = 'head-class'
     document.body.appendChild(headerPage)
@@ -29,43 +29,47 @@ function createPageStructure (textInputDiv, nameClassDiv) {
         }
     }
 }
-function createPageElements (divId) {  
+
+function createPageElementsText (elementsForText) {  
     let inputLabelText = document.createElement('label')
     inputLabelText.setAttribute('for', 'text-input')
     inputLabelText.innerHTML = 'Insira o texto: '
-    divId[0].appendChild(inputLabelText)
+    elementsForText[0].appendChild(inputLabelText)
 
     let inputText = document.createElement('input')
     inputText.setAttribute('id', 'text-input')
     inputText.setAttribute('type', 'text')
     inputText.setAttribute('maxlength', 60)
-    divId[0].appendChild(inputText)
-
-    let inputLabelFile = document.createElement('label')
-    inputLabelFile.setAttribute('for', 'file-input')
-    inputLabelFile.innerHTML = 'Inserir imagem: '
-    divId[1].appendChild(inputLabelFile)
-
-    let inputFileButton = document.createElement('input')
-    inputFileButton.setAttribute('id', 'meme-insert')
-    inputFileButton.setAttribute('type', 'file')
-    divId[1].appendChild(inputFileButton)
-
-    let viewImage = document.createElement('img')
-    viewImage.className = 'meme-image'
-    viewImage.setAttribute('id', 'meme-image')
-    viewImage.setAttribute('src', 'https://picsum.photos/500/400')
-    divId[2].appendChild(viewImage)
+    elementsForText[0].appendChild(inputText)
 
     let textImage = document.createElement('p')
     textImage.className = "meme-text"
     textImage.setAttribute('id', 'meme-text')
     textImage.innerText = 'Texto do MEME!'
-    divId[2].appendChild(textImage)
+    elementsForText[2].appendChild(textImage)
+}
+
+function createPageElementsImage (elementsForImage) { 
+    let inputLabelFile = document.createElement('label')
+    inputLabelFile.setAttribute('for', 'file-input')
+    inputLabelFile.innerHTML = 'Inserir imagem: '
+    elementsForImage[1].appendChild(inputLabelFile)
+
+    let inputFileButton = document.createElement('input')
+    inputFileButton.setAttribute('id', 'meme-insert')
+    inputFileButton.setAttribute('type', 'file')
+    elementsForImage[1].appendChild(inputFileButton)
+
+    let viewImage = document.createElement('img')
+    viewImage.className = 'meme-image'
+    viewImage.setAttribute('id', 'meme-image')
+    viewImage.setAttribute('src', 'https://picsum.photos/500/400')
+    elementsForImage[2].appendChild(viewImage)
 }
 createReader()
 createPageStructure(nameNewDiv, nameClassNewDiv)
-createPageElements(nameNewDiv)
+createPageElementsText(nameNewDiv)
+createPageElementsImage(nameNewDiv)
 
 function insertText () {
     const newTextInsert = document.querySelector('#text-input')
