@@ -125,6 +125,5 @@ window.onload = () => {
     borderEarth ()
     Reset ()
     catchImageMemes ()
-    loadImage ()
     cathFile ()
 };
