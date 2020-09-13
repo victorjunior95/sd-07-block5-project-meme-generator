@@ -8,16 +8,13 @@
   
   .meme-text {
     position: absolute;
-    width: 400px;
-    height: 400px; 
-    text-align: center;
     text-shadow: 5px 5px 5px black;
     font-size: 30px;
     color:white;
-    bottom: 0;
-    left: 50px;
     z-index: 1;
     font-family: 'comic sans', sans-serif;
+    top: 400px;
+    max-width: 490px;
   }
   
   .meme-image {
