@@ -4,7 +4,7 @@ let previewText = document.querySelector('#meme-text')
 let inpFile = document.querySelector('#meme-insert')
 let memeContainer = document.querySelector('#meme-image-container')
 let previewImage = memeContainer.querySelector('#meme-image')
-let spanText = memeContainer.querySelector('#span-text')
+let spanText = memeContainer.querySelector('.span-text')
 
 inpFile.addEventListener('change', function() {
 	if (this.files && this.files[0]) {
