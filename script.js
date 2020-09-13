@@ -7,19 +7,19 @@ inputText.addEventListener('keyup', function(){
   document.querySelector('#meme-text').innerText = inputText.value;
 });
 
-document.querySelector('#meme-1').addEventListener("click", function(event){
+document.querySelector('#meme-1').addEventListener('click', function(event){
   image.src = event.target.src;
 });
 
-document.querySelector('#meme-2').addEventListener("click", function(event){
+document.querySelector('#meme-2').addEventListener('click', function(event){
   image.src = event.target.src;
 });
 
-document.querySelector('#meme-3').addEventListener("click", function(event){
+document.querySelector('#meme-3').addEventListener('click', function(event){
   image.src = event.target.src;
 });
 
-document.querySelector('#meme-4').addEventListener("click", function(event){
+document.querySelector('#meme-4').addEventListener('click', function(event){
   image.src = event.target.src;
 });
 
