@@ -16,19 +16,11 @@
   <br>
   <form>
     <label for="meme-insert">
-      <input name="meme-insert" type="text" id="meme-insert" ></input>
+      <input type="file" id="meme-insert" src="" accept="imgs/*">
     </label>
-    <br>
-    <input type="file" id="meme-insert" name="meme"multiple accept="image/*" style="display:none">
-    <br>
-    <a href="#" id="fileSelect">Select some files</a> 
-    <div id="fileList">
-    <p>No files selected!</p>
-</div>
   </form>
-
   <div id="meme-image-container" class="container">
-    <div id="meme-text" class="custom-text"></div>
+    <p id="meme-text" class="custom-text"></p>
     <img id="meme-image" src="" class="custom-img">
   </div>
   <br>

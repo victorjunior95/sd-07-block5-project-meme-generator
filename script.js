@@ -7,7 +7,7 @@ function inputText () {
 }
 
 //MDN https://developer.mozilla.org/en-US/docs/Web/API/File/Using_files_from_web_applications 
-const fileSelect = document.getElementById("meme-insert"),
+/*const fileSelect = document.getElementById("meme-insert"),
     fileElem = document.getElementById("fileElem"),
     fileList = document.getElementById("fileList");
 
@@ -46,44 +46,36 @@ function handleFiles() {
     }
   }
 }
-
+*/
 function borderRed () {
     const buttonFire = document.querySelector('#fire')
     const memeImageContainer = document.querySelector('#meme-image-container');
-    const memeImage = document.querySelector('#meme-image');
     buttonFire.addEventListener('click', () => {
     memeImageContainer.style.border = '3px dashed red';
-    memeImage.style.border = '3px dashed red';
     });
 }
 
 function borderWater () {
     const buttonWater = document.querySelector('#water')
     const memeImageContainer = document.querySelector('#meme-image-container');
-    const memeImage = document.querySelector('#meme-image');
     buttonWater.addEventListener('click', () => {
     memeImageContainer.style.border = '5px double blue';
-    memeImage.style.border = '5px double blue'
     });
 }
 
 function borderEarth () {
     const buttonEarth = document.querySelector('#earth')
     const memeImageContainer = document.querySelector('#meme-image-container');
-    const memeImage = document.querySelector('#meme-image');
     buttonEarth.addEventListener('click', () => {
     memeImageContainer.style.border = '6px groove green';
-    memeImage.style.border = '6px groove green'
     });
 }
 
 function Reset () {
   const buttonReset = document.querySelector('#reset')
   const memeImageContainer = document.querySelector('#meme-image-container');
-  const memeImage = document.querySelector('#meme-image');
   buttonReset.addEventListener('click', () => {
   memeImageContainer.style.border = '1px solid black';
-  memeImage.style.border = '1px solid black';
   })
 }
 
@@ -92,7 +84,7 @@ function catchImageMemes () {
   const catchMeme2 = document.querySelector('#meme-2');
   const catchMeme3 = document.querySelector('#meme-3');
   const catchMeme4 = document.querySelector('#meme-4');
-  const catchImageMeme = document.querySelector('#meme-image');
+  const catchImageMeme = document.querySelector('#meme-image-container');
   catchMeme1.addEventListener('click', function(){
   catchImageMeme.style.backgroundImage = "url('./imgs/meme1.png')";
   catchImageMeme.style.backgroundSize = "cover"
