@@ -8,7 +8,7 @@ let loadFile = function (event) { // Function taken from: https://stackoverflow.
 
 let textFill = document.getElementById('text-input');
 let text = document.getElementById('meme-text');
-textFill.addEventListener('change', function () {
+textFill.addEventListener('keyup', function () {
     text.innerText = textFill.value;
 });
 
