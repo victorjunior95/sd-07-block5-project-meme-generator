@@ -38,7 +38,7 @@ function createPageElementsText(elementsForText) {
   elementsForText[0].appendChild(inputLabelText);
 
   const inputText = document.createElement('input');
-  insertText.className = 'text-input';
+  inputText.className = 'text-input';
   inputText.setAttribute('id', 'text-input');
   inputText.setAttribute('type', 'text');
   inputText.setAttribute('maxlength', 60);
@@ -58,6 +58,7 @@ function createPageElementsImage(elementsForImage) {
   elementsForImage[1].appendChild(inputLabelFile);
 
   const inputFileButton = document.createElement('input');
+  inputFileButton.className = 'meme-insert-class'
   inputFileButton.setAttribute('id', 'meme-insert');
   inputFileButton.setAttribute('type', 'file');
   elementsForImage[1].appendChild(inputFileButton);
@@ -71,8 +72,6 @@ function createPageElementsImage(elementsForImage) {
 
 function createPageElementsButton(elementsForButton) {
   const listIds = ['fire', 'water', 'earth'];
-  // const borderTypes = ['dashed', 'double', 'groove'];
-  // const pixelsBorder = [3, 5, 6];
 
   for (let index = 0; index < listIds.length; index += 1) {
     const newButton = document.createElement('button');
