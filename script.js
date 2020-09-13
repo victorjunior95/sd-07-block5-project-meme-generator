@@ -3,7 +3,7 @@ function createReader() {
   headerPage.className = 'head-class';
   document.body.appendChild(headerPage);
 
-  const titleProject = document.createElement('h1')
+  const titleProject = document.createElement('h1');
   titleProject.innerHTML = 'MEME GENERATOR';
   titleProject.className = 'title';
   headerPage.appendChild(titleProject);
@@ -15,7 +15,7 @@ const nameClassNewDiv = ['div-input-text', 'div-input-text', 'meme-container', '
 function createPageStructure(textInputDiv, nameClassDiv) {
   const sectionMain = document.createElement('section');
   sectionMain.className = 'main';
-  document.body.appendChild(sectionMain)
+  document.body.appendChild(sectionMain);
 
   for (let index = 0; index < textInputDiv.length; index += 1) {
     if (textInputDiv[index] === 'memeContainer') {
@@ -33,66 +33,66 @@ function createPageStructure(textInputDiv, nameClassDiv) {
 
 function createPageElementsText(elementsForText) {
   const inputLabelText = document.createElement('label')
-  inputLabelText.setAttribute('for', 'text-input')
-  inputLabelText.innerHTML = 'Insira o texto: '
-  elementsForText[0].appendChild(inputLabelText)
+  inputLabelText.setAttribute('for', 'text-input');
+  inputLabelText.innerHTML = 'Insira o texto: ';
+  elementsForText[0].appendChild(inputLabelText);
 
-  const inputText = document.createElement('input')
-  inputText.setAttribute('id', 'text-input')
-  inputText.setAttribute('type', 'text')
-  inputText.setAttribute('maxlength', 60)
-  elementsForText[0].appendChild(inputText)
+  const inputText = document.createElement('input');
+  inputText.setAttribute('id', 'text-input');
+  inputText.setAttribute('type', 'text');
+  inputText.setAttribute('maxlength', 60);
+  elementsForText[0].appendChild(inputText);
 
-  const textImage = document.createElement('p')
-  textImage.className = "meme-text"
-  textImage.setAttribute('id', 'meme-text')
-  textImage.innerText = 'Texto do MEME!'
-  elementsForText[2].appendChild(textImage)
+  const textImage = document.createElement('p');
+  textImage.className = 'meme-text';
+  textImage.setAttribute('id', 'meme-text');
+  textImage.innerText = 'Texto do MEME!';
+  elementsForText[2].appendChild(textImage);
 }
 
-function createPageElementsImage (elementsForImage) {
-  const inputLabelFile = document.createElement('label')
-  inputLabelFile.setAttribute('for', 'file-input')
-  inputLabelFile.innerHTML = 'Inserir imagem: '
-  elementsForImage[1].appendChild(inputLabelFile)
+function createPageElementsImage(elementsForImage) {
+  const inputLabelFile = document.createElement('label');
+  inputLabelFile.setAttribute('for', 'file-input');
+  inputLabelFile.innerHTML = 'Inserir imagem: ';
+  elementsForImage[1].appendChild(inputLabelFile);
 
-  const inputFileButton = document.createElement('input')
-  inputFileButton.setAttribute('id', 'meme-insert')
-  inputFileButton.setAttribute('type', 'file')
-  elementsForImage[1].appendChild(inputFileButton)
+  const inputFileButton = document.createElement('input');
+  inputFileButton.setAttribute('id', 'meme-insert');
+  inputFileButton.setAttribute('type', 'file');
+  elementsForImage[1].appendChild(inputFileButton);
 
-  const viewImage = document.createElement('img')
-  viewImage.className = 'meme-image'
-  viewImage.setAttribute('id', 'meme-image')
-  viewImage.setAttribute('src', 'https://picsum.photos/500/400')
-  elementsForImage[2].appendChild(viewImage)
+  const viewImage = document.createElement('img');
+  viewImage.className = 'meme-image';
+  viewImage.setAttribute('id', 'meme-image');
+  viewImage.setAttribute('src', 'https://picsum.photos/500/400');
+  elementsForImage[2].appendChild(viewImage);
 }
-createReader()
-createPageStructure(nameNewDiv, nameClassNewDiv)
-createPageElementsText(nameNewDiv)
-createPageElementsImage(nameNewDiv)
+createReader();
+createPageStructure(nameNewDiv, nameClassNewDiv);
+createPageElementsText(nameNewDiv);
+createPageElementsImage(nameNewDiv);
 
-function insertText () {
+function insertText() {
   const newTextInsert = document.querySelector('#text-input')
   newTextInsert.addEventListener('input', function () {
     if (newTextInsert.value.length <= 60) {
-      let pushText = document.querySelector('#meme-text')
-      pushText.innerText = newTextInsert.value
+      const pushText = document.querySelector('#meme-text');
+      pushText.innerText = newTextInsert.value;
     }
   })
 }
 
-function insertImage () {
-  const viewImageInsert = document.getElementById('meme-image')
-  const newImageInsert = document.getElementById('meme-insert')
+function insertImage() {
+  const viewImageInsert = document.getElementById('meme-image');
+  const newImageInsert = document.getElementById('meme-insert');
   newImageInsert.addEventListener('change', function (event) {
   // URL.createObjectURL() = Adicionar a referência ao Ojeto do arquivo
-  viewImageInsert.src = URL.createObjectURL(event.target.files[0])
-  viewImageInsert.onload = function () {
+    viewImageInsert.src = URL.createObjectURL(event.target.files[0])
+    viewImageInsert.onload = function () {
   // Remover a referência ao arquivo - Verificar real necessidade
-  URL.revokeObjectURL(viewImageInsert.src);
-  }
-})
+    URL.revokeObjectURL(viewImageInsert.src);
+  };
+});
 }
-insertText()
-insertImage()
+insertText();
+insertImage();
