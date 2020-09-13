@@ -10,3 +10,12 @@ window.onload = function() {
 
  
 }
+
+
+function trocarImg(event){
+    const imagem = document.getElementById('meme-image');
+    imagem.src = URL.createObjectURL(event.target.files[0]);
+
+}
+let recebeImg = document.querySelector("#meme-insert")
+recebeImg.addEventListener("input",trocarImg)

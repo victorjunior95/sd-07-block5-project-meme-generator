@@ -58,7 +58,7 @@ h2{
   padding: 20px;
 }
     
-#entradaImagens{
+#entradaImagem {
   color:white;
   font-style: normal;
   font-family: Courier, "Lucida Console", monospace;
@@ -81,4 +81,11 @@ h2{
   font-style: normal;
   font-family: Courier, "Lucida Console", monospace; 
   text-align: center;
+}
+
+#meme-image{
+  width: 700px;
+  left: 550px;
+  height: 500px;
+
 }
