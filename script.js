@@ -39,30 +39,8 @@ buttonBrown.addEventListener('click', changeBorderEarh);
 // FUNCTION FOR PRE-IMAGES
 const preImgs = document.querySelectorAll('.miniatureImg');
 
-// preImgs[0].addEventListener('click', function () {
-//   img.src = preImgs[0].src;
-// });
-
-// preImgs[1].addEventListener('click', function () {
-//   img.src = preImgs[1].src;
-// });
-
-// preImgs[2].addEventListener('click', function () {
-//   img.src = preImgs[2].src;
-// });
-
-// preImgs[3].addEventListener('click', function () {
-//   img.src = preImgs[3].src;
-// });
-
-// preImgs[4].addEventListener('click', function () {
-//   img.src = preImgs[4].src;
-// });
-
-
-
 for (let i = 0; i < preImgs.length; i += 1) {
-  preImgs[i].addEventListener('click',function () {
+  preImgs[i].addEventListener('click', function () {
     img.src = preImgs[i].src;
   });
 }
