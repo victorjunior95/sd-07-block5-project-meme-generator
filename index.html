@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=dev  ice-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Meme Generator</title>
+</head>
+<body>
+  <header>
+    <h1>Meme Generator</h1>
+  </header>
+  <section>
+    <div id="options-div" class="options-div">
+      <div id="options">
+        <label>Texto: </label>
+        <input type="text" id="text-input" class="text-input" placeholder="Digite aqui" size="53" maxlength="60">
+        <br>
+        <label>Imagens pré-selecionadas: </label>
+        <input type="button" value="Dwight" id="dwight">
+        <input type="button" value="Jim" id="jim">
+        <input type="button" value="Michael" id="michael">
+        <input type="button" value="Handshake" id="handshake">
+        <br>
+        <label>Faça upload de sua imagem </label>
+        <input type="file" name="upload" id="meme-insert">
+        <br>
+        <label>Alterar bordas: </label>
+        <input type="button" value="Pontilhada" id="dotted-border">
+        <input type="button" value="Tracejada" id="dashed-border">
+        <input type="button" value="Dupla" id="double-border">
+      </div>
+    </div>
+    <br>
+    <div id="meme-image-container" class="meme-image-container">
+      <img id="meme-image" class="meme-image" src="" alt="">
+      <div id="meme-text" class="meme-text"></div>      
+    </div>  
+  </section>
+  <br>
+  <footer>&copy;Thays Costa | Trybe</footer>
+  <script src="script.js"></script>
+</body>
+</html>
