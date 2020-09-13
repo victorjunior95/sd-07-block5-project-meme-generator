@@ -1,18 +1,7 @@
-window.onload = function () {
-  function getText() {
-    const textInput = document.getElementById('text-input').value;
-    const memeText = document.getElementById('meme-text');
-    memeText.innerText = textInput.toUpperCase();
-  }
+function getInput() {
+  const inputText = document.getElementById('text-input').value;
+  document.getElementById('meme-text').innerHTML = inputText.toUpperCase();
+}
 
-  const userText = document.getElementById('text-input');
-  userText.addEventListener('keypress', getText);
+document.getElementById('text-input').addEventListener('change', getInput);
 
-  function getImage(event) {
-    const memeImage = document.getElementById('meme-image');
-    memeImage.src = URL.createObjectURL(event.target.files[0]);
-  }
-
-  const memeInsert = document.getElementById('meme-insert');
-  memeInsert.addEventListener('change', getImage);
-};
