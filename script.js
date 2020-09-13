@@ -8,35 +8,35 @@ inputText.addEventListener("keyup", function(){
 
 let image = document.querySelector("#meme-image");
 
-document.querySelector("#dwight").addEventListener("click", function(){
-  image.src = "Dwight.jpg";
+document.querySelector("#meme-1").addEventListener("click", function(){
+  image.src = "./imgs/meme-1.png";
 });
 
-document.querySelector("#jim").addEventListener("click", function(){
-  image.src = "Jim.jpg";
+document.querySelector("#meme-2").addEventListener("click", function(){
+  image.src = "./imgs/meme-2.png";
 })
 
-document.querySelector("#michael").addEventListener("click", function(){
-  image.src = "Michael.jpg";
+document.querySelector("#meme-3").addEventListener("click", function(){
+  image.src = "./imgs/meme-3.png";
 });
 
-document.querySelector("#handshake").addEventListener("click", function(){
-  image.src = "handshake.jpg";
+document.querySelector("#meme-4").addEventListener("click", function(){
+  image.src = "./imgs/meme-4.png";
 });
 
 inputImage.addEventListener('input', () => {
   image.src = URL.createObjectURL(inputImage.files[0]);
 });
 
-document.querySelector("#dotted-border").addEventListener("click", function(){
-  containerBorder.style.border = "dotted"; 
+document.querySelector("#fire").addEventListener("click", function(){
+  containerBorder.style.border = "dashed 3px red"; 
 })
 
-document.querySelector("#dashed-border").addEventListener("click", function(){
-  containerBorder.style.border = "dashed";
+document.querySelector("#water").addEventListener("click", function(){
+  containerBorder.style.border = "double 5px blue";
 })
 
-document.querySelector("#double-border").addEventListener("click", function(){
-  containerBorder.style.border = "double";
+document.querySelector("#earth").addEventListener("click", function(){
+  containerBorder.style.border = "groove 6px green";
 })
 
