@@ -47,5 +47,5 @@ buttonWater.addEventListener('click', function() {
 let buttonEarth = document.querySelector('#earth');
 
 buttonEarth.addEventListener('click', function() {
-  container.style.border = '6px groove rgb(0 , 255 , 0)';
+  container.style.border = '6px groove rgb(0 , 128 , 0)';
 });
