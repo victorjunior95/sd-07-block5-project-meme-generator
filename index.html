@@ -17,7 +17,7 @@
       <img class="header-right-svg" src="imgs/queijo.svg" alt="queijo" />
     </header>
     <div class="top-center-content">
-      <h2>Digite aqui o texto a ser inserido no meme:</h2>
+      <h2>Texto a ser inserido no meme:</h2>
       <input
         type="text"
         name="text-input"
@@ -28,11 +28,13 @@
     </div>
     <div class="main-content">
       <div class="input-content">
-        <input
-          type="file"
-          accept="image/*"
-          id="meme-insert"
-        />
+        <label class="button input-file-button">
+          Selecionar imagem<input
+            type="file"
+            accept="image/*"
+            id="meme-insert"
+          />
+        </label>
       </div>
       <div id="meme-image-container" class="meme-image-container">
         <div id="meme-text" class="meme-text"></div>
@@ -41,6 +43,12 @@
           class="meme-image"
           src="https://picsum.photos/400/400"
         />
+      </div>
+      <h3>Selecione um estilo de borda:</h3>
+      <div id="divBorderButtons" class="div-border-buttons">
+        <button id="btnFire" class="button btn-fire">Fogo</button>
+        <button id="btnWater" class="button btn-water">Água</button>
+        <button id="btnEarth" class="button btn-earth">Terra</button>
       </div>
     </div>
     <script src="./script.js"></script>
