@@ -13,16 +13,21 @@
     </header>
     
     <section class="second-class">
-        <form>
-            <div>Insira seu texto aqui: <input type="text" id="text-input" maxlength="60"></div>
-            <div>Selecione sua imagem: <input type="file" id="meme-insert" accept="image/*" onchange="fileImag(event)"></div>
-        </form>
+        <div>
+            Insira seu texto aqui: <input type="text" id="text-input" maxlength="60">
+        </div>
+       <div>
+           Selecione sua imagem: <input type="file" id="meme-insert" accept="image/*" onchange="fileImag(event)">
+        </div>
+    
             
         
-        <div id="meme-image-container" class="meme-container">
-            <div id="meme-text">texto para colocar em cima da img</div>
+        <section id="meme-image-container" class="meme-container">
+            <div id="meme-text">            
+                texto para colocar em cima da img
+            </div>
             <img id="meme-image" src="" alt="imagem do meme"/>
-        </div>
+        </section>
     </section>
     <footer>
         @Trybe - Realizado por EMoonlit
