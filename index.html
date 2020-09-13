@@ -8,16 +8,15 @@
 </head>
 <body>
     <h1>Meme Generator</h1>
-  <section>
-      <input type="text" id="text-input" maxlength="60"></input>
- </section>
-  <form>
-    <label for="meme-insert">
+ <div>
+   <h2>Digite o seu texto</h2> 
+    <input type="text" id="text-input" maxlength="60"></input>
+  </div>
+  <div>
       <input type="file" id="meme-insert" src="" accept="imgs/*">
-    </label>
-  </form>
+  </div>
   <div id="meme-image-container" class="container">
-    <p id="meme-text" class="custom-text"></p>
+    <div id="meme-text" class="custom-text"> </div>
     <img id="meme-image" src="" class="custom-img">
   </div>
   <br>
