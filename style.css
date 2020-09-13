@@ -8,6 +8,16 @@ body{
     left: 230px;
     width: 600px;
 }
+.meme-image{
+    background-color: rgb(95 , 75 , 102);
+    box-shadow: 0 0 3px white;
+    float: left;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    padding: 20px;
+    width: 480px;
+    left: 10px;
+}
 #inputs{
     position: absolute;
     top: 50px;
