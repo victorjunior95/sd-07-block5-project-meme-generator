@@ -15,7 +15,7 @@ function loadFile(event) {
                         </img>`;
 }
 
-function borderStyle(color , style , width) {
+function borderStyle(color, style, width) {
   // Coptura o elemento onde deverá ser inserido a borda
   const image = document.getElementById('meme-image-container');
   image.style.borderColor = color;
@@ -32,19 +32,19 @@ function borderChange() {
 
   // Adicionando as escutas
   air.addEventListener('click', function () {
-    borderStyle('black' , 'solid' , '1px');
+    borderStyle('black', 'solid', '1px');
   });
 
   fire.addEventListener('click', function () {
-    borderStyle('red' , 'dashed' , '3px');
+    borderStyle('red', 'dashed', '3px');
   });
 
   water.addEventListener('click', function () {
-    borderStyle('blue' , 'double' , '5px');
+    borderStyle('blue', 'double', '5px');
   });
 
   earth.addEventListener('click', function () {
-    borderStyle('green' , 'groove' , '6px');
+    borderStyle('green', 'groove', '6px');
   });
 }
 
@@ -111,4 +111,4 @@ window.onload = function () {
   imageChange();
 
   borderChange();
-}
+};

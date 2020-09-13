@@ -59,19 +59,19 @@ button {
   padding: 0;
 }
 
-button-air {
+.button-air {
   background-color: white;
 }
 
-button-fire {
+.button-fire {
   background-color: red;
 }
 
-button-water {
+.button-water {
   background-color: blue;
 }
 
-button-earth {
+.button-earth {
   background-color: green;
 }
 
