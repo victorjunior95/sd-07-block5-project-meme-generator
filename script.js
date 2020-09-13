@@ -46,16 +46,19 @@ let water = document.getElementById('water');
 water.addEventListener('click', function() {
     let imagem = document.getElementById('meme-image-container');
     imagem.style.border = "5px double rgb(0, 0, 255)";
+    imagem.style.backgroundColor = "rgb(0, 0, 255)";
 })
 
 let earth = document.getElementById('earth');
 earth.addEventListener('click', function() {
     let imagem = document.getElementById('meme-image-container');
     imagem.style.border = "6px groove rgb(0, 255, 0)";
+    imagem.style.backgroundColor = "rgb(0, 128, 0)";
 })
 
 let clear = document.getElementById('clear');
 clear.addEventListener('click', function(){
     let imagem = document.getElementById('meme-image-container');
     imagem.style.border = "1px solid rgb(0, 0, 0)";
+    imagem.style.backgroundColor = "rgb(255, 255, 255)"
 })
