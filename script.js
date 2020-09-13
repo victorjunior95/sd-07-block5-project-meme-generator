@@ -32,7 +32,7 @@ function createPageStructure(textInputDiv, nameClassDiv) {
 }
 
 function createPageElementsText(elementsForText) {
-  const inputLabelText = document.createElement('label')
+  const inputLabelText = document.createElement('label');
   inputLabelText.setAttribute('for', 'text-input');
   inputLabelText.innerHTML = 'Insira o texto: ';
   elementsForText[0].appendChild(inputLabelText);
@@ -73,13 +73,13 @@ createPageElementsText(nameNewDiv);
 createPageElementsImage(nameNewDiv);
 
 function insertText() {
-  const newTextInsert = document.querySelector('#text-input')
+  const newTextInsert = document.querySelector('#text-input');
   newTextInsert.addEventListener('input', function () {
     if (newTextInsert.value.length <= 60) {
       const pushText = document.querySelector('#meme-text');
       pushText.innerText = newTextInsert.value;
     }
-  })
+  });
 }
 
 function insertImage() {
@@ -87,12 +87,12 @@ function insertImage() {
   const newImageInsert = document.getElementById('meme-insert');
   newImageInsert.addEventListener('change', function (event) {
   // URL.createObjectURL() = Adicionar a referência ao Ojeto do arquivo
-    viewImageInsert.src = URL.createObjectURL(event.target.files[0])
+    viewImageInsert.src = URL.createObjectURL(event.target.files[0]);
     viewImageInsert.onload = function () {
   // Remover a referência ao arquivo - Verificar real necessidade
-    URL.revokeObjectURL(viewImageInsert.src);
-  };
-});
+      URL.revokeObjectURL(viewImageInsert.src);
+    };
+  });
 }
 insertText();
 insertImage();
