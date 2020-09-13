@@ -58,7 +58,7 @@ function createPageElementsImage(elementsForImage) {
   elementsForImage[1].appendChild(inputLabelFile);
 
   const inputFileButton = document.createElement('input');
-  inputFileButton.className = 'meme-insert-class'
+  inputFileButton.className = 'meme-insert-class';
   inputFileButton.setAttribute('id', 'meme-insert');
   inputFileButton.setAttribute('type', 'file');
   elementsForImage[1].appendChild(inputFileButton);
