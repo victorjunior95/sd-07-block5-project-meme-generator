@@ -126,7 +126,7 @@ function alterMainBorderAndImage() {
       } else {
         getDivMeme.style.border = '6px groove green';
       }
-    } else if (event.target.nodeName == 'IMG') {
+    } else if (event.target.nodeName === 'IMG') {
       viewImageMain.src = event.target.alt;
     }
   });
@@ -137,13 +137,12 @@ function createPageElementsMiniatures() {
   const aside = document.createElement('aside');
   aside.className = 'aside-class';
   document.body.appendChild(aside);
-  
-  for (let index = 1; index <= 4; index +=1) {
+  for (let index = 1; index <= 4; index += 1) {
     const imgMiniature = document.createElement('img');
-    imgMiniature.className = 'miniature-img'
-    imgMiniature.setAttribute('id', 'meme-' + index);
-    imgMiniature.setAttribute('src', 'imgs/meme'+index+'.png');
-    imgMiniature.setAttribute('alt', 'imgs/meme'+index+'.png');
+    imgMiniature.className = 'miniature-img';
+    imgMiniature.setAttribute('id', `meme-${index}`);
+    imgMiniature.setAttribute('src', `imgs/meme${index}.png`);
+    imgMiniature.setAttribute('alt', `imgs/meme${index}.png`);
     aside.appendChild(imgMiniature);
   }
 }
