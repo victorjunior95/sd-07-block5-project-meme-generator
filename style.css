@@ -22,7 +22,6 @@ body {
     margin-top: 20px;
     margin-left: 25%;
     width: 50%;
-    position: relative
 }
 
 #meme-image {
@@ -34,6 +33,8 @@ body {
     background-color: white;
     border: 1px black solid;
     z-index: 0;
+    position: relative
+
 }
 
 #meme-text {
