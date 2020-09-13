@@ -2,7 +2,7 @@ const textInput = document.getElementById('text-input');
 const memeInsert = document.getElementById('meme-insert');
 const memeImageContainer = document.getElementById('meme-image-container');
 const memeText = document.getElementById('meme-text');
-const image = document.getElementById('image');
+const memeImage = document.getElementById('meme-image');
 const buttonFire = document.getElementById('fire');
 const buttonWater = document.getElementById('water');
 const buttonEarth = document.getElementById('earth');
@@ -17,9 +17,9 @@ const img4 = './imgs/meme4.png';
 
 function loadFile(url) {
   if (typeof url === 'object') {
-    image.src = URL.createObjectURL(url);
+    memeImage.style.backgroundImage = `url(${URL.createObjectURL(url)})`;
   } else {
-    image.src = url;
+    memeImage.style.backgroundImage = `url(${url})`;
   }
 }
 
@@ -29,11 +29,11 @@ function writeText() {
 
 function changeBorder(event) {
   if (event.target.id === 'fire') {
-    image.style.border = '3px dashed red';
+    memeImageContainer.style.border = '3px dashed red';
   } else if (event.target.id === 'water') {
-    image.style.border = '5px double blue';
+    memeImageContainer.style.border = '5px double blue';
   } else {
-    image.style.border = '6px groove green';
+    memeImageContainer.style.border = '6px groove green';
   }
 }
 
