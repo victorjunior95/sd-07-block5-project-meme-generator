@@ -36,7 +36,7 @@ a:hover {
   color: white !important;
   font-family: Impact, Haettenschweiler, Arial Narrow Bold, sans-serif;
   font-size: 30px;
-  left: 150px;
+  left: 50px;
   margin: auto;
   max-width: 400px;
   padding: 0 !important;
@@ -44,26 +44,29 @@ a:hover {
   text-align: center;
   text-shadow: 5px 5px 5px rgb(0, 0, 0);
   text-transform: uppercase;
-  top: 270px;
-  word-break: break-all;
+  top: 360px;
+  word-break: break-word;
+  z-index: 1;
 }
 
 #meme-image-container {
   background-color: white;
   border: 1px solid black;
   color: white;
-  left: 600px;
-  margin-top: 150px;
+  left: 700px;
+  margin-top: 120px;
   position: relative;
-  width: 700px;
+  width: 500px;
+  height: 500px;
+  z-index: 0;
 }
 
 #meme-image-container-inputs {
   color: white;
   padding-left: 40px;
   margin-top: 150px;
-  left: 740px;
-  top: 430px;
+  left: 680px;
+  top: 480px;
   position: absolute;
 }
 
@@ -81,14 +84,16 @@ a:hover {
 
 #meme-image {
   margin: 0;
-  max-width: 700px;
+  max-height: 500px;
+  max-width: 500px;
 }
 
 #meme-image img {
-  max-width: 700px;
-  width: 700px;
-  color: black;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
 }
+
 
 #rodape {
   background-color: white;
