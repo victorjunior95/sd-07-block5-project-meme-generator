@@ -7,11 +7,10 @@ function loadFile(event) {
   // Cria o objeto que contém a imagem
   const source = URL.createObjectURL(event.target.files[0]);
 
-  console.log(source);
-
   // Insere, na div 'meme-image' a TAG IMG já setando o valor de SRC como o objeto source
   divImage.innerHTML = `<img  class='background-image'
                               src='${source}'
+                              id='imageChosen'
                               alt='Imagem de fundo do meme'>
                         </img>`;
 }

@@ -59,6 +59,22 @@ button {
   padding: 0;
 }
 
+button#air {
+  background-color: white;
+}
+
+button#fire {
+  background-color: red;
+}
+
+button#water {
+  background-color: blue;
+}
+
+button#earth {
+  background-color: green;
+}
+
 .button {
   cursor: pointer; /* "hand" cursor */
   display: inline-block; /* A TAG label é inline */
@@ -281,7 +297,7 @@ main {
 }
 
 .fire {
-  background-color: red;
+  background-color: rgb(255, 0, 0);
   border-color: red;
   border-style: dashed;
   border-width: 3px;
