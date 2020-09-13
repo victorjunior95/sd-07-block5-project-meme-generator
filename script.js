@@ -29,11 +29,11 @@ function writeText() {
 
 function changeBorder(event) {
   if (event.target.id === 'fire') {
-    memeImageContainer.style.border = '3px dashed red';
+    image.style.border = '3px dashed red';
   } else if (event.target.id === 'water') {
-    memeImageContainer.style.border = '5px double blue';
+    image.style.border = '5px double blue';
   } else {
-    memeImageContainer.style.border = '6px groove green';
+    image.style.border = '6px groove green';
   }
 }
 

@@ -4,7 +4,7 @@ body {
 
 h1 {
   background-color: aquamarine;
-  font-family: "Press Start 2P", Courier, monospace;
+  font-family: 'Press Start 2P', Courier, monospace;
   margin-top: 0;
   padding: 20px;
   text-align: center;
@@ -22,7 +22,6 @@ input {
 
 .meme-image-container {
   background-color: white;
-  border: 1px solid black;
   box-sizing: border-box;
   height: 500px;
   margin: auto;
@@ -33,6 +32,10 @@ input {
 .meme-image-container p {
   margin: 1px;
   padding: 1px;
+}
+
+.image {
+  border: 1px solid black;
 }
 
 .meme-text {
@@ -47,7 +50,6 @@ input {
   text-shadow: 5px 5px 5px black;
   top: 20px;
   width: 440px;
-  word-wrap: none;
 }
 
 .button {
