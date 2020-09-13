@@ -14,9 +14,11 @@
     <p>Texto: <input type="text" id="text-input" maxlength="60" style="width:300px;"></p>
     <p>Foto: <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)"></p>
 
-    
+
     <div id="meme-image-container" class="container">
-        <img class="meme-image" id="output" />
+        <div id="meme-image" class="meme-image">
+            <img class="meme-image" id="output" />
+        </div>
         <p id="meme-text" class="meme-text">Texto aqui!</p>
     </div>
 
