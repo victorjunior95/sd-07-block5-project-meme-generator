@@ -263,14 +263,12 @@ main {
 }
 
 .meme-text {
-  -webkit-text-stroke-color: black; /* Define a cor preta para a borda da letra */
-  -webkit-text-stroke-width: 1px; /* define a borda da letra de 1px */
   color: white;
   font-size: 30px;
   margin: 10px;
 
   /* Não deixa o texto passar to tamanho máximo definido (que é o tamanho da tela
-   do celular menos as margins
+  do celular menos as margins
   */
   max-width: 100%;
   position: relative;
@@ -280,11 +278,12 @@ main {
   do Celular.
   */
   top: -380px;
+  -webkit-text-stroke-color: black; /* Define a cor preta para a borda da letra */
+  -webkit-text-stroke-width: 1px; /* define a borda da letra de 1px */
 
   /* força quebra de linha, caso o texto digitado não tenha espaço entre as palavras */
   word-wrap: break-word;
 }
-
 
 /* Coloca bordas nas miniaturas das bordas
 */
