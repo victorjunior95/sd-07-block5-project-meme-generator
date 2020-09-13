@@ -53,6 +53,12 @@ Seleciona o terceiro e o quarto filho para mudar a altura
   font-size: 15px;
 }
 
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
 .button {
   cursor: pointer; /* "hand" cursor */
   display: inline-block; /* A TAG label é inline */
