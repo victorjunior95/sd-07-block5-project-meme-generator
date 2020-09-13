@@ -1,9 +1,11 @@
 function getInput() {
-  const inputText = document.getElementById('text-input').value;
-  document.getElementsByTagName('p').innerHTML = inputText.toUpperCase();
+  const textInput = document.getElementById("text-input").value;
+  const textImage = document.getElementsByTagName("p")[0];
+  textImage.innerHTML = textInput.toUpperCase()
 }
 
-document.getElementById('text-input').addEventListener('keyup', getInput);
+document.getElementById("text-input").addEventListener("change", getInput);
+
 
 function getImage(e) {
   const memeImage = document.getElementById('meme-image');
