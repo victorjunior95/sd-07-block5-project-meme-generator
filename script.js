@@ -45,8 +45,8 @@ message.addEventListener('keyup', function () {
 inputImage.addEventListener('change', function (event) {
   inputImage = inputImage.value;
 
-  // https://developer.mozilla.org/pt-BR/docs/Web/API/URL/createObjectURL#Syntax <<< Cria um objeto URL(event.targe) vai me retornar caminho do evento change .files me retorna um array de arquivos, o selecionado é o primeiro do array
-  
+// https://developer.mozilla.org/pt-BR/docs/Web/API/URL/createObjectURL#Syntax <<< Cria um objeto URL(event.targe) vai me retornar caminho do evento change .files me retorna um array de arquivos, o selecionado é o primeiro do array
+
   image.src = URL.createObjectURL(event.target.files[0]);
 });
 

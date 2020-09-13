@@ -1,49 +1,49 @@
 body {
+  background-color: rgb(95 , 75 , 102);
   margin: 0;
   padding: 0;
-  background-color: rgb(95 , 75 , 102);
 }
 
 /* lado esquerdo */
 
 .total-container {
-  margin-top: 20px;
-  float: left;
-  width: 800px;
-  margin-left: 40px;
-  padding: 15px;
   background-color: rgb(95 , 75 , 102);
-  box-shadow: 0 0 3px rgb(255 , 255 , 255);
+  box-shadow: 0 0 3px white;
+  float: left;
+  margin-left: 40px;
+  margin-top: 20px;
+  padding: 15px;
+  width: 800px;
 }
 
 legend {
-  font-family: 'Kufam', cursive;
-  text-decoration: underline overline;
   color: rgb(135 , 151 , 175);
+  font-family: "Kufam", cursive;
   font-size: larger;
   margin-bottom: 10px;
+  text-decoration: underline overline;
 }
 
 .form-paragraph {
-  margin-bottom: 20px;
   background-color: rgb(135 , 151 , 175);
+  margin-bottom: 20px;
   padding: 5px;
 }
 
 label {
-  font-family: 'Ubuntu', sans-serif;
-  margin-left: 40px;
+  font-family: "Ubuntu", sans-serif;
   letter-spacing: 2px;
+  margin-left: 40px;
 }
 
-.box-input, .small-button-input {
+.box-input , .small-button-input {
   border-radius: 10px;
 }
 
 .box-input {
   background-color: rgb(44 , 19 , 32);
-  height: 25px;
   border: none;
+  height: 25px;
 }
 
 .small-button-input {
@@ -51,61 +51,61 @@ label {
 }
 
 .white-background {
-  background-color: rgb(255 , 255 , 255);
-  border: 1px solid rgb(0 , 0 , 0);
-  position: relative;
-  width: 800px;
+  background-color: white;
+  border: 1px solid black;
   height: 400px;
+  position: relative;
   margin-bottom: 20px;
+  width: 800px;
 }
 
 .contido {
+  height: 400px;
   position: absolute;
   width: 800px;
-  height: 400px;
 }
 
 .paragraph-style {
-  position: absolute;
-  text-shadow: 5px 5px 5px rgb(0 , 0 , 0);
-  color: rgb(255 , 255 , 255);
+  color: white;
   font-size: 30px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
 }
 
 button {
-  width: 100px;
-  height: 100px;
   border-radius: 100%;
-  margin-right: 10px;
   cursor: pointer;
+  height: 100px;
+  margin-right: 10px;
+  width: 100px;
 }
 
 .button-fire {
-  border: 1px solid rgb(255 , 0 , 0);
   background: url('../imgs/fire.png');
+  background-color: red;
   background-size: 100px;
-  background-color: rgb(255 , 0 , 0);
+  border: 1px solid red;
 }
 
 .button-water {
-  border: 1px solid rgb(0 , 0 , 255);
   background: url('../imgs/water.png');
+  background-color: blue;
   background-size: 100px;
-  background-color: rgb(0 , 0 , 255);
+  border: 1px solid blue;
 }
 
 .button-earth {
-  border: 1px solid rgb(0 , 128 , 0);
   background: url('../imgs/earth.png');
+  background-color: green;
   background-size: 100px;
-  background-color: rgb(0, 128 , 0);
+  border: 1px solid green;
 }
 
 .mini-image {
-  width: 55px;
+  cursor: pointer;
   height: 100px;
   margin-right: 5px;
-  cursor: pointer;
+  width: 55px;
 }
 
 .mini-image:hover {
@@ -115,13 +115,13 @@ button {
 /* lado direito */
 
 .meme-right {
-  margin-top: 20px;
-  float: right;
-  margin-right: 40px;
   background-color: rgb(44 , 19 , 32);
-  text-align: center;
-  padding: 20px;
   border-radius: 20px;
+  float: right;
+  margin-top: 20px;
+  margin-right: 40px;
+  padding: 20px;
+  text-align: center;
 }
 
 /* footer */
