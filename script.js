@@ -6,10 +6,10 @@ const buttonFire = document.querySelector('#fire');
 const buttonWater = document.querySelector('#water');
 const buttonEarth = document.querySelector('#earth');
 const container = document.querySelector('#meme-image-container');
-const imagememe1 = document.querySelector('#meme-1')
-const imagememe2 = document.querySelector('#meme-2')
-const imagememe3 = document.querySelector('#meme-3')
-const imagememe4 = document.querySelector('#meme-4')
+const imagememe1 = document.querySelector('#meme-1');
+const imagememe2 = document.querySelector('#meme-2');
+const imagememe3 = document.querySelector('#meme-3');
+const imagememe4 = document.querySelector('#meme-4');
 
 function includeText() {
   textOutput.innerText = textInput.value;
@@ -18,7 +18,7 @@ function includeText() {
 textInput.addEventListener('keyup', includeText);
 
 function createImage() {
-  image.src = URL.createObjectURL(insertImage.files[0]);  
+  image.src = URL.createObjectURL(insertImage.files[0]);
   image.onload = () => URL.revokeObjectURL(image.src);
 }
 

@@ -3,18 +3,18 @@
 }
 
 .fogo {
-  border: 3px dashed red;
   background-color: red;
+  border: 3px dashed red;
 }
 
 .agua {
-  border: 5px double blue;
   background-color: blue;
+  border: 5px double blue;
 }
 
 .terra {
-  border: 6px groove green;
   background-color: green;
+  border: 6px groove green;
 }
 
 .container {
@@ -22,8 +22,7 @@
   box-sizing: border-box;
   height: 400px;
   position: relative;
-  width: 400px;
-  
+  width: 400px;  
 }
 
 .image {
