@@ -33,3 +33,6 @@ earthButton.addEventListener('click', function () {
   container.style.border = '6px groove green';
 });
 
+//  botoes de sugestão
+
+
