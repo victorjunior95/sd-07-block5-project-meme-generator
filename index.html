@@ -7,27 +7,42 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <h1>Meme Generator</h1>
+  <br> 
+  
+  <div class='textEntry'>Add text:
+    <input id='text-input' maxlength='60' type='text' name='Add text' placeholder='Maximum is 60 characters'>
+  </div>
+  <br>
 
-  <section>
+  <!--https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded/27165977#27165977-->
+  <input id='meme-insert' type='file' accept='image/*' onchange='loadFile(event)' style='display:none'>
+  <button>
+    <label for='meme-insert'>Upload image</label>
+  </button>
+  <br><br>
 
-    <div class='textEntry'>Add text: <input id='text-input' maxlength='60' type='text' name='Add text'>
+  <div class='container' id='meme-image-container'>
+    <img id='meme-image' src='' alt='Meme image'>
+    <p id='meme-text'></p>
+  </div>
+
+    <p>Custom:</p>
+    <div class='container-two'>
+      <button id='fire'>Fire</button>
+      <button id='water'>Water</button>
+      <button id='earth'>Earth</button>
     </div>
-    <br><br>
+    <br>
 
-    <div>
-      <input id='meme-insert' type='file' accept='image/*' name='image' onchange='loadFile(event)'>
-      <label for = 'file' style = 'cursor: pointer;'></label>
+    <p>Choose a Template:</p>
+    <div class='container-three'>
+      <div id='meme-1'></div>
+      <div id='meme-2'></div>
+      <div id='meme-3'></div>
+      <div id='meme-4'></div>
     </div>
 
-    <div class='container' id='meme-image-container'>
-      <img id='meme-image' src='images/spongebob.png' alt='Meme image'>
-      <p id='meme-text'></p>
-      <button id='fire'></button>
-      <button id='water'></button>
-      <button id='earth'></button>
-    </div>
-
-  </section>
   <script src="script.js"></script>
 </body>
 </html>
