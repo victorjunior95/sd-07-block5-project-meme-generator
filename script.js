@@ -6,6 +6,21 @@ function inputText () {
     });
 }
 
+// Cria URL única para documento local recebendo no parametro dados do evento onchange.
+
+function loadImage(event) {
+  const memeImage = document.querySelector("#meme-image");
+  memeImage.src = URL.createObjectURL(event.target.files[0]);
+// Assim que os dados do arquivo estiverem carregados a URL é descartada .
+  memeImage.onload = () => {
+    URL.revokeObjectURL(memeImage.src);
+  };
+}
+
+function cathFile () {
+  const imgInput = document.querySelector("#meme-insert");
+  imgInput.addEventListener('change', loadImage);
+}
 //MDN https://developer.mozilla.org/en-US/docs/Web/API/File/Using_files_from_web_applications 
 /*const fileSelect = document.getElementById("meme-insert"),
     fileElem = document.getElementById("fileElem"),
@@ -110,4 +125,6 @@ window.onload = () => {
     borderEarth ()
     Reset ()
     catchImageMemes ()
+    loadImage ()
+    cathFile ()
 };
