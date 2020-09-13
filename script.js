@@ -18,7 +18,7 @@ function borderWater () {
     const buttonWater = document.querySelector('#water')
     const memeImageContainer = document.querySelector('#meme-image-container');
     buttonWater.addEventListener('click', () => {
-    memeImageContainer.style.border = '5px double red';
+    memeImageContainer.style.border = '5px double blue';
     });
 }
 function borderEarth () {
@@ -27,6 +27,14 @@ function borderEarth () {
     buttonEarth.addEventListener('click', () => {
     memeImageContainer.style.border = '6px groove green';
     });
+}
+
+function Reset () {
+  const buttonReset = document.querySelector('#reset')
+  const memeImageContainer = document.querySelector('#meme-image-container');
+  buttonReset.addEventListener('click', () => {
+  memeImageContainer.style.border = '1px solid black';
+  })
 }
 
 function catchImageMemes () {
@@ -51,18 +59,7 @@ function catchImageMemes () {
     catchImageMeme.style.backgroundImage = "url('./imgs/meme4.png')";
     catchImageMeme.style.backgroundSize = "cover"
   });
-
 }
-
-
-function onLoadImg () {
-  const img = document.getElementById('meme-insert');
-  img.src = URL.createObjectURL(event.target.files[0]);
-  img.onload = function () {
-    URL.revokeObjectURL(img.src);
-  } ;
-}
-
 
 window.onload = () => {
     inputText ()
@@ -70,5 +67,5 @@ window.onload = () => {
     borderWater ()
     borderEarth ()
     catchImageMemes ()
-    loadFiles ()    
+    Reset ()    
 };

@@ -1,41 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project meme</title>
-    <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" defer src="/script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1 id="meme-generator">Meme generator</h1>
-    </header>
-    <nav id="position-relative">
-        <label>
-            <input type="text" name="textName" maxlength="60" id="text-input">
-        </label>
-        <label>
-            <input type="file" id="meme-insert">
-            <input type="submit">
-        </label>
-    <div class="meme-container" id="meme-image-container">
-        <div class="meme-image" id="meme-image"></div>
-        <p class="meme-text" id="meme-text"></p>
-    </div>
-    <section id="molduras-style">
-        <p>Estilo de bordas </p>
-        <button class="botao" id="fire">Fire</button>
-        <button class="botao" id="water">Water</button>
-        <button class="botao" id="earth">earth</button>
-    </section>
-    <section id="memes-prontos">
-        <p>Memes prontos!</p>
-        <img src="imgs/meme1.png" style="width: 180px" id="meme-1" alt="foto do bacana">
-        <img src="imgs/meme2.png" style="width: 180px" id="meme-2" alt="foto do bacana">
-        <img src="imgs/meme3.png" style="width: 180px" id="meme-3" alt="foto do bacana">
-        <img src="imgs/meme4.png" style="width: 180px" id="meme-4" alt="foto do bacana">
-    </section>
-    </nav>
+    <h1>Meme Generator</h1>
+  <form>
+    <label for="text-input"> Digite aqui:
+      <input type="text" name="text-input" id="text-input" maxlength="60"></input>
+    </label>
+  </form>
+  <br>
+  <form>
+    <label for="meme-insert">
+      <input name="meme-insert" type="file" id="meme-insert"></input>
+    </label>
+  </form>
+
+  <div id="meme-image-container" class="container">
+    <div id="meme-text" class="custom-text"></div>
+    <img id="meme-image" src="" class="custom-img">
+  </div>
+  <br>
+  <button type="button" id="fire" class="fire" name="fire">Fire</button>
+  <button type="button" id="water" class="water" name="water">Water</button>
+  <button type="button" id="earth" class="earth" name="earth">Earth</button>
+  <button type="button" id="reset" name="reset">Reset</button>
+  <br>
+  <br>
+  <div class="memesPattern">
+    <img id="meme-1" class="meme-width" src="imgs/meme1.png" alt="Foto do norbit"">
+    <img id="meme-2" class="meme-width" src="imgs/meme2.png" alt="Foto do Chaves">
+    <img id="meme-3" class="meme-width" src="imgs/meme3.png" alt="Foto do Macaco">
+    <img id="meme-4" class="meme-width" src="imgs/meme4.png" alt="Foto do Sikera Júnior">
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
