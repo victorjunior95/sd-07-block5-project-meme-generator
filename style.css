@@ -1,6 +1,9 @@
+body{
+    background-color: #B0C4DE;
+}
 #container{
     position: absolute;
-    height: 490px;
+    height: 630px;
     background-color: #A9A9A9;
     left: 230px;
     width: 600px;
@@ -9,6 +12,24 @@
     position: absolute;
     top: 50px;
     left: 60px;
+}
+p{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+.meme-image-container{
+    position: absolute;
+    background-color: white;
+    border: 1px black solid;
+    width: 520px;
+    height: 500px;
+    top: 100px;
+    left: 40px;
+}
+#meme-image-container{
+    position: absolute;
+
 }
 
 
