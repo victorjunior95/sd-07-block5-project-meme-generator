@@ -15,18 +15,18 @@ h1 {
 }
 
 .meme-image-container {
-	background-color: white;
-	border: 1px solid black;
-	color: rgb(175,175,175);
-	display: inline-block;
-  font-weight: bold;
+  background-color: white;
+  border: 1px solid black;
+  color: rgb(175 , 175 , 175);
+  display: inline-block;
+  font-weight: 600 ;
   left: 50%;
-	margin-top: 15px;
-	min-height: 100px;
-	min-width: 150px;
-	position: relative;
-	text-align: center; 
-	transform: translateX(-50%);
+  margin-top: 15px;
+  min-height: 100px;
+  min-width: 150px;
+  position: relative;
+  text-align: center;
+  transform: translateX(-50%);
 }
 
 .span-text {

@@ -1,5 +1,5 @@
 const inpText = document.querySelector('#text-input');
- const previewText = document.querySelector('#meme-text');
+const previewText = document.querySelector('#meme-text');
 const inpFile = document.querySelector('#meme-insert');
 const memeContainer = document.querySelector('#meme-image-container');
 const previewImage = memeContainer.querySelector('#meme-image');
