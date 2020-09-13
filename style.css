@@ -1,53 +1,53 @@
 main {
-  width: 900px;
   background-color: aquamarine;
   box-shadow: 10px 5px 5px rgba(2, 70, 53, 0.5);
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
+  width: 900px;
 }
 
 .meme-image-container {
-  position: relative;
-  width: 405px;
+  border: 1px solid black;
+  background-color: white;
   height: 312px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  border: 1px solid black;
-  background-color: white;
+  position: relative;
+  width: 405px;
 }
 
-.meme-image {
-  width: 100%;
-  height: 100%;
+.meme-image {   
   border: 1px solid black;
   box-shadow: 1px 1px 4px black;
   box-sizing: border-box;
+  height: 100%;
+  width: 100%;
 }
 
 .meme-text {
-  position: absolute;
-  top: 177px;
-  width: 100%;
-  height: 40%;
+  color: white; 
   font-size: 30px;
-  text-align: center;
-  text-shadow: 5px 5px 5px black;
-  color: white;
-  text-transform: uppercase;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 40%;
   margin: 0px;
   padding: 0px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  text-transform: uppercase;  
+  top: 177px;
   white-space: pre-line;
+  width: 100%;
 }
 
 button{
-  width: 100px;
-  height: 40px;
-  margin: 10px;
   font-family: 'Sigmar One', cursive;
   color: white;
+  margin: 10px;
+  height: 40px;
+  width: 100px;
 }
 
 .fire{
@@ -63,7 +63,7 @@ button{
 }
 
 .memes-prontos img{
-  margin: 10px;
   border: 1px solid black;
   box-shadow: 2px 2px 2px #606060;
+  margin: 10px;
 }
