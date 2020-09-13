@@ -15,46 +15,51 @@ function loadFile(event) {
                         </img>`;
 }
 
-function borderChange () {
+function borderStyle(color , style , width) {
+  // Coptura o elemento onde deverá ser inserido a borda
+  const image = document.getElementById('meme-image-container');
+  image.style.borderColor = color;
+  image.style.borderStyle = style;
+  image.style.borderWidth = width;
+}
+
+function borderChange() {
   // Captura os elementos das miniaturas das bordas
   const air = document.getElementById('air');
   const fire = document.getElementById('fire');
   const water = document.getElementById('water');
   const earth = document.getElementById('earth');
 
-  // Coptura o elemento onde deverá ser inserido a borda
-  const image = document.getElementById('meme-image-container');
-
   // Adicionando as escutas
   air.addEventListener('click', function () {
-    image.style.borderColor = 'black';
-    image.style.borderStyle = 'solid';
-    image.style.borderWidth = '1px';
+    borderStyle('black' , 'solid' , '1px');
   });
 
   fire.addEventListener('click', function () {
-    image.style.borderColor = 'red';
-    image.style.borderStyle = 'dashed';
-    image.style.borderWidth = '3px';
+    borderStyle('red' , 'dashed' , '3px');
   });
 
   water.addEventListener('click', function () {
-    image.style.borderColor = 'blue';
-    image.style.borderStyle = 'double';
-    image.style.borderWidth = '5px';
+    borderStyle('blue' , 'double' , '5px');
   });
 
   earth.addEventListener('click', function () {
-    image.style.borderColor = 'green';
-    image.style.borderStyle = 'groove';
-    image.style.borderWidth = '6px';
+    borderStyle('green' , 'groove' , '6px');
   });
 }
 
-function imageChange () {
+function insertImage(src) {
   // Captura a div onde será inseria da TAG IMG
   const divImage = document.getElementById('meme-image');
 
+  // Insere, na div 'meme-image' a TAG IMG já setando o valor de SRC como o objeto source
+  divImage.innerHTML = `<img  class='background-image'
+                              src='/imgs/${src}'
+                              alt='Imagem de fundo do meme'>
+                        </img>`;
+}
+
+function imageChange() {
   // Captura os elementos das miniaturas dos memes
   const meme1 = document.getElementById('meme-1');
   const meme2 = document.getElementById('meme-2');
@@ -62,38 +67,21 @@ function imageChange () {
   const meme4 = document.getElementById('meme-4');
 
   // Adicionando as escutas
-  meme1.addEventListener("click", function () {
-    // Insere, na div 'meme-image' a TAG IMG já setando o valor de SRC como o objeto source
-    divImage.innerHTML = `<img  class='background-image'
-                                src='/imgs/meme1.png'
-                                alt='Imagem de fundo do meme'>
-                              </img>`;
+  meme1.addEventListener('click', function () {
+    insertImage('meme1.png');
   });
 
-  meme2.addEventListener("click", function () {
-    // Insere, na div 'meme-image' a TAG IMG já setando o valor de SRC como o objeto source
-    divImage.innerHTML = `<img  class='background-image'
-                                src='/imgs/meme2.png'
-                                alt='Imagem de fundo do meme'>
-                              </img>`;
+  meme2.addEventListener('click', function () {
+    insertImage('meme2.png');
   });
 
-  meme3.addEventListener("click", function () {
-    // Insere, na div 'meme-image' a TAG IMG já setando o valor de SRC como o objeto source
-    divImage.innerHTML = `<img  class='background-image'
-                                src='/imgs/meme3.png'
-                                alt='Imagem de fundo do meme'>
-                              </img>`;
+  meme3.addEventListener('click', function () {
+    insertImage('meme3.png');
   });
 
-  meme4.addEventListener("click", function () {
-    // Insere, na div 'meme-image' a TAG IMG já setando o valor de SRC como o objeto source
-    divImage.innerHTML = `<img  class='background-image'
-                                src='/imgs/meme4.png'
-                                alt='Imagem de fundo do meme'>
-                              </img>`;
+  meme4.addEventListener('click', function () {
+    insertImage('meme4.png');
   });
-
 }
 
 window.onload = function () {
@@ -123,4 +111,4 @@ window.onload = function () {
   imageChange();
 
   borderChange();
-};
+}
