@@ -4,15 +4,19 @@
 
 .fogo {
   border: 3px dashed red;
+  background-color: red;
 }
 
 .agua {
   border: 5px double blue;
+  background-color: blue;
 }
 
 .terra {
   border: 6px groove green;
+  background-color: green;
 }
+
 .container {
   background-color: white;
   box-sizing: border-box;
@@ -41,4 +45,9 @@
 
 button {
   margin: 40px;
+}
+
+.meme-alternativo {
+  height: 150px;
+  width: 150px;
 }
