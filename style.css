@@ -20,14 +20,17 @@
   height: 100%;
 }
 
-.fire-border {
-  border: 3px dashed red;
+.fire {
+  background-color: red;
+  color: white;
 }
 
-.water-border {
-  border: 5px double blue;
+.water {
+  background-color: blue;
+  color: white;
 }
 
-.earth-border {
-  border: 6px groove green;
+.earth {
+  background-color: green;
+  color: white;
 }
