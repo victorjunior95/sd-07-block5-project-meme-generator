@@ -7,7 +7,7 @@ function inputText () {
 }
 
 //MDN https://developer.mozilla.org/en-US/docs/Web/API/File/Using_files_from_web_applications 
-const fileSelect = document.getElementById("fileSelect"),
+const fileSelect = document.getElementById("meme-insert"),
     fileElem = document.getElementById("fileElem"),
     fileList = document.getElementById("fileList");
 
