@@ -7,19 +7,19 @@ window.onload = function () {
     memeText.innerText = textInput.value;
   });
 
-  // insere elemento img, com a imagem carregada pelo usurário, dentro co container
+  // Insere a imagem escolhoda no meme generator
   const memeImage = document.querySelector('#meme-image');
   const memeInsert = document.querySelector('#meme-insert');
 
-  function handleFiles() {
+  function handleFiles(source) {
     const img = document.createElement('img');
-    img.src = URL.createObjectURL(this.files[0]);
+    img.src = source;
     img.id = 'image';
     img.className = 'meme-image';
     img.onload = function () {
       URL.revokeObjectURL(this.src);
     };
-    // Atualiza a imagem, se alguma foi carregada anteriormente.
+    // Atualiza a imagem, se alguma já foi carregada anteriormente.
     if (document.querySelector('#image') === null) {
       memeImage.appendChild(img);
     } else {
@@ -28,7 +28,11 @@ window.onload = function () {
       memeImage.replaceChild(img, oldImg);
     }
   }
-  memeInsert.addEventListener('change', handleFiles, false);
+
+  // Carrega imagem do usuário para o meme generator
+  memeInsert.addEventListener('change', function() {
+    handleFiles(URL.createObjectURL(event.target.files[0]))
+  }, false);
 
   // Altera borda do meme conforme botão acionado
   function changeMemeBorder(setColor, setStyle, setWidth) {
@@ -39,48 +43,38 @@ window.onload = function () {
   }
 
   const buttonFire = document.querySelector('#fire');
-  buttonFire.addEventListener('click', function() {
+  buttonFire.addEventListener('click', function () {
     changeMemeBorder('red', 'dashed', '3px');
   });
 
   const buttonWater = document.querySelector('#water');
-  buttonWater.addEventListener('click', function() {
+  buttonWater.addEventListener('click', function () {
     changeMemeBorder('blue', 'double', '5px');
   });
 
   const buttonEarth = document.querySelector('#earth');
-  buttonEarth.addEventListener('click', function() {
+  buttonEarth.addEventListener('click', function () {
     changeMemeBorder('green', 'groove', '6px');
   });
-
-  // Carrega miniatura pré prontas no meme generator
-  function changeImage() {
-    const img = document.createElement('img');
-    img.src = this.src;
-    img.id = 'image';
-    img.className = 'meme-image';
-    img.onload = function () {
-      URL.revokeObjectURL(this.src);
-    };
-    // Atualiza a imagem, se alguma foi carregada anteriormente.
-    if (document.querySelector('#image') === null) {
-      memeImage.appendChild(img);
-    } else {
-      const oldImg = document.querySelector('#image');
-      memeImage.appendChild(img);
-      memeImage.replaceChild(img, oldImg);
-    }
-  }
-
+  
+  // Carrega miniatura pré prontas para o meme generator
   const meme1 = document.querySelector('#meme-1');
-  meme1.addEventListener('click', changeImage);
+  meme1.addEventListener('click', function() {
+    handleFiles(meme1.src)
+  }, false);
 
   const meme2 = document.querySelector('#meme-2');
-  meme2.addEventListener('click', changeImage);
+  meme2.addEventListener('click', function() {
+    handleFiles(meme2.src)
+  }, false);
 
   const meme3 = document.querySelector('#meme-3');
-  meme3.addEventListener('click', changeImage);
+  meme3.addEventListener('click', function() {
+    handleFiles(meme3.src)
+  }, false);
 
   const meme4 = document.querySelector('#meme-4');
-  meme4.addEventListener('click', changeImage);
-}
+  meme4.addEventListener('click', function() {
+    handleFiles(meme4.src)
+  }, false);
+};
