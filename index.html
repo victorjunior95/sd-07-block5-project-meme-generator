@@ -13,11 +13,7 @@
     <main>
       <div>
         <label for="texto">Texto: </label>
-        <input
-          type="text"
-          id="text-input"
-          maxlength="60"
-        />
+        <input type="text" id="text-input" maxlength="60" />
       </div>
       <div>
         <label for="foto">Foto: </label>
@@ -28,12 +24,19 @@
         <img src="" alt="" id="meme-image" />
       </figure>
       <div>Estilos customizados:</div>
-      <div class="items-grid">
-        <li class="fire">Fire</li>
-        <li class="water">Water</li>
-        <li class="earth">Earth</li>
+      <div id="items-grid">
+        <button type="button" id="fire">Fire</button>
+        <button type="button" id="water">Water</button>
+        <button type="button" id="earth">Earth</button>
       </div>
-      <div>Memes pré prontos</div>
+      <div id="memes-prontos">
+        Memes pré prontos
+        <br />
+        <img src="/foto1.png" id="meme-1" />
+        <img src="foto2.png" id="meme-2" />
+        <img src="foto3.png" id="meme-3" />
+        <img src="foto4.png" id="meme-4" />
+      </div>
     </main>
     <script src="script.js"></script>
   </body>

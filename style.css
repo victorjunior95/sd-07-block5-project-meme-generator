@@ -12,19 +12,24 @@ li {
   padding: 10px 40px;
 }
 
-.items-grind li.selected {
-  border: 8px solid #000000;
+#memes-prontos img {
+  width: 60px;
+  height: 60px;
 }
 
-.fire {
+#items-grind li.selected {
+  border: 8px solid black;
+}
+
+#fire {
   background: red;
 }
 
-.water {
+#water {
   background: blue;
 }
 
-.earth {
+#earth {
   background: green;
 }
 
