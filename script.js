@@ -10,10 +10,10 @@ const meme1 = document.getElementById('meme-1');
 const meme2 = document.getElementById('meme-2');
 const meme3 = document.getElementById('meme-3');
 const meme4 = document.getElementById('meme-4');
-const img1 = './imgs/meme1.png';
-const img2 = './imgs/meme2.png';
-const img3 = './imgs/meme3.png';
-const img4 = './imgs/meme4.png';
+const img1 = '/imgs/meme1.png';
+const img2 = '/imgs/meme2.png';
+const img3 = '/imgs/meme3.png';
+const img4 = '/imgs/meme4.png';
 
 function loadFile(url) {
   if (typeof url === 'object') {
