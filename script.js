@@ -1,7 +1,7 @@
   /** Idéia retirada de: https://developer.mozilla.org/en-US/docs/Web/API/File/Using_files_from_web_applications#Example_Using_object_URLs_to_display_images */
 
   const chooseImage = document.getElementById('meme-insert');
-  const tagText = document.getElementById('text-input')
+  const tagText = document.getElementById('text-input');
   const tagContainer = document.getElementById('meme-image-container');
   const tagImg = document.getElementById('meme-image');
   const tagTextMeme = document.getElementById('meme-text');
@@ -34,10 +34,8 @@
 
   /** fonte: https://developer.mozilla.org/en-US/docs/Web/API/File/Using_files_from_web_applications#Example_Using_object_URLs_to_display_images */
   chooseImage.addEventListener('change', function () {
-
-    for (let i = 0; i < this.files.length; i++) { // pesquisar de onde saiu esse files
+    for (let i = 0; i < this.files.length; i +=1 ) { // pesquisar de onde saiu esse files
       tagImg.src = URL.createObjectURL(this.files[i]);
-
       tagContainer.appendChild(tagImg);
     }
   });
@@ -49,21 +47,21 @@
 
 
   tagMeme1.addEventListener('click', function () {
-    tagTextMeme.innerText = 'Nossa! Muito engraçado!'
+    tagTextMeme.innerText = 'Nossa! Muito engraçado!';
     tagImg.src = './imgs/meme1.png';
   });
 
   tagMeme2.addEventListener('click', function () {
-    tagTextMeme.innerText = 'Juro que não vou rir!'
+    tagTextMeme.innerText = 'Juro que não vou rir!';
     tagImg.src = './imgs/meme2.png';
   });
 
   tagMeme3.addEventListener('click', function () {
-    tagTextMeme.innerText = 'Sai Satã! Chuta irmões, que é macumbra!'
+    tagTextMeme.innerText = 'Sai Satã! Chuta irmões, que é macumbra!';
     tagImg.src = './imgs/meme3.png';
   });
 
   tagMeme4.addEventListener('click', function () {
-    tagTextMeme.innerText = 'Não sei o que está acontecendo? Sou inocente!'
+    tagTextMeme.innerText = 'Não sei o que está acontecendo? Sou inocente!';
     tagImg.src = './imgs/meme4.png';
   });

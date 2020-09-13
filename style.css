@@ -1,21 +1,22 @@
 main {
   background-color: aquamarine;
-  box-shadow: 10px 5px 5px rgba(2, 70, 53, 0.5);
-  margin: 0 auto 0 auto;
+  box-shadow: 10px 5px 5px rgba(2 ,70 ,53 ,0.5);
+  margin: 0 auto;
   padding: 10px;
   width: 900px;
 }
 
-.meme-image-container {  
+.meme-image-container {
   background-color: white;
   border: 1px solid black;
   height: 312px;
-  margin: 20px auto 0 auto;
+  margin: 0 auto;
+  margin-top: 20px;  
   position: relative;
   width: 405px;
 }
 
-.meme-image {   
+.meme-image {
   border: 1px solid black;
   box-shadow: 1px 1px 4px black;
   box-sizing: border-box;
@@ -24,7 +25,7 @@ main {
 }
 
 .meme-text {
-  color: white; 
+  color: white;
   font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   height: 40%;
@@ -33,34 +34,34 @@ main {
   position: absolute;
   text-align: center;
   text-shadow: 5px 5px 5px black;
-  text-transform: uppercase;  
+  text-transform: uppercase;
   top: 177px;
   white-space: pre-line;
   width: 100%;
 }
 
-button{
-  font-family: 'Sigmar One', cursive;
+button {
   color: white;
+  font-family: 'Sigmar One', cursive;
   margin: 10px;
   height: 40px;
   width: 100px;
 }
 
-.fire{
-  background-color: rgb(255, 0, 0);
+.fire {
+  background-color:red;
 }
 
-.water{
-  background-color: rgb(0, 0, 255);
+.water {
+  background-color:blue;
 }
 
-.earth{
-  background-color:rgb(0, 128, 0);
+.earth {
+  background-color:green;
 }
 
-.memes-prontos img{
+.memes-prontos img {
   border: 1px solid black;
-  box-shadow: 2px 2px 2px #606060;
+  box-shadow: 2px 2px 2px grey;
   margin: 10px;
 }
