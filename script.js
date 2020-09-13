@@ -13,7 +13,7 @@ window.onload = function () {
   });
   bF.addEventListener('click', function () {
     bF = document.getElementById('meme-image-container'); bF.style.border = '3px dashed red';
-    });
+  });
   bW.addEventListener('click', function () {
     bW = document.getElementById('meme-image-container'); bW.style.border = '5px double blue';
   });
