@@ -14,6 +14,42 @@ function loadFile(event) {
                         </img>`;
 }
 
+function borderChange() {
+  // Captura os elementos das miniaturas das bordas
+  const air = document.getElementById("air");
+  const fire = document.getElementById("fire");
+  const water = document.getElementById("water");
+  const earth = document.getElementById("earth");
+
+  // Coptura o elemento onde deverá ser inserido a borda
+  const image = document.getElementById("meme-image-container");
+
+  // Adicionando as escutas
+  air.addEventListener("click", function () {
+    image.style.borderColor = "black";
+    image.style.borderStyle = "solid";
+    image.style.borderWidth = "1px";
+  });
+
+  fire.addEventListener("click", function () {
+    image.style.borderColor = "red";
+    image.style.borderStyle = "dashed";
+    image.style.borderWidth = "3px";
+  });
+
+  water.addEventListener("click", function () {
+    image.style.borderColor = "blue";
+    image.style.borderStyle = "double";
+    image.style.borderWidth = "5px";
+  });
+
+  earth.addEventListener("click", function () {
+    image.style.borderColor = "green";
+    image.style.borderStyle = "groove";
+    image.style.borderWidth = "6px";
+  });
+}
+
 window.onload = function () {
   // Captura o elemento onde foi digitado o texto
   const inputText = document.getElementById('text-input');
@@ -38,37 +74,5 @@ window.onload = function () {
     loadFile(event);
   });
 
-  // Captura os elementos das miniaturas das bordas
-  const air = document.getElementById("air");
-  const fire = document.getElementById("fire");
-  const water = document.getElementById("water");
-  const earth = document.getElementById("earth");
-
-  // Coptura o elemento onde deverá ser inserido a borda
-  const image = document.getElementById("meme-image-container");
-
-  // Adicionando as escutas
-  air.addEventListener("click", function () {
-    image.style.borderColor = "black";
-    image.style.borderStyle = "solid";
-    image.style.borderWidth = "1px";
-  })
-
-  fire.addEventListener("click", function () {
-    image.style.borderColor = "red";
-    image.style.borderStyle = "dashed";
-    image.style.borderWidth = "3px";
-  })
-
-  water.addEventListener("click", function () {
-    image.style.borderColor = "blue";
-    image.style.borderStyle = "double";
-    image.style.borderWidth = "5px";
-  })
-
-  earth.addEventListener("click", function () {
-    image.style.borderColor = "green";
-    image.style.borderStyle = "groove";
-    image.style.borderWidth = "6px";
-  })
+  borderChange();
 };

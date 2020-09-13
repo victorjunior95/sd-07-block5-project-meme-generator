@@ -1,3 +1,15 @@
+footer {
+  background-color: rgb(18 , 18 , 22);
+  color: white;
+  padding: 10px;
+  text-align: right;
+}
+
+footer img {
+  float: right;
+  height: 70px;
+}
+
 .background-image {
   height: 100%; /* Ocupa 100% da altura da tela do celular */
 }
@@ -32,7 +44,7 @@ body , html {
 Seleciona o terceiro e o quarto filho para mudar a altura
 */
 
-.box:nth-child(3), .box:nth-child(4) {
+.box:nth-child( 3 ) , .box:nth-child( 4 ) {
   height: 145px;
 }
 
@@ -154,18 +166,6 @@ não entendem a
   /* border-right-color: rgb(78 , 144 , 253); */
 }
 
-footer {
-  background-color: rgb(18 , 18 , 22);
-  color: white;
-  padding: 10px;
-  text-align: right;
-}
-
-footer img {
-  float: right;
-  height: 70px;
-}
-
 .footer-emphasis {
   color: rgb(219 , 221 , 191);
   font-size: 14px;
@@ -266,6 +266,7 @@ main {
 
 /* Coloca bordas nas miniaturas das bordas
 */
+
 .air {
   border-color: black;
   border-style: solid;
@@ -290,8 +291,7 @@ main {
   border-width: 6px;
 }
 
-/*Define o tamanho das miniaturas */
-
+/* Define o tamanho das miniaturas */
 .mini-image {
   height: 75px;
   transition: 0.2s;
@@ -317,7 +317,7 @@ main {
 Isso força uma quebra de linha, fazendo com que as imagens fiquem justificadas
 */
 
-.mini-image-container::after {
+.mini-image-container:after {
   content: '';
   display: inline-block;
   width: 100%;
