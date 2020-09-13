@@ -11,26 +11,19 @@
 
     <!-- Inserindo o texto do meme via input text -->
     <h3>Texto:</h3>
-    <label for="text-input">Insira o texto do seu meme:</label>
     <input id="text-input" type="text" name="userText" size="85" maxlength="60">
 
     <!-- Inserindo a imagem do meme via input file-->
     <h3>Imagem:</h3>
-    <label for="meme-insert">Insira uma imagem ao meme:</label>
-    <input type="file" id="meme-insert" name="imageMeme" accept="image/*">
+    <input id="meme-insert" type="file" name="imageMeme" accept="image/*">
 
     <!-- Conteiner para exibir o texto e a imagem inseridas -->
     <h3>Pré-visualização:</h3>
     <section id="meme-image-container">
         
-        <div id="meme-text">
-            <!-- Local para exibir o texto recebido no input -->
-        </div>
+        <div id="meme-text"></div>
 
-        <div id="meme-image">
-            <!-- Local para exibir o texto recebido no input -->
-            <img id="imageMemeInput" src="">
-        </div>
+        <img id="meme-image" src="">
 
     </section>
 
@@ -46,21 +39,13 @@
     <!-- Selecionando templates de memes famosos -->
     <h3>Sugestões de imagem:</h3>
 
-    <div id="meme-1" >
-        <img class="templates" src="./imgs/meme1.png" alt="Meme do programador intrigado" onclick="tempDev()">
-    </div>
+    <img id="meme-1" class="templates" src="./imgs/meme1.png" alt="Meme do programador intrigado">
 
-    <div id="meme-2" >
-        <img class="templates" src="./imgs/meme2.png" alt="Meme com personagem chorando no chão" onclick="tempCry()">
-    </div>
+    <img id="meme-2" class="templates" src="./imgs/meme2.png" alt="Meme com personagem chorando no chão">
 
-    <div id="meme-3">
-        <img class="templates" src="./imgs/meme3.png" alt="Meme com Tony Stark debochado" onclick="tempStark()">
-    </div>
+    <img id="meme-3" class="templates" src="./imgs/meme3.png" alt="Meme com Tony Stark debochado">
 
-    <div id="meme-4">
-        <img class="templates" src="./imgs//meme4.png" alt="Meme do Kermit desolado na janela" onclick="tempSad()">
-    </div>
+    <img id="meme-4" class="templates" src="./imgs//meme4.png" alt="Meme do Kermit desolado na janela">
 
     <!-- Carregando os scripts -->
     <script src="./script.js"></script>

@@ -9,19 +9,14 @@ inputText.addEventListener("input", function() {
 
 // Input e pré-visualização da imagem inserida pelo usuário via input file
 
-// Função baseada no código disponível em https://www.horadecodar.com.br/2020/05/20/javascript-preview-de-imagem-carregada-em-input-file/
-
-function readImage() {
-    if (this.files && this.files[0]) {
-        let file = new FileReader();
-        file.onload = function(e) {
-            document.getElementById("imageMemeInput").src = e.target.result;
-        };
-        file.readAsDataURL(this.files[0])
+let inputImage = document.getElementById('meme-insert')
+let setImage = document.getElementById('meme-image')
+inputImage.addEventListener('change', function (event) {
+    setImage.src = URL.createObjectURL(event.target.files[0]);
+    setImage.onload = function () {
+        URL.revokeObjectURL(setImage.src)
     }
-}
-
-document.getElementById("meme-insert").addEventListener("change", readImage, false);
+})
 
 // Adicionando configurações de borda ao clicar nos botões
 
@@ -45,18 +40,22 @@ function bordaEarth() {
 
 // Adicionando os templetes ao clicar nas miniaturas dos memes
 
-function tempDev() {
-    document.getElementById('imageMemeInput').src = './imgs/meme1.png'
-}
+let meme1 = document.getElementById('meme-1')
+meme1.addEventListener('click', function(event) {
+    setImage.src = event.target.src
+})
 
-function tempCry() {
-    document.getElementById('imageMemeInput').src = './imgs/meme2.png'
-}
+let meme2 = document.getElementById('meme-2')
+meme2.addEventListener('click', function(event) {
+    setImage.src = event.target.src
+})
 
-function tempStark() {
-    document.getElementById('imageMemeInput').src = './imgs/meme3.png'
-}
+let meme3 = document.getElementById('meme-3')
+meme3.addEventListener('click', function(event) {
+    setImage.src = event.target.src
+})
 
-function tempSad() {
-    document.getElementById('imageMemeInput').src = './imgs/meme4.png'
-}
+let meme4 = document.getElementById('meme-4')
+meme4.addEventListener('click', function(event) {
+    setImage.src = event.target.src
+})

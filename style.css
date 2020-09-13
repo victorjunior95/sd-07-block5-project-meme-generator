@@ -23,7 +23,7 @@ body {
     border-width: 1px;
 }
 
-#imageMemeInput {
+#meme-image {
     width: 100%;
     height: auto;
 }
@@ -53,10 +53,6 @@ body {
 }
 
 /* Miniaturas dos templates de memes */
-
-#meme-1, #meme-2, #meme-3, #meme-4 {
-    display: inline-block;
-}
 
 .templates {
     border-color: black;
