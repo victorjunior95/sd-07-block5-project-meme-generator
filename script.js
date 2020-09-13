@@ -1,3 +1,19 @@
+// A solução para o carregamento da imagem foi adaptada de um post do stackoverflow
+// https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded/27165977#27165977
+function loadFile(event) {
+  // Captura a div onde será inseria da TAG IMG
+  const divImage = document.getElementById('meme-image');
+
+  // Cria o objeto que contém a imagem
+  const source = URL.createObjectURL(event.target.files[0]);
+
+  // Insere, na div 'meme-image' a TAG IMG já setando o valor de SRC como o objeto source
+  divImage.innerHTML = `<img  class='background-image'
+                              src='${source}'
+                              alt='Imagem de fundo do meme'>
+                        </img>`;
+}
+
 window.onload = function () {
   // Captura o elemento onde foi digitado o texto
   const inputText = document.getElementById('text-input');
@@ -26,20 +42,4 @@ window.onload = function () {
     // Resolvi criar uma função externa (poderia ter escrito o código aqui mesmo)
     loadFile(event);
   });
-};
-
-// A solução para o carregamento da imagem foi adaptada de um post do stackoverflow
-// https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded/27165977#27165977
-function loadFile(event) {
-  // Captura a div onde será inseria da TAG IMG
-  const divImage = document.getElementById('meme-image');
-
-  // Cria o objeto que contém a imagem
-  const source = URL.createObjectURL(event.target.files[0]);
-
-  // Insere, na div 'meme-image' a TAG IMG já setando o valor de SRC como o objeto source
-  divImage.innerHTML = `<img  class='background-image'
-                              src='${source}'
-                              alt='Imagem de fundo do meme'>
-                        </img>`;
 };
