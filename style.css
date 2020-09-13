@@ -54,9 +54,9 @@ Seleciona o terceiro e o quarto filho para mudar a altura
 }
 
 button {
+  border: none;
   margin: 0;
   padding: 0;
-  border: none;
 }
 
 .button {
@@ -274,24 +274,28 @@ main {
 */
 
 .air {
+  background-color: black;
   border-color: black;
   border-style: solid;
   border-width: 1px;
 }
 
 .fire {
+  background-color: red;
   border-color: red;
   border-style: dashed;
   border-width: 3px;
 }
 
 .water {
+  background-color: blue;
   border-color: blue;
   border-style: double;
   border-width: 5px;
 }
 
 .earth {
+  background-color: green;
   border-color: green;
   border-style: groove;
   border-width: 6px;

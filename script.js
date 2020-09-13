@@ -7,6 +7,8 @@ function loadFile(event) {
   // Cria o objeto que contém a imagem
   const source = URL.createObjectURL(event.target.files[0]);
 
+  console.log(source);
+
   // Insere, na div 'meme-image' a TAG IMG já setando o valor de SRC como o objeto source
   divImage.innerHTML = `<img  class='background-image'
                               src='${source}'
@@ -14,7 +16,7 @@ function loadFile(event) {
                         </img>`;
 }
 
-function borderChange() {
+function borderChange () {
   // Captura os elementos das miniaturas das bordas
   const air = document.getElementById('air');
   const fire = document.getElementById('fire');
@@ -50,6 +52,51 @@ function borderChange() {
   });
 }
 
+function imageChange () {
+  // Captura a div onde será inseria da TAG IMG
+  const divImage = document.getElementById('meme-image');
+
+  // Captura os elementos das miniaturas dos memes
+  const meme1 = document.getElementById('meme-1');
+  const meme2 = document.getElementById('meme-2');
+  const meme3 = document.getElementById('meme-3');
+  const meme4 = document.getElementById('meme-4');
+
+  // Adicionando as escutas
+  meme1.addEventListener("click", function () {
+    // Insere, na div 'meme-image' a TAG IMG já setando o valor de SRC como o objeto source
+    divImage.innerHTML = `<img  class='background-image'
+                                src='/imgs/meme1.png'
+                                alt='Imagem de fundo do meme'>
+                              </img>`;
+  });
+
+  meme2.addEventListener("click", function () {
+    // Insere, na div 'meme-image' a TAG IMG já setando o valor de SRC como o objeto source
+    divImage.innerHTML = `<img  class='background-image'
+                                src='/imgs/meme2.png'
+                                alt='Imagem de fundo do meme'>
+                              </img>`;
+  });
+
+  meme3.addEventListener("click", function () {
+    // Insere, na div 'meme-image' a TAG IMG já setando o valor de SRC como o objeto source
+    divImage.innerHTML = `<img  class='background-image'
+                                src='/imgs/meme3.png'
+                                alt='Imagem de fundo do meme'>
+                              </img>`;
+  });
+
+  meme4.addEventListener("click", function () {
+    // Insere, na div 'meme-image' a TAG IMG já setando o valor de SRC como o objeto source
+    divImage.innerHTML = `<img  class='background-image'
+                                src='/imgs/meme4.png'
+                                alt='Imagem de fundo do meme'>
+                              </img>`;
+  });
+
+}
+
 window.onload = function () {
   // Captura o elemento onde foi digitado o texto
   const inputText = document.getElementById('text-input');
@@ -73,6 +120,8 @@ window.onload = function () {
     // Resolvi criar uma função externa (poderia ter escrito o código aqui mesmo)
     loadFile(event);
   });
+
+  imageChange();
 
   borderChange();
 };
