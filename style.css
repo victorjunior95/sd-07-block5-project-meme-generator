@@ -1,8 +1,14 @@
-.meme-image-container {
+/* section {
+    text-align: center;
+} */
+.div-meme {
     width: 450px;
     height: 600px;
     border: solid black;
+    display: inline-block;
+    position: relative;
 }
-.meme-text {
+.texto-na-foto {
     position: absolute;
+    
 }
