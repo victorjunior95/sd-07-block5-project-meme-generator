@@ -1,20 +1,29 @@
 .container {
   background-color: white;
   border: 1px solid black;
-  height: 400px;
-  width: 380px;
+  height: 406px;
+  width: 386px;
   position: relative;
+}
+
+.container img {
+  border: 3px solid white;
+  height: 400px;
+  position: relative;
+  width: 380px;
 }
 
 .container p {
   color: white;
   font-size: 30px;
   height: 90px;
-  margin-left: 7px;
+  margin-left: 40px;
   position: absolute;
   text-shadow: 5px 5px 5px black; /* h-shadow v-shadow blur-radius color */
-  top: 265px;
-  width: 360px;
+  top: 250px;
+  width: 300px;
+  word-wrap: break-word;
+  text-align: center;
 }
 
 .container-two button {
