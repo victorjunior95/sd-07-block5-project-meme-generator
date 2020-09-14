@@ -7,13 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+   
     <h1 id="tituloPrincipal">Meme Generator</h1>
     <h2 id="titulo-secundario">Crie aqui o seu meme</h2>
-    <input id="text-input" placeholder="Digite seu Texto">
-    <input id="meme-insert" type="image">
-    <div id="meme-image-container">
-        <div id="meme-text"></div>
-        <div id="meme-image"></div>
-    </div>
+    <section>
+        <input class="input" 
+                id="text-input" 
+                placeholder="Digite seu Texto" 
+                maxlength="60">
+
+        <input class="insert" id="meme-insert" type="image">
+
+        <div id="meme-image-container">
+            <img src="/imgs/download.png" class="img-meme"></img>
+            <p id="meme-text"></p>
+            <div id="meme-image"></div>
+        </div>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>

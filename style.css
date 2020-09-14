@@ -13,11 +13,11 @@
 }
 
 #meme-image-container {
-    margin-left: 50px;
-    margin-top: 40px;
     width: 500px;
     height: 600px;
-    border: solid black;
+    border: solid black 1px;
+    background-color: white;
+    text-align: center;
 }
 
 #meme-image {
@@ -30,13 +30,15 @@
 }
 
 #meme-text {
-    position: absolute;
-    padding: 100px;
-    padding-right: 395px;
+    position: relative;
     margin-left: 2px;
     margin-right: 2px;
-    margin-top: 390px;
     margin-bottom: 2px;
+    margin-top: -80px;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px black;
+    word-wrap: break-word;
+    color: white;
 }
 
 #text-input {
@@ -46,6 +48,7 @@
     width: 300px;
     height: 30px;
     border-radius: 10px;
+    background-color: rgb(221, 247, 193);
 }
 
 #meme-insert {
@@ -54,4 +57,9 @@
     margin-top: 130px;
     width: 100px;
     height: 30px;
+}
+
+.img-meme {
+    height: 600px;
+    width: 500px;
 }
