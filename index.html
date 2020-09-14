@@ -17,20 +17,20 @@
     </header>
 
     <main>
-      <div id="meme-image-container-inputs">
-        <p>Digite seu texto aqui:</p>
-        <input type="text" maxlength="60" id="text-input" />
-        <br />
-        <p>Insira sua imagem aqui:</p>
-        <input
-          type="file"
-          accept="image/*"
-          onchange="carregarImagem(event)"
-          name="meme-insert"
-          id="meme-insert"
-        />
-      </div>
       <div id="meme-image-container">
+        <div id="meme-image-container-inputs">
+          <p>Digite seu texto aqui:</p>
+          <input type="text" maxlength="60" id="text-input" />
+          <br />
+          <p>Insira sua imagem aqui:</p>
+          <input
+            type="file"
+            accept="image/*"
+            onchange="carregarImagem(event)"
+            name="meme-insert"
+            id="meme-insert"
+          />
+        </div>
         <p id="meme-text"></p>
         <img
           id="meme-image"
