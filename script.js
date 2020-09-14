@@ -59,7 +59,7 @@ btnEarth.addEventListener('mouseout', () => {
   divBorderButtons.className = 'div-border-buttons';
 });
 
-//Requisito bônus memes famosos
+// Requisito bônus memes famosos
 meme1.addEventListener('click', () => {
   imgOutput.src = './imgs/meme1.png';
 });
