@@ -51,15 +51,25 @@
 
 
 
+function meme1(){
+  document.getElementById('meme-imagem').src="imgs/meme1.png";
+}
+function meme2(){
+  document.getElementById('meme-imagem').src="imgs/meme2.png";
+}
+function meme3(){
+  document.getElementById('meme-imagem').src="imgs/meme3.png";
+}
+function meme4(){
+  document.getElementById('meme-imagem').src="imgs/meme4.png";
+}
+
   const buttonElementos = document.getElementsByTagName('button');
   for (let index = 0; index < buttonElementos.length; index+=1) {
     buttonElementos[index].addEventListener('click',editarBorda);
   }
 
-  const MemeEx = document.getElementsByClassName('memeP');
-  for (let index = 0; index < MemeEx.length; index+=1) {
-    MemeEx[index].addEventListener('click',CarregaMeme);
-    
-  }
+
  
+
 
