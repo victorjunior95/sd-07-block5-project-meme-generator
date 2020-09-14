@@ -42,7 +42,7 @@ body {
   padding-bottom: 10px;
   bottom: 0;
   left: 0;
-  text-shadow: 0 5px 5px #000;
+  text-shadow: 5px 5px 5px #000;
   color: #fff;
   word-wrap: break-word;
   width: 100%;
