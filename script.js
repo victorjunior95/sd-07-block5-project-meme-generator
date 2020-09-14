@@ -5,7 +5,7 @@ configura uma função que será chamada sempre que o evento especificado for en
 referencia 
 https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener 
 */
-yourtext.addEventListener("keyup", function(typedLetter){
-    youtcontent.innerText = typedLetter.target.value;
+yourtext.addEventListener("keyup", function(typeLetters){
+    youtcontent.innerText = typeLetters.target.value;
 })
 
