@@ -1,7 +1,7 @@
-window.onload = function textMeme() {
+function textMeme() {
     let textImput = document.getElementById("text-input").value;
     let memeText = document.getElementById("meme-text");
-    memeText.innerHTML = textImput
+    memeText.innerHTML = textImput;
 
     let memeText = document.getElementById("text-input");
     memeText.addEventListener("keyup", textMeme);
