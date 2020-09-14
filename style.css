@@ -8,8 +8,14 @@
   z-index: 0;
 }
 
+#meme-image {
+  z-index: 1;
+}
+
 #meme-text {
   font-size: 30px;
   color: white;
   text-shadow: 5px 5px 5px black;
+  z-index: 2;
+  position: absolute;
 }
