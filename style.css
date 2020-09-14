@@ -5,14 +5,13 @@ p{
   color:white;
   font-size: 40px;
   font-family: Impact;
-
-
 }
 div{
   position: relative;
 }
+
 #meme-image-container{
-  background-color: white;
+  background: white;
   border: 1px solid black;
   height:400px;
   margin-bottom: 20px;
