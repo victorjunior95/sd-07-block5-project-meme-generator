@@ -62,7 +62,7 @@ h1 {
 .memeText {
   bottom: 25px;
   color: white;
-  font-family: Impact;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 30px;
   font-weight: 700;
   position: absolute;
