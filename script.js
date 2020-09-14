@@ -63,5 +63,3 @@ imgMeme4.addEventListener('click', function () {
   const srcImage = getSrc(imgMeme4);
   memeImagem.src = srcImage;
 });
-
-
