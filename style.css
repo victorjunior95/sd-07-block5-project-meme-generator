@@ -8,29 +8,36 @@ h1 {
   margin: 70px;
 }
 
-.meme-text {
-  font-family: Impact, sans-serif;
-  font-size: 30px;
-  text-shadow: 5px 5px 5px black;
+.meme-image-container {
+  position: relative;
 }
 
-.meme-image-container {
+.meme-image-container img {
   background-color: white;
   border: 1px solid black;
   height: 450px;
-  left: 41%;
   margin-bottom: 30px;
   margin-top: 30px;
   position: relative;
   width: 450px;
 }
 
-.meme-text-container {
-  bottom: 0;
+.meme-image-container div {
   height: 150px;
+  left: 33%;
   position: absolute;
+  top: 340px;
+  width: 400px;
+}
+
+.meme-image-container div p {
+  font-family: Impact, sans-serif;
+  font-size: 30px;
+  height: 150px;
   text-align: center;
-  width: 450px;
+  text-shadow: 5px 5px 5px black;
+  position: relative;
+  width: 400px;
 }
 
 .padrao-icones {
