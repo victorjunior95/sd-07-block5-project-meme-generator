@@ -13,6 +13,7 @@
 }
 
 #meme-image-container {
+    position: relative;
     width: 500px;
     height: 600px;
     border: solid black 1px;
@@ -30,7 +31,6 @@
 }
 
 #meme-text {
-    position: relative;
     margin-left: 2px;
     margin-right: 2px;
     margin-bottom: 2px;
