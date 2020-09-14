@@ -44,9 +44,9 @@ a:hover {
   text-align: center;
   text-shadow: 5px 5px 5px rgb(0, 0, 0);
   text-transform: uppercase;
-  top: 360px;
-  word-break: break-word;
-  z-index: 1000;
+  top: 380px;
+  word-wrap: break-word;
+  z-index: 10;
 }
 
 #meme-image-container {
@@ -144,4 +144,8 @@ a:hover {
   right: 0;
   top: 670px;
   width: 100px;
+}
+
+.meme-thumb {
+  border: 1px solid black;
 }
