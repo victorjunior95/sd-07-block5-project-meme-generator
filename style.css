@@ -1,7 +1,7 @@
 a {
+  color: rgb(241 , 145 , 67);
   font-family: sans-serif;
   font-weight: 700;
-  color: rgb(241 , 145 , 67);
 }
 
 .botaum {
@@ -37,17 +37,17 @@ h1 {
   width: 1000px;
 }
 
-.images img {
-  box-shadow: 5px 2px gray;
+.images img {  
   border: 1px solid black;
+  box-shadow: 5px 2px gray;
   height: 200px;
   width: 200px;
 }
 
 .meme-container {
   background-color: white;
-  box-shadow: 5px 2px gray;
   border: 1px solid black;
+  box-shadow: 5px 2px gray;
   height: 500px;
   margin-left: 30%;
   position: relative;
@@ -62,9 +62,9 @@ h1 {
 .memeText {
   bottom: 25px;
   color: white;
-  font-weight: 700;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, Arial Narrow Bold, sans-serif;
   font-size: 30px;
+  font-weight: 700;
   text-shadow: 5px 5px 5px black;
   position: absolute;
   width: 100%;

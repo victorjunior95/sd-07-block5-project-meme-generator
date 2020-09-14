@@ -26,7 +26,7 @@ image2.addEventListener('click', function () {
 image3.addEventListener('click', function () {
   imagemPhoto.src = image3.src;
 });
-image4.addEventListener('click', function() {
+image4.addEventListener('click', function () {
   imagemPhoto.src = image4.src;
 });
 button1.addEventListener('click', function () {
