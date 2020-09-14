@@ -3,10 +3,11 @@ body {
   color: white;
 }
 
-img , #meme-image , #meme-image-container , #meme-text {
+img , #meme-image , #meme-image-container {
   width: 500px;
   height: 550px;
 }
+
 #meme-container {
   position: relative;
 }
@@ -23,5 +24,8 @@ img , #meme-image , #meme-image-container , #meme-text {
   font-weight: bold;
   text-shadow: 5px 5px 5px black;
   position: absolute;
-  top: 224px;
+  top: 234px;
+  margin-left: 10px;
+  width: 480px;
+  height: 530px;
 }
