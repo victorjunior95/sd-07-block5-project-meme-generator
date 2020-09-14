@@ -3,6 +3,8 @@ body {
     background-image: url(https://storage.pixteller.com/designs/designs-images/2019-03-27/05/funny-background-drawing-backgrounds-cartoon-1-5c9b97d1c4d88.png);
     background-size: 110%;
     font-family: Arial;
+    padding: 0px;
+    margin: 0px;
 }
 
 input[type="file"] {
@@ -26,7 +28,6 @@ button {
     background-color: white;
 /*     color: black; */
     cursor: pointer;
-    border-radius: 5px;
 }
 
 #buttons {
@@ -43,7 +44,6 @@ button {
     margin: 3% 5%;
     width: 12%;
     border: solid white 1px;
-    border-radius: 5px;
 }
 
 #water {
@@ -70,7 +70,6 @@ button {
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
-    border-radius: 5px;
     border: solid 2px black;
 }
 
@@ -85,9 +84,7 @@ button {
     text-transform: uppercase;
     background-color: white;
     color: black;
-    border-radius: 5px;
-    border-radius: 5px;
-    border: solid 2px black;    
+    border: solid 2px black;     
 }
 
 #meme-text {
@@ -103,19 +100,14 @@ button {
     color: white;
     word-wrap: break-word;
     z-index: 2;
+    box-sizing: border-box;
 }
 
 #meme-image {
     position: relative;
-/*     margin-left: auto;
-    margin-right: auto; */
-/*     top: 0px; */
     width: 100%;
     height: 100%;
     background-color: white;
-    border: solid 1px black;
-    border-radius: 5px;
-    z-index: 1;
 }
 
 #meme-image-container {
@@ -125,7 +117,6 @@ button {
     top: 30px;
     background-color: white;
     border: solid 1px black;
-    border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
     z-index: 0;
@@ -141,7 +132,6 @@ button {
     top: 10px;
     background-color: pink;
     border: solid 1px white;
-    border-radius: 5px;
 }
 
 #endOfPage {
@@ -152,6 +142,5 @@ button {
     width: 40%;
     background-color: pink;
     top: 55px;
-    border-radius: 5px;
     border: solid white 1px;
 }

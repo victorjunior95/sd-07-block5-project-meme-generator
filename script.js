@@ -46,11 +46,13 @@ window.onload = function() {
 
     borderWater.addEventListener("click", function () {
         imageContainer.style.border = "double 5px blue";
+       
     });
     borderFire.addEventListener("click", function () {
-        imageContainer.style.border = "dashed 3px red";
+        imageContainer.style.border = "dashed 3px red"; 
+       
     });
     borderEarth.addEventListener("click", function () {
-        imageContainer.style.border = "groove 6px green";
+        imageContainer.style.border = "groove 6px green";    
     });
 }

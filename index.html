@@ -11,7 +11,7 @@
 <body>
     <div id="selectors">
     <label for="meme-insert"></label>
-    <input id="meme-insert" type="file" accept="image/gif, image/jpeg, image/png">
+    <input id="meme-insert" type="file" accept="image/*">
     <label for="text-input"></label>
     <input id="text-input" type="text" placeholder="Digite o texto aqui!" maxlength="60" onchange="loadFile(event)">
      <!-- horadecodar.com.br/2020/03/31/css-como-estilizar-um-input-do-tipo-file/ -->   
@@ -19,7 +19,7 @@
     <section id="meme-image-container">
         <div id="meme-text">
         </div>
-        <img id="meme-image" src="" alt="Escolha a imagem" type="image" onerror=""> 
+        <img id="meme-image" src="" alt="Escolha: imagem" type="image" onerror=""> 
     </section>
     <footer id="endOfPage">
         <section id="buttons">
