@@ -23,9 +23,6 @@ function loadFile(event) {
   getDivImage.style.backgroundImage = memeImage.src;
 }
 
-/*testando outra forma para economizar linha de códigos
-evitando a criação de variáveis
-*/
 document.getElementById('meme-insert').addEventListener('change', loadFile);
 
 btnFire.addEventListener('click', function () {
