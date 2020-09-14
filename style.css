@@ -140,12 +140,12 @@ body {
 }
 
 .btn-earth {
-  background-color: #0f0;
+  background-color: #008000;
   box-shadow: 5px 5px 5px #000;
 }
 
 .border-earth {
-  border: 6px groove #0f0;
+  border: 6px groove #008000;
   position: relative;
   width: 400px;
   height: 400px;
