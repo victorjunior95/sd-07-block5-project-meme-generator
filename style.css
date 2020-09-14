@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(255, 205, 215);
+  background-color: rgb(255 , 205 , 215);
 }
 
 label {
@@ -8,12 +8,12 @@ label {
 }
 
 .header {
-  background-color: rgb(255, 155, 175);
+  background-color: rgb(255 , 155 , 175);
   border: solid 1px black;
+  border-radius: 10px;
   margin: auto;
   max-width: 600px;
   padding: 20px;
-  border-radius: 10px;
 }
 
 .text-input {
@@ -23,7 +23,7 @@ label {
 }
 
 .meme-insert {
-  background-color: rgb(255, 190, 200);
+  background-color: rgb(255 , 190 , 200);
   border: solid 1px black;
   border-radius: 5px;
   margin-top: 10px;
@@ -38,4 +38,19 @@ label {
   max-width: 600px;
   padding: 20px;
   text-align: center;
+}
+
+.meme-image {
+  border: solid 1px black;
+  border-radius: 10px;
+  height: 300px;
+  position: relative;
+  width: 300px;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
 }
