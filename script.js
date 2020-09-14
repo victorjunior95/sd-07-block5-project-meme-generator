@@ -11,30 +11,30 @@ const button2 = document.querySelectorAll('.botaum button')[1];
 const button3 = document.querySelectorAll('.botaum button')[2];
 const meme = document.querySelector('.meme-container');
 
-text.addEventListener ('keyup', function (){
+text.addEventListener('keyup', function () {
   textOnPhoto.innerText = text.value;
 });
-imagem.addEventListener ('change', function (){
+imagem.addEventListener('change', function () {
   imagemPhoto.src = URL.createObjectURL(event.target.files[0]);
 });
-image1.addEventListener ('click', function (){
+image1.addEventListener('click', function () {
   imagemPhoto.src = image1.src;
 });
-image2.addEventListener ('click', function (){
+image2.addEventListener('click', function () {
   imagemPhoto.src = image2.src;
 });
-image3.addEventListener ('click', function (){
+image3.addEventListener('click', function () {
   imagemPhoto.src = image3.src;
 });
-image4.addEventListener ('click', function(){
+image4.addEventListener('click', function() {
   imagemPhoto.src = image4.src;
 });
-button1.addEventListener ('click', function (){
+button1.addEventListener('click', function () {
   meme.style.border = '3px dashed red';
 });
-button2.addEventListener ('click', function (){
+button2.addEventListener('click', function () {
   meme.style.border = '5px double blue';
 });
-button3.addEventListener ('click', function (){
+button3.addEventListener('click', function () {
   meme.style.border = '6px groove green';
 });

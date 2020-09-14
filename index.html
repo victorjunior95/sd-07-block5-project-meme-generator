@@ -10,32 +10,33 @@
 
 <body>
     <h1 class="head-title">Bem vindo ao Meme Generator!</h1>
-    <div class ="princip">
-    <form class="inputs">
-        <div>
-            <a>Texto :</a>
-            <input type="text" id="text-input" maxlength="60">
+    <div class="princip">
+        <form class="inputs">
+            <div>
+                <a>Texto :</a>
+                <input type="text" id="text-input" maxlength="60">
+            </div>
+            <div>
+                <a>Foto : </a>
+                <input type="file" id="meme-insert" class="memeInsert" accept="image/*">
+            </div>
+        </form>
+        <div id="meme-image-container" class="meme-container">
+            <div id="meme-text" class="memeText"></div>
+            <img id="meme-image" class="memeImage">
         </div>
-        <div>
-            <a>Foto : </a>
-            <input type="file" id="meme-insert" class="memeInsert" accept="image/*">
+        <div class="botaum">
+            <button id="fire" class="fire">Borda de fogo</button>
+            <button id="water" class="water">Borda de água</button>
+            <button id="earth" class="earth">Borda de terra</button>
         </div>
-    </form>
-    <div id="meme-image-container"class="meme-container">
-        <div id="meme-text" class="memeText"></div>
-        <img id="meme-image" class="memeImage">
+        <div class="images">
+            <img id="meme-1" src=imgs/meme1.png>
+            <img id="meme-2" src=imgs/meme2.png>
+            <img id="meme-3" src=imgs/meme3.png>
+            <img id="meme-4" src=imgs/meme4.png>
         </div>
-<div class = "botaum">
-    <button id="fire" class="fire">Borda de fogo</button>
-    <button id="water" class="water">Borda de água</button>
-    <button id="earth" class="earth">Borda de terra</button>
-</div>
-<div class = "images">
-    <img id="meme-1" src = imgs/meme1.png>
-    <img id="meme-2" src = imgs/meme2.png>
-    <img id="meme-3" src = imgs/meme3.png>
-    <img id="meme-4" src = imgs/meme4.png>
-</div>
-    <script src="script.js"></script>
+        <script src="script.js"></script>
 </body>
+
 </html>
