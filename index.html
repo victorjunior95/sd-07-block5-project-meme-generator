@@ -1,11 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+
 </head>
 <body>
-    
+  <header>
+      <h1 id='titulo'>MEME GENERATOR</h1>
+  </header>
+<!-- Text inclusion and image uploading section-->  
+  <table id="details"> <!--Text inclusion-->
+    <tr>
+      <td>Text to insert here:</td>          
+      <td><textarea id='text-input' name="text" rows="2" cols="60" wrap='soft' placeholder="Your text has to be 60 characters maximum..." maxlength="60"></textarea><br /></td>
+      <!-- <input id='text-input' type="text" name="nome" size="40" maxlength="60"> -->
+    </tr>
+    <tr> <!--Picture uploading-->
+      <td>Picture:</td>
+      <td><input id="meme-insert" type="file" value="Choose your file"></input><br /></td>
+    </tr>
+  </table>
+
+<!-- Meme section -->
+  <div class=container>
+    <label class="labelMeme">Ready-made memes:</label><br>
+    <!-- <section id="meme-image-container" class="meme-image-container"> -->
+      <section>
+      <table>
+        <tr>
+          <td class='inclusao' id="meme-image-container" class="meme-image-container"><img id="meme-image" class="meme-image" src="" alt="User image">
+          <p id="meme-text" class="meme-text"></p></td>
+        </tr>
+      </table>
+    </section>
+  
+  <div>
+    <label>Choose your border type</label><br>
+    <button id="button1" class="button1">Border 1</button>
+    <button id="button2" class="button2">Border 2</button>
+    <button id="button3" class="button3">Border 3</button>
+  </div>
+  
+    <!-- <table class='table-for-image'>
+      <tr>
+        <td class="inclusao"><img class='photo' id="foto" src="https://avatars0.githubusercontent.com/u/69744794?s=460&u=4ab31139bf24154e940e8f98b16ad3df1b5f9a53&v=4" alt="Geziel smiling"></td>
+      </tr>
+    </table> -->
+
+
+  </div>
+
+  
+  <script src="script.js"></script>
 </body>
 </html>
