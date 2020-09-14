@@ -1,3 +1,4 @@
+window.onload = function (){
 function getInput() {
   document.getElementById("meme-text").innerText = document.getElementById("text-input").value.toUpperCase();
 }
@@ -10,3 +11,4 @@ function getImage(e) {
 }
 
 document.getElementById('meme-insert').addEventListener("change", getImage);
+}
