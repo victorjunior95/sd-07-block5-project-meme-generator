@@ -12,12 +12,14 @@
   </header>
     <section>
       <div>
-        <label for="texto">Digite o texto na caixa ao lado </label>
-        <input type="text" name="texto" id="text-input" maxlength="60">
-      </div>
-      <div>
-        <label for="foto">Selecione a foto </label>
-        <input type="file" accept="image" name="foto" id="meme-insert">
+        <div class="inputs">
+          <label for="texto">Digite o texto na caixa ao lado </label>
+          <input type="text" name="texto" id="text-input" maxlength="60">
+        </div>
+        <div class="inputs">
+          <label for="foto">Selecione a foto </label>
+          <input type="file" accept="image" name="foto" id="meme-insert">
+        </div>
       </div>
     </section>
     <section id="meme-image-container" class="meme-image-container">
@@ -26,26 +28,25 @@
         <p id="meme-text" class="meme-text"></p>
       </div>
     </section>
-    <div>
+    <div class="muda-fonte">
       Estilos personalizados
     </div>
     <div>
-      <div>
+      <div class="icones">
         <input type="button" value="Fire" id="fire" class="padrao-icones fire">
-      </div>
-      <div class="icones">
         <input type="button" value="Water" id="water" class="padrao-icones water">
-      </div>
-      <div class="icones">
         <input type="button" value="Earth" id="earth" class="padrao-icones earth">
       </div>
     </div>
     <div>
-      <div>
-        pré prontos
+      <div class="muda-fonte">
+        Memes pré prontos
       </div>
       <div>
-        memes pre prontos
+        <div class="pre-prontos" id="pre1"></div>
+        <div class="pre-prontos" id="pre2"></div>
+        <div class="pre-prontos" id="pre3"></div>
+        <div class="pre-prontos" id="pre4"></div>
       </div>
     </div>
   <footer>
