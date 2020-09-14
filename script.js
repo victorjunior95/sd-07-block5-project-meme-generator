@@ -7,11 +7,11 @@ getInputText.oninput = function () {
   getParagraph.innerText = textInput;
 };
 
-const loadFile = function(event) {
+const loadFile = function (event) {
   const outputImage = document.getElementById('meme-image');
   outputImage.src = URL.createObjectURL(event.target.files[0]);
-  outputImage.onload = function() {
+  outputImage.onload = function () {
     URL.revokeObjectURL(outputImage.src);
-  }
+  };
   getDivImage.style.backgroundImage = outputImage.src;
-}
+};

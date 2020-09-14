@@ -1,9 +1,10 @@
 .div-photo {
-  margin-top: 20px;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .div-image-container {
+  background-color: white;
   border: 1px solid black;
   height: 500px;
   width: 500px;
@@ -11,16 +12,16 @@
 
 .image {
   border: 2px solid black;
-  width: 495px;
-  height: 495px;
+  height: 499px;
   position: absolute;
+  width: 499px;
   z-index: 1;
 }
 
 .text-paragraph {
-  position: absolute;
   bottom: 150px;
-  left: 20px;
   font-size: 20pt;
+  left: 20px;
+  position: absolute;
   z-index: 2;
 }
