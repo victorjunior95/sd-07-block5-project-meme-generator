@@ -16,28 +16,30 @@
 
 <div id="meme-image-container">
     
-    <div id="meme-image">
-         <img src="foto.jpg" alt="foto teste">
-    </div>
-
+    
     <div>
         <form>
         <label for="fname">Texto:</label> 
-        <input type="text" id="text-input"  value= "" maxlength="60" size="60" /> <br>
-        <input type="button" value="enviar" onclick="Enviar()">
+        <input type="text" id="text-input"  value= "" maxlength="60" size="60" oninput="Enviar()"/> <br>
+     
     
         </form>
 
     </div>
 
+
        
 </div>
+<div>
 
-    <div id="meme-insert">
+        <h2><textarea name="" id="texto" cols="30" rows="10"></textarea></h2>
+
+ </div>
+<div id="meme-insert">
         <label for="avatar"> Carregue sua foto:</label>
 
         <input type="file" id="avatar" name="avatar"
        accept="image/png, image/jpeg">
 
-    </div>
+</div>
 </html>

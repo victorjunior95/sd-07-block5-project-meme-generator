@@ -5,10 +5,8 @@ function frase () {
 
 function Enviar() {
 
-    var nome = document.getElementById("text-input");
-
-    if (nome.value != "") {
-        alert('Obrigado sr(a) ' + nome.value + ' os seus dados foram encaminhados com sucesso');
+    var texto = document.getElementById("text-input").value;
+    document.getElementById("texto").innerText = "You wrote: " + x;
     }
 
 }
