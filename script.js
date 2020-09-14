@@ -24,10 +24,10 @@ memeInsert.addEventListener("change", function() {
     status.innerHTML = memeInsert.value.match(
       /[\/\\]([\w\d\s\.\-\(\)]+)$/
     )[1];
-    memeImage.src = URL.createObjectURL(this.files[0]);
+    memeImage.setAttribute('src', URL.createObjectURL(event.target.files[0]));
     memeImage.onload = function() {
       URL.revokeObjectURL(this.src);
-  }
+    }
   } else {
     status.innerHTML = "No file.png chosen.";
   }
