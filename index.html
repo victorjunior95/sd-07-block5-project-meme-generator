@@ -4,13 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projeto_Meme_Generator_Leonardo_Sardinha</title>
-    <link rel="stylesheet" href="style.css" media="all">
+    <link rel="stylesheet" href="style.css" media="all" />
   </head>
   <body>
-      <header><strong>MEME GENERATOR</strong></header>
-      <main>
-
-      </main>
-      <script src="script.js"></script>
+    <header>
+      <strong><h1>MEME GENERATOR</h1></strong>
+    </header>
+    <main>
+      <form>
+        <div>
+          <p class="side-by-side"><strong>Texto:</strong></p>
+          <input type="text" id="text-input" class="side-by-side" />
+        </div>
+        <div>
+          <p class="side-by-side"><strong>Foto:</strong></p>
+          <input type="file" id="text-input" class="side-by-side" />
+        </div>
+      </form>
+      <div id="meme-image-container">
+        <p id="meme-text"></p>
+        <div id="meme-image"></div>
+        <img
+          id="meme-insert"
+          src="rsz_1imagem1_meme_generator.jpg"
+          alt="Paisagem Natural"
+          width="400"
+          height="400"
+        />
+      </div>
+    </main>
+    <script src="script.js"></script>
   </body>
 </html>
