@@ -1,3 +1,27 @@
+body {
+  padding-left: 20px;
+}
+
+.btn-fire {
+  background-color: red;
+  color: white;
+}
+
+.btn-earth {
+  background-color: green;
+  color: white;
+}
+
+.btn-water {
+  background-color: blue;
+  color: white;
+}
+
+.btns {
+  height: 30px;
+  width: auto;
+}
+
 .div-photo {
   margin-bottom: 20px;
   margin-top: 20px;
@@ -7,6 +31,7 @@
   background-color: white;
   border: 1px solid black;
   height: 500px;
+  margin-bottom: 20px;
   width: 500px;
 }
 
@@ -20,10 +45,11 @@
 
 .text-paragraph {
   bottom: 150px;
-  color: rgb(255, 255, 255);
+  color: white;
   font-size: 30px;
   left: 20px;
+  margin-left: 20px;
   position: absolute;
-  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+  text-shadow: 5px 5px 5px black;
   z-index: 2;
 }
