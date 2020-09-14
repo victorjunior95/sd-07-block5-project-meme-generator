@@ -16,23 +16,45 @@ body {
 
 .header {
   width: 100%;
-  height: 100px;
-  background-color: #6c757d;
+  height: 80px;
+  background-image: url(blue-background-4863452_1920.jpg);
+  background-size: cover;
   text-shadow: 5px 5px 3px #212529;
-  line-height: 100px;
+  line-height: 80px;
 }
 
 .header h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #fff;
-  font-size: 30pt;
+  font-size: 40px;
   text-transform: uppercase;
 }
-
-.meme-generator {
-  padding: 50px 0;
-  background-color: #ced4da;
+.background {
+  background-image: url(Simple-Blue-Background.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 540px;
 }
-
+.meme-generator {
+  width: 70%;
+  padding-top: 20px;
+  
+  float: left;
+}
+.label-text {
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 2px 2px 1px #000;
+}
+.form-text {
+  width: 300px;
+  height: 22px;
+}
+.input-text {
+  color: #fff;
+  font-size: 15px;
+}
 .inputs {
   margin-bottom: 20px;
 }
@@ -63,14 +85,84 @@ body {
   background-color: #fff;
   margin: 0 auto;
 }
+.buttons {
+  float: right;
+  width: 30%;
+  margin-top: 65px;
+}
+.btn-border {
+  width: 250px;
+  height: 80px;
+  border-radius: 20px;
+  display: block;
+  margin: 40px 20px;
+  position: relative;
+}
+.btn-border img {
+  position: absolute;
+  left: 10px;
+  top: 3.5px;
+}
+.btn-border span {
+  font-size: 30px;
+  padding-left: 50px;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 3px 3px 3px #000;
+}
+
+.btn-fire {
+  background-color: #f00;
+  box-shadow: 5px 5px 5px #000;
+}
+
+.border-fire {
+  border: 3px dashed #f00;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.btn-water {
+  background-color: #00f;
+  box-shadow: 5px 5px 5px #000;
+}
+
+.border-water {
+  border: 5px double #00f;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.btn-earth {
+  background-color: #0f0;
+  box-shadow: 5px 5px 5px #000;
+}
+
+.border-earth {
+  border: 6px groove #0f0;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+  margin: 0 auto;
+}
 
 .footer-content {
+  float: left;
   width: 100%;
-  height: 70px;
-  background-color: #212529;
+  height: 40px;
+  background-color: #002154;
   text-align: center;
-  line-height: 70px;
+  line-height: 40px;
   color: white;
   font-size: 14pt;
   font-style: italic;
+  font-weight: bold;
+  border-top: 3px solid #fff;
 }
