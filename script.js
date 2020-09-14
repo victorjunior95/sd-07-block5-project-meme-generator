@@ -1,7 +1,6 @@
 // Acompanhando a explicação do GUGA junto com o colega Ander
 let inputText = document.querySelector("#text-input");
 let memeText = document.querySelector("#meme-text");
-const imageMeme = document.querySelector("#meme-image");
 let memeBorder = document.getElementById("meme-image-container");
 
 
@@ -19,9 +18,12 @@ inputText.addEventListener("keyup", function() {
     };
 };*/
 //Agora
-const updateMEME = document.addEventListener("change", function() {
+const update = document.getElementById("meme-up");
+const imageMeme = document.querySelector("#meme-image");
+ update.addEventListener("change", function() {
     imageMeme.src = window.URL.createObjectURL(this.files[0]);
-})
+});
+
 const btnRed = document.getElementById("fire")
 btnRed.addEventListener("click", function() {
     memeBorder,className = "redborder";
