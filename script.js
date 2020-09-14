@@ -2,12 +2,11 @@
 let inputText = document.querySelector("#text-input");
 let memeText = document.querySelector("#meme-text");
 let memeBorder = document.getElementById("meme-image-container");
-
-
+const update = document.getElementById("meme-insert");
+const imageMeme = document.querySelector("#meme-image");
 inputText.addEventListener("keyup", function() {
     memeText.innerHTML = inputText.value;
 });
-
 // linha de comando melhorado no plantão do GUGA com o colega Rodrigo Pardo
 //Antes
 /*let updateFile = function(event) {
@@ -18,13 +17,42 @@ inputText.addEventListener("keyup", function() {
     };
 };*/
 //Agora
-const update = document.getElementById("meme-insert");
-const imageMeme = document.querySelector("#meme-image");
- update.addEventListener("change", function() {
+update.addEventListener("change", function() {
     imageMeme.src = window.URL.createObjectURL(this.files[0]);
 });
-
-const btnRed = document.getElementById("fire")
+// Reformulando o código para menor comparando com os projetos dos Colegas, me deparei com algo mais sofisticado quanto ao colega Daniel Duarte
+//Alterando a formatação de forma direta do elemento.
+// Antes
+/*const btnRed = document.getElementById("fire")
 btnRed.addEventListener("click", function() {
     memeBorder,className = "redborder";
+});*/
+//Agora
+const btnRed = document.getElementById("fire")
+btnRed.addEventListener("click", function() {
+    memeBorder.style.border = '3px dashed red';
+});
+const btnBlue = document.getElementById("water")
+btnBlue.addEventListener("click", function() {
+    memeBorder.style.border = '5px double blue';
+});
+const btnGreen = document.getElementById("earth")
+btnGreen.addEventListener("click", function() {
+    memeBorder.style.border = '6px groove green';
+});
+const mene1 = document.getElementById("meme-1")
+mene1.addEventListener('click', function () {
+    document.querySelector('#meme-image').src = mene1.src;
+});
+const mene2 = document.getElementById("meme-2")
+mene2.addEventListener('click', function () {
+    document.querySelector('#meme-image').src = mene2.src;
+});
+const mene3 = document.getElementById("meme-3")
+mene3.addEventListener('click', function () {
+    document.querySelector('#meme-image').src = mene3.src;
+});
+const mene4 = document.getElementById("meme-4")
+mene4.addEventListener('click', function () {
+    document.querySelector('#meme-image').src = mene4.src;
 });
