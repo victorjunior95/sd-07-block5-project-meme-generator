@@ -12,18 +12,18 @@
 
 .image {
   border: 2px solid black;
-  height: 500px;
-  position: absolute;
-  width: 500px;
+  height: 100%;
+  position: relative;
+  width: 100%;
   z-index: 1;
 }
 
 .text-paragraph {
   bottom: 150px;
-  text-shadow: 5px 5px 5px rgb(0,0,0);
   color: rgb(255, 255, 255);
-  font-size: 30px;
+  font-size: 30pt;
   left: 20px;
   position: absolute;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
   z-index: 2;
 }
