@@ -1,8 +1,12 @@
-h1 {
+
+h1, .instrucoes{
+  display: inline-block;
+  margin-left: 30%;
   font-family: sans-serif;
   color: rgb(250, 188, 60);
   text-shadow: 3px 3px 1px black;
   font-weight: bold;
+  text-align: center;
 }
 
 a {
@@ -10,17 +14,21 @@ a {
   color: rgb(241, 145, 67);
   font-weight: bold;
 }
+
+.princip{
+  display: inline-block;
+  text-align: center;
+  margin-left: 30%;
+}
 #meme-image-container {
+  text-align: center;
   width: 500px;
   height: 500px;
   background-color: white;
   position: relative;
   border: 1px solid black;
+  box-shadow: 5px 2px gray;
 
-}
-
-#inputs {
-  display: inline-block;
 }
 #meme-image {
   width: 100%;
@@ -36,4 +44,13 @@ a {
   color: white;
   font-family: Impact;
   font-size: 30px;
+}
+.images{
+margin-left: 20%;
+}
+.images img{
+  box-shadow: 5px 2px gray;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
 }
