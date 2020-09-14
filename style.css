@@ -26,9 +26,14 @@ div{
   text-shadow: 5px 5px 5px black;
 }
 
-button{
+.containerMeme{
+  height : 400px;
+  position: absolute;
+  width: 800px;
 
 }
+
+
 
 #fire{
   background-color: red;
