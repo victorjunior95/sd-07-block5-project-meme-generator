@@ -1,3 +1,4 @@
+window.onload = function () {
 // Configurando ponte entre HTML e JS
 const container = document.getElementById("meme-image-containertext-input");
 const textInput = document.getElementById("text-input");
@@ -106,3 +107,4 @@ meme10.addEventListener("click", function() {
   status.innerHTML = "Meme 10 do Arquivo";
   memeImage.setAttribute('src', meme10.src);
 });
+};
