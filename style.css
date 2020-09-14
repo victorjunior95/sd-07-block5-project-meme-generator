@@ -1,16 +1,51 @@
-header{
-    text-align: center;
-}
+
 body {
-    background-color: #777777;
+   
     align-items: center;
-    margin: 15px;
+    
     height: 100vh;
     width: 100vh;
     justify-content: center;
-
-
 }
+
+.gradiente-bg {
+    background: linear-gradient(45deg,#01454b,#102a2c,#032541,#420f03);
+    background-size: 500%,500%;
+    
+    align-items: center;
+    justify-content: center;
+    height: 1500px ;
+    animation: colors 15s ease-in-out infinite;
+    border-radius: 20px;
+}
+
+    @keyframes colors {
+        0% {
+            background-position: 0%,50%;
+        }
+        50% {
+            background-position: 100%,50%;
+        }
+        100% {
+            background-position: 0%,50%;
+        }
+        
+    }
+
+header{
+    
+    text-align: center;
+    line-height:150px ;
+    background-color: rgb(83, 83, 83);
+    width: 1350px;
+    height: 150px;
+    color: honeydew;  
+    margin-left: -15px;
+    margin-top: -22px; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     
+}
+
 .meme-image-container {
     position: relative;
     border: 1px solid black;
@@ -19,16 +54,19 @@ body {
     border-radius: 10px;
     overflow: hidden;
     width: 400px;
-    height: 500px;
-    
+    height: 500px;  
+    box-shadow: 3px 3px 5px rgb(0, 0, 0); 
+    background-size: 500px;
+    background-repeat: no-repeat;
 }
+
 .meme-image {
     border-radius: 10px;
     object-fit: contain;
     width: 400px;
-    height: 500px;
-    
+    height: 500px;    
 }
+
 .meme-text {
     position: absolute;
     font-size: 30px;
@@ -39,22 +77,147 @@ body {
     text-transform: uppercase;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 20px;
-
 }
-
 
 #text-input {
     display: inline-block;
     text-align: center;
-    margin: 20px;
-    
+    margin: 20px;    
 }
-
 
 #meme-insert {
     display: inline-block;
     text-align: center;
     margin: 20px;
+}
+.textMeme {
+    margin-left: 500px;
+}
+.textMeme p{
+    color: honeydew;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+
+}
+#btBorder {
+    margin-left: 500px;
+}
 
 
+.textMeme input{
+    margin: -10px;
+    width: 200px;
+    height: 30px;
+}
+
+.fire {
+    display: inline-block;
+    color: whitesmoke;
+    background-color: tomato;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    margin: 20px;
+
+}
+.fire:hover {
+    width: 70px;
+    height: 40px;
+    box-shadow: 3px 3px 5px black;
+    font-size: 15pt;
+    line-height: 35px;
+    transition-duration: .2s;
+    
+}
+
+.water {
+    display: inline-block;
+    color: whitesmoke;
+    background-color: rgb(54, 87, 233);
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    margin: 20px;
+}
+.water:hover {
+    width: 70px;
+    height: 40px;
+    box-shadow: 3px 3px 5px black;
+    font-size: 15pt;
+    line-height: 35px;
+    transition-duration: .2s;
+
+}
+.earth {
+    display: inline-block;
+    color: whitesmoke;
+    background-color: rgb(94, 69, 24);
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    margin: 20px;
+}
+.earth:hover {
+    width: 70px;
+    height: 40px;
+    box-shadow: 3px 3px 5px black;
+    font-size: 15pt;
+    line-height: 35px;
+    transition-duration: .2s;
+}
+
+section h2 {
+    color: ivory;
+    font-size: 30pt;
+    margin-left: 500px;
+}
+.bob {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    margin-left: 80px;
+    border-radius: 10px;
+}
+
+.boo {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.menino {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.carminha{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+footer{
+    
+    text-align: center;
+    line-height:150px ;
+    background-color: rgb(83, 83, 83);
+    width: 1350px;
+    height: 100px;
+    color: honeydew;  
+    margin-top: 150px;
+    margin-left: -15px;
 }
