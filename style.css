@@ -20,7 +20,9 @@
 
 .text-paragraph {
   bottom: 150px;
-  font-size: 20pt;
+  box-shadow: 5px 5px 5px black;
+  color: white;
+  font-size: 30px;
   left: 20px;
   position: absolute;
   z-index: 2;
