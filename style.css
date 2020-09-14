@@ -1,26 +1,30 @@
 #meme-image-container{
-    position: absolute;
+    position: relative;
     width: 600px;
     height: 500px;
     margin-left: 50%;
     margin-right: 50%;
     border: 1px solid black;
+    background-color: rgb(255,255,255);
 }
 #meme-image{
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100%;
 }
 #meme-text{
-    position: relative;
+    position: absolute;
     right: 0px;
     background-color: white;
-    text-decoration-color: white;
-    border-radius: 5px, 5px, 5px, solid black;
+    color: rgb(255,255,255);
+    border: 1px solid black;
+    text-shadow: rgb(0,0,0) 5px 5px 5px;
+    font-size: 30px;
 }
 #text-input{
     position: absolute;
     text-align: center;
+    text-decoration-color: white;
 }
 h1{
     margin-left: 50%;
@@ -30,4 +34,5 @@ p{
     margin-left: 50%;
     margin-right: 50%;
     margin-bottom: 20px;
+    visibility: visible;
 }
