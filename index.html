@@ -6,46 +6,35 @@
   
   <link rel="stylesheet" type="text/css" href="style.css" />
 
-  <title>
-    Meme Generator
-  </title>
+  <title>Meme Generator</title>
 
 </head>
-<body>
-
+<b
+ody>
   <!--Title-->
   <header>
 
-    <h1>
-      Gerador de Memes
-    </h1>
+    <h1>Gerador de Memes</h1>
 
   </header>
 
   <!--Upload imag-->
   <section>
 
-    <h2>
-      Envie suas imagens por aqui.
-    </h2>
+    <h2>Envie suas imagens por aqui.</h2>
 
-    <!--User sends image 
-      //https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded/27165977#27165977
-    Procurando outra forma de fazer...-->
-
-    <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)"/>
+    <!--User sends image -->
+    <input type="file" accept="image/*" id="meme-insert" onchange="loadFile(event)"/>
 
   </section>
 
   <!--Meme edition-->
   <form>
 
-    <h2>
-      Adicione um texto em seu gif...
-    </h2>
+    <h2>Adicione um texto em seu gif...</h2>
 
     <!--User adds text-->
-    <input type="text" placeholder="Escreva uma legenda aqui!" id="text-input" maxlength="60" keydown="textInput()">
+    <input type="text" placeholder="Digite uma legenda." id="text-input" maxlength="60" keydown="textInput()">
 
     <!--Image preview / Container-->
     <section id="meme-image-container">
@@ -56,16 +45,11 @@
       <!--Text-->
       <p id="meme-text"></p>
       
-
-      
     </section>
-
-    <!--User downloads the meme-->
-    <!--<button>Baixar</button>-->
 
   </form>
 
   <script  src="script.js" ></script>
 
-</body>
+</b>
 </html>
