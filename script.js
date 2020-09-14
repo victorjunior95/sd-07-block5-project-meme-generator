@@ -8,6 +8,10 @@ const btnWater = document.querySelector('#water');
 const btnEarth = document.querySelector('#earth');
 const divMemeImageContainer = document.getElementById('meme-image-container');
 const divBorderButtons = document.getElementById('divBorderButtons');
+const meme1 = document.getElementById('meme-1');
+const meme2 = document.getElementById('meme-2');
+const meme3 = document.getElementById('meme-3');
+const meme4 = document.getElementById('meme-4');
 
 // Cria URL única para documento local recebendo no parametro dados do evento onchange.
 function loadImage(event) {
@@ -24,6 +28,7 @@ textInput.addEventListener('keyup', () => {
   textOutput.innerText = textInput.value;
 });
 
+// Requisito bônus bordas personalizadas
 btnFire.addEventListener('click', () => {
   divMemeImageContainer.className = 'meme-image-container fire-border';
 });
@@ -52,4 +57,45 @@ btnEarth.addEventListener('mousemove', () => {
 });
 btnEarth.addEventListener('mouseout', () => {
   divBorderButtons.className = 'div-border-buttons';
+});
+
+//Requisito bônus memes famosos
+meme1.addEventListener('click', () => {
+  imgOutput.src = './imgs/meme1.png';
+});
+meme1.addEventListener('mousemove', () => {
+  meme1.className = 'thumbnails fire-border';
+});
+meme1.addEventListener('mouseout', () => {
+  meme1.className = 'thumbnails';
+});
+
+meme2.addEventListener('click', () => {
+  imgOutput.src = './imgs/meme2.png';
+});
+meme2.addEventListener('mousemove', () => {
+  meme2.className = 'thumbnails fire-border';
+});
+meme2.addEventListener('mouseout', () => {
+  meme2.className = 'thumbnails';
+});
+
+meme3.addEventListener('click', () => {
+  imgOutput.src = './imgs/meme3.png';
+});
+meme3.addEventListener('mousemove', () => {
+  meme3.className = 'thumbnails fire-border';
+});
+meme3.addEventListener('mouseout', () => {
+  meme3.className = 'thumbnails';
+});
+
+meme4.addEventListener('click', () => {
+  imgOutput.src = './imgs/meme4.png';
+});
+meme4.addEventListener('mousemove', () => {
+  meme4.className = 'thumbnails fire-border';
+});
+meme4.addEventListener('mouseout', () => {
+  meme4.className = 'thumbnails';
 });

@@ -91,9 +91,10 @@ h3 {
 }
 
 .main-content {
-  margin: 50px auto;
+  display: inline-block;
+  margin: 10px auto;
   text-align: center;
-  width: 100%;
+  width: 50%;
 }
 
 .meme-image-container {
@@ -135,6 +136,13 @@ h3 {
   width: fit-content;
 }
 
+.thumbnails {
+  border: 1px solid black;
+  height: 150px;
+  margin: 0;
+  width: 150px;
+}
+
 .fire-border {
   border: 3px dashed red;
 }
@@ -145,4 +153,25 @@ h3 {
 
 .earth-border {
   border: 6px groove green;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+.div-thumbnails-container {
+  background-color: wheat;
+  border: none;
+  display: inline-block;
+  height: auto;
+  margin-top: 100px;
+  text-align: center;
+  vertical-align: top;
+  width: auto;
+}
+
+.div-thumbnails-memes {
+  margin: 0;
 }
