@@ -3,10 +3,12 @@ window.onload = function () {
   let upload = document.querySelector('#meme-insert')
   let text = document.querySelector('#text-input')
   let memeText = document.querySelector('#meme-text')
-  
-  
+  let imageContainer = document.querySelector('#meme-image-container')
+  let fireBtn = document.querySelector('#fireButton')
+  let waterBtn = document.querySelector('#waterButton')
+  let earthBtn = document.querySelector('#earthButton')
+
   let openImage = function(event) {
-    console.log(upload.value)
     img.src = URL.createObjectURL(event.target.files[0]);
     img.width = 'fit-content'; 
   };
@@ -15,6 +17,18 @@ window.onload = function () {
 
   text.addEventListener('input', function() {
     memeText.innerText = text.value
+  })
+
+  fireBtn.addEventListener('click', function() {
+    imageContainer.style.border = 'dashed 3px Red'
+  })
+
+  waterBtn.addEventListener('click', function() {
+    imageContainer.style.border = 'double 5px Blue'
+  })
+
+  earthBtn.addEventListener('click', function() {
+    imageContainer.style.border = 'groove 6px Green'
   })
 }
   
