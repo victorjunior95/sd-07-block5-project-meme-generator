@@ -8,14 +8,24 @@
 </head>
 <body>
   <h1>Meme generator</h1>
+
   <section>
-    Texto:<input type="text" id="text-input" oninput="myFunction()">;
+    Texto:<input type="text" id="text-input" maxlength="60" size="35"  oninput="myFunction()">;
   </section>
+
+  <p>
+    <label for="meme-insert">foto:<span>(imagem até 500kb)</span></label>
+  </p>
+
+    Foto:<input type="file" name="meme-figure" id="meme-insert">
+
 
   <div id="meme-image-container">
     <p id="meme-text"></p>
-    <img src="./98666_36.jpg" alt="">
+    <img src="" alt="meme" id="meme-image">
+
   </div>
+
 
 
 <script src="script.js">
