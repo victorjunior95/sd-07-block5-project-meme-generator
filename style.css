@@ -108,13 +108,13 @@ button {
 }
 
 button.fire {
-  background-color: rgb(219, 48, 5);
+  background-color: rgb(255, 0, 0);
 }
 button.water {
-  background-color: rgb(9, 163, 198);
+  background-color: rgb(0, 0, 255);
 }
 button.earth {
-  background-color: rgb(9, 209, 42);
+  background-color: rgb(0, 128, 0);
 }
 
 button:hover {
