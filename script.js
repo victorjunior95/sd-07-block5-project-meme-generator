@@ -1,8 +1,8 @@
 
-window.onload = function() {
+window.onload = function () {
 
   function memeTxt() {
-    const memeText = document.getElementById('text-input').value //.toUpperCase();
+    const memeText = document.getElementById('text-input').value;
     document.getElementById('meme-text').innerText = memeText;
     return document.getElementById('meme-text').innerText;
   }

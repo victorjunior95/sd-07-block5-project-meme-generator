@@ -4,8 +4,8 @@ body {
 }
 
 img , #meme-image , #meme-image-container {
-  width: 500px;
   height: 550px;
+  width: 500px;
 }
 
 #meme-container {
@@ -24,8 +24,8 @@ img , #meme-image , #meme-image-container {
   font-weight: bold;
   text-shadow: 5px 5px 5px black;
   position: absolute;
-  top: 234px;
-  margin-left: 10px;
-  width: 480px;
-  height: 530px;
+  top: 500px;
+  left: 33px;
+  height: 100px;
+  width: 450px;
 }
