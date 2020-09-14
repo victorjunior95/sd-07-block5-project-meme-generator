@@ -8,7 +8,7 @@ label {
 }
 
 .header {
-  background-color: rgb(255 , 155 , 175);
+  background-color: rgb(255 , 175 , 195);
   border: solid 1px black;
   border-radius: 10px;
   margin: auto;
@@ -23,7 +23,7 @@ label {
 }
 
 .meme-insert {
-  background-color: rgb(255 , 190 , 200);
+  background-color: rgb(255 , 190 , 210);
   border: solid 1px black;
   border-radius: 5px;
   margin-top: 10px;
