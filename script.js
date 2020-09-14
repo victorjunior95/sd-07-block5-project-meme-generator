@@ -39,7 +39,7 @@ btnEarth.addEventListener('click', function () {
   getDivImage.style.border = styles;
 });
 
-function getSrc (tagName) {
+function getSrc(tagName) {
   const src = tagName.src;
   return src;
 }
