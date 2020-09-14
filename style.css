@@ -1,0 +1,98 @@
+header {
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  box-shadow: 0px 1px 30px rgba(69, 69, 69, 0.15);
+}
+
+header h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 46px;
+  font-family: Poppins, "Arial Narrow Bold", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(84, 97, 108);
+}
+
+#introduction-text h2 {
+  align-items: center;
+  color: #454545;
+  font-family: Poppins, "Arial Narrow Bold", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 48px;
+  margin-bottom: 32px;
+  margin-left: 354px;
+  margin-right: 354px;
+  margin-top: 96px;
+  padding-top: 16px;
+  text-align: center;
+  width: 657px;
+}
+
+#container {
+  background: rgb(255, 255, 255);
+  box-shadow: 0 1px 30px rgba(0, 0, 0, 0.25);
+  height: 448px;
+  left: 180px;
+  top: 253px;
+  margin-bottom: 32px;
+  margin-left: 180px;
+  border-radius: 15px;
+  margin-right: 180px;
+  margin-top: 0;
+  width: 1006px;
+}
+
+#meme {
+  width: 278px;
+  height: 347px;
+  left: 244px;
+  display: inline-block;
+  top: 261px;
+}
+
+#input {
+  display: inline-block;
+  height: 240px;
+  left: 583px;
+  top: 309px;
+  width: 574px;
+}
+
+#upload-button {
+  width: 242px;
+  background: #5969e2;
+  border-radius: 5px;
+  border: 0;
+  padding: 0;
+  display: block;
+}
+
+#upload-button img {
+  display: inline-block;
+  margin-left: 16px;
+  margin-right: 8px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+#upload-button p {
+  font-family: Poppins, "Arial Narrow Bold", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  display: inline-block;
+  letter-spacing: 0.1em;
+  margin-bottom: 7px;
+  margin-left: 16px;
+  margin-top: 6px;
+  margin-right: 16px;
+  color: rgb(255, 255, 255);
+}

@@ -5,30 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meme Generator</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
     <header>
       <h1>MEME GENERATOR</h1>
     </header>
-    <div>
+    <div id="introduction-text">
       <h2>Faça upload de uma imagem e digite seu texto para gerar o meme</h2>
     </div>
-    <section>
-      <div>
+    <section id="container">
+      <div id="meme">
         <h2>MEME</h2>
         <div id="meme-image-container">
-            <p id="meme-text"></p>
-            <img src="" alt="Imagem do meme">
+          <p id="meme-text"></p>
+          <img src="" alt="Imagem do meme" />
         </div>
       </div>
       <div id="input">
-          <img src="/imgs/postits.svg" alt="Diversos post-its com desenhos de expressões variadas">
-          <button>Faça upload</button>
-          <input id="text-input" type="text">
+        <img
+          src="/imgs/postits.svg"
+          alt="Diversos post-its com desenhos de expressões variadas"
+        />
+        <button class="bt" id="upload-button" onclick="">
+          <img src="/imgs/upload 2Button icon.svg" alt="" />
+          <p>Faça upload</p>
+        </button>
+        <input id="text-input" type="text" />
       </div>
       <div id="rodape"></div>
     </section>
-    <footer><p>Todos os direitos reservados, Lucas Nonato de sá</p></footer>
+    <footer>
+      <p>Todos os direitos reservados, Lucas Nonato de sá</p>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
   </body>
-  <script type="text/javascript" src="script.js"></script>
 </html>
