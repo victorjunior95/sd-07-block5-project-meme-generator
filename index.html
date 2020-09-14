@@ -34,16 +34,16 @@ ody>
     <h2>Adicione um texto em seu gif...</h2>
 
     <!--User adds text-->
-    <input type="text" placeholder="Digite uma legenda." id="text-input" maxlength="60" keydown="textInput()">
+    <input type="text" placeholder="Digite uma legenda." id="text-input" maxlength="60" onchange="textInput()">
 
     <!--Image preview / Container-->
     <section id="meme-image-container">
 
-      <!--Image-->
-      <img id="meme-image">
-      
       <!--Text-->
       <p id="meme-text"></p>
+      
+      <!--Image-->
+      <img id="meme-image">
       
     </section>
 
