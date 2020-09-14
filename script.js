@@ -4,7 +4,8 @@ const picture = document.querySelector('#meme-image');
 
 //Recupera o local onde quero minha string
 script.addEventListener('keyup', function () {
-    document.querySelector('#meme-text').innerText = script.value;
+  let test =   document.querySelector('#meme-text');
+  test.innerText = script.value;
 });
 
 setImage.addEventListener('change', function(event){
