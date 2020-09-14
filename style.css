@@ -1,22 +1,21 @@
-
 a {
   font-family: sans-serif;
-  color: rgb(241, 145, 67);
-  font-weight: bold;
+  color: rgb(241 , 145 , 67);
+  font-weight: 700;
 }
-.botaum{
+.botaum {
   margin: 10px;
   height: 30px;
 }
-.botaum button{
+.botaum button {
   width: 125px;
   height: 25px;
 }
-.earth{
-  background-color: rgb(0, 128, 0)
+.earth {
+  background-color: green
 }
-.fire{
-  background-color: rgb(255, 0, 0)
+.fire {
+  background-color: red
 }
 h1 {
   display: inline-block;
@@ -24,18 +23,18 @@ h1 {
   font-family: sans-serif;
   color: rgb(250, 188, 60);
   text-shadow: 3px 3px 1px black;
-  font-weight: bold;
+  font-weight: 700;
   text-align: center;
 }
 .images {
   margin-left: 10%;
   width: 1000px;
-  }
+}
 .images img {
-    box-shadow: 5px 2px gray;
-    border: 1px solid black;
-    width: 200px;
-    height: 200px;
+  box-shadow: 5px 2px gray;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
 }
 .meme-container {
   margin-left: 30%;
@@ -45,7 +44,6 @@ h1 {
   position: relative;
   border: 1px solid black;
   box-shadow: 5px 2px gray;
-
 }
 .memeImage {
   width: 100%;
@@ -62,9 +60,9 @@ h1 {
   font-family: Impact;
   font-size: 30px;
 }
-.princip{
+.princip {
   text-align: center;
 }
-.water{
-  background-color: rgb(0, 0, 255)
+.water {
+  background-color: blue;
 }
