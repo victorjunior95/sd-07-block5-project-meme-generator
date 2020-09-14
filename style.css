@@ -99,15 +99,18 @@ a:hover {
 
 #fire {
   position: relative;
-  top: 750px;
+  top: 610px;
+  padding: 5px;
 }
 
 #water {
   position: relative;
-  top: 750px;
+  top: 610px;
+  padding: 5px;
 }
 
 #earth {
   position: relative;
-  top: 750px;
+  top: 610px;
+  padding: 5px;
 }

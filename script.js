@@ -27,5 +27,5 @@ water.addEventListener('click', function () {
 });
 
 earth.addEventListener('click', function () {
-  imgContainer.style, border = '6px groove green';
+  imgContainer.style.border = '6px groove green';
 });
