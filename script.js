@@ -17,12 +17,12 @@ window.onload = function(){
       })
       document.querySelector('.water').addEventListener('click',function(){
         document.getElementById('meme-image-container').style.borderWidth = "5px"
-        document.getElementById('meme-image-container').style.borderStyle = "groove"
+        document.getElementById('meme-image-container').style.borderStyle = "dashed"
         document.getElementById('meme-image-container').style.borderColor = "blue"
     })
     document.querySelector('.earth').addEventListener('click',function(){
         document.getElementById('meme-image-container').style.borderWidth = "5px"
-        document.getElementById('meme-image-container').style.borderStyle = "groove"
+        document.getElementById('meme-image-container').style.borderStyle = "double"
         document.getElementById('meme-image-container').style.borderColor = "yellow"
     })
     document.getElementById('bob').addEventListener('click', function(){
