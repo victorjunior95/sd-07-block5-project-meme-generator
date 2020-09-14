@@ -1,15 +1,15 @@
 window.onload = function () {
   const textInput = document.querySelector('#text-input');
-  const memeText = document.querySelector('#meme-text').innerText;
+  const memeText = document.querySelector('#meme-text');
   const memeImage = document.querySelector('#meme-image');
   const memeInsert = document.querySelector('#meme-insert');
-  const memeContainer = document.querySelector('#meme-image-container').style.border;
+  const memeContainer = document.querySelector('#meme-image-container');
   const fire = document.querySelector('#fire');
   const water = document.querySelector('#water');
   const earth = document.querySelector('#earth');
   const famousMemes = document.querySelectorAll('#famous-memes img');
 
-  textInput.addEventListener('input', function () { memeText = textInput.value; });
+  textInput.addEventListener('input', function () { memeText.innerText = textInput.value; });
 
   memeInsert.addEventListener('change', function () {
     // codigo abaixo tirei como referecia da Seção Dicas para mostrar a imagem
@@ -18,11 +18,11 @@ window.onload = function () {
     memeImage.onload = function () { URL.revokeObjectURL(memeImage.src); };
   });
 
-  fire.addEventListener('click', function () { memeContainer = '3px dashed red'; });
-  water.addEventListener('click', function () { memeContainer = '5px double blue'; });
-  earth.addEventListener('click', function () { memeContainer = '6px groove green'; });
+  fire.addEventListener('click', function () { memeContainer.style.border = '3px dashed red'; });
+  water.addEventListener('click', function () { memeContainer.style.border = '5px double blue'; });
+  earth.addEventListener('click', function () { memeContainer.style.border = '6px groove green'; });
 
-  for (let count = 0; count < famousMemes.length; count += 1) {
+  for (const count = 0; count < famousMemes.length; count += 1) {
     famousMemes[count].addEventListener('click', function (event) {
       memeImage.src = event.target.src;
     });
