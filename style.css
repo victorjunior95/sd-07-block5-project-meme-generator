@@ -1,5 +1,5 @@
 body {
-  background-image: url(img/bg.png);
+  background-image: url(imgs/bg.png);
   background-repeat: repeat;
   font-family: Kufam, cursive;
   text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4),
@@ -116,4 +116,32 @@ a:hover {
   padding: 5px;
   position: relative;
   top: 610px;
+}
+
+#meme-1 {
+  left: 0;
+  position: absolute;
+  top: 670px;
+  width: 100px;
+}
+
+#meme-2 {
+  left: 135px;
+  position: absolute;
+  top: 670px;
+  width: 100px;
+}
+
+#meme-3 {
+  left: 265px;
+  position: absolute;
+  top: 670px;
+  width: 100px;
+}
+
+#meme-4 {
+  position: absolute;
+  right: 0;
+  top: 670px;
+  width: 100px;
 }
