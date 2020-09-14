@@ -46,3 +46,10 @@
     height: 40px;
     margin-top: 20px;
 }
+
+.meme-base img{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    border: 2px solid black;
+}

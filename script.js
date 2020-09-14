@@ -5,6 +5,11 @@ let container = document.querySelector("#meme-image-container")
 let fire = document.querySelector("#fire")
 let water = document.querySelector("#water")
 let earth = document.querySelector("#earth")
+let meme1 = document.querySelector("#meme-1")
+let meme2 = document.querySelector("#meme-2")
+let meme3 = document.querySelector("#meme-3")
+let meme4 = document.querySelector("#meme-4")
+
 
 inputText.addEventListener("keyup", ()=>{
     memeText.innerHTML = inputText.value
@@ -30,4 +35,20 @@ water.addEventListener("click", ()=>{
 
 earth.addEventListener("click", ()=>{
     container.style.border = "6px groove green"
+})
+
+meme1.addEventListener("click", ()=>{
+    memeImage.src = "assets/meme1.png"
+})
+
+meme2.addEventListener("click", ()=>{
+    memeImage.src = "assets/meme2.png"
+})
+
+meme3.addEventListener("click", ()=>{
+    memeImage.src = "assets/meme3.png"
+})
+
+meme4.addEventListener("click", ()=>{
+    memeImage.src = "assets/meme4.png"
 })
