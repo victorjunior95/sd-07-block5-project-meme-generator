@@ -1,12 +1,4 @@
-// funções que iniciarão quando o Dom estiver carregado
-function initialize() {
 
-  //Abre imagem adicionada pelo usuário no Container
-  loadFile();
-  //Carrega texto digitado sobre a imagem;
-  textInput();
-
-};
 
 /* Nao entendi ... fonte:
 https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded/27165977#27165977
@@ -26,4 +18,12 @@ let textInput = function() {
 
 };
 
-document.querySelector('DOMContentLoaded', initialize());
+// funções que iniciarão quando o Dom estiver carregado
+document.querySelector('DOMContentLoaded', function () {
+
+  //Abre imagem adicionada pelo usuário no Container
+  loadFile();
+  //Carrega texto digitado sobre a imagem;
+  textInput();
+
+});
