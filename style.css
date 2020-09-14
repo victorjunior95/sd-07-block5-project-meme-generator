@@ -44,17 +44,17 @@ footer {
   padding: 10px;
 }
 .meme-image-container {
-  height: 30%;
+  height: 300px;
   padding: 10px;
-  width: 40%;
-  margin: auto;
+  width: 300px;
   background-color: white;
   position: relative;
+  margin: auto;
 }
-.imagePrincipal {
+.meme-imagem {
   height: 300px;
   width: 300px;
-  z-index: 1;
+  
   
 }
 .meme-text{
@@ -65,18 +65,20 @@ footer {
   text-shadow: 5px 5px 5px black;
   width: 300px;
   word-wrap: break-word;
-  z-index: 2;
+  bottom: 0;
 
 }
 
 .memesProntos {
   margin: auto;
   padding: 10px;
+  background-color:white;
 }
 .memeP {
   height: 150px;
   width: 150px;
   border-radius: 5px;
+  
 }
 
 form {

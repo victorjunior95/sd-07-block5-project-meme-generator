@@ -4,10 +4,12 @@
     const memeText = document.getElementById('meme-text');
     memeText.innerText = textInput;
   }
-
+  //falta entender pq esta retornando como nulo 
   function carregarImagemPc(event) {
+    console.log(event);
     const loadImg = document.getElementById('meme-image');
     loadImg.src = URL.createObjectURL(event.target.files[0]);
+    console.log(event);
     loadImg.onload = function () {
       URL.revokeObjectURL(loadImg.src);
     };
@@ -47,14 +49,14 @@
     document.getElementById('meme-image-container').className = mudaBorda;
   }
 
-  //falta fazer a busca buscar
+
 
   const buttonElementos = document.getElementsByTagName('button');
   for (let index = 0; index < buttonElementos.length; index+=1) {
     buttonElementos[index].addEventListener('click',editarBorda);
   }
 
-  const MemeEx = document.getElementsByClassName('memep');
+  const MemeEx = document.getElementsByClassName('memeP');
   for (let index = 0; index < MemeEx.length; index+=1) {
     MemeEx[index].addEventListener('click',CarregaMeme);
     
