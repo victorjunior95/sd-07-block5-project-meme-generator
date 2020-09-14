@@ -38,11 +38,11 @@ body {
 }
 .textBox {
   text-align: center;
-  color: white;
-  font-size: 20pt;
+  color: #fff;
+  font-size: 30px;
   padding-bottom: 10px;
   bottom: 0;
-  text-shadow: 3px 3px 3px black;
+  text-shadow: 0 5px 5px #000;
   word-wrap: break-word;
   width: 100%;
   position: absolute;
