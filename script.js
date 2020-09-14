@@ -30,4 +30,11 @@ var loadFile = function(event) {
     URL.revokeObjectURL(memeImage.src)
 
   }
-}; 
+
+};
+
+let textInput = function() {
+
+  document.querySelector("#meme-text").innerHTML = document.querySelector("#text-input").innerHTML;
+
+};

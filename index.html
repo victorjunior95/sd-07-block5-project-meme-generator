@@ -33,7 +33,7 @@
       //https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded/27165977#27165977
     Procurando outra forma de fazer...-->
 
-    <input type="file" accept="image/*" id="meme-insert" onchange="loadFile(event)"/>
+    <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)"/>
 
   </section>
 
@@ -45,16 +45,18 @@
     </h2>
 
     <!--User adds text-->
-    <input type="text" placeholder="Escreva uma legenda aqui!" id="text-input" maxlength="60">
+    <input type="text" placeholder="Escreva uma legenda aqui!" id="text-input" maxlength="60" keydown="textInput()">
 
     <!--Image preview / Container-->
     <section id="meme-image-container">
 
-      <!--Text-->
-      <p id="meme-text">texto</p>
-      
       <!--Image-->
       <img id="meme-image">
+      
+      <!--Text-->
+      <p id="meme-text"></p>
+      
+
       
     </section>
 
@@ -64,6 +66,6 @@
   </form>
 
   <script  src="script.js" ></script>
-  
+
 </body>
 </html>
