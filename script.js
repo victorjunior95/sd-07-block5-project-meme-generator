@@ -4,6 +4,7 @@ const inpFile = document.querySelector('#meme-insert');
 const memeContainer = document.querySelector('#meme-image-container');
 const previewImage = memeContainer.querySelector('#meme-image');
 const spanText = memeContainer.querySelector('.span-text');
+const effectsContainer = document.querySelector('#effects');
 
 inpFile.addEventListener('change', function () {
   if (this.files && this.files[0]) {
@@ -40,3 +41,31 @@ inpText.addEventListener('keyup', function () {
     previewText.innerHTML = inpText.value;
   }
 });
+
+function fire() {
+  memeContainer.style.border = '2px solid red'
+  memeContainer.style.borderRadius = '5px'
+  memeContainer.style.boxShadow = '0px 0px 10px 2.5px red'
+  effectsContainer.style.boxShadow = 'inset 0px 0px 20px red'
+}
+
+function water() {
+  memeContainer.style.border = '2px solid blue'
+  memeContainer.style.borderRadius = '5px'
+  memeContainer.style.boxShadow = '0px 0px 10px 2.5px blue'
+  effectsContainer.style.boxShadow = 'inset 0px 0px 20px blue'
+}
+
+function earth() {
+  memeContainer.style.border = '2px solid saddlebrown'
+  memeContainer.style.borderRadius = '5px'
+  memeContainer.style.boxShadow = '0px 0px 10px 2.5px saddlebrown'
+  effectsContainer.style.boxShadow = 'inset 0px 0px 20px saddlebrown'
+}
+
+function remove() {
+  memeContainer.style.border = null
+  memeContainer.style.borderRadius = null
+  memeContainer.style.boxShadow = null
+  effectsContainer.style.boxShadow = null
+}
