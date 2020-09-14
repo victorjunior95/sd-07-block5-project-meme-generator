@@ -22,6 +22,7 @@ body {
     left: 230px;
     width: 600px;
     border: 1px black solid;
+
 }
 #buttonStyles{
     position: absolute;
@@ -40,7 +41,7 @@ body {
 .fire {
     background-color: #DC143C;
     position: absolute;
-    left: 455px;
+    left: 400px;
     top: 74px;
 }
 
@@ -92,7 +93,7 @@ body {
 
 .water {
     position: absolute;
-    left: 400px;
+    left: 445px;
     top: 74px;
     background-color: #00BFFF;
 }
