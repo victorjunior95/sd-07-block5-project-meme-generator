@@ -22,7 +22,8 @@ function insertImage() {
     let imageOutput = document.createElement("img");
     imageOutput.id = "meme-image";
     imageOutput.alt = "Imagem do meme";
-    imageOutput.style.position = "aboslute";
+    imageOutput.style.width = "100%";
+    imageOutput.style.height = "100%";
     imageOutput.src = URL.createObjectURL(this.files[0]);
     document.querySelector("#meme-image-container").appendChild(imageOutput);
   });
