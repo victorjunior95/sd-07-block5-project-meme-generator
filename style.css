@@ -23,11 +23,11 @@ body {
     width: 600px;
 }
 
-.earth {
+#earth {
     background-color: #32CD32;
 }
 
-.fire {
+#fire {
     background-color: #DC143C
 }
 
@@ -77,7 +77,7 @@ body {
     position: absolute;
 }
 
-.water {
+#water {
     background-color: #00BFFF;
 }
 
