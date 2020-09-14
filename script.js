@@ -45,20 +45,20 @@ function getSrc(tagName) {
 
 imgMeme1.addEventListener('click', function () {
   const srcImage = getSrc(imgMeme1);
-  memeImagem.src = srcImage;
+  memeImage.src = srcImage;
 });
 
 imgMeme2.addEventListener('click', function () {
   const srcImage = getSrc(imgMeme2);
-  memeImagem.src = srcImage;
+  memeImage.src = srcImage;
 });
 
 imgMeme3.addEventListener('click', function () {
   const srcImage = getSrc(imgMeme3);
-  memeImagem.src = srcImage;
+  memeImage.src = srcImage;
 });
 
 imgMeme4.addEventListener('click', function () {
   const srcImage = getSrc(imgMeme4);
-  memeImagem.src = srcImage;
+  memeImage.src = srcImage;
 });
