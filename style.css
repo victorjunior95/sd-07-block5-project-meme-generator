@@ -2,8 +2,8 @@
   background-color: white;
   border: 1px solid black;
   height: 406px;
-  width: 386px;
   position: relative;
+  width: 386px;
 }
 
 .container img {
@@ -19,58 +19,58 @@
   height: 90px;
   margin-left: 40px;
   position: absolute;
+  text-align: center;
   text-shadow: 5px 5px 5px black; /* h-shadow v-shadow blur-radius color */
   top: 250px;
   width: 300px;
   word-wrap: break-word;
-  text-align: center;
 }
 
 .container-two button {
-  display: inline-block;
   color: white;
-  font-weight: bolder;
+  display: inline-block;
+  font-weight: bold;
   height: 25px;
-  width: 100px;
   margin: 8px;
+  width: 100px;
 }
 
-button#fire {
+.fire {
   background-color: red;
 }
 
-button#water {
+.water {
   background-color: blue;
 }
 
-button#earth {
+.earth {
   background-color: green;
 }
 
 .container-three div {
+  border: 1px solid black;
   display: inline-block;
   height: 100px;
-  width: 80px;
   margin: 4px;
-  border: 1px solid black;
+  width: 80px;
 }
 
-div#meme-1 {
+.meme-1 {
   background-image: url('./imgs/meme1.png');
   background-size: cover;
 }
 
-div#meme-2 {
+.meme-2 {
   background-image: url('./imgs/meme2.png');
   background-size: cover;
 }
 
-div#meme-3 {
+.meme-3 {
   background-image: url('./imgs/meme3.png');
   background-size: cover;
 }
 
-div#meme-4 {
+.meme-4 {
   background-image: url('./imgs/meme4.png');
   background-size: cover;
 }
