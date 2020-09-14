@@ -1,6 +1,5 @@
-window.onload = function () {
 // Configurando ponte entre HTML e JS
-const container = document.getElementById("meme-image-container");
+const container = document.getElementById("meme-image-containertext-input");
 const textInput = document.getElementById("text-input");
 const memeText = document.getElementById("meme-text");
 const memeInsert = document.getElementById("meme-insert");
@@ -15,8 +14,6 @@ const meme5 = document.getElementById("meme-5");
 const meme6 = document.getElementById("meme-6");
 const meme7 = document.getElementById("meme-7");
 const meme8 = document.getElementById("meme-8");
-const meme9 = document.getElementById("meme-9");
-const meme10 = document.getElementById("meme-10");
 
 // Recebendo a imagem
 chooseAFile.addEventListener("click", function() {
@@ -97,14 +94,3 @@ meme8.addEventListener("click", function() {
     status.innerHTML = "Meme 8 do Arquivo";
     memeImage.setAttribute('src', meme8.src);
 });
-
-meme9.addEventListener("click", function() {
-  status.innerHTML = "Meme 9 do Arquivo";
-  memeImage.setAttribute('src', meme9.src);
-});
-
-meme10.addEventListener("click", function() {
-  status.innerHTML = "Meme 10 do Arquivo";
-  memeImage.setAttribute('src', meme10.src);
-});
-};

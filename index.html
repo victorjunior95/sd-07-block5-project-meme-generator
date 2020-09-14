@@ -9,13 +9,13 @@
     <body>
       <h1>MEME GENERATOR</h1>
       <div><strong>TEXTO: </strong><input type="text" id="text-input" autocomplete="off" data-ls-module="charCounter" maxlength="60" placeholder="Digite o texto do seu meme" required></div>
-      <br>
+        <br>
       <div id="foto"><strong>FOTO: </strong><button type="button" id="chooseAFile"><input id="meme-insert" type="file" hidden="hidden" accept="image/*" style="display:none" onchange="handleFiles(this.files)">Choose a File</button></div>
         <div id="status">No file.png chosen.</div>
-        <section id="meme-image-container">
+        <figure id="meme-image-containertext-input">
           <div id="meme-text">CRIE SEU MEME!</div>
-          <img id="meme-image"/>
-        </section>
+          <a href="#"><img id="meme-image" href="#"/></a>
+        </figure>
         <br>
         <div id="estilos">
           <h3>ESTILOS </h3>
@@ -36,9 +36,7 @@
           <img id="meme-6" src="/imgs/meme6.png"/>
           <img id="meme-7" src="/imgs/meme7.png"/>
           <img id="meme-8" src="/imgs/meme8.png"/>
-          <img id="meme-7" src="/imgs/meme7.png"/>
-          <img id="meme-8" src="/imgs/meme8.png"/>
         </div>
-        <script type="text/javascript"  src="app.js"></script>
+        <script type="text/javascript" src="script.js"></script>
     </body>
-</html>
+</html> 

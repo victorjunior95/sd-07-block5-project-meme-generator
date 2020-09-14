@@ -4,7 +4,7 @@ body {
   padding: 20px;
   text-align: center;
 }
-#meme-image-container{
+#meme-image-containertext-input{
   text-align: center;
   width: 500px;
   height: 500px;
@@ -131,4 +131,4 @@ h3 {
 }
 #fogo, #agua, #terra, #ar, #quintoElemento {
   width: 20px;
-}
+} 
