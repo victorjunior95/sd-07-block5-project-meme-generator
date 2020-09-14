@@ -12,7 +12,7 @@
   </header>
   
   <h3>Selecione uma imagem para o meme:</h3>
-  <input type="text" id="text-input"/>
+  <input type="text" id="text-input" maxlength="60"/>
   <input type="file" id="meme-insert"
   onchange="document.getElementById('meme-image')
   .src = window.URL.createObjectURL(this.files[0])"> 
