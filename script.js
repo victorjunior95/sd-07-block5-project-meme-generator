@@ -18,7 +18,7 @@ let buttonWater = document.getElementById('water');
 let buttonEarth = document.getElementById('earth');
 
 buttonFire.addEventListener('click', function() {
-  container.style.border = '3px double rgb(255, 0, 0)';
+  container.style.border = '3px dashed rgb(255, 0, 0)';
 
 });
 

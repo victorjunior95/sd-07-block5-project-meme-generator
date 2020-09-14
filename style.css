@@ -35,6 +35,7 @@ div{
 
 #fire{
   background-color: red;
+  border: 1px solid red;
 }
 
 #water{
