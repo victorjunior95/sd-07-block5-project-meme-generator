@@ -1,5 +1,5 @@
 let uploadButton = document.getElementById("meme-insert");
-let imageContainer = document.getElementById("meme-image");
+let imageContainer = document.getElementById("imagescript");
 let textInput = document.getElementById("text-input")
 let textmeme = document.getElementById("meme-text")
 uploadButton.addEventListener("change", function(){
