@@ -1,7 +1,7 @@
 function insertText() {
   let textInput = document.querySelector("#text-input");
   let textOutput = document.createElement("span");
-  document.querySelector("#meme-content").appendChild(textOutput);  
+  document.querySelector("#meme-image-container").appendChild(textOutput);  
   textOutput.id = "meme-text";
   textOutput.style.position = "absolute";
   // textOutput.style.textAlign = "center";
@@ -24,6 +24,6 @@ function insertImage() {
     imageOutput.alt = "Imagem do meme";
     imageOutput.style.position = "aboslute";
     imageOutput.src = URL.createObjectURL(this.files[0]);
-    document.querySelector("#meme-content").appendChild(imageOutput);
+    document.querySelector("#meme-image-container").appendChild(imageOutput);
   });
 }
