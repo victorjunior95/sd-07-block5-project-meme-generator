@@ -1,5 +1,5 @@
 function getInput() {
-  document.getElementsByTagName("p")[0].innerHTML = document.getElementById("text-input").value.toUpperCase();
+  document.getElementById("meme-text").innerText = document.getElementById("text-input").value.toUpperCase();
 }
 
 document.getElementById("text-input").addEventListener("change", getInput);
