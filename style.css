@@ -98,19 +98,22 @@ a:hover {
 }
 
 #fire {
+  background-color: red;
+  padding: 5px;
   position: relative;
   top: 610px;
-  padding: 5px;
 }
 
 #water {
+  background-color: blue;
+  padding: 5px;
   position: relative;
   top: 610px;
-  padding: 5px;
 }
 
 #earth {
+  background-color: green;
+  padding: 5px;
   position: relative;
   top: 610px;
-  padding: 5px;
 }
