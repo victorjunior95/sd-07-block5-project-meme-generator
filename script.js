@@ -1,5 +1,5 @@
 // Configurando ponte entre HTML e JS
-const container = document.getElementById("meme-image-containertext-input");
+const container = document.getElementById("meme-image-container");
 const textInput = document.getElementById("text-input");
 const memeText = document.getElementById("meme-text");
 const memeInsert = document.getElementById("meme-insert");
