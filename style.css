@@ -19,5 +19,7 @@
     position: absolute;
     top: 400px; 
     left: 20px; 
+    word-wrap: break-word;
+    width: 482px;
     z-index: 2;
 }
