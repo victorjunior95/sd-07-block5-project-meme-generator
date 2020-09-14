@@ -18,6 +18,19 @@ const meme8 = document.getElementById("meme-8");
 const meme9 = document.getElementById("meme-9");
 const meme10 = document.getElementById("meme-10");
 
+if(chooseAFile){
+  chooseAFile.addEventListener('click', swapper, false);
+}
+if(memeInsert){
+  memeInsert.addEventListener('click', swapper, false);
+}
+if(textInput){
+  textInput.addEventListener('click', swapper, false);
+}
+if(memeText){
+  memeText.addEventListener('click', swapper, false);
+}
+
 // Recebendo a imagem
 chooseAFile.addEventListener("click", function() {
   memeInsert.click();
