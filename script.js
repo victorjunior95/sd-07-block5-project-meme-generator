@@ -18,7 +18,7 @@ inputText.addEventListener("keyup", function() {
     };
 };*/
 //Agora
-const update = document.getElementById("meme-up");
+const update = document.getElementById("meme-insert");
 const imageMeme = document.querySelector("#meme-image");
  update.addEventListener("change", function() {
     imageMeme.src = window.URL.createObjectURL(this.files[0]);

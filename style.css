@@ -15,10 +15,11 @@
 }
 #meme-text {
     text-shadow: 5px 5px 5px black;
+    text-align: center;
+    word-wrap: break-word;
     font-size: 30px;
     color: white;
     font-weight: 500;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: absolute;
     bottom: 60px;
     left: 15px;

@@ -8,10 +8,10 @@
   <body>
     <!--insira os elementos aqui-->
     <h1>MEME GENERATOR</h1>
-    <form>
-      <div class="input">
+    
+      <div class="input"></div>
         <label>Texto: </label><input id="text-input" type="text" width="100px" maxlength="60"></br>
-        <label>Foto: </label><input class="button" type="file" onchange="updateFile(event)" name="input-button" accept="image/*" id="meme-up">
+        <label>Foto: </label><input id="meme-insert" class="button" type="file" onchange="updateFile(event)" name="input-button" accept="image/*">
       </div>
       <section id="meme-image-container" class="container">
         <img id="meme-image" src="#">
@@ -22,7 +22,14 @@
         <button id="water" onclick="">WATER</button>
         <button id="earth" onclick="">EARTH</button>
       </section>
-    </form>
+      <h2>Memes predefinidos</h2>
+      <section id="default-memes">
+        <img class="menes" id="meme-1" src="" />
+        <img class="" id="meme-2" src="" />
+        <img class="" id="meme-3" src="" />
+        <img class="" id="meme-4" src="" />
+      </section>
+    
     <script src="script.js"></script>
   </body>
 </html>
