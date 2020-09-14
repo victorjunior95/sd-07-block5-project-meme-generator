@@ -2,14 +2,14 @@
   display: inline-block;
 }
 
-.meme-image-container {
+#meme-image-container {
   background-color: white;
-  border-color: 1px solid black;
+  border: 1px solid black;
   z-index: 0;
 }
 
-.meme-text {
+#meme-text {
   font-size: 30px;
   color: white;
-  text-shadow: 5px 5px 5px rgb (0, 0, 0);
+  text-shadow: 5px 5px 5px black;
 }
