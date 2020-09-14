@@ -13,12 +13,13 @@
   </div>
 
   <div class="div-photo">
-    <label for="photo-input">Foto:</label>
-    <input id="photo-input" type="file">
+    <label for="meme-insert">Foto:</label>
+    <input id="meme-insert" type="file" onchange="loadFile(event)">
   </div>
 
-  <div id="meme-image-container">
-    <p id="meme-text"></p>
+  <div id="meme-image-container" class="div-image-container">
+    <img id="meme-image" class="image" src="" alt="">
+    <p id="meme-text" class="text-paragraph"></p>
   </div>
 
   <script src="script.js"></script>

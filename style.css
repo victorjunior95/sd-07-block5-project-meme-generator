@@ -1,15 +1,26 @@
-#meme-image-container {
-  border: 1px solid #000;
-  height: 500px;
-  width: 500px;
-}
-
 .div-photo {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-#meme-text {
-  margin-top: 350px;
+.div-image-container {
+  border: 1px solid black;
+  height: 500px;
+  width: 500px;
+}
+
+.image {
+  border: 2px solid black;
+  width: 495px;
+  height: 495px;
+  position: absolute;
+  z-index: 1;
+}
+
+.text-paragraph {
+  position: absolute;
+  bottom: 150px;
+  left: 20px;
   font-size: 20pt;
+  z-index: 2;
 }
