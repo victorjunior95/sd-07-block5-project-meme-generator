@@ -38,17 +38,17 @@ earth.addEventListener("click", ()=>{
 })
 
 meme1.addEventListener("click", ()=>{
-    memeImage.src = "assets/meme1.png"
+    memeImage.src = "imgs/meme1.png"
 })
 
 meme2.addEventListener("click", ()=>{
-    memeImage.src = "assets/meme2.png"
+    memeImage.src = "imgs/meme2.png"
 })
 
 meme3.addEventListener("click", ()=>{
-    memeImage.src = "assets/meme3.png"
+    memeImage.src = "imgs/meme3.png"
 })
 
 meme4.addEventListener("click", ()=>{
-    memeImage.src = "assets/meme4.png"
+    memeImage.src = "imgs/meme4.png"
 })
