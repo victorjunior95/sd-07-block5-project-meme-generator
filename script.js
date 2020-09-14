@@ -15,13 +15,13 @@ getInputText.oninput = function () {
   getParagraph.innerText = textInput;
 };
 
-function loadFile (event) {
+function loadFile(event) {
   memeImage.src = URL.createObjectURL(event.target.files[0]);
   memeImage.onload = function () {
     URL.revokeObjectURL(memeImage.src);
   };
   getDivImage.style.backgroundImage = memeImage.src;
-};
+}
 
 btnFire.addEventListener('click', function () {
   const styles = '3px dashed red';
@@ -62,3 +62,4 @@ imgMeme4.addEventListener('click', function () {
   const srcImage = getSrc(imgMeme4);
   memeImage.src = srcImage;
 });
+
