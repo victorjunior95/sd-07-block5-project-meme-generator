@@ -15,19 +15,19 @@ const meme6 = document.getElementById("meme-6");
 const meme7 = document.getElementById("meme-7");
 const meme8 = document.getElementById("meme-8");
 
-// Recebendo a imagem
+// Recebendo a imagem e Mudando o status
 chooseAFile.addEventListener("click", function() {
   memeInsert.click();
 });
-memeInsert.addEventListener("change", function() {
+memeInsert.addEventListener("change", function(event) {
   if (memeInsert.value) {
     status.innerHTML = memeInsert.value.match(
       /[\/\\]([\w\d\s\.\-\(\)]+)$/
     )[1];
-    memeImage.setAttribute('src', URL.createObjectURL(event.target.files[0]));
+    memeImage.src = URL.createObjectURL(event.target.files[0]);
     memeImage.onload = function() {
-      URL.revokeObjectURL(this.src);
-    }
+      URL.revokeObjectURL(memeImage.src)
+    };
   } else {
     status.innerHTML = "No file.png chosen.";
   }
