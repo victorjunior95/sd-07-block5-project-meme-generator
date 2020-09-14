@@ -17,20 +17,20 @@
     </header>
 
     <main>
+      <div id="meme-image-container-inputs">
+        <p>Digite seu texto aqui:</p>
+        <input type="text" maxlength="60" id="text-input" />
+        <br />
+        <p>Insira sua imagem aqui:</p>
+        <input
+          type="file"
+          accept="image/*"
+          onchange="carregarImagem(event)"
+          name="meme-insert"
+          id="meme-insert"
+        />
+      </div>
       <div id="meme-image-container">
-        <div id="meme-image-container-inputs">
-          <p>Digite seu texto aqui:</p>
-          <input type="text" maxlength="60" id="text-input" />
-          <br />
-          <p>Insira sua imagem aqui:</p>
-          <input
-            type="file"
-            accept="image/*"
-            onchange="carregarImagem(event)"
-            name="meme-insert"
-            id="meme-insert"
-          />
-        </div>
         <p id="meme-text"></p>
         <img
           id="meme-image"
@@ -39,54 +39,6 @@
         />
       </div>
     </main>
-
-    <footer id="rodape">
-      <nav>
-        <ul>
-          <li>
-            <a
-              class="social-links"
-              href="http://www.instagram.com/otaldonunes"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Instagram</a
-            >
-          </li>
-          <li>
-            <a
-              class="social-links"
-              href="http://www.github.com/otaldonunes"
-              target="_blank"
-              rel="noopener noreferrer"
-              >GitHub</a
-            >
-          </li>
-          <li>
-            <a
-              class="social-links"
-              href="https://www.linkedin.com/in/otaldonunes/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >LinkedIn</a
-            >
-          </li>
-        </ul>
-      </nav>
-      <aside>
-        <p id="readme">
-          Site criado por mim, Arthur Nunes em Agosto de 2020, durante a
-          execução do primeiro projeto de HTML/CSS + JavaScript na Trybe<br />E
-          você, já conhece a
-          <a
-            href="http://www.betrybe.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Trybe? Clique para saber mais!</a
-          >
-          <strong>(P.s.: Vale a pena)</strong>
-        </p>
-      </aside>
-    </footer>
     <script src="script.js"></script>
   </body>
 </html>
