@@ -4,7 +4,7 @@ function insertText() {
   document.querySelector("#meme-image-container").appendChild(textOutput);  
   textOutput.id = "meme-text";
   textOutput.style.position = "absolute";
-  // textOutput.style.textAlign = "center";
+  textOutput.style.textAlign = "center";
   textOutput.style.color = "white";
   textOutput.style.fontSize = "20pt";
   textOutput.style.paddingBottom = "10px";
