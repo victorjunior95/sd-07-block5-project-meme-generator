@@ -23,6 +23,11 @@ function loadFile(event) {
   getDivImage.style.backgroundImage = memeImage.src;
 }
 
+/*testando outra forma para economizar linha de códigos
+evitando a criação de variáveis
+*/
+document.getElementById('meme-insert').addEventListener('change', loadFile);
+
 btnFire.addEventListener('click', function () {
   const styles = '3px dashed red';
   getDivImage.style.border = styles;
@@ -62,4 +67,3 @@ imgMeme4.addEventListener('click', function () {
   const srcImage = getSrc(imgMeme4);
   memeImage.src = srcImage;
 });
-
