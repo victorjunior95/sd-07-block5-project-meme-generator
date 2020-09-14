@@ -52,15 +52,15 @@ window.onload = function() {
         memeText.innerText=txt;              
     });
     btFire.addEventListener("click", function (){
-        memeImage.style.border='dashed 3px red';     
+        memeImageContainer.style.border='dashed 3px red';     
     });
 
     btWater.addEventListener("click", function (){
-        memeImage.style.border='double 5px blue';     
+        memeImageContainer.style.border='double 5px blue';     
     });
 
     btEarth.addEventListener("click", function (){
-        memeImage.style.border='groove 6px green';     
+        memeImageContainer.style.border='groove 6px green';     
     });
 
     meme1.addEventListener("click", function (){
