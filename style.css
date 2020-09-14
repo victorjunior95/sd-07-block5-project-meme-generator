@@ -10,7 +10,7 @@
   color: white;
   font-family: 'Impact', 'Ubuntu', 'sans-serif';
   font-size: 30px;
-  /*position: absolute;*/
+  position: absolute;
   text-shadow: black 5px 5px 5px;
   /*bottom: 10px;*/
   left: 10px;
