@@ -21,7 +21,7 @@ img , #meme-image , #meme-image-container , #meme-text {
   text-align: center;
   font-size: 30px;
   font-weight: bold;
-  text-shadow: 2px 2px 5px black;
+  text-shadow: 5px 5px 5px black;
   position: absolute;
-  top: 600px;
+  top: 224px;
 }

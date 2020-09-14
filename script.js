@@ -2,7 +2,7 @@
 window.onload = function(){
 
   function memeTxt() {
-    const memeText = document.getElementById('txt-input').value.toUpperCase();
+    const memeText = document.getElementById('text-input').value.toUpperCase();
     document.getElementById('meme-text').innerText = memeText;
     return document.getElementById('meme-text').innerText;
 }
@@ -14,6 +14,6 @@ window.onload = function(){
     return document.getElementsByTagName('img')[0].src;
 }
 
-  document.getElementById('txt-input').addEventListener('keyup', memeTxt);
+  document.getElementById('text-input').addEventListener('keyup', memeTxt);
   document.getElementById('meme-insert').addEventListener('change', memeImg);
 }
