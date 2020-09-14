@@ -6,8 +6,6 @@
   
   <link rel="stylesheet" type="text/css" href="style.css" />
 
-  <script src="script.js" ></script>
-
   <title>
     Meme Generator
   </title>
@@ -56,7 +54,7 @@
       <p id="meme-text">texto</p>
       
       <!--Image-->
-      <img id="meme-image" src="">
+      <img id="meme-image">
       
     </section>
 
@@ -64,16 +62,8 @@
     <!--<button>Baixar</button>-->
 
   </form>
-  <script>
 
-    var loadFile = function(event) {
-      var memeImage = document.getElementById('meme-image');
-      memeImage.src = URL.createObjectURL(event.target.files[0]);
-      memeImage.onload = function() {
-        URL.revokeObjectURL(memeImage.src)
-      }
-    }; 
-
-  </script>
+  <script  src="script.js" ></script>
+  
 </body>
 </html>

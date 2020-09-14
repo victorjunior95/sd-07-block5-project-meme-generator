@@ -17,3 +17,17 @@
 
 //document.querySelector('meme-insert');
 
+//https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded/27165977#27165977
+//Procurando outra forma de fazer...
+var loadFile = function(event) {
+
+  var memeImage = document.getElementById('meme-image');
+
+  memeImage.src = URL.createObjectURL(event.target.files[0]);
+
+  memeImage.onload = function() {
+
+    URL.revokeObjectURL(memeImage.src)
+
+  }
+}; 
