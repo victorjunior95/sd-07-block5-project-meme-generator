@@ -1,22 +1,22 @@
 
 body {
    
-    align-items: center;
     
+    align-items: center;
     height: 100vh;
-    width: 100vh;
     justify-content: center;
+    width: 100vh;
 }
 
 .gradiente-bg {
-    background: linear-gradient(45deg,#01454b,#102a2c,#032541,#420f03);
-    background-size: 500%,500%;
     
     align-items: center;
-    justify-content: center;
-    height: 1500px ;
     animation: colors 15s ease-in-out infinite;
+    background-size: 500%,500%;
+    background: linear-gradient(45deg,#01454b,#102a2c,#032541,#420f03);
     border-radius: 20px;
+    height: 1500px ;
+    justify-content: center;
 }
 
     @keyframes colors {
@@ -34,61 +34,61 @@ body {
 
 header{
     
-    text-align: center;
-    line-height:150px ;
     background-color: rgb(83, 83, 83);
-    width: 1350px;
-    height: 150px;
     color: honeydew;  
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 150px;
+    line-height:150px ;
     margin-left: -15px;
     margin-top: -22px; 
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    width: 1350px;
   
 }
 
 .meme-image-container {
-    position: relative;
-    border: 1px solid black;
-    margin-left: 450px;
     background-color: white;
-    border-radius: 10px;
-    overflow: hidden;
-    width: 400px;
-    height: 500px;  
-    box-shadow: 3px 3px 5px rgb(0, 0, 0); 
-    background-size: 500px;
     background-repeat: no-repeat;
+    background-size: 500px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 5px black; 
+    height: 500px;  
+    margin-left: 450px;
+    overflow: hidden;
+    position: relative;
+    width: 400px;
 }
 
 .meme-image {
     border-radius: 10px;
+    height: 500px;    
     object-fit: contain;
     width: 400px;
-    height: 500px;    
 }
 
 .meme-text {
-    position: absolute;
-    font-size: 30px;
-    text-shadow: black 5px 5px 5px;
-    color: white;
     bottom: 30px;
-    font-weight: 400px;
-    text-transform: uppercase;
+    color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-weight: 400px;
     margin: 20px;
+    position: absolute;
+    text-shadow: black 5px 5px 5px;
+    text-transform: uppercase;
 }
 
 #text-input {
     display: inline-block;
-    text-align: center;
     margin: 20px;    
+    text-align: center;
 }
 
 #meme-insert {
     display: inline-block;
-    text-align: center;
     margin: 20px;
+    text-align: center;
 }
 .textMeme {
     margin-left: 500px;
@@ -105,74 +105,74 @@ header{
 
 
 .textMeme input{
+    height: 30px;
     margin: -10px;
     width: 200px;
-    height: 30px;
 }
 
 .fire {
-    display: inline-block;
-    color: whitesmoke;
     background-color: tomato;
-    width: 60px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
     border-radius: 8px;
-    text-transform: uppercase;
+    color: whitesmoke;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
     margin: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 60px;
 
 }
 .fire:hover {
-    width: 70px;
-    height: 40px;
     box-shadow: 3px 3px 5px black;
     font-size: 15pt;
+    height: 40px;
     line-height: 35px;
     transition-duration: .2s;
+    width: 70px;
     
 }
 
 .water {
-    display: inline-block;
-    color: whitesmoke;
     background-color: rgb(54, 87, 233);
-    width: 60px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
     border-radius: 8px;
-    text-transform: uppercase;
+    color: whitesmoke;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
     margin: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 60px;
 }
 .water:hover {
-    width: 70px;
-    height: 40px;
     box-shadow: 3px 3px 5px black;
     font-size: 15pt;
+    height: 40px;
     line-height: 35px;
     transition-duration: .2s;
+    width: 70px;
 
 }
 .earth {
-    display: inline-block;
-    color: whitesmoke;
     background-color: rgb(94, 69, 24);
-    width: 60px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
     border-radius: 8px;
-    text-transform: uppercase;
+    color: whitesmoke;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
     margin: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 60px;
 }
 .earth:hover {
-    width: 70px;
-    height: 40px;
     box-shadow: 3px 3px 5px black;
     font-size: 15pt;
+    height: 40px;
     line-height: 35px;
     transition-duration: .2s;
+    width: 70px;
 }
 
 section h2 {
@@ -181,43 +181,43 @@ section h2 {
     margin-left: 500px;
 }
 .bob {
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    margin-left: 80px;
     border-radius: 10px;
+    height: 200px;
+    margin-left: 80px;
+    margin: 10px;
+    width: 200px;
 }
 
 .boo {
-    width: 200px;
+    border-radius: 10px;
     height: 200px;
     margin: 10px;
-    border-radius: 10px;
+    width: 200px;
 }
 
 .menino {
-    width: 200px;
+    border-radius: 10px;
     height: 200px;
     margin: 10px;
-    border-radius: 10px;
+    width: 200px;
 }
 
 .carminha{
-    width: 200px;
+    border-radius: 10px;
     height: 200px;
     margin: 10px;
-    border-radius: 10px;
+    width: 200px;
 }
 
 
 footer{
     
-    text-align: center;
-    line-height:150px ;
     background-color: rgb(83, 83, 83);
-    width: 1350px;
-    height: 100px;
     color: honeydew;  
-    margin-top: 150px;
+    height: 100px;
+    line-height:150px ;
     margin-left: -15px;
+    margin-top: 150px;
+    text-align: center;
+    width: 1350px;
 }
