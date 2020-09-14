@@ -9,9 +9,9 @@ script.addEventListener('keyup', function () {
 });
 
 setImage.addEventListener('change', function(event){
-    setImage = setImage.value;
-    picture.src = URL.createObjectURL(event.target.files[0]);
+    picture.src = URL.createObjectURL(event.target["files"][0]);
 });
+
 // adiciona os botões de estilo
 let earth = document.querySelector('.changeButtons').childNodes[7];
 let water = document.querySelector('.changeButtons').childNodes[5];

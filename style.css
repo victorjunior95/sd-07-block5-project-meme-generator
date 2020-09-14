@@ -18,9 +18,10 @@ body {
 #container {
     position: absolute;
     height: 630px;
-    background-color: #A9A9A9;
+    background-color: #4682B4;
     left: 230px;
     width: 600px;
+    border: 1px black solid;
 }
 
 #earth {
