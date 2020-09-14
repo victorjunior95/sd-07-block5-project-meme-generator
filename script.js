@@ -6,7 +6,7 @@ uploadButton.addEventListener("change", function(){
     imageContainer.src = URL.createObjectURL(uploadButton.files[0]);
     console.log("amendoin");
 });
-textInput.addEventListener("change", function(){
+textInput.addEventListener("keyup", function(){
     textmeme.innerText = textInput.value;
 
 })
