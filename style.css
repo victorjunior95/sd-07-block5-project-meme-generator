@@ -10,9 +10,8 @@
 }
 #meme-image {
     object-fit: cover;
-    height: 397px;
-    width: 397px;
-    border: 1px solid green;
+    height: 400px;
+    width: 400px;
 }
 #meme-text {
     text-shadow: 5px 5px 5px black;
