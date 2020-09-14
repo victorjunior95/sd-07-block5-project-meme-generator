@@ -17,7 +17,15 @@ window.onload = function(){
         textToPhoto.innerHTML = textInput.value;
 
     });
-
+    fire.addEventListener('click', function(){
+        containerMeme.style.border = '3px dashed red';
+    });
+    water.addEventListener('click', function(){
+        containerMeme.style.border = '3px dashed blue';
+    });
+    earth.addEventListener('click', function(){
+        containerMeme.style.border = '3px dashed brown';
+    });
 }
     
 function openText(){
@@ -26,12 +34,4 @@ function openText(){
     
 }
 
-fire.addEventListener('click', function(){
-    sectionButtons.style.border = '3px dashed red';
-});
-water.addEventListener('click', function(){
-    sectionButtons.style.border = '3px dashed blue';
-});
-earth.addEventListener('click', function(){
-    sectionButtons.style.border = '3px dashed brown';
-});
+
