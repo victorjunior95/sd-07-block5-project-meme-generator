@@ -13,10 +13,14 @@ body {
     background-color: white;
     border: solid black 1px;
     position: relative;
+    width: 300px;
+    height: 300px;
 }
 
 #meme-image {
-    position: absolute;
+    position: absolute; 
+    width: 300px;
+    height: 300px;
 }
 
 #meme-text {
@@ -28,6 +32,5 @@ body {
 }
 
 .memeImage {
-    width: 300px;
-    height: 300px;
+   
 }
