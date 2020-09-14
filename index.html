@@ -13,15 +13,18 @@
         <h1>Gerador de Memes - By Raphael</h1>
     </header>
 
-    <label for="">Preencha o texto do meme:</label>
-    <input type="text" id="text-input" name="textoMeme" placeholder="Texto Aqui...">
+    <h4>Escolha a imagem para o seu meme</h3>
+        <input type="file" id="meme-insert" name="meme-insert" id=""> <br><br>
 
-    <section id="meme-image-container">
-        <img src="" id="meme-image" alt="imagem-de-memes">
-        <p id="meme-text"></p>
-    </section>
+        <label for="">Escreva uma legenda para seu meme:</label>
+        <input type="text" id="text-input" name="textoMeme" placeholder="Texto aqui..." maxlength="60"><br>
 
-    <script src="script.js"></script>
+        <div id="meme-image-container">
+            <img src="#" id="meme-image" alt="imagem-de-meme">
+            <p id="meme-text"></p>
+        </div>
+
+        <script src="script.js"></script>
 </body>
 
 </html>
