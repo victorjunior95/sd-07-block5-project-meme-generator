@@ -3,6 +3,20 @@ body {
     color: white;
 }
 
+#meme-image-container, #meme-image, #meme-text {
+    width: 500px;
+    height: 550px;
+}
+
+#meme-container {
+    position: relative;
+}
+
 #meme-text {
     color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 600px;
 }
