@@ -1,8 +1,16 @@
+<!-- 4 - O texto que será inserido sobre a imagem deve ter uma cor, sombra e tamanho específicos.
+As seguintes verificações serão feitas:
+O texto do elemento meme-text deve ter uma sombra preta, de 5 pixels na horizontal, 5 pixels na vertical e um raio de desfoque de 5 pixels;
+
+O texto do elemento meme-text deve ter a fonte com o tamanho de 30 pixels;
+
+O texto do elemento meme-text deve estar na cor branca; -->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Meme Generator</title>
     <link rel="shortcut icon" href="sunglasses.png">
 </head>
@@ -10,11 +18,20 @@
     <header>
         <h1>MEME GENERATOR</h1>
     </header>
-    <div id="text-input"></div>
-    <div id="meme-image-container">
+
+    <section class="insert">
+        <div id="meme-insert">
+            <div id="text-input"></div>
+        </div>
+    </section>
+
+    <div id="meme-image-container" class="meme">
         <div id="meme-text"></div>
+        <div id="meme-image"></div>
     </div>
-    <footer></footer>
-    
+
+    <footer class="meme-created"></footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
