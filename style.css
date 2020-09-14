@@ -50,6 +50,7 @@ main {
   width: 300px;
   text-align: center;
   background-color: white;
+  position: relative;
 }
 
 .background-image {
@@ -59,11 +60,13 @@ main {
 }
 
 .text {
-  margin-top: -300px;
+  margin-top: -3px;
   text-shadow: 5px 5px 5px black;
   font-size: 30px;
   color: white;
   word-wrap: break-word;
+  position: absolute;
+  bottom: 0;
 }
 
 footer {
