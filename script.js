@@ -3,7 +3,7 @@ const getDivImage = document.getElementById('meme-image-container');
 const btnFire = document.getElementById('fire');
 const btnWater = document.getElementById('water');
 const btnEarth = document.getElementById('earth');
-const memeImagem = document.getElementById('meme-image');
+const memeImage = document.getElementById('meme-image');
 const imgMeme1 = document.getElementById('meme-1');
 const imgMeme2 = document.getElementById('meme-2');
 const imgMeme3 = document.getElementById('meme-3');
@@ -16,12 +16,11 @@ getInputText.oninput = function () {
 };
 
 function loadFile (event) {
-  const outputImage = document.getElementById('meme-image');
-  outputImage.src = URL.createObjectURL(event.target.files[0]);
-  outputImage.onload = function () {
-    URL.revokeObjectURL(outputImage.src);
+  memeImage.src = URL.createObjectURL(event.target.files[0]);
+  memeImage.onload = function () {
+    URL.revokeObjectURL(memeImage.src);
   };
-  getDivImage.style.backgroundImage = outputImage.src;
+  getDivImage.style.backgroundImage = memeImage.src;
 };
 
 btnFire.addEventListener('click', function () {
