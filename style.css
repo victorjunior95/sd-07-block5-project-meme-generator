@@ -23,3 +23,26 @@
     width: 482px;
     z-index: 2;
 }
+
+#fire {
+    background-color: red;
+    border: 3px dashed red;
+}
+
+#water {
+    background-color: blue;
+    border: 5px double blue;
+
+}
+
+#earth {
+    background-color: green;
+    border: 6px groove green;
+
+}
+
+#fire, #water, #earth {
+    color: aliceblue;
+    height: 40px;
+    margin-top: 20px;
+}
