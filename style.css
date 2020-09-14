@@ -40,5 +40,17 @@ h1 {
 }
 
 .textInput {
-  margin-left: 432px
+  margin-left: 432px;
+}
+
+.fireButton {
+  background-color: red;
+}
+
+.waterButton {
+  background-color: blue;
+}
+
+.earthButton {
+  background-color: green;
 }
