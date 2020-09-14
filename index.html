@@ -7,15 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-   <form class="form">
-        <label for="text-input">Texto do MeMe</label>
-        <input type="text" id="text-input">
-        <button id="enviarTexto" type="button" >Enviar</button>
-   </form>
+    <nav>
+        <form class="form">
+            <label for="text-input">Texto do MeMe</label>
+            <input type="text" id="text-input" maxlength="60">
+            <!-- <button id="enviarTexto" type="button" >Enviar</button> -->
+       </form>
+    </nav>
    <section>
         <div id="meme-image-container" class="div-meme">
-        <p id="meme-text" class="texto-na-foto"></p>
-    </div>
+            <p id="meme-text" class="texto-na-foto"></p>
+        </div>
    </section>
     <script src = "script.js"></script>
 </body>
