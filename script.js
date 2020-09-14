@@ -1,13 +1,13 @@
 window.onload = function () {
-  const textInput = document.querySelector('#text-input');
-  const memeText = document.querySelector('#meme-text');
-  const memeImage = document.querySelector('#meme-image');
-  const memeInsert = document.querySelector('#meme-insert');
-  const memeContainer = document.querySelector('#meme-image-container');
-  const fire = document.querySelector('#fire');
-  const water = document.querySelector('#water');
-  const earth = document.querySelector('#earth');
-  const famousMemes = document.querySelectorAll('#famous-memes img');
+  let textInput = document.querySelector('#text-input');
+  let memeText = document.querySelector('#meme-text');
+  let memeImage = document.querySelector('#meme-image');
+  let memeInsert = document.querySelector('#meme-insert');
+  let memeContainer = document.querySelector('#meme-image-container');
+  let fire = document.querySelector('#fire');
+  let water = document.querySelector('#water');
+  let earth = document.querySelector('#earth');
+  let famousMemes = document.querySelectorAll('#famous-memes img');
 
   textInput.addEventListener('input', function () { memeText.innerText = textInput.value; });
 
@@ -22,7 +22,7 @@ window.onload = function () {
   water.addEventListener('click', function () { memeContainer.style.border = '5px double blue'; });
   earth.addEventListener('click', function () { memeContainer.style.border = '6px groove green'; });
 
-  for (const count = 0; count < famousMemes.length; count += 1) {
+  for (let count = 0; count < famousMemes.length; count += 1) {
     famousMemes[count].addEventListener('click', function (event) {
       memeImage.src = event.target.src;
     });
