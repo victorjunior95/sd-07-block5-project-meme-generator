@@ -6,11 +6,7 @@ const memeContainer = document.querySelector('#meme-image-container');
 const fire = document.querySelector('#fire');
 const water = document.querySelector('#water');
 const earth = document.querySelector('#earth');
-const famousMemes1 = document.querySelectorAll('#famous-memes img')[0];
-const famousMemes2 = document.querySelectorAll('#famous-memes img')[1];
-const famousMemes3 = document.querySelectorAll('#famous-memes img')[2];
-const famousMemes4 = document.querySelectorAll('#famous-memes img')[3];
-
+const famousMemes = document.querySelectorAll('#famous-memes img');
 
 textInput.addEventListener('input', function () { memeText.innerText = textInput.value; });
 
@@ -25,18 +21,8 @@ fire.addEventListener('click', function () { memeContainer.style.border = '3px d
 water.addEventListener('click', function () { memeContainer.style.border = '5px double blue'; });
 earth.addEventListener('click', function () { memeContainer.style.border = '6px groove green'; });
 
-famousMemes1.addEventListener('click', function () {
-  memeImage.src = famousMemes1.src;
-});
-
-famousMemes2.addEventListener('click', function () {
-  memeImage.src = famousMemes2.src;
-});
-
-famousMemes3.addEventListener('click', function () {
-  memeImage.src = famousMemes3.src;
-});
-
-famousMemes4.addEventListener('click', function () {
-  memeImage.src = famousMemes4.src;
-});
+for (let count = 0; count < famousMemes.length; count += 1) {
+  famousMemes[count].addEventListener('click', function (event) {
+    memeImage.src = event.target.src;
+  });
+}
