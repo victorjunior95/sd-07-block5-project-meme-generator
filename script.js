@@ -11,5 +11,5 @@ inputText.addEventListener("keyup", function () {
 
 //Função que muda a tribuição da imagem selecionada
 inputTag.addEventListener("change", function () {
-  imgMeme.src = URL.createObjectURL(event.target.files[0]);
+  imgMeme.src = URL.createObjectURL(this.files[0]);
 });
