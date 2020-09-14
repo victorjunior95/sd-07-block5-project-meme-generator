@@ -1,59 +1,59 @@
 body {
   font-family: sans-serif;
   font-size: large;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 button {
   border: none;
+  color: white;
+  font-size: large;
+  font-weight: 700;
   height: 40px;
   width: 100px;
-  font-size: large;
-  font-weight: bold;
-  color: white;
 }
 
-#earth {
+.earth {
   background-color: green;
 }
 
-#fire {
+.fire {
   background-color: red;
 }
 
-#meme-image {
-  width: 100%;
-  height: 100%;
+.meme-image {
   color: white;
+  height: 100%;
+  width: 100%;
 }
 
-#meme-image-container {
+.meme-image-container {
   background-color: white;
   border: 1px solid black;
   height: 350px;
-  width: 350px;
   margin: 25px 0;
   position: relative;
+  width: 350px;
 }
 
-#meme-text {
-  position: absolute;
+.meme-text {
   bottom: 15px;
-  left: 10px;
-  word-break: break-all;
-  width: 90%;
-  text-shadow: 5px 5px 5px black;
-  font-size: 30px;
   color: white;
+  font-size: 30px;
+  left: 10px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  width: 90%;
+  word-break: break-all;
 }
 
-#water {
+.water {
   background-color: blue;
 }
 
-#famous-memes img {
-  width: 70px;
-  height: 70px;
+.famous-memes img {
   border: 1px solid black;
+  height: 70px;
   margin: 0 10px;
+  width: 70px;
 }
