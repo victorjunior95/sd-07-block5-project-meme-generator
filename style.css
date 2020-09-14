@@ -51,7 +51,7 @@ body {
 }
 
 .meme-image {
-    background-color: rgb(95, 75, 102);
+    background-color: black;
     box-shadow: 0 0 3px white;
     float: left;
     margin-bottom: 100px;
