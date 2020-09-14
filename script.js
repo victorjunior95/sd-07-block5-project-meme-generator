@@ -4,9 +4,9 @@ window.onload = function () {
   let text = document.querySelector('#text-input')
   let memeText = document.querySelector('#meme-text')
   let imageContainer = document.querySelector('#meme-image-container')
-  let fireBtn = document.querySelector('#fireButton')
-  let waterBtn = document.querySelector('#waterButton')
-  let earthBtn = document.querySelector('#earthButton')
+  let fireBtn = document.querySelector('#fire')
+  let waterBtn = document.querySelector('#water')
+  let earthBtn = document.querySelector('#earth')
 
   let openImage = function(event) {
     img.src = URL.createObjectURL(event.target.files[0]);
