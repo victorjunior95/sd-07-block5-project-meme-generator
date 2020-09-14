@@ -36,15 +36,14 @@ body {
     margin-bottom: 20px;
 }
 
-.meme-image-container {
+.container-content {
     width: 400px;
     height: 400px;
-    background-color: white;
     border: 1px solid black;
-}
-.container-content {
-    bottom: 0;
-    color: black;
+    background-color: white;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
 }
 .footer-content {
     width: 100%;

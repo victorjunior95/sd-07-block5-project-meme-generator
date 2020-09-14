@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projeto 03 - Meme Generator</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js">
-    </script>
+    <script src="script.js"></script>
   </head>
   <body>
     <!-- HEADER -->
@@ -17,24 +16,24 @@
 
     <!-- MEME GENERATOR CONTENT -->
     <section class="meme-generator center">
-      
       <!-- INPUT TEXT -->
       <div class="inputs">
-          <!-- A caixa onde o texto é inserido deve ter um `id` denominado `text-input` - OK -->
-          <!-- O texto inserido no elemento `text-input` deve ser inserido sobre a imagem escolhida `meme-image`. -->
-          <!-- O texto que será inserido sobre a imagem deve ter uma cor, sombra e tamanho específicos. -->
-          <!-- 0na horizontal, 5 pixels na vertical e um raio de desfoque de 5 pixels; -->
-          <!-- O texto do elemento `meme-text` deve ter a fonte com o tamanho de 30 pixels; -->
-          <!-- O texto do elemento `meme-text` deve estar na cor branca; -->
-          <!-- A quantidade máxima de caracteres digitáveis no elemento `text-input` deve ser 60. -->
+        <!-- A caixa onde o texto é inserido deve ter um `id` denominado `text-input` - OK -->
+        <!-- O texto inserido no elemento `text-input` deve ser inserido sobre a imagem escolhida `meme-image`. -->
+        <!-- O texto que será inserido sobre a imagem deve ter uma cor, sombra e tamanho específicos. -->
+        <!-- 0na horizontal, 5 pixels na vertical e um raio de desfoque de 5 pixels; -->
+        <!-- O texto do elemento `meme-text` deve ter a fonte com o tamanho de 30 pixels; -->
+        <!-- O texto do elemento `meme-text` deve estar na cor branca; -->
+        <!-- A quantidade máxima de caracteres digitáveis no elemento `text-input` deve ser 60. -->
         <label for="file">Texto:</label>
         <input
           type="text"
-          id="text-input" maxlength="60"
+          id="text-input"
+          maxlength="60"
           placeholder="Digite seu texto aqui..."
         />
       </div>
-      
+
       <!-- UPLOAD IMAGE -->
       <div class="inputs">
         <!-- O elemento onde é feito o upload da imagem deve ser identificado com o `id` denominado `meme-insert`. Este elemento não precisa estar dentro do elemento de container; - OK -->
@@ -42,26 +41,19 @@
         <input type="file" id="meme-insert" />
       </div>
 
-      
       <!-- MEME BOX -->
-      <container id="meme-content">
-        <div class="meme-image-container center">
-          <p id="meme-text" class="container-content"></p>
-          <img src="" alt="meme image" id="meme-image">
-        </div>
-        
+      <div id="meme-content" class="container-content">
         <!-- Você deve criar um elemento para servir de _"container"_ para a **imagem** e para o **texto** do meme. Este elemento deve ter um `id` denominado `meme-image-container`
       </container> -->
-      <!-- Dentro do elemento de container, você deve criar um outro elemento para mostrar o texto digitado. O elemento de texto deve estar totalmente contido dentro do container e ter o `id` denominado `meme-text`; -->
-      <!-- Dentro do elemento de container, você deve criar um outro elemento para mostrar a imagem selecionada. Este elemento deve possuir um `id` denominado `meme-image`; -->
-      <!-- Se não houver imagem inserida, ele deve ser inserido e estar visível dentro do container vazio onde a imagem aparecerá. -->
-      <!-- A imagem deve estar totalmente contida dentro do elemento identificado como `meme-image-container` ~~("totalmente contida" quer dizer que não deve sobrar espaço entre o container e a imagem, e a imagem não deve ultrapassar o tamanho do container)~~ -->
-      <!-- O elemento que serve de container para a imagem deve ter o a cor de fundo branca; -->
-      <!-- O elemento que serve de container para a imagem deve ter uma borda preta, sólida, com 1 pixel de largura; -->
+        <!-- Dentro do elemento de container, você deve criar um outro elemento para mostrar o texto digitado. O elemento de texto deve estar totalmente contido dentro do container e ter o `id` denominado `meme-text`; -->
+        <!-- Dentro do elemento de container, você deve criar um outro elemento para mostrar a imagem selecionada. Este elemento deve possuir um `id` denominado `meme-image`; -->
+        <!-- Se não houver imagem inserida, ele deve ser inserido e estar visível dentro do container vazio onde a imagem aparecerá. -->
+        <!-- A imagem deve estar totalmente contida dentro do elemento identificado como `meme-image-container` ~~("totalmente contida" quer dizer que não deve sobrar espaço entre o container e a imagem, e a imagem não deve ultrapassar o tamanho do container)~~ -->
+        <!-- O elemento que serve de container para a imagem deve ter o a cor de fundo branca; -->
+        <!-- O elemento que serve de container para a imagem deve ter uma borda preta, sólida, com 1 pixel de largura; -->
+      </div>
     </section>
-    <footer class="footer-content">
-
-    </footer>
+    <footer class="footer-content"></footer>
     <script>
       insertText();
       insertImage();
