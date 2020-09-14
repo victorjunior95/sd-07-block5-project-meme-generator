@@ -11,10 +11,11 @@
     border: solid black;
     display: inline-block;
     position: relative;
+    background-color: white;
 }
 .div-meme img {
     /* width: 450px; */
-    height: 55g0px;
+    height: 500px;
 }
 .texto-na-foto {
     position: absolute;
