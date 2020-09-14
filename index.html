@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
 <head>
-    <title>Projeto Meme Generator</title>
-    <div id="h1container">
-        <h1>MEME GENERATOR</h1>
-    </div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form>
-        <label>TEXTO:</label>
-        <textarea id="text-imput"></textarea>
-        <br>
-        <br>
-        <label>FOTO:</label>
-        <imput><button>Choose File</button></imput>
-        <label></label>
-    </form>
-    <div id="meme-image-container">
-        <textarea id="meme-text"></textarea>
-    </div>
-    <p>Estilos Customizados:</p>
-    <button id="button_red" id="fire">Fire</button>
-    <button id="button_blue" id="water">Water</button>
-    <button id="button_green" id="earth">Earth</button>
-    <br>
-    <br>
-    <p>Memes pré prontos:</p>
-    <button id="meme-1"><img class="button_img" title="BobEsponja" src="./imgs/bobesponja.png "alt="BobEsponja"></button>
-    <button id="meme-2"><img class="button_img" title="SeuMadruga" src="./imgs/madruga.png"alt="SeuMadruga"></button>
-    <button id="meme-3"><img class="button_img" title="Minion" src="./imgs/minion.png"alt="Minion"></button>
-    <button id="meme-4"><img class="button_img" title="Simpsons" src="./imgs/simpsons.png"alt="Simpson"></button>
+    <header>
+        <h1>Título do Site</h1>
+    </header>
+    <main>
+        <section class="section">
+            <label for="text-input">Digite seu texto aqui:</label>
+            <br>
+            <input id="text-input"
+                    type="text"
+                    placeholder="Digiteseu texto aqui"
+                    class="input"
+                    maxlength="60">
+            <br>
+            <button id="meme-insert" class="button">Texto do botão</button>
+        </section>
+        <section class="section">
+            <div id="meme-image-container" class="container">
+                <img id="meme-image" src="/imgs/teste.jpg" alt="Imagem de fundo" class="background-image">
+                <p id="meme-text" class="text">Texto criadpo pelo input via JS</p>
+            </div>
+            <div class="mudarBordas"></div>
+            <div class="imagensAuxiliares"></div>
+        </section>
+    </main>
+    <footer>
+        ccc
+    </footer>
+
 </body>
-<script type="text/script.js" src="script.js"></script>
 </html>
