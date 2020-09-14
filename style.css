@@ -12,15 +12,15 @@
 
 .image {
   border: 2px solid black;
-  height: 499px;
+  height: 500px;
   position: absolute;
-  width: 499px;
+  width: 500px;
   z-index: 1;
 }
 
 .text-paragraph {
   bottom: 150px;
-  box-shadow: 5px 5px 5px black;
+  text-shadow: 5px 5px 5px black;
   color: white;
   font-size: 30px;
   left: 20px;
