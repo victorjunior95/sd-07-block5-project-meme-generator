@@ -15,27 +15,27 @@
         <form>
         <div>
         <label for='texto'>Texto:<label> 
-        <input type='text' placeholder='texto Aqui' id='text-input'/>
+        <input type='text' placeholder='texto Aqui' id='text-input'maxlength="60"/>
         </div>
         <div>
         <label for='arquivo'>Arquivo</label>
-        <input type='file'  id='arquivo' />
+        <input type='file'  id='meme-insert'accept="image/*" />
         </div>
         </form>
       <div class= 'meme-image-container default-border' id='meme-image-container'>
-      <span id='meme-text' class='meme-text'></span>
-      <img id='meme-image' class='meme-image' src=''>
+      <span id='meme-text' class='meme-texto'></span>
+      <img id='meme-imagem' class='imagePrincipal' src=''>
       </div> 
       
       <div class='botoes'>
       <h2>Estilos customizaveis:</h2>
-      <button type='button' class='fire' id='fire' onclick='geratorMemer.estilo()'>
+      <button type='button' class='fire' id='fire' >
       Fire
       </button>
-      <button type='button' class='water' id='water'onclick='geratorMemer.estilo()'>
+      <button type='button' class='water' id='water'>
       Water
       </button>
-      <button type='button' class='earth' id='earth'onclick='geratorMemer.estilo()'>
+      <button type='button' class='earth' id='earth'>
       Earth
       </button>
       </div>
@@ -43,10 +43,10 @@
       
       <section class='memesProntos'> 
       <h2>Memes Prontos</h2>
-      <img id='meme-1' class='memeP' src='https://i.pinimg.com/originals/99/d3/39/99d339e9d375633c41c6ec3907a547d5.jpg'>
-      <img id='meme-2' class='memeP' src='https://i.ytimg.com/vi/dkC4U4WKULs/maxresdefault.jpg'>
-      <img id='meme-3' class='memeP' src='https://i.kym-cdn.com/photos/images/original/001/389/437/e07.jpg'>
-      <img id='meme-4' class='memeP' src='https://preview.redd.it/ma33nh1maml51.jpg?width=960&crop=smart&auto=webp&s=073d95fe41590532781dd7987debce1cdc6430f6'>
+      <img id='meme-1' class='memeP' src="imgs/meme1.png">
+      <img id='meme-2' class='memeP' src="imgs/meme2.png">
+      <img id='meme-3' class='memeP' src="imgs/meme3.png">
+      <img id='meme-4' class='memeP' src="imgs/meme4.png">
       </section>        
       </section>
   		<footer></footer>
