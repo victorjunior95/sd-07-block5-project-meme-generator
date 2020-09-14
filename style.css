@@ -68,6 +68,7 @@ a:hover {
   left: 680px;
   top: 480px;
   position: absolute;
+  z-index: 1;
 }
 
 #meme-image-container-inputs p {
@@ -106,6 +107,7 @@ a:hover {
   position: absolute;
   text-align: center;
   width: 100%;
+  z-index: 0;
 }
 
 #rodape ul li {
