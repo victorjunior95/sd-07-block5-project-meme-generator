@@ -11,7 +11,8 @@ textInput.addEventListener("change", function(){
     textmeme.innerText = textInput.value;
     else {
         alert("sua frase passa o limite de 60 caracteres");
-        textmeme.innerText = "Meme text"
+        textmeme.innerText = "Meme text";
+        textInput.value = "";
     }
 })
 alert("amém");
