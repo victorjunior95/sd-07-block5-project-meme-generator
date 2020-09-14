@@ -48,14 +48,20 @@ button {
 
 #water {
     border: double 5px blue;
+    background-color: blue;
+    color: white;
 }
 
 #fire {
     border: dashed 3px red;
+    background-color: red;
+    color: white;
 }
 
 #earth {
-    border: groove 6px green;  
+    border: groove 6px green;
+    background-color: green;
+    color: white;
 }
 
 #text-input {
