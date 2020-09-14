@@ -7,6 +7,11 @@ const image1 = document.querySelectorAll('img')[1]
 const image2 = document.querySelectorAll('img')[2]
 const image3 = document.querySelectorAll('img')[3]
 const image4 = document.querySelectorAll('img')[4]
+const button1 = document.querySelectorAll(".botaum button")[0]
+const button2 = document.querySelectorAll(".botaum button")[1]
+const button3 = document.querySelectorAll(".botaum button")[2]
+const meme = document.querySelector(".meme-container")
+
 
 
 text.addEventListener('keyup', function (){
@@ -28,3 +33,12 @@ image3.addEventListener('click', function (){
 image4.addEventListener("click", function(){
   imagemPhoto.src = image4.src;
 });
+button1.addEventListener("click", function (){
+   meme.style.border = "3px dashed red"
+})
+button2.addEventListener("click", function (){
+  meme.style.border = "5px double blue"
+})
+button3.addEventListener("click", function (){
+  meme.style.border = "6px groove green"
+})

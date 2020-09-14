@@ -4,6 +4,14 @@ a {
   color: rgb(241, 145, 67);
   font-weight: bold;
 }
+.botaum{
+  margin: 10px;
+  height: 30px;
+}
+.botaum button{
+  width: 125px;
+  height: 25px
+}
 h1 {
   display: inline-block;
   margin-left: 30%;
@@ -14,7 +22,8 @@ h1 {
   text-align: center;
 }
 .images {
-  margin-left: 20%;
+  margin-left: 10%;
+  width: 1000px;
   }
 .images img {
     box-shadow: 5px 2px gray;
@@ -23,7 +32,7 @@ h1 {
     height: 200px;
 }
 .meme-container {
-  text-align: center;
+  margin-left: 30%;
   width: 500px;
   height: 500px;
   background-color: white;
@@ -48,7 +57,5 @@ h1 {
   font-size: 30px;
 }
 .princip{
-  display: inline-block;
   text-align: center;
-  margin-left: 30%;
 }
