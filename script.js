@@ -11,10 +11,46 @@ window.onload = function() {
     /* Como colocar a imagem na div */
     let imageSrc = document.querySelector("#meme-insert"); /* Pega HTML pelo Id onde imagem será escolhida */
     let imageBox = document.querySelector("#meme-image"); /* Local que apresentará a imagem */
+    let imageContainer = document.querySelector("#meme-image-container");
 
+    imageSrc.addEventListener("change", insertImage); /*  */
+    
     function insertImage() { /*  */
         imageBox.src = window.URL.createObjectURL(imageSrc.files[0]); /* Buscando a fonte da seleção da imagem */
     }
-    
-    imageSrc.addEventListener("change", insertImage); /*  */
-    }
+
+    /* Como colocar as pequenas imagens na div */
+    let image1 = document.querySelector("#picture1");
+    let image2 = document.querySelector("#picture2");
+    let image3 = document.querySelector("#picture3");
+    let image4 = document.querySelector("#picture4");
+
+    image1.addEventListener("click", function () {
+        imageBox.src = event.target.src;
+    });
+    image2.addEventListener("click", function () {
+        imageBox.src = event.target.src;
+    });
+    image3.addEventListener("click", function () {
+        imageBox.src = event.target.src;
+    });
+    image4.addEventListener("click", function () {
+        imageBox.src = event.target.src;
+    });
+    /* https://stackoverflow.com/questions/41052871/how-get-the-image-src-value/41054319 */
+
+    /* Como mudar as bordas */
+    let borderWater = document.querySelector("#water");
+    let borderFire = document.querySelector("#fire");
+    let borderEarth = document.querySelector("#earth");
+
+    borderWater.addEventListener("click", function () {
+        imageContainer.style.border = "double 5px blue";
+    });
+    borderFire.addEventListener("click", function () {
+        imageContainer.style.border = "dashed 3px red";
+    });
+    borderEarth.addEventListener("click", function () {
+        imageContainer.style.border = "groove 6px green";
+    });
+}

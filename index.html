@@ -10,23 +10,31 @@
 </head>
 <body>
     <div id="selectors">
-    <input id="text-input" type="text" placeholder="Digite o texto aqui!" maxlength="60" onchange="loadFile(event)">
+    <label for="meme-insert"></label>
     <input id="meme-insert" type="file" accept="image/gif, image/jpeg, image/png">
+    <label for="text-input"></label>
+    <input id="text-input" type="text" placeholder="Digite o texto aqui!" maxlength="60" onchange="loadFile(event)">
+     <!-- horadecodar.com.br/2020/03/31/css-como-estilizar-um-input-do-tipo-file/ -->   
     </div>
     <section id="meme-image-container">
         <div id="meme-text">
         </div>
-        <img id="meme-image" src="" alt="Escolha a imagem" type="image"> 
+        <img id="meme-image" src="" alt="Escolha a imagem" type="image" onerror=""> 
     </section>
-    <section class="buttons">
-        <button class="borderButton" id=button1>Water</button>
-        <button class="borderButton" id=button2>Fire</button>
-        <button class="borderButton" id=button3>Earth</button>
-    </section>
-    <section class="smallPictures">
-        <img class="smallMeme" id="picture1">
-        <img class="smallMeme" id="picture2">
-        <img class="smallMeme" id="picture3">
-    </section>
+    <footer id="endOfPage">
+        <section id="buttons">
+            <button class="borderButton" id=water>Water</button>
+            <button class="borderButton" id=fire>Fire</button>
+            <button class="borderButton" id=earth>Earth</button>
+        </section>
+        <section id="smallPictures">
+            <img class="smallMeme" id="picture1" src="https://i.ibb.co/3SVQ0RP/1.jpg" alt="Imagem meme 1">
+            <img class="smallMeme" id="picture2" src="https://i.ibb.co/QPvYF7X/2.jpg" alt="Imagem meme 2">
+            <img class="smallMeme" id="picture3" src="https://i.ibb.co/Vq325Hr/3.jpg" alt="Imagem meme 3">
+            <img class="smallMeme" id="picture4" src="https://i.ibb.co/gTJzHpX/4.jpg" alt="Imagem meme 4">
+        </section>
+    </footer>
 </body>
 </html>
+
+<!-- <a href=""> -->
