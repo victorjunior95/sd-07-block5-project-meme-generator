@@ -6,10 +6,11 @@ window.onload = function () {
   let bF = document.getElementById('fire');
   let bW = document.getElementById('water');
   let bE = document.getElementById('earth');
+  
   textMemeIn.addEventListener('keyup', function () { textMemeOut.innerText = textMemeIn.value; });
-  chooseImage.addEventListener('change', function (event) {
-    containerImage.src = URL.createObjectURL(event.target.files[0]);
-    containerImage.onload = function () { URL.revokeObjectURL(containerImage.src); };
+  
+  chooseImage.addEventListener('change', function () {
+    containerImage.src = URL.createObjectURL(chooseImage.files[0]);
   });
   bF.addEventListener('click', function () {
     bF = document.getElementById('meme-image-container'); bF.style.border = '3px dashed red';
