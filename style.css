@@ -10,6 +10,25 @@ p{
 div{
   position: relative;
 }
+#meme-image-container{
+  background-color: white;
+  border: 1px solid black;
+  height:400px;
+  margin-bottom: 20px;
+  position: relative;
+  width: 800px;
+
+}
+
+
+button{
+  border-radius: 100%;
+  cursor: pointer;
+  height: 100px;
+  margin-right: 10px;
+  width: 100px;
+}
+
 
 
 
