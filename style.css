@@ -16,8 +16,8 @@
   position: relative;
   border: 1px solid black;
   background-color: white;
-  height: 400px;
-  width: 400px;
+  height: 500px;
+  width: 500px;
   margin-top: 5px;
 }
 
@@ -34,8 +34,9 @@ button {
 
 nav {
   text-align: center;
-  width: 400px;
+  width: 506px;
   border: 1px solid black;
+  margin-top: 5px;
 }
 
 #fire{
@@ -52,3 +53,11 @@ nav {
     background-color: green;
     border: 6px groove green;
 }
+
+img {
+  margin-right: 30px;
+  height: 50px;
+  width: 75px;
+}
+
+

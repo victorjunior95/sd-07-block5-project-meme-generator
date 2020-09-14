@@ -41,4 +41,36 @@ for (var i = 0; i < borderColorButtons.length; i += 1) {
       localStorage.setItem("borderType", content.style.border);
     });
   }
+} // let memeUm = document.getElementById("meme-1");
+// let image = document.getElementById("meme-image");
+
+
+var imgsArray = document.querySelectorAll("#imgs-containeir>ul>li>img"); // memeUm.addEventListener('click', function(){
+//   image.src = memeUm.src
+// })
+
+var _loop = function _loop(index) {
+  var image = document.getElementById("meme-image");
+
+  if (index == 0) {
+    imgsArray[index].addEventListener('click', function () {
+      image.src = imgsArray[index].src;
+    });
+  } else if (index == 1) {
+    imgsArray[index].addEventListener('click', function () {
+      image.src = imgsArray[index].src;
+    });
+  } else if (index == 2) {
+    imgsArray[index].addEventListener('click', function () {
+      image.src = imgsArray[index].src;
+    });
+  } else {
+    imgsArray[index].addEventListener('click', function () {
+      image.src = imgsArray[index].src;
+    });
+  }
+};
+
+for (var index = 0; index < imgsArray.length; index += 1) {
+  _loop(index);
 }
