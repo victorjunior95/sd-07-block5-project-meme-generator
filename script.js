@@ -7,6 +7,11 @@ uploadButton.addEventListener("change", function(){
     console.log("amendoin");
 });
 textInput.addEventListener("change", function(){
-    textmeme.innerText = textInput.value; 
+    if (textInput.value.length <= 60)
+    textmeme.innerText = textInput.value;
+    else {
+        alert("sua frase passa o limite de 60 caracteres");
+        textmeme.innerText = "Meme text"
+    }
 })
 alert("amém");
