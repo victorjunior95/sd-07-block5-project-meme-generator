@@ -14,7 +14,7 @@ window.onload = function () {
   function handleFiles(source) {
     const img = document.createElement('img');
     img.src = source;
-    img.id = 'image';
+    img.id = 'meme-image';
     img.className = 'meme-image';
     img.onload = function () {
       URL.revokeObjectURL(this.src);
