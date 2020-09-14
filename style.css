@@ -46,6 +46,13 @@ div{
   background-color: green;
 }
 
+.memes{
+  cursor: pointer;
+  height: 50px;
+  margin-right: 5px;
+  width:50px;
+
+}
 
 
 
