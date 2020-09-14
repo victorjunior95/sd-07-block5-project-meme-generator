@@ -1,5 +1,5 @@
 a {
-  color: rgb(241, 145, 67);
+  color: rgb(241 , 145 , 67);
   font-family: sans-serif;
   font-weight: 700;
 }
@@ -23,7 +23,7 @@ a {
 }
 
 h1 {
-  color: rgb(250, 188, 60);
+  color: rgb(250 , 188 , 60);
   display: inline-block;
   font-family: sans-serif;
   font-weight: 700;
@@ -62,7 +62,7 @@ h1 {
 .memeText {
   bottom: 25px;
   color: white;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: Impact, Charcoal, sans-serif;
   font-size: 30px;
   font-weight: 700;
   position: absolute;
