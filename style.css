@@ -23,13 +23,25 @@ body {
     width: 600px;
     border: 1px black solid;
 }
-
-#earth {
-    background-color: #32CD32;
+#buttonStyles{
+    position: absolute;
+    left: 400px;
+    top: 34px;
+    color:white;
 }
 
-#fire {
-    background-color: #DC143C
+.earth {
+    background-color: #32CD32;
+    position: absolute;
+    left: 500px;
+    top: 74px;
+}
+
+.fire {
+    background-color: #DC143C;
+    position: absolute;
+    left: 455px;
+    top: 74px;
 }
 
 #inputs {
@@ -78,7 +90,10 @@ body {
     position: absolute;
 }
 
-#water {
+.water {
+    position: absolute;
+    left: 400px;
+    top: 74px;
     background-color: #00BFFF;
 }
 

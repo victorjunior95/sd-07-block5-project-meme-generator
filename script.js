@@ -13,10 +13,10 @@ setImage.addEventListener('change', function(event){
 });
 
 // adiciona os botões de estilo
-let earth = document.querySelector('.changeButtons').childNodes[7];
-let water = document.querySelector('.changeButtons').childNodes[5];
-let fire = document.querySelector('.changeButtons').childNodes[3];
-let container = document.querySelector('#meme-image-container');
+let earth = document.querySelector('#container').childNodes[9]
+let water = document.querySelector('#container').childNodes[7]
+let fire = document.querySelector('#container').childNodes[5]
+let container = document.querySelector("#container").childNodes[1].querySelector("#meme-image-container");
 
 fire.addEventListener('click', function () {
     container.style.border = '3px dashed #DC143C';
