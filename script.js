@@ -1,5 +1,11 @@
-const text = document.querySelector('#text-input');
+const inputText = document.querySelector('#text-input');
 const memeText = document.querySelector('#meme-text');
-text.addEventListener('input', function () {
-  memeText.innerText = text.value;
+inputText.addEventListener('input', function () {
+  memeText.innerText = inputText.value;
+});
+
+const inputImage = document.querySelector('#meme-insert');
+const memeImage = document.querySelector('#meme-image');
+inputImage.addEventListener('change', function (event) {
+  memeImage.src = URL.createObjectURL(event.target.files[0]);
 });
