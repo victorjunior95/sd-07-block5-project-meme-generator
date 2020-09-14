@@ -31,8 +31,11 @@
       Envie suas imagens por aqui.
     </h2>
 
-    <!--User sends image-->
-    <input type="file" accept="image/*" id="meme-insert">
+    <!--User sends image 
+      //https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded/27165977#27165977
+    Procurando outra forma de fazer...-->
+
+    <input type="file" accept="image/*" id="meme-insert" onchange="loadFile(event)"/>
 
   </section>
 
@@ -63,20 +66,13 @@
   </form>
   <script>
 
-   // let memeImg = document.querySelector("input[type='file']");
-   // memeImg.addEventListener("change", console.log(input.file));
-
-    //sessionStorage.getItem('#meme-insert)[0];
-    //const fileInput = document.getElementById('#meme-insert');
-
-   // document.getElementById("meme-insert").addEventListener("change", imgPreview);
-
-    function imgPreview ()
-    {
-
-      //document.file.querySelector('#meme-image') = documento.file.querySelector('#meme-insert'); 
-
-    };
+    var loadFile = function(event) {
+      var memeImage = document.getElementById('meme-image');
+      memeImage.src = URL.createObjectURL(event.target.files[0]);
+      memeImage.onload = function() {
+        URL.revokeObjectURL(memeImage.src)
+      }
+    }; 
 
   </script>
 </body>
