@@ -7,13 +7,11 @@ textInput.addEventListener('keyup', inOut);
 
 
 // https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded/27165977#27165977
+const output = document.getElementById('meme-image');
 function loadFile(event) {
-  const output = document.getElementById('meme-image');
   output.src = URL.createObjectURL(event.target.files[0]);
-  output.onload = function() {
-    URL.revokeObjectURL(output.src);
-  };
-};
+}
+output.addEventListener('change', loadFile);
 
 
 const fireButton = document.getElementById('fire');
