@@ -20,10 +20,10 @@ window.onload = function() {
     }
 
     /* Como colocar as pequenas imagens na div */
-    let image1 = document.querySelector("#picture1");
-    let image2 = document.querySelector("#picture2");
-    let image3 = document.querySelector("#picture3");
-    let image4 = document.querySelector("#picture4");
+    let image1 = document.querySelector("#meme-1");
+    let image2 = document.querySelector("#meme-2");
+    let image3 = document.querySelector("#meme-3");
+    let image4 = document.querySelector("#meme-4");
 
     image1.addEventListener("click", function () {
         imageBox.src = event.target.src;
