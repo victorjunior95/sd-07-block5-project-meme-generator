@@ -6,3 +6,10 @@
     background-color: white;
     border: 1px solid black;   
 }
+
+#meme-text {
+    color: white;
+    font-size: 30px;
+    text-shadow: black 5px 5px 5px;
+
+}
