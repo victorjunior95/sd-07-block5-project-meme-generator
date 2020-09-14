@@ -55,7 +55,7 @@ body {
 .container-content {
   width: 400px;
   height: 400px;
-  background-color: white;
+  background-color: #fff;
   position: relative;
   margin: 0 auto;
   text-align: center;
