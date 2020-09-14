@@ -33,9 +33,11 @@ body {
   height: 500px;
   margin-bottom: 20px;
   width: 500px;
+  overflow: hidden;
 }
 
 .image {
+  background-color: white;
   border: 2px solid black;
   height: 100%;
   position: relative;
@@ -43,8 +45,14 @@ body {
   z-index: 1;
 }
 
+.meme-images {
+  border: 1px solid black;
+  margin-right: 10px;
+  width: 100px;
+}
+
 .text-paragraph {
-  bottom: 150px;
+  top: 500px;
   color: white;
   font-size: 30px;
   left: 20px;
