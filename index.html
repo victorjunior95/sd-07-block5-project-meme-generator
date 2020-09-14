@@ -1,49 +1,71 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/style.css"" rel="stylesheet">
-  <title>🖼️ Meme Generator</title>
-</head>
-<body>
-
-  <!-- Titulo e Subtitle -->
-  <header class="header">
-    <h1 class="header__title">💡Meme Generator</h1>
-    <h2 class="header__subtitle">
-      Crie um meme a partir de <b>JPG</b>,
-      <b>GIF</b> ou <b>imagens de PNG</b>.<br>
-      Edite sua imagem e faça um meme.
-    </h2>
-  </header>
-
-  <!-- Meme insert -->
-    <div class="inputArea">
-        <form>
-            <input id="text-input" class="textInput" type="text" placeholder="Digite aqui" maxlength="60">
-        </form>
-        <form class="upload_btn" action="/action_page.php">
-            <input id="meme-insert" type="file" style=" opacity: 0;
-            position: absolute; top: 0px; left: 0px; width: 30%; height: 100%;"
-            accept=".JPG, .jpeg, .png, .gif" tabindex="-1" name="img" accept="image/*">
-            <span>Carregar imagem</span>
-        </form>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <title>🖼️ Meme Generator | Trybe</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>💡 Meme Generator 💡</h1>
+    </header>
+    <div class="top-center-content">
+      <h2>Texto a ser inserido no meme:</h2>
+      <input
+        type="text"
+        name="text-input"
+        id="text-input"
+        maxlength="60"
+        class="input-text"
+      />
     </div>
-
-    <!-- Meme Display -->
-    <div id="meme-image-container" class="memeImageContainer">
-        <img id="meme-image" class="memeImage" src="">
-        <p id="meme-text" class="memeText"></p>
+    <div class="container">
+      <div class="div-thumbnails-container div-border-buttons">
+        <h3>Selecione um meme famoso:</h3>
+        <div class="div-thumbnails-memes">
+          <img id="meme-1" src="./imgs/meme1.png" class="thumbnails" />
+          <img id="meme-2" src="./imgs/meme2.png" class="thumbnails" />
+        </div>
+        <div class="div-thumbnails-memes">
+          <img id="meme-3" src="./imgs/meme3.png" class="thumbnails" />
+          <img id="meme-4" src="./imgs/meme4.png" class="thumbnails" />
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="input-content">
+          <label class="button input-file-button">
+            Selecionar imagem<input
+              type="file"
+              class="input-type-file"
+              accept="image/*"
+              id="meme-insert"
+            />
+          </label>
+        </div>
+        <div id="meme-image-container" class="meme-image-container">
+          <div id="meme-text" class="meme-text"></div>
+          <img
+            id="meme-image"
+            class="meme-image"
+            src="https://picsum.photos/400/400"
+          />
+        </div>
+        <h3>Selecione um estilo de borda:</h3>
+        <div id="divBorderButtons" class="div-border-buttons">
+          <button id="fire" class="button btn-fire"><strong>🔥 Fire</strong></button>
+          <button id="water" class="button btn-water"><strong>💧 Water</strong></button>
+          <button id="earth" class="button btn-earth"><strong>🌱 Earth</strong></button>
+        </div>
+      </div>
     </div>
-    <!-- Customização -->
-    <div class="buttons">
-      <p>Estilos customizados</p>
-        <button id="fire">Fire</button>
-        <button id="water">Water</button>
-        <button id="earth">Earth</button>
-    </div>
-
-    <script type="text/javascript" src="script.js"></script>
-</body>
+    <footer id="rodape">
+      <p>Conteúdo compilado por, <strong>Elano Evaristo</strong> 💚</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
 </html>
