@@ -96,3 +96,18 @@ a:hover {
   object-fit: cover;
   width: 100%;
 }
+
+#fire {
+  position: relative;
+  top: 750px;
+}
+
+#water {
+  position: relative;
+  top: 750px;
+}
+
+#earth {
+  position: relative;
+  top: 750px;
+}
