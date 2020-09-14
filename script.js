@@ -5,8 +5,9 @@ function frase () {
 
 function Enviar() {
 
-    var texto = document.getElementById("text-input").value;
-    document.getElementById("texto").innerText = "You wrote: " + x;
-    }
+    var texto = document.getElementById("teste").value;
+    document.getElementById("texto").innerHTML = "You wrote: " + x;
+    
 
 }
+
