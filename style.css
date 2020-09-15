@@ -1,5 +1,20 @@
+input {
+    margin-bottom: 20px
+}
+
+#meme-image-container {
+    height:300px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid black;
+}
+
 #meme-image {
     position: relative;
+}
+
+#photo-title {
+    padding-top: 30px;
 }
 
 #text-input {
