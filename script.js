@@ -5,3 +5,8 @@ function loadFile(event){
     URL.revokeObjectURL(output.src);
   }
 }
+
+function loadtext(event){
+  let text = document.getElementById('meme-text');
+  text.innerText = event.target.value;
+}

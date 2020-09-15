@@ -9,14 +9,14 @@
 <body>
   <h1>Meme Generator</h1>
   <span>Texto: </span>
-  <input type="text" maxlength="60" id="text-input">
+  <input type="text" onkeypress="loadtext(event)" maxlength="60" id="text-input">
   <br> <br>
   <span>Foto: </span>
   <input type="file" accept="image/*" onchange="loadFile(event)" id="meme-insert">
   <div id="meme-image-container">
     <p id="meme-text">
     </p>
-    <img src="https://picsum.photos/400/400" alt="image" id="meme-image">
+    <img src="" alt="image" id="meme-image">
   </div>
   <script src="script.js"></script>
 </body>
