@@ -4,6 +4,10 @@ const imageContainer = document.getElementById('meme-image-container');
 const waterBorder = document.getElementById('water');
 const fireBorder = document.getElementById('fire');
 const earthBorder = document.getElementById('earth');
+const memeOne = document.getElementById('meme-1');
+const memeTwo = document.getElementById('meme-2');
+const memeThree = document.getElementById('meme-3');
+const memeFour = document.getElementById('meme-4');
 
 function getValue() {
   text.innerHTML = valueInput.value;
@@ -33,4 +37,18 @@ earthBorder.addEventListener('click', () => {
   imageContainer.classList.add('earth-border');
 });
 
+memeOne.addEventListener('click', () => {
+  image.src = './img/meme1.png';
+});
 
+memeTwo.addEventListener('click', () => {
+  image.src = './img/meme2.png';
+});
+
+memeThree.addEventListener('click', () => {
+  image.src = './img/meme3.png';
+});
+
+memeFour.addEventListener('click', () => {
+  image.src = './img/meme4.png';
+});

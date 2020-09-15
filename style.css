@@ -57,3 +57,13 @@ img {
 .select-borders {
   padding: 10px;
 }
+
+.alternatives-memes {
+  display: inline-flex;
+}
+
+.thumbnails {
+  height: 80px;
+  padding: 4px;
+  width: 80px;
+}
