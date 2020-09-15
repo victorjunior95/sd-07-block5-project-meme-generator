@@ -1,5 +1,6 @@
 document.querySelector('#text-input').setAttribute('maxlength', 60);
 const textInputBox = document.querySelector('#text-input');
+const loadImage = document.querySelector('#meme-insert');
 const earth = document.querySelector('#earth');
 const water = document.querySelector('#water');
 const fire = document.querySelector('#fire');
@@ -8,10 +9,10 @@ const lol = document.querySelector('#meme-2');
 const homer = document.querySelector('#meme-3');
 const omg = document.querySelector('#meme-4');
 
-function LoadMemeImage (event) {
+loadImage.addEventListener('change', function (event) {
   const image = document.getElementById('meme-image');
   image.src = URL.createObjectURL(event.target.files[0]);
-};
+});
 
 textInputBox.addEventListener('keyup', function () {
   const textInput = document.querySelector('#text-input').value;
