@@ -1,12 +1,3 @@
-    //let inp = document.getElementById('text-input').value;
-    //let texto= document.getElementById('texto');
-    
-    //texto.addEventListener("oninput", function(){
-      
-        //texto.innerHTML = inp;
-
-
-   // })
     
 
 let inp = document.getElementById('text-input');
@@ -17,3 +8,8 @@ let inp = document.getElementById('text-input');
    textop.innerText = textof;
 }
 
+window.onload = function imageOption() {
+
+    document.getElementById("meme-image").src = "imgs/crazy.jpeg";
+    
+}
