@@ -10,55 +10,55 @@ const memeTwo = document.querySelector('#meme-2');
 const memeThree = document.querySelector('#meme-3');
 const memeFour = document.querySelector('#meme-4');
 
-function colocaTextoDoMeme () {
+function colocaTextoDoMeme() {
   memeText.innerText = textInput.value;
 }
 
 textInput.addEventListener('input', colocaTextoDoMeme);
 textInput.addEventListener('paste', colocaTextoDoMeme);
-let openFile = function(event) {
-let input = event.target;
+const openFile = function (event) {
+  const input = event.target;
 
-let reader = new FileReader();
-reader.onload = function(){
-let dataURL = reader.result;
-let output = document.querySelector('#meme-image');
-output.src = dataURL;
+  let reader = new FileReader();
+  reader.onload = function () {
+  const dataURL = reader.result;
+  const output = document.querySelector('#meme-image');
+  output.src = dataURL;
 };
-reader.readAsDataURL(input.files[0]);
+  reader.readAsDataURL(input.files[0]);
 };
 
-function changeBorderFire(){
-memeImgContainer.style.border = '3px dashed red';
+function changeBorderFire() {
+  memeImgContainer.style.border = '3px dashed red';
 }
 fireButton.addEventListener('click', changeBorderFire);
 
-function changeBorderWater(){
-memeImgContainer.style.border = '5px double blue';
+function changeBorderWater() {
+  memeImgContainer.style.border = '5px double blue';
 }
 waterButton.addEventListener('click', changeBorderWater);
 
-function changeBorderEarth(){
-memeImgContainer.style.border = '6px groove green';
+function changeBorderEarth() {
+  memeImgContainer.style.border = '6px groove green';
 }
 earthButton.addEventListener('click', changeBorderEarth);
 
-function memeOneSelected(){
-memeImage.src = '/imgs/meme1.png';
+function memeOneSelected() {
+  memeImage.src = '/imgs/meme1.png';
 }
 memeOne.addEventListener('click', memeOneSelected);
 
-function memeTwoSelected(){
-memeImage.src = '/imgs/meme2.png';
+function memeTwoSelected() {
+  memeImage.src = '/imgs/meme2.png';
 }
 memeTwo.addEventListener('click', memeTwoSelected);
 
-function memeThreeSelected(){
-memeImage.src = '/imgs/meme3.png';
+function memeThreeSelected() {
+  memeImage.src = '/imgs/meme3.png';
 }
 memeThree.addEventListener('click', memeThreeSelected);
 
-function memeFourSelected(){
-memeImage.src = '/imgs/meme4.png';
+function memeFourSelected() {
+  memeImage.src = '/imgs/meme4.png';
 }
 memeFour.addEventListener('click', memeFourSelected);
