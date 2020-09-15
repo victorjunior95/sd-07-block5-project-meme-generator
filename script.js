@@ -8,7 +8,7 @@ const lol = document.querySelector('#meme-2');
 const homer = document.querySelector('#meme-3');
 const omg = document.querySelector('#meme-4');
 
-const LoadMemeImage = function (event) {
+function LoadMemeImage (event) {
   const image = document.getElementById('meme-image');
   image.src = URL.createObjectURL(event.target.files[0]);
 };
