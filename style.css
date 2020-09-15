@@ -8,11 +8,12 @@
 
 }
 #meme-text{
+    text-shadow:5px 5px 5px black; 
     position: absolute;
     top: 0;
     color: white;
     font-size: 30px;
-    text-shadow:5px 5px 5px black; 
+    
 }
 
 #meme-image{
