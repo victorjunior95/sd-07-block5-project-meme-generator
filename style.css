@@ -12,12 +12,10 @@
     color: white;
     font-size: 30px;  
 }
-
 #meme-image{
     max-width: 400px;
     height: 400px;
 }
-
 .threeButtom{
     position: absolute;
     bottom: 0;

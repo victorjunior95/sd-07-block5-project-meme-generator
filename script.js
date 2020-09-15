@@ -25,18 +25,18 @@ yourImg.addEventListener("change", function(){
 //criado variavel para guarda o meme-image-container
 let container =  document.getElementById("meme-image-container");
 
-//substituir a borda do primeiro botão
+//substituir a borda do meme-image-container com botão fire"
 document.getElementById("fire").onclick = function(){
-container.style.border = "3px dashed red";
+container.style.border = "3px dashed rgb(255,0,0)";
 }
 
-//substituir a borda do segundo botão
+//substituir a borda do meme-image-container com botão water
 document.getElementById("water").onclick = function(){
-    container.style.border = "5px groove blue";
+    container.style.border = "5px groove rgb(0,0,255)";
     }
 
-//substituir a borda do terceito botão
+//substituir a borda do meme-image-container com botão earth
 document.getElementById("earth").onclick = function(){
-    container.style.border = "6px groove green";
+    container.style.border = "6px groove rgb(0,128,0)";
     }
     
