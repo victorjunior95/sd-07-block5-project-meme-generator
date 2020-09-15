@@ -25,3 +25,9 @@ window.onload = function () {
     loadFile(event);
   });
 }
+//consultei o pull requeste de Luciano Brechon - Turma 07 da Trybe para compreender melhor as funções.
+//Minha  dificuldade era fazer a imagem do upload aparecer na tela.
+//Fiz uma espécie de engenharia reversa primeiro, retirando parte por parte a fim de compreender
+//o que cada bloco faz, e então, analisei parte por parte relacionando com o o HTML para compreender 
+//todo o conceito. Após a entrega inicial do primeiro commit com apenas 20% pude concluir o resto sozinho.
+// link do pull realizado por  Luciano: https://github.com/tryber/sd-07-block5-project-meme-generator/pulls/Berchon
