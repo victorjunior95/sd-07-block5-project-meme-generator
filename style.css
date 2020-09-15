@@ -1,5 +1,5 @@
 body {
-  background-image: radial-gradient(circle, rgb(195, 195, 195)30%,rgb(38, 255, 19), black);
+  background-image: radial-gradient(circle , lightgray 30% , green , black);
   text-align: center;
 }
 
@@ -30,18 +30,21 @@ label {
 
 .memeImage {
   height: 400px;
-  left: 0px;
+  left: 0;
   position: absolute;
   width: 400px;
 }
 
 button {
+  color: white;
+  height: 40px;
   margin-left: 10px;
   position: relative;
   top: 20px;
+  width: 100px;
 }
 
-div img{
+div img {
   display: inline-block;
   height: 120px;
   margin-left: 30px;
@@ -50,27 +53,23 @@ div img{
   width: 120px;
 }
 
-button {
-  height: 40px;
-  width: 100px;
-}
 .btFire {
-  border: 3px dashed red;
-  color: red;
+  background-color: red;
+  border: 3px dashed black;
   font-style: italic;
   font-weight: 600;
 }
 
 .btWater {
-  border: 5px double blue;
-  color: blue;
+  background-color: blue;
+  border: 5px double white;
   font-style: italic;
   font-weight: 600;
 }
 
 .btEarth {
-  border: 6px groove green;
-  color: green;
+  background-color: green;
+  border: 6px groove white;
   font-style: italic;
   font-weight: 600;
 }

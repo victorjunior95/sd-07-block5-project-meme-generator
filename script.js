@@ -23,15 +23,15 @@ function memePhoto() {
 }
 
 function borderFire() {
-  containerMeme.style.border = "3px dashed red";
+  containerMeme.style.border = '3px dashed red';
 }
 
 function borderWater() {
-  containerMeme.style.border = "5px double blue";
+  containerMeme.style.border = '5px double blue';
 }
 
 function borderEarth() {
-  containerMeme.style.border = "6px groove green";
+  containerMeme.style.border = '6px groove green';
 }
 
 function goToContainer() {
