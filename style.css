@@ -1,39 +1,33 @@
-  
-  .background-image {
-    height: 100%;
-    align: center, center;
-  }
-  
-h1{
+.background-image {
+  height: 100%;
+  align: center, center;
+}
+
+h1 {
   color: blue;
   font-size: 80px;
-}  
+}
 p {
   color: blue;
   font-size: 30px;
 }
- 
-  .image-container {
-    background-color: white;
-    border-color: black;
-    border-style: solid;
-    border-width: px;
-    height: 450px;
-    margin: auto;
-    width: 700px ;
-  }
 
-  
-  .meme-text {
-    color: white;
-        font-size: 30px;
-    margin: 20px;
-    max-width: 100%;
-    position: relative;
-    top: -480px;
-    text-shadow: 5px 5px 5px black;
+.image-container {
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: px;
+  height: 450px;
+  margin: auto;
+  width: 700px;
+}
 
-
- }
-  
- 
+.meme-text {
+  color: white;
+  font-size: 30px;
+  margin: 20px;
+  position: relative;
+  top: -480px;
+  text-shadow: 5px 5px 5px black;
+  word-wrap: break-word;
+}
