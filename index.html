@@ -9,8 +9,7 @@
   <title>Meme Generator</title>
 
 </head>
-<b
-ody>
+<body>
   <!--Title-->
   <header>
 
@@ -29,12 +28,12 @@ ody>
   </section>
 
   <!--Meme edition-->
-  <form>
+  <section>
 
     <h2>Adicione um texto em seu gif...</h2>
 
     <!--User adds text-->
-    <input type="text" placeholder="Digite uma legenda." id="text-input" maxlength="60" onchange="textInput()">
+    <input type="text" placeholder="Digite uma legenda." id="text-input" maxlength="60" onchange="textInput(event)">
 
     <!--Image preview / Container-->
     <section id="meme-image-container">
@@ -47,9 +46,9 @@ ody>
       
     </section>
 
-  </form>
+  </section>
 
   <script  src="script.js" ></script>
 
-</b>
+</body>
 </html>
