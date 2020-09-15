@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!--Geziel-->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -12,31 +12,47 @@
       <h1 id='titulo'>MEME GENERATOR</h1>
   </header>
 <!-- Text inclusion and image uploading section-->  
-  <table id="details"> <!--Text inclusion-->
+  <!-- <table id="details"> 
     <tr>
       <td>Text to insert here:</td>          
-      <td><textarea id='text-input' name="text" rows="2" cols="60" wrap='soft' placeholder="Your text has to be 60 characters maximum..." maxlength="60"></textarea><br /></td>
-      <!-- <input id='text-input' type="text" name="nome" size="40" maxlength="60"> -->
+      <td><textarea id='text-input' name="text" rows="2" cols="60" wrap='soft' placeholder="Your text has to be 60 characters maximum..." maxlength="60" oninput="writeOnImg();"></textarea><br /></td>
+      <input id='text-input' type="text" name="nome" size="40" maxlength="60">
     </tr>
-    <tr> <!--Picture uploading-->
+    <tr> 
       <td>Picture:</td>
       <td><input id="meme-insert" type="file" value="Choose your file"></input><br /></td>
     </tr>
-  </table>
+  </table> -->
+
+  
+  <input id='text-input' maxlength="60" type='text'>;
+
+  <section id='meme-image-container'>
+    <div id="meme-text" class="meme-text"></div>
+    <img id="meme-image" class="meme-image" src="" alt="User image">
+  </section>
+
+  
 
 <!-- Meme section -->
-  <div class=container>
-    <label class="labelMeme">Ready-made memes:</label><br>
+  <!-- <div class=container>
+    <label class="labelMeme">Ready-made memes:</label><br> -->
     <!-- <section id="meme-image-container" class="meme-image-container"> -->
-      <section>
+    <!-- <section>
       <table>
         <tr>
-          <td class='inclusao' id="meme-image-container" class="meme-image-container"><img id="meme-image" class="meme-image" src="" alt="User image">
+          <td id="meme-image-container" class="meme-image-container"><img id="meme-image" class="meme-image" src="" alt="User image">
           <p id="meme-text" class="meme-text"></p></td>
         </tr>
       </table>
-    </section>
+    </section> -->
   
+  <section class=container></section>
+    <img id="meme-image" class="meme-image" src="" alt="User image">
+    <div id="meme-text" class="meme-text"></div>
+
+
+<!--Buttons section-->
   <div>
     <label>Choose your border type</label><br>
     <button id="button1" class="button1">Border 1</button>

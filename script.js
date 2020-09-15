@@ -1,3 +1,5 @@
+// Geziel
+
 let memeInsert = document.querySelector("#meme-insert");
 let img = document.querySelector("img");
 
@@ -6,6 +8,13 @@ let button2 = document.getElementById("button2");
 let button3 = document.getElementById("button3");
 let container = document.getElementById("meme-image-container");
 let imageContainer = document.querySelector('#meme-text');
+
+let text = document.querySelector('#text-input');
+
+// Write on img, oninput HTML
+function writeOnImg() {
+  imageContainer.innerHTML = text.value;
+  }
 
 // Uploading image
 memeInsert.addEventListener("input", function() {

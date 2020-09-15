@@ -1,4 +1,4 @@
-
+/* Geziel */
 #titulo {
     
 }
@@ -33,18 +33,34 @@ td {
   
 } */
 
-.inclusao {
-  border: 5px solid black;
-  width: 500px;
+.meme-image-container {
+  /* border: 5px solid black; */
+  /* width: 500px;
   height: 500px;
   text-align: center;
   vertical-align: middle;
   padding: 0;
-}
-
-/* .photo {
-  max-height: 100%;
-  max-width: 100%;
-  
 } */
 
+
+.meme-image {
+  max-height: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.meme-text {
+  color: rgb(199, 25, 54);
+  font-size: 25px;
+  left: 10%;
+  margin: 0 auto;
+  max-height: 90%;
+  max-width: 70%;
+  padding: 20px;
+  position: absolute;
+  top: 75%;
+  word-wrap: break-word;
+  z-index: 1;
+  display: inline-block;
+}
