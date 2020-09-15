@@ -30,26 +30,26 @@ borda3.addEventListener('click', function () {
   borda.style.border = '6px groove green';
 });
 // Função para usar imagem miniatura 1
-const mini1 = document.getElementById('pre1');
+const mini1 = document.getElementById('meme-1');
 mini1.addEventListener('click', function () {
-  const pre1 = document.getElementById('pre1').src;
+  const pre1 = document.getElementById('meme-1').src;
   document.getElementById('meme-image').src = pre1;
 });
 // Função para usar imagem miniatura 2
-const mini2 = document.getElementById('pre2');
+const mini2 = document.getElementById('meme-2');
 mini2.addEventListener('click', function () {
-  const pre2 = document.getElementById('pre2').src;
+  const pre2 = document.getElementById('meme-2').src;
   document.getElementById('meme-image').src = pre2;
 });
 // Função para usar imagem miniatura 3
-const mini3 = document.getElementById('pre3');
+const mini3 = document.getElementById('meme-3');
 mini3.addEventListener('click', function () {
-  const pre3 = document.getElementById('pre3').src;
+  const pre3 = document.getElementById('meme-3').src;
   document.getElementById('meme-image').src = pre3;
 });
 // Função para usar imagem miniatura 4
-const mini4 = document.getElementById('pre4');
+const mini4 = document.getElementById('meme-4');
 mini4.addEventListener('click', function () {
-  const pre4 = document.getElementById('pre4').src;
+  const pre4 = document.getElementById('meme-4').src;
   document.getElementById('meme-image').src = pre4;
 });
