@@ -1,4 +1,4 @@
-const inputIMG = document.querySelector('#meme-insert')
+const inputIMG = document.querySelector('#meme-insert');
 const inputText = document.querySelector('#text-input');
 const memeText = document.querySelector('#meme-text');
 const memeImage = document.querySelector('#meme-image');
@@ -13,14 +13,14 @@ const meme4 = document.querySelector('#meme-4');
 
 
 inputText.addEventListener('keyup', () => {
-  memeText.innerHTML = inputText.value
+  memeText.innerHTML = inputText.value;
 });
 
 // Reference: https://codepen.io/dsr/pen/abOmGZp
-inputIMG.addEventListener("change", (event) => {
+inputIMG.addEventListener('change', (event) => {
   if (event.target.files.length > 0) {
-      const src = URL.createObjectURL(event.target.files[0]);
-      memeImage.src = src;
+    const src = URL.createObjectURL(event.target.files[0]);
+    memeImage.src = src;
   }
 });
 
