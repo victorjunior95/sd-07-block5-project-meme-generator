@@ -12,7 +12,7 @@
     color: white;
     font-size: 30px;  
 }
-#meme-image-style{
+.meme-image-style{
     max-width: 400px;
     height: 400px;
 }
