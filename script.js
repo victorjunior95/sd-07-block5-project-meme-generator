@@ -51,4 +51,3 @@ meme3.addEventListener('click', () => {
 meme4.addEventListener('click', () => {
   memeImage.src = 'imgs/meme4.png';
 });
-
