@@ -7,17 +7,25 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Meme Generator</h1>
-  <span>Texto: </span>
-  <input type="text" onkeypress="loadtext(event)" maxlength="60" id="text-input">
-  <br> <br>
-  <span>Foto: </span>
-  <input type="file" accept="image/*" onchange="loadFile(event)" id="meme-insert">
-  <div id="meme-image-container">
-    <div id="meme-text">
+  <header>
+    <h1>Meme Generator</h1>
+  </header>
+
+  <section>
+    <div>
+      <span>Texto: </span>
+      <input type="text" onkeypress="loadtext(event)" maxlength="60" id="text-input">
     </div>
-    <img src="" alt="image" id="meme-image">
-  </div>
+    <div>
+      <span>Foto: </span>
+      <input type="file" accept="image/*" onchange="loadFile(event)" id="meme-insert">
+    </div>
+
+    <div id="meme-image-container">
+      <div id="meme-text"></div>
+      <img src="" alt="meme" id="meme-image">
+    </div>
+  </section>
   <script src="script.js"></script>
 </body>
 </html>
