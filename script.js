@@ -1,6 +1,12 @@
 document.querySelector('#text-input').setAttribute('maxlength', 60);
-
 const textInputBox = document.querySelector('#text-input');
+const earth = document.querySelector('#earth');
+const water = document.querySelector('#water');
+const fire = document.querySelector('#fire');
+const frog = document.querySelector('#meme-1');
+const lol = document.querySelector('#meme-2');
+const homer = document.querySelector('#meme-3');
+const omg = document.querySelector('#meme-4');
 
 const LoadMemeImage = function (event) {
   const image = document.getElementById('meme-image');
@@ -13,30 +19,30 @@ textInputBox.addEventListener('keyup', function () {
   textMeme.innerText = textInput;
 });
 
-function frog() {
+frog.addEventListener('click', function() {
   document.getElementById('meme-image').src = '/projects/block-05/sd-07-block5-project-meme-generator/imgs/meme1.png';
-}
+})
 
-function lol() {
+lol.addEventListener('click', function() {
   document.getElementById('meme-image').src = '/projects/block-05/sd-07-block5-project-meme-generator/imgs/meme2.png';
-}
+})
 
-function homer() {
+homer.addEventListener('click', function() {
   document.getElementById('meme-image').src = '/projects/block-05/sd-07-block5-project-meme-generator/imgs/meme3.png';
-}
+})
 
-function omg() {
+omg.addEventListener('click', function() {
   document.getElementById('meme-image').src = '/projects/block-05/sd-07-block5-project-meme-generator/imgs/meme4.png';
-}
+})
 
-function fire() {
+fire.addEventListener('click', function() {
   document.getElementById('meme-image-container').style.border = 'dashed 3px red';
-}
+})
 
-function water() {
+water.addEventListener('click', function() {
   document.getElementById('meme-image-container').style.border = 'double 5px blue';
-}
+})
 
-function earth() {
+earth.addEventListener('click', function() {
   document.getElementById('meme-image-container').style.border = 'groove 6px green';
-}
+})
