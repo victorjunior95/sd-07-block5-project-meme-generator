@@ -7,11 +7,11 @@ textInput.addEventListener('input', function () {
 });
 
 //Resolução baseada na dica do exercício
-let loadFile = function(event){
-    let reader = new FileReader();
-    reader.onload = function () {
-        let memeImage = document.getElementById('meme-image');
-        memeImage.src = reader.result;
-    };
-    reader.readAsDataURL(event.target.files[0]);
+let loadFile = function (event) {
+  let reader = new FileReader();
+  reader.onload = function () {
+    let memeImage = document.getElementById('meme-image');
+    memeImage.src = reader.result;
+  };
+  reader.readAsDataURL(event.target.files[0]);
 };
