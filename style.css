@@ -29,3 +29,31 @@ img {
   object-fit: cover;
   width: 400px;
 }
+
+.fire {
+  background-color: red;
+}
+
+.water {
+  background-color: blue;
+}
+
+.earth {
+  background-color: green;
+}
+
+.fire-border {
+  border: 3px dashed red;
+}
+
+.water-border {
+  border: 5px double blue;
+}
+
+.earth-border {
+  border: 6px groove green;
+}
+
+.select-borders {
+  padding: 10px;
+}

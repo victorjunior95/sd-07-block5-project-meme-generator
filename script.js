@@ -1,5 +1,9 @@
 const valueInput = document.getElementById('text-input');
 const text = document.getElementById('meme-text');
+const imageContainer = document.getElementById('meme-image-container');
+const waterBorder = document.getElementById('water');
+const fireBorder = document.getElementById('fire');
+const earthBorder = document.getElementById('earth');
 
 function getValue() {
   text.innerHTML = valueInput.value;
@@ -16,3 +20,17 @@ function changeImage() {
 }
 
 insertedImage.addEventListener('change', changeImage);
+
+waterBorder.addEventListener('click', () => {
+  imageContainer.classList.add('water-border');
+});
+
+fireBorder.addEventListener('click', () => {
+  imageContainer.classList.add('fire-border');
+});
+
+earthBorder.addEventListener('click', () => {
+  imageContainer.classList.add('earth-border');
+});
+
+
