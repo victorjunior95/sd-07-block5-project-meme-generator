@@ -59,6 +59,7 @@ button {
   padding: 0;
 }
 
+<<<<<<< HEAD
 .button-air {
   background-color: white;
 }
@@ -75,6 +76,8 @@ button {
   background-color: green;
 }
 
+=======
+>>>>>>> parent of af96342... Parte 7 Bônus v2.0
 .button {
   cursor: pointer; /* "hand" cursor */
   display: inline-block; /* A TAG label é inline */
