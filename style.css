@@ -23,12 +23,15 @@
 .threeButtom div {
     display:inline-block;
 }
+
 .fire-style{
     background-color: rgb(255,0,0);
 }
+
 .water-style{
     background-color: rgb(0,0,255);
 }
+
 .earth-style{
     background-color: rgb(0,128,0);
 }
