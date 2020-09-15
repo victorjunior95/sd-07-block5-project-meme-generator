@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
 body{
-    margin: 0;
+    margin-left: 10px;
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
 
@@ -50,6 +50,7 @@ body{
     color: white;
     width: 88%;
     text-shadow: 5px 5px 5px black ;
+    word-break: break-word;  
     z-index: 2;
    
 
