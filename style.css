@@ -1,0 +1,24 @@
+ @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
+* {
+    font-family: 'Kalam', serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: purple;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+header h1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#meme-image-container {
+    margin: 100px 400px 0px 400px;
+    border: 1px solid black;
+}
+
