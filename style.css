@@ -23,7 +23,7 @@ h1 {
   z-index: 1;
 }
 
-.meme-text {
+#meme-text {
   bottom: 0;
   font-family: Impact, sans-serif;
   font-size: 30px;
