@@ -44,12 +44,12 @@ font-size: 30px;
   width: 700px ;
 }
 
-#meme-text {
+.meme-text {
   color: white;
   font-size: 30px;
   margin: 20px;
   max-width: 100%;
-  position: absolute;
+  position: relative;
   top: -470px;
   text-shadow: 5px 5px 5px black;
   word-wrap: break-word;
