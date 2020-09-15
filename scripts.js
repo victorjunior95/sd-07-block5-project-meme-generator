@@ -21,10 +21,10 @@ window.onload = function(){
         containerMeme.style.border = '3px dashed red';
     });
     water.addEventListener("click", function(){
-        containerMeme.style.border = '3px dashed blue';
+        containerMeme.style.border = '5px double blue';
     });
     earth.addEventListener("click", function(){
-        containerMeme.style.border = '3px dashed brown';
+        containerMeme.style.border = '6px groove green';
     });
 }
 
