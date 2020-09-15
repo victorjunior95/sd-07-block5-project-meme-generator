@@ -50,9 +50,13 @@ font-size: 30px;
   margin: 20px;
   max-width: 100%;
   position: relative;
-  top: -470px;
+  top: -465px;
   text-shadow: 5px 5px 5px black;
   word-wrap: break-word;
+  border-top: 10px;
+  border-bottom: 10px;
+border-left: 10px;
+border-right: 10px;
 
 
 }
