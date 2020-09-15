@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
 body {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: Josefin Sans, sans-serif;
   margin-left: 10px;
   padding: 0;
 }
@@ -50,7 +50,7 @@ body {
   position: absolute;
   text-shadow: 5px 5px 5px black;
   top: 80%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50% , -50%);
   width: 88%;
   word-break: break-word;
   z-index: 2;
@@ -79,9 +79,9 @@ body {
   display: block;
 }
 
-.meme1,
-.meme2,
-.meme3,
+.meme1 , 
+.meme2 , 
+.meme3 , 
 .meme4 {
   border: 1px solid black;
   display: inline-block;
@@ -100,16 +100,16 @@ body {
 }
 
 .fire {
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(255 , 0 , 0);
   border: 3px dashed red;
 }
 
 .water {
-  background-color: rgb(0, 0, 255);
+  background-color: rgb(0 , 0 , 255);
   border: 5px double blue;
 }
 
 .earth {
-  background-color: rgb(0, 128, 0);
+  background-color: rgb(0 , 128 , 0);
   border: 6px groove green;
 }
