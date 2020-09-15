@@ -1,55 +1,55 @@
-#meme-image {
+.meme-image {
+    height: 100%;
     position: relative;
     width: 100%;
-    height: 100%;
 }
 
-#meme-image-container {
-    width: 500px;
-    height: 500px;
-    border: 1px solid black;
+.meme-image-container {
     background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
 }
 
-#meme-text {
+.meme-text {
     color: white;
     font-family: Impact;
     font-size: 30px;
-    text-shadow: 5px 5px 5px black;
-    position: absolute;
-    top: 400px; 
     left: 20px; 
+    position: absolute;
+    text-shadow: 5px 5px 5px black;
+    top: 400px; 
     word-wrap: break-word;
     width: 482px;
     z-index: 2;
 }
 
-#fire {
+.fire {
     background-color: red;
     border: 3px dashed red;
 }
 
-#water {
+.water {
     background-color: blue;
     border: 5px double blue;
 
 }
 
-#earth {
+.earth {
     background-color: green;
     border: 6px groove green;
 
 }
 
-#fire, #water, #earth {
+.fire, .water, .earth {
     color: aliceblue;
     height: 40px;
     margin-top: 20px;
 }
 
 .meme-base img{
-    width: 100px;
+    border: 2px solid black;
     height: 100px;
     margin-top: 10px;
-    border: 2px solid black;
+    width: 100px;
 }

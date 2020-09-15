@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"> 
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meme Generator</title>
     <link rel="stylesheet" href="style.css">
@@ -11,15 +11,15 @@
     <div class="container">
         <input type="text" name="" id="text-input" maxlength="60">
         <input type="file" id="meme-insert" name="img" accept="image/*" onchange="printIMG(event)">
-        <div id="meme-image-container">
-            <p id="meme-text"></p>
-            <img src="" alt="" id="meme-image">
+        <div class="meme-image-container" id="meme-image-container">
+            <p class="meme-text" id="meme-text"></p>
+            <img src="" alt="" id="meme-image" class="meme-image">
         </div>
     </div>
 
-    <button id="fire">Fire</button>
-    <button id="water">Water</button>
-    <button id="earth">Earth</button>
+    <button class="fire" id="fire">Fire</button>
+    <button class="water" id="water">Water</button>
+    <button class="earth" id="earth">Earth</button>
     <div class="meme-base">
         <img src="imgs/meme1.png" alt="" id="meme-1">
         <img src="imgs/meme2.png" alt="" id="meme-2">
