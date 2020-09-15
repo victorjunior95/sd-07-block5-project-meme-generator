@@ -3,15 +3,14 @@ function loadFile(event) {
   const source = URL.createObjectURL(event.target.files[0]);
   divImage.innerHTML = `<img  class='background-image'
                               src='${source}'
-                              id='imageChosen'
-                              alt='Imagem de fundo do meme'>
+                              id='imageChosen'>
                         </img>`;
 }
 function insertImage(src) {
   const divImage = document.getElementById('meme-image');
-  divImage.innerHTML = `<img  class='background-image'
-                              src='/imgs/${src}'
-                              alt='Imagem de fundo do meme'>
+  divImage.innerHTML = `<img  class='meme-image-container'
+                              src='/imgs/${src}' >
+                             
                         </img>`;
 }
 window.onload = function () {
