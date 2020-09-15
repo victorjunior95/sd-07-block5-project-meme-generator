@@ -25,12 +25,13 @@ font-size: 30px;
 
 .meme-text {
   color: white;
-      font-size: 30px;
+  font-size: 30px;
   margin: 20px;
   max-width: 100%;
   position: relative;
   top: -480px;
   text-shadow: 5px 5px 5px black;
+  word-wrap: break-word;
 
 
 }
