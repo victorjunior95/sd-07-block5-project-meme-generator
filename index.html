@@ -11,23 +11,23 @@
         <h1>MEME GENERATOR</h1>
     </header>
     <section>
-        <div id="input">
+        <div id="input" class="input">
           <label for="text-input" class="label-text-input"><strong>Type your text here: </strong>
             <input type="text" id="text-input"></br>
           </label>
           <label for="meme-insert" style="cursor: pointer;" class="upload-image">Upload Image
-            <input type="file"  accept="image/*" name="image" id="meme-insert"  onchange="LoadMemeImage(event)" style="display: none;">
+            <input type="file"  accept="image/*" name="image" id="meme-insert" class="meme-insert" onchange="LoadMemeImage(event)" style="display: none;">
           </label>
         </div>
         <div id="meme-image-container" class="image-container">
             <div id="meme-text" class="meme-text"></div>
-            <img id="meme-image"/>
+            <img id="meme-image" class="meme-image"/>
         </div>
         <div class="custom-styles">
           <h3>Custom Styles:</h3>
-          <input type="button" value='Fire' onclick="fire()" id="fire">
-          <input type="button" value='Water'onclick="water()" id="water">
-          <input type="button" value='Earth'onclick="earth()" id="earth">
+          <input type="button" value='Fire' onclick="fire()" id="fire" class="fire">
+          <input type="button" value='Water'onclick="water()" id="water" class="water">
+          <input type="button" value='Earth'onclick="earth()" id="earth" class="earth">
         </div>
         <h3 class="ready-title">Memes Ready to ready-to-use:</h3>
         <div class="ready-to-use">
