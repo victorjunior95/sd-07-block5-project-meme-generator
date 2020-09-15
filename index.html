@@ -10,10 +10,10 @@
     <h3>Texto:</h3>
     <input id="text-input" type="text">
     <h3 id="photo-title">Foto:</h3>
-    <input id="meme-insert" type="file" accept="image/*">
+    <input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)">
 
     <div id="meme-image-container">
-        <div id="meme-text">
+        <div id="meme-text" onkeyup="loadText()">
         </div>
         <img id="meme-image">
     </div>
