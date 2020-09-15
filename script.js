@@ -1,54 +1,52 @@
-let inputText = document.querySelector("#text-input")
-let memeText = document.querySelector("#meme-text")
-let memeImage = document.querySelector("#meme-image")
-let container = document.querySelector("#meme-image-container")
-let fire = document.querySelector("#fire")
-let water = document.querySelector("#water")
-let earth = document.querySelector("#earth")
-let meme1 = document.querySelector("#meme-1")
-let meme2 = document.querySelector("#meme-2")
-let meme3 = document.querySelector("#meme-3")
-let meme4 = document.querySelector("#meme-4")
+const inputText = document.querySelector('#text-input');
+const memeText = document.querySelector('#meme-text');
+const memeImage = document.querySelector('#meme-image');
+const container = document.querySelector('#meme-image-container');
+const fire = document.querySelector('#fire');
+const water = document.querySelector('#water');
+const earth = document.querySelector('#earth');
+const meme1 = document.querySelector('#meme-1');
+const meme2 = document.querySelector('#meme-2');
+const meme3 = document.querySelector('#meme-3');
+const meme4 = document.querySelector('#meme-4');
 
 
-inputText.addEventListener("keyup", ()=>{
-    memeText.innerHTML = inputText.value
-})
-
-
+inputText.addEventListener('keyup', () => {
+  memeText.innerHTML = inputText.value
+});
 
 // Reference: https://codepen.io/dsr/pen/abOmGZp
 function printIMG(event){
-    if(event.target.files.length > 0){
-        let src = URL.createObjectURL(event.target.files[0])
-        memeImage.src = src
-    }
-}
+  if(event.target.files.length > 0){
+    let src = URL.createObjectURL(event.target.files[0])
+    memeImage.src = src
+  }
+};
 
-fire.addEventListener("click", ()=>{
-    container.style.border = "3px dashed red"
-})
+fire.addEventListener('click', ()  =>  {
+  container.style.border = '3px dashed red'
+});
 
-water.addEventListener("click", ()=>{
-    container.style.border = "5px double blue"
-})
+water.addEventListener('click', () => {
+  container.style.border = '5px double blue'
+});
 
-earth.addEventListener("click", ()=>{
-    container.style.border = "6px groove green"
-})
+earth.addEventListener('click', () => {
+  container.style.border = '6px groove green'
+});
 
-meme1.addEventListener("click", ()=>{
-    memeImage.src = "imgs/meme1.png"
-})
+meme1.addEventListener('click', () => {
+  memeImage.src = 'imgs/meme1.png'
+});
 
-meme2.addEventListener("click", ()=>{
-    memeImage.src = "imgs/meme2.png"
-})
+meme2.addEventListener('click', () => {
+  memeImage.src = 'imgs/meme2.png'
+});
 
-meme3.addEventListener("click", ()=>{
-    memeImage.src = "imgs/meme3.png"
-})
+meme3.addEventListener('click', () => {
+  memeImage.src = 'imgs/meme3.png'
+});
 
-meme4.addEventListener("click", ()=>{
-    memeImage.src = "imgs/meme4.png"
-})
+meme4.addEventListener('click', () => {
+  memeImage.src = 'imgs/meme4.png'
+});

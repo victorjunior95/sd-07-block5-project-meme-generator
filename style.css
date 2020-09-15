@@ -15,12 +15,12 @@
     color: white;
     font-family: Impact;
     font-size: 30px;
-    left: 20px; 
+    left: 20px;
     position: absolute;
     text-shadow: 5px 5px 5px black;
-    top: 400px; 
-    word-wrap: break-word;
+    top: 400px;
     width: 482px;
+    word-wrap: break-word;
     z-index: 2;
 }
 
