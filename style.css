@@ -11,7 +11,8 @@
     position: absolute;
     top: 0;
     color: white;
-    font-size: 2em;
+    font-size: 30px;
+    text-shadow:5px 5px 5px;
 }
 
 #meme-image{
