@@ -1,12 +1,12 @@
 const textInput = document.getElementById('text-input');
 const memeText = document.getElementById('meme-text');
-let memeInsert = document.getElementById('meme-insert');
+// const memeInsert = document.getElementById('meme-insert');
 
 textInput.addEventListener('input', function () {
   memeText.innerText = textInput.value;
 });
 
-//Resolução baseada na dica do exercício
+// Resolução baseada na dica do exercício
 let loadFile = function (event) {
   let reader = new FileReader();
   reader.onload = function () {
