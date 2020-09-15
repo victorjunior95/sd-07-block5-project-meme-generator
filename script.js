@@ -38,7 +38,7 @@ earthBorder.addEventListener('click', () => {
 });
 
 memeOne.addEventListener('click', () => {
-  image.src = './img/meme-original.png';
+  image.src = './img/meme1.png';
 });
 
 memeTwo.addEventListener('click', () => {
