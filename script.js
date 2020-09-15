@@ -38,17 +38,17 @@ earthBorder.addEventListener('click', () => {
 });
 
 memeOne.addEventListener('click', () => {
-  image.src = './img/meme1.png';
+  image.src = './imgs/meme1.png';
 });
 
 memeTwo.addEventListener('click', () => {
-  image.src = './img/meme2.png';
+  image.src = './imgs/meme2.png';
 });
 
 memeThree.addEventListener('click', () => {
-  image.src = './img/meme3.png';
+  image.src = './imgs/meme3.png';
 });
 
 memeFour.addEventListener('click', () => {
-  image.src = './img/meme4.png';
+  image.src = './imgs/meme4.png';
 });
