@@ -1,3 +1,4 @@
+//  https://github.com/Marxneves/Trybe/blob/master/Projetos/meme-generator/script.js
 const inputText = document.querySelector('#text-input');
 const memeText = document.querySelector('#meme-text');
 inputText.addEventListener('input', function () {
