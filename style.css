@@ -23,21 +23,15 @@ h1 {
   z-index: 1;
 }
 
-.text-container {
-  position: absolute;
-  top: 340px;
-  z-index: 2;
-}
-
 .meme-text {
+  bottom: 0;
   font-family: Impact, sans-serif;
   font-size: 30px;
   height: 150px;
-  margin: 5px;
-  position: relative;
-  text-align: center;
+  position: absolute;
   text-shadow: 5px 5px 5px black;
-  width: 400px;
+  width: 450px;
+  z-index: 2;
 }
 
 .padrao-icones {
@@ -45,7 +39,7 @@ h1 {
   display: inline-block;
   font-size: 15px;
   font-weight: 600;
-  height: 50px;
+  height: 40px;
   margin: 30px 20px;
   width: 100px;
 }
