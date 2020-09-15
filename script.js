@@ -1,13 +1,19 @@
-function frase () {
-    let text= 
-    alert("teste");
-}
+    //let inp = document.getElementById('text-input').value;
+    //let texto= document.getElementById('texto');
+    
+    //texto.addEventListener("oninput", function(){
+      
+        //texto.innerHTML = inp;
 
-function Enviar() {
 
-    var texto = document.getElementById("teste").value;
-    document.getElementById("texto").innerHTML = "You wrote: " + x;
+   // })
     
 
+let inp = document.getElementById('text-input');
+
+  inp.oninput = function () {
+  let textop = document.getElementById('texto');
+  let textof= inp.value
+   textop.innerText = textof;
 }
 
