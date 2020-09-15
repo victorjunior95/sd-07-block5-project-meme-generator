@@ -36,7 +36,7 @@ body {
   height: 540px;
 }
 .meme-generator {
-  width: 70%;
+  width: 50%;
   padding-top: 20px;
   
   float: left;
@@ -72,14 +72,14 @@ body {
 }
 
 .imageBox {
-    width: 400px;
+    width: 600px;
     height: 400px;
     left: 0;
 }
 
 .container-content {
   position: relative;
-  width: 400px;
+  width: 600px;
   height: 400px;
   border: 1px solid #000;
   background-color: #fff;
@@ -87,8 +87,14 @@ body {
 }
 .buttons {
   float: right;
-  width: 30%;
-  margin-top: 65px;
+  width: 50%;
+}
+.meme-image img {
+  display: inline;
+  width: 150px;
+  height: 80px;
+  margin-left: 10px;
+  border: 1px solid #fff;
 }
 .btn-border {
   width: 250px;
@@ -97,6 +103,7 @@ body {
   display: block;
   margin: 40px 20px;
   position: relative;
+  left: 0;
 }
 .btn-border img {
   position: absolute;
@@ -119,7 +126,7 @@ body {
 .border-fire {
   border: 3px dashed #f00;
   position: relative;
-  width: 400px;
+  width: 600px;
   height: 400px;
   background-color: #fff;
   margin: 0 auto;
@@ -133,7 +140,7 @@ body {
 .border-water {
   border: 5px double #00f;
   position: relative;
-  width: 400px;
+  width: 600px;
   height: 400px;
   background-color: #fff;
   margin: 0 auto;
@@ -147,11 +154,17 @@ body {
 .border-earth {
   border: 6px groove #008000;
   position: relative;
-  width: 400px;
+  width: 600px;
   height: 400px;
   background-color: #fff;
   margin: 0 auto;
 }
+
+.meme-image {
+  display: inline;
+}
+
+
 
 .footer-content {
   float: left;

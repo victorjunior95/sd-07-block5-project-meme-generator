@@ -37,3 +37,35 @@ function borderEarth() {
     border.className = "border-earth";
   });
 }
+
+function meme1() {
+  let meme = document.querySelector("#meme-1");
+  let imageOutput = document.querySelector("#meme-image");
+  meme.addEventListener("click", function() {          
+    imageOutput.src = meme.src;
+  });
+}
+
+function meme2() {
+  let meme = document.querySelector("#meme-2");
+  let imageOutput = document.querySelector("#meme-image");
+  meme.addEventListener("click", function() {          
+    imageOutput.src = meme.src;
+  });
+}
+
+function meme3() {
+  let meme = document.querySelector("#meme-3");
+  let imageOutput = document.querySelector("#meme-image");
+  meme.addEventListener("click", function() {          
+    imageOutput.src = meme.src;
+  });
+}
+
+function meme4() {
+  let meme = document.querySelector("#meme-4");
+  let imageOutput = document.querySelector("#meme-image");
+  meme.addEventListener("click", function() {          
+    imageOutput.src = meme.src;
+  });
+}
