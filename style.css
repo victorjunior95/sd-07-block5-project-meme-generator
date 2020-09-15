@@ -1,0 +1,24 @@
+html{
+    background-color: #305f72;
+}
+h1{
+    color: #f1d1b5;
+    text-align: center;  
+}
+#main{
+    background-color: #568ea6;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    border-radius: 1%;
+    text-align: center;
+    
+}
+#meme-image-container{
+    height: 400px;
+    width: 500px;
+    background-color: #f0b7a4;
+    margin: auto;
+    position: fixed;
+    bottom: 0px;
+}
