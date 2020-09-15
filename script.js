@@ -19,12 +19,12 @@ textInput.addEventListener('paste', colocaTextoDoMeme);
 const openFile = function (event) {
   const input = event.target;
 
-  let reader = new FileReader();
+  const reader = new FileReader();
   reader.onload = function () {
-  const dataURL = reader.result;
-  const output = document.querySelector('#meme-image');
-  output.src = dataURL;
-};
+    const dataURL = reader.result;
+    const output = document.querySelector('#meme-image');
+    output.src = dataURL;
+  };
   reader.readAsDataURL(input.files[0]);
 };
 
