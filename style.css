@@ -1,7 +1,7 @@
 .background-image {
   height: 100%;
   width: 100%;
-  align: center, center;
+  
 }
 
 h1{
@@ -32,6 +32,7 @@ font-size: 30px;
   height: 450px;
   margin: auto;
   width: 700px ;
+  overflow: hidden;
 }
 .another{
   background-color: white;
@@ -43,13 +44,13 @@ font-size: 30px;
   width: 700px ;
 }
 
-.meme-text {
+#meme-text {
   color: white;
   font-size: 30px;
   margin: 20px;
   max-width: 100%;
-  position: relative;
-  top: -480px;
+  position: absolute;
+  top: -470px;
   text-shadow: 5px 5px 5px black;
   word-wrap: break-word;
 

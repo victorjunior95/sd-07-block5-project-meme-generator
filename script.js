@@ -8,7 +8,7 @@ function loadFile(event) {
 }
 function insertImage(src) {
   const divImage = document.getElementById('meme-image');
-  divImage.innerHTML = `<img  class='meme-image-container'
+  divImage.innerHTML = `<img  class='background-image'
                               src='/imgs/${src}' >
                              
                         </img>`;
