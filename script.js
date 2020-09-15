@@ -19,30 +19,30 @@ textInputBox.addEventListener('keyup', function () {
   textMeme.innerText = textInput;
 });
 
-frog.addEventListener('click', function() {
+frog.addEventListener('click', function () {
   document.getElementById('meme-image').src = '/projects/block-05/sd-07-block5-project-meme-generator/imgs/meme1.png';
-})
+});
 
-lol.addEventListener('click', function() {
+lol.addEventListener('click', function () {
   document.getElementById('meme-image').src = '/projects/block-05/sd-07-block5-project-meme-generator/imgs/meme2.png';
-})
+});
 
-homer.addEventListener('click', function() {
+homer.addEventListener('click', function () {
   document.getElementById('meme-image').src = '/projects/block-05/sd-07-block5-project-meme-generator/imgs/meme3.png';
-})
+});
 
-omg.addEventListener('click', function() {
+omg.addEventListener('click', function () {
   document.getElementById('meme-image').src = '/projects/block-05/sd-07-block5-project-meme-generator/imgs/meme4.png';
-})
+});
 
-fire.addEventListener('click', function() {
+fire.addEventListener('click', function () {
   document.getElementById('meme-image-container').style.border = 'dashed 3px red';
-})
+});
 
-water.addEventListener('click', function() {
+water.addEventListener('click', function () {
   document.getElementById('meme-image-container').style.border = 'double 5px blue';
-})
+});
 
-earth.addEventListener('click', function() {
+earth.addEventListener('click', function () {
   document.getElementById('meme-image-container').style.border = 'groove 6px green';
-})
+});
