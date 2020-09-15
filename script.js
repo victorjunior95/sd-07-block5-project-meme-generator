@@ -47,24 +47,24 @@ inpText.addEventListener('keyup', function () {
 });
 
 function fire() {
-  memeContainer.style.border = '2px solid red';
+  memeContainer.style.border = '3px dashed rgb(255, 0, 0)';
   memeContainer.style.borderRadius = '5px';
   memeContainer.style.boxShadow = '0px 0px 10px 2.5px red';
   effectsContainer.style.boxShadow = 'inset 0px 0px 20px red';
 }
 
 function water() {
-  memeContainer.style.border = '2px solid blue';
+  memeContainer.style.border = '5px double rgb(0, 0, 255)';
   memeContainer.style.borderRadius = '5px';
   memeContainer.style.boxShadow = '0px 0px 10px 2.5px blue';
   effectsContainer.style.boxShadow = 'inset 0px 0px 20px blue';
 }
 
 function earth() {
-  memeContainer.style.border = '2px solid saddlebrown';
+  memeContainer.style.border = '6px groove rgb(0, 128, 0)';
   memeContainer.style.borderRadius = '5px';
-  memeContainer.style.boxShadow = '0px 0px 10px 2.5px saddlebrown';
-  effectsContainer.style.boxShadow = 'inset 0px 0px 20px saddlebrown';
+  memeContainer.style.boxShadow = '0px 0px 10px 2.5px rgb(0, 128, 0)';
+  effectsContainer.style.boxShadow = 'inset 0px 0px 20px rgb(0, 128, 0)';
 }
 
 function remove() {

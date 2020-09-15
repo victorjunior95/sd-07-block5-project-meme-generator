@@ -57,13 +57,13 @@ h1 {
 }
 
 .effects {
-  border-radius: 5px;
+  border-radius: 3px;
   left: 50%;
-  height: 401px; 
+  height: 405px; 
   position: absolute;
   top: 147px;
   transform: translateX(-50%);
-  width: 501px;
+  width: 502px;
 }
 
 .pls {
@@ -151,8 +151,6 @@ button:nth-child( 2 )::before {
   top: -20px;
   width: 115px;
 }
-
-
 
 button:nth-child( 3 ) {
   background-color: rgb(0, 128, 0);
