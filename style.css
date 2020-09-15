@@ -1,11 +1,13 @@
 body {
-  font-family: Montserrat, sans-serif;
+  font-family: Titillium Web, sans-serif;
 }
 
 h1 {
   align-items: center;
   display: flex;
   justify-content: center;
+  margin-bottom: 15px;
+  margin-top: 10px;
 }
 
 .input {
@@ -57,11 +59,27 @@ h1 {
 .effects{
   position: absolute;
   left: 50%;
-  top: 151px;
+  top: 147px;
   transform: translateX(-50%);
   width: 501px;
   height: 401px; 
   border-radius: 5px;
+}
+
+.pls {
+  left: 50%;
+  margin-left: -250px;
+  position: relative;
+}
+
+.pls h2 {
+  display: inline;
+}
+
+.pls p {
+  display: inline;
+  margin-left: 10px;
+  font-size: 1.1rem;
 }
 
 .btn {
@@ -76,7 +94,7 @@ button {
   height: 50px;
   border: 1px solid rgb(175 , 175 , 175);
   border-radius: 5px;
-  transition: 0.5s ease-in-out;
+  transition: 0.25s ease-in-out;
   cursor: pointer;
 }
 
@@ -97,13 +115,13 @@ button:nth-child(1)::before {
   top: -35px;
   left: -10px;
   position: absolute;
-  background: url(fire.gif);
+  background: url(gif/fire.gif);
   background-repeat: no-repeat;
   background-size: contain;
   width: 130px;
   height: 150px;
   opacity: 0;
-  transition: 0.5s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 button:nth-child(1):hover::before {
@@ -121,13 +139,13 @@ button:nth-child(2)::before {
   top: -20px;
   left: -5px;
   position: absolute;
-  background: url(water.gif);
+  background: url(gif/water.gif);
   background-repeat: no-repeat;
   background-size: cover;
   width: 115px;
   height: 75px;
   opacity: 0;
-  transition: 0.5s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 button:nth-child(2):hover::before {
@@ -145,13 +163,13 @@ button:nth-child(3)::before {
   top: -20px;
   left: -5px;
   position: absolute;
-  background: url(earth.gif);
+  background: url(gif/earth.gif);
   background-repeat: no-repeat;
   background-size: cover;
   width: 115px;
   height: 75px;
   opacity: 0;
-  transition: 0.5s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 button:nth-child(3):hover::before {
@@ -169,7 +187,7 @@ button:nth-child(4)::before {
   top: -20px;
   left: -5px;
   position: absolute;
-  background: url();
+  background: url(gif/remove-kiss.gif);
   background-repeat: no-repeat;
   background-size: cover;
   width: 115px;
@@ -180,4 +198,29 @@ button:nth-child(4)::before {
 
 button:nth-child(4):hover::before {
   opacity: 1;
+}
+
+.memeTmplTitle{
+  left: 50%;
+  margin-left: -250px;
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.memeTemplate {
+  width: 500px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.memeTemplate img {
+  width: 105px;
+  height: 70px;
+  border-radius: 5px;
+  transition: 0.25s ease-in-out;
 }

@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Meme Generator</title>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
@@ -27,11 +27,24 @@
 		<div id="meme-text" class="meme-text"></div>
 	</div>
 	<div id="effects" class="effects"></div>
+	<div class="pls">
+		<h2>Estilos personalizados</h2>
+		<p>(please hover me &#128584;)</p>
+	</div>
 	<div class="btn">
-		<button type="button" id='fire-btn' class="fire" onclick="fire()">fire</button>
-		<button type="button" id='water-btn' class="water" onclick="water()">water</button>
-		<button type="button" id='earth-btn' class="earth" onclick="earth()">earth</button>
+		<button type="button" id='fire' class="fire" onclick="fire()">fire</button>
+		<button type="button" id='water' class="water" onclick="water()">water</button>
+		<button type="button" id='earth' class="earth" onclick="earth()">earth</button>
 		<button type="button" id='remove-btn' class="remove" onclick="remove()">remove</button>
+	</div>
+	<div class="memeTmplTitle">
+		<h2>Meme Templates</h2>
+	</div>
+	<div class="memeTemplate">
+		<img src="img/heleno_o_macaco.jpg" alt="" id="meme-1">
+		<img src="img/hoho_doge.jpg" alt="" id="meme-2">
+		<img src="img/SPOILER_WAAAAAAAAAAAH.jpg" alt="" id="meme-3">
+		<img src="img/unknown.png" alt="" id="meme-4">
 	</div>
 	<script src="script.js"></script>
 </body>
