@@ -29,3 +29,27 @@ borda3.addEventListener('click', function () {
   const borda = document.getElementById('meme-image-container');
   borda.style.border = '6px groove green';
 });
+// Função para usar imagem miniatura 1
+const mini1 = document.getElementById('pre1');
+mini1.addEventListener('click', function () {
+  const pre1 = document.getElementById('pre1').src;
+  document.getElementById('meme-image').src = pre1;
+})
+// Função para usar imagem miniatura 2
+const mini2 = document.getElementById('pre2');
+mini2.addEventListener('click', function () {
+  const pre2 = document.getElementById('pre2').src;
+  document.getElementById('meme-image').src = pre2;
+})
+// Função para usar imagem miniatura 3
+const mini3 = document.getElementById('pre3');
+mini3.addEventListener('click', function () {
+  const pre3 = document.getElementById('pre3').src;
+  document.getElementById('meme-image').src = pre3;
+})
+// Função para usar imagem miniatura 4
+const mini4 = document.getElementById('pre4');
+mini4.addEventListener('click', function () {
+  const pre4 = document.getElementById('pre4').src;
+  document.getElementById('meme-image').src = pre4;
+})

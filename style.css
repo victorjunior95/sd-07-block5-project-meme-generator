@@ -1,7 +1,7 @@
 body {
   background-color: darkolivegreen;
   color: white;
-  font-family: Trebuchet, sans-serif
+  font-family: Trebuchet, sans-serif;
 }
 
 h1 {
@@ -17,19 +17,19 @@ h1 {
 }
 
 .meme-image-container img {
-  z-index: 1;
-  width: 450px;
   height: 450px;
   position: absolute;
+  width: 450px;
+  z-index: 1;
 }
 
-#text-container {
+.text-container {
   position: absolute;
   top: 340px;
   z-index: 2;
 }
 
-#meme-text {
+.meme-text {
   font-family: Impact, sans-serif;
   font-size: 30px;
   height: 150px;
@@ -45,9 +45,9 @@ h1 {
   display: inline-block;
   font-size: 15px;
   font-weight: 600;
-  height: 35px;
+  height: 50px;
   margin: 30px 20px;
-  width: 90px;
+  width: 100px;
 }
 
 .fire {
@@ -64,14 +64,12 @@ h1 {
 
 .pre-prontos {
   border: 1px solid black;
-  display: inline-flexbox;
-  height: 70px;
+  height: 80px;
   margin: 30px 20px;
-  width: 70px;
+  width: 80px;
 }
 
 .inputs {
-  font-family: Trebuchet, sans-serif;
   font-size: 20px;
   margin: 20px;
 }
