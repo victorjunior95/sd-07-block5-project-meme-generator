@@ -126,7 +126,7 @@ secondTemplate.addEventListener('click', function () {
   const img = imgArrey[0]; */
   spanText.style.display = 'none';
   previewImage.style.display = 'flex';
-  previewImage.src = 'imgs/meme2.png' ;
+  previewImage.src = 'imgs/meme2.png';
 });
 
 thirdTemplate.addEventListener('click', function () {
