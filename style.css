@@ -27,3 +27,22 @@ header h1 {
 #meme-text {
     margin: 50px 20px 50px 20px;
 }
+
+#div-buttons button {
+    position: relative;
+    display: inline;
+    margin: 50px;
+    padding: 30px;
+}
+
+#fire {
+    background-color: red;
+}
+
+#water {
+    background-color: blue;
+}
+
+#earth {
+    background-color: green;
+}
