@@ -1,7 +1,7 @@
 body {
   background-color: darkolivegreen;
   color: white;
-  text-align: center;
+  font-family: Trebuchet, sans-serif
 }
 
 h1 {
@@ -11,29 +11,29 @@ h1 {
 .meme-image-container {
   background-color: white;
   border: 1px solid black;
-  position: relative;
-}
-
-.meme-image-container img {
   height: 450px;
-  margin-bottom: 30px;
-  margin-top: 30px;
   position: relative;
   width: 450px;
 }
 
-.meme-image-container div {
-  height: 150px;
-  left: 33%;
+.meme-image-container img {
+  z-index: 1;
+  width: 450px;
+  height: 450px;
   position: absolute;
-  top: 340px;
-  width: 400px;
 }
 
-.meme-image-container div p {
+#text-container {
+  position: absolute;
+  top: 340px;
+  z-index: 2;
+}
+
+#meme-text {
   font-family: Impact, sans-serif;
   font-size: 30px;
   height: 150px;
+  margin: 5px;
   position: relative;
   text-align: center;
   text-shadow: 5px 5px 5px black;
@@ -63,17 +63,11 @@ h1 {
 }
 
 .pre-prontos {
-  background-color: white;
   border: 1px solid black;
-  display: inline-block;
+  display: inline-flexbox;
   height: 70px;
   margin: 30px 20px;
   width: 70px;
-}
-
-.muda-fonte {
-  font-family: Trebuchet, sans-serif;
-  font-size: 30px;
 }
 
 .inputs {
