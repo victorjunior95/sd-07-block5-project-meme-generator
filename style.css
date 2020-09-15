@@ -18,12 +18,10 @@
 #meme-text {
 
   text-align: center;
-  width : 80%;
   position : absolute;
   font-size : 30px;
   color : white;
   text-shadow: 5px 5px 5px black;
-  padding-left: 50px;
   word-break: break-all;
   z-index: 2;
 
