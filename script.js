@@ -32,7 +32,7 @@ container.style.border = "3px dashed rgb(255,0,0)";
 
 //substituir a borda do meme-image-container com botão water
 document.getElementById("water").onclick = function(){
-    container.style.border = "5px groove rgb(0,0,255)";
+    container.style.border = "5px double rgb(0,0,255)";
     }
 
 //substituir a borda do meme-image-container com botão earth
