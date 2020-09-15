@@ -2,7 +2,7 @@
 // https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded/27165977#27165977
 function loadFile(event) {
   // Captura a div onde será inseria da TAG IMG
-  const divImage = document.getElementById('meme-image');
+  // const divImage = document.getElementById('meme-image');
 
   // Cria o objeto que contém a imagem
   const source = URL.createObjectURL(event.target.files[0]);
@@ -52,35 +52,37 @@ function insertImage(src) {
   // Captura a div onde será inseria da TAG IMG
   const divImage = document.getElementById('meme-image');
 
+
   // Insere, na div 'meme-image' a TAG IMG já setando o valor de SRC como o objeto source
-  divImage.innerHTML = `<img  class='background-image'
-                              src='/imgs/${src}'
-                              alt='Imagem de fundo do meme'>
-                        </img>`;
+  // divImage.innerHTML = `<img  class='background-image'
+  //                             src='/imgs/${src}'
+  //                             alt='Imagem de fundo do meme'>
+  //                       </img>`;
 }
 
 function imageChange() {
   // Captura os elementos das miniaturas dos memes
-  const meme1 = document.getElementById('meme-1');
+
   const meme2 = document.getElementById('meme-2');
   const meme3 = document.getElementById('meme-3');
   const meme4 = document.getElementById('meme-4');
 
   // Adicionando as escutas
-  meme1.addEventListener('click', function () {
-    insertImage('meme1.png');
-  });
+  // meme1.addEventListener('click', function () {
+
+  //   insertImage('imgs/meme1.png');
+  // });
 
   meme2.addEventListener('click', function () {
-    insertImage('meme2.png');
+    insertImage('imgs/meme2.png');
   });
 
   meme3.addEventListener('click', function () {
-    insertImage('meme3.png');
+    insertImage('imgs/meme3.png');
   });
 
   meme4.addEventListener('click', function () {
-    insertImage('meme4.png');
+    insertImage('imgs/meme4.png');
   });
 }
 
@@ -108,7 +110,14 @@ window.onload = function () {
     loadFile(event);
   });
 
-  imageChange();
+  //imageChange();
+
+  const divImage = document.getElementById('meme-image');
+
+  const meme1 = document.getElementById('meme-1');
+  meme1.addEventListener("click", function () {
+    divImage.src = 'imgs/meme1.png';
+  });
 
   borderChange();
 };
