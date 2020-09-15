@@ -1,66 +1,13 @@
 /* Geziel */
-#titulo {
-    
-}
 
-#text-input {
-  height: 40px;
-  font-size: 18px;
-}
-
-/* #uploading-button {
-  height: 40px;
-  width: 200px;
-  cursor: pointer;
-  font-size: 18px;
-  font-weight: bold;
-  background: rgb(181, 216, 223);
-  border: 2px green solid;
-} */
-
-#uploading-button {
-  font-size: 16px;
-}
-
-td {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  height: 35px;
-}
-
-/* .table-for-image {
-  
-} */
-
-.meme-image-container {
-  /* border: 5px solid black; */
-  /* width: 500px;
+.meme-container {
+  /* background-color: white; */
+  border: 1px solid black;
+  width: 500px;
   height: 500px;
-  text-align: center;
-  vertical-align: middle;
-  padding: 0;
-} */
-
-
-.meme-image {
-  max-height: 100%;
-  max-width: 100%;
-  min-width: 100%;
-  min-height: 100%;
+  position: relative;
 }
 
 .meme-text {
-  color: rgb(199, 25, 54);
-  font-size: 25px;
-  left: 10%;
-  margin: 0 auto;
-  max-height: 90%;
-  max-width: 70%;
-  padding: 20px;
   position: absolute;
-  top: 75%;
-  word-wrap: break-word;
-  z-index: 1;
-  display: inline-block;
 }
