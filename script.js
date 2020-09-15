@@ -74,38 +74,38 @@ function remove() {
   effectsContainer.style.boxShadow = null;
 }
 
-firstTemplate.addEventListener('click', function(clickedImg) {
+firstTemplate.addEventListener('click', function (clickedImg) {
   const imgSrc = clickedImg.target.src;
-  const imgArrey = imgSrc.match(/img[\/\\]([\w\d\s\.\-\(\)]+)$/);
+  const imgArrey = imgSrc.match(/imgs[\/\\]([\w\d\s\.\-\(\)]+)$/);
   const img = imgArrey[0];
   spanText.style.display = 'none';
   previewImage.style.display = 'flex';
   previewImage.src = img;
-})
+});
 
-secondTemplate.addEventListener('click', function(clickedImg) {
+secondTemplate.addEventListener('click', function (clickedImg) {
   const imgSrc = clickedImg.target.src;
-  const imgArrey = imgSrc.match(/img[\/\\]([\w\d\s\.\-\(\)]+)$/);
+  const imgArrey = imgSrc.match(/imgs[\/\\]([\w\d\s\.\-\(\)]+)$/);
   const img = imgArrey[0];
   spanText.style.display = 'none';
   previewImage.style.display = 'flex';
   previewImage.src = img;
-})
+});
 
-thirdTemplate.addEventListener('click', function(clickedImg) {
+thirdTemplate.addEventListener('click', function (clickedImg) {
   const imgSrc = clickedImg.target.src;
-  const imgArrey = imgSrc.match(/img[\/\\]([\w\d\s\.\-\(\)]+)$/);
+  const imgArrey = imgSrc.match(/imgs[\/\\]([\w\d\s\.\-\(\)]+)$/);
   const img = imgArrey[0];
   spanText.style.display = 'none';
   previewImage.style.display = 'flex';
   previewImage.src = img;
-})
+});
 
-fourthTemplate.addEventListener('click', function(clickedImg) {
+fourthTemplate.addEventListener('click', function (clickedImg) {
   const imgSrc = clickedImg.target.src;
-  const imgArrey = imgSrc.match(/img[\/\\]([\w\d\s\.\-\(\)]+)$/);
+  const imgArrey = imgSrc.match(/imgs[\/\\]([\w\d\s\.\-\(\)]+)$/);
   const img = imgArrey[0];
   spanText.style.display = 'none';
   previewImage.style.display = 'flex';
   previewImage.src = img;
-})
+});
