@@ -21,3 +21,4 @@ let imageContent = document.getElementById("meme-image");
 yourImg.addEventListener("change", function(){
     imageContent.src = window.URL.createObjectURL(this.files[0]);
 })
+

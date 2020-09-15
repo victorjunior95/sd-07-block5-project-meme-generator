@@ -1,0 +1,9 @@
+#meme-image-container{
+    position:relative;
+}
+#meme-text{
+    position: absolute;
+    top: 0;
+    color: white;
+    font-size: 2em;
+}
