@@ -16,12 +16,30 @@ font-size: 30px;
   background-color: white;
   border-color: black;
   border-style: solid;
-  border-width: px;
+  border-width: 3px;
   height: 450px;
   margin: auto;
   width: 700px ;
 }
 
+.meme-image-container{
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+  height: 450px;
+  margin: auto;
+  width: 700px ;
+}
+.another{
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  height: 450px;
+  margin: auto;
+  width: 700px ;
+}
 
 .meme-text {
   color: white;
@@ -36,3 +54,8 @@ font-size: 30px;
 
 }
 
+body {
+  background: url(https://super.abril.com.br/wp-content/uploads/2019/09/fotosvencedora.png);
+  background-size: 100%;
+  background
+}
