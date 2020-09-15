@@ -1,3 +1,4 @@
+const inputIMG = document.querySelector('#meme-insert')
 const inputText = document.querySelector('#text-input');
 const memeText = document.querySelector('#meme-text');
 const memeImage = document.querySelector('#meme-image');
@@ -16,37 +17,38 @@ inputText.addEventListener('keyup', () => {
 });
 
 // Reference: https://codepen.io/dsr/pen/abOmGZp
-function printIMG(event){
-  if(event.target.files.length > 0){
-    let src = URL.createObjectURL(event.target.files[0])
-    memeImage.src = src
+inputIMG.addEventListener("change", (event) => {
+  if (event.target.files.length > 0) {
+      const src = URL.createObjectURL(event.target.files[0]);
+      memeImage.src = src;
   }
-};
+});
 
-fire.addEventListener('click', ()  =>  {
-  container.style.border = '3px dashed red'
+fire.addEventListener('click', () => {
+  container.style.border = '3px dashed red';
 });
 
 water.addEventListener('click', () => {
-  container.style.border = '5px double blue'
+  container.style.border = '5px double blue';
 });
 
 earth.addEventListener('click', () => {
-  container.style.border = '6px groove green'
+  container.style.border = '6px groove green';
 });
 
 meme1.addEventListener('click', () => {
-  memeImage.src = 'imgs/meme1.png'
+  memeImage.src = 'imgs/meme1.png';
 });
 
 meme2.addEventListener('click', () => {
-  memeImage.src = 'imgs/meme2.png'
+  memeImage.src = 'imgs/meme2.png';
 });
 
 meme3.addEventListener('click', () => {
-  memeImage.src = 'imgs/meme3.png'
+  memeImage.src = 'imgs/meme3.png';
 });
 
 meme4.addEventListener('click', () => {
-  memeImage.src = 'imgs/meme4.png'
+  memeImage.src = 'imgs/meme4.png';
 });
+
