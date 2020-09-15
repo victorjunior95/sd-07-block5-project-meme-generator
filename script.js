@@ -14,3 +14,5 @@ function loadText() {
     let textOutput = document.querySelector("#meme-text");
     textOutput.innerText = textInput ;
 };
+
+document.querySelector('#text-input').setAttribute('maxlength',60);

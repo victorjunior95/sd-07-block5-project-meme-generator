@@ -7,24 +7,17 @@ input {
     width: 300px;
     background-color: white;
     border: 1px solid black;
+    position:relative;
 }
 
 #meme-image {
     height: inherit;
     width: inherit;
-    position: relative;
 }
 
 #meme-text {
     text-shadow: 5px 5px 5px black;
     font-size: 30px;
-    color: red;
-}
-
-#photo-title {
-    padding-top: 30px;
-}
-
-#text-input {
+    color: white;
     position: absolute;
 }
