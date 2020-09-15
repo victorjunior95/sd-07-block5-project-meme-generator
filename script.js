@@ -9,5 +9,17 @@ function changeText() {
   document.getElementById("meme-text").innerHTML = memeText;
 }
 
-// document.getElementById("meme-insert").addEventListener("change", changeImage);
-// document.getElementById("text-insert").addEventListener("onChange", changeText);
+function fire() {
+  let container = document.getElementById("meme-image-container")
+  container.style.border = "3px dashed red"
+}
+
+function water() {
+  let container = document.getElementById("meme-image-container")
+  container.style.border = "5px double blue"
+}
+
+function earth() {
+  let container = document.getElementById("meme-image-container")
+  container.style.border = "6px groove green"
+}
