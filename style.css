@@ -6,6 +6,8 @@
   background-color: white;
   border: 1px solid black;
   position: relative;
+  width: 400px;
+  height: 400px;
   z-index: 0;
 }
 
@@ -19,4 +21,5 @@
   position: absolute;
   text-shadow: 5px 5px 5px black;
   z-index: 2;
+  margin-top: 200px;
 }
