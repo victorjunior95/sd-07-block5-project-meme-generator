@@ -16,6 +16,10 @@ function inputText () {
     });
 }
 
+function limiteTheSize (obj) { //w3school
+    obj.value = obj.value.substring(0,60); //Aqui eu pego o valor e só deixo o os 60 primeiros caracteres de valor no input
+}
+
 function loadImage(event) {  //Dica obtida no escopo do projeto.
   imgOutput.src = URL.createObjectURL(event.target.files[0]);
   // Assim que os dados do arquivo estiverem carregados a URL é descartada .
