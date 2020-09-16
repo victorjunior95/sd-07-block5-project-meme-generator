@@ -65,6 +65,7 @@ header h1 {
   text-align: center;
   color: rgb(69, 69, 69);
 }
+
 #meme-text {
   font-family: Poppins, "Arial Narrow Bold", sans-serif;
   font-style: normal;
@@ -78,10 +79,7 @@ header h1 {
   position: absolute;
 }
 
-#meme-image {
-  width: 278px;
-  height: 291px;
-}
+
 #meme-image-container {
   width: 278px;
   height: 291px;
@@ -90,6 +88,12 @@ header h1 {
   border: 1px solid black;
   box-sizing: border-box;
   background-color: white;
+}
+
+#meme-image {
+  width: 278px;
+  height: 291px;
+  /* visibility: visible; */
 }
 
 #division {
