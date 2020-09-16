@@ -9,7 +9,7 @@ carregaFoto.addEventListener('input', function (event) {
 const lbltexto = document.getElementById('text-input');
 lbltexto.addEventListener('keyup', function () {
   const texto = document.getElementById('text-input').value;
-  document.getElementById('meme-text').innerText = texto;
+  document.getElementById('meme-text').innerHTML = texto;
 });
 // Função para borda vermelha tracejada
 const borda1 = document.getElementById('fire');
