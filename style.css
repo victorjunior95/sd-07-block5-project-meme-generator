@@ -22,16 +22,17 @@ header h1 {
 }
 
 #meme-image-container {
-    margin: 80px 400px 0px 400px;
-    border: 1px solid black;
+    position: relative;
+    margin: 80px auto 0px auto;
+    border: black 1px solid;
     background-color: white;
-    width: 542px;
-    height: 405px;
+    width: 700px;
+    height: 650px;
 }
 
-#image {
-    width: 542px;
-    height: 405px;
+#meme-image {
+    width: 700px;
+    height: 650px;
 }
 
 #meme-text {
