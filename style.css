@@ -3,16 +3,20 @@
 }
 
 body {
+    font-family: monospace;
+    font-size: 20px;
     margin: 0;
     padding: 0;
-    width: 100%;
-    font-size: 20px;
-    font-family: monospace;
     text-align: center;
+    width: 100%;
 }
 
-#meme-generator {
-    margin-top: 10px;
+#header {
+    margin-top: 5px;
+}
+
+#text-input {
+    margin-top: 5px;
 }
 
 #meme-insert {
@@ -21,38 +25,45 @@ body {
 }
 
 #meme-image-container {
-    background-color: white;
-    border: 1px black solid;
+    background: white;
+    border: 1px solid black;
+    display: inline-block;
     height: 400px;
-    margin-top: 20px;
-    margin-left: 25%;
-    width: 50%;
+    position: relative;
+    text-align: center;
+    width: 400px;
+    margin-top: 5px;
 }
 
 #meme-image {
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    background-size: cover;
-    position: relative;
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 1;
 }
 
 #meme-text {
     color: white;
+    font-family: Oswald, sans-serif;
     font-size: 30px;
-    overflow-wrap: break-word;
+    line-height: 35px;
+    margin: 5px;
+    padding: 0;
     position: absolute;
+    text-align: center;
     text-shadow: 5px 5px 5px black;
-    top: 230px;
-    left: 350px;
+    top: 0;
+    width: 380px;
+    word-wrap: break-word;
     z-index: 2;
 }
 
 .memesPattern {
-    width: 50%;
     display: inline-block;
     margin-top: 10px;
+    width: 50%;
 }
 
 .meme-width {
