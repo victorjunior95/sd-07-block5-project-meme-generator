@@ -1,35 +1,35 @@
-let container = document.getElementById("meme-image-container");
+const container = document.getElementById('meme-image-container');
 
-let imgInput = document.querySelector("#meme-insert");
-let imgMeme = document.querySelector("#meme-image");
+const imgInput = document.querySelector('#meme-insert');
+const imgMeme = document.querySelector('#meme-image');
 
-let inputText = document.querySelector("#text-input");
-let memeText = document.querySelector("#meme-text");
+const inputText = document.querySelector('#text-input');
+const memeText = document.querySelector('#meme-text');
 
-let buttonFire = document.querySelector("#fire");
-let buttonWater = document.querySelector("#water");
-let buttonEarth = document.querySelector("#earth");
+const buttonFire = document.querySelector('#fire');
+const buttonWater = document.querySelector('#water');
+const buttonEarth = document.querySelector('#earth');
 
-inputText.addEventListener('input', function() {
+inputText.addEventListener ('input', function () {
     memeText.innerText = inputText.value;
 });
 
-imgInput.addEventListener('change', function(event){
+imgInput.addEventListener ('change', function (event) {
     // essa parte aqui foi pega das dicas fornecidas
-    imgMeme.src = URL.createObjectURL(event.target.files[0]);
-    imgMeme.onload = function() {
-      URL.revokeObjectURL(imgMeme.src) 
+  imgMeme.src = URL.createObjectURL (event.target.files[0]);
+  imgMeme.onload = function () {
+    URL.revokeObjectURL(imgMeme.src);
     }
 });
 
-buttonFire.addEventListener("click", function(){
-  container.style.border = "3px dashed red";
+buttonFire.addEventListener ('click', function () {
+  container.style.border = '3px dashed rgb(255, 0, 0)';
 });
 
-buttonWater.addEventListener("click", function(){
-  container.style.border = "5px double blue";
+buttonWater.addEventListener ('click', function () {
+  container.style.border = '5px double rgb(0, 0, 255)';
 });
 
-buttonEarth.addEventListener("click", function(){
-  container.style.border = "6px groove green";
+buttonEarth.addEventListener ('click', function () {
+  container.style.border = '6px groove rgb(0, 128, 0)';
 });
