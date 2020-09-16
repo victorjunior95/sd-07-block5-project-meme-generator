@@ -25,3 +25,30 @@
 input {
     margin-bottom: 10px;
 }
+
+.buttons {
+    font: 20px bold georgia, serif;
+    color: white;
+    margin: 10px;
+    width: auto;
+}
+
+#fire {
+    background-color: red;
+    border: 3px dashed red;
+}
+
+#water {
+    background-color: blue;
+    border: 5px double blue;
+}
+
+#earth {
+    background-color: green;
+    border: 6px groove green;
+}
+
+#meme-1, #meme-2, #meme-3, #meme-4 {
+    width: 50px;
+    margin: 20px;
+}
