@@ -8,13 +8,11 @@ h1{
 #main{
     background-color: #568ea6;
     height: 500px;
-    width: 500px;
+    width: 550px;
     margin: auto;
     border-radius: 1%;
     text-align: center;
-    box-shadow: 6px 6px 10px rgb(0, 0, 0);
-    
-    
+    box-shadow: 6px 6px 10px rgb(0, 0, 0); 
 }
 #meme-image-container{
     height: 350px;
