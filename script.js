@@ -1,6 +1,6 @@
 let textInput = document.getElementById("text-input");
 
-textInput.addEventListener("input", function () {
+textInput.addEventListener("keyup", function () {
   let memeText = document.getElementById("meme-text");
 
   memeText.innerHTML = textInput.value;
