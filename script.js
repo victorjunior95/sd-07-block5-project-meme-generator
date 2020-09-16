@@ -89,13 +89,13 @@ function boardEvent(e){
 
   switch (typeButton) {
     case 'fire':
-      containerMeme.style.border = '3px dashed red';
+      containerMeme.style.border = '3px dashed rgb(255, 0, 0)';
       break;
     case 'water':
-      containerMeme.style.border = '5px double blue';
+      containerMeme.style.border = '5px double rgb(0, 0, 255)';
       break;
     case 'earth':
-      containerMeme.style.border = '6px groove green';
+      containerMeme.style.border = '6px groove rgb(0, 128, 0)';
       break;
 
     default:
