@@ -10,24 +10,38 @@
 <body>
     
     <h1>Meme Generator</h1>
-    <input type="text" id="text-input" size="60">
+    Texto: <input type="text" id="text-input" size="60">
     <br>
     <br>
     <!-- <button id="meme-insert" input type="file" id="fileUploaded">Escolha imagem</button> -->
-    <input type="file" id="meme-insert">
-    <div id="msg" style="padding-top: 30px; color: #f00;"></div>
+    Foto: <input id="meme-insert" type="file" accept="image/*" capture>
     
     <div id="meme-image-container">
         <div id="meme-image">
             
         </div>
         <div id="meme-text">
-
+            
         </div>
     </div>
     <script>
-        const msg = document.getElementById("msg");
-        const file = document.getElementById("fileUploaded");
+        let image = document.getElementById("meme-insert");
+        let text = document.getElementById("text-input");
+        text.addEventListener("click",mostra_texto)
+        image.addEventListener("change",mostra_imagem);
+        function mostra_texto()
+        {
+            document.getElementById("meme-text").innerText = text.nodeValue;
+        }
+        function mostra_imagem()
+        {
+            document.getElementById("meme-image").image = image.nodeValue;
+        }
+        // image.addEventListener('change', function (e){
+        //     var file = e.target.files[0];
+        //     frame.src = URL.createObjectURL(file);
+        // });
+
 
     </script>
 </body>

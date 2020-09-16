@@ -9,13 +9,24 @@
 h1{
     
 }
+#meme-image{
+    width: 400px;
+    height: 400px;
+    border: 1px solid red;
+    
+}
 #meme-text{
     color: white;
     font-size: 30px;
     text-shadow: black;
-
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    position: relative;
 }
 
-#meme-image{
+
+
+#text-input{
 
 }
