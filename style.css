@@ -78,6 +78,10 @@ header h1 {
   position: absolute;
 }
 
+#meme-image {
+  width: 278px;
+  height: 291px;
+}
 #meme-image-container {
   width: 278px;
   height: 291px;
@@ -106,8 +110,6 @@ header h1 {
   left: 582px;
   top: 309px;
 }
-
-
 
 #input img {
   width: 100px;
