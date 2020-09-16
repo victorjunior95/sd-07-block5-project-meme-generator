@@ -32,5 +32,9 @@ h1{
     font-size: 30px;
     color: rgb(255, 255, 255);
     text-shadow: 5px 5px 5px rgb(0, 0, 0);
-    
+}
+#meme-image{
+    position: relative;
+    height: 100%;
+    width: 100%;
 }
