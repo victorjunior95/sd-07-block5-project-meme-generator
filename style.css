@@ -1,5 +1,5 @@
 body {
-  background-image: url(imgs/bg.png);
+  background-image: url('imgs/bg.png');
   background-repeat: repeat;
   font-family: Kufam, cursive;
   text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4),
@@ -10,8 +10,9 @@ body {
 
 main {
   align-items: center;
-  justify-content: center;
   display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .spacer {
@@ -31,7 +32,7 @@ header {
 }
 
 #meme-text {
-  color: white !important;
+  color: white;
   font-family: Impact, Haettenschweiler, Arial Narrow Bold, sans-serif;
   font-size: 30px;
   margin: auto;
@@ -39,7 +40,7 @@ header {
   padding-top: 350px;
   position: absolute;
   text-align: center;
-  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+  text-shadow: 5px 5px 5px black;
   text-transform: uppercase;
   word-wrap: break-word;
   z-index: 10;
@@ -50,18 +51,19 @@ header {
   border: 1px solid black;
   color: white;
   height: 500px;
+  max-height: 500px;
+  max-width: 500px;
   position: relative;
   width: 500px;
   z-index: 0;
-  /* box-sizing: border-box; */
 }
 
 .meme-image-container {
-  display: flex;
   align-items: center;
-  width: 100%;
+  display: flex;
   height: 100%;
   justify-content: center;
+  width: 100%;
 }
 
 .meme-image-container-inputs {
@@ -73,12 +75,6 @@ header {
 
 .meme-image-container-inputs p {
   display: inline-block;
-}
-
-#meme-image-container p {
-  color: black;
-  display: inline-block;
-  text-align: center;
 }
 
 #meme-image {
@@ -106,20 +102,20 @@ header {
 
 .fire {
   background-color: red;
-  padding: 5px;
   margin: 10px;
+  padding: 5px;
 }
 
 .water {
   background-color: blue;
-  padding: 5px;
   margin: 10px;
+  padding: 5px;
 }
 
 .earth {
   background-color: green;
-  padding: 5px;
   margin: 10px;
+  padding: 5px;
 }
 
 .meme-thumb-container {
@@ -130,6 +126,6 @@ header {
 
 .meme-thumb {
   border: 1px solid black;
-  width: 100px;
   margin: 16px;
+  width: 100px;
 }

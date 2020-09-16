@@ -9,19 +9,20 @@ const meme2 = document.getElementById('meme-2');
 const meme3 = document.getElementById('meme-3');
 const meme4 = document.getElementById('meme-4');
 const memeImage = document.getElementById('meme-image');
+const memeInsert = document.getElementById('meme-insert');
 
 textInput.addEventListener('input', function () {
   memeText.innerText = textInput.value;
 });
 
-const carregarImagem = function (event) {
+memeInsert.addEventListener('input', function (event) {
   const leitor = new FileReader();
   leitor.onload = function () {
     const saida = document.getElementById('meme-image');
     saida.src = leitor.result;
   };
   leitor.readAsDataURL(event.target.files[0]);
-};
+});
 
 fire.addEventListener('click', function () {
   imgContainer.style.border = '3px dashed red';
