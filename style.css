@@ -1,16 +1,18 @@
-#meme-text {
+.meme-text {
   color: white;
   display: inline-block;
   font-size: 30px;
   position: absolute;
   text-shadow: 5px 5px 5px black;
 }
-#meme-image {
+
+.meme-image {
   display: block;
   height: 618px;
   width: 819px;
 }
-#meme-image-container {
+
+.meme-image-container {
   background-color: white;
   border: solid 1px black;
   height: 618px;
