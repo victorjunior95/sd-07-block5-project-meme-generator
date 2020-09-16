@@ -25,14 +25,17 @@ const carregarImagem = function (event) {
 
 fire.addEventListener('click', function () {
   imgContainer.style.border = '3px dashed red';
+  // imgContainer.style.width = '497px';
 });
 
 water.addEventListener('click', function () {
   imgContainer.style.border = '5px double blue';
+  // imgContainer.style.width = '495px';
 });
 
 earth.addEventListener('click', function () {
   imgContainer.style.border = '6px groove green';
+  // imgContainer.style.width = '494px';
 });
 
 meme1.addEventListener('click', function () {
