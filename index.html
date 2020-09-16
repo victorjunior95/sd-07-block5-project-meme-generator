@@ -10,7 +10,6 @@
 
 </head>
 <body>
-  <!--Title-->
   <header>
 
     <h1>Gerador de Memes</h1>
@@ -19,9 +18,9 @@
     
   <input type="file" accept="image/*" id="meme-insert" onchange="loadFile(event)"/>
 
-  <div id="meme-image-container">
+  <input type="text" placeholder="Digite uma legenda." id="text-input" maxlength="60" onchange="textInput(event)">
 
-    <input type="text" placeholder="Digite uma legenda." id="text-input" maxlength="60" onchange="textInput(event)">
+  <div id="meme-image-container">
 
     <div id="meme-text"></div>
       
