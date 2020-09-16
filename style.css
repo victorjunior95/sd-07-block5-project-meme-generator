@@ -38,3 +38,8 @@ div p {
   text-shadow: 5px 5px 5px black;
   width: 400px;
 }
+
+div p {
+  width: 100%;
+  word-wrap: break-word;
+}
