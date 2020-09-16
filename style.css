@@ -1,21 +1,21 @@
-#meme-text {
-    position: absolute;
+div#meme-text {
     color: white;
-    font-size: 30px;
-    text-shadow:5px 5px 5px black;
     display: inline-block;
+    font-size: 30px;
+    position: absolute; 
+    text-shadow: 5px 5px 5px black;
 }
-#meme-image {
-    width: 819px;
+img#meme-image {
+    display: block;
     height: 618px;
     margin:0px;
     padding: 0px;
-    display: block;
-}
-#meme-image-container {
-    border: solid 1px black;
+    width: 819px;
+    }
+section#meme-image-container {
     background-color: white;
+    border: solid 1px black;
+    height: 618px;
     overflow:hidden;
     width: 819px;
-    height: 618px;   
 }
