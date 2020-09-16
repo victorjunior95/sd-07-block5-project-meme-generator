@@ -5,13 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Meme Generator</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
+    <!-- <script type="text/javascript" src="script.js"></script> -->
 </head>
 <body>
     
-    <h1>Projeto Meme Generator</h1>
-    <input type="text" id="text-input"/>
-    <button id="meme-insert" type="file">Escolha imagem</button>
+    <h1>Meme Generator</h1>
+    <input type="text" id="text-input" size="60">
+    <br>
+    <br>
+    <!-- <button id="meme-insert" input type="file" id="fileUploaded">Escolha imagem</button> -->
+    <input type="file" id="meme-insert">
+    <div id="msg" style="padding-top: 30px; color: #f00;"></div>
+    
     <div id="meme-image-container">
         <div id="meme-image">
             
@@ -20,6 +25,10 @@
 
         </div>
     </div>
-    <script src="script.js"></script>
+    <script>
+        const msg = document.getElementById("msg");
+        const file = document.getElementById("fileUploaded");
+
+    </script>
 </body>
 </html>
