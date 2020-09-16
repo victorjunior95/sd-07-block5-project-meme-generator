@@ -1,6 +1,6 @@
 .memeimageconteiner {
-  background-color: rgb(255, 255, 255);
-  border: solid 1px rgb(0, 0, 0);
+  background-color:white;
+  border: solid 1px black;
   height: 300px;
   position: relative;
   width: 300px;
@@ -10,7 +10,7 @@
   color: rgb(255, 255, 255);
   font-size: 30px;
   position: absolute;
-  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+  text-shadow: 5px 5px 5px black;
 }
 
 .memeimage {
