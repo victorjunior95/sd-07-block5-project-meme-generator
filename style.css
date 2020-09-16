@@ -23,9 +23,20 @@ header h1 {
     margin: 20px auto 20px auto ;
 }
 
+#memes-container {
+    display: flex;
+    justify-content: center; 
+}
+
+#memes-container button {
+    margin: 25px 15px;
+    padding: 50px 50px;
+    background-color: blue;
+}
+
 #meme-image-container {
     position: relative;
-    margin: 80px auto 0px auto;
+    margin: 50px auto 0px auto;
     border: black 1px solid;
     background-color: white;
     width: 700px;
@@ -33,6 +44,7 @@ header h1 {
 }
 
 #meme-image {
+    background-color: white;
     margin: 0px;
     padding: 0px;
     width: 700px;
