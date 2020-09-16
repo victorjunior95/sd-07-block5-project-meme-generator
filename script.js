@@ -34,3 +34,19 @@ let earthButton = document.getElementById('earth');
 earthButton.addEventListener("click", function() {
   container.style.border = "6px groove green";
 });
+
+let meme1 = document.getElementById('meme-1');
+meme1.addEventListener("click", addPreSetImage);
+
+let meme2 = document.getElementById('meme-2');
+meme2.addEventListener("click", addPreSetImage);
+
+let meme3 = document.getElementById('meme-3');
+meme3.addEventListener("click", addPreSetImage);
+
+let meme4 = document.getElementById('meme-4');
+meme4.addEventListener("click", addPreSetImage);
+
+function addPreSetImage(event) {
+  memeImage.src = event.target.src;
+}

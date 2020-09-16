@@ -24,6 +24,7 @@
     overflow: hidden;
     border-left: 15px solid transparent;
     border-right: 1em solid transparent;
+    text-align: center;
 }
 
 #fire {
@@ -36,4 +37,32 @@
 
 #earth {
     background-color: green;
+}
+
+#pre-set-images {
+    display: inline-block;
+}
+
+#meme-1 {
+    display: inline-block;
+    width: 100px;
+    border: 1px solid black;
+}
+
+#meme-2 {
+    display: inline-block;
+    width: 100px;
+    border: 1px solid black;
+}
+
+#meme-3 {
+    display: inline-block;
+    width: 100px;
+    border: 1px solid black;
+}
+
+#meme-4 {
+    display: inline-block;
+    width: 100px;
+    border: 1px solid black;
 }
