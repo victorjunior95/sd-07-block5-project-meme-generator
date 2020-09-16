@@ -1,5 +1,17 @@
+body {
+  align-content: center;
+  background-color: beige;
+  margin: 0;
+}
+
+header {
+  background-color: brown;
+  margin-top: 0;
+  padding: 20px;
+}
 .blue-button {
   background-color: blue;
+  width: 100px;
 }
 
 .container {
@@ -12,6 +24,7 @@
 
 .green-button {
   background-color: green;
+  width: 100px;
 }
 
 .miniature-memes {
@@ -21,6 +34,7 @@
 
 .red-button {
   background-color: red;
+  width: 100px;
 }
 
 div img {
@@ -36,10 +50,19 @@ div p {
   position: absolute;
   text-align: center;
   text-shadow: 5px 5px 5px black;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+#custom-border {
   width: 400px;
 }
 
-div p {
+section button {
+  display: inline-block;
+  align-content: center;
   width: 100%;
-  word-wrap: break-word;
+  border-radius: 30%;
+  padding: 10px;
+  margin-top: 20px;
 }
