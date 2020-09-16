@@ -4,11 +4,13 @@
   height: 400px;
   margin: 20px;
   width: 400px;
+  margin: auto;
 }
 
 #meme-image {
   height: 400px;
   width: 400px;
+  margin: auto;
 }
 
 #meme-text {
@@ -80,4 +82,14 @@ section p {
 h1 {
   font-family: monospace;
   font-size: 35px;
+}
+
+body {
+  display: block;
+  text-align: center;
+  background-color: rgb(184, 223, 199);
+}
+
+.insert-image {
+  margin-bottom: 15px;
 }
