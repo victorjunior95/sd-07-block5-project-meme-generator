@@ -7,13 +7,6 @@ textInput.addEventListener('input', function () {
   textImage.innerHTML = textInput.value;
 });
 
-
-
-
-
-
-
-
 // let memeInsert = document.querySelector("#meme-insert");
 // let img = document.querySelector("img");
 

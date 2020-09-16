@@ -11,31 +11,17 @@
   <header>
       <h1 id='titulo'>MEME GENERATOR</h1>
   </header>
-<!-- Text inclusion and image uploading section-->  
-  <!-- <table id="details"> 
-    <tr>
-      <td>Text to insert here:</td>          
-      <td><textarea id='text-input' name="text" rows="2" cols="60" wrap='soft' placeholder="Your text has to be 60 characters maximum..." maxlength="60" oninput="writeOnImg();"></textarea><br /></td>
-      <input id='text-input' type="text" name="nome" size="40" maxlength="60">
-    </tr>
-    <tr> 
-      <td>Picture:</td>
-      <td><input id="meme-insert" type="file" value="Choose your file"></input><br /></td>
-    </tr>
-  </table> -->
-
   
-  <p>Insert your text here:</p>
-  <input id='text-input' maxlength="60" type='text'>
-  <input id='meme-insert' type='file'>
+  <div>Insert your text here:
+    <input id='text-input' maxlength="60" type='text'>
+    <input id='meme-insert' type='file'>
+  </div>
 
   <section id='meme-image-container' class='meme-container'>
     <img id="meme-image" class="meme-image">
     <div id="meme-text" class="meme-text"></div>
     
   </section>
-
-  
 
 <!-- Meme section -->
   <!-- <div class=container>
