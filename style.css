@@ -24,14 +24,19 @@ body {
 
   position: relative;
   display: block;
-  background-color: aqua;
   width: 450px;
+  height: 350px;
   margin: 30px auto;
+  border: 1px solid black;
 
 }
 
+#meme-image {
+  background-color: white;
+  width: 450px;
+  height: 350px;
 
-
+}
 
 
 #meme-text {
@@ -39,7 +44,9 @@ body {
   position: absolute;
   word-wrap: break-word;
   width: 350px;
+  height: 55px;
   top: 290px;
-  left: 10px;
+  left: 50px;
+
 
 }
