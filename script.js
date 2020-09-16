@@ -25,22 +25,8 @@ function changeMemeBorder(setColor, setStyle, setWidth) {
   memeImageContainer.style.borderWidth = setWidth;
 }
 
-window.onload = function () {
-  const textInput = document.querySelector('#text-input');
-  const memeText = document.querySelector('#meme-text');
-
-  // insere texto digitado no input dentro do container do meme
-  textInput.addEventListener('keyup', function () {
-    memeText.innerText = textInput.value;
-  });  
-
-  // Carrega imagem do usuário para o meme generator
-  const memeInsert = document.querySelector('#meme-insert');
-  memeInsert.addEventListener('change', function () {
-    handleFiles(URL.createObjectURL(event.target.files[0]));
-  }, false);
-
-  // altera borda do meme conforme botão acionado
+// altera borda do meme conforme botão acionado
+function createBorderEvents(){
   const buttonFire = document.querySelector('#fire');
   buttonFire.addEventListener('click', function () {
     changeMemeBorder('red', 'dashed', '3px');
@@ -53,8 +39,10 @@ window.onload = function () {
   buttonEarth.addEventListener('click', function () {
     changeMemeBorder('green', 'groove', '6px');
   });
+}
 
-  // Carrega miniatura pré prontas para o meme generator
+// Carrega miniatura pré prontas para o meme generator
+function createLoadMemeEvents(){
   const meme1 = document.querySelector('#meme-1');
   meme1.addEventListener('click', function () {
     handleFiles(meme1.src);
@@ -74,4 +62,24 @@ window.onload = function () {
   meme4.addEventListener('click', function () {
     handleFiles(meme4.src);
   }, false);
+}
+
+
+window.onload = function () {
+  const textInput = document.querySelector('#text-input');
+  const memeText = document.querySelector('#meme-text');
+
+  // insere texto digitado no input dentro do container do meme
+  textInput.addEventListener('keyup', function () {
+    memeText.innerText = textInput.value;
+  });
+
+  // Carrega imagem do usuário para o meme generator
+  const memeInsert = document.querySelector('#meme-insert');
+  memeInsert.addEventListener('change', function () {
+    handleFiles(URL.createObjectURL(event.target.files[0]));
+  }, false);
+
+  createBorderEvents();
+  createLoadMemeEvents();
 };
