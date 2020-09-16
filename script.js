@@ -13,17 +13,18 @@ window.onload = function () {
 
   function handleFiles(source) {
     const img = document.createElement('img');
-    img.src = source;
+    img.src = source
+    console.log(img);
     img.id = 'meme-image';
     img.className = 'meme-image';
     img.onload = function () {
       URL.revokeObjectURL(this.src);
     };
     // Atualiza a imagem, se alguma já foi carregada anteriormente.
-    if (document.querySelector('#image') === null) {
+    if (document.querySelector('#meme-image') === null) {
       memeImageContainer.insertAdjacentElement('afterbegin', img);
     } else {
-      const oldImg = document.querySelector('#image');
+      const oldImg = document.querySelector('#meme-image');
       memeImageContainer.replaceChild(img, oldImg);
     }
   }
