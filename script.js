@@ -3,6 +3,10 @@ let inputMemeImage = document.getElementById('meme-insert');
 let containerMeme = document.getElementById('meme-image-container');
 let newMemeText = document.getElementById('meme-text');
 
+let btnFire = document.getElementById('fire');
+let btnWater = document.getElementById('water');
+let btnEarth = document.getElementById('earth');
+
 function createText(){
   let memeTextArea = document.createElement('div');
   memeTextArea.id = 'meme-text';
@@ -80,5 +84,28 @@ function fillText(e){
 
 }
 
+function boardEvent(e){
+  let typeButton = e.srcElement.id;
+
+  switch (typeButton) {
+    case 'fire':
+      containerMeme.style.border = '3px dashed red';
+      break;
+    case 'water':
+      containerMeme.style.border = '5px double blue';
+      break;
+    case 'earth':
+      containerMeme.style.border = '6px groove green';
+      break;
+
+    default:
+      break;
+  }
+}
+
 inputMemeText.addEventListener('keyup', fillText);
 inputMemeImage.addEventListener('change', loadImg);
+
+btnEarth.addEventListener('click', boardEvent);
+btnFire.addEventListener('click', boardEvent);
+btnWater.addEventListener('click', boardEvent);
