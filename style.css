@@ -28,9 +28,10 @@ h1 {
   font-family: Impact, sans-serif;
   font-size: 30px;
   height: 150px;
+  margin: 10px;
   position: absolute;
   text-shadow: 5px 5px 5px black;
-  width: 450px;
+  width: 430px;
   word-break: break-all;
   z-index: 2;
 }
