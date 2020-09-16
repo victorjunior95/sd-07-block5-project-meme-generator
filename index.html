@@ -16,28 +16,18 @@
     <h1>Gerador de Memes</h1>
 
   </header>
-
-  <!--Upload imag-->
-  <section>
     
-    <!--User sends image -->
-    <input type="file" accept="image/*" id="meme-insert" onchange="loadFile(event)"/>
+  <input type="file" accept="image/*" id="meme-insert" onchange="loadFile(event)"/>
 
-  </section>
+  <div id="meme-image-container">
 
-  <section>
+    <input type="text" placeholder="Digite uma legenda." id="text-input" maxlength="60" onchange="textInput(event)">
 
-    <div id="meme-image-container">
-
-      <input type="text" placeholder="Digite uma legenda." id="text-input" maxlength="60" onchange="textInput(event)">
-
-      <div id="meme-text"></div>
+    <div id="meme-text"></div>
       
-      <img id="meme-image">
+    <img id="meme-image">
       
-    </div>
-
-  </section>
+  </div>
 
   <script  src="script.js" ></script>
 
