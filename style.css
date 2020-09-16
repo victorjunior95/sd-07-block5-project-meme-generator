@@ -32,7 +32,6 @@ h2 {
   position: absolute;
   size: fill;
   width: 400px;
-  z-index: 0;
 }
 
 .meme-text {
@@ -44,7 +43,6 @@ h2 {
   top: 280px;
   vertical-align: auto;
   width: 400px;
-  z-index: 1;
 }
 
 button {
