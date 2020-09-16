@@ -68,9 +68,9 @@ header h1 {
 
 #meme-text {
   font-family: Poppins, "Arial Narrow Bold", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font: 30px;
+  word-wrap: break-word;
+  width: 278px;
+  font-size: 30px;
   color: white;
   text-shadow: 5px 5px 5px black;
   bottom: 0;
@@ -78,7 +78,6 @@ header h1 {
   text-align: center;
   position: absolute;
 }
-
 
 #meme-image-container {
   width: 278px;
@@ -119,31 +118,6 @@ header h1 {
   width: 100px;
   margin-left: 266px;
   margin-bottom: 24px;
-}
-
-#upload-button {
-  width: 242px;
-  background: rgb(89, 105, 226);
-  border-radius: 5px;
-  border: 0;
-  padding: 0;
-  display: block;
-  margin-left: 195px;
-}
-
-#upload-button p {
-  font-family: Poppins, "Arial Narrow Bold", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 36px;
-  display: inline-block;
-  letter-spacing: 0.1em;
-  margin-bottom: 7px;
-  margin-left: 16px;
-  margin-top: 6px;
-  margin-right: 16px;
-  color: rgb(255, 255, 255);
 }
 
 #text-input {
