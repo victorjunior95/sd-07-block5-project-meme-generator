@@ -14,8 +14,9 @@ let loadFile = event => {
   output.onload = function() {
     URL.revokeObjectURL(output.src);
   }
-};
 
+
+};
 
 let textInput = () => {
 
