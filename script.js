@@ -1,7 +1,7 @@
 let textInput = document.getElementById("text-input");
 
-  textInput.addEventListener("input", function () {
-    let memeText = document.getElementById("meme-text");
+textInput.addEventListener("input", function () {
+  let memeText = document.getElementById("meme-text");
 
-    memeText.innerHTML = textInput.value;
-  });
+  memeText.innerHTML = textInput.value;
+});
