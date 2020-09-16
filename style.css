@@ -20,4 +20,20 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow: 5px 5px 5px black;
     color: white;
+    max-width: 450px;
+    overflow: hidden;
+    border-left: 15px solid transparent;
+    border-right: 1em solid transparent;
+}
+
+#fire {
+    background-color: red;
+}
+
+#water {
+    background-color: blue;
+}
+
+#earth {
+    background-color: green;
 }
