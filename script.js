@@ -1,12 +1,13 @@
 // Acompanhando a explicação do GUGA junto com o colega Ander
-let inputText = document.querySelector("#text-input");
-let memeText = document.querySelector("#meme-text");
 let memeBorder = document.getElementById("meme-image-container");
-const update = document.getElementById("meme-insert");
-const imageMeme = document.querySelector("#meme-image");
-inputText.addEventListener("keyup", function() {
+
+let inputText = document.getElementById("text-input");
+inputText.addEventListener("input", function() {
+    let memeText = document.getElementById("meme-text");
     memeText.innerHTML = inputText.value;
 });
+
+// const lbltexto = document.getElementById('text-input'); lbltexto.addEventListener('keyup', function () { const texto = document.getElementById('text-input').value; document.getElementById('meme-text').innerHTML = texto; 
 // linha de comando melhorado no plantão do GUGA com o colega Rodrigo Pardo
 //Antes
 /*let updateFile = function(event) {
@@ -17,6 +18,8 @@ inputText.addEventListener("keyup", function() {
     };
 };*/
 //Agora
+const update = document.getElementById("meme-insert");
+const imageMeme = document.getElementById("meme-image");
 update.addEventListener("change", function() {
     imageMeme.src = window.URL.createObjectURL(this.files[0]);
 });
