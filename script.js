@@ -9,6 +9,12 @@ inputedText.addEventListener("input", function() {
 });
 
 // 2
+let inputedImage = document.querySelector("#meme-insert");
+
+inputedImage.addEventListener("change", function() {
+    let image = document.querySelector("#meme-image");
+    image.src = URL.createObjectURL(event.target.files[0])
+});
 
 // Bónus
 
