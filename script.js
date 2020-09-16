@@ -10,16 +10,24 @@ function changeText() {
 }
 
 function fire() {
-  let container = document.getElementById("meme-image-container")
-  container.style.border = "3px dashed red"
+  let container = document.getElementById("meme-image-container");
+  container.style.border = "3px dashed red";
 }
 
 function water() {
-  let container = document.getElementById("meme-image-container")
-  container.style.border = "5px double blue"
+  let container = document.getElementById("meme-image-container");
+  container.style.border = "5px double blue";
 }
 
 function earth() {
-  let container = document.getElementById("meme-image-container")
-  container.style.border = "6px groove green"
+  let container = document.getElementById("meme-image-container");
+  container.style.border = "6px groove green";
 }
+
+document
+  .getElementById("imgOptions")
+  .addEventListener("click", function (img) {
+    let imageToUse = img.target.src;
+    let container = document.getElementById("meme-image");
+    container.src = imageToUse;
+  });
