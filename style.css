@@ -8,6 +8,10 @@ body {
 
 }
 
+img[src=""] {
+  display: none;
+}
+
 main {
   align-items: center;
   display: flex;
@@ -66,6 +70,11 @@ header {
   width: 100%;
 }
 
+.meme-image-container p {
+  color: black;
+  width: 400px;
+}
+
 .meme-image-container-inputs {
   color: white;
   padding-top: 630px;
@@ -102,18 +111,24 @@ header {
 
 .fire {
   background-color: red;
+  color: white;
+  font-weight: bold;
   margin: 10px;
   padding: 5px;
 }
 
 .water {
   background-color: blue;
+  color: white;
+  font-weight: bold;
   margin: 10px;
   padding: 5px;
 }
 
 .earth {
   background-color: green;
+  color: white;
+  font-weight: bold;
   margin: 10px;
   padding: 5px;
 }
