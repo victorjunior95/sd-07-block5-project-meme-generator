@@ -11,8 +11,6 @@ const meme4 = document.getElementById('meme-4');
 const memeImage = document.getElementById('meme-image');
 const memeInsert = document.getElementById('meme-insert');
 
-console.log(memeImage.value);
-
 textInput.addEventListener('input', function () {
   memeText.innerText = textInput.value;
 });

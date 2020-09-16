@@ -2,13 +2,13 @@ body {
   background-image: url('imgs/bg.png');
   background-repeat: repeat;
   font-family: Kufam, cursive;
-  text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4),
-    0 8px 13px rgba(0, 0, 0, 0.1),
-    0 18px 23px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 4px 3px rgba(0 , 0 , 0 , 0.4),
+    0 8px 13px rgba(0 , 0 , 0 , 0.1),
+    0 18px 23px rgba(0 , 0 , 0 , 0.1);
 
 }
 
-img[src=""] {
+img[ src = '' ] {
   display: none;
 }
 
@@ -26,7 +26,7 @@ main {
 
 header {
   background-color: white;
-  box-shadow: 0 3px 7px 0 rgba(50, 50, 50, 0.75);
+  box-shadow: 0 3px 7px 0 rgba(50 , 50 , 50 , 0.75);
   left: 0;
   position: fixed;
   text-align: center;
@@ -37,7 +37,7 @@ header {
 
 #meme-text {
   color: white;
-  font-family: Impact, Haettenschweiler, Arial Narrow Bold, sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 30px;
   margin: auto;
   max-width: 400px;
@@ -112,7 +112,7 @@ header {
 .fire {
   background-color: red;
   color: white;
-  font-weight: bold;
+  font-weight: 700;
   margin: 10px;
   padding: 5px;
 }
@@ -120,7 +120,7 @@ header {
 .water {
   background-color: blue;
   color: white;
-  font-weight: bold;
+  font-weight: 700;
   margin: 10px;
   padding: 5px;
 }
@@ -128,7 +128,7 @@ header {
 .earth {
   background-color: green;
   color: white;
-  font-weight: bold;
+  font-weight: 700;
   margin: 10px;
   padding: 5px;
 }
