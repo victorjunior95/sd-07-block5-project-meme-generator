@@ -7,12 +7,23 @@
     <title>Document</title>
   </head>
   <body>
-    <section>
-      <input type="text" id="text-input" />
-    </section>
-    <section id="meme-image-container">
-      <p id="meme-text"></p>
-    </section>
+    <header>
+      <h1>MEME GENERATOR</h1>
+    </header>
+    <main>
+      <section class="inputs">
+        <input type="text" id="text-input" />
+        <input type="file" id="meme-insert" />
+      </section>
+      <section id="meme-image-container">
+          <img
+            id="meme-image"
+            src="imgs/defaultImg.jpg"
+            alt="uma imagem qualquer"
+          ></img>
+          <p id="meme-text"></p>
+      </section>
+    </mai>
     <script src="script.js"></script>
   </body>
 </html>

@@ -1,1 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
 
+
+}
+
+body {
+  max-width: 1180px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  align-items: left;
+  margin: 0 auto;
+
+}
+
+#meme-image-container {
+
+  position: relative;
+  display: block;
+  background-color: aqua;
+  width: 450px;
+  margin: 30px auto;
+
+}
+
+
+
+
+
+#meme-text {
+  overflow: hidden;
+  position: absolute;
+  word-wrap: break-word;
+  width: 350px;
+  top: 290px;
+  left: 10px;
+
+}
