@@ -11,9 +11,10 @@
 }
 
 #meme-image{
-  width: 500px;
-  height: 400px;
-  margin-top: 0;
+  width: 498px;
+  height: 398px;
+  margin-top: 1px;
+  margin-left: 1px;
   z-index: 2;
 }
 
