@@ -12,8 +12,9 @@
     </header>
     <main>
       <section class="inputs">
-        <input maxlength="60" type="text" class="textInputForImage" id="text-input" />
-        <input type="file" accept="image/*"  class="memeInsert" id="meme-insert" />
+        <input maxlength="60" type="text" class="textInputForImage" data-event="insertTextInput" id="text-input" />
+        <input type="file" accept="image/*"  class="memeInsert" data-event="insertMemeInput" id="meme-insert" />
+
       </section>
       <section id="meme-image-container">
           <img
@@ -21,11 +22,11 @@
             src="#"
             alt="uma imagem qualquer"
           ></img>
-          <p id="meme-text"></p>
+          <p id="meme-text">dfdfd</p>
       </section>
-      <button class="button" id="fire" type="button">Fire</button>
-      <button class="button" id="water" type="button">Water</button>
-      <button class="button" id="earth" type="button">Earth</button>
+      <button data-event="addBorderButton" class="button" id="fire" type="button">Fire</button>
+      <button data-event="addBorderButton" class="button" id="water" type="button">Water</button>
+      <button data-event="addBorderButton" class="button" id="earth" type="button">Earth</button>
 
     </mai>
     <script src="script.js"></script>

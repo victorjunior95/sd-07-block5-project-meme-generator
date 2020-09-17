@@ -1,61 +1,16 @@
-window.onload = function () {
-  handleControllerEvents("click", "input", "change");
-}
-
-function handleControllerEvents(...types) {
-  for (const type of types) {
-    document.addEventListener(type, (event) => {
-
-      switch (type) {
-
-        case "click":
-          addBorderStyle(event)
-          break;
-
-        case "input":
-          insertTextOnImage(event)
-          break;
-
-        case "change":
-          insertImage(event)
-          break;
-
-        default:
-          break;
-      }
-    })
-  }
-}
-
 function insertTextOnImage(event) {
-  if (event.target.classList.contains("textInputForImage")) {
-    const text = event.target.value;
-    const memeTextP = document.querySelector("#meme-text")
-    memeTextP.innerText = text;
-  }
+  console.log("entre insertTexOnImage")
+
+  const text = event.target.value;
+  const memeTextP = document.querySelector("#meme-text")
+  memeTextP.innerText = text;
+
 }
 
-/* function handleControllerEvents(...types) {
-  for (let type of types) {
-    document.addEventListener(type, (event) => {
-      if (type === "click") {
-        if (event.target.classList.contains("button")) {
-          addBorderStyle(event);
-        }
-      } else if (type === "input") {
-        if (event.target.classList.contains("textInputForImage")) {
-          setupMemeTextInput(event);
-        }
-      } else if (type === "change") {
-        if (event.target.classList.contains("memeInsert")) {
-          insertImage(event);
-        }
-      }
-    })
-  }
-} */
+
 
 function addBorderStyle(event) {
+  console.log("entre addborderStyle")
 
   const memeImageContainer = document.querySelector("#meme-image-container")
 
@@ -73,15 +28,83 @@ function addBorderStyle(event) {
   }
 }
 
+
 function insertImage(event) {
+  console.log("entre insertImage")
 
-  if (event.target.classList.contains("memeInsert")) {
+  const memeImage = document.querySelector("#meme-image");
+  memeImage.src = window.URL.createObjectURL(event.target.files[0])
+  memeImage.onload = () => {
+    URL.revokeObjectURL(memeImage.src) // free memory
+  }
+}
 
-    const memeImage = document.querySelector("#meme-image");
-    memeImage.src = window.URL.createObjectURL(event.target.files[0])
+function handleControllerEvents(...types) {
 
-    memeImage.onload = () => {
-      URL.revokeObjectURL(memeImage.src) // free memory
+  for (const type of types) {
+    switch (type) {
+      case "click":
+        allEventsOnClicks(type)
+        break;
+
+      case "input":
+        allEventOnInput(type);
+        break;
+
+      case "change":
+        allEventOnChange(type);
+        break;
+
+      default:
+        break;
     }
   }
+
+}
+
+function allEventsOnClicks(type) {
+
+  document.addEventListener(type, (event) => {
+    const switchEvent = event.target.dataset.event;
+    switch (switchEvent) {
+
+      case "addBorderButton":
+        addBorderStyle(event);
+        break;
+    }
+  })
+}
+
+function allEventOnInput(type) {
+
+  document.addEventListener(type, (event) => {
+    const switchEvent = event.target.dataset.event;
+    switch (switchEvent) {
+
+      case "insertTextInput":
+        insertTextOnImage(event);
+        break;
+    }
+  })
+
+}
+
+function allEventOnChange(type) {
+
+  document.addEventListener(type, (event) => {
+    const switchEvent = event.target.dataset.event;
+    switch (switchEvent) {
+
+      case "insertMemeInput":
+        insertImage(event);
+        break;
+
+    }
+  })
+
+}
+
+window.onload = () => {
+
+  handleControllerEvents("click", "input", "change")
 }
