@@ -21,7 +21,10 @@ body {
 
 #meme-text {
   background-color: green;
-  vertical-align: bottom;
+  color: white;
+  font-size: 30px;
   height: 50px;
   position: absolute;
+  text-shadow: 5px 5px 5px black; /*https://www.w3schools.com/cssref/css3_pr_text-shadow.asp*/
+  
 }
