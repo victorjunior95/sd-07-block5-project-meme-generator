@@ -9,28 +9,29 @@ body {
     text-align: center;
 }
 
-.cmeme-image-container {
+
+
+.meme-image-container {
     width: 400px;
     height: 400px;
-    margin: auto;
     border: 1px;
     border-color: black;
     border-style: solid;
     background-color: white;
+    margin: auto;
 }
 
-
-.cmeme-image {
+.meme-image {
     object-fit: cover;
     width: 400px;
     height: 400px;
     margin-top: -80px;
 }
 
-.cmeme-text {
+.meme-text {
     position: relative;
     top: 340px;
     color: white;
-    font-size: 3em;
-    text-shadow: 0.1em 0.1em 0.2em black;
+    font-size: 30px;
+    text-shadow: 5px 5px black;
 }
