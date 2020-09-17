@@ -2,9 +2,9 @@
     margin: 0 auto;
     padding: 0;
 }
-  
+
 body {
-    background-color: #dcdcdc;
+    background-color: white;
 }
 
 .btn {
@@ -18,7 +18,7 @@ body {
     text-align: center;
     width: 80px;
 }
-  
+
 .container {
     align-self: center;
     margin-left: 40%;
@@ -40,10 +40,10 @@ header {
     text-align: center;
     width: 100%;
 }
-  
+
 .memeImageContainer {
     align-items: center;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: white;
     border: 1px solid black;
     display: inline-block;
     height: 500px;
@@ -53,11 +53,11 @@ header {
     width: 500px;
     z-index: 1;
 }
-  
+
 .memeTextContainer {
     max-width: 100%;
 }
-  
+
 .memeText {
     color: rgba(255, 255, 255, 1);
     font-size: 30px;
@@ -65,11 +65,11 @@ header {
     max-width: 100%;
     overflow: auto;
     position: absolute;
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+    text-shadow: 5px 5px 5px black;
     top: 70%;
     z-index: 3;
 }
-  
+
 .memeImage {
     height: 100%;
     position: relative;
