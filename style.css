@@ -4,3 +4,10 @@
     position: absolute;
     color: white;
   }
+  #meme-image-container {
+
+    height: 400px;
+    width: 700px;
+    position: relative;
+    background-color: white;
+    border: 1px solid black;
