@@ -1,5 +1,3 @@
-const inputText = document.getElementById('text-input');
-const text = document.getElementById('meme-text');
 const inputImage = document.getElementById('meme-insert');
 const image = document.getElementById('meme-image');
 const container = document.getElementById('meme-image-container');
@@ -12,8 +10,8 @@ const replacementMemeThree = document.getElementById('meme-3');
 const replacementMemeFour = document.getElementById('meme-4');
 
 
-inputText.addEventListener('keyup', function () {
-  text.innerText = inputText.value;
+document.getElementById('text-input').addEventListener('keyup', function () {
+  document.getElementById('meme-text').innerText = inputText.value;
 });
 
 inputImage.addEventListener('change', function (event) {
