@@ -43,17 +43,17 @@
     }
 
 function meme1(){
-  memeInsert.innerHTML= 'meme-imagem';
-   document.getElementById('meme-imagem').src="imgs/meme1.png";
+ 
+   document.getElementById('meme-image').src="imgs/meme1.png";
 }
 function meme2(){
-  document.getElementById('meme-imagem').src="imgs/meme2.png";
+  document.getElementById('meme-image').src="imgs/meme2.png";
 }
 function meme3(){
-  document.getElementById('meme-imagem').src="imgs/meme3.png";
+  document.getElementById('meme-image').src="imgs/meme3.png";
 }
 function meme4(){
-  document.getElementById('meme-imagem').src="imgs/meme4.png";
+  document.getElementById('meme-image').src="imgs/meme4.png";
 }
 
  

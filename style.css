@@ -51,10 +51,11 @@ footer {
   position: relative;
   margin: auto;
 }
-.meme-imagem {
+.meme-image {
   
   height: 300px;
   width: 300px;
+  background-color: white;
   
   
 }
