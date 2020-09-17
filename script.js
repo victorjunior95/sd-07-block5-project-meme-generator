@@ -1,25 +1,25 @@
-const inputText = document.querySelector('#text-input');
+const inputText = document.getElementById('text-input');
 
 inputText.addEventListener ('input', function (){
-    const showText = document.querySelector('#meme-text');
+    const showText = document.getElementById('meme-text');
 showText.innerHTML = inputText.value;
 });
 
 const loadFile = function(event) {
-  let output = document.querySelector("#meme-image")
-    output.src = URL.createObjectURL (event.target.files[0]);
+  let output = document.getElementById("meme-image")
+    output.src = URL.createObjectURL(event.target.files[0]);
     output.onload = function () {
         URL.revokeObjectURL(output.src);
 }
 }
 
-let chooseFile = document.querySelector("#meme-insert");
+let chooseFile = document.getElementById("meme-insert");
 chooseFile.addEventListener('change', loadFile);
 
-let buttonFire = querySelector("#fire");
-let buttonWater = querySelector("#water");
-let buttonEarth = querySelector("#earth");
-let memeImageContainer = querySelector("#meme-image-container")
+let buttonFire = getElementById("fire");
+let buttonWater = getElementById("water");
+let buttonEarth = getElementById("earth");
+let memeImageContainer = getElementById("meme-image-container")
 
 buttonFire.addEventListener("click", function () {
     memeImageContainer.style.border = "3px dashed red";
