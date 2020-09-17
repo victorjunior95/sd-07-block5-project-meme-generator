@@ -8,26 +8,13 @@ window.onload = function () {
 
 function setupMemeTextInput() {
   let inputText = document.querySelector("#text-input");
-  inputText.addEventListener("click", function (event) {
-    console.log("voce me clickou ")
-    event.target.addEventListener("input", function () {
-
-      let text = event.target.value;
-      let memeTextP = document.querySelector("#meme-text")
-      memeTextP.innerText = text;
-    })
-    event.target.addEventListener("dblclick", function () {
-      console.log("duas vezes")
-    })
+  inputText.addEventListener("input", function (event) {
+    let text = event.target.value;
+    let memeTextP = document.querySelector("#meme-text")
+    memeTextP.innerText = text;
   })
 }
 
-
-
-// let buttonFire = document.querySelector("#fire")
-//   buttonFire.addEventListener("click", function () {
-//   memeImageContainer.style.border = "3px dashed red"
-// })
 
 function addBorderStyle() {
 
