@@ -1,18 +1,18 @@
 // Geziel
-let textInput = document.getElementById("text-input");
+const textInput = document.getElementById('text-input');
 let memeInsert = document.getElementById("meme-insert");
-let img = document.querySelector('img');
+const img = document.querySelector('img');
 
 textInput.addEventListener('input', function () {
-  let textImage = document.getElementById("meme-text");
+  const textImage = document.getElementById('meme-text');
   textImage.innerHTML = textInput.value;
 });
 
 // Uploading image
-memeInsert.addEventListener("input", function() {
-  img.id = "meme-image";
+memeInsert.addEventListener('input', function () {
+  img.id = 'meme-image';
   img.src = URL.createObjectURL(this.files[0]);
-  })
+});
 
 
 // let memeInsert = document.querySelector("#meme-insert");
@@ -30,8 +30,6 @@ memeInsert.addEventListener("input", function() {
 // function writeOnImg() {
 //   imageContainer.innerHTML = text.value;
 //   }
-
-
 
 // // Button 1 - border type
 // button1.addEventListener("click", function(){
