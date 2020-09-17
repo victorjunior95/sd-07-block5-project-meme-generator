@@ -18,8 +18,15 @@ body {
   width: 400px;
 }
 
+#meme-image {
+  background-color: white;
+  position: absolute;
+  height: 450px;
+  width: 400px;
+}
+
 #meme-text {
-  background-color: green;
+  /*background-color: green;*/
   color: white;
   font-size: 30px;
   height: 50px;
