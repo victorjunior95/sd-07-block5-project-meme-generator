@@ -7,7 +7,7 @@ carregaFoto.addEventListener('input', function (event) {
 });
 // Função para colocar texto no meme
 const lbltexto = document.getElementById('text-input');
-lbltexto.addEventListener('keyup', function () {
+lbltexto.addEventListener('input', function () {
   const texto = document.getElementById('text-input').value;
   document.getElementById('meme-text').innerHTML = texto;
 });
