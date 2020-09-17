@@ -1,6 +1,6 @@
 // Geziel
 const textInput = document.getElementById('text-input');
-let memeInsert = document.getElementById("meme-insert");
+const memeInsert = document.getElementById('meme-insert');
 const img = document.querySelector('img');
 
 textInput.addEventListener('input', function () {
