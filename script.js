@@ -26,7 +26,7 @@ function changeMemeBorder(setColor, setStyle, setWidth) {
 }
 
 // altera borda do meme conforme botão acionado
-function createBorderEvents(){
+function createBorderEvents() {
   const buttonFire = document.querySelector('#fire');
   buttonFire.addEventListener('click', function () {
     changeMemeBorder('red', 'dashed', '3px');
@@ -42,7 +42,7 @@ function createBorderEvents(){
 }
 
 // Carrega miniatura pré prontas para o meme generator
-function createLoadMemeEvents(){
+function createLoadMemeEvents() {
   const meme1 = document.querySelector('#meme-1');
   meme1.addEventListener('click', function () {
     handleFiles(meme1.src);
