@@ -9,3 +9,7 @@ function configInput(){
         memeText.innerText = text;
     });
 }
+const loadFile = function (event) {
+    const image = document.getElementById('meme-image');
+    image.src = URL.createObjectURL(event.target.files[0]);
+};
