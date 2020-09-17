@@ -12,16 +12,17 @@
     <section>
         <article>
           <div class="input-box">
-            <input type="text" id="text-input" placeholder="Insira o texto do meme" maxlength="60">
-          </div>
-          <div class="input-box">
-            <input type="file" id="meme-image" placeholder="Faça o upload da imagem">
+              <input type="text" id="text-input" placeholder="Insira o texto do meme" maxlength="60" value="">
+              <label class="file">
+                <input type="file" id="meme-insert" placeholder="Faça o upload da imagem" aria-label="Escolha uma imagem">
+                <span class="file-custom"></span>
+              </label>
           </div>
         </article>
         <article>
             <div id="meme-image-container">
                 <div id="meme-text"></div>
-                <img id="meme-insert">
+                <img id="meme-image" >
             </div>
         </article>
     </section>
