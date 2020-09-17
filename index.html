@@ -6,22 +6,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>&gt; Meme Generator &lt;</h1>
-    <label for="text">Texto: </label>
-    <input type="text" name="text" id="text-input" maxlength="60">
-    <label for="meme-file">Foto(max 500kb): </label>
-    <input type="file" name="meme-file" id="meme-insert">
-    <hr>
+    <header>
+        <h1>&gt; Meme Generator &lt;</h1>
+        <section class="input-text-meme">
+            <label for="text">Texto: </label>
+            <input type="text" name="text" id="text-input" maxlength="60">
+        </section>
+        <section class="text-format">
+            <label for="font-size">Tamanho da fonte:</label>
+            <input type="number" name="font-size" min="5" max="30">
+            <label for="font-family">Tipo da fonte</label>
+            <select name="font-family" id="font-family">
+                <option value="Arial">Arial</option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+            <label for="font-color">Tamanho da fonte</label>
+            <input class="font-color" name="font-color" type="text" placeholder="ex: rgb(0, 0, 0)">
+        </section>
+        <section class="input-image-meme">
+            <label for="meme-file">Foto(max 500kb): </label>
+            <input type="file" name="meme-file" id="meme-insert" accept="image/*">
+        </section>
+    </header>
     <section id="meme-image-container" class="meme-image-container">
         <img id="meme-image" class="meme-image" alt="meme-image">
         <div id="meme-text" class="meme-text"></div>
     </section>
-    <div id="change-border" class="change-border">
+    <section id="change-border" class="change-border">
         <h3>Choose your element</h3>
-    <button id="fire" class="fire" value="red">Fire</button>
-    <button id="earth" class="earth" value="green">Earth</button>
-    <button id="water" class="water" value="blue">Water</button>
-    </div>
+        <button id="fire" class="fire" value="red">Fire</button>
+        <button id="earth" class="earth" value="green">Earth</button>
+        <button id="water" class="water" value="blue">Water</button>
+        </section>
     <section id="images-proto" class="images-proto">
         <h3>Memes para se inspirar</h3>
         <img id="meme-1" class="img-proto" src="imgs/meme1.png" alt="meme1">
