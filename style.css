@@ -19,13 +19,14 @@ body {
     background-color: white;
     margin: auto;
     clear: both;
+    overflow: hidden;
 }
 
 
 #meme-image {
     width: 400px;
     height: 400px;
-    
+    margin-top: -30px;
 }
 
 .meme-text {
