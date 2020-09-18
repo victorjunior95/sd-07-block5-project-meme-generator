@@ -32,10 +32,33 @@ function addBorderStyle(event) {
 function insertImage(event) {
   console.log("entre insertImage")
 
-  const memeImage = document.querySelector("#meme-image");
-  memeImage.src = window.URL.createObjectURL(event.target.files[0])
-  memeImage.onload = () => {
-    URL.revokeObjectURL(memeImage.src) // free memory
+  const memeImageImg = document.querySelector("#meme-image");
+  memeImageImg.src = window.URL.createObjectURL(event.target.files[0])
+  memeImageImg.onload = () => {
+    URL.revokeObjectURL(memeImageImg.src) // free memory
+  }
+}
+
+function insertDefaultImage(event) {
+  const memeImageImg = document.querySelector("#meme-image")
+  const idImageCase = event.target.id;
+  switch (idImageCase) {
+    case "meme-1":
+      memeImageImg.src = "/imgs/meme1.png"
+      break;
+    case "meme-2":
+      memeImageImg.src = "/imgs/meme2.png"
+
+      break;
+    case "meme-3":
+      memeImageImg.src = "/imgs/meme3.png"
+
+      break;
+    case "meme-4":
+      memeImageImg.src = "/imgs/meme4.png"
+
+      break;
+
   }
 }
 
@@ -70,6 +93,10 @@ function allEventsOnClicks(type) {
 
       case "addBorderButton":
         addBorderStyle(event);
+        break;
+
+      case "addDefaultImage":
+        insertDefaultImage(event);
         break;
     }
   })

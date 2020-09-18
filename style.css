@@ -55,6 +55,24 @@ body {
 
 }
 
+.images-conteiner {
+  max-width: 1180px;
+  margin: 0 auto;
+  background-color: aqua;
+}
+
+.image-thunb {
+  width: 100px;
+  cursor: pointer;
+  box-sizing: border-box;
+
+
+}
+
+.image-thunb:hover {
+  border: 2px solid black;
+}
+
 #fire {
 
   width: 50px;
