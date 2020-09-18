@@ -11,7 +11,7 @@
     <header><h1>Meme Generator</h1></header>
     <div>
         <span>Texto:</span> 
-        <input type="text" id="text-input" size="60" maxlength=60>
+        <input type="text" id="text-input" size="60" maxlength=60 oninput="carrega_texto()">
     </div>
     <!-- <button id="meme-insert" input type="file" id="fileUploaded">Escolha imagem</button> -->
     <div>
@@ -20,28 +20,11 @@
     </div>
     <div id="meme-image-container">
         <div id="meme-text">
-        </div>
-        <img src="" alt "meme" id="meme-image">
         
-    <script>
-        let text_input = document.getElementById('text-input');
-        let text = document.getElementById('meme-text');
-        let image = document.getElementById('meme-image');
-        function carregarArquivo(event)
-        {
-            image.src = URL.createObjectURL(event.target.files[0]);
-            image.onload = function()
-            {
-                URL.revokeObjectURL(output.src);
-            }
-        }
-        text_input.addEventListener('keyup', carrega_texto())
-
-        function carrega_texto()
-        {
-            text.innerText = text_input.value;
-        }
-
-    </script>
+    </div>
+    <img src="" alt "meme" id="meme-image">
+        
+        
+    <script src="script.js"></script>
 </body>
 </html>
