@@ -11,17 +11,17 @@ insere_imagem.addEventListener('change', function() {
     insere_imagem = insere_imagem.value;
     imagem.src = URL.createObjectURL (event.target.files[0]);
 })
-botao_earth.addEventListener('click', function(){
-    container.style.border = '6px groove rgb(0, 128, 0)';
-});
+// botao_earth.addEventListener('click', function(){
+//     container.style.border = '6px groove rgb(0, 128, 0)';
+// });
 
-botão_fire.addEventListener('click', function(){
-    container.style.border = '3px dashed rgb(255, 0, 0)';
-});
+// botão_fire.addEventListener('click', function(){
+//     container.style.border = '3px dashed rgb(255, 0, 0)';
+// });
 
-botao_water.addEventListener('click', function(){
-    container.style.border = '5px double rgb(0, 0, 255)';
-});
+// botao_water.addEventListener('click', function(){
+//     container.style.border = '5px double rgb(0, 0, 255)';
+// });
 
 text_input.addEventListener('keyup', carrega_texto())
 function carrega_texto()
