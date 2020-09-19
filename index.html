@@ -2,15 +2,23 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
+        <title> MEME GENERATOR</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <p>Texto: </p><input type="text" name="text-input" id="text-input">
-        
-        <div id="meme-image-generator">
-            <div id="meme-text">
 
+
+        <label for="text">Texto: </label>
+        <input type="text" name="text-input" id="text-input">
+
+        <label for="text">Foto: </label>
+        <input type="file" name="meme-insert" id="meme-insert">
+
+        <div id="meme-image-container">
+            <div id="meme-text">
             </div>
+            <img src="" alt="Imagem" id="meme-image">
         </div>
     </body>
 </html>
