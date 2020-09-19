@@ -1,19 +1,16 @@
-let text_input = document.getElementById('text-input');
-let text = document.getElementById('meme-text');
+// let text_input = document.getElementById('text-input');
+// let text = document.getElementById('meme-text');
+let insere_imagem = document.getElementById("meme-insert");
 let container = document.getElementById('meme-image-container');
 let botao_earth = document.getElementById('earth');
 let botao_fire = document.getElementById('fire');
+let imagem = document.getElementById('meme-image');
 let botao_water = document.getElementById('water');
 
-function carregarArquivo(event)
-{
-    image.src = URL.createObjectURL(event.target.files[0]);
-    image.onload = function()
-    {
-        URL.revokeObjectURL(output.src);
-    }
-}
-
+insere_imagem.addEventListener('change', function() {
+    insere_imagem=insere_imagem.value;
+    imagem.src = URL.createObjectURL(event.target.files[0]);
+})
 // botao_earth.addEventListener('click', function(){
 //     container.style.border = '6px groove rgb(0, 128, 0)';
 // });

@@ -9,22 +9,23 @@
 </head>
 <body>
     <header><h1>Meme Generator</h1></header>
-    <div>
+    <section>
         <span>Texto:</span> 
         <input type="text" id="text-input" size="60" maxlength=60 oninput="carrega_texto()">
-    </div>
+    </section>
     <div>
-        <span>Foto:</span> 
-        <input id="meme-insert" type="file" accept="image/*" onchange="carregarArquivo(event)">
+        <span>Foto:</span>
+        <input type="file" name="meme-figure" id="meme-insert">
     </div>
-    <div id="meme-image-container">
-        <div id="meme-text">
-    </div>
-    <img src="" alt "meme" id="meme-image">
     <button id="water">Água</button>
     <button id="fire">Fogo</button>
     <button id="earth">Terra</button>
-    
     <script src="script.js"></script>
+    <div id="meme-image-container">
+        <p id="meme-text"></p>
+        <img src="" alt "meme" id="meme-image">
+    </div>
+    
+   
 </body>
 </html>
