@@ -8,25 +8,31 @@
     background: white;
     margin-top: 10px;
 }
+.imagens_adicionais
+{
+    height: 150px;
+    margin-top: 30px;
+}
 
 #meme-image{
     width: 100%;
     height: 100%;
-     
+    object-fit: cover;  
     border: 1px solid black;
     
 }
 #earth{
     margin-top: 10px;
-    background-color: brown
+    background-color: grey;
+    
 }
 
 #water{
-    background-color: blue;
+    background-color: grey;
 }
 
 #fire{
-    background-color: red;
+background-color: grey;
 }
 
 #meme-text{
@@ -35,7 +41,7 @@
     text-shadow: 5px 5px 5px black;
     width: 500px;
     height: 100px;
-    position: absolute;
+    position: relative;
 }
 #meme-insert
 {
