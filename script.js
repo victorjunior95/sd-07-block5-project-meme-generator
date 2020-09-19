@@ -1,6 +1,5 @@
-let text_input = document.getElementById('text-input');
-let text = document.getElementById('meme-text');
-let image = document.getElementById('meme-image');
+// let text_input = document.getElementById('text-input');
+// let text = document.getElementById('meme-text');
 let container = document.getElementById('meme-image-container');
 function carregarArquivo(event)
 {
@@ -10,28 +9,33 @@ function carregarArquivo(event)
         URL.revokeObjectURL(output.src);
     }
 }
-// let botao_earth = document.getElementById('earth');
-// let botao_fire = document.getElementById('fire');
-// let botao_water = document.getElementById('water');
+let botao_earth = document.getElementById("earth");
+let botao_fire = document.getElementById("fire");
+let botao_water = document.getElementById("water");
 
-// botao_earth.addEventListener('click', earth());
-// botão_fire.addEventListener('click', fire());
-// botao_water.addEventListener('click', water());
+botao_earth.addEventListener('click', earth());
+function earth()
+{
+    container.style.border = "6px groove rgb(0, 128, 0)";
+}
 
-// function earth()
-// {
-//     container.style.border = '6px groove rgb(0, 128, 0)';
-// }
+botão_fire.addEventListener('click', fire());
+function fire()
+{
+    container.style.border = "3px dashed rgb(255, 0, 0)";
+}
 
-// function fire()
-// {
-//     container.style.border = '3px dashed rgb(255, 0, 0)';
-// }
+botao_water.addEventListener('click', water());
+function water()
+{
+    container.style.border = "5px double rgb(0, 0, 255)";
+}
 
-// function water()
-// {
-//     container.style.border = '5px double rgb(0, 0, 255)';
-// }
+
+
+
+
+
 
 text_input.addEventListener('keyup', carrega_texto())
 
