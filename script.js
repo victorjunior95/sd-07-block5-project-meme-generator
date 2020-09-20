@@ -51,3 +51,8 @@ const borderSizeButton = document.getElementById('border-size');
 borderSizeButton.addEventListener('input', function() {
   document.getElementById('meme-image-container').style.borderWidth = borderSizeButton.value;
 })
+
+const borderStyleButton = document.getElementById('border-style');
+borderStyleButton.addEventListener('input', function() {
+  document.getElementById('meme-image-container').style.borderStyle = borderStyleButton.value;
+})
