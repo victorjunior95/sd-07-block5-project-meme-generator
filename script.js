@@ -16,3 +16,24 @@ function carregarImagem(event) {
 imagemInserida.addEventListener("change", function(event) {
     carregarImagem(event)
  });
+
+ let bordaFire = document.getElementById("fire");
+
+ bordaFire.addEventListener("click", function() {
+     let quadro = document.getElementById("quadro");
+     quadro.style.border = "3px dashed red"
+ })
+
+ let bordaWater = document.getElementById("water");
+
+ bordaWater.addEventListener("click", function() {
+    let quadro = document.getElementById("quadro");
+    quadro.style.border = "5px double blue"
+ })
+
+ let bordaEarth = document.getElementById("earth");
+
+ bordaEarth.addEventListener("click", function() {
+    let quadro = document.getElementById("quadro");
+    quadro.style.border = "6px groove green"
+ })
