@@ -41,3 +41,8 @@ const fontFamilyButton = document.getElementById('font-family');
 fontFamilyButton.addEventListener('input', function() {
   document.getElementById('meme-text').style.fontFamily = `${fontFamilyButton.value}`;
 })
+
+const fontColorButton = document.getElementById('font-color');
+fontColorButton.addEventListener('input', function() {
+  document.getElementById('meme-text').style.color = `${fontColorButton.value}`
+})
