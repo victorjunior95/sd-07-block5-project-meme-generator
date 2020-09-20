@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Meme generator</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/62f5da0234.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -84,12 +85,36 @@
         <img id="meme-4" class="img-proto" src="imgs/meme4.png" alt="meme4">
     </section>
     <section id="buttons" class="buttons">
-        <input type="button" id="save-button" value="Salvar">
         <input type="button" id="clear" value="Limpar tudo">
     </section>
     <footer>
         <div class="footer-content">
-            <button>Share</button>
+            <!--Esssa parte foi inspirada de um canal do youtube chamado Coding Market link: https://www.youtube.com/watch?v=YcEshVZNA5E-->
+            <div class="wrapper">
+                <div class="toggle-button">
+                    <ul>
+                        <li style="list-style-type: none;">Share</li>
+                        <li><a href="#" class="sm facebook">
+                            <span class="text">Facebook</span>
+                            <span class="icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </span>
+                        </a></li>
+                        <li><a href="#" class="sm twitter">
+                            <span class="text">Twitter</span>
+                            <span class="icon">
+                                <i class="fab fa-twitter"></i>
+                            </span>
+                        </a></li>
+                        <li><a href="#" class="sm instagram">
+                            <span class="text">Instagram</span>
+                            <span class="icon">
+                                <i class="fab fa-instagram"></i>
+                            </span>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
             <a href="https://www.stickpng.com/cat/memes?page=1" target="_blank">Página de memes</a>
             <p>Autor: Ygor Fonseca</p>
         </div>
