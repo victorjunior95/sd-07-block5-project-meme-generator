@@ -8,7 +8,7 @@ let imagem = document.getElementById('meme-image');
 let botao_water = document.getElementById('water');
 
 insere_imagem.addEventListener('change', function() {
-    insere_imagem = insere_imagem.value;
+    i = insere_imagem.value;
     imagem.src = URL.createObjectURL (event.target.files[0]);
 })
 // botao_earth.addEventListener('click', function(){
