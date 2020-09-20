@@ -36,3 +36,8 @@ const fontSizeButton = document.getElementById('font-size');
 fontSizeButton.addEventListener('input', function() {
   document.getElementById('meme-text').style.fontSize = `${fontSizeButton.value}px`;
 })
+
+const fontFamilyButton = document.getElementById('font-family');
+fontFamilyButton.addEventListener('input', function() {
+  document.getElementById('meme-text').style.fontFamily = `${fontFamilyButton.value}`;
+})
