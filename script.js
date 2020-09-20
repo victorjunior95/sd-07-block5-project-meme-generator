@@ -61,3 +61,13 @@ const borderColorButton = document.getElementById('border-color');
 borderColorButton.addEventListener('input', function() {
   document.getElementById('meme-image-container').style.borderColor = borderColorButton.value;
 })
+
+const inputList = document.getElementsByClassName('input-to-clear');
+document.getElementById('clear').addEventListener('click', function() {
+  document.getElementById('meme-text').innerText = '';
+  document.getElementById('meme-image-container').style.border = '';
+  output.src = '';
+  for (let i = 0; i < inputList.length; i += 1) {
+    inputList[i].value = '';
+  }
+})

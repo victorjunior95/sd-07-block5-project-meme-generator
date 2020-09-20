@@ -7,24 +7,24 @@
 </head>
 <body>
     <header>
-        <h1>&gt; Meme Generator &lt;</h1>
+        <h1>Meme Generator</h1>
         <section class="input-image-meme">
             <label for="meme-file">Foto(max 500kb): </label>
             <input type="file" name="meme-file" id="meme-insert" accept="image/*">
         </section>
         <section class="input-text-meme">
             <label for="text">Texto: </label>
-            <input type="text" name="text" id="text-input" maxlength="60">
+            <input class="input-to-clear" type="text" name="text" id="text-input" maxlength="60">
         </section>
         <hr>
         <section class="text-format">
             <section>
                 <label for="font-size">Tamanho da fonte</label>
-                <input class="text-format-input" id="font-size" type="number" name="font-size" min="25" max="40" placeholder="em pixels">
+                <input class="text-format-input input-to-clear" id="font-size" type="number" name="font-size" min="25" max="40" placeholder="em pixels">
             </section>
             <section>
                 <label for="font-family">Tipo da fonte</label>
-                <select class="text-format-input" name="font-family" id="font-family">
+                <select class="text-format-input input-to-clear" name="font-family" id="font-family">
                     <option value="Arial" style="font-family: Arial, Helvetica, sans-serif;">Arial</option>
                     <option value="Impact" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Impact</option>
                     <option value="monospace" style="font-family: monospace;">Monospace</option>
@@ -35,14 +35,14 @@
             </section>
             <section>
                 <label for="font-color">Cor da fonte</label>
-                <input class="text-format-input" id="font-color" class="font-color" name="font-color" type="color">
+                <input class="text-format-input input-to-clear" id="font-color" class="font-color" name="font-color" type="color">
             </section>
         </section>
         <hr>
         <section class="border-format">
             <section>
                 <label for="border-size">Tamanho da borda</label>
-                <select name="border-size" id="border-size">
+                <select class="input-to-clear" name="border-size" id="border-size">
                     <option value="1px">1</option>
                     <option value="2px">2</option>
                     <option value="3px">3</option>
@@ -53,7 +53,7 @@
             </section>
             <section>
                 <label for="border-style">Tipo da borda</label>
-                <select name="border-style" id="border-style">
+                <select class="input-to-clear" name="border-style" id="border-style">
                     <option value="solid">Solid</option>
                     <option value="dotted">Dotted</option>
                     <option value="dashed">Dashed</option>
@@ -62,7 +62,7 @@
             </section>
             <section>
                 <label for="border-color">Cor da borda</label>
-                <input id="border-color" type="color">
+                <input class="input-to-clear" id="border-color" type="color">
             </section>
         </section>
     </header>
@@ -83,6 +83,17 @@
         <img id="meme-3" class="img-proto" src="imgs/meme3.png" alt="meme3">
         <img id="meme-4" class="img-proto" src="imgs/meme4.png" alt="meme4">
     </section>
+    <section id="buttons" class="buttons">
+        <input type="button" id="save-button" value="Salvar">
+        <input type="button" id="clear" value="Limpar tudo">
+    </section>
+    <footer>
+        <div class="footer-content">
+            <button>Share</button>
+            <a href="https://www.stickpng.com/cat/memes?page=1" target="_blank">Página de memes</a>
+            <p>Autor: Ygor Fonseca</p>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
