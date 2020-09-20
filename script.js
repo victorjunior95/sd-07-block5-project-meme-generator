@@ -46,3 +46,8 @@ const fontColorButton = document.getElementById('font-color');
 fontColorButton.addEventListener('input', function() {
   document.getElementById('meme-text').style.color = `${fontColorButton.value}`
 })
+
+const borderSizeButton = document.getElementById('border-size');
+borderSizeButton.addEventListener('input', function() {
+  document.getElementById('meme-image-container').style.borderWidth = borderSizeButton.value;
+})
