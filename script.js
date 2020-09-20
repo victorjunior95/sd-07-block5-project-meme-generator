@@ -31,3 +31,8 @@ const output = document.getElementById('meme-image');
 imgInsert.addEventListener('change', function() {
   output.src = window.URL.createObjectURL(this.files[0]);
 })
+
+const fontSizeButton = document.getElementById('font-size');
+fontSizeButton.addEventListener('input', function() {
+  document.getElementById('meme-text').style.fontSize = `${fontSizeButton.value}px`;
+})

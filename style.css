@@ -61,13 +61,13 @@ header h1 {
 }
 
 .meme-text {
+  text-align: center;
   color: white;
   font-size: 30px;
   overflow: inherit;
   position: absolute;
   text-shadow: 5px 5px 5px black;
-  top: 280px;
-  vertical-align: auto;
+  top: 260px;
   width: 400px;
 }
 
