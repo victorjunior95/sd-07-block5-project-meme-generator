@@ -1,5 +1,7 @@
-let textoEntrada = document.getElementById("text-input").value;
-let imagem = document.getElementById("meme-insert").value;
-let textoSaida = document.getElementById("meme-text");
+let textoDigitado = document.getElementById("text-input");
 
-textoSaida.innerText= textoEntrada
+textoDigitado.addEventListener("input", function(event){
+    let textoMeme = document.getElementById("meme-text");
+    let texto = event.target.value;
+    textoMeme.innerText = texto;
+})
