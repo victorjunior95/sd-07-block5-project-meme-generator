@@ -1,5 +1,5 @@
 function loadFile(event) {
-    let divImage = document.getElementById("meme-image-container");
+    let divImage = document.getElementById("meme-image");
     let source = URL.createObjectURL(event.target.files[0]);
     divImage.innerHTML = `<img  src='${source}'                            
                         </img>`;
