@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,12 +11,12 @@
     <header><h1>Meme Generator</h1></header>
     <section>
         <span>Text:</span> 
-        <input type="text" id="text-input" size="60" maxlength=60 oninput="loadText()">
+        <input type="text" id="text-input" size="60" maxlength=60 oninput = "loadText()">
     </section>
 
     <div>
         <span>Picture:</span>
-        <input type="file" accept = "image/* "id="meme-insert" onchange = "insertImagef()">
+        <input type="file" accept = "image/*" id="meme-insert" onchange = "insertImagef()">
     </div>
 
     <nav>
@@ -26,17 +26,19 @@
     </nav>
 
     <div id="meme-image-container">
-        <p id="meme-text"></p>
-        <img src="" alt="meme" id="meme-image">
+        <!-- <div id="meme-text"></div> -->
+        <img src="" id="meme-image">
+        <p id="meme-text"></p> 
     </div>
-
-    <img src="aguia.jpg" class="additional_images" id="m1">
-    <img src="cabra.jpg" class="additional_images" id="m2">
-    <img src="leao.jpg" class="additional_images" id="m3">
-    <img src="tigre.jpeg" class="additional_images" id="m4">
+    <div id="additional_memes">
+        <img src="aguia.jpg" class="additional_images" id="m1">
+        <img src="cabra.jpg" class="additional_images" id="m2">
+        <img src="leao.jpg" class="additional_images" id="m3">
+        <img src="tigre.jpeg" class="additional_images" id="m4">
+    </div>
     
-   
+    <script src="script.js"></script>
    
 </body>
-<script src="script.js"></script>
+
 </html>
