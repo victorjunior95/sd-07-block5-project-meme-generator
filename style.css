@@ -1,7 +1,24 @@
-#meme-image-container {
+/*#meme-image-container {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
     border: 2px solid black;
-    width: 300px;
-    height: 300px;
-    margin: 20px;
-    padding: 50px;
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 40%;
+}*/
+
+#meme-image-container {
+    position: relative;
+    text-align: center;
 }
+
+
+
+#meme-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
