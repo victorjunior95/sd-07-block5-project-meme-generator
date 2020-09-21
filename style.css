@@ -13,7 +13,7 @@
         font-size: 30px;
     }
     
-    .image-container {
+    #meme-image-container {
         background-color: white;
         border-color: black;
         border-style: solid;
@@ -23,7 +23,7 @@
         width: 700px;
     }
     
-    .meme-image-container {
+    #meme-image {
         background-color: white;
         border: 1px solid black;
         height: 448px;
