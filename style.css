@@ -3,7 +3,6 @@
     border: 1px solid rgb(0,0,0);
     width: 30%;
     height: 300px;
-    position: relative;
     margin-top: 50px;
 }
 
@@ -11,9 +10,8 @@
     color: white;
     font-size: 30px;
     text-shadow: black 5px 5px 5px;
-    position: absolute;
+    position: relative;
 }
-
-#text-input {
-    z-index: 2
+#meme-image {
+    positive: absolute;
 }
