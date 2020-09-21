@@ -20,20 +20,20 @@ imagemInserida.addEventListener("change", function(event) {
  let bordaFire = document.getElementById("fire");
 
  bordaFire.addEventListener("click", function() {
-     let quadro = document.getElementById("quadro");
+     let quadro = document.getElementById("meme-image-container");
      quadro.style.border = "3px dashed red"
  })
 
  let bordaWater = document.getElementById("water");
 
  bordaWater.addEventListener("click", function() {
-    let quadro = document.getElementById("quadro");
+    let quadro = document.getElementById("meme-image-container");
     quadro.style.border = "5px double blue"
  })
 
  let bordaEarth = document.getElementById("earth");
 
  bordaEarth.addEventListener("click", function() {
-    let quadro = document.getElementById("quadro");
+    let quadro = document.getElementById("meme-image-container");
     quadro.style.border = "6px groove green"
  })
