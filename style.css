@@ -1,5 +1,5 @@
 #meme-image-container {
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
   /* border: 1px solid rgb(0, 0, 0); */
   border-color: black;
   border-style: solid;
@@ -15,5 +15,10 @@
   font-size: 30px;
   text-shadow: black 5px 5px 5px;
   position: absolute;
+}
+
+#meme-image {
+  background-color: white;
+  border: 1px solid black;
 }
 
