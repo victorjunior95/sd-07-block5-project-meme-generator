@@ -1,31 +1,28 @@
-// let text_input = document.getElementById('text-input');
-// let text = document.getElementById('meme-text');
-let insere_imagem = document.getElementById('meme-insert');
-let container = document.getElementById('meme-image-container');
-let botao_earth = document.getElementById('earth');
-let botao_fire = document.getElementById('fire');
-let imagem = document.getElementById('meme-image');
-let botao_water = document.getElementById('water');
+let insertImage = document.getElementById("meme-insert");
+let memeImage = document.getElementById("meme-image");
+let meme1 = document.getElementById("m1");
+let meme2 = document.getElementById("m2");
+let meme3 = document.getElementById("m3");
+let meme4 = document.getElementById("m4");
 
-insere_imagem.addEventListener('change', function() {
-    i = insere_imagem.value;
-    imagem.src = URL.createObjectURL (event.target.files[0]);
-})
-// botao_earth.addEventListener('click', function(){
-//     container.style.border = '6px groove rgb(0, 128, 0)';
-// });
+insertImage.addEventListener("change",insertImagef);
 
-// botão_fire.addEventListener('click', function(){
-//     container.style.border = '3px dashed rgb(255, 0, 0)';
-// });
+function insertImagef(event)
+{
+    memeImage.src = URL.createObjectURL(event.target.files[0]);
+}
 
-// botao_water.addEventListener('click', function(){
-//     container.style.border = '5px double rgb(0, 0, 255)';
-// });
+text_input.addEventListener('keyup', loadText())
 
-text_input.addEventListener('keyup', carrega_texto())
-function carrega_texto()
+function loadText()
 {
     let x = document.getElementById("text-input").value;
     document.getElementById("meme-text").innerHTML = x;
 }
+
+// meme1.addEventistener("click",meme1())
+
+// function meme1()
+// {
+//     memeImage.src = meme1.src;
+// }

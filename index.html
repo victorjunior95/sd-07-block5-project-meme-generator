@@ -3,33 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Meme Generator</title>
+    <title>Project Meme Generator</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     
 </head>
 <body>
     <header><h1>Meme Generator</h1></header>
     <section>
-        <span>Texto:</span> 
-        <input type="text" id="text-input" size="60" maxlength=60 oninput="carrega_texto()">
+        <span>Text:</span> 
+        <input type="text" id="text-input" size="60" maxlength=60 oninput="loadText()">
     </section>
+
     <div>
-        <span>Foto:</span>
-        <input type="file" id="meme-insert" name="meme-figure">
+        <span>Picture:</span>
+        <input type="file" accept = "image/* "id="meme-insert" onchange = "insertImagef()">
     </div>
-    <button id="water">Água</button>
-    <button id="fire">Fogo</button>
-    <button id="earth">Terra</button>
-    <script src="script.js"></script>
+
+    <nav>
+        <button id="water">Water</button>
+        <button id="fire">Fire</button>
+        <button id="earth">Earth</button>
+    </nav>
+
     <div id="meme-image-container">
         <p id="meme-text"></p>
-        <img src="" alt "meme" id="meme-image">
+        <img src="" alt="meme" id="meme-image">
     </div>
-    <img src="aguia.jpg" class="imagens_adicionais" id="n1">
-    <img src="cabra.jpg" class="imagens_adicionais" id="n2">
-    <img src="leao.jpg" class="imagens_adicionais" id="n3">
-    <img src="tigre.jpeg" class="imagens_adicionais"id="n4">
-    <script src="script.js"></script>
+
+    <img src="aguia.jpg" class="additional_images" id="m1">
+    <img src="cabra.jpg" class="additional_images" id="m2">
+    <img src="leao.jpg" class="additional_images" id="m3">
+    <img src="tigre.jpeg" class="additional_images" id="m4">
+    
+   
    
 </body>
 <script src="script.js"></script>
