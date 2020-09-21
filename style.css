@@ -4,6 +4,8 @@
     width: 30%;
     height: 300px;
     margin-top: 50px;
+    position: relative
+    
 }
 
 #meme-text {
@@ -13,5 +15,9 @@
     position: relative;
 }
 #meme-image {
-    positive: absolute;
+    position: absolute;
+    background-color: rgb(255,255,255);
+    border: 1px solid rgb(0,0,0);
+    width: 30%;
+    height: 300px;
 }
