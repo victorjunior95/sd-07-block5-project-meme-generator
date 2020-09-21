@@ -28,9 +28,9 @@ p {
     border-color: black;
     border-style: solid;
     border-width: 1px;
-    height: 450px;
+    height: 100%;
     margin: auto;
-    width: 700px;
+    width: 100%;
     overflow: hidden;
 }
 
