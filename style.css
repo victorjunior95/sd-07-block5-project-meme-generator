@@ -1,6 +1,8 @@
 img {
     height: 100%;
     width: 100%;
+    position: relative;
+    z-index: 1;
 }
 
 h1 {
@@ -13,16 +15,6 @@ p {
     font-size: 30px;
 }
 
-.image-container {
-    background-color: white;
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
-    height: 450px;
-    margin: auto;
-    width: 700px;
-}
-
 .meme-image-container {
     background-color: white;
     border-color: black;
@@ -32,6 +24,8 @@ p {
     margin: auto;
     width: 700px;
     overflow: hidden;
+    z-index: 1;
+    position: relative;
 }
 
 .meme-text {
@@ -47,6 +41,7 @@ p {
     border-bottom: 10px;
     border-left: 10px;
     border-right: 10px;
+    z-index: 3;
 }
 
 body {
