@@ -1,5 +1,5 @@
 window.onload = function() {
-textMeme();
+
 }
 
 function textMeme() {
@@ -10,3 +10,18 @@ function textMeme() {
   memeText.innerText = text;  
   });
 }
+
+let imageMeme = function (event) {
+    let memeInsert = document.getElementById('meme-insert');
+   memeInsert.src = URL.createObjetctURL(event.target.files[0]);
+   memeInsert.onload = function () {
+      URL.revokeObjectURL (memeInsert.src);
+    };
+  }
+
+  let meme = document.getElementById('image');
+  meme.addEventListener('change', imageMeme);
+
+  
+  let memeImage = document.getElementById('image');
+  memeImage.addEventListener('change', imageMeme);
