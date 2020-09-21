@@ -2,8 +2,6 @@ let container = document.getElementById('meme-image-container');
 let insertImage = document.getElementById('meme-insert');
 let memeImage = document.getElementById('meme-image');
 
-
-
 insertImage.addEventListener('change',insertImagef);
 
 function insertImagef(event)
@@ -19,7 +17,7 @@ text_input.addEventListener('keyup', loadText);
 function loadText()
 {
     let x = document.getElementById('text-input').value;
-    document.getElementById('meme-text').innerHTML = x;
+    document.getElementById("meme-text").innerText = x;
 }
 
 let meme1 = document.getElementById('m1');
@@ -50,9 +48,8 @@ water.addEventListener("click", function() {
     container.style.border = "5px double blue";
 });
 
-
 let fire = document.getElementById('fire');
 water.addEventListener("click", function() {
-    container.style.border = "5px double blue";
+    container.style.border = "3px dashed red";
 });
 
