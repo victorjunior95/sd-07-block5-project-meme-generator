@@ -8,19 +8,18 @@
 </head>
 <body>
     <header>
-        <h1>MEME GENERATOR</h1>
+        <h1 class="input">MEME GENERATOR</h1>
     </header>
-    <section>
-            <label>Texto:</label>
-            <input id="text-input" type="text" maxlength="60"><br><br>
-            <label>Foto:</label>
-            <input class="textbox" id="meme-insert" accept="image/*" type="file">
+    <section class="effects">
+            <label for="text-input">Texto:</label>
+            <input id="text-input" type="text" placeholder="texto do meme" maxlength="60"><br><br>
+            <label for="meme-insert">Foto:</label>
+            <input id="meme-insert" accept="image/*" type="file">
     </section>
     
     <section class="container" id="meme-image-container">
-            <img id="meme-image" src="">
-            <p id="meme-text" class="meme-text></p>
-            </div>
+            <img id="meme-image" class="meme-image" src="">
+            <p id="meme-text" class="meme-text"></p>
     </section>
         
         <section class="bBorder">
