@@ -1,23 +1,16 @@
 #meme-image-container {
-    background-color: rgb(255,255,255);
-    border: 1px solid rgb(0,0,0);
-    width: 30%;
-    height: 300px;
-    margin-top: 50px;
-    position: relative
-    
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  width: 30%;
+  height: 300px;
+  margin-top: 50px;
+  position: relative;
 }
 
 #meme-text {
-    color: white;
-    font-size: 30px;
-    text-shadow: black 5px 5px 5px;
-    position: relative;
+  color: white;
+  font-size: 30px;
+  text-shadow: black 5px 5px 5px;
+  position: absolute;
 }
-#meme-image {
-    position: absolute;
-    background-color: rgb(255,255,255);
-    border: 1px solid rgb(0,0,0);
-    width: 30%;
-    height: 300px;
-}
+
