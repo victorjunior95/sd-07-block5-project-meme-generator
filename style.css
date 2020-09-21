@@ -1,4 +1,7 @@
 #meme-image-container {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
     background-color: white;
     position: relative;
 }
@@ -15,14 +18,6 @@
 #meme-image {
     position: absolute;
     top: 0;
-}
-
-#quadro {
-    width: 200px;
-    height: 200px;
-    border: 1px solid black;
-    background-color: white;
-    position: relative;
 }
 
 #fire {
