@@ -10,14 +10,3 @@ function textMeme() {
   memeText.innerText = text;  
   });
 }
- 
-function imageMeme(event) {
-  let memeIsert = document.getElementById('meme-insert');
-  memeIsert.src = URL.createObjetctURL(event.target.files[0]);
-  memeInsert.onload = function () {
-    URL.revokeObjectURL(memeIsert.src);
-  };
-}
-
-// let meme = document.getElementById('image');
-// meme.addEventListener('change', imageMeme);
