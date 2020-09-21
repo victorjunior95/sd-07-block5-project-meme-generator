@@ -7,19 +7,15 @@
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 </head>
 <body>
+    <Section>
+       <input type="text" id="text-input" maxlength="60"></br></br>
+    </Section>
 
-    <form>
-        <label for="text-input">Digite o texto do seu Meme:</label></br>
-            <input type="text" id="text-input" maxlength="60"></br></br>
-        <label for="image">Selecione uma imagem:</label></br>
-            <input type="file" accept="image/*" id="image">              
-    </form>
-
-    <div id="meme-image-container">
-        <div id="meme-text"></div>
+    <section id="meme-image-container">
+        <p id="meme-text"></p>
         <div id="meme-image"></div>
         <img id="meme-insert">   
-    </div>
+    </section>
     
       
     <script src="script.js"></script>  
