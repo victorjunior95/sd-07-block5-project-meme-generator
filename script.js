@@ -1,5 +1,5 @@
 function loadFile(event) {
-    const divImage = document.getElementById("meme-image");
+    const divImage = document.getElementById("meme-image-container");
     const source = URL.createObjectURL(event.target.files[0]);
     divImage.innerHTML = `<img  class='background-image'
                               src='${source}'
@@ -8,7 +8,7 @@ function loadFile(event) {
 }
 
 function insertImage(src) {
-    const divImage = document.getElementById("meme-image");
+    const divImage = document.getElementById("meme-image-container");
     divImage.innerHTML = `<img  class='background-image'
                               src='/imgs/${src}' >
                              

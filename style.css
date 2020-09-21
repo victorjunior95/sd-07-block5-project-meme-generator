@@ -1,5 +1,10 @@
 .background-image {
-    object-fit: cover;
+    background-color: white;
+}
+
+img {
+    height: 100%;
+    width: 100%;
 }
 
 h1 {
@@ -51,5 +56,4 @@ p {
 body {
     background: url(https://super.abril.com.br/wp-content/uploads/2019/09/fotosvencedora.png);
     background-size: 100%;
-    background
 }
