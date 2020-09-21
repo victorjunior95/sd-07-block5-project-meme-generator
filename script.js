@@ -1,7 +1,7 @@
 const textoDigitado = document.getElementById('text-input');
 
-textoDigitado.addEventListener('input', function(event) {
-  const textoMeme = document.getElementById("meme-text");
+textoDigitado.addEventListener('input', function (event) {
+  const textoMeme = document.getElementById('meme-text');
   const texto = event.target.value;
   textoMeme.innerText = texto;
 });
@@ -17,51 +17,51 @@ imagemInserida.addEventListener('change', function (event) {
   carregarImagem(event);
 });
 
-  let bordaFire = document.getElementById('fire');
+const bordaFire = document.getElementById('fire');
 
-bordaFire.addEventListener('click', function() {
-      let quadro = document.getElementById('meme-image-container');
-      quadro.style.border = '3px dashed red'
+bordaFire.addEventListener('click', function () {
+  const quadro = document.getElementById('meme-image-container');
+  quadro.style.border = '3px dashed red';
   })
 
- let bordaWater = document.getElementById('water');
+const bordaWater = document.getElementById('water');
 
-bordaWater.addEventListener('click', function() {
-      let quadro = document.getElementById('meme-image-container');
-      quadro.style.border = '5px double blue'
+bordaWater.addEventListener('click', function () {
+  const quadro = document.getElementById('meme-image-container');
+  quadro.style.border = '5px double blue';
   })
 
- let bordaEarth = document.getElementById('earth');
+const bordaEarth = document.getElementById('earth');
 
-bordaEarth.addEventListener('click', function() {
-      let quadro = document.getElementById("meme-image-container");
-      quadro.style.border = "6px groove green"
+bordaEarth.addEventListener('click', function () {
+  const quadro = document.getElementById('meme-image-container');
+  quadro.style.border = '6px groove green';
   })
 
- let meme1 = document.getElementById("meme-1");
+const meme1 = document.getElementById('meme-1');
 
-meme1.addEventListener("click", function() {
-      let imagemCarregada = document.getElementById("meme-image");
-      imagemCarregada.src = "imgs/meme1.png"
+meme1.addEventListener('click', function () {
+  const imagemCarregada = document.getElementById('meme-image');
+  imagemCarregada.src = 'imgs/meme1.png';
   })
 
- let meme2 = document.getElementById("meme-2");
+const meme2 = document.getElementById('meme-2');
 
-meme2.addEventListener("click", function() {
-      let imagemCarregada = document.getElementById("meme-image");
-      imagemCarregada.src = "imgs/meme2.png"
+meme2.addEventListener('click', function () {
+    const imagemCarregada = document.getElementById('meme-image');
+    imagemCarregada.src = 'imgs/meme2.png';
   })
 
- let meme3 = document.getElementById('meme-3');
+const meme3 = document.getElementById('meme-3');
 
-meme3.addEventListener('click', function() {
-      let imagemCarregada = document.getElementById('meme-image');
-      imagemCarregada.src = "imgs/meme3.png"
+meme3.addEventListener('click', function () {
+    const imagemCarregada = document.getElementById('meme-image');
+    imagemCarregada.src = 'imgs/meme3.png';
   })
 
- let meme4 = document.getElementById('meme-4');
+const meme4 = document.getElementById('meme-4');
 
-meme4.addEventListener('click', function() {
-      let imagemCarregada = document.getElementById('meme-image');
-      imagemCarregada.src = "imgs/meme4.png"
+meme4.addEventListener('click', function () {
+    const imagemCarregada = document.getElementById('meme-image');
+    imagemCarregada.src = 'imgs/meme4.png';
   })
