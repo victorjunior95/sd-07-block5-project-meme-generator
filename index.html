@@ -10,12 +10,15 @@
 <body>
     <h1>MEME GENERATOR</h1>
     <span>Texto:</span>
-    <input type="text" maxlength="60" id="text-input"><br><br>
+    <div>
+        <input type="text" maxlength="60" id="text-input"><br><br>
+    </div>
     <span>Foto:</span>
     <input type="file" accept="image/*" id="meme-insert" onchange="showImage(event)">
-    <div id="meme-image-container">
-        <img id="meme-image" src="">
+    <section id="meme-image-container">
         <div id="meme-text"></div>
+        <img id="meme-image" src="" alt="imagem">
+
     </div>
     <div id="buttons">
         <button id="fire">Fire</button>
@@ -36,10 +39,10 @@
     document.getElementById('water').addEventListener("click", azul);
     document.getElementById('earth').addEventListener("click", verde);
 
-    document.getElementById('meme-1').addEventListener("click",mostraminiatura);
-    document.getElementById('meme-2').addEventListener("click",mostraminiatura);
-    document.getElementById('meme-3').addEventListener("click",mostraminiatura);
-    document.getElementById('meme-4').addEventListener("click",mostraminiatura);
+    document.getElementById('meme-1').addEventListener("click", mostraminiatura);
+    document.getElementById('meme-2').addEventListener("click", mostraminiatura);
+    document.getElementById('meme-3').addEventListener("click", mostraminiatura);
+    document.getElementById('meme-4').addEventListener("click", mostraminiatura);
 
 </script>
 
