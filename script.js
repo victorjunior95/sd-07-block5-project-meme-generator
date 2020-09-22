@@ -9,5 +9,6 @@ textImage.addEventListener('keyup', function(){
 
 insertImage.addEventListener('change', function(event){
     insertImage = insertImage.value;
-    imageMeme.src = URL.createObjectURL(event.target.files[0]);
+    imageMeme.src = URL.createObjectURL(event.target.files);
 });
+
