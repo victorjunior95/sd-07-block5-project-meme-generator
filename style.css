@@ -1,7 +1,7 @@
 #meme-image-container{
     width:350px;
     height:400px;
-    background: white;
+    background-color: white;
     border: 1px solid black;
     position: relative;
     margin: auto;
@@ -10,7 +10,7 @@
 #meme-image{
     width:350px;
     height:400px;
-    background: white;
+    background-color: white;
     position: absolute;
 }
 
@@ -21,7 +21,6 @@
     color: white;
     bottom: 0;
     margin-top: 300px;
-    width: 100px;
 }
 
 #fire{
