@@ -16,7 +16,7 @@ function textMeme() {
 
 let foto = function (event) {
   let memeImage = document.getElementById('meme-image');
-  memeImage.src = window.URL.createObjetctURL(event.target.files[0]);
+  memeImage.src = window.URL.createObjectURL(event.target.files[0]);
 };
 
 let memeInsert = document.getElementById('meme-insert');
