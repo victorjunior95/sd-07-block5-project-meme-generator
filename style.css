@@ -1,3 +1,7 @@
+button {
+    margin: 10px;
+}
+
 input {
     margin-bottom: 20px
 }
@@ -8,6 +12,7 @@ input {
     background-color: white;
     border: 1px solid black;
     position:relative;
+    margin-bottom: 20px;
 }
 
 #meme-image {
@@ -20,4 +25,16 @@ input {
     font-size: 30px;
     color: white;
     position: absolute;
+}
+
+#fire {
+    background-color: red;
+}
+
+#earth {
+    background-color: green;
+}
+
+#water {
+    background-color: blue;
 }
