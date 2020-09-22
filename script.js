@@ -8,12 +8,13 @@ let finalmeme = document.getElementById("meme-image-container");
 function textUpdate(i) {
   txtout.innerText = i.target.value;
 }
+document.body.onload = function () {
+    txtin.addEventListener("input", textUpdate);
+  
+  };
 // Atualizar a imagem do meme
 imgin.addEventListener('change', function(event){
     imgout.src = URL.createObjectURL(event.target.files[0]);
 })
 
-document.body.onload = function () {
-  document.querySelector("#text-input").addEventListener("input", textUpdate);
 
-};
