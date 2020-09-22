@@ -1,13 +1,10 @@
 // Acompanhando a explicação do GUGA junto com o colega Ander
-let memeBorder = document.getElementById("meme-image-container");
-
 let inputText = document.getElementById("text-input");
 inputText.addEventListener("input", function() {
     let memeText = document.getElementById("meme-text");
     memeText.innerHTML = inputText.value;
 });
 
-// const lbltexto = document.getElementById('text-input'); lbltexto.addEventListener('keyup', function () { const texto = document.getElementById('text-input').value; document.getElementById('meme-text').innerHTML = texto; 
 // linha de comando melhorado no plantão do GUGA com o colega Rodrigo Pardo
 //Antes
 /*let updateFile = function(event) {
@@ -31,6 +28,7 @@ btnRed.addEventListener("click", function() {
     memeBorder,className = "redborder";
 });*/
 //Agora
+let memeBorder = document.getElementById("meme-image-container");
 const btnRed = document.getElementById("fire")
 btnRed.addEventListener("click", function() {
     memeBorder.style.border = '3px dashed red';

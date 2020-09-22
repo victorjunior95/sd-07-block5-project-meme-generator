@@ -1,4 +1,4 @@
-#meme-image-container {
+.meme-image-container {
     height: 400px;
     width: 400px;
     background-color: white;
@@ -7,13 +7,13 @@
     border: 1px solid rgb(0, 0, 0);
     position: relative;
 }
-#meme-image {
+.meme-image {
     object-fit: cover;
     height: 400px;
     width: 400px;
     background-color: white;
 }
-#meme-text {
+.meme-text {
     text-shadow: 5px 5px 5px black;
     text-align: center;
     word-wrap: break-word;
@@ -23,19 +23,18 @@
     font-weight: 500;
     position: absolute;
     bottom: 60px;
-    left: 10px;
 }
-#fire {
+.fire {
     background-color: red;
     color: white;
     height: 30px;
 }
-#water {
+.water {
     background-color: blue;
     color: white;
     height: 30px;
 }
-#earth {
+.earth {
     background-color: green;
     color: white;
     height: 30px;
