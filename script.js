@@ -27,15 +27,3 @@ document.getElementById('text-input').addEventListener("keyup", function(){
     document.getElementById('meme-text').innerText = document.getElementById('text-input').value;
 });
 
-
-
-// let memeAqui = document.querySelector('.meme')
-
-// memeAqui.addEventListener('click', memePronto);
-// function memePronto() {
-//     let selecao = document.querySelector('.selecionado');
-//     if (selecao !== null) {
-//         selecao.classList.remove('selecionado');
-//     }
-//     event.target.classList.add('selecionado');
-// }
