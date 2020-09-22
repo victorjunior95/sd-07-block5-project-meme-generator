@@ -29,7 +29,6 @@
 }
 
 .meme-text {
-  /*border: 2px solid black; */
   align-items: center;
   box-sizing: border-box;
   color: white;
@@ -54,10 +53,10 @@
 
 body {
   background: black;
-  font: normal 13pt Verdana;
+  font: normal 13px Verdana;
   line-height: 1.5;
-  width: 1366 x 768;;
   text-align: center;
+  width: 1366 x 768;
 }
 
 footer {
@@ -75,7 +74,7 @@ header {
 section {
   background: white;
   border-radius: 10px;
-  box-shadow: 3px 3px 10px rgba(146, 139, 139, 0.384);
+  box-shadow: 3px 3px 10px rgba(146 , 139 , 139 , 0.384);
   color: black;
   height: 800px;
   margin: auto;

@@ -30,17 +30,17 @@ inputImage.addEventListener('change', function (event){
   };
 });
 
-const fire = document.querySelector('#fire')
-fire.addEventListener('click', function (){
+const fire = document.querySelector('#fire');
+fire.addEventListener('click', function () {
   containerBorder.style.border = '3px dashed red';
 });
 
-const water = document.querySelector('#water')
-water.addEventListener('click', function (){
+const water = document.querySelector('#water');
+water.addEventListener('click', function () {
   containerBorder.style.border = '5px double blue';
 });
 
-const earth = document.querySelector('#earth')
-earth.addEventListener('click', function (){
+const earth = document.querySelector('#earth');
+earth.addEventListener('click', function () {
   containerBorder.style.border = 'groove 6px green';
 });
