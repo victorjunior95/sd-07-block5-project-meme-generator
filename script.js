@@ -25,7 +25,7 @@ document.querySelector('#meme-4').addEventListener('click', function (event) {
 
 inputImage.addEventListener('change', function (event) {
   image.src = URL.createObjectURL(event.target.files[0]);
-  image.onload = function () {
+  image.onload = function() {
     URL.revokeObjectURL(image.src);
   };
 });
