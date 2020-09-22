@@ -11,24 +11,24 @@
     <header>
         <h1>MEME GENERATOR</h1>
     </header>
-    <div>
-        <form action="">
-
+    <div class= "conteiner">
+        <form>
+            <!--Colocar texto-->
             <label for="text-input">Texto:</label>
             <input type="text" id="text-input" name="text-input" required="required" maxlength="60"><br><br>
-            
+            <!--Carregar imagem-->
             <label for="foto-meme">Foto:</label>
-            <input type="file" id="foto-meme" name="foto-meme">
+            <input type="file" id="foto-meme" name="foto-meme" onchange="loadFile(event)">
+            
 
         </form>
-        <img id= "output" src="foto-meme" width="200"/>
-        <script>
+            <img id="output" width="200" />
 
+        <script>
             var loadFile = function(event) {
                 var image = document.getElementById('output');
                 image.src = URL.createObjectURL(event.target.files[0]);
             };
-
         </script>
         
     </div>
