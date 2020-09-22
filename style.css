@@ -29,11 +29,12 @@
 }
 
 .meme-text {
+  /*border: 2px solid black; */
   align-items: center;
   box-sizing: border-box;
   color: white;
   display: flex;
-  font-family: Arial, Helvetica, sans-serif;
+  font: 30px Arial;
   font-size: 30px;
   height: 12%;
   justify-content: center;
@@ -42,7 +43,7 @@
   position: absolute;
   text-align: center;
   text-shadow: 5px 5px 5px black;
-  top: 680px;
+  top: 780px;
   width: 700px;
   word-wrap: break-word;
 }
@@ -53,9 +54,9 @@
 
 body {
   background: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: medium;
+  font: normal 13pt Verdana;
   line-height: 1.5;
+  width: 1366 x 768;;
   text-align: center;
 }
 
@@ -74,12 +75,12 @@ header {
 section {
   background: white;
   border-radius: 10px;
-  box-shadow: 3px 3px 10px rgba(146 , 139 , 139 , 0.384);
+  box-shadow: 3px 3px 10px rgba(146, 139, 139, 0.384);
   color: black;
   height: 800px;
   margin: auto;
   padding: 2%;
-  position: relative;
+  position: flex;
   text-align: center;
   width: 900px;
 }

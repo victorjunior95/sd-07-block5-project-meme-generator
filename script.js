@@ -23,24 +23,24 @@ document.querySelector('#meme-4').addEventListener('click', function (event) {
   image.src = event.target.src;
 });
 
-inputImage.addEventListener('change', function (event) {
+inputImage.addEventListener('change', function (event){
   image.src = URL.createObjectURL(event.target.files[0]);
-  image.onload = function() {
+  image.onload = function () {
     URL.revokeObjectURL(image.src);
   };
 });
 
-const fire = document.querySelector('#fire');
-fire.addEventListener('click', function () {
+const fire = document.querySelector('#fire')
+fire.addEventListener('click', function (){
   containerBorder.style.border = '3px dashed red';
 });
 
-const water = document.querySelector('#water');
-water.addEventListener('click', function () {
+const water = document.querySelector('#water')
+water.addEventListener('click', function (){
   containerBorder.style.border = '5px double blue';
 });
 
-const earth = document.querySelector('#earth');
-earth.addEventListener('click', function () {
+const earth = document.querySelector('#earth')
+earth.addEventListener('click', function (){
   containerBorder.style.border = 'groove 6px green';
 });
