@@ -13,38 +13,47 @@
     </header>
     <div class= "meme-image-container">
         <form>
-            <!--Colocar texto-->
+            <!--INPUT texto-->
             <label for = "text-input">Texto:</label>
             <input type = "text" id="text-input" name="text-input" required="required" maxlength="60"><br><br>
-            <!--Carregar imagem-->
+            <!--INPUT imagem-->
             <label for = "foto-meme">Foto:</label>
             <input type = "file" id="foto-meme" name="foto-meme" onchange="loadFile(event)">
         </form>
+        <!--Resultado final-->
         <div class= "result-meme-generator">
             <div class = "image-containter">
+            <!--OUTPUT IMAGEM-->
                 <img id = "output" width="500" />
             </div>
-            <div class = "meme-text">
-                <p id ="text-output"></p>
+            <!--OUTPUT texto-->
+                <p id ="meme-text"></p>
+            <div class = "meme-text-conteiner"> 
             </div>
         </div>
-        <div>
-            <img src= "images/img1.jfif"id = "imagem 1" width="100" />
-            <img src= "images/img2.jpg"id = "imagem 2" width="100" height="80" />
-            <img src= "images/img3.gif"id = "imagem 3" width="100" />
+        <!--Imagens pre-defindas--> 
+        <div class = "pre-images"> 
+            <img src= "images/img1.jfif" id = "slot1" width="100"/>
+            <img src= "images/img2.jpg"  id = "slot2" width="100" height="82"/>
+            <img src= "images/img3.gif"  id = "slot3" width="100" height="82"/>
         </div>
     </div>
     <script>
-            // Carrega a imagem JS
+            // OUTPUT imagem JS (FUNCIONA !!)
             var loadFile= function(event) {
                 var image= document.getElementById('output');
                 image.src= URL.createObjectURL(event.target.files[0]);
             };
-            // Carrega o texto JS (IMCOMPLETO)
-            var inpuTeste= document.getElementById("text-input").innerText;
-            var x= document.getElementById("text-input").addEventListener("input", function() {
-                document.getElementById("text-output").innerHTML = inpuTeste;
+            // Carrega o texto JS (Funciona !!)
+            var inpuTeste= document.getElementById("text-input");
+            document.getElementById("text-input").addEventListener("input", function() {
+            document.getElementById("meme-text").innerHTML = inpuTeste.value;
             });
+            // Carrega imagens predefinidas(Não FUNCIONA AINDA + AFETA O UPLOAD DE IMAGENS)
+            //var loadpreimg= function preImages(event){
+            //   var x= document.getElementById("slot1").addEventListener("click", function() {
+            //   document.getElementById("output").innerHTML = document.getElementById(slot1);
+            //});
         </script>
 </body>
 </html> 
