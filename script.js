@@ -7,8 +7,9 @@ textImage.addEventListener('keyup', function(){
     document.getElementById('meme-text').innerText = text;
 });
 
-insertImage.addEventListener('change', function(event){
-    insertImage = insertImage.value;
-    imageMeme.src = URL.createObjectURL(event.target.files);
+
+insertImage.addEventListener('change', function(){
+    const image = URL.createObjectURL(insertImage.files[0]);
+    imageMeme.src = image;
 });
 
