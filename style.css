@@ -39,22 +39,19 @@ main {
 }
 
 .button:hover{
-  cursor: pointer;
   background-color: white;
   color: black;
+  cursor: pointer;
   transition: 0.2s;
 }
 
 .container {
-  border-style: solid;
-  border-color: black;
-  border-width: 1px;
+  background-color: white;
+  border: 1px solid black;
+  position: relative;
   height: 300px;
   width: 300px;
   text-align: center;
-  background-color: white;
-  position: relative;
-  
 }
 
 .background-image {
@@ -73,3 +70,55 @@ main {
   bottom: 0;
 }
 
+#fire {
+  background-color: red;
+  border: 2px solid grey;
+  border-radius: 10%;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  height: 40px;
+  width: 100px;
+}
+
+.box-fire {
+  border: 3px dashed red;
+}
+
+.box-water {
+  border: 5px double blue;
+}
+
+.box-earth {
+  border: 6px groove green;
+}
+
+#water {  
+  background-color: blue;
+  border: 2px solid gray;
+  border-radius: 10%;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  height: 40px;
+  width: 100px;
+}
+
+#earth {  
+  background-color: green;
+  border: 2px solid grey;
+  border-radius: 10%;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  height: 40px;
+  width: 100px;
+}
+
+.mudar-bordas {
+  text-align: center;
+}
+
+.imagens-auxiliares {
+  text-align: center;
+}
