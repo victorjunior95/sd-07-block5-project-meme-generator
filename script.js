@@ -9,12 +9,9 @@ function textUpdate(i) {
   txtout.innerText = i.target.value;
 }
 document.body.onload = function () {
-    txtin.addEventListener("input", textUpdate);
-  
-  };
+  txtin.addEventListener("input", textUpdate);
+};
 // Atualizar a imagem do meme
-imgin.addEventListener('change', function(event){
-    imgout.src = URL.createObjectURL(event.target.files[0]);
-})
-
-
+imgin.addEventListener("change", function (event) {
+  imgout.src = URL.createObjectURL(event.target.files[0]);
+});
