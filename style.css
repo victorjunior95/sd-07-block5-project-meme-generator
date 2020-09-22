@@ -5,12 +5,13 @@
     width: 500px;
     height: 500px;
     overflow: hidden;
+    
 }
 
 #meme-image{
     position: static;
-    width: 100%;
-    
+    width: 500px;
+    height: 500px;
 }
 
 #meme-text{
@@ -19,4 +20,17 @@
     color:white;
     font-size: 30px
     
+}
+
+#meme1{
+    width: 100px;
+}
+#meme2{
+    width: 100px;
+}
+#meme3{
+    width: 100px;
+}
+#meme4{
+    width: 100px;
 }

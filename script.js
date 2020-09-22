@@ -20,14 +20,14 @@ const meme4 = document.getElementById('meme4');
 
 
 meme1.addEventListener('click',function(){
-    imageMeme.src = meme1;
+    imageMeme.src = meme1.src;
 })
 meme2.addEventListener('click',function(){
-    imageMeme.src = meme2;
+    imageMeme.src = meme2.src;
 })
 meme3.addEventListener('click',function(){
-    imageMeme.src = meme3;
+    imageMeme.src = meme3.src;
 })
 meme4.addEventListener('click',function(){
-    imageMeme.src = meme4;
+    imageMeme.src = meme4.src;
 })
