@@ -13,3 +13,21 @@ insertImage.addEventListener('change', function(){
     imageMeme.src = image;
 });
 
+const meme1 = document.getElementById('meme1');
+const meme2 = document.getElementById('meme2');
+const meme3 = document.getElementById('meme3');
+const meme4 = document.getElementById('meme4');
+
+
+meme1.addEventListener('click',function(){
+    imageMeme.src = meme1;
+})
+meme2.addEventListener('click',function(){
+    imageMeme.src = meme2;
+})
+meme3.addEventListener('click',function(){
+    imageMeme.src = meme3;
+})
+meme4.addEventListener('click',function(){
+    imageMeme.src = meme4;
+})
