@@ -23,19 +23,11 @@ document.getElementById('fire').addEventListener('click', function(){
     document.getElementById('meme-image-container').style.border='3px dashed red';
 });
 
-function addEventos(){
-    document.getElementById('fire').addEventListener("click", vermelho);
-    document.getElementById('water').addEventListener("click", azul);
-    document.document.getElementById('earth').addEventListener("click", verde);
-}
-
-document.addEventListener("load", addEventos);
-
-const inputText = document.getElementById('text-input');
-const memeText = document.getElementById('meme-text');
-inputText.addEventListener("input", function(){
-    memeText.innerHTML = inputText.nodeValue;
+document.getElementById('text-input').addEventListener("keyup", function(){
+    document.getElementById('meme-text').innerText = document.getElementById('text-input').value;
 });
+
+
 
 // let memeAqui = document.querySelector('.meme')
 

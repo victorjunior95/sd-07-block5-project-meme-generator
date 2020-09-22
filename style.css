@@ -18,8 +18,9 @@
     text-shadow: 5px 5px 5px black;
     position: relative;
     font-size: 60px;
-    color: rgb(233, 17, 17);
+    color: white;
     bottom: 0;
+    margin-top: 300px;
 }
 
 #fire{
