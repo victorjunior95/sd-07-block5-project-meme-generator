@@ -50,7 +50,7 @@ footer {
   background-color: white;
   position: relative;
   margin: auto;
-  
+ 
 }
 .meme-image {
   
@@ -87,15 +87,15 @@ footer {
   
 }
 
-form {
+container {
   width: 70%;
   margin: auto;
 }
-form div {
+container div {
   margin: 20px 0px;
 }
-form input[type="text"],
-form input[type="file"] {
+container input[type="text"],
+container input[type="file"] {
   width: 90%;
   padding: 10px;
 }
