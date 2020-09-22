@@ -50,12 +50,15 @@ footer {
   background-color: white;
   position: relative;
   margin: auto;
+  text-align: center;
 }
 .meme-image {
   
-  height: 300px;
-  width: 300px;
+  height: 100%;
+  width: 100%;
   background-color: white;
+  align-items: center;
+  
   
   
 }
