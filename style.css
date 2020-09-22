@@ -1,6 +1,6 @@
 header {
   background-color: white;
-  box-shadow: 0 1px 30px rgba(69 ,69 ,69 ,0.15);
+  box-shadow: 0 1px 30px rgba(69 , 69 , 69 , 0.15);
   left: 0;
   position: fixed;
   top: 0;
@@ -8,7 +8,7 @@ header {
 }
 
 .page-title {
-  color: rgb(84 ,97 ,108);
+  color: rgb(84 , 97 , 108);
   font-family: Poppins, Arial Narrow Bold, Arial, Helvetica, sans-serif;
   font-size: 24px;
   font-style: normal;
@@ -18,7 +18,7 @@ header {
 
 .subtitle {
   align-items: center;
-  color: rgb(69 ,69 ,69);
+  color: rgb(69 , 69 , 69);
   font-family: Poppins, Arial Narrow Bold, Arial, Helvetica, sans-serif;
   font-size: 32px;
   font-style: normal;
@@ -33,7 +33,7 @@ header {
 .container-all {
   background: white;
   border-radius: 15px;
-  box-shadow: 0 1px 30px rgba(0 ,0 ,0 ,0.25);
+  box-shadow: 0 1px 30px rgba(0 , 0 , 0 , 0.25);
   height: 448px;
   margin: 0 180px 32px;
   width: 1006px;
@@ -49,7 +49,7 @@ header {
 
 .meme-title {
   align-items: center;
-  color: rgb(69 ,69 ,69);
+  color: rgb(69 , 69 , 69);
   font-family: Poppins, Arial Narrow Bold, Arial, Helvetica, sans-serif;
   font-size: 32px;
   font-style: normal;
@@ -88,9 +88,9 @@ header {
 }
 
 .division {
-  background: rgb(229 ,229 ,229);
+  background: rgb(229 , 229 , 229);
   border-radius: 5px;
-  box-shadow: 0 1px 30px rgba(0 ,0 ,0 ,0.25);
+  box-shadow: 0 1px 30px rgba(0 , 0 , 0 , 0.25);
   height: 380px;
   left: 553px;
   position: absolute;
@@ -114,10 +114,10 @@ header {
 .input-text {
   align-items: center;
   background: white;
-  border: 1px solid rgb(229 ,229 ,229);
+  border: 1px solid rgb(229 , 229 , 229);
   border-radius: 5px;
   box-sizing: border-box;
-  color: rgb(229 ,229 ,229);
+  color: rgb(229 , 229 , 229);
   font-family: Poppins, Arial Narrow Bold, Arial, Helvetica, sans-serif;
   font-size: 24px;
   font-style: normal;
@@ -134,7 +134,7 @@ header {
 
 footer {
   align-items: center;
-  color: rgba(0 ,0 ,0 ,0.39);
+  color: rgba(0 , 0 , 0 , 0.39);
   font-family: Poppins, Arial Narrow Bold, Arial, Helvetica, sans-serif;
   font-size: 12px;
   font-style: normal;
