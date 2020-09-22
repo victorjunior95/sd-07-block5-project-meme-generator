@@ -49,7 +49,7 @@ header h1 {
   top: 261px;
 }
 
-#meme h2 {
+.meme-title {
   font-family: Poppins, 'Arial Narrow Bold', sans-serif;
   font-style: normal;
   font-weight: bold;
