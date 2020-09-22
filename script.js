@@ -15,13 +15,10 @@ function textMeme() {
 }
 
 let foto = function (event) {
-  let memeInsert = document.getElementById('meme-image');
-  memeInsert.src = URL.createObjetctURL(event.target.files[0]);
-  memeInsert.onload = function () {
-    URL.revokeObjectURL(memeInsert.src);
-  };
+  let memeImage = document.getElementById('meme-image');
+  memeImage.src = window.URL.createObjetctURL(event.target.files[0]);
 };
 
-let memeImage = document.getElementById('meme-image');
-memeImage.addEventListener('change', foto);
+let memeInsert = document.getElementById('meme-insert');
+memeInsert.addEventListener('change', foto);
 
