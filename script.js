@@ -22,6 +22,6 @@ let imageMeme = function (event) {
   };
 };
 
-let memeImage = document.getElementById('image');
+let memeImage = document.getElementById('meme-image');
 memeImage.addEventListener('change', imageMeme);
 
