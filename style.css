@@ -1,5 +1,5 @@
 #meme-image-container {
-  /* background-color: rgb(255, 255, 255); */
+  background-color: white;
   /* border: 1px solid rgb(0, 0, 0); */
   border-color: black;
   border-style: solid;
@@ -18,7 +18,8 @@
 }
 
 #meme-image {
-  background-color: white;
-  border: 1px solid black;
+  width: 100%;
+  height: 100%;
 }
+
 
