@@ -1,6 +1,6 @@
 header {
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0 1px 30px rgba(69, 69, 69, 0.15);
+  background-color: white;
+  box-shadow: 0 1px 30px rgba(69 ,69 ,69 ,0.15);
   left: 0;
   position: fixed;
   top: 0;
@@ -8,34 +8,34 @@ header {
 }
 
 .page-title {
-  color: rgb(84, 97, 108);
-  font-family: Poppins, Arial Narrow Bold, sans-serif;
+  color: rgb(84 ,97 ,108);
+  font-family: Poppins, Arial Narrow Bold, Arial, Helvetica, sans-serif;
   font-size: 24px;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   margin: 20px 0 20px 46px;
 }
 
 .subtitle {
   align-items: center;
-  color: rgb(69, 69, 69);
-  font-family: Poppins, Arial Narrow Bold, sans-serif;
+  color: rgb(69 ,69 ,69);
+  font-family: Poppins, Arial Narrow Bold, Arial, Helvetica, sans-serif;
   font-size: 32px;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 48px;
-  margin: 96px 354px 32px 354px;
+  margin: 96px 354px 32px;
   padding-top: 16px;
   text-align: center;
   width: 657px;
 }
 
 .container-all {
-  background: rgb(255, 255, 255);
+  background: white;
   border-radius: 15px;
-  box-shadow: 0 1px 30px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 30px rgba(0 ,0 ,0 ,0.25);
   height: 448px;
-  margin: 0 180px 32px 180px;
+  margin: 0 180px 32px;
   width: 1006px;
 }
 
@@ -48,14 +48,14 @@ header {
 }
 
 .meme-title {
-  font-family: Poppins, 'Arial Narrow Bold', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 48px;
   align-items: center;
+  color: rgb(69 ,69 ,69);
+  font-family: Poppins, Arial Narrow Bold, Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
   text-align: center;
-  color: rgb(69, 69, 69);
 }
 
 .text-meme {
@@ -63,7 +63,7 @@ header {
   bottom: 0;
   box-sizing: border-box;
   color: white;
-  font-family: Poppins, 'Arial Narrow Bold', sans-serif;
+  font-family: Poppins, Arial Narrow Bold, Arial, Helvetica, sans-serif;
   font-size: 30px;
   height: auto;
   position: absolute;
@@ -88,12 +88,12 @@ header {
 }
 
 .division {
-  background: rgb(229, 229, 229);
+  background: rgb(229 ,229 ,229);
   border-radius: 5px;
-  box-shadow: 0 1px 30px rgba(0, 0, 0, 0.25);
-  position: absolute;
+  box-shadow: 0 1px 30px rgba(0 ,0 ,0 ,0.25);
   height: 380px;
   left: 553px;
+  position: absolute;
   top: 269px;
   width: 1px;
 }
@@ -114,11 +114,11 @@ header {
 .input-text {
   align-items: center;
   background: white;
-  border: 1px solid rgb(229, 229, 229);
+  border: 1px solid rgb(229 ,229 ,229);
   border-radius: 5px;
   box-sizing: border-box;
-  color: rgb(229, 229, 229);
-  font-family: Poppins, 'Arial Narrow Bold', sans-serif;
+  color: rgb(229 ,229 ,229);
+  font-family: Poppins, Arial Narrow Bold, Arial, Helvetica, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
@@ -134,11 +134,11 @@ header {
 
 footer {
   align-items: center;
-  color: rgba(0, 0, 0, 0.39);
-  font-family: Poppins, 'Arial Narrow Bold', sans-serif;
+  color: rgba(0 ,0 ,0 ,0.39);
+  font-family: Poppins, Arial Narrow Bold, Arial, Helvetica, sans-serif;
   font-size: 12px;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   height: 18px;
   left: 535px;
   line-height: 18px;
