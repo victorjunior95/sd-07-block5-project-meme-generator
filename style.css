@@ -18,7 +18,7 @@ header h1 {
   color: rgb(84, 97, 108);
 }
 
-#introduction-text h2 {
+.subtitle {
   align-items: center;
   color: rgb(69, 69, 69);
   font-family: Poppins, 'Arial Narrow Bold', sans-serif;
@@ -32,7 +32,7 @@ header h1 {
   width: 657px;
 }
 
-#container {
+.container-all {
   background: rgb(255, 255, 255);
   box-shadow: 0 1px 30px rgba(0, 0, 0, 0.25);
   height: 448px;
@@ -41,7 +41,7 @@ header h1 {
   width: 1006px;
 }
 
-#meme {
+.meme-container {
   position: absolute;
   width: 278px;
   height: 347px;
@@ -60,7 +60,7 @@ header h1 {
   color: rgb(69, 69, 69);
 }
 
-#meme-text {
+.text-meme {
   font-family: Poppins, 'Arial Narrow Bold', sans-serif;
   word-wrap: break-word;
   width: 278px;
@@ -75,7 +75,7 @@ header h1 {
   box-sizing: border-box;
 }
 
-#meme-image-container {
+.meme-box {
   width: 278px;
   height: 291px;
   left: 243px;
@@ -84,12 +84,12 @@ header h1 {
   background-color: white;
 }
 
-#meme-image {
+.image {
   width: 278px;
   height: 291px;
 }
 
-#division {
+.division {
   position: absolute;
   width: 1px;
   height: 380px;
@@ -100,7 +100,7 @@ header h1 {
   border-radius: 5px;
 }
 
-#input {
+.input-box {
   position: absolute;
   width: 574px;
   height: 240px;
@@ -108,13 +108,13 @@ header h1 {
   top: 309px;
 }
 
-#input img {
+.img-input {
   width: 100px;
   margin-left: 266px;
   margin-bottom: 24px;
 }
 
-#text-input {
+.input-text {
   width: 574px;
   height: 48px;
   left: 582px;
