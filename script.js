@@ -14,8 +14,8 @@ function textMeme() {
   });
 }
 
-let imageMeme = function (event) {
-  let memeInsert = document.getElementById('meme-insert');
+let foto = function (event) {
+  let memeInsert = document.getElementById('meme-image');
   memeInsert.src = URL.createObjetctURL(event.target.files[0]);
   memeInsert.onload = function () {
     URL.revokeObjectURL(memeInsert.src);
@@ -23,5 +23,5 @@ let imageMeme = function (event) {
 };
 
 let memeImage = document.getElementById('meme-image');
-memeImage.addEventListener('change', imageMeme);
+memeImage.addEventListener('change', foto);
 
