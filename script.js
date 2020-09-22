@@ -15,3 +15,11 @@ window.addEventListener('load', function(){
         img.src=URL.createObjectURL(this.files[0]);
     })
 }); 
+
+
+let button = document.getElementsByClassName('meme-insert');
+
+window.addEventListener('mouseenter',function(){
+document.getElementsByClassName('meme-insert').style.backgroundColor = "black";
+
+} )
