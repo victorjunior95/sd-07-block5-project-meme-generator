@@ -2,7 +2,7 @@
     width:350px;
     height:400px;
     background-color: white;
-    border: 5px solid red;
+    border: 1px solid black;
     position: relative;
     margin: auto;
 }
@@ -11,7 +11,7 @@
     width:350px;
     height:400px;
     background: white;
-    position: relative;
+    position: absolute;
 }
 
 #meme-text{
@@ -20,12 +20,6 @@
     font-size: 60px;
     color: rgb(233, 17, 17);
     bottom: 0;
-}
-
-#preview-image{
-    width: 350px;
-    height: 400px;
-    position: relative;
 }
 
 #fire{

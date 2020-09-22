@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meme Generator</title>
     <link rel="stylesheet" href="style.css">
-  
 </head>
 
 <body>
@@ -14,15 +12,21 @@
     <span>Texto:</span>
     <input type="text" maxlength="60" id="text-input"><br><br>
     <span>Foto:</span>
-    <input type="file" accept="image/*" id="meme-insert" onchange="aparecerImagem(event)">
-    <section id="meme-image-container">
+    <input type="file" accept="image/*" id="meme-insert" onchange="showImage(event)">
+    <div id="meme-image-container">
             <img id="meme-image" src="">
             <div id="meme-text"></div>
         </div>
-    </section>
-    <button id="fire">vermelho</button>
-    <button id="water">azul</button>
-    <button id="earth">verde</button>
+    </div>
+    <button id="fire">Fire</button>
+    <button id="water">Water</button>
+    <button id="earth">Earth</button>
 </body>
 <script src="script.js"></script>
+<script>
+    document.getElementById('fire').addEventListener("click", vermelho);
+    document.getElementById('water').addEventListener("click", azul);
+    document.getElementById('earth').addEventListener("click", verde);
+</script>
+
 </html>
