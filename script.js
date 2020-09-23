@@ -37,23 +37,23 @@ btEarth.addEventListener('click', function(){
 const btMeme1 = document.getElementById('meme-1');
 btMeme1.addEventListener('click', function() {
   const memeImg = document.getElementById('meme-image');
-  memeImg.src = 'imgs/meme-1.png';
+  memeImg.src = 'imgs/meme1.png';
 })
 
 const btMeme2 = document.getElementById('meme-2');
 btMeme2.addEventListener('click', function() {
   const memeImg = document.getElementById('meme-image');
-  memeImg.src = 'imgs/meme-2.png';
+  memeImg.src = 'imgs/meme2.png';
 })
 
 const btMeme3 = document.getElementById('meme-3');
 btMeme3.addEventListener('click', function() {
   const memeImg = document.getElementById('meme-image');
-  memeImg.src = 'imgs/meme-3.png';
+  memeImg.src = 'imgs/meme3.png';
 })
 
 const btMeme4 = document.getElementById('meme-4');
 btMeme4.addEventListener('click', function() {
   const memeImg = document.getElementById('meme-image');
-  memeImg.src = 'imgs/meme-4.png';
+  memeImg.src = 'imgs/meme4.png';
 })
