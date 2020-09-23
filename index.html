@@ -7,11 +7,17 @@
     <link rel="stylesheet" href="style.css" type="text/css">
     <script type="text/javascript" src="script.js"></script>
     <style> 
-    .pre-images {
-        float: left;
-        width: 25%;
-        padding: 10px;
-        display: flex;
+    body{
+        background-color: darkred;
+    }
+    form{
+        color: white;
+    }
+    h1{
+        color: white;
+    }
+    .pre-images{
+        display: inline-flex;
     }
     .pre-images img {
         opacity: 0.8;
@@ -19,6 +25,11 @@
     }
     .pre-images img:hover {
         opacity: 1;
+    }
+    .result-meme-generator{
+        width: 500px;
+        height: 500px;
+        background-color:#f44336;
     }
     .row:after {
         content: "";
@@ -28,11 +39,19 @@
     .meme-image { 
         position: relative;
         display: none;
+        width: 100%
     }
     #meme-text{
+        position: absolute; 
+        top: 500px; 
+        bottom: 20px;
+        left: 20px;
+        right: 100px; 
+        width: 100%; 
+        text-align: auto;
         font-size: 30px;
         text-shadow: #000 5px 5px 5px;
-        color: white;
+        color: rgb(255, 255, 255);
     }
     </style>
 </head>
@@ -51,22 +70,24 @@
         </form>
         <!--Resultado final-->
         <div class= "result-meme-generator">
-            <div class = "image-containter">
-                <span onclick="this.parentElement.style.display='none'"class="closebtn"></span>
             <!--OUTPUT IMAGEM-->
+            <div class = "meme-image-container">
+                <span onclick="this.parentElement.style.display='none'"class="closebtn"></span>
+            
                 <img id = "meme-image" width="500" />
             </div>
             <!--OUTPUT texto-->
             <div class = "meme-text-conteiner">   
-                <p id ="meme-text">teste</p>
+                <p id ="meme-text"></p>
             </div>
         </div>
         <!--Imagens pre-defindas--> 
         <div class ="pre-images"> 
-            <div class= "preimages-conteiner"><img id="meme-1" src="imgs/meme1.PNG" width="100" onclick="testeFunction(this);"/></div>
-            <div class= "preimages-conteiner"><img id="meme-2" src="imgs/meme2.png" width="100" height="82" onclick="testeFunction(this);"/></div>
-            <div class= "preimages-conteiner"><img id="meme-3" src="imgs/meme3.png" width="100" height="82" onclick="testeFunction(this);"/></div>
-            <div class= "preimages-conteiner"><img id="meme-4" src="imgs/meme4.png" width="100" height="82" onclick="testeFunction(this);"/></div>
+            <div class= "preimages-conteiner"><img id="meme-1" src="imgs/meme1.PNG" width="100" height="90" onclick="testeFunction(this);"/></div>
+            <div class= "preimages-conteiner"><img id="meme-2" src="imgs/meme2.png" width="100" height="90" onclick="testeFunction(this);"/></div>
+            <div class= "preimages-conteiner"><img id="meme-3" src="imgs/meme3.png" width="100" height="90" onclick="testeFunction(this);"/></div>
+            <div class= "preimages-conteiner"><img id="meme-4" src="imgs/meme4.png" width="100" height="90" onclick="testeFunction(this);"/></div>
+        </div>
     </div> 
             
     <script>
