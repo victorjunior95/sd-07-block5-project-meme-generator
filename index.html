@@ -26,7 +26,7 @@
     .pre-images img:hover {
         opacity: 1;
     }
-    .result-meme-generator{
+    .meme-images{
         width: 500px;
         height: 500px;
         background-color:#f44336;
@@ -69,9 +69,9 @@
             <input type = "file" id="meme-insert" name="meme-insert" onchange="loadFile(event)">
         </form>
         <!--Resultado final-->
-        <div class= "result-meme-generator">
+        <div class= "meme-image-container">
             <!--OUTPUT IMAGEM-->
-            <div class = "meme-image-container">
+            <div class = "meme-images">
                 <span onclick="this.parentElement.style.display='none'"class="closebtn"></span>
             
                 <img id = "meme-image" width="500" />
