@@ -21,3 +21,32 @@
     font-size: 30px;
     color: white;
 }
+
+.btn {
+  margin: 5px 10px 10px 30px;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px 0;
+  color: white;
+}
+
+.btn:hover {
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: .5rem;
+}
+
+#fire {
+  background-color: red;
+  border: 3px dashed red;
+}
+
+#water {
+  background-color: blue;
+  border: 5px blue double;
+}
+
+#earth {
+  background-color: green;
+  border: 6px groove green;
+}
