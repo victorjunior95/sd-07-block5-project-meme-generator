@@ -20,6 +20,7 @@
   justify-content: center;
   margin: auto;
   width: 700px;
+  position: relative;
 }
 
 .meme-image {
@@ -41,7 +42,7 @@
   position: absolute;
   text-align: center;
   text-shadow: 5px 5px 5px black;
-  top: 780px;
+  top: 420px;
   width: 700px;
   word-wrap: break-word;
 }
@@ -79,7 +80,6 @@ section {
   height: 800px;
   margin: auto;
   padding: 2%;
-  position: relative;
   text-align: center;
   width: 900px;
 }
