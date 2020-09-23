@@ -15,7 +15,7 @@ const buttonChoice = document.getElementById("meme-insert");
 buttonChoice.addEventListener("change", function(event) {
   loadFile(event);
 });
-
+////////////////////////////////////////////////////////////
 const btFire = document.getElementById('fire');
 
 btFire.addEventListener('click', function (){
@@ -33,3 +33,28 @@ const btEarth = document.getElementById('earth');
 btEarth.addEventListener('click', function(){
   document.getElementById('meme-image-container').className = 'container box-earth';
 })
+///////////////////////////////////////////////////////////
+const btMeme1 = document.getElementById('meme-1');
+btMeme1.addEventListener('click', function() {
+  const memeImg = document.getElementById('meme-image');
+  memeImg.src = './imgs/meme-1.png';
+})
+
+const btMeme2 = document.getElementById('meme-2');
+btMeme2.addEventListener('click', function() {
+  const memeImg = document.getElementById('meme-image');
+  memeImg.src = './imgs/meme-2.png';
+})
+
+const btMeme3 = document.getElementById('meme-3');
+btMeme3.addEventListener('click', function() {
+  const memeImg = document.getElementById('meme-image');
+  memeImg.src = './imgs/meme-3.png';
+})
+
+const btMeme4 = document.getElementById('meme-4');
+btMeme4.addEventListener('click', function() {
+  const memeImg = document.getElementById('meme-image');
+  memeImg.src = './imgs/meme-4.png';
+})
+
