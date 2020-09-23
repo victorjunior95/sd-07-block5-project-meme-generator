@@ -1,17 +1,15 @@
 body {
   background-color: thistle;
-  margin: 0%;
+  margin: 0;
 }
+
 div {
   display: block;
 }
 
 .meme-image-container {
-  /* display: inline-block; */
   background-color: white;
-  border: black;
-  border-style: solid;
-  border-width: 1px; /* moldura */
+  border: 1px solid black;
   height: 300px;
   position: relative;
   text-align: center;
@@ -25,14 +23,15 @@ div {
 
 .meme-text {
   bottom: 8px;
-  color: white;
   box-sizing: border-box;
+  color: white;
   font-family: Impact, Haettenschweiler, Arial Narrow Bold , sans-serif;
   font-size: 30px;
   object-position: center;
   position: absolute;
   text-shadow: black 5px 5px 5px;
 }
+
 .textBox {
   display: inline-block;
   text-align: center;

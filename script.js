@@ -18,13 +18,13 @@ window.onload = function () {
 const container = document.getElementById('meme-image-container');
 const fireButton = document.getElementById('fire');
 fireButton.addEventListener('click', function () {
-  container.style.border = '3px dashed red';
+  container.style.border = '3px dashed rgb(255 , 0 , 0)';
 });
 const waterButton = document.getElementById('water');
 waterButton.addEventListener('click', function () {
-  container.style.border = '5px double blue';
+  container.style.border = '5px double rgb(0 , 0 , 255)';
 });
 const earthButton = document.getElementById('earth');
 earthButton.addEventListener('click', function () {
-  container.style.border = '6px groove green';
+  container.style.border = '6px groove rgb(0 , 128 , 0)';
 });
