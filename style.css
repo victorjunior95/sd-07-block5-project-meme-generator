@@ -1,6 +1,6 @@
 header {
   background-color: white;
-  box-shadow: 0 1px 30px rgba(69 , 69 , 69 , 0.15);
+  box-shadow: 0 1px 30px rgba(69, 69, 69, 0.15);
   left: 0;
   position: fixed;
   top: 0;
@@ -8,7 +8,7 @@ header {
 }
 
 .page-title {
-  color: rgb(84 , 97 , 108);
+  color: rgb(84, 97, 108);
   font-family: Poppins, Arial Narrow Bold, Arial, Helvetica, sans-serif;
   font-size: 24px;
   font-style: normal;
@@ -18,7 +18,7 @@ header {
 
 .subtitle {
   align-items: center;
-  color: rgb(69 , 69 , 69);
+  color: rgb(69, 69, 69);
   font-family: Poppins, Arial Narrow Bold, Arial, Helvetica, sans-serif;
   font-size: 32px;
   font-style: normal;
@@ -33,7 +33,7 @@ header {
 .container-all {
   background: white;
   border-radius: 15px;
-  box-shadow: 0 1px 30px rgba(0 , 0 , 0 , 0.25);
+  box-shadow: 0 1px 30px rgba(0, 0, 0, 0.25);
   height: 448px;
   margin: 0 180px 32px;
   width: 1006px;
@@ -41,20 +41,20 @@ header {
 
 .meme-container {
   height: 347px;
-  left: 243px;
-  position: absolute;
-  top: 261px;
+  margin: 8px 48px 8px 49px;
   width: 278px;
 }
 
 .meme-title {
   align-items: center;
-  color: rgb(69 , 69 , 69);
+  color: rgb(69, 69, 69);
   font-family: Poppins, Arial Narrow Bold, Arial, Helvetica, sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
   line-height: 48px;
+  margin: auto;
+  margin-bottom: 8px;
   text-align: center;
 }
 
@@ -87,10 +87,60 @@ header {
   width: 278px;
 }
 
-.division {
-  background: rgb(229 , 229 , 229);
+.button-container {
+  height: 64px;
+  width: 280px;
+}
+
+.buttons-title {
+  color: rgb(213, 213, 213);
+  font-family: Poppins, Arial Narrow Bold, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  height: 24px;
+  line-height: 24px;
+  margin: 8px 80px 8px 81px;
+  width: 108px;
+}
+
+.buttons {
+  height: 30px;
+  margin: 0;
+  width: 100%;
+}
+
+.button {
+  border: none;
   border-radius: 5px;
-  box-shadow: 0 1px 30px rgba(0 , 0 , 0 , 0.25);
+  color: white;
+  font-family: Poppins, Arial Narrow Bold, Arial, Helvetica, sans-serif;
+  height: 30px;
+  margin: 0 10px;
+  padding: 0 8px;
+  width: 68.36px;
+}
+
+.button:focus{
+  outline-color: rgb(134, 146, 255);
+}
+
+.red{
+  background: red;
+}
+
+.blue{
+  background: blue;
+}
+
+.brown{
+  background: brown;
+}
+
+.division {
+  background: rgb(229, 229, 229);
+  border-radius: 5px;
+  box-shadow: 0 1px 30px rgba(0, 0, 0, 0.25);
   height: 380px;
   left: 553px;
   position: absolute;
@@ -114,10 +164,10 @@ header {
 .input-text {
   align-items: center;
   background: white;
-  border: 1px solid rgb(229 , 229 , 229);
+  border: 1px solid rgb(229, 229, 229);
   border-radius: 5px;
   box-sizing: border-box;
-  color: rgb(229 , 229 , 229);
+  color: rgb(229, 229, 229);
   font-family: Poppins, Arial Narrow Bold, Arial, Helvetica, sans-serif;
   font-size: 24px;
   font-style: normal;
@@ -134,7 +184,7 @@ header {
 
 footer {
   align-items: center;
-  color: rgba(0 , 0 , 0 , 0.39);
+  color: rgba(0, 0, 0, 0.39);
   font-family: Poppins, Arial Narrow Bold, Arial, Helvetica, sans-serif;
   font-size: 12px;
   font-style: normal;
