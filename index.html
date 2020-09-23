@@ -6,7 +6,6 @@
     <title>Meme Generator</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <header>
@@ -19,12 +18,18 @@
             <input type="file" id="meme-insert" accept="image/*" onchange="loadImage(event)"><br><br>
         </form>
     </div>
-    <div id="meme-image-container">
+    <div id="meme-image-container" class="meme-image-container">
         <p id="meme-text" class="meme-text">
         </p>
         <div>
             <img id="meme-image" class="meme-image" src="output" alt="Meme Image">
         </div>
     </div>
+    <div class="buttons">
+        <input type="button" id="fire" class="fire" value="Borda 1">
+        <input type="button" id="water" class="water" value="Borda 2">
+        <input type="button" id="earth" class="earth" value="Borda 3">
+    </div>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
