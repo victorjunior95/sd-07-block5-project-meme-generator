@@ -79,7 +79,7 @@ section {
   height: 800px;
   margin: auto;
   padding: 2%;
-  position: flex;
+  position: relative;
   text-align: center;
   width: 900px;
 }
