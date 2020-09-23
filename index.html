@@ -7,6 +7,29 @@
     <link rel="stylesheet" href="style.css" type="text/css">
     <script type="text/javascript" src="script.js"></script>
     <style> 
+    .pre-images {
+        float: left;
+        width: 25%;
+        padding: 10px;
+        display: flex;
+        
+    }
+    .pre-images img {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    .pre-images img:hover {
+        opacity: 1;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .meme-image { 
+        position: relative;
+        display: none;
+    }
     </style>
 </head>
 <body>
@@ -36,10 +59,10 @@
         </div>
         <!--Imagens pre-defindas--> 
         <div class ="pre-images"> 
-            <div class= "preimages-conteiner"><img src="images/img1.jfif" width="100" onclick="testeFunction(this);"/></div>
-            <div class= "preimages-conteiner"><img src="images/img2.jpg" width="100" height="82" onclick="testeFunction(this);"/></div>
-            <div class= "preimages-conteiner"><img src="images/img3.gif" width="100" height="82" onclick="testeFunction(this);"/></div>
-            <div class= "preimages-conteiner"><img src="" id="" width="" height="" onclick="testeFunction(this);"/></div>
+            <div class= "preimages-conteiner"><img id="meme-1" src="imgs/meme1.PNG" width="100" onclick="testeFunction(this);"/></div>
+            <div class= "preimages-conteiner"><img id="meme-2" src="imgs/meme2.png" width="100" height="82" onclick="testeFunction(this);"/></div>
+            <div class= "preimages-conteiner"><img id="meme-3" src="imgs/meme3.png" width="100" height="82" onclick="testeFunction(this);"/></div>
+            <div class= "preimages-conteiner"><img id="meme-4" src="imgs/meme4.png" width="100" height="82" onclick="testeFunction(this);"/></div>
     </div> 
             
     <script>
@@ -48,20 +71,16 @@
             var image= document.getElementById('meme-image');
             image.src= URL.createObjectURL(event.target.files[0]);
         };
-        // Carrega o texto JS (Funciona !!)
+        // Carrega o texto JS (FUNCIONA !!)
         var inpuTeste= document.getElementById("text-input");
             document.getElementById("text-input").addEventListener("input", function() {
             document.getElementById("meme-text").innerHTML = inpuTeste.value;
         });
-        // Carrega imagens predefinidas(Não FUNCIONA AINDA + AFETA O UPLOAD DE IMAGENS)
+        // Carrega imagens predefinidas(FUNCIONA !!)
         function testeFunction(imgs){
-            // Get the expanded image
             var expandImg = document.getElementById("meme-image");
-            // Use the same src in the expanded image as the image being clicked on from the grid
             expandImg.src = imgs.src;
         };
-            
-        //});
     </script>
 </body>
 </html> 
