@@ -14,8 +14,8 @@
 }
 
 .meme-image-container {
-  background-color: rgb(255 , 255 , 255);
-  border: 1px solid rgb(0 , 0 , 0);
+  background-color: white;
+  border: 1px solid black;
   height: 525px;
   justify-content: center;
   margin: auto;
@@ -31,17 +31,16 @@
 .meme-text {
   align-items: center;
   box-sizing: border-box;
-  color: rgb(255 , 255 , 255);
+  color: white;
   display: flex;
   font-size: 30px;
-  font: 30px Arial;
   height: 12%;
   justify-content: center;
   margin: 10px auto;
   padding: 0 25px;
   position: absolute;
   text-align: center;
-  text-shadow: 5px 5px 5px rgb(0 , 0 , 0);
+  text-shadow: 5px 5px 5px black;
   top: 780px;
   width: 700px;
   word-wrap: break-word;
@@ -53,7 +52,7 @@
 
 body {
   background: rgb(0 , 0 , 0);
-  font: normal 13pt Verdana;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   height: 768;
   line-height: 1.5;
   text-align: center;
@@ -73,10 +72,10 @@ header {
 }
 
 section {
-  background: rgb(255 , 255 , 255);
+  background: white;
   border-radius: 10px;
   box-shadow: 3px 3px 10px rgba(146 , 139 , 139 , 0.384);
-  color: rgb(0 , 0 , 0);
+  color: black;
   height: 800px;
   margin: auto;
   padding: 2%;
