@@ -43,9 +43,9 @@ footer {
 
   padding: 10px;
 }
-.container {
+.meme-image-container {
   height: 300px;
-  padding: 10px;
+  
   width: 300px;
   background-color: white;
   position: relative;
@@ -94,9 +94,9 @@ container {
 container div {
   margin: 20px 0px;
 }
-container input[type="text"],
-container input[type="file"] {
-  width: 90%;
+div input[type="text"],
+div input[type="file"] {
+  width: 80%;
   padding: 10px;
 }
 

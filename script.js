@@ -23,16 +23,16 @@
       let mudaBorda = '';
       switch (event.target.id) {
         case 'fire':
-          mudaBorda = 'container fire-border';
+          mudaBorda = 'meme-image-container fire-border';
           break;
         case 'water':
-          mudaBorda = 'container water-border';
+          mudaBorda = 'meme-image-container water-border';
           break;
         case 'earth':
-          mudaBorda = 'container earth-border';
+          mudaBorda = 'meme-image-container earth-border';
           break;
         default:
-          mudaBorda = 'container default-border';
+          mudaBorda = 'meme-image-container default-border';
       }
       document.getElementById('meme-image-container').className = mudaBorda;
     }
