@@ -3,30 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Meme Generator</title>
     <link rel="shortcut icon" href="sunglasses.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>MEME GENERATOR</h1>
         <section class="insert">
-            <p>Texto:</p>
+            <label for="text-input">Texto</label>
             <input type="text" id="text-input" maxlength="60" placeholder="Digite o texto do seu meme">
-            <div id="meme-insert">
-                <p>Foto:</p>
+            <div id="image-input">
+                <p>Foto</p>
+                <input type="file" id="meme-insert" name="meme-insert" >
             </div>
         </section>
     </header>
 
-    <main>
-        <section id="meme-image-container"> 
-            <p id="meme-text"></p>
-            <div id="meme-image"></div>
-        </section>
+    <main id="meme-image-container">
+        <img src="" alt="Image View" id="meme-image" class="meme-image"></img>
+        <p id="meme-text" class="meme-text"></p>
     </main>
-
-    <footer class="meme-created"></footer>
 
     <script src="script.js"></script>
 </body>

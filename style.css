@@ -1,20 +1,27 @@
 body {
     margin: 0;
-    background-color: red;
 }
 
-#meme-image-container {
-    background-color: rgb(255, 255, 255);
-    border: 1px solid black;
-    margin-top: 10px;
-    width: 40%;
-    height: 300px;
+#image-input p {
+    display: inline-block;
 }
 
-#meme-text {
+.meme-text {
     color: rgb(255, 255, 255);
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     font-size: 30px;
+    display: inline-block;
 }
 
+#meme-image-container {
+    max-width: 500px;
+    min-height: 300px;
+    border: 1px solid black;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+}
 
+.meme-image {
+    display: none;
+    width: 100%;
+}
