@@ -12,7 +12,6 @@
         width: 25%;
         padding: 10px;
         display: flex;
-        
     }
     .pre-images img {
         opacity: 0.8;
@@ -30,6 +29,11 @@
         position: relative;
         display: none;
     }
+    #meme-text{
+        font-size: 30px;
+        text-shadow: #000 5px 5px 5px;
+        color: white;
+    }
     </style>
 </head>
 <body>
@@ -42,8 +46,8 @@
             <label for = "text-input">Texto:</label>
             <input type = "text" id="text-input" name="text-input" required="required" maxlength="60"><br><br>
             <!--INPUT imagem-->
-            <label for = "foto-meme">Foto:</label>
-            <input type = "file" id="foto-meme" name="foto-meme" onchange="loadFile(event)">
+            <label for = "meme-insert">Foto:</label>
+            <input type = "file" id="meme-insert" name="meme-insert" onchange="loadFile(event)">
         </form>
         <!--Resultado final-->
         <div class= "result-meme-generator">
@@ -53,8 +57,8 @@
                 <img id = "meme-image" width="500" />
             </div>
             <!--OUTPUT texto-->
-                <p id ="meme-text"></p>
-            <div class = "meme-text-conteiner"> 
+            <div class = "meme-text-conteiner">   
+                <p id ="meme-text">teste</p>
             </div>
         </div>
         <!--Imagens pre-defindas--> 
