@@ -1,4 +1,4 @@
-body > * {
+body > div {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -11,8 +11,8 @@ body > * {
 
 .text-input {
   font-size: 1rem;
-  width: 50vw;
   margin: 15px 10px;
+  width: 50vw;
 }
 
 .file-upload {
@@ -22,53 +22,55 @@ body > * {
 .text-input-container {
   box-sizing: inherit;
 }
+
 .meme-image-container {
-  background-color: rgb(255, 255, 255);
-  border: 1px solid rgb(0, 0, 0);
-  height: calc(100vh - 170px);
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  height: calc(100vh - 170px);
+  justify-content: center;
   margin: 0;
+  overflow: hidden;
   padding: 0;
   position: relative;
 }
 
 .meme-image {
+  background-image: url('');
+  background-position: center, center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100%;
   width: 100%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-image: url("");
 }
 
 .meme-text {
-  position: absolute;
-  display: flex;
-  justify-content: center;
   align-items: flex-end;
-  width: 50vw;
-  height: 50vh;
-  font-size: 30px;
-  text-shadow: 5px 5px 5px rgb(0, 0, 0);
   color: white;
-  clear: both;
+  display: flex;
+  font-size: 30px;
+  height: 50vh;
+  justify-content: center;
+  position: absolute;
+  text-shadow: 5px, 5px, 5px, black;
+  width: 50vw;
 }
 
 .border-options {
-  margin: 20px;
+  display: inline-block;
 }
 
 .button-border {
-  text-shadow: 4px 3px 3px rgb(0, 0, 0);
+  border: 3px ridge gold;
+  display: inline-block;
+  font-size: 2rem;
   font-weight: 600;
   margin-right: 20px;
-  border: 3px ridge gold;
-  width: 150px;
   padding: 20px 15px;
+  text-shadow: 4px, 3px, 3px, black;
   transition-duration: 0.2s;
+  width: 150px;
 }
 
 .button-border:hover {
@@ -76,19 +78,37 @@ body > * {
 }
 
 .button-border:active {
-  background-color: rgb(189, 192, 40);
-  box-shadow: 0 5px rgb(0, 0, 0)s;
+  background-color: rgb(189 , 192 , 40);
+  box-shadow: 1px 5px 5px gold;
   transform: translateY(4px);
 }
 
 .fire {
-  background-color: rgb(255, 0, 0);
+  background-color: red;
 }
 
 .water {
-  background-color: rgb(0, 0, 255);
+  background-color: blue;
 }
 
 .earth {
-  background-color: rgb(0, 128, 0);
+  background-color: green;
+}
+
+.meme-item {
+  align-self: center;
+  border: 4px ridge rgb(55 , 55 , 55);
+  height: 100px;
+  width: 180px;
+}
+
+.meme-samples {
+  display: inline-block;
+}
+
+.options {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
 }
