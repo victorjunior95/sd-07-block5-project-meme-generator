@@ -50,10 +50,17 @@ buttonFire.addEventListener('click', turnBorderFire);
 
 buttonEarth.addEventListener('click', turnBorderEarth);
 
-memeItem1.addEventListener('click', function () { changeImage(memeItem1) });
+memeItem1.addEventListener('click', function () {
+  changeImage(memeItem1);
+});
+memeItem2.addEventListener('click', function () {
+  changeImage(memeItem2);
+});
 
-memeItem2.addEventListener('click', function () { changeImage(memeItem2) });
+memeItem3.addEventListener('click', function () {
+  changeImage(memeItem3);
+});
 
-memeItem3.addEventListener('click', function () { changeImage(memeItem3) });
-
-memeItem4.addEventListener('click', function () { changeImage(memeItem4) });
+memeItem4.addEventListener('click', function () {
+  changeImage(memeItem4);
+});
