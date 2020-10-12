@@ -1,19 +1,21 @@
+/* Inserir texto */
 const textInput = document.querySelector('#text-input');
 const memeText = document.querySelector('#meme-text');
 function inOut() {
   memeText.innerHTML = textInput.value;
 }
-textInput.addEventListener('keyup', inOut);
+textInput.addEventListener('keyup', inOut); // método keyup (tempo real)
 
 
-// https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded/27165977#27165977
+/* Upload de imagem */
 const output = document.getElementById('meme-image');
 function loadFile(event) {
   output.src = URL.createObjectURL(event.target.files[0]);
 }
-output.addEventListener('change', loadFile);
+output.addEventListener('change', loadFile); // change ideal para mudanças explicitas do usuário
 
 
+/* Botões de borda */
 const fireButton = document.getElementById('fire');
 fireButton.addEventListener('click', function () {
   document.getElementById('meme-image-container').style.border = '3px dashed red';
@@ -30,6 +32,7 @@ earthButton.addEventListener('click', function () {
 });
 
 
+/* Imagens prontas */
 const meme1 = document.getElementById('meme-1');
 meme1.addEventListener('click', function () {
   document.getElementById('meme-image').src = './imgs/meme1.png';
