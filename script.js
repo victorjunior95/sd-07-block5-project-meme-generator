@@ -14,19 +14,19 @@ memeInsert.addEventListener('input', function () {
   img.src = URL.createObjectURL(this.files[0]);
 });
 
-//botões
+// botões
 const button1 = document.getElementById('fire');
-button1.addEventListener('click', function() {
+button1.addEventListener('click', function () {
   document.getElementById('meme-image-container').style.border = '3px dashed red';
 });
 
 const button2 = document.getElementById('water');
-button2.addEventListener('click', function() {
+button2.addEventListener('click', function () {
   document.getElementById('meme-image-container').style.border = '5px double blue';
 });
 
 const button3 = document.getElementById('earth');
-button3.addEventListener('click', function() {
+button3.addEventListener('click', function () {
   document.getElementById('meme-image-container').style.border = '6px groove green';
 });
 
