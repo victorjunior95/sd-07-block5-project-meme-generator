@@ -11,11 +11,17 @@
     color: rgb(255,255,255);
     font-family: Arial, Helvetica, sans-serif;
 }   
-/*#texto{
-
-
-}*/
+#meme-text{
+    position: absolute;
+    position: absolute;
+    top: 145px;
+    left: 20px;
+    font-size: 28px;
+    color: black;
+    text-shadow: 0px 0px 5px black;
     
+}
+        
 /*#meme-image{
     position: relative;
     background-color:green;
@@ -25,17 +31,19 @@
    
  
 #text-input{
-
+    
     color: aquamarine;
 
 }
 
 #meme-image-container{
 
+    display: inline-block;
+    position: relative;
     background-color: rgb(255, 255, 255);
     border:1px solid rgb(000,000,000);
     width: 70%;
-   height: 400px;
+    height: 400px;
        
 }
 
