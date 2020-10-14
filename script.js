@@ -3,10 +3,10 @@
 let inp = document.getElementById('text-input');
 
   inp.oninput = function () {
-  let textop = document.getElementById('texto');
+  let textop = document.getElementById('meme-text');
   let textof= inp.value
-   textop.innerText = textof;
-}
+  textop.innerText = textof;
+ }
 
 window.onload = function imageOption() {
 
