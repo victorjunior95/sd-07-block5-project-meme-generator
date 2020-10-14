@@ -13,7 +13,6 @@
 }   
 #meme-text{
     position: absolute;
-    position: absolute;
     top: 145px;
     left: 20px;
     font-size: 30px;
@@ -40,8 +39,8 @@
 
     display: inline-block;
     position: relative;
-    width: 400px;
-    height: 400px;
+    width: 80%;
+    height: 80%;
     border: 1px;
     border-color: black;
     border-style: solid;
