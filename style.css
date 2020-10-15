@@ -39,14 +39,14 @@
 
     display: inline-block;
     position: relative;
-    width: 80%;
-    height: 80%;
+    width: 500px;
+    height: 500px;
     border: 1px;
     border-color: black;
     border-style: solid;
     background-color: white;
-    margin: auto;
-    clear: both;
+    /*margin: auto;
+    clear: both;*/
     overflow: hidden
        
 }
