@@ -1,15 +1,9 @@
-    
-
-let inp = document.getElementById('text-input');
-
-  inp.oninput = function () {
-  let textop = document.getElementById('meme-text');
-  let textof= inp.value
-  textop.innerText = textof;
- }
-
-window.onload = function imageOption() {
-
-    document.getElementById("meme-image").src = "imgs/crazy.jpeg";
-    
-}
+const textImput = document.getElementById('text-input');
+const memeText = document.createElement("p");
+const container = document.querySelector(".container");
+textImput.addEventListener("keyup", function(){
+  memeText.innerText = textImput.value;
+  memeText.className = 'meme-text';
+  memeText.id = 'meme-text';
+  container.appendChild(memeText);
+});

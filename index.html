@@ -13,20 +13,24 @@
         <h1 id="title"> Project Meme generator</h1>
     </header>
 <section>
-    <label for="fname">Digite seu texto:</label>
-    <input type="text" id="text-input" maxlength="60"> 
-</section>
+    <div>
+        <label for="fname">Digite seu texto:</label>
+        <input type="text" id="text-input" maxlength="60">
+    </div>
+    <div>
+        <label >Imagem:</label>
+        <input type="file" id="meme-insert">
+    </div>
+    <div class="container" id="meme-image-container"> </div>
+  </section>
+  <section>
+        <h1>Estilo de bordas</h1>
+        <button id="fire" class="fogo">Fogo</button>
+        <button id="water" class="agua">Água</button>
+        <button id="earth" class="terra">Terra</button>
 
-<section>
-     <input type="file" id="meme-insert" /> 
-</section>
-    
+  </section>
 
-<section id="meme-image-container">
-   <img src="" alt="foto do meme" id="meme-image"></img>
-   <p id="meme-text" class="textofoto"></p>  
-</section>
-     
    
 <script src="script.js"> </script>
 
