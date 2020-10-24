@@ -33,4 +33,37 @@ earth.addEventListener("click", function(){
   container.style.border = "6px groove green";
 });
 
+const meme1 = document.querySelector("#meme-1");
+meme1.addEventListener("click", function(){
+  img.src = meme1.src;
+  img.className = "meme-image";
+  img.id = "meme-image";
+  container.appendChild(img);
 
+});
+
+const meme2 = document.querySelector("#meme-2");
+meme2.addEventListener("click", function(){
+  img.src = meme2.src;
+  img.className = "meme-image";
+  img.id = "meme-image";
+  container.appendChild(img);
+
+});
+const meme3 = document.querySelector("#meme-3");
+meme3.addEventListener("click", function(){
+  img.src = meme3.src;
+  img.className = "meme-image";
+  img.id = "meme-image";
+  container.appendChild(img);
+
+});
+
+const meme4 = document.querySelector("#meme-4");
+meme4.addEventListener("click", function(){
+  img.src = meme4.src;
+  img.className = "meme-image";
+  img.id = "meme-image";
+  container.appendChild(img);
+
+});
